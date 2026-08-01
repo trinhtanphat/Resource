@@ -5,22 +5,14 @@
 - Coordination baseline: `7ca3ac34dd14022318ebf4785f419d11545dc038`
 - Track A dispatcher source: `trinhtanphat/Gunny@b9505d1398fbae6cbf1ad11c77d8d0c499f90124`
 - Sessions: `R038` through `R048`
-- Program revision: `1`
+- Program revision: `2`
 - GitHub Actions: forbidden
 
 ## Purpose
 
 This program divides Resource-side Track B into eleven non-overlapping sessions. Each session packages one runtime-owner family into deterministic browser-native outputs and a consumer contract.
 
-This repository does **not** contain the Gunny application runtime. Therefore a Resource-side Track B session may publish:
-
-- browser-native assets;
-- exact source and provenance metadata;
-- geometry, state, z-order, timing and lifecycle contracts;
-- deterministic import/check scripts;
-- unresolved and fidelity findings.
-
-It must not claim that Gunny runtime wiring is complete and must not edit `trinhtanphat/Gunny`.
+Resource-side Track B may publish browser-native assets, provenance, geometry/state/timing/lifecycle contracts, deterministic checks and findings. It must not claim Gunny runtime wiring is complete and must not edit `trinhtanphat/Gunny`.
 
 ## Dependency map
 
@@ -38,67 +30,43 @@ It must not claim that Gunny runtime wiring is complete and must not edit `trinh
 | `R047` | audio-localization | `R035` |
 | `R048` | tutorial-video | `R036` |
 
-`R037` is unresolved-source review and intentionally has no Track B consumer. No unresolved asset may enter an owner package until exact evidence assigns it.
+`R037` remains unresolved and has no Track B consumer.
 
 ## Starting a session
 
 1. Create branch `resource-port/RNNN-<owner>`.
-2. Read:
-   - `AGENTS.md`;
-   - this runbook;
-   - `resource-port/track-b/session-map.json`;
-   - the exact section in `resource-port/track-b/SESSION_PROMPTS.md`.
+2. Read `AGENTS.md`, this runbook, `session-map.json` and exactly one prompt section.
 3. Verify every Track A dependency on current `trinhtanphat/Gunny/main`.
-4. Record the exact dependency commit and evidence SHA-256 values in the session evidence.
+4. Record exact dependency commits and evidence SHA-256 values.
 5. Fail closed when evidence, importer output or source identity is missing.
-6. Modify only the session's locked paths.
-7. Run:
-   - `node resource-port/track-b/verify.mjs`;
-   - the session checker;
-   - deterministic importer/package `--check`;
-   - applicable media/image validation;
-   - `git diff --check`.
+6. Modify only the exact session's `lockedPaths`.
+7. Run the program verifier, session checker, importer/package `--check`, applicable media/image checks and `git diff --check`.
 8. Commit `RNNN`.
 9. Commit only the findings file as `RNNN-F`.
-10. Rebase against current `main`, push, open a PR and rebase-merge after verification.
+10. Rebase current `main`, push, open a current-base PR and rebase-merge after verification.
 
 ## Required outputs
 
-Every session must publish:
+Every session publishes:
 
-- `exports/resource-port/<owner>/` — browser-native package;
-- `resource-port/track-b/contracts/<owner>.json` — consumer contract;
-- `resource-port/track-b/evidence/RNNN.json` — dependency/source/output evidence;
-- `resource-port/track-b/checks/RNNN.mjs` — deterministic local checker;
-- `resource-port/track-b/findings/RNNN.md` — append-only findings;
-- an updated entry in `resource-port/track-b/session-map.json`.
+- `exports/resource-port/<owner>/`;
+- `resource-port/track-b/contracts/<owner>.json`;
+- `resource-port/track-b/evidence/RNNN.json`;
+- `resource-port/track-b/checks/RNNN.mjs`;
+- `resource-port/track-b/findings/RNNN.md`;
+- `resource-port/track-b/status/RNNN.json`.
+
+`session-map.json` is coordinator-owned and immutable to workers.
 
 ## Evidence contract
 
-Each selected or generated artifact must include:
-
-- exact source repository, commit, path and source hash;
-- Track A evidence session and evidence hash;
-- detected format and byte count;
-- bitmap dimensions/alpha or media/timeline metadata where applicable;
-- authored transforms, bounds, layers, masks, blends and states where available;
-- output path and output SHA-256;
-- classification: `exact`, `inferred` or `unresolved`;
-- deterministic regeneration command and check result.
+Each artifact records exact source repository/commit/path/hash, Track A evidence and hash, format/bytes, applicable dimensions or timeline metadata, authored transforms/bounds/layers/masks/blends/states, output path/hash, classification `exact`/`inferred`/`unresolved`, and deterministic regeneration/check result.
 
 ## Completion boundary
 
-A session is complete only when:
+A session completes only when all dependencies are merged and verified, outputs are reproducible, package/contract checks pass, raw source roots are unchanged, no filename-only guess is accepted, unresolved items are recorded, and the two-commit rule is preserved.
 
-- all dependencies are merged and verified;
-- every output is reproducible from pinned evidence;
-- package and contract checks pass;
-- no raw source asset was modified;
-- no filename-only or visual-only guess was accepted;
-- all unresolved items are recorded;
-- the two-commit rule is preserved.
-
-Completing a Resource package is not proof that the Gunny application consumes it. Gunny-side wiring and production behavior require a separate integration change in `trinhtanphat/Gunny`.
+Completing a Resource package is not proof that the Gunny application consumes it.
 
 ## Shared coordinator files
 
@@ -106,6 +74,7 @@ Workers must not modify:
 
 - `AGENTS.md`;
 - `RESOURCE_PORT_TRACK_B.md`;
+- `resource-port/track-b/session-map.json`;
 - `resource-port/track-b/SESSION_PROMPTS.md`;
 - `resource-port/track-b/verify.mjs`;
-- another session's evidence, checker, findings or output directory.
+- another session's locked paths.
