@@ -10,28 +10,17 @@
     "evidenceRoot": "config/resource-port-evidence"
   },
   "shared": {
-    "status": "blocked-on-track-a",
-    "rawSourceReadOnly": [
-      "flash/",
-      "image/",
-      "partical/",
-      "sound/",
-      "video/",
-      "weekly/",
-      "xml/"
-    ],
+    "rawSourceReadOnly": ["flash/", "image/", "partical/", "sound/", "video/", "weekly/", "xml/"],
     "outputs": {
       "package": "exports/resource-port/{owner}/",
       "contract": "resource-port/track-b/contracts/{owner}.json",
       "evidence": "resource-port/track-b/evidence/{sessionId}.json",
       "checker": "resource-port/track-b/checks/{sessionId}.mjs",
-      "findings": "resource-port/track-b/findings/{sessionId}.md"
+      "findings": "resource-port/track-b/findings/{sessionId}.md",
+      "status": "resource-port/track-b/status/{sessionId}.json"
     },
     "branch": "resource-port/{sessionId}-{owner}",
-    "commits": [
-      "{sessionId}",
-      "{sessionId}-F"
-    ],
+    "commits": ["{sessionId}", "{sessionId}-F"],
     "mergeMethod": "rebase",
     "githubActions": false
   },
@@ -39,68 +28,90 @@
     {
       "sessionId": "R038",
       "owner": "avatar-equipment",
-      "dependencies": ["R001","R002","R003","R004","R005","R006","R007","R008","R009","R010","R011","R012","R013","R014","R015","R016","R017","R018","R019","R020","R021","R022","R023","R024"],
-      "sourceFamilies": ["flash/characterdefine.xml","image/arm/","image/equip/","image/virtual/","image/weapon/","weekly/weapon/"]
+      "status": "blocked-on-track-a",
+      "dependencies": ["R001", "R002", "R003", "R004", "R005", "R006", "R007", "R008", "R009", "R010", "R011", "R012", "R013", "R014", "R015", "R016", "R017", "R018", "R019", "R020", "R021", "R022", "R023", "R024"],
+      "sourceFamilies": ["flash/characterdefine.xml", "image/arm/", "image/equip/", "image/virtual/", "image/weapon/", "weekly/weapon/"],
+      "lockedPaths": ["exports/resource-port/avatar-equipment/", "resource-port/track-b/contracts/avatar-equipment.json", "resource-port/track-b/evidence/R038.json", "resource-port/track-b/checks/R038.mjs", "resource-port/track-b/findings/R038.md", "resource-port/track-b/status/R038.json"]
     },
     {
       "sessionId": "R039",
       "owner": "battle-hud-effects",
-      "dependencies": ["R025","R026"],
-      "sourceFamilies": ["image/bomb/","image/buff/","image/celleffect/","image/game/","image/gameasset/","image/partical/","image/prop/","image/rune/","image/skilleffect/","image/specialprop/","image/weather/","partical/"]
+      "status": "blocked-on-track-a",
+      "dependencies": ["R025", "R026"],
+      "sourceFamilies": ["image/bomb/", "image/buff/", "image/celleffect/", "image/game/", "image/gameasset/", "image/partical/", "image/prop/", "image/rune/", "image/skilleffect/", "image/specialprop/", "image/weather/", "partical/"],
+      "lockedPaths": ["exports/resource-port/battle-hud-effects/", "resource-port/track-b/contracts/battle-hud-effects.json", "resource-port/track-b/evidence/R039.json", "resource-port/track-b/checks/R039.mjs", "resource-port/track-b/findings/R039.md", "resource-port/track-b/status/R039.json"]
     },
     {
       "sessionId": "R040",
       "owner": "pve-maps-npcs",
+      "status": "blocked-on-track-a",
       "dependencies": ["R027"],
-      "sourceFamilies": ["image/map/","image/tilemap/","R027-assigned NPC presentation files only"]
+      "sourceFamilies": ["image/map/", "image/tilemap/", "R027-assigned NPC presentation files only"],
+      "lockedPaths": ["exports/resource-port/pve-maps-npcs/", "resource-port/track-b/contracts/pve-maps-npcs.json", "resource-port/track-b/evidence/R040.json", "resource-port/track-b/checks/R040.mjs", "resource-port/track-b/findings/R040.md", "resource-port/track-b/status/R040.json"]
     },
     {
       "sessionId": "R041",
       "owner": "guild-social-marriage",
+      "status": "blocked-on-track-a",
       "dependencies": ["R028"],
-      "sourceFamilies": ["image/church/","image/consortiaicon/","image/consortiamap/"]
+      "sourceFamilies": ["image/church/", "image/consortiaicon/", "image/consortiamap/"],
+      "lockedPaths": ["exports/resource-port/guild-social-marriage/", "resource-port/track-b/contracts/guild-social-marriage.json", "resource-port/track-b/evidence/R041.json", "resource-port/track-b/checks/R041.mjs", "resource-port/track-b/findings/R041.md", "resource-port/track-b/status/R041.json"]
     },
     {
       "sessionId": "R042",
       "owner": "pet-farm",
+      "status": "blocked-on-track-a",
       "dependencies": ["R029"],
-      "sourceFamilies": ["image/elf/","image/farm/","image/mounts/","image/pet/","image/petequip/","image/petfollow/","image/petskill/","image/tool/petequip/"]
+      "sourceFamilies": ["image/elf/", "image/farm/", "image/mounts/", "image/pet/", "image/petequip/", "image/petfollow/", "image/petskill/", "image/tool/petequip/"],
+      "lockedPaths": ["exports/resource-port/pet-farm/", "resource-port/track-b/contracts/pet-farm.json", "resource-port/track-b/evidence/R042.json", "resource-port/track-b/checks/R042.mjs", "resource-port/track-b/findings/R042.md", "resource-port/track-b/status/R042.json"]
     },
     {
       "sessionId": "R043",
       "owner": "store-mail-economy",
-      "dependencies": ["R030","R031"],
-      "sourceFamilies": ["image/card/","image/cardbox/","image/gift/","image/oneshopping/","image/unfrightprop/"]
+      "status": "blocked-on-track-a",
+      "dependencies": ["R030", "R031"],
+      "sourceFamilies": ["image/card/", "image/cardbox/", "image/gift/", "image/oneshopping/", "image/unfrightprop/"],
+      "lockedPaths": ["exports/resource-port/store-mail-economy/", "resource-port/track-b/contracts/store-mail-economy.json", "resource-port/track-b/evidence/R043.json", "resource-port/track-b/checks/R043.mjs", "resource-port/track-b/findings/R043.md", "resource-port/track-b/status/R043.json"]
     },
     {
       "sessionId": "R044",
       "owner": "quests-events",
+      "status": "blocked-on-track-a",
       "dependencies": ["R032"],
-      "sourceFamilies": ["image/badgerole/","image/badge/","image/binglong/","image/cardcollect/","image/collectiontask/","image/ddqiyuan/","image/dice/","image/explorermanual/","image/honorbackground/","image/leaguerank/","image/sevendouble/","image/task/","image/weekly/","image/yearfood/"]
+      "sourceFamilies": ["image/badgerole/", "image/badge/", "image/binglong/", "image/cardcollect/", "image/collectiontask/", "image/ddqiyuan/", "image/dice/", "image/explorermanual/", "image/honorbackground/", "image/leaguerank/", "image/sevendouble/", "image/task/", "image/weekly/", "image/yearfood/"],
+      "lockedPaths": ["exports/resource-port/quests-events/", "resource-port/track-b/contracts/quests-events.json", "resource-port/track-b/evidence/R044.json", "resource-port/track-b/checks/R044.mjs", "resource-port/track-b/findings/R044.md", "resource-port/track-b/status/R044.json"]
     },
     {
       "sessionId": "R045",
       "owner": "hall-room-world",
+      "status": "blocked-on-track-a",
       "dependencies": ["R033"],
-      "sourceFamilies": ["image/camp/","image/campbattle/","image/escort/","image/factionwar/","image/house/","image/scene/","image/world/","image/worldboss/"]
+      "sourceFamilies": ["image/camp/", "image/campbattle/", "image/escort/", "image/factionwar/", "image/house/", "image/scene/", "image/world/", "image/worldboss/"],
+      "lockedPaths": ["exports/resource-port/hall-room-world/", "resource-port/track-b/contracts/hall-room-world.json", "resource-port/track-b/evidence/R045.json", "resource-port/track-b/checks/R045.mjs", "resource-port/track-b/findings/R045.md", "resource-port/track-b/status/R045.json"]
     },
     {
       "sessionId": "R046",
       "owner": "common-ui",
+      "status": "blocked-on-track-a",
       "dependencies": ["R034"],
-      "sourceFamilies": ["image/interfaceicons/"]
+      "sourceFamilies": ["image/interfaceicons/"],
+      "lockedPaths": ["exports/resource-port/common-ui/", "resource-port/track-b/contracts/common-ui.json", "resource-port/track-b/evidence/R046.json", "resource-port/track-b/checks/R046.mjs", "resource-port/track-b/findings/R046.md", "resource-port/track-b/status/R046.json"]
     },
     {
       "sessionId": "R047",
       "owner": "audio-localization",
+      "status": "blocked-on-track-a",
       "dependencies": ["R035"],
-      "sourceFamilies": ["sound/","xml/"]
+      "sourceFamilies": ["sound/", "xml/"],
+      "lockedPaths": ["exports/resource-port/audio-localization/", "resource-port/track-b/contracts/audio-localization.json", "resource-port/track-b/evidence/R047.json", "resource-port/track-b/checks/R047.mjs", "resource-port/track-b/findings/R047.md", "resource-port/track-b/status/R047.json"]
     },
     {
       "sessionId": "R048",
       "owner": "tutorial-video",
+      "status": "blocked-on-track-a",
       "dependencies": ["R036"],
-      "sourceFamilies": ["image/video/","video/"]
+      "sourceFamilies": ["image/video/", "video/"],
+      "lockedPaths": ["exports/resource-port/tutorial-video/", "resource-port/track-b/contracts/tutorial-video.json", "resource-port/track-b/evidence/R048.json", "resource-port/track-b/checks/R048.mjs", "resource-port/track-b/findings/R048.md", "resource-port/track-b/status/R048.json"]
     }
   ]
 }
