@@ -6,17 +6,20 @@ import { resolve } from "node:path";
 const root = process.cwd();
 const map = JSON.parse(await readFile(resolve(root, "resource-port/track-b/session-map.json"), "utf8"));
 const prompts = await readFile(resolve(root, "resource-port/track-b/SESSION_PROMPTS.md"), "utf8");
-const fail = (message) => { throw new Error(`Resource Track B map invalid: ${message}`); };
+const runbook = await readFile(resolve(root, "RESOURCE_PORT_TRACK_B.md"), "utf8");
+const fail = (message) => { throw new Error(`Resource package map invalid: ${message}`); };
 
-const ids = Array.from({ length: 11 }, (_, index) => `R${String(index + 38).padStart(3, "0")}`);
+const ids = Array.from({ length: 11 }, (_, index) => `P${String(index + 38).padStart(3, "0")}`);
+const runtimeIds = Array.from({ length: 11 }, (_, index) => `R${String(index + 38).padStart(3, "0")}`);
 const expected = {
-  R038: Array.from({ length: 24 }, (_, index) => `R${String(index + 1).padStart(3, "0")}`),
-  R039: ["R025", "R026"], R040: ["R027"], R041: ["R028"], R042: ["R029"],
-  R043: ["R030", "R031"], R044: ["R032"], R045: ["R033"], R046: ["R034"],
-  R047: ["R035"], R048: ["R036"],
+  P038: Array.from({ length: 24 }, (_, index) => `R${String(index + 1).padStart(3, "0")}`),
+  P039: ["R025", "R026"], P040: ["R027"], P041: ["R028"], P042: ["R029"],
+  P043: ["R030", "R031"], P044: ["R032"], P045: ["R033"], P046: ["R034"],
+  P047: ["R035"], P048: ["R036"],
 };
 
-if (map.schemaVersion !== 1) fail("unsupported schema");
+if (map.schemaVersion !== 2) fail("unsupported schema");
+if (map.program !== "resource-port-packaging") fail("wrong program");
 if (map.repository !== "trinhtanphat/Resource") fail("wrong repository");
 if (map.rawAssetPin !== "519c35a293745b6a0477c4f6ea03110a89de2318") fail("wrong source pin");
 if (map.shared?.githubActions !== false) fail("GitHub Actions must be disabled");
@@ -29,7 +32,9 @@ let edges = 0;
 for (let index = 0; index < map.sessions.length; index += 1) {
   const session = map.sessions[index];
   const id = ids[index];
+  const runtimeId = runtimeIds[index];
   if (session.sessionId !== id) fail(`expected ${id}`);
+  if (session.runtimeSessionId !== runtimeId) fail(`${id} runtime handoff mismatch`);
   if (session.status !== "blocked-on-track-a") fail(`${id} must start blocked`);
   if (owners.has(session.owner)) fail(`duplicate owner ${session.owner}`);
   owners.add(session.owner);
@@ -37,10 +42,13 @@ for (let index = 0; index < map.sessions.length; index += 1) {
   if (session.dependencies.includes("R037")) fail(`${id} consumes unresolved R037`);
   edges += session.dependencies.length;
   if (!prompts.includes(`## ${id} —`) || !prompts.includes(`RESOURCE_SESSION_ID=${id}`)) fail(`${id} prompt missing`);
+  if (!prompts.includes(`runtime integration ${runtimeId}`)) fail(`${id} runtime distinction missing`);
+  if (!runbook.includes(`| \`${id}\` |`) || !runbook.includes(`\`${runtimeId}\``)) fail(`${id} handoff row missing`);
   if (session.lockedPaths.length !== 6) fail(`${id} must lock six outputs`);
   for (const path of session.lockedPaths) {
     if (path === "resource-port/track-b/session-map.json") fail(`${id} locks coordinator map`);
     if (/^(flash|image|partical|sound|video|weekly|xml)\//u.test(path)) fail(`${id} locks raw source`);
+    if (path.includes(`/${runtimeId}.`) || path.endsWith(`/${runtimeId}/`)) fail(`${id} reuses runtime session path`);
     if (locks.has(path)) fail(`${path} shared by ${locks.get(path)} and ${id}`);
     locks.set(path, id);
   }
@@ -51,6 +59,12 @@ if (edges !== 36) fail(`expected 36 dependency edges, found ${edges}`);
 if (locks.size !== 66) fail(`expected 66 unique locks, found ${locks.size}`);
 
 console.log(JSON.stringify({
-  status: "pass", sessions: 11, owners: 11, dependencyEdges: edges,
-  uniqueLockedPaths: locks.size, rawAssetPin: map.rawAssetPin, githubActions: false
+  status: "pass",
+  packageSessions: 11,
+  runtimeHandoffs: 11,
+  owners: 11,
+  dependencyEdges: edges,
+  uniqueLockedPaths: locks.size,
+  rawAssetPin: map.rawAssetPin,
+  githubActions: false
 }, null, 2));
