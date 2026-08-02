@@ -6,6 +6,7 @@ import path from "node:path";
 const SHARD_COUNT = 14;
 const SOFT_LIMIT = 18_000;
 const HARD_LIMIT = 20_000;
+const MAX_ASSET_BYTES = 25 * 1024 * 1024;
 const args = process.argv.slice(2);
 
 function option(name, fallback = null) {
@@ -92,12 +93,31 @@ async function copyFile(source, destination) {
   await fs.copyFile(source, destination);
 }
 
+async function countFiles(directory) {
+  let entries;
+  try {
+    entries = await fs.readdir(directory, { withFileTypes: true });
+  } catch (error) {
+    if (error?.code === "ENOENT") return 0;
+    throw error;
+  }
+
+  let count = 0;
+  for (const entry of entries) {
+    const full = path.join(directory, entry.name);
+    if (entry.isDirectory()) count += await countFiles(full);
+    else if (entry.isFile()) count += 1;
+  }
+  return count;
+}
+
 const virtualBucketsPerShard = validateBucketMap();
 await fs.rm(OUTPUT, { recursive: true, force: true });
 await fs.mkdir(OUTPUT, { recursive: true });
 
 const counts = Array(SHARD_COUNT).fill(0);
 const bytes = Array(SHARD_COUNT).fill(0);
+const representativePaths = Array(SHARD_COUNT).fill(null);
 let candidatesScanned = 0;
 
 for await (const file of walk(SOURCE)) {
@@ -110,8 +130,15 @@ for await (const file of walk(SOURCE)) {
   if (SELECTED_SHARD !== null && shard !== SELECTED_SHARD) continue;
 
   const stat = await fs.stat(file);
+  if (stat.size > MAX_ASSET_BYTES) {
+    throw new Error(
+      `Asset exceeds Cloudflare 25 MiB limit: ${relative} (${stat.size} bytes)`
+    );
+  }
+
   counts[shard] += 1;
   bytes[shard] += stat.size;
+  representativePaths[shard] ??= relative;
 
   if (counts[shard] > HARD_LIMIT) {
     throw new Error(`Shard ${shard} exceeded Cloudflare Free hard limit: ${counts[shard]}`);
@@ -135,6 +162,22 @@ if (overSoftLimit.length > 0) {
   );
 }
 
+if (!VALIDATE_ONLY) {
+  const builtShards = SELECTED_SHARD === null
+    ? Array.from({ length: SHARD_COUNT }, (_, shard) => shard)
+    : [SELECTED_SHARD];
+
+  for (const shard of builtShards) {
+    const shardName = String(shard).padStart(2, "0");
+    const outputCount = await countFiles(path.join(OUTPUT, `shard-${shardName}`));
+    if (outputCount !== counts[shard]) {
+      throw new Error(
+        `Shard ${shardName} output mismatch: expected ${counts[shard]} files, found ${outputCount}`
+      );
+    }
+  }
+}
+
 const mode = VALIDATE_ONLY ? "validate" : SELECTED_SHARD === null ? "all-shards" : "single-shard";
 const report = {
   source: SOURCE,
@@ -147,13 +190,15 @@ const report = {
   algorithm: "SHA-256 path -> 256 virtual buckets -> physical shard map",
   limits: {
     softFilesPerShard: SOFT_LIMIT,
-    freeHardFilesPerShard: HARD_LIMIT
+    freeHardFilesPerShard: HARD_LIMIT,
+    maxAssetBytes: MAX_ASSET_BYTES
   },
   shards: counts.map((files, shard) => ({
     shard: String(shard).padStart(2, "0"),
     virtualBuckets: virtualBucketsPerShard[shard],
     files,
     bytes: bytes[shard],
+    representativePath: representativePaths[shard],
     built: !VALIDATE_ONLY && (SELECTED_SHARD === null || SELECTED_SHARD === shard)
   }))
 };

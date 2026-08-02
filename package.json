@@ -7,7 +7,8 @@
     "build:all": "node scripts/build-shards.mjs --source . --output ./dist --all",
     "build:shard": "node scripts/build-shards.mjs --source . --output ./dist --shard",
     "validate:assets": "node scripts/build-shards.mjs --source . --output ./dist --validate-only && node scripts/validate-shards.mjs",
-    "coordinator:report": "node scripts/validate-shards.mjs"
+    "coordinator:report": "node scripts/validate-shards.mjs",
+    "probe:shard": "node scripts/probe-shard.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.34.0"
