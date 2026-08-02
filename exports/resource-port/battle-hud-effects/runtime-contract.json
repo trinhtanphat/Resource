@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "runtimeSessionId": "R039",
+  "owner": "battle-hud-effects",
+  "separation": {
+    "hudControlFamilies": [
+      "image/buff/",
+      "image/prop/",
+      "image/rune/",
+      "image/specialprop/"
+    ],
+    "transientEffectFamilies": [
+      "image/bomb/",
+      "image/celleffect/",
+      "image/game/",
+      "image/gameasset/",
+      "image/partical/",
+      "image/skilleffect/",
+      "image/weather/",
+      "partical/"
+    ],
+    "lexicalClassificationOnly": true,
+    "gameplayAuthority": false
+  },
+  "preservation": {
+    "frameAndTimeline": "exact Track A SWF metadata retained; unresolved visuals stay disabled",
+    "anchorAndTransform": "compiled placements, bounds and transforms retained without invented coordinates",
+    "durationAndPlaybackRate": "stage frame counts and FPS retained; particle beginTime/endTime retained",
+    "blendAndMask": "compiled blend/mask counts and particle blendMode retained",
+    "zOrder": "compiled SWF display depths retained",
+    "states": "frame labels and button-state evidence retained",
+    "lifecycle": "particle emitter interval/life and particle timing/easing retained",
+    "fallback": "existing immutable Gunny battle presentation until each exact asset is ready and R2 smoke passes"
+  },
+  "browserRuntime": {
+    "swfAllowed": false,
+    "cssOrSyntheticAnimationAllowed": false,
+    "exactRasterReferencesAllowed": true,
+    "exactParticleTexturesAllowed": true,
+    "mappedParticleDefinitionsRequireTextureReadiness": true,
+    "unresolvedDefinitionsFailClosed": true
+  },
+  "delivery": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false,
+    "canonicalObjectKey": "exact Resource source path or immutable package export path"
+  }
+}

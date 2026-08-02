@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "repository": "trinhtanphat/Gunny",
+    "sessions": [
+      "R025",
+      "R026"
+    ],
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "verifiedOnMain": "a0a677303cfa337a8921b960a78ad5f07375643d"
+  },
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "classification",
+    "trackAClassification",
+    "inspectionProfile",
+    "detectedFormat",
+    "contentType",
+    "width",
+    "height",
+    "alphaKind",
+    "animated",
+    "durationMs",
+    "sourceFamily"
+  ],
+  "shards": [
+    {
+      "sessionId": "R025",
+      "path": "exports/resource-port/battle-hud-effects/catalog/r025.json",
+      "files": 4096,
+      "bytes": 440710203,
+      "sha256": "2d08ddca036a4316c90f1cf3b6f5c107bc1ff3b7cb507dd73edab8345b4715ea"
+    },
+    {
+      "sessionId": "R026",
+      "path": "exports/resource-port/battle-hud-effects/catalog/r026.json",
+      "files": 530,
+      "bytes": 29252300,
+      "sha256": "b5fb66544edb2906d0a818e32e4d7dfc467c5b142860519b0889ca8e71a2705c"
+    }
+  ],
+  "summary": {
+    "files": 4626,
+    "bytes": 469962503,
+    "uniqueBlobs": 4555,
+    "exact": 892,
+    "inferred": 0,
+    "unresolved": 3734,
+    "exactBrowserRasters": 889,
+    "profiles": {
+      "swf-timeline": 3404,
+      "raster": 1121,
+      "fla-authoring": 62,
+      "text-data": 38,
+      "binary-unknown": 1
+    }
+  },
+  "families": {
+    "image/bomb/": {
+      "files": 2986,
+      "bytes": 212539869,
+      "uniqueBlobs": 2958,
+      "exact": 429,
+      "inferred": 0,
+      "unresolved": 2557,
+      "exactBrowserRasters": 429,
+      "profiles": {
+        "swf-timeline": 2540,
+        "raster": 446
+      }
+    },
+    "image/buff/": {
+      "files": 172,
+      "bytes": 393776,
+      "uniqueBlobs": 162,
+      "exact": 167,
+      "inferred": 0,
+      "unresolved": 5,
+      "exactBrowserRasters": 167,
+      "profiles": {
+        "raster": 172
+      }
+    },
+    "image/celleffect/": {
+      "files": 2,
+      "bytes": 0,
+      "uniqueBlobs": 1,
+      "exact": 2,
+      "inferred": 0,
+      "unresolved": 0,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "swf-timeline": 2
+      }
+    },
+    "image/game/": {
+      "files": 810,
+      "bytes": 194895874,
+      "uniqueBlobs": 801,
+      "exact": 48,
+      "inferred": 0,
+      "unresolved": 762,
+      "exactBrowserRasters": 48,
+      "profiles": {
+        "raster": 100,
+        "swf-timeline": 661,
+        "fla-authoring": 13,
+        "text-data": 36
+      }
+    },
+    "image/gameasset/": {
+      "files": 74,
+      "bytes": 32251189,
+      "uniqueBlobs": 74,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 74,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "swf-timeline": 74
+      }
+    },
+    "image/partical/": {
+      "files": 2,
+      "bytes": 343368,
+      "uniqueBlobs": 2,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 2,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "text-data": 1,
+        "swf-timeline": 1
+      }
+    },
+    "image/prop/": {
+      "files": 90,
+      "bytes": 723218,
+      "uniqueBlobs": 89,
+      "exact": 90,
+      "inferred": 0,
+      "unresolved": 0,
+      "exactBrowserRasters": 89,
+      "profiles": {
+        "binary-unknown": 1,
+        "raster": 89
+      }
+    },
+    "image/rune/": {
+      "files": 217,
+      "bytes": 824794,
+      "uniqueBlobs": 217,
+      "exact": 59,
+      "inferred": 0,
+      "unresolved": 158,
+      "exactBrowserRasters": 59,
+      "profiles": {
+        "raster": 217
+      }
+    },
+    "image/skilleffect/": {
+      "files": 171,
+      "bytes": 25718753,
+      "uniqueBlobs": 171,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 171,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "fla-authoring": 49,
+        "swf-timeline": 122
+      }
+    },
+    "image/specialprop/": {
+      "files": 97,
+      "bytes": 703767,
+      "uniqueBlobs": 78,
+      "exact": 97,
+      "inferred": 0,
+      "unresolved": 0,
+      "exactBrowserRasters": 97,
+      "profiles": {
+        "raster": 97
+      }
+    },
+    "image/weather/": {
+      "files": 3,
+      "bytes": 1224527,
+      "uniqueBlobs": 3,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 3,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "swf-timeline": 3
+      }
+    },
+    "partical/": {
+      "files": 2,
+      "bytes": 343368,
+      "uniqueBlobs": 2,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 2,
+      "exactBrowserRasters": 0,
+      "profiles": {
+        "text-data": 1,
+        "swf-timeline": 1
+      }
+    }
+  },
+  "publication": {
+    "mode": "content-addressed-source-reference-plus-reviewed-particle-texture-extraction",
+    "canonicalObjectKey": "exact Resource source path",
+    "sourceBytesDuplicatedIntoPackage": 0,
+    "existingBrowserNativeRasters": 889,
+    "extractedBrowserNativeParticleTextures": 96
+  }
+}
