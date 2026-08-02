@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "runtimeSessionId": "R045",
+  "part": "hall-room-world",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "repository": "trinhtanphat/Gunny",
+    "sessionId": "R033",
+    "implementationCommit": "3540fda0bf108366ae855028c6f55016ad1902f5",
+    "evidencePath": "config/resource-port-evidence/R033.json",
+    "evidenceGitBlobSha1": "08bd429f94363b9d368194e82d5705fee8f90909",
+    "importerGitBlobSha1": "a3e96ac24cdda93feb91ef7413fb16eaa10d3967",
+    "dispatchGitBlobSha1": "7bcc645d7c5b13a24cdb78ae3923e7fce19f822f",
+    "dispatchSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
+    "verifiedOnGunnyMain": "303a12fb4978353b45a12e718a4742b28bdf8edf"
+  },
+  "exports": [
+    "exports/resource-port/hall-room-world/scene-graph.json",
+    "exports/resource-port/hall-room-world/navigation.json",
+    "exports/resource-port/hall-room-world/hot-spring-foundations.json",
+    "exports/resource-port/hall-room-world/raster-catalog.json"
+  ],
+  "readiness": {
+    "package": "complete-with-fail-closed-interactions",
+    "runtimeIntegration": false,
+    "sourceUnlocked": true
+  },
+  "claims": {
+    "sceneArt": true,
+    "authoredCoordinateReferences": true,
+    "zOrderReferences": true,
+    "maskReferences": true,
+    "stateContract": true,
+    "navigationMetadata": true,
+    "gameplayAuthority": false,
+    "roomAuthority": false,
+    "hotSpringControl": false
+  },
+  "unresolved": [
+    "97 unique SWF timelines lack reviewed browser-native conversion",
+    "hotspot bounds and handlers are disabled unless exact placement and runtime authority are both proven",
+    "Hot Spring controls/interactions remain unresolved"
+  ],
+  "githubActions": false
+}

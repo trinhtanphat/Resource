@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "runtimeSessionId": "R045",
+  "owner": "hall-room-world",
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "sourceFamilies": ["flash/assets/hall/**", "flash/assets/room/**", "flash/assets/world/**", "flash/assets/hot-spring/**"],
+  "lockedPaths": [
+    "exports/resource-port/hall-room-world/**",
+    "resource-port/track-b/contracts/hall-room-world.json",
+    "resource-port/track-b/evidence/P045.json",
+    "resource-port/track-b/checks/P045.mjs",
+    "resource-port/track-b/findings/P045.md",
+    "resource-port/track-b/status/P045.json"
+  ],
+  "dependency": {
+    "sessionId": "R033",
+    "implementationCommit": "3540fda0bf108366ae855028c6f55016ad1902f5",
+    "evidenceGitBlobSha1": "08bd429f94363b9d368194e82d5705fee8f90909",
+    "dispatchSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
+    "required": true,
+    "failClosed": true
+  },
+  "sceneBoundary": {"sceneArt": "published", "navigation": "metadata-only", "roomGameplayAuthority": "not-owned", "worldGameplayAuthority": "not-owned", "hotSpring": "foundations-only"},
+  "coordinateContract": {"origin": "source", "scale": 1, "twipsPerPixel": 20, "preserveMatrices": true, "inventOffsets": false},
+  "hotspotContract": {"publishCandidates": true, "defaultEnabled": false, "requiresExactBounds": true, "requiresRuntimeHandler": true},
+  "zOrderContract": {"source": "compiled display depth", "preserve": true, "authoredLayerNamesClaimed": false},
+  "maskContract": {"source": "clipDepth", "preserve": true, "fallback": "disabled"},
+  "stateContract": {"preserveFrameLabels": true, "inventStates": false, "runtimeTransitionsOwned": false},
+  "assetAddressing": {"contentAddressed": true, "mutableBranchAllowed": false, "rawSourceReadOnly": true},
+  "runtimeIntegration": false
+}

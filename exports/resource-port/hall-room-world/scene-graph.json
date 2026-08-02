@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "runtimeSessionId": "R045",
+  "owner": "hall-room-world",
+  "authority": {
+    "sceneArt": "resource-package",
+    "navigationPresentation": "resource-package",
+    "roomMembership": "gunny-runtime-only",
+    "gameplay": "gunny-runtime-only",
+    "hotSpringControl": "unresolved-fail-closed"
+  },
+  "coordinateSystem": {
+    "unit": "source-pixel",
+    "twipConversion": 20,
+    "origin": {"x": 0, "y": 0},
+    "policy": "Preserve R033 FFDec display rectangles and placement matrices without scaling or inferred offsets.",
+    "evidence": "trinhtanphat/Gunny@3540fda0bf108366ae855028c6f55016ad1902f5:public/assets/resource-port/hall-room-world/r033/manifest.json"
+  },
+  "sourceFamilies": [
+    {"id": "hall", "logicalPattern": "flash/assets/hall/**", "rawPrefixes": ["image/farm/hall/", "image/scene/hall/"], "role": "hall scene art"},
+    {"id": "room", "logicalPattern": "flash/assets/room/**", "rawPrefixes": ["image/farm/house/", "image/scene/room/"], "role": "room scene art"},
+    {"id": "world", "logicalPattern": "flash/assets/world/**", "rawPrefixes": ["image/farm/world/", "image/world/", "image/scene/", "image/worldboss/", "image/escort/", "image/camp/", "image/campbattle/", "image/factionwar/"], "role": "world and navigation art"},
+    {"id": "hot-spring", "logicalPattern": "flash/assets/hot-spring/**", "rawPrefixes": ["image/hotSpring/"], "role": "Hot Spring visual foundations only"}
+  ],
+  "layerModel": [
+    {"z": 0, "id": "backdrop", "kind": "raster", "coordinates": {"x": 0, "y": 0}, "state": "visible", "mask": null},
+    {"z": 100, "id": "environment", "kind": "raster-or-unresolved-timeline", "coordinates": {"source": "R033.transform"}, "state": "source-authored", "mask": {"source": "R033.clipDepth", "preserve": true}},
+    {"z": 200, "id": "actors", "kind": "runtime-slot", "coordinates": {"source": "runtime-authority"}, "state": "not-published", "mask": null},
+    {"z": 300, "id": "foreground", "kind": "raster-or-unresolved-timeline", "coordinates": {"source": "R033.transform"}, "state": "source-authored", "mask": {"source": "R033.clipDepth", "preserve": true}},
+    {"z": 400, "id": "navigation-overlay", "kind": "metadata", "coordinates": {"source": "navigation.json"}, "state": "disabled-until-runtime-owner", "mask": null},
+    {"z": 500, "id": "ui", "kind": "runtime-slot", "coordinates": {"source": "runtime-authority"}, "state": "not-published", "mask": null}
+  ],
+  "scenes": [
+    {"id": "hall", "family": "hall", "layers": ["backdrop", "environment", "foreground", "navigation-overlay"], "states": ["default", "loading", "disabled"], "transitionTargets": ["room", "world"], "interactionAuthority": false},
+    {"id": "room", "family": "room", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["default", "waiting", "ready", "in-game", "closed"], "transitionTargets": ["hall", "world"], "interactionAuthority": false},
+    {"id": "world", "family": "world", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["default", "loading", "disabled"], "transitionTargets": ["hall", "room", "hot-spring"], "interactionAuthority": false},
+    {"id": "hot-spring", "family": "hot-spring", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["foundation", "loading", "disabled"], "transitionTargets": ["world"], "interactionAuthority": false}
+  ],
+  "compiledTimelineBoundary": {
+    "occurrences": 101,
+    "uniqueBlobs": 97,
+    "availableMetadata": ["stage", "frameRate", "frameCount", "symbols", "sprites", "displayDepth", "masks", "filters", "blendModes", "transforms", "bounds", "frameLabels", "buttonStateCounts"],
+    "browserNative": false,
+    "authoredLayerNamesRecoverable": false,
+    "failClosed": true
+  }
+}
