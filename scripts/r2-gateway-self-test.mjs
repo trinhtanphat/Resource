@@ -2,7 +2,9 @@
 import { createR2Gateway, __R2_GATEWAY_TESTING__ } from "../src/r2-deployer-worker.mjs";
 
 const encoder = new TextEncoder();
+const CONTRACT = "ddtank-r2-gateway-v1";
 const SCREEN_REF = "7dc16b70b4b868d6be709cca7d400def67f6d4b6";
+const SHOW_REF = "7ca3ac34dd14022318ebf4785f419d11545dc038";
 const bytesByKey = new Map([
   ["screens/Login/bg.png", encoder.encode("PNGDATA")],
   ["image/equip/1/show.png", encoder.encode("SHOW")],
@@ -18,8 +20,13 @@ function metadata(key, bytes, range = null, body = true) {
     httpEtag: etag,
     uploaded: new Date("2026-08-02T00:00:00.000Z"),
     customMetadata: key.startsWith("_deployment/")
-      ? { sourcecommit: "0cd1dd48f1a05ab876111f629492b2fcf98122f0", complete: "1", filecount: "3" }
-      : { sourcecommit: "0cd1dd48f1a05ab876111f629492b2fcf98122f0", sha256: "a".repeat(64) },
+      ? { sourcecommit: "c5049bc212b9e41f3ca3b77f88212f744241fb2c", complete: "1", filecount: "3" }
+      : {
+          sourcecommit: key.startsWith("image/")
+            ? "f".repeat(40)
+            : "0cd1dd48f1a05ab876111f629492b2fcf98122f0",
+          sha256: "a".repeat(64),
+        },
     range,
     writeHttpMetadata(headers) {
       headers.set("content-type", key.endsWith(".png") ? "image/png" : "application/json");
@@ -81,11 +88,14 @@ let response = await request("/health");
 assert(response.status === 200, "health must be ready");
 const health = await response.json();
 assert(health.mode === "r2-object-gateway", "health must advertise the gateway mode");
+assert(health.gatewayContract === CONTRACT, "health must advertise the stable gateway contract");
+assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "health contract header missing");
 assert(health.manifestComplete === true, "health must require a complete manifest");
 assert(health.capabilities.includes("range"), "health must advertise range support");
 
 response = await request("/objects/screens/Login/bg.png");
 assert(response.status === 200, "canonical object GET must succeed");
+assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "object contract header missing");
 assert(response.headers.get("x-ddtank-resource-delivery") === "r2", "canonical object must prefer R2");
 assert(response.headers.get("x-ddtank-resource-key") === "screens/Login/bg.png", "canonical key header missing");
 assert(response.headers.get("x-ddtank-resource-alias") === "canonical", "canonical alias evidence missing");
@@ -102,6 +112,8 @@ assert(response.headers.get("x-ddtank-resource-alias") === "legacy-gh", "legacy 
 response = await request("/image/equip/1/show.png");
 assert(response.status === 200, "direct catalog key must resolve");
 assert(response.headers.get("x-ddtank-resource-alias") === "direct", "direct alias evidence missing");
+assert(response.headers.get("x-ddtank-resource-revision") === "f".repeat(40), "object provenance may advance independently");
+assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "advanced object revision must retain contract");
 
 response = await request("/objects/screens/Login/bg.png", {
   headers: { "If-None-Match": '"etag-screens-Login-bg.png"' },
@@ -117,9 +129,13 @@ assert(await response.text() === "NGD", "range body mismatch");
 
 response = await request("/objects/screens/Missing.png");
 assert(response.status === 200, "known missing R2 key must use immutable fallback");
+assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "fallback contract header missing");
 assert(response.headers.get("x-ddtank-resource-delivery") === "immutable-fallback", "fallback delivery evidence missing");
-assert(fallbackCalls.length === 1, "fallback should be fetched exactly once");
-assert(fallbackCalls[0].url.includes(`/trinhtanphat/Resource/${SCREEN_REF}/screens/Missing.png`), "fallback URL must remain immutable");
+assert(fallbackCalls[0].url.includes(`/trinhtanphat/Resource/${SCREEN_REF}/screens/Missing.png`), "screen fallback URL must remain immutable");
+
+response = await request("/objects/image/equip/m/head/missing/show.png");
+assert(response.status === 200, "missing SHOW key must use reviewed immutable fallback");
+assert(fallbackCalls[1].url.includes(`/trinhtanphat/Resource/${SHOW_REF}/image/equip/m/head/missing/show.png`), "SHOW fallback URL must remain immutable");
 
 response = await request("/objects/%252e%252e/screens/Login/bg.png");
 assert(response.status === 400, "encoded traversal must be rejected");
@@ -131,14 +147,17 @@ response = await request("/objects/screens/Login/bg.png", { method: "POST" });
 assert(response.status === 405, "mutating methods must be rejected");
 response = await request("/objects/screens/Login/bg.png", { method: "OPTIONS" });
 assert(response.status === 204, "CORS preflight must succeed");
+assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "preflight contract header missing");
 
+assert(__R2_GATEWAY_TESTING__.gatewayContract === CONTRACT, "exported gateway contract drift");
 assert(__R2_GATEWAY_TESTING__.normalizeObjectKey("screens/Login/bg.png") === "screens/Login/bg.png", "safe key normalization failed");
 assert(__R2_GATEWAY_TESTING__.normalizeObjectKey("screens/../bg.png") === null, "unsafe key normalization accepted traversal");
 assert(calls.some((entry) => entry.method === "get" && entry.key === "screens/Login/bg.png"), "R2 key was not read");
 
 console.log(JSON.stringify({
   status: "ok",
-  assertions: 31,
+  assertions: 40,
+  gatewayContract: CONTRACT,
   r2Calls: calls.length,
   fallbackCalls: fallbackCalls.length,
 }, null, 2));
