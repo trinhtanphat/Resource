@@ -1,0 +1,5768 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "records": [
+    {
+      "path": "image/map/1075/objects/1075object.swf",
+      "sourceSha256": "6af1618aeda99947cebb18d98135cb758e9e70a5eb00b323dc643e497cb7e5cd",
+      "sourceBytes": 312171,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 323609,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 10,
+        "DefineBitsLossless2": 12,
+        "DefineMorphShape": 7,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 24,
+        "DefineShape3": 5,
+        "DefineShape4": 5,
+        "DefineSound": 1,
+        "DefineSprite": 14,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SoundStreamHead2": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 10,
+            "name": "game.crazytank.assetmap.Board001"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 13,
+            "name": "game.crazytank.assetmap.Key"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 73,
+            "name": "1075Object_fla.Timeline_4"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 78,
+            "name": "game.crazytank.assetmap.CrystalDoor001"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 78,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1354,
+                "yMinTwips": 36,
+                "yMaxTwips": 362
+              },
+              "strokes": {
+                "xMinTwips": -10,
+                "xMaxTwips": 1354,
+                "yMinTwips": 26,
+                "yMaxTwips": 362
+              },
+              "filters": {
+                "xMinTwips": -10,
+                "xMaxTwips": 1354,
+                "yMinTwips": 26,
+                "yMaxTwips": 362
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineSprite",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1354,
+                "yMinTwips": 36,
+                "yMaxTwips": 362
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1354,
+                "yMinTwips": 36,
+                "yMaxTwips": 362
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1354,
+                "yMinTwips": 36,
+                "yMaxTwips": 362
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 76
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 14,
+          "sampled": [],
+          "truncated": 14
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 18,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 18,
+          "codeBytes": 281,
+          "instructions": 193,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 193,
+            "sampled": {
+              "callpropvoid": 9,
+              "constructsuper": 4,
+              "findpropstrict": 9,
+              "getlex": 38,
+              "getlocal0": 22,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 7,
+              "pushscope": 46,
+              "returnvoid": 18
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 18,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 18,
+              "codeBytes": 281,
+              "instructions": 193,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"1075Object_fla\"),\"Timeline_4\")",
+                  "QName(PackageNamespace(\"game.crazytank.assetmap\"),\"Board001\")",
+                  "QName(PackageNamespace(\"game.crazytank.assetmap\"),\"CrystalDoor001\")"
+                ],
+                "truncated": 1
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 193,
+                "sampled": {
+                  "callpropvoid": 9,
+                  "constructsuper": 4,
+                  "findpropstrict": 9,
+                  "getlex": 38,
+                  "getlocal0": 22,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 7,
+                  "pushscope": 46,
+                  "returnvoid": 18
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 18,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 17
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1075/objects/wordtip75.swf",
+      "sourceSha256": "bfc904ae65144b7baa83160ff7b128c21ca7b8a9b2f7e0b5a6a7b2a1649e384a",
+      "sourceBytes": 2682,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 4249,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 20000,
+          "yMinTwips": 0,
+          "yMaxTwips": 12000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 9,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineSprite": 1,
+        "DefineText": 9,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 11,
+            "name": "game.view.wordtip75"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 11,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineFont3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineText",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 667,
+                "yMinTwips": 51,
+                "yMaxTwips": 455
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 667,
+                "yMinTwips": 51,
+                "yMaxTwips": 455
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 667,
+                "yMinTwips": 51,
+                "yMaxTwips": 455
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 9
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 20000,
+            "yMinTwips": 0,
+            "yMaxTwips": 12000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 20000,
+            "yMinTwips": 0,
+            "yMaxTwips": 12000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 140,
+                  "green": 184,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 1,
+          "sampled": [],
+          "truncated": 1
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 3,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 3,
+          "codeBytes": 48,
+          "instructions": 36,
+          "opcodeHistogram": {
+            "totalKinds": 9,
+            "totalCount": 36,
+            "sampled": {
+              "constructsuper": 1,
+              "getlex": 8,
+              "getlocal0": 4,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushscope": 10,
+              "returnvoid": 3
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 3,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 3,
+              "codeBytes": 48,
+              "instructions": 36,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"game.view\"),\"wordtip75\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 9,
+                "totalCount": 36,
+                "sampled": {
+                  "constructsuper": 1,
+                  "getlex": 8,
+                  "getlocal0": 4,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushscope": 10,
+                  "returnvoid": 3
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 3,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 2
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1075/objects/踏板动画.swf",
+      "sourceSha256": "b6dc4e1ed9ccabc6ae1ae75098131007d9e306ac6bd7ede86ff20ad8af2cdc30",
+      "sourceBytes": 36,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-validation-failed: Unsafe asset path: image/map/1075/objects/踏板动画.swf",
+      "swf": {
+        "version": 9,
+        "compression": "NONE",
+        "declaredUncompressedBytes": 36,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1
+      },
+      "linkages": {
+        "total": 0,
+        "sampled": [],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 0,
+        "sampled": [],
+        "truncated": 0
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 0,
+          "methods": 0,
+          "instances": 0,
+          "classes": 0,
+          "scripts": 0,
+          "methodBodies": 0,
+          "codeBytes": 0,
+          "instructions": 0,
+          "opcodeHistogram": {
+            "totalKinds": 0,
+            "totalCount": 0,
+            "sampled": {},
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1076/1076mapasset.swf",
+      "sourceSha256": "474f11b22396b01b16ebb03758cb24545e83035adfc237de4d9c401c5883181e",
+      "sourceBytes": 39754,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 68665,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 7,
+        "DefineBitsJPEG3": 2,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineMorphShape": 3,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 5,
+        "DefineShape3": 3,
+        "DefineShape4": 2,
+        "DefineSprite": 6,
+        "DefineText": 7,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 9,
+            "name": "com.mapobject.asset.wordtip75"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 27,
+            "name": "_1076MapAsset_fla.s2_2"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 28,
+            "name": "com.mapobject.asset.WaveAsset_01_left"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 29,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 29,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineFont3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineText",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              },
+              "strokes": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              },
+              "filters": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 27
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 6,
+          "sampled": [],
+          "truncated": 6
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 13,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 13,
+          "codeBytes": 211,
+          "instructions": 154,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 154,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 4,
+              "findpropstrict": 2,
+              "getlex": 33,
+              "getlocal0": 17,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 2,
+              "pushscope": 41,
+              "returnvoid": 13
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 13,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 13,
+              "codeBytes": 211,
+              "instructions": 154,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"_1076MapAsset_fla\"),\"s2_2\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_left\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 1
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 154,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 4,
+                  "findpropstrict": 2,
+                  "getlex": 33,
+                  "getlocal0": 17,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 2,
+                  "pushscope": 41,
+                  "returnvoid": 13
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 13,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 12
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1076/objects/1076mapasset.swf",
+      "sourceSha256": "57b9eabb50cfcf77c05b47044b0976299b93242ff1f7852ac03064f5f135ac06",
+      "sourceBytes": 39700,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 68643,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 8,
+        "DefineBitsJPEG3": 2,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineMorphShape": 3,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 5,
+        "DefineShape3": 3,
+        "DefineShape4": 2,
+        "DefineSprite": 6,
+        "DefineText": 8,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 10,
+            "name": "com.mapobject.asset.wordtip75"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 28,
+            "name": "_1076MapAsset_fla.s2_2"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 29,
+            "name": "com.mapobject.asset.WaveAsset_01_left"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 30,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 30,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineFont3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineText",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              },
+              "strokes": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              },
+              "filters": {
+                "xMinTwips": 38,
+                "xMaxTwips": 3288,
+                "yMinTwips": 136,
+                "yMaxTwips": 560
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 28
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 6,
+          "sampled": [],
+          "truncated": 6
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 13,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 13,
+          "codeBytes": 211,
+          "instructions": 154,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 154,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 4,
+              "findpropstrict": 2,
+              "getlex": 33,
+              "getlocal0": 17,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 2,
+              "pushscope": 41,
+              "returnvoid": 13
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 13,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 13,
+              "codeBytes": 211,
+              "instructions": 154,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"_1076MapAsset_fla\"),\"s2_2\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_left\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 1
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 154,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 4,
+                  "findpropstrict": 2,
+                  "getlex": 33,
+                  "getlocal0": 17,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 2,
+                  "pushscope": 41,
+                  "returnvoid": 13
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 13,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 12
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1077/objects/1076mapasset.swf",
+      "sourceSha256": "e5e83a1fdd610a418b8745867d2b88776ff2a3351ecdb45a6d0589d0b2b993fa",
+      "sourceBytes": 40615,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 69215,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 14,
+        "DefineBitsJPEG3": 2,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineMorphShape": 3,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 5,
+        "DefineShape3": 3,
+        "DefineShape4": 2,
+        "DefineSprite": 6,
+        "DefineText": 14,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 16,
+            "name": "com.mapobject.asset.wordtip75"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 34,
+            "name": "1076MapAsset_fla.s2_2"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 35,
+            "name": "com.mapobject.asset.WaveAsset_01_left"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 36,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 36,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineFont3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineText",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              },
+              "strokes": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              },
+              "filters": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 34
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 6,
+          "sampled": [],
+          "truncated": 6
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 13,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 13,
+          "codeBytes": 211,
+          "instructions": 154,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 154,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 4,
+              "findpropstrict": 2,
+              "getlex": 33,
+              "getlocal0": 17,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 2,
+              "pushscope": 41,
+              "returnvoid": 13
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 13,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 13,
+              "codeBytes": 211,
+              "instructions": 154,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"1076MapAsset_fla\"),\"s2_2\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_left\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 1
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 154,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 4,
+                  "findpropstrict": 2,
+                  "getlex": 33,
+                  "getlocal0": 17,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 2,
+                  "pushscope": 41,
+                  "returnvoid": 13
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 13,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 12
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1086/object/asset.swf",
+      "sourceSha256": "1b592d8dfaddbbee5917d635e9a1c9663fa5a6fdf260875220faab5cc9983537",
+      "sourceBytes": 40034,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 45039,
+        "frameRate": 12,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 3,
+        "DefineBitsJPEG3": 5,
+        "DefineBitsLossless2": 1,
+        "DefineButton2": 3,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineScalingGrid": 1,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 8,
+        "DefineShape2": 1,
+        "DefineSprite": 11,
+        "DefineText": 5,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 24,
+            "name": "Asset_fla.02_10"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 31,
+            "name": "Asset_fla.5_11"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 34,
+            "name": "Asset_fla.8_14"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 35,
+            "name": "com.map.trainer.TankTrainerAssetII"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 35,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsLossless2",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 11460,
+                "yMinTwips": 0,
+                "yMaxTwips": 3480
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 11460,
+                "yMinTwips": 0,
+                "yMaxTwips": 3480
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 11460,
+                "yMinTwips": 0,
+                "yMaxTwips": 3480
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape2",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 11397,
+                "yMinTwips": 0,
+                "yMaxTwips": 3480
+              },
+              "strokes": {
+                "xMinTwips": -10,
+                "xMaxTwips": 11397,
+                "yMinTwips": -10,
+                "yMaxTwips": 3480
+              },
+              "filters": {
+                "xMinTwips": -10,
+                "xMaxTwips": 11397,
+                "yMinTwips": -10,
+                "yMaxTwips": 3480
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 33
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 255,
+                  "green": 255,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 14,
+          "sampled": [],
+          "truncated": 14
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 17,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 17,
+          "codeBytes": 269,
+          "instructions": 186,
+          "opcodeHistogram": {
+            "totalKinds": 14,
+            "totalCount": 186,
+            "sampled": {
+              "callpropvoid": 7,
+              "constructprop": 1,
+              "constructsuper": 4,
+              "findpropstrict": 8,
+              "getlex": 37,
+              "getlocal0": 21,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 5,
+              "pushscope": 45,
+              "pushstring": 1,
+              "returnvoid": 17
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 17,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 17,
+              "codeBytes": 269,
+              "instructions": 186,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"Asset_fla\"),\"02_10\")",
+                  "QName(PackageNamespace(\"Asset_fla\"),\"5_11\")",
+                  "QName(PackageNamespace(\"Asset_fla\"),\"8_14\")",
+                  "QName(PackageNamespace(\"com.map.trainer\"),\"TankTrainerAssetII\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 14,
+                "totalCount": 186,
+                "sampled": {
+                  "callpropvoid": 7,
+                  "constructprop": 1,
+                  "constructsuper": 4,
+                  "findpropstrict": 8,
+                  "getlex": 37,
+                  "getlocal0": 21,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 5,
+                  "pushscope": 45,
+                  "pushstring": 1,
+                  "returnvoid": 17
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 17,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 16
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/11009/objects/1076mapasset.swf",
+      "sourceSha256": "e5e83a1fdd610a418b8745867d2b88776ff2a3351ecdb45a6d0589d0b2b993fa",
+      "sourceBytes": 40615,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 69215,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 14,
+        "DefineBitsJPEG3": 2,
+        "DefineFont3": 1,
+        "DefineFontAlignZones": 1,
+        "DefineFontName": 1,
+        "DefineMorphShape": 3,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 5,
+        "DefineShape3": 3,
+        "DefineShape4": 2,
+        "DefineSprite": 6,
+        "DefineText": 14,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 4,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 16,
+            "name": "com.mapobject.asset.wordtip75"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 34,
+            "name": "1076MapAsset_fla.s2_2"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 35,
+            "name": "com.mapobject.asset.WaveAsset_01_left"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 36,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 36,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineFont3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 10000,
+                "yMinTwips": 0,
+                "yMaxTwips": 10000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineText",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              },
+              "strokes": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              },
+              "filters": {
+                "xMinTwips": 15,
+                "xMaxTwips": 1179,
+                "yMinTwips": 136,
+                "yMaxTwips": 795
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 34
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 6,
+          "sampled": [],
+          "truncated": 6
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 13,
+          "instances": 4,
+          "classes": 4,
+          "scripts": 4,
+          "methodBodies": 13,
+          "codeBytes": 211,
+          "instructions": 154,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 154,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 4,
+              "findpropstrict": 2,
+              "getlex": 33,
+              "getlocal0": 17,
+              "getscopeobject": 4,
+              "initproperty": 4,
+              "newclass": 4,
+              "popscope": 28,
+              "pushbyte": 2,
+              "pushscope": 41,
+              "returnvoid": 13
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 13,
+              "instances": 4,
+              "classes": 4,
+              "scripts": 4,
+              "methodBodies": 13,
+              "codeBytes": 211,
+              "instructions": 154,
+              "classNames": {
+                "total": 4,
+                "sampled": [
+                  "QName(PackageNamespace(\"1076MapAsset_fla\"),\"s2_2\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_left\")",
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 1
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 154,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 4,
+                  "findpropstrict": 2,
+                  "getlex": 33,
+                  "getlocal0": 17,
+                  "getscopeobject": 4,
+                  "initproperty": 4,
+                  "newclass": 4,
+                  "popscope": 28,
+                  "pushbyte": 2,
+                  "pushscope": 41,
+                  "returnvoid": 13
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 13,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 12
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1118/object/asset.swf",
+      "sourceSha256": "7726ead695817f345f0a7224319dec80ed153a63678e7c1c57af5fae8734f0cd",
+      "sourceBytes": 57881,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 67133,
+        "frameRate": 12,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "CSMSettings": 8,
+        "DefineBitsJPEG3": 13,
+        "DefineBitsLossless2": 1,
+        "DefineButton2": 3,
+        "DefineEditText": 3,
+        "DefineFont3": 2,
+        "DefineFontAlignZones": 2,
+        "DefineFontName": 1,
+        "DefineScalingGrid": 1,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 12,
+        "DefineShape2": 2,
+        "DefineSprite": 16,
+        "DefineText": 5,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 7,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 1,
+            "name": "game.crazyTank.view.Prop20Asset"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 2,
+            "name": "game.crazyTank.view.Prop19Asset"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 3,
+            "name": "game.crazyTank.view.Prop11Asset"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 28,
+            "name": "Asset_fla.02_10"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 41,
+            "name": "Asset_fla.5_11"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 56,
+            "name": "Asset_fla.8_15"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 57,
+            "name": "com.map.trainer.TankTrainerAssetII"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 57,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 1,
+              "sampled": [
+                "game.crazyTank.view.Prop20Asset"
+              ],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 1,
+              "sampled": [
+                "game.crazyTank.view.Prop19Asset"
+              ],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1200,
+                "yMinTwips": 0,
+                "yMaxTwips": 1200
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 55
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 19,
+          "sampled": [],
+          "truncated": 19
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 27,
+          "instances": 7,
+          "classes": 7,
+          "scripts": 7,
+          "methodBodies": 27,
+          "codeBytes": 371,
+          "instructions": 262,
+          "opcodeHistogram": {
+            "totalKinds": 16,
+            "totalCount": 262,
+            "sampled": {
+              "callpropvoid": 8,
+              "constructprop": 1,
+              "constructsuper": 7,
+              "findpropstrict": 9,
+              "getlex": 47,
+              "getlocal0": 34,
+              "getlocal1": 3,
+              "getlocal2": 3,
+              "getscopeobject": 7,
+              "initproperty": 7,
+              "newclass": 7,
+              "popscope": 34,
+              "pushbyte": 6,
+              "pushscope": 61,
+              "pushstring": 1,
+              "returnvoid": 27
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 27,
+              "instances": 7,
+              "classes": 7,
+              "scripts": 7,
+              "methodBodies": 27,
+              "codeBytes": 371,
+              "instructions": 262,
+              "classNames": {
+                "total": 7,
+                "sampled": [
+                  "QName(PackageNamespace(\"Asset_fla\"),\"02_10\")",
+                  "QName(PackageNamespace(\"Asset_fla\"),\"5_11\")",
+                  "QName(PackageNamespace(\"Asset_fla\"),\"8_15\")",
+                  "QName(PackageNamespace(\"com.map.trainer\"),\"TankTrainerAssetII\")"
+                ],
+                "truncated": 3
+              },
+              "opcodeHistogram": {
+                "totalKinds": 16,
+                "totalCount": 262,
+                "sampled": {
+                  "callpropvoid": 8,
+                  "constructprop": 1,
+                  "constructsuper": 7,
+                  "findpropstrict": 9,
+                  "getlex": 47,
+                  "getlocal0": 34,
+                  "getlocal1": 3,
+                  "getlocal2": 3,
+                  "getscopeobject": 7,
+                  "initproperty": 7,
+                  "newclass": 7,
+                  "popscope": 34,
+                  "pushbyte": 6,
+                  "pushscope": 61,
+                  "pushstring": 1,
+                  "returnvoid": 27
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 27,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 4,
+                    "maxScopeDepth": 5,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 26
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1124/object/1124object.swf",
+      "sourceSha256": "2abf8814c10bfb0b40d112ebb292f88f3d69e9bc9bb11a0a4bda4c47efd0a605",
+      "sourceBytes": 13096,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 16887,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 5289,
+          "yMinTwips": 0,
+          "yMaxTwips": 2822
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 2,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 4,
+        "DefineShape2": 7,
+        "DefineShape4": 2,
+        "DefineSound": 1,
+        "DefineSprite": 2,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SoundStreamHead2": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 2,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 17,
+            "name": "_1124object_fla.Timeline_2"
+          },
+          {
+            "kind": "symbol-class",
+            "characterId": 18,
+            "name": "game.crazytank.assetmap.Dici"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 18,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 560,
+                "yMinTwips": 0,
+                "yMaxTwips": 540
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 560,
+                "yMinTwips": 0,
+                "yMaxTwips": 540
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 560,
+                "yMinTwips": 0,
+                "yMaxTwips": 540
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1760,
+                "yMinTwips": 0,
+                "yMaxTwips": 3340
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1760,
+                "yMinTwips": 0,
+                "yMaxTwips": 3340
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 1760,
+                "yMinTwips": 0,
+                "yMaxTwips": 3340
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 5,
+            "tag": "DefineSound",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": null,
+            "button": null
+          }
+        ],
+        "truncated": 15
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 5289,
+            "yMinTwips": 0,
+            "yMaxTwips": 2822
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 5289,
+            "yMinTwips": 0,
+            "yMaxTwips": 2822
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 102,
+                  "green": 102,
+                  "blue": 102,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 2,
+          "sampled": [],
+          "truncated": 2
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 7,
+          "instances": 2,
+          "classes": 2,
+          "scripts": 2,
+          "methodBodies": 7,
+          "codeBytes": 113,
+          "instructions": 81,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 81,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 2,
+              "findpropstrict": 2,
+              "getlex": 17,
+              "getlocal0": 9,
+              "getscopeobject": 2,
+              "initproperty": 2,
+              "newclass": 2,
+              "popscope": 14,
+              "pushbyte": 1,
+              "pushscope": 21,
+              "returnvoid": 7
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 7,
+              "instances": 2,
+              "classes": 2,
+              "scripts": 2,
+              "methodBodies": 7,
+              "codeBytes": 113,
+              "instructions": 81,
+              "classNames": {
+                "total": 2,
+                "sampled": [
+                  "QName(PackageNamespace(\"_1124object_fla\"),\"Timeline_2\")",
+                  "QName(PackageNamespace(\"game.crazytank.assetmap\"),\"Dici\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 81,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 2,
+                  "findpropstrict": 2,
+                  "getlex": 17,
+                  "getlocal0": 9,
+                  "getscopeobject": 2,
+                  "initproperty": 2,
+                  "newclass": 2,
+                  "popscope": 14,
+                  "pushbyte": 1,
+                  "pushscope": 21,
+                  "returnvoid": 7
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 7,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 6
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1124/object/1124object2.swf",
+      "sourceSha256": "4e62b6523610a895aa0adced679949ab52554fa0f34a6d79441038e4dd32567f",
+      "sourceBytes": 115131,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 127239,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 24,
+        "DefineBitsLossless2": 18,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 42,
+        "DefineSound": 1,
+        "DefineSprite": 3,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SoundStreamHead2": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 88,
+            "name": "game.crazytank.assetmap.Buff_powup"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 88,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsLossless2",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 4600,
+                "yMinTwips": 0,
+                "yMaxTwips": 4000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 4600,
+                "yMinTwips": 0,
+                "yMaxTwips": 4000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 4600,
+                "yMinTwips": 0,
+                "yMaxTwips": 4000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": -2328,
+                "xMaxTwips": 2328,
+                "yMinTwips": -2024,
+                "yMaxTwips": 2025
+              },
+              "strokes": {
+                "xMinTwips": -2338,
+                "xMaxTwips": 2328,
+                "yMinTwips": -2034,
+                "yMaxTwips": 2025
+              },
+              "filters": {
+                "xMinTwips": -2338,
+                "xMaxTwips": 2328,
+                "yMinTwips": -2034,
+                "yMaxTwips": 2025
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 5,
+            "tag": "DefineSound",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": null,
+            "button": null
+          }
+        ],
+        "truncated": 85
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 0,
+                  "green": 0,
+                  "blue": 0,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 3,
+          "sampled": [],
+          "truncated": 3
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 4,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 4,
+          "codeBytes": 65,
+          "instructions": 45,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 45,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 1,
+              "findpropstrict": 2,
+              "getlex": 9,
+              "getlocal0": 5,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushbyte": 1,
+              "pushscope": 11,
+              "returnvoid": 4
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 4,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 4,
+              "codeBytes": 65,
+              "instructions": 45,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"game.crazytank.assetmap\"),\"Buff_powup\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 45,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 1,
+                  "findpropstrict": 2,
+                  "getlex": 9,
+                  "getlocal0": 5,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushbyte": 1,
+                  "pushscope": 11,
+                  "returnvoid": 4
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 4,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 3
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1124/object/1124object3.swf",
+      "sourceSha256": "2f036b522049be383ef28aaa65382ea5d8b0abe31134f430ae621b1dc7a8931d",
+      "sourceBytes": 17487,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 22429,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsLossless2": 6,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 8,
+        "DefineSound": 1,
+        "DefineSprite": 4,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SoundStreamHead2": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 19,
+            "name": "game.crazyTank.view.Focus"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 19,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsLossless2",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 280,
+                "yMinTwips": 0,
+                "yMaxTwips": 480
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 280,
+                "yMinTwips": 0,
+                "yMaxTwips": 480
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 280,
+                "yMinTwips": 0,
+                "yMaxTwips": 480
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": -140,
+                "xMaxTwips": 140,
+                "yMinTwips": -240,
+                "yMaxTwips": 240
+              },
+              "strokes": {
+                "xMinTwips": -150,
+                "xMaxTwips": 140,
+                "yMinTwips": -250,
+                "yMaxTwips": 240
+              },
+              "filters": {
+                "xMinTwips": -150,
+                "xMaxTwips": 140,
+                "yMinTwips": -250,
+                "yMaxTwips": 240
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 3,
+            "tag": "DefineSound",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": null,
+            "button": null
+          }
+        ],
+        "truncated": 16
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 102,
+                  "green": 102,
+                  "blue": 102,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 4,
+          "sampled": [],
+          "truncated": 4
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 4,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 4,
+          "codeBytes": 65,
+          "instructions": 45,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 45,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 1,
+              "findpropstrict": 2,
+              "getlex": 9,
+              "getlocal0": 5,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushbyte": 1,
+              "pushscope": 11,
+              "returnvoid": 4
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 4,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 4,
+              "codeBytes": 65,
+              "instructions": 45,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"game.crazyTank.view\"),\"Focus\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 45,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 1,
+                  "findpropstrict": 2,
+                  "getlex": 9,
+                  "getlocal0": 5,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushbyte": 1,
+                  "pushscope": 11,
+                  "returnvoid": 4
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 4,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 3
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1126/object/1126object.swf",
+      "sourceSha256": "42d4e28cbf0cac6d033e8af0b482797782bb8468fcaf86b5ef3984bae4f160e1",
+      "sourceBytes": 89288,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 9,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 99479,
+        "frameRate": 25,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 13,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 13,
+        "DefineSound": 1,
+        "DefineSprite": 1,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SoundStreamHead2": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 28,
+            "name": "game.assetmap.Flame"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 28,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 6400,
+                "yMinTwips": 0,
+                "yMaxTwips": 4800
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 6400,
+                "yMinTwips": 0,
+                "yMaxTwips": 4800
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 6400,
+                "yMinTwips": 0,
+                "yMaxTwips": 4800
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": -3131,
+                "xMaxTwips": 4599,
+                "yMinTwips": -2320,
+                "yMaxTwips": 3477
+              },
+              "strokes": {
+                "xMinTwips": -3141,
+                "xMaxTwips": 4599,
+                "yMinTwips": -2330,
+                "yMaxTwips": 3477
+              },
+              "filters": {
+                "xMinTwips": -3141,
+                "xMaxTwips": 4599,
+                "yMinTwips": -2330,
+                "yMaxTwips": 3477
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 5,
+            "tag": "DefineSound",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": null,
+            "button": null
+          }
+        ],
+        "truncated": 25
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 1,
+          "sampled": [],
+          "truncated": 1
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 4,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 4,
+          "codeBytes": 65,
+          "instructions": 45,
+          "opcodeHistogram": {
+            "totalKinds": 12,
+            "totalCount": 45,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 1,
+              "findpropstrict": 2,
+              "getlex": 9,
+              "getlocal0": 5,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushbyte": 1,
+              "pushscope": 11,
+              "returnvoid": 4
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 4,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 4,
+              "codeBytes": 65,
+              "instructions": 45,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"game.assetmap\"),\"Flame\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 12,
+                "totalCount": 45,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 1,
+                  "findpropstrict": 2,
+                  "getlex": 9,
+                  "getlocal0": 5,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushbyte": 1,
+                  "pushscope": 11,
+                  "returnvoid": 4
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 4,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 3
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1151/objects/1151mapasset.swf",
+      "sourceSha256": "2da23588e302d09fec46ed17c0df0ad25806d64604b46c394116e3788f709216",
+      "sourceBytes": 80805,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 10,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 81233,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 2,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 4,
+        "DefineSprite": 3,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 9,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 9,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2359,
+                "yMinTwips": 810,
+                "yMaxTwips": 7329
+              },
+              "strokes": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              },
+              "filters": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 7
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 255,
+                  "green": 255,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 3,
+          "sampled": [],
+          "truncated": 3
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 3,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 3,
+          "codeBytes": 48,
+          "instructions": 36,
+          "opcodeHistogram": {
+            "totalKinds": 9,
+            "totalCount": 36,
+            "sampled": {
+              "constructsuper": 1,
+              "getlex": 8,
+              "getlocal0": 4,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushscope": 10,
+              "returnvoid": 3
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 3,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 3,
+              "codeBytes": 48,
+              "instructions": 36,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 9,
+                "totalCount": 36,
+                "sampled": {
+                  "constructsuper": 1,
+                  "getlex": 8,
+                  "getlocal0": 4,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushscope": 10,
+                  "returnvoid": 3
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 3,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 2
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1151/objects/1151mapasset2.swf",
+      "sourceSha256": "f1031dffbd9976ec00bdf441093389e2c4e18f54e9c0399b664bfb983ae2a69c",
+      "sourceBytes": 77240,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 10,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 78649,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 2,
+        "DefineMorphShape": 1,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 4,
+        "DefineShape3": 3,
+        "DefineSprite": 3,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "Metadata": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 13,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 13,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2359,
+                "yMinTwips": 810,
+                "yMaxTwips": 7329
+              },
+              "strokes": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              },
+              "filters": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 11
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 255,
+                  "green": 255,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 3,
+          "sampled": [],
+          "truncated": 3
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 3,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 3,
+          "codeBytes": 48,
+          "instructions": 36,
+          "opcodeHistogram": {
+            "totalKinds": 9,
+            "totalCount": 36,
+            "sampled": {
+              "constructsuper": 1,
+              "getlex": 8,
+              "getlocal0": 4,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushscope": 10,
+              "returnvoid": 3
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 3,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 3,
+              "codeBytes": 48,
+              "instructions": 36,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 9,
+                "totalCount": 36,
+                "sampled": {
+                  "constructsuper": 1,
+                  "getlex": 8,
+                  "getlocal0": 4,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushscope": 10,
+                  "returnvoid": 3
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 3,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 2
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1152/objects/waveasset_01_right.swf",
+      "sourceSha256": "6c1a46abb3ea6f28c3d8304aadec26932a0457c40411029a9abc1b5797a52ab0",
+      "sourceBytes": 77163,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 10,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 78849,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 2,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 4,
+        "DefineShape3": 3,
+        "DefineShape4": 2,
+        "DefineSprite": 3,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 14,
+            "name": "com.mapobject.asset.WaveAsset_01_right"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 14,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2360,
+                "yMinTwips": 0,
+                "yMaxTwips": 6520
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2359,
+                "yMinTwips": 810,
+                "yMaxTwips": 7329
+              },
+              "strokes": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              },
+              "filters": {
+                "xMinTwips": -10,
+                "xMaxTwips": 2359,
+                "yMinTwips": 800,
+                "yMaxTwips": 7329
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 12
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "Scene 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 255,
+                  "green": 255,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 3,
+          "sampled": [],
+          "truncated": 3
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 3,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 3,
+          "codeBytes": 48,
+          "instructions": 36,
+          "opcodeHistogram": {
+            "totalKinds": 9,
+            "totalCount": 36,
+            "sampled": {
+              "constructsuper": 1,
+              "getlex": 8,
+              "getlocal0": 4,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushscope": 10,
+              "returnvoid": 3
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 3,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 3,
+              "codeBytes": 48,
+              "instructions": 36,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"com.mapobject.asset\"),\"WaveAsset_01_right\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 9,
+                "totalCount": 36,
+                "sampled": {
+                  "constructsuper": 1,
+                  "getlex": 8,
+                  "getlocal0": 4,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushscope": 10,
+                  "returnvoid": 3
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 3,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 2
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1636/object/558a.swf",
+      "sourceSha256": "38dce2bbab0780290a44533c917b5427173996f4b57bcc28e6d5db1eb9754c50",
+      "sourceBytes": 100206,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 15,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 105428,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 11000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 7,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 7,
+        "DefineShape2": 4,
+        "DefineShape3": 5,
+        "DefineSprite": 8,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "Metadata": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 31,
+            "name": "asset.game.fifteen.558a"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 31,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": -6424,
+                "xMaxTwips": 6333,
+                "yMinTwips": -3909,
+                "yMaxTwips": 4140
+              },
+              "strokes": {
+                "xMinTwips": -6434,
+                "xMaxTwips": 6333,
+                "yMinTwips": -3919,
+                "yMaxTwips": 4140
+              },
+              "filters": {
+                "xMinTwips": -6434,
+                "xMaxTwips": 6333,
+                "yMinTwips": -3919,
+                "yMaxTwips": 4140
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2640,
+                "yMinTwips": 0,
+                "yMaxTwips": 2580
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2640,
+                "yMinTwips": 0,
+                "yMaxTwips": 2580
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 2640,
+                "yMinTwips": 0,
+                "yMaxTwips": 2580
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 29
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 11000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 255,
+                  "green": 255,
+                  "blue": 255,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 8,
+          "sampled": [],
+          "truncated": 8
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 4,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 4,
+          "codeBytes": 66,
+          "instructions": 46,
+          "opcodeHistogram": {
+            "totalKinds": 13,
+            "totalCount": 46,
+            "sampled": {
+              "callpropvoid": 2,
+              "constructsuper": 1,
+              "findpropstrict": 2,
+              "getlex": 8,
+              "getlocal0": 6,
+              "getproperty": 1,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushbyte": 1,
+              "pushscope": 11,
+              "returnvoid": 4
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 4,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 4,
+              "codeBytes": 66,
+              "instructions": 46,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"asset.game.fifteen\"),\"558a\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 13,
+                "totalCount": 46,
+                "sampled": {
+                  "callpropvoid": 2,
+                  "constructsuper": 1,
+                  "findpropstrict": 2,
+                  "getlex": 8,
+                  "getlocal0": 6,
+                  "getproperty": 1,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushbyte": 1,
+                  "pushscope": 11,
+                  "returnvoid": 4
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 4,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 3
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    },
+    {
+      "path": "image/map/1651/object/628a.swf",
+      "sourceSha256": "de02ef2376c0658de02b3f031ee779832ac5e6ec5a084515b46e7ffab0c8578b",
+      "sourceBytes": 86390,
+      "classification": "unresolved",
+      "browserRuntimeAllowed": false,
+      "conversionDisposition": "metadata-preserved-visual-composition-unresolved",
+      "reason": "evidence-only-swf-requires-reviewed-browser-conversion",
+      "swf": {
+        "version": 15,
+        "compression": "ZLIB",
+        "declaredUncompressedBytes": 94095,
+        "frameRate": 24,
+        "frameCount": 1,
+        "displayRect": {
+          "xMinTwips": 0,
+          "xMaxTwips": 8000,
+          "yMinTwips": 0,
+          "yMaxTwips": 8000
+        },
+        "actionScript3": true,
+        "documentClass": null,
+        "gfx": false,
+        "encrypted": false,
+        "cyclicCharacterIds": {
+          "total": 0,
+          "sampled": [],
+          "truncated": 0
+        }
+      },
+      "rootTagCounts": {
+        "DefineBitsJPEG3": 19,
+        "DefineSceneAndFrameLabelData": 1,
+        "DefineShape": 19,
+        "DefineSprite": 4,
+        "DoABC2": 1,
+        "FileAttributes": 1,
+        "Metadata": 1,
+        "SetBackgroundColor": 1,
+        "ShowFrame": 1,
+        "SymbolClass": 1
+      },
+      "linkages": {
+        "total": 1,
+        "sampled": [
+          {
+            "kind": "symbol-class",
+            "characterId": 42,
+            "name": "asset.game.fifteen.628a"
+          }
+        ],
+        "truncated": 0
+      },
+      "characters": {
+        "total": 42,
+        "sampled": [
+          {
+            "id": 1,
+            "tag": "DefineBitsJPEG3",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": 0,
+                "xMaxTwips": 3000,
+                "yMinTwips": 0,
+                "yMaxTwips": 2000
+              },
+              "strokes": {
+                "xMinTwips": 0,
+                "xMaxTwips": 3000,
+                "yMinTwips": 0,
+                "yMaxTwips": 2000
+              },
+              "filters": {
+                "xMinTwips": 0,
+                "xMaxTwips": 3000,
+                "yMinTwips": 0,
+                "yMaxTwips": 2000
+              }
+            },
+            "button": null
+          },
+          {
+            "id": 2,
+            "tag": "DefineShape",
+            "exportName": null,
+            "classNames": {
+              "total": 0,
+              "sampled": [],
+              "truncated": 0
+            },
+            "bounds": {
+              "fill": {
+                "xMinTwips": -2930,
+                "xMaxTwips": 3144,
+                "yMinTwips": -3224,
+                "yMaxTwips": 825
+              },
+              "strokes": {
+                "xMinTwips": -2940,
+                "xMaxTwips": 3144,
+                "yMinTwips": -3234,
+                "yMaxTwips": 825
+              },
+              "filters": {
+                "xMinTwips": -2940,
+                "xMaxTwips": 3144,
+                "yMinTwips": -3234,
+                "yMaxTwips": 825
+              }
+            },
+            "button": null
+          }
+        ],
+        "truncated": 40
+      },
+      "timelines": {
+        "root": {
+          "frameCount": 1,
+          "maxDepth": 0,
+          "singleFrame": true,
+          "aggregate": {
+            "frameFacts": 1,
+            "depthRuns": 0,
+            "actions": 0,
+            "labels": 0,
+            "sounds": 0,
+            "soundClasses": 0
+          },
+          "displayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 8000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "filteredDisplayRect": {
+            "xMinTwips": 0,
+            "xMaxTwips": 8000,
+            "yMinTwips": 0,
+            "yMaxTwips": 8000
+          },
+          "scenes": {
+            "total": 1,
+            "sampled": [
+              {
+                "name": "场景 1",
+                "startFrame": 0,
+                "endFrame": 0
+              }
+            ],
+            "truncated": 0
+          },
+          "frameFacts": {
+            "total": 1,
+            "sampled": [
+              {
+                "frame": 0,
+                "labels": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "sounds": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "soundClasses": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                },
+                "backgroundColor": {
+                  "red": 153,
+                  "green": 153,
+                  "blue": 153,
+                  "alpha": 255
+                },
+                "actions": {
+                  "total": 0,
+                  "sampled": [],
+                  "truncated": 0
+                }
+              }
+            ],
+            "truncated": 0
+          },
+          "depthRuns": {
+            "total": 0,
+            "sampled": [],
+            "truncated": 0
+          }
+        },
+        "characters": {
+          "total": 4,
+          "sampled": [],
+          "truncated": 4
+        }
+      },
+      "actionScript3": {
+        "summary": {
+          "containers": 1,
+          "methods": 6,
+          "instances": 1,
+          "classes": 1,
+          "scripts": 1,
+          "methodBodies": 6,
+          "codeBytes": 96,
+          "instructions": 64,
+          "opcodeHistogram": {
+            "totalKinds": 14,
+            "totalCount": 64,
+            "sampled": {
+              "callpropvoid": 4,
+              "constructsuper": 1,
+              "findpropstrict": 4,
+              "getlex": 8,
+              "getlocal0": 10,
+              "getproperty": 3,
+              "getscopeobject": 1,
+              "initproperty": 1,
+              "newclass": 1,
+              "popscope": 7,
+              "pushbyte": 3,
+              "pushscope": 13,
+              "pushstring": 2,
+              "returnvoid": 6
+            },
+            "truncatedKinds": 0
+          }
+        },
+        "containers": {
+          "total": 1,
+          "sampled": [
+            {
+              "index": 0,
+              "tag": "DoABC2Tag",
+              "name": "",
+              "flags": 1,
+              "version": {
+                "major": 46,
+                "minor": 16
+              },
+              "methods": 6,
+              "instances": 1,
+              "classes": 1,
+              "scripts": 1,
+              "methodBodies": 6,
+              "codeBytes": 96,
+              "instructions": 64,
+              "classNames": {
+                "total": 1,
+                "sampled": [
+                  "QName(PackageNamespace(\"asset.game.fifteen\"),\"628a\")"
+                ],
+                "truncated": 0
+              },
+              "opcodeHistogram": {
+                "totalKinds": 14,
+                "totalCount": 64,
+                "sampled": {
+                  "callpropvoid": 4,
+                  "constructsuper": 1,
+                  "findpropstrict": 4,
+                  "getlex": 8,
+                  "getlocal0": 10,
+                  "getproperty": 3,
+                  "getscopeobject": 1,
+                  "initproperty": 1,
+                  "newclass": 1,
+                  "popscope": 7,
+                  "pushbyte": 3,
+                  "pushscope": 13,
+                  "pushstring": 2,
+                  "returnvoid": 6
+                },
+                "truncatedKinds": 0
+              },
+              "bodies": {
+                "total": 6,
+                "sampled": [
+                  {
+                    "index": 0,
+                    "methodInfo": 0,
+                    "methodName": "UNKNOWN",
+                    "codeBytes": 3,
+                    "codeSha256": "a968960b201420953c59656517f78c74a88e3e2aebf37839d8e70f6e531134c4",
+                    "instructions": 3,
+                    "opcodeHistogram": {
+                      "totalKinds": 3,
+                      "totalCount": 3,
+                      "sampled": {
+                        "getlocal0": 1,
+                        "pushscope": 1,
+                        "returnvoid": 1
+                      },
+                      "truncatedKinds": 0
+                    },
+                    "maxStack": 1,
+                    "maxRegisters": 1,
+                    "initialScopeDepth": 9,
+                    "maxScopeDepth": 10,
+                    "exceptions": 0,
+                    "decodeError": null
+                  }
+                ],
+                "truncated": 5
+              }
+            }
+          ],
+          "truncated": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "records": 18,
+    "browserRuntimeAllowed": 0,
+    "visualCompositionsConverted": 0
+  },
+  "runtimePolicy": {
+    "swfRuntimeAllowed": false,
+    "representativeFrameClaimsFullTimeline": false,
+    "failClosed": true
+  }
+}

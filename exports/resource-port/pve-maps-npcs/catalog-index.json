@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "classification",
+    "inspectionProfile",
+    "detectedFormat",
+    "contentType",
+    "width",
+    "height",
+    "alphaKind",
+    "animated",
+    "mapId",
+    "basename"
+  ],
+  "shards": [
+    {
+      "dependencySessionId": "R027",
+      "path": "exports/resource-port/pve-maps-npcs/catalog/r027.json",
+      "bytes": 1244653,
+      "sha256": "01623ffe1c6708b5f4ad40409d8c9dccdfea687594187bea798e97ffd211e1b6",
+      "contentType": "application/json",
+      "files": 3703
+    }
+  ],
+  "summary": {
+    "files": 3703,
+    "bytes": 357578563,
+    "uniqueBlobs": 2764,
+    "exact": 3527,
+    "inferred": 0,
+    "unresolved": 176,
+    "exactRasters": 3526,
+    "exactText": 1,
+    "profiles": {
+      "raster": 3651,
+      "fla-authoring": 16,
+      "swf-timeline": 18,
+      "text-data": 7,
+      "binary-unknown": 11
+    }
+  },
+  "publication": {
+    "sourceObjectKeys": "exact Resource source paths",
+    "sourceBytesDuplicatedIntoPackage": 0,
+    "r2First": true
+  }
+}

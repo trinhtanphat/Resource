@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "owner": "pve-maps-npcs",
+  "branch": "resource-port/P040-pve-maps-npcs",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependencies": [
+    {
+      "sessionId": "R027",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "4bf2cab1daf733964dd8772498f2d306e3a73584",
+      "evidencePath": "config/resource-port-evidence/R027.json",
+      "evidenceGitBlobSha1": "da1e356d1b862375339e2d5225baff76bca7c951",
+      "evidenceSha256": "c31226fb36ff5a644666fbff2c0c999e36550eeee65df1df6ec30efc237a167e",
+      "importerPath": "scripts/import-resource-port-r027.mjs",
+      "importerGitBlobSha1": "0e435aeabdbbccd541900eedff2bb60f8cbdee53",
+      "importerSha256": "a97550b61f1991d10d7e5455fdcba60ed36bbe5e346f793e50a33b8ac38f1a7e",
+      "sourceFiles": 3703,
+      "sourceBytes": 357578563,
+      "trackBDependencySatisfied": true,
+      "selectedFiles": 3703,
+      "selectedBytes": 357578563
+    }
+  ],
+  "contextPins": [
+    {
+      "path": "scripts/gunny92-collision-sources.mjs",
+      "blob": "7c707e27b365b560767ff69f75f45b9838c951f9",
+      "sha256": "61feb6b659432abf2c55ae70a905e7513097faef8c8d4b68b560e10338e91caf"
+    },
+    {
+      "path": "scripts/import-source-pve-map-assets.mjs",
+      "blob": "fdee49e1f7e1add422e1a4e8f0d1de08174c15ee",
+      "sha256": "74fce3dfacd596600521c2683ed6df9238a34c1e4dd3d786c6f8c713b040bfc1"
+    },
+    {
+      "path": "scripts/import-gunny92-little-game-assets.mjs",
+      "blob": "69acffdbb23198087c1d92582120a4051d212fb4",
+      "sha256": "9374a60c0abc0ae495671ec83874b5ca9530bcddba47711333ac1d894153d49e"
+    },
+    {
+      "path": "src/shared/source-battle-maps.ts",
+      "blob": "a5f803ab1e46f9225e7588067671afdb0ecf38fe",
+      "sha256": "741d9ee33be71564a81f995bfa9922470f08f9fda1aec0265d48000983353288"
+    },
+    {
+      "path": "src/shared/source-pve-maps.ts",
+      "blob": "d02f65ebad90ee0ab7f88e85548643dc2454bb43",
+      "sha256": "9b8bc0744082d83a406e51cfed999e31e827da95e02573781c87952127b13d04"
+    },
+    {
+      "path": "config/source-npc-sprite-coverage.json",
+      "blob": "e532daf3f4ebc3b6b499b86882dc577546d8ceec",
+      "sha256": "ac0fcaa41b11532a5392c9b203363808cbc1d6db9fb9de67f55d82c0a956a018"
+    },
+    {
+      "path": "public/game-data/content/source-npc-sprites.json",
+      "blob": "709bb8171a11afa178897a7621b99fe40a24f8b7",
+      "sha256": "2ee9fc793389f1726c6e3702fcddd72f15d27b6e8d3b35d8dacd5f785eedbbe7"
+    },
+    {
+      "path": "docs/NPC_SPRITE_PIPELINE.md",
+      "blob": "970e5f947b34309e510a6051880591862bea5a64",
+      "sha256": "74242ae9f6384030240297857a9f2325ed3ce8d1326b63fa2d35ecdbbafa58b6"
+    }
+  ],
+  "summary": {
+    "files": 3703,
+    "bytes": 357578563,
+    "uniqueBlobs": 2764,
+    "exact": 3527,
+    "inferred": 0,
+    "unresolved": 176,
+    "exactRasters": 3526,
+    "exactText": 1,
+    "profiles": {
+      "raster": 3651,
+      "fla-authoring": 16,
+      "swf-timeline": 18,
+      "text-data": 7,
+      "binary-unknown": 11
+    },
+    "catalogShards": 1,
+    "sourceFilesProcessed": 3703,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "conversion": {
+    "exactBrowserNativeSourceObjects": 3527,
+    "exactRasterObjects": 3526,
+    "exactTextObjects": 1,
+    "exactConsumerMappedPaths": 282,
+    "parsedTilemaps": 1,
+    "swfTimelineMetadataRecords": 18,
+    "swfVisualCompositionsConverted": 0,
+    "npcAssignedSourceFiles": 0,
+    "npcFullAnimationsConverted": 0
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P040.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R027-evidence-and-importer-blobs",
+    "consumerEvidence": "pass-282-exact-source-paths-across-197-map-identities",
+    "tilemapParserReuse": "pass-existing-Gunny-parser-contract-and-exact-decoded-hash",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "claims": {
+    "exactMapConsumerPaths": 282,
+    "exactCollisionVisualMappings": 194,
+    "exactTilemapStructure": 1,
+    "collisionOrSpawnInferredFromArt": false,
+    "representativeNpcFrameClaimsAnimation": false,
+    "swfRuntimeAllowed": false,
+    "crossOwnerNpcAssetsUsed": false,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "immutablePackageCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "immutableMergeCommit": null
+  },
+  "generatedAt": "2026-08-02T00:00:00Z",
+  "githubActions": false
+}

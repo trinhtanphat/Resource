@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "sourceAssignment": {
+    "assignedR027Files": 0,
+    "permittedFamily": "R027-assigned NPC presentation files only",
+    "observedR027NpcFiles": 0
+  },
+  "currentGunnyContext": {
+    "catalogNpcRows": 658,
+    "referencedSpriteModels": 194,
+    "representativeStaticSprites": 207,
+    "npcIdsCoveredByRepresentativeSprites": 651,
+    "spritesWithoutUsableRepresentativeFrame": [
+      "1001"
+    ],
+    "fullAnimationTimelinesPackagedByP040": 0,
+    "staticRepresentativeIsFullAnimation": false
+  },
+  "classification": "unresolved",
+  "blocker": "R027 contains only image/map and image/tilemap; no NPC presentation file is assigned to P040",
+  "crossOwnerAssetsUsed": false,
+  "runtimeIntegration": false
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "owner": "pve-maps-npcs",
+  "status": "complete-package-with-explicit-unresolved",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "sessions": [
+      "R027"
+    ],
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "verifiedOnMain": "4bf2cab1daf733964dd8772498f2d306e3a73584"
+  },
+  "summary": {
+    "files": 3703,
+    "bytes": 357578563,
+    "uniqueBlobs": 2764,
+    "exact": 3527,
+    "inferred": 0,
+    "unresolved": 176,
+    "exactRasters": 3526,
+    "exactText": 1,
+    "profiles": {
+      "raster": 3651,
+      "fla-authoring": 16,
+      "swf-timeline": 18,
+      "text-data": 7,
+      "binary-unknown": 11
+    }
+  },
+  "conversion": {
+    "exactBrowserNativeSourceObjects": 3527,
+    "exactRasterObjects": 3526,
+    "exactTextObjects": 1,
+    "exactConsumerMappedPaths": 282,
+    "parsedTilemaps": 1,
+    "swfTimelineMetadataRecords": 18,
+    "swfVisualCompositionsConverted": 0,
+    "npcAssignedSourceFiles": 0,
+    "npcFullAnimationsConverted": 0
+  },
+  "readiness": {
+    "sourceFilesProcessed": 3703,
+    "sourceFilesUnprocessed": 0,
+    "mapIdentityAndExactActivePresentation": true,
+    "authoritativeCollisionBits": false,
+    "authoredSpawnsAndCoordinates": false,
+    "npcAnimation": false,
+    "legacyRuntimeContainersAllowed": false,
+    "runtimeIntegration": false
+  },
+  "exports": [
+    {
+      "path": "exports/resource-port/pve-maps-npcs/catalog-index.json",
+      "bytes": 1102,
+      "sha256": "9986fd8b0f717c3081a7116b40865f0285558579925c033f3ee2bb588d54dd4c",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/catalog/r027.json",
+      "bytes": 1244653,
+      "sha256": "01623ffe1c6708b5f4ad40409d8c9dccdfea687594187bea798e97ffd211e1b6",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/map-catalog.json",
+      "bytes": 1834658,
+      "sha256": "d9bbaa584b2fa737cc4de1eb0b1be6110caa998bee6cbacbdbd2fabe2437dcd0",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/collision-contract.json",
+      "bytes": 63107,
+      "sha256": "36ccb8c57ac651ba0f252ebe02873aa2d89f7ce9eeb14fbd4d7824ebcc9fc0d7",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/tilemap/map-1.json",
+      "bytes": 206088,
+      "sha256": "64e64b9c0eb31da43099f2b73431325d0ae7b22e6c2950547745d7c9ffa96701",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/timeline-index.json",
+      "bytes": 160829,
+      "sha256": "84ce27da9cdbd860915d342417b9bc78cfc82d508a52043e30ae52e352c08015",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/npc-presentation.json",
+      "bytes": 765,
+      "sha256": "d5981dc29dfadb4c828677632d4fb77e1d8df21e7c7021adfd3f1ec587f690bf",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/runtime-contract.json",
+      "bytes": 2030,
+      "sha256": "2bf23d1aafaaae92621f593f56fea28fb1e8dcca5697460269ac3c9e3ec0d5bf",
+      "contentType": "application/json"
+    }
+  ],
+  "githubActions": false
+}

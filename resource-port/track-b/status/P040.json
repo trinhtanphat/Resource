@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "owner": "pve-maps-npcs",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 3703,
+    "bytes": 357578563,
+    "uniqueBlobs": 2764,
+    "exact": 3527,
+    "inferred": 0,
+    "unresolved": 176,
+    "exactRasters": 3526,
+    "exactText": 1,
+    "profiles": {
+      "raster": 3651,
+      "fla-authoring": 16,
+      "swf-timeline": 18,
+      "text-data": 7,
+      "binary-unknown": 11
+    },
+    "catalogShards": 1,
+    "sourceFilesProcessed": 3703,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P040.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R027-evidence-and-importer-blobs",
+    "consumerEvidence": "pass-282-exact-source-paths-across-197-map-identities",
+    "tilemapParserReuse": "pass-existing-Gunny-parser-contract-and-exact-decoded-hash",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "585 map directories and 3244 exact raster objects have no active consumer mapping in the pinned Gunny context",
+    "18 SWF containers retain FFDec metadata but have no reviewed browser-native visual composition",
+    "authoritative collision bitmaps stay in Gunny server-owned .map sources and are not within the R027 Resource families",
+    "R027 contains no authored spawn or coordinate record; P040 does not infer either from artwork",
+    "R027 assigns zero NPC presentation files; static representatives and full NPC animation remain outside this package",
+    "125 raster, 16 authoring, 6 text, and 11 binary source files remain unresolved",
+    "runtime selection and gameplay authority belong to R040, not this Resource package"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}
