@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P046",
+  "runtimeSessionId": "R046",
+  "owner": "common-ui",
+  "status": "complete-package",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "dependency": {
+    "sessionId": "R034",
+    "implementationCommit": "c5901c0f8d6afec812a80db44e72185dc88b59d5",
+    "evidenceGitBlobSha1": "9a8304d4c702d00515e2f9b2c8425ef3875225e0",
+    "dispatchSha256": "af3fe27570aead68dc7812376bd69b04baaa5e0afc0ea3c4c99e932e76e6fc43",
+    "verifiedOnGunnyMain": "5bd99a2eeed0a63ac379f3291272b9b3f0e54dae"
+  },
+  "summary": {
+    "files": 47,
+    "sourceBytes": 278072,
+    "browserBytes": 278067,
+    "identityPng": 46,
+    "adaptedLegacyPng": 1,
+    "exactAssetSelections": 47,
+    "unresolvedConsumers": 47
+  },
+  "publication": {
+    "repository": "trinhtanphat/Resource",
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null,
+    "note": "The immutable publication commit is the eventual merge result and is pinned by Gunny R046, never by this self-referential package commit."
+  },
+  "checks": {
+    "metadataAndTotals": "pass",
+    "gitObjectConstruction": "pass",
+    "packageChecker": "equivalent-pass: 47 exact source blob references accepted; 46 output paths reuse the same Git blobs; icon1 derivative Git blob matches the R034-proven output; JSON and Node syntax pass locally",
+    "fullCheckoutCommand": "not-run: connector environment has no complete checkout and GitHub Actions are forbidden",
+    "programVerifier": "unchanged-current-main-baseline-pass; coordinator-owned session-map not edited",
+    "githubActionsUsedOrInspected": false
+  }
+}

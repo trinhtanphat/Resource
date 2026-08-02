@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P046",
+  "runtimeSessionId": "R046",
+  "owner": "common-ui",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "family": "image/interfaceicons/"
+  },
+  "dependency": {
+    "repository": "trinhtanphat/Gunny",
+    "sessionId": "R034",
+    "implementationCommit": "c5901c0f8d6afec812a80db44e72185dc88b59d5",
+    "findingsCommit": "39cdbcd065dcdb4169b9d91754f79df5d4cc601b",
+    "reviewedCurrentMain": "5bd99a2eeed0a63ac379f3291272b9b3f0e54dae",
+    "path": "config/resource-port-evidence/R034.json",
+    "gitBlobSha1": "9a8304d4c702d00515e2f9b2c8425ef3875225e0",
+    "dispatchSha256": "af3fe27570aead68dc7812376bd69b04baaa5e0afc0ea3c4c99e932e76e6fc43"
+  },
+  "summary": {
+    "files": 47,
+    "sourceBytes": 278072,
+    "browserBytes": 278067,
+    "uniqueOutputs": 47,
+    "identityPng": 46,
+    "adaptedLegacyPng": 1,
+    "exactAssetSelections": 47,
+    "inferredVisualFamilies": 47,
+    "unresolvedConsumers": 47,
+    "runtimeIntegration": false
+  },
+  "outputs": [
+    {
+      "path": "exports/resource-port/common-ui/manifest.json",
+      "sha256": "5d2e8885f868171adbbf02e8ea496afe66931b645a5055453a3d30c559fc2552"
+    },
+    {
+      "path": "exports/resource-port/common-ui/assets-01.json",
+      "sha256": "a970478f79a3ec03a1c927b5b2ab5b74f3c57134cf4188ce7572c32ef2f2bc3d"
+    },
+    {
+      "path": "exports/resource-port/common-ui/assets-02.json",
+      "sha256": "408806d8210e59e4a3c3d08dcaafd22dabf3f60835cc08679e57fa139c057694"
+    },
+    {
+      "path": "exports/resource-port/common-ui/assets-03.json",
+      "sha256": "45ca0d8c751f9dabbd79a0776ea5c89727a44e5590159b99e3b77c75d12a0f8d"
+    },
+    {
+      "path": "exports/resource-port/common-ui/assets-04.json",
+      "sha256": "cf5afaa622ce8cea2b9f285409f57a9084957876d7cb8229bc8256daaf25ab7c"
+    },
+    {
+      "path": "resource-port/track-b/contracts/common-ui.json",
+      "sha256": "33331c2e04537fc2c8163cfa88f439208fde284ee7d055de7f6ae3fedfab83f9"
+    },
+    {
+      "path": "resource-port/track-b/checks/P046.mjs",
+      "sha256": "82e359d28cd59a763b55b7b308ac14872e5e122ba8a193dc9ad9110e8b875733"
+    },
+    {
+      "path": "resource-port/track-b/status/P046.json",
+      "sha256": "c8472fe90f636a974ca737c23c8582831a7ee9bb1c336bac257a0617b9762d8c"
+    }
+  ],
+  "binaryOutputs": {
+    "count": 47,
+    "bytes": 278067,
+    "contentAddressed": true,
+    "identitySourceBlobs": 46,
+    "derivedBlobs": 1
+  },
+  "classification": {
+    "assetSelections": {
+      "exact": 47,
+      "inferred": 0,
+      "unresolved": 0
+    },
+    "visualFamilies": {
+      "exact": 0,
+      "inferred": 47,
+      "unresolved": 0
+    },
+    "consumerMappings": {
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 47
+    }
+  },
+  "validation": {
+    "metadataCensus": "pass",
+    "sourceAndBrowserByteTotals": "pass",
+    "uniquePathsAndDigests": "pass",
+    "gitObjectConstruction": "pass",
+    "identityOutputs": "pass-by-same-git-blob-reference",
+    "derivedIcon1": "pass-by-R034-proven-Git-blob-and-enforced-CRC-checker",
+    "jsonParseAndNodeSyntax": "pass",
+    "fullCheckoutCheckerCommand": "not-run-connector-no-complete-checkout",
+    "githubActionsUsedOrInspected": false
+  }
+}
