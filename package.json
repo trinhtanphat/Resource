@@ -17,7 +17,18 @@
     "r2:verify": "node scripts/r2-deploy.mjs verify",
     "r2:probe": "node scripts/r2-deploy.mjs probe",
     "r2:deploy": "node scripts/r2-deploy.mjs deploy",
-    "r2:validate": "node scripts/validate-r2-config.mjs"
+    "r2:validate": "node scripts/validate-r2-config.mjs",
+    "r2:plan:ci": "node scripts/r2-ci-deploy.mjs plan",
+    "r2:deploy:ci": "node scripts/r2-ci-deploy.mjs deploy",
+    "r2:verify:ci": "node scripts/r2-ci-deploy.mjs verify-manifest",
+    "r2:probe:ci": "node scripts/r2-ci-deploy.mjs probe",
+    "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
+    "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
+    "cloudflare:deploy:r2": "npm run r2:deploy:ci && npm run deploy:r2-worker"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1095.0",
+    "@aws-sdk/lib-storage": "3.1095.0"
   },
   "devDependencies": {
     "wrangler": "^4.34.0"
