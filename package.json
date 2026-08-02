@@ -16,7 +16,8 @@
     "r2:sync": "node scripts/r2-deploy.mjs sync",
     "r2:verify": "node scripts/r2-deploy.mjs verify",
     "r2:probe": "node scripts/r2-deploy.mjs probe",
-    "r2:deploy": "node scripts/r2-deploy.mjs deploy"
+    "r2:deploy": "node scripts/r2-deploy.mjs deploy",
+    "r2:validate": "node scripts/validate-r2-config.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.34.0"
