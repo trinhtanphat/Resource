@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "repository": "trinhtanphat/Gunny",
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "verifiedOnMain": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170"
+  },
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "classification",
+    "inspectionProfile",
+    "detectedFormat",
+    "contentType",
+    "width",
+    "height",
+    "alphaMode",
+    "animated",
+    "pathVariantToken",
+    "genderToken"
+  ],
+  "shards": [
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r001.json",
+      "sha256": "e8e009839347a822491101533f384d67ab005cba60d9a7fb2f5e15fbef47f367",
+      "files": 4096,
+      "bytes": 125527544,
+      "uniqueBlobs": 1949,
+      "exact": 3871,
+      "inferred": 0,
+      "unresolved": 225,
+      "profiles": {
+        "text-data": 3,
+        "raster": 4019,
+        "fla-authoring": 8,
+        "swf-timeline": 27,
+        "binary-unknown": 39
+      },
+      "pathVariantTokens": {
+        "game": 1467,
+        "show": 778,
+        "icon": 1735,
+        "none": 116
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 4096
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r002.json",
+      "sha256": "a6a5af3bb189a51cad6f6d21c63d6f1b45722d5b4ffa2ea61b2950ef66a03052",
+      "files": 4091,
+      "bytes": 85870742,
+      "uniqueBlobs": 2372,
+      "exact": 4008,
+      "inferred": 0,
+      "unresolved": 83,
+      "profiles": {
+        "raster": 4040,
+        "binary-unknown": 24,
+        "text-data": 7,
+        "swf-timeline": 13,
+        "fla-authoring": 7
+      },
+      "pathVariantTokens": {
+        "game": 1429,
+        "show": 898,
+        "icon": 1671,
+        "none": 93
+      },
+      "genderTokens": {
+        "m": 24,
+        "f": 605,
+        "none": 3462
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r003.json",
+      "sha256": "c04e0c69accd2972514de188ccead5741ff4321b6d4018c08fd8b1daf1c0ae40",
+      "files": 4096,
+      "bytes": 43989397,
+      "uniqueBlobs": 4005,
+      "exact": 4093,
+      "inferred": 0,
+      "unresolved": 3,
+      "profiles": {
+        "raster": 4093,
+        "text-data": 3
+      },
+      "pathVariantTokens": {
+        "game": 1572,
+        "show": 1585,
+        "icon": 932,
+        "none": 7
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r004.json",
+      "sha256": "3a5787d3afa8ace8b5aecc902de98ddb058797c33ab15af16235b38a90bde725",
+      "files": 4096,
+      "bytes": 70101842,
+      "uniqueBlobs": 3308,
+      "exact": 4077,
+      "inferred": 0,
+      "unresolved": 19,
+      "profiles": {
+        "raster": 4077,
+        "text-data": 3,
+        "fla-authoring": 11,
+        "binary-unknown": 5
+      },
+      "pathVariantTokens": {
+        "game": 1631,
+        "show": 1377,
+        "icon": 1063,
+        "none": 25
+      },
+      "genderTokens": {
+        "m": 1982,
+        "f": 2114,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r005.json",
+      "sha256": "fcb14fd9718b210dd31dbffda6276f649c967c21509ce749437c72a4ef4e6a22",
+      "files": 4096,
+      "bytes": 83999996,
+      "uniqueBlobs": 3657,
+      "exact": 4080,
+      "inferred": 0,
+      "unresolved": 16,
+      "profiles": {
+        "raster": 4080,
+        "text-data": 2,
+        "fla-authoring": 11,
+        "binary-unknown": 3
+      },
+      "pathVariantTokens": {
+        "game": 1633,
+        "show": 1451,
+        "icon": 994,
+        "none": 18
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r006.json",
+      "sha256": "8a7a600be45adbb90775ee51c69689be319bcef8ef85352eab665e2dfe81cdcb",
+      "files": 4096,
+      "bytes": 109373811,
+      "uniqueBlobs": 3233,
+      "exact": 3968,
+      "inferred": 0,
+      "unresolved": 128,
+      "profiles": {
+        "raster": 3990,
+        "fla-authoring": 50,
+        "binary-unknown": 14,
+        "text-data": 1,
+        "swf-timeline": 41
+      },
+      "pathVariantTokens": {
+        "game": 1582,
+        "show": 1526,
+        "icon": 876,
+        "none": 112
+      },
+      "genderTokens": {
+        "m": 558,
+        "f": 3220,
+        "none": 318
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r007.json",
+      "sha256": "9e77d90e5f019636f288ba180f4647ef76d3c95ada11ea9029f28c7cbf1e4d6b",
+      "files": 4096,
+      "bytes": 59718742,
+      "uniqueBlobs": 3523,
+      "exact": 4062,
+      "inferred": 0,
+      "unresolved": 34,
+      "profiles": {
+        "raster": 4095,
+        "binary-unknown": 1
+      },
+      "pathVariantTokens": {
+        "game": 1643,
+        "show": 1667,
+        "icon": 779,
+        "none": 7
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r008.json",
+      "sha256": "23c81db76860e5627557baf14bc3d3f42c8f05c61b4b46f1a92096f74912261e",
+      "files": 4096,
+      "bytes": 70851644,
+      "uniqueBlobs": 3697,
+      "exact": 4030,
+      "inferred": 0,
+      "unresolved": 66,
+      "profiles": {
+        "raster": 4073,
+        "text-data": 2,
+        "binary-unknown": 21
+      },
+      "pathVariantTokens": {
+        "game": 1693,
+        "show": 1711,
+        "icon": 663,
+        "none": 29
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r009.json",
+      "sha256": "0782adf3adf3dffb43924c5ad3ea66ae997bb11d698e67759ebd229fe5bd843a",
+      "files": 4096,
+      "bytes": 64690161,
+      "uniqueBlobs": 3436,
+      "exact": 3860,
+      "inferred": 0,
+      "unresolved": 236,
+      "profiles": {
+        "binary-unknown": 74,
+        "raster": 4021,
+        "text-data": 1
+      },
+      "pathVariantTokens": {
+        "game": 1552,
+        "show": 1546,
+        "icon": 923,
+        "none": 75
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r010.json",
+      "sha256": "6fb316441c1bb5e6886d2ceb41c3bb1a1e0b4f9f340403cd76c900ee809bdb9f",
+      "files": 4096,
+      "bytes": 172225315,
+      "uniqueBlobs": 1880,
+      "exact": 2333,
+      "inferred": 0,
+      "unresolved": 1763,
+      "profiles": {
+        "raster": 4017,
+        "text-data": 1,
+        "binary-unknown": 67,
+        "fla-authoring": 11
+      },
+      "pathVariantTokens": {
+        "game": 1544,
+        "show": 1151,
+        "icon": 1298,
+        "none": 103
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r011.json",
+      "sha256": "0081f63cfdf990df995380c209aba512e84f497b2e018ac8a4e85f7743ee89ba",
+      "files": 4096,
+      "bytes": 114714049,
+      "uniqueBlobs": 2491,
+      "exact": 3354,
+      "inferred": 0,
+      "unresolved": 742,
+      "profiles": {
+        "raster": 3970,
+        "binary-unknown": 115,
+        "fla-authoring": 10,
+        "text-data": 1
+      },
+      "pathVariantTokens": {
+        "game": 1661,
+        "show": 1184,
+        "icon": 1112,
+        "none": 139
+      },
+      "genderTokens": {
+        "m": 1054,
+        "f": 3042,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r012.json",
+      "sha256": "7e5685c60c428b639c78b7d121ff0f421924624778b7ee094694b29d8aa1d806",
+      "files": 4096,
+      "bytes": 60533102,
+      "uniqueBlobs": 2938,
+      "exact": 3608,
+      "inferred": 0,
+      "unresolved": 488,
+      "profiles": {
+        "raster": 3938,
+        "binary-unknown": 158
+      },
+      "pathVariantTokens": {
+        "game": 1476,
+        "show": 1529,
+        "icon": 930,
+        "none": 161
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r013.json",
+      "sha256": "76d5e5138723a63ff0248be898c5007787720619fe7dafebdbf8a7e5d928a44b",
+      "files": 4096,
+      "bytes": 49004376,
+      "uniqueBlobs": 3553,
+      "exact": 4018,
+      "inferred": 0,
+      "unresolved": 78,
+      "profiles": {
+        "raster": 4044,
+        "fla-authoring": 2,
+        "binary-unknown": 48,
+        "text-data": 2
+      },
+      "pathVariantTokens": {
+        "game": 1593,
+        "show": 1642,
+        "icon": 805,
+        "none": 56
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r014.json",
+      "sha256": "03b328b5925b21de2fe792900595746cc140cff1562619971232b96607d3faf8",
+      "files": 4096,
+      "bytes": 67465703,
+      "uniqueBlobs": 3654,
+      "exact": 4044,
+      "inferred": 0,
+      "unresolved": 52,
+      "profiles": {
+        "raster": 4087,
+        "text-data": 2,
+        "binary-unknown": 7
+      },
+      "pathVariantTokens": {
+        "game": 1726,
+        "show": 1721,
+        "icon": 637,
+        "none": 12
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r015.json",
+      "sha256": "b22cb82aac542c88d81294c5fb38e4d64f1c1c3fca5df78bf88d5e3b94ddb678",
+      "files": 4096,
+      "bytes": 88294809,
+      "uniqueBlobs": 3311,
+      "exact": 3911,
+      "inferred": 0,
+      "unresolved": 185,
+      "profiles": {
+        "raster": 4079,
+        "binary-unknown": 11,
+        "text-data": 1,
+        "fla-authoring": 5
+      },
+      "pathVariantTokens": {
+        "game": 1534,
+        "show": 1272,
+        "icon": 1250,
+        "none": 40
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r016.json",
+      "sha256": "9e4d31ab026602eb4abe51f633dd3b0f2db8c154c3cb41e9f5b402f6e10c1772",
+      "files": 4096,
+      "bytes": 198110679,
+      "uniqueBlobs": 3117,
+      "exact": 3980,
+      "inferred": 0,
+      "unresolved": 116,
+      "profiles": {
+        "raster": 4044,
+        "fla-authoring": 16,
+        "binary-unknown": 26,
+        "text-data": 1,
+        "swf-timeline": 9
+      },
+      "pathVariantTokens": {
+        "game": 1427,
+        "show": 839,
+        "icon": 1734,
+        "none": 96
+      },
+      "genderTokens": {
+        "m": 2261,
+        "f": 0,
+        "none": 1835
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r017.json",
+      "sha256": "c79b414c4d9fe1cdf9c417ab5448fc27f0014b4e5f30a05c42e16310ee8a2c4a",
+      "files": 2976,
+      "bytes": 296407895,
+      "uniqueBlobs": 2111,
+      "exact": 2239,
+      "inferred": 0,
+      "unresolved": 737,
+      "profiles": {
+        "raster": 2241,
+        "binary-unknown": 148,
+        "fla-authoring": 236,
+        "text-data": 2,
+        "swf-timeline": 349
+      },
+      "pathVariantTokens": {
+        "game": 820,
+        "show": 499,
+        "icon": 919,
+        "none": 738
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 2976
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r018.json",
+      "sha256": "98e2f9aca4cb8058f852fb1702cf6af4305444fadd2da471d5d9188ed39490fa",
+      "files": 4031,
+      "bytes": 32531711,
+      "uniqueBlobs": 3269,
+      "exact": 3535,
+      "inferred": 0,
+      "unresolved": 496,
+      "profiles": {
+        "binary-unknown": 14,
+        "raster": 4017
+      },
+      "pathVariantTokens": {
+        "game": 1202,
+        "show": 1201,
+        "icon": 1086,
+        "none": 542
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4030,
+        "none": 1
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r019.json",
+      "sha256": "668e8490430c086a37116a7a818ac665e9c87a23a3ad06324a7859c1453cdc63",
+      "files": 4096,
+      "bytes": 51457150,
+      "uniqueBlobs": 3555,
+      "exact": 3673,
+      "inferred": 0,
+      "unresolved": 423,
+      "profiles": {
+        "raster": 4074,
+        "text-data": 2,
+        "binary-unknown": 20
+      },
+      "pathVariantTokens": {
+        "game": 989,
+        "show": 1004,
+        "icon": 722,
+        "none": 1381
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r020.json",
+      "sha256": "23c03c7630fdd1d7003c4d214507b6b85e70db2a864e7850435b93356e7c3eac",
+      "files": 4096,
+      "bytes": 140934513,
+      "uniqueBlobs": 3401,
+      "exact": 3674,
+      "inferred": 0,
+      "unresolved": 422,
+      "profiles": {
+        "raster": 3983,
+        "binary-unknown": 105,
+        "text-data": 2,
+        "fla-authoring": 6
+      },
+      "pathVariantTokens": {
+        "game": 1449,
+        "show": 1222,
+        "icon": 948,
+        "none": 477
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 4096,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r021.json",
+      "sha256": "66aec3be20979feac549310965747c0dcb4011b8a429ccf1bcd722d773a8a49b",
+      "files": 4096,
+      "bytes": 79226622,
+      "uniqueBlobs": 2877,
+      "exact": 3491,
+      "inferred": 0,
+      "unresolved": 605,
+      "profiles": {
+        "raster": 3831,
+        "binary-unknown": 260,
+        "fla-authoring": 4,
+        "text-data": 1
+      },
+      "pathVariantTokens": {
+        "game": 1467,
+        "show": 1210,
+        "icon": 1133,
+        "none": 286
+      },
+      "genderTokens": {
+        "m": 2453,
+        "f": 1643,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r022.json",
+      "sha256": "a1312c728110698a7c2171df90c0ee469c13483cbf0143e063a750d1c391bb1b",
+      "files": 4096,
+      "bytes": 58347368,
+      "uniqueBlobs": 3305,
+      "exact": 3688,
+      "inferred": 0,
+      "unresolved": 408,
+      "profiles": {
+        "raster": 4004,
+        "binary-unknown": 88,
+        "fla-authoring": 2,
+        "text-data": 2
+      },
+      "pathVariantTokens": {
+        "game": 885,
+        "show": 906,
+        "icon": 772,
+        "none": 1533
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r023.json",
+      "sha256": "aba701aa994d7d208f7aafce8a9aba7fa30ab6dd2707f5b6fdcb1c117004e366",
+      "files": 4096,
+      "bytes": 54005604,
+      "uniqueBlobs": 3478,
+      "exact": 3555,
+      "inferred": 0,
+      "unresolved": 541,
+      "profiles": {
+        "raster": 4083,
+        "text-data": 2,
+        "binary-unknown": 11
+      },
+      "pathVariantTokens": {
+        "game": 1268,
+        "show": 1268,
+        "icon": 806,
+        "none": 754
+      },
+      "genderTokens": {
+        "m": 4096,
+        "f": 0,
+        "none": 0
+      }
+    },
+    {
+      "path": "exports/resource-port/avatar-equipment/catalog/r024.json",
+      "sha256": "2bdae646ade6b5df7f5269cdd29428f98ea05a22cdb80e904c6f2efc059b2196",
+      "files": 3862,
+      "bytes": 243266233,
+      "uniqueBlobs": 2878,
+      "exact": 3708,
+      "inferred": 0,
+      "unresolved": 154,
+      "profiles": {
+        "raster": 3725,
+        "binary-unknown": 11,
+        "fla-authoring": 12,
+        "text-data": 1,
+        "swf-timeline": 113
+      },
+      "pathVariantTokens": {
+        "game": 1633,
+        "show": 1048,
+        "icon": 1039,
+        "none": 142
+      },
+      "genderTokens": {
+        "m": 3748,
+        "f": 0,
+        "none": 114
+      }
+    }
+  ],
+  "summary": {
+    "files": 96880,
+    "bytes": 2420649008,
+    "uniqueBlobs": 32148,
+    "exact": 88860,
+    "inferred": 0,
+    "unresolved": 8020,
+    "profiles": {
+      "text-data": 42,
+      "raster": 94625,
+      "fla-authoring": 391,
+      "swf-timeline": 552,
+      "binary-unknown": 1270
+    },
+    "pathVariantTokens": {
+      "game": 34876,
+      "show": 30235,
+      "icon": 24827,
+      "none": 6942
+    },
+    "genderTokens": {
+      "m": 40752,
+      "f": 43326,
+      "none": 12802
+    }
+  },
+  "families": {
+    "flash/characterdefine.xml": {
+      "files": 1,
+      "bytes": 3688,
+      "uniqueBlobs": 1,
+      "exact": 1,
+      "inferred": 0,
+      "unresolved": 0,
+      "profiles": {
+        "text-data": 1
+      },
+      "pathVariantTokens": {
+        "game": 0,
+        "show": 0,
+        "icon": 0,
+        "none": 1
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 1
+      }
+    },
+    "image/arm/": {
+      "files": 7122,
+      "bytes": 200478569,
+      "uniqueBlobs": 2909,
+      "exact": 6867,
+      "inferred": 0,
+      "unresolved": 255,
+      "profiles": {
+        "raster": 7016,
+        "fla-authoring": 8,
+        "swf-timeline": 29,
+        "binary-unknown": 60,
+        "text-data": 9
+      },
+      "pathVariantTokens": {
+        "game": 2654,
+        "show": 1381,
+        "icon": 2918,
+        "none": 169
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 7122
+      }
+    },
+    "image/equip/": {
+      "files": 61384,
+      "bytes": 1560397550,
+      "uniqueBlobs": 25721,
+      "exact": 56668,
+      "inferred": 0,
+      "unresolved": 4716,
+      "profiles": {
+        "raster": 59892,
+        "binary-unknown": 701,
+        "swf-timeline": 410,
+        "fla-authoring": 359,
+        "text-data": 22
+      },
+      "pathVariantTokens": {
+        "game": 23329,
+        "show": 20995,
+        "icon": 15403,
+        "none": 1657
+      },
+      "genderTokens": {
+        "m": 26359,
+        "f": 29461,
+        "none": 5564
+      }
+    },
+    "image/virtual/": {
+      "files": 28261,
+      "bytes": 627815237,
+      "uniqueBlobs": 17518,
+      "exact": 25324,
+      "inferred": 0,
+      "unresolved": 2937,
+      "profiles": {
+        "binary-unknown": 507,
+        "raster": 27717,
+        "text-data": 10,
+        "fla-authoring": 24,
+        "swf-timeline": 3
+      },
+      "pathVariantTokens": {
+        "game": 8893,
+        "show": 7859,
+        "icon": 6506,
+        "none": 5003
+      },
+      "genderTokens": {
+        "m": 14393,
+        "f": 13865,
+        "none": 3
+      }
+    },
+    "image/weapon/": {
+      "files": 57,
+      "bytes": 15978350,
+      "uniqueBlobs": 54,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 57,
+      "profiles": {
+        "swf-timeline": 55,
+        "binary-unknown": 2
+      },
+      "pathVariantTokens": {
+        "game": 0,
+        "show": 0,
+        "icon": 0,
+        "none": 57
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 57
+      }
+    },
+    "weekly/weapon/": {
+      "files": 55,
+      "bytes": 15975614,
+      "uniqueBlobs": 53,
+      "exact": 0,
+      "inferred": 0,
+      "unresolved": 55,
+      "profiles": {
+        "swf-timeline": 55
+      },
+      "pathVariantTokens": {
+        "game": 0,
+        "show": 0,
+        "icon": 0,
+        "none": 55
+      },
+      "genderTokens": {
+        "m": 0,
+        "f": 0,
+        "none": 55
+      }
+    }
+  },
+  "publication": {
+    "mode": "content-addressed-source-reference",
+    "canonicalObjectKey": "exact Resource source path",
+    "bytesDuplicatedIntoPackage": 0,
+    "browserNativeRasterFiles": 94625
+  }
+}

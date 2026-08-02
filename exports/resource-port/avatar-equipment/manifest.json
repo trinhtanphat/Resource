@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "runtimeSessionId": "R038",
+  "owner": "avatar-equipment",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "repository": "trinhtanphat/Gunny",
+    "sessions": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R010",
+      "R011",
+      "R012",
+      "R013",
+      "R014",
+      "R015",
+      "R016",
+      "R017",
+      "R018",
+      "R019",
+      "R020",
+      "R021",
+      "R022",
+      "R023",
+      "R024"
+    ],
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "verifiedOnMain": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170"
+  },
+  "exports": [
+    "exports/resource-port/avatar-equipment/catalog-index.json",
+    "exports/resource-port/avatar-equipment/character-rig.json",
+    "exports/resource-port/avatar-equipment/sprite-frame-contract.json",
+    "exports/resource-port/avatar-equipment/catalog/r001.json",
+    "exports/resource-port/avatar-equipment/catalog/r002.json",
+    "exports/resource-port/avatar-equipment/catalog/r003.json",
+    "exports/resource-port/avatar-equipment/catalog/r004.json",
+    "exports/resource-port/avatar-equipment/catalog/r005.json",
+    "exports/resource-port/avatar-equipment/catalog/r006.json",
+    "exports/resource-port/avatar-equipment/catalog/r007.json",
+    "exports/resource-port/avatar-equipment/catalog/r008.json",
+    "exports/resource-port/avatar-equipment/catalog/r009.json",
+    "exports/resource-port/avatar-equipment/catalog/r010.json",
+    "exports/resource-port/avatar-equipment/catalog/r011.json",
+    "exports/resource-port/avatar-equipment/catalog/r012.json",
+    "exports/resource-port/avatar-equipment/catalog/r013.json",
+    "exports/resource-port/avatar-equipment/catalog/r014.json",
+    "exports/resource-port/avatar-equipment/catalog/r015.json",
+    "exports/resource-port/avatar-equipment/catalog/r016.json",
+    "exports/resource-port/avatar-equipment/catalog/r017.json",
+    "exports/resource-port/avatar-equipment/catalog/r018.json",
+    "exports/resource-port/avatar-equipment/catalog/r019.json",
+    "exports/resource-port/avatar-equipment/catalog/r020.json",
+    "exports/resource-port/avatar-equipment/catalog/r021.json",
+    "exports/resource-port/avatar-equipment/catalog/r022.json",
+    "exports/resource-port/avatar-equipment/catalog/r023.json",
+    "exports/resource-port/avatar-equipment/catalog/r024.json"
+  ],
+  "summary": {
+    "files": 96880,
+    "bytes": 2420649008,
+    "uniqueBlobs": 32148,
+    "exact": 88860,
+    "inferred": 0,
+    "unresolved": 8020,
+    "profiles": {
+      "text-data": 42,
+      "raster": 94625,
+      "fla-authoring": 391,
+      "swf-timeline": 552,
+      "binary-unknown": 1270
+    },
+    "pathVariantTokens": {
+      "game": 34876,
+      "show": 30235,
+      "icon": 24827,
+      "none": 6942
+    },
+    "genderTokens": {
+      "m": 40752,
+      "f": 43326,
+      "none": 12802
+    }
+  },
+  "readiness": {
+    "package": "complete-with-explicit-unresolved",
+    "sourceFilesProcessed": 96880,
+    "sourceFilesUnprocessed": 0,
+    "browserNativeRastersCatalogued": 94625,
+    "legacyRuntimeContainersAllowed": false,
+    "runtimeIntegration": false
+  },
+  "unresolved": [
+    "552 SWF timelines do not have reviewed browser-native frame/duration/transform conversion",
+    "391 FLA authoring files remain evidence-only",
+    "1270 unknown binary files remain quarantined from runtime",
+    "secondary weapon layers and uncurated path variants have no consumer authority",
+    "color values and animation duration are not authored by characterdefine.xml"
+  ],
+  "githubActions": false
+}
