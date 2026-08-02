@@ -17,6 +17,8 @@
       "video/**",
       "weekly/**",
       "xml/**",
+      "scripts/materialize-r2-runtime-exports.mjs",
+      "scripts/r2-runtime-command.mjs",
       "scripts/r2-ci-deploy.mjs",
       "scripts/validate-r2-config.mjs",
       "src/r2-deployer-worker.mjs",
@@ -40,6 +42,8 @@
     "This file is the canonical dashboard matrix; Cloudflare does not import it automatically.",
     "Create or connect the Worker named ddtank-r2-deployer to this repository.",
     "Keep preview builds disabled so non-main branches cannot publish production objects.",
+    "The production command materializes immutable browser-ready runtime exports before scanning R2 objects.",
+    "External runtime source updates require an immutable pin change in r2-deployment.json.",
     "Set R2_PUBLIC_BASE_URL only after a custom domain or temporary r2.dev URL is enabled."
   ]
 }
