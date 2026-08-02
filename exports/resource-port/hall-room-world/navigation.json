@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "runtimeSessionId": "R045",
+  "authority": "presentation-contract-only",
+  "transitions": [
+    {"id": "hall-to-room", "from": "hall", "to": "room", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "Room membership and routing belong to Gunny runtime authority."},
+    {"id": "room-to-hall", "from": "room", "to": "hall", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "No reviewed source hotspot/handler pair is published by R033."},
+    {"id": "world-to-hall", "from": "world", "to": "hall", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "Scene transition target is known; authored hit bounds are not independently authoritative."},
+    {"id": "world-to-hot-spring", "from": "world", "to": "hot-spring", "state": "foundation-only", "enabled": false, "coordinates": null, "handler": null, "reason": "Hot Spring backdrop/foundation does not prove control or entry eligibility."},
+    {"id": "hot-spring-to-world", "from": "hot-spring", "to": "world", "state": "foundation-only", "enabled": false, "coordinates": null, "handler": null, "reason": "Exit control and lifecycle are not published."}
+  ],
+  "hotspots": {
+    "published": 5,
+    "enabled": 0,
+    "coordinatePolicy": "Coordinates remain null unless R045 runtime integration binds an exact R033 placement and an authoritative handler.",
+    "zOrder": 400,
+    "maskPolicy": "Preserve source clipDepth masks when a reviewed browser timeline conversion exists; otherwise disable."
+  },
+  "states": {
+    "default": {"visible": true, "interactive": false},
+    "loading": {"visible": true, "interactive": false},
+    "disabled": {"visible": true, "interactive": false},
+    "waiting": {"visible": true, "interactive": false},
+    "ready": {"visible": true, "interactive": false},
+    "in-game": {"visible": true, "interactive": false},
+    "closed": {"visible": false, "interactive": false},
+    "foundation": {"visible": true, "interactive": false}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "sceneId": "hot-spring",
+  "scope": "visual-foundations",
+  "sourcePrefix": "image/hotSpring/",
+  "published": {
+    "backdrops": {"status": "catalogued-by-R033", "contentAddressed": true},
+    "skins": {"status": "catalogued-by-R033", "contentAddressed": true},
+    "compiledCoordinates": {"status": "reference-only", "source": "R033 FFDec transforms and bounds"},
+    "zOrder": {"status": "reference-only", "source": "R033 display depths"},
+    "masks": {"status": "reference-only", "source": "R033 clipDepth"},
+    "states": ["foundation", "loading", "disabled"]
+  },
+  "notPublished": [
+    "HotSpringControl.swf browser runtime",
+    "entry or exit eligibility",
+    "movement, bathing, buff or economy behavior",
+    "room membership",
+    "click handlers and hit areas without handler proof",
+    "NPC or player lifecycle"
+  ],
+  "runtimeIntegration": false,
+  "failClosed": true
+}

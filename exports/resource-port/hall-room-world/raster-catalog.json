@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P045",
+  "trackASnapshot": {
+    "sessionId": "R033",
+    "implementationCommit": "3540fda0bf108366ae855028c6f55016ad1902f5",
+    "manifestPath": "public/assets/resource-port/hall-room-world/r033/manifest.json",
+    "manifestGitBlobSha1": "1832a3ef59202315b88ccfc5c84a9b8e13b9953b",
+    "evidencePath": "config/resource-port-evidence/R033.json",
+    "evidenceGitBlobSha1": "08bd429f94363b9d368194e82d5705fee8f90909",
+    "dispatchPath": "config/resource-port-dispatch/shards/hall-room-world-001.json",
+    "dispatchGitBlobSha1": "7bcc645d7c5b13a24cdb78ae3923e7fce19f822f",
+    "dispatchSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a"
+  },
+  "summary": {
+    "sourceFiles": 396,
+    "sourceBytes": 48720359,
+    "rasterReferences": 311,
+    "directRasters": 293,
+    "extractedBundleRasters": 18,
+    "uniqueBrowserRasterBlobs": 156,
+    "unresolvedSwfOccurrences": 101,
+    "unresolvedSwfUniqueBlobs": 97,
+    "legacyBundles": 8,
+    "excludedHtml": 1,
+    "excludedMarkers": 2
+  },
+  "publication": {
+    "mode": "content-addressed-reference",
+    "bytesDuplicatedIntoPackage": 0,
+    "immutableSourceCommit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "reason": "The exact raster blobs already exist in the raw Resource pin and R033 catalog; P045 publishes scene selection/placement contracts without duplicating 48.7 MB.",
+    "consumerMustPinResourceMergeCommit": true
+  },
+  "exclusions": {"swf": true, "html": true, "unknown": true}
+}
