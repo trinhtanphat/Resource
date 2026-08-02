@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "accountName": "trinhtanphat3333",
   "accountId": "291f5d12e63427644f59ac4a1d8f9664",
   "bucket": "ddtank-resource",
@@ -24,6 +24,19 @@
       ],
       "probeContentTypePrefix": ""
     }
+  },
+  "ci": {
+    "worker": "ddtank-r2-deployer",
+    "productionBranch": "main",
+    "manifestPrefix": "_deployment/manifests",
+    "hashConcurrency": 8,
+    "uploadConcurrency": 48,
+    "verifyConcurrency": 32,
+    "verifySampleSize": 256,
+    "checkpointEveryFiles": 5000,
+    "multipartThresholdBytes": 67108864,
+    "multipartPartBytes": 8388608,
+    "cacheControl": "public, max-age=86400"
   },
   "rclone": {
     "remoteName": "cloudflare-r2",
