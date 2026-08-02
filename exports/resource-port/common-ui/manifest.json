@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P046",
+  "runtimeSessionId": "R046",
+  "owner": "common-ui",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "family": "image/interfaceicons/"
+  },
+  "trackAEvidence": {
+    "repository": "trinhtanphat/Gunny",
+    "sessionId": "R034",
+    "implementationCommit": "c5901c0f8d6afec812a80db44e72185dc88b59d5",
+    "findingsCommit": "39cdbcd065dcdb4169b9d91754f79df5d4cc601b",
+    "reviewedCurrentMain": "5bd99a2eeed0a63ac379f3291272b9b3f0e54dae",
+    "path": "config/resource-port-evidence/R034.json",
+    "gitBlobSha1": "9a8304d4c702d00515e2f9b2c8425ef3875225e0",
+    "dispatchSha256": "af3fe27570aead68dc7812376bd69b04baaa5e0afc0ea3c4c99e932e76e6fc43"
+  },
+  "classification": {
+    "assetSelection": {
+      "value": "exact",
+      "count": 47
+    },
+    "visualFamily": {
+      "value": "inferred",
+      "count": 47,
+      "name": "legacy-hall-interface-shortcut-icon"
+    },
+    "consumerMapping": {
+      "value": "unresolved",
+      "count": 47,
+      "semanticNames": 0,
+      "hotspots": 0,
+      "interactionRoles": 0,
+      "states": 0,
+      "reason": "Numeric filenames and embedded bitmap labels do not prove runtime owner, click handler, ordering, availability, or lifecycle."
+    }
+  },
+  "legacyRepair": {
+    "filename": "icon1.png",
+    "prefixHex": "00035e5f5e",
+    "prefixBytes": 5,
+    "browserOffset": 16,
+    "fromHex": "ff",
+    "toHex": "00",
+    "storedIhdrCrc32": "2b0e3243",
+    "corruptIhdrCrc32": "16e0bee5",
+    "restoredIhdrCrc32": "2b0e3243"
+  },
+  "summary": {
+    "files": 47,
+    "sourceBytes": 278072,
+    "browserBytes": 278067,
+    "identityPng": 46,
+    "adaptedLegacyPng": 1,
+    "runtimeIntegration": false
+  },
+  "runtimeBoundary": {
+    "packageOnly": true,
+    "nextSession": "R046",
+    "failClosedUntilExactConsumerMapping": true
+  },
+  "assetShards": [
+    "exports/resource-port/common-ui/assets-01.json",
+    "exports/resource-port/common-ui/assets-02.json",
+    "exports/resource-port/common-ui/assets-03.json",
+    "exports/resource-port/common-ui/assets-04.json"
+  ],
+  "assetShardSha256": {
+    "exports/resource-port/common-ui/assets-01.json": "a970478f79a3ec03a1c927b5b2ab5b74f3c57134cf4188ce7572c32ef2f2bc3d",
+    "exports/resource-port/common-ui/assets-02.json": "408806d8210e59e4a3c3d08dcaafd22dabf3f60835cc08679e57fa139c057694",
+    "exports/resource-port/common-ui/assets-03.json": "45ca0d8c751f9dabbd79a0776ea5c89727a44e5590159b99e3b77c75d12a0f8d",
+    "exports/resource-port/common-ui/assets-04.json": "cf5afaa622ce8cea2b9f285409f57a9084957876d7cb8229bc8256daaf25ab7c"
+  }
+}

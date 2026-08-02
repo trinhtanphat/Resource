@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P046",
+  "runtimeSessionId": "R046",
+  "owner": "common-ui",
+  "packageManifest": "exports/resource-port/common-ui/manifest.json",
+  "assetAddressing": {
+    "kind": "immutable-commit-relative-path",
+    "repository": "trinhtanphat/Resource",
+    "cdnTemplate": "https://cdn.jsdelivr.net/gh/trinhtanphat/Resource@<immutable-commit>/<output.path>",
+    "mutableBranchAllowed": false
+  },
+  "rendering": {
+    "intrinsicDimensionsRequired": true,
+    "alphaMustBePreserved": true,
+    "redrawAllowed": false,
+    "labelReplacementAllowed": false,
+    "inventedStatesAllowed": false
+  },
+  "consumerMapping": {
+    "status": "unresolved",
+    "assetCount": 47,
+    "semanticNamesResolved": 0,
+    "hotspotsResolved": 0,
+    "interactionRolesResolved": 0,
+    "statesResolved": 0,
+    "orderingResolved": false,
+    "availabilityGatesResolved": false,
+    "lifecycleResolved": false,
+    "failClosed": true
+  },
+  "classification": {
+    "assetSelection": "exact",
+    "visualFamily": "inferred",
+    "consumer": "unresolved"
+  },
+  "handoffRequirements": [
+    "Pin the immutable Resource commit that contains this package.",
+    "Resolve numeric icon IDs through an authoritative source registry, request, or configuration owner.",
+    "Keep every unresolved icon non-interactive.",
+    "Provide separate accessible labels only after the authoritative semantic mapping is known.",
+    "Do not infer click action, order, availability, or lifecycle from bitmap text or filenames."
+  ]
+}
