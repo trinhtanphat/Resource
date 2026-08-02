@@ -4,6 +4,7 @@
   "productionBranch": "main",
   "rootDirectory": "/",
   "previewBuilds": false,
+  "workersDevSubdomain": "ddtank",
   "coordinator": {
     "worker": "ddtank-assets-deployer",
     "role": "validation-and-report-only",
@@ -14,85 +15,85 @@
     {
       "worker": "ddtank-assets-shard-00",
       "buildCommand": "npm run build:shard -- 00",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-00.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-00.jsonc && npm run probe:shard -- 00",
       "config": "wrangler/wrangler.shard-00.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-01",
       "buildCommand": "npm run build:shard -- 01",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-01.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-01.jsonc && npm run probe:shard -- 01",
       "config": "wrangler/wrangler.shard-01.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-02",
       "buildCommand": "npm run build:shard -- 02",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-02.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-02.jsonc && npm run probe:shard -- 02",
       "config": "wrangler/wrangler.shard-02.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-03",
       "buildCommand": "npm run build:shard -- 03",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-03.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-03.jsonc && npm run probe:shard -- 03",
       "config": "wrangler/wrangler.shard-03.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-04",
       "buildCommand": "npm run build:shard -- 04",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-04.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-04.jsonc && npm run probe:shard -- 04",
       "config": "wrangler/wrangler.shard-04.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-05",
       "buildCommand": "npm run build:shard -- 05",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-05.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-05.jsonc && npm run probe:shard -- 05",
       "config": "wrangler/wrangler.shard-05.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-06",
       "buildCommand": "npm run build:shard -- 06",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-06.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-06.jsonc && npm run probe:shard -- 06",
       "config": "wrangler/wrangler.shard-06.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-07",
       "buildCommand": "npm run build:shard -- 07",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-07.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-07.jsonc && npm run probe:shard -- 07",
       "config": "wrangler/wrangler.shard-07.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-08",
       "buildCommand": "npm run build:shard -- 08",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-08.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-08.jsonc && npm run probe:shard -- 08",
       "config": "wrangler/wrangler.shard-08.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-09",
       "buildCommand": "npm run build:shard -- 09",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-09.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-09.jsonc && npm run probe:shard -- 09",
       "config": "wrangler/wrangler.shard-09.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-10",
       "buildCommand": "npm run build:shard -- 10",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-10.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-10.jsonc && npm run probe:shard -- 10",
       "config": "wrangler/wrangler.shard-10.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-11",
       "buildCommand": "npm run build:shard -- 11",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-11.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-11.jsonc && npm run probe:shard -- 11",
       "config": "wrangler/wrangler.shard-11.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-12",
       "buildCommand": "npm run build:shard -- 12",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-12.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-12.jsonc && npm run probe:shard -- 12",
       "config": "wrangler/wrangler.shard-12.jsonc"
     },
     {
       "worker": "ddtank-assets-shard-13",
       "buildCommand": "npm run build:shard -- 13",
-      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-13.jsonc",
+      "deployCommand": "npx wrangler deploy --config wrangler/wrangler.shard-13.jsonc && npm run probe:shard -- 13",
       "config": "wrangler/wrangler.shard-13.jsonc"
     }
   ]
