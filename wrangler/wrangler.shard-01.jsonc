@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ddtank-assets-shard-01",
+  "compatibility_date": "2026-08-02",
+  "assets": {
+    "directory": "../dist/shard-01",
+    "run_worker_first": false
+  }
+}

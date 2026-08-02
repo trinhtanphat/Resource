@@ -1,0 +1,13 @@
+{
+  "name": "ddtank-resource-deployment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:assets": "node scripts/build-shards.mjs . ./dist",
+    "build:all": "node scripts/build-shards.mjs . ./dist --all",
+    "deploy:changed": "node scripts/deploy-changed.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.34.0"
+  }
+}
