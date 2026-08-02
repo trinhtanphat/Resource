@@ -37,7 +37,8 @@ const encodedPath = entry.representativePath
   .split("/")
   .map((segment) => encodeURIComponent(segment))
   .join("/");
-const url = `${baseUrl}/${encodedPath}?v=${process.env.CF_PAGES_COMMIT_SHA ?? process.env.COMMIT_SHA ?? "probe"}`;
+const commitSha = process.env.WORKERS_CI_COMMIT_SHA ?? process.env.COMMIT_SHA ?? "probe";
+const url = `${baseUrl}/${encodedPath}?v=${commitSha}`;
 const attempts = Number(process.env.PROBE_ATTEMPTS ?? 6);
 const delayMs = Number(process.env.PROBE_DELAY_MS ?? 2_000);
 
@@ -66,6 +67,8 @@ for (let attempt = 1; attempt <= attempts; attempt += 1) {
         status: "ok",
         shard,
         worker: `ddtank-assets-shard-${shard}`,
+        buildUuid: process.env.WORKERS_CI_BUILD_UUID ?? null,
+        commitSha,
         url,
         representativePath: entry.representativePath,
         files: entry.files,
