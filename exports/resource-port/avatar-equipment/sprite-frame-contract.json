@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "runtimeSessionId": "R038",
+  "evidenceBoundary": "geometry-is-promoted-only-for-curated-consumers; filename-and-dimensions-alone-never-authorize-runtime-use",
+  "characterRig": {
+    "path": "exports/resource-port/avatar-equipment/character-rig.json",
+    "actionCount": 8,
+    "layerOrder": "source-document-order",
+    "anchorPolicy": "source-register-and-per-action-points",
+    "directions": {
+      "front": [
+        "stand",
+        "walk",
+        "inhaleSmall",
+        "inhaleBig"
+      ],
+      "back": [
+        "backStand",
+        "backWalk",
+        "backInhaleSmall",
+        "backInhaleBig"
+      ]
+    }
+  },
+  "curatedFrameLayouts": [
+    {
+      "id": "battle-avatar-13x3",
+      "classification": "exact-for-existing-curated-Gunny-consumer-mappings",
+      "sourceDimensions": [
+        1482,
+        285
+      ],
+      "columns": 13,
+      "rows": 3,
+      "frame": {
+        "width": 114,
+        "height": 95
+      },
+      "selection": "consumer mapping plus exact source path; dimensions are validation, never selection"
+    },
+    {
+      "id": "avatar-show-four-column",
+      "classification": "exact-for-existing-curated-face-and-suits-show-consumers",
+      "sourceDimensions": [
+        1000,
+        312
+      ],
+      "columns": 4,
+      "rows": 1,
+      "frame": {
+        "width": 250,
+        "height": 312
+      },
+      "selection": "consumer slot mapping plus exact source path"
+    }
+  ],
+  "sourcePathAxes": {
+    "gender": {
+      "tokens": {
+        "m": "male",
+        "f": "female"
+      },
+      "classification": "exact-for-reviewed-equip-and-virtual-path-contracts"
+    },
+    "layer": {
+      "policy": "preserve every path segment and numeric layer token in source order",
+      "inventMissingLayers": false
+    },
+    "hairBranch": {
+      "tokens": [
+        "a",
+        "b"
+      ],
+      "policy": "preserve; front/back meaning only when a reviewed consumer supplies it"
+    },
+    "pathVariant": {
+      "tokens": [
+        "icon",
+        "show",
+        "game"
+      ],
+      "classification": "lexical-only",
+      "authority": false
+    }
+  },
+  "colorTransform": {
+    "assetPolicy": "preserve base and mask layer paths separately",
+    "valueAuthority": "Gunny runtime appearance data",
+    "default": "identity",
+    "failClosed": true,
+    "reason": "the Resource file tree does not authorize a color value or blend operation"
+  },
+  "weaponDirection": {
+    "canonicalLayer": "image/arm/{Pic}/1/0/game.png",
+    "facing": "Gunny curated runtime mirrors the canonical sheet",
+    "secondaryLayer": "image/arm/{Pic}/1/1/game.png",
+    "secondaryStatus": "unresolved",
+    "projectileAuthority": false
+  },
+  "timelineBoundary": {
+    "swfFiles": 552,
+    "flaFiles": 391,
+    "browserRuntimeAllowed": false,
+    "representativeFrameCountsAsConversion": false
+  }
+}
