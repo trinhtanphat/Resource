@@ -3,9 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:assets": "node scripts/build-shards.mjs . ./dist",
-    "build:all": "node scripts/build-shards.mjs . ./dist --all",
-    "deploy:changed": "node scripts/deploy-changed.mjs"
+    "build:assets": "node scripts/build-shards.mjs --source . --output ./dist",
+    "build:all": "node scripts/build-shards.mjs --source . --output ./dist --all",
+    "build:shard": "node scripts/build-shards.mjs --source . --output ./dist --shard",
+    "validate:assets": "node scripts/build-shards.mjs --source . --output ./dist --validate-only && node scripts/validate-shards.mjs",
+    "coordinator:report": "node scripts/validate-shards.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.34.0"
