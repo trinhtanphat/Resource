@@ -9,6 +9,8 @@ const config = await readJson("r2-deployment.json");
 const packageJson = await readJson("package.json");
 const buildMatrix = await readJson("cloudflare-r2-builds.json");
 const wrangler = await readJson("wrangler.r2-deployer.jsonc");
+const gatewaySource = await fs.readFile(path.join(root, "src/r2-deployer-worker.mjs"), "utf8");
+const gatewayTestSource = await fs.readFile(path.join(root, "scripts/r2-gateway-self-test.mjs"), "utf8");
 const failures = [];
 
 function expect(actual, expected, label) {
@@ -94,7 +96,8 @@ const expectedScripts = {
   "r2:verify": "node scripts/r2-deploy.mjs verify",
   "r2:probe": "node scripts/r2-deploy.mjs probe",
   "r2:deploy": "node scripts/r2-deploy.mjs deploy",
-  "r2:validate": "node scripts/validate-r2-config.mjs",
+  "r2:gateway:test": "node scripts/r2-gateway-self-test.mjs",
+  "r2:validate": "node scripts/validate-r2-config.mjs && node scripts/r2-gateway-self-test.mjs",
   "r2:runtime:materialize": "node scripts/materialize-r2-runtime-exports.mjs",
   "r2:plan:ci": "node scripts/r2-runtime-command.mjs plan",
   "r2:deploy:ci": "node scripts/r2-runtime-command.mjs deploy",
@@ -102,7 +105,7 @@ const expectedScripts = {
   "r2:probe:ci": "node scripts/r2-runtime-command.mjs probe",
   "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
   "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
-  "cloudflare:deploy:r2": "npm run r2:deploy:ci && npm run deploy:r2-worker"
+  "cloudflare:deploy:r2": "npm run r2:validate && npm run r2:deploy:ci && npm run deploy:r2-worker"
 };
 for (const [name, value] of Object.entries(expectedScripts)) {
   expect(packageJson.scripts?.[name], value, `package script ${name}`);
@@ -127,7 +130,9 @@ for (const script of [
   "scripts/materialize-r2-runtime-exports.mjs",
   "scripts/r2-runtime-command.mjs",
   "scripts/r2-ci-deploy.mjs",
-  "scripts/validate-r2-config.mjs"
+  "scripts/r2-gateway-self-test.mjs",
+  "scripts/validate-r2-config.mjs",
+  "src/r2-deployer-worker.mjs"
 ]) {
   if (!buildMatrix.watchPaths?.include?.includes(script)) {
     failures.push(`build watch paths: missing ${script}`);
@@ -139,6 +144,26 @@ expect(wrangler.main, "src/r2-deployer-worker.mjs", "Wrangler entrypoint");
 expect(wrangler.r2_buckets?.[0]?.binding, "RESOURCE_BUCKET", "R2 binding name");
 expect(wrangler.r2_buckets?.[0]?.bucket_name, "ddtank-resource", "R2 binding bucket");
 expect(wrangler.vars?.R2_MANIFEST_PREFIX, "_deployment/manifests", "Worker manifest prefix");
+
+for (const marker of [
+  "createR2Gateway",
+  "RESOURCE_BUCKET.get",
+  "RESOURCE_BUCKET.head",
+  "range: request.headers",
+  "X-DDTank-Resource-Delivery",
+  "immutable-fallback",
+  "objects/"
+]) {
+  if (!gatewaySource.includes(marker)) failures.push(`gateway source: missing ${marker}`);
+}
+for (const marker of [
+  "canonical object GET must succeed",
+  "range GET must return 206",
+  "encoded traversal must be rejected",
+  "known missing R2 key must use immutable fallback"
+]) {
+  if (!gatewayTestSource.includes(marker)) failures.push(`gateway self-test: missing ${marker}`);
+}
 
 if (failures.length > 0) throw new Error(`R2 deployment validation failed:\n- ${failures.join("\n- ")}`);
 
@@ -153,6 +178,8 @@ console.log(JSON.stringify({
   profiles: Object.keys(config.profiles),
   localResourceRoots,
   runtimeRoots,
+  gatewayMode: "r2-object-gateway",
+  gatewayCapabilities: ["get", "head", "conditional", "range", "immutable-fallback"],
   runtimeSources: expectedRuntimeSources.map((source) => ({
     name: source.name,
     repository: source.repository,
