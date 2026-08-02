@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3a4aa33ae440110fa0c2e71f9573cf0c:1/1$ -->
+<TextureAtlas imagePath="horse.png">
+    <SubTexture name="image_mounts_horse_148_0" x="560" y="132" width="206" height="122" frameX="-149" frameY="-149" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_1" x="768" y="128" width="250" height="126" frameX="-150" frameY="-145" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_2" x="292" y="2" width="272" height="128" frameX="-150" frameY="-142" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_3" x="2" y="2" width="288" height="128" frameX="-146" frameY="-139" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_4" x="2" y="132" width="284" height="120" frameX="-145" frameY="-148" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_5" x="288" y="132" width="270" height="118" frameX="-149" frameY="-153" frameWidth="500" frameHeight="400"/>
+    <SubTexture name="image_mounts_horse_148_6" x="566" y="2" width="268" height="124" frameX="-144" frameY="-146" frameWidth="500" frameHeight="400"/>
+</TextureAtlas>

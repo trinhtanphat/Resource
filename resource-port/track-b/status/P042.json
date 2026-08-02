@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "runtimeSessionId": "R042",
+  "owner": "pet-farm",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 1700,
+    "bytes": 29109140,
+    "uniqueBlobs": 1096,
+    "trackA": {
+      "exact": 1285,
+      "inferred": 0,
+      "unresolved": 415
+    },
+    "package": {
+      "exact": 1505,
+      "inferred": 0,
+      "unresolved": 195
+    },
+    "profiles": {
+      "swf-timeline": 12,
+      "raster": 1590,
+      "binary-unknown": 98
+    },
+    "correctedSourcePaths": 220,
+    "correctedUniqueObjects": 140,
+    "authoredArchive": {
+      "sourcePaths": 106,
+      "uniqueArchivePacks": 62,
+      "entries": 164,
+      "uncompressedBytes": 7283377,
+      "atlasPng": 62,
+      "atlasXml": 62,
+      "rigJson": 40,
+      "subtextures": 1522,
+      "armatures": 84,
+      "authoredAnimations": 124,
+      "authoredSlots": 991,
+      "authoredImagePathMismatches": 1
+    },
+    "sourceFilesProcessed": 1700,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P042.mjs",
+    "dependencyGate": "pass-exact-R029-evidence-importer-and-shard",
+    "r029ImporterCheck": "pass: 1700 files / 29109140 bytes / 415 Track A unresolved",
+    "zipValidation": "pass-central-and-local-records-deflate-size-crc-path-signature-and-authored-JSON-XML",
+    "mediaValidation": "pass-220-byte-identical-safe-PNG-path-corrections-140-unique",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "40 SWF-like objects remain disabled; only 12 have FFDec metadata and P042 claims zero SWF behavior ports",
+    "TexturePacker horse atlases provide exact frame geometry but no authoritative playback timing",
+    "horse 122 author XML spells hourse.png while the verified archive entry is horse.png; the original XML is preserved and runtimeImageOutput maps to the extracted atlas.png",
+    "static pet stage icons are presentation assets and never claim animation",
+    "farm stage images do not define growth durations and pet-skill icons do not define labels or combat effects",
+    "two corrupt PNG, 29 thumbs.db, one empty file, three RAR and 14 wd3 objects remain unresolved",
+    "business state, permissions, inventory, feeding, growth and combat remain Gunny server authority",
+    "runtime selection belongs to R042 after immutable Resource merge"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}

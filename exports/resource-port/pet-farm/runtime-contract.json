@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "runtimeSessionId": "R042",
+  "packageOnly": true,
+  "runtimeIntegration": false,
+  "assetAddressing": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "sourceObjectKeys": "exact Resource source paths",
+    "packageObjectKeys": "immutable exports/resource-port/pet-farm paths",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false
+  },
+  "consumerBoundary": {
+    "staticCatalogReady": true,
+    "authoredMountAtlasReady": true,
+    "authoredFollowRigReady": true,
+    "runtimeIntegration": false,
+    "businessStateAuthority": "Gunny Worker"
+  },
+  "prohibited": {
+    "swfRuntime": true,
+    "unresolvedRuntime": true,
+    "inventedGeometryAnimationLabelsOrBehavior": true,
+    "clientBusinessAuthority": true
+  }
+}

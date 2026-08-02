@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "foundation": {
+    "repository": "trinhtanphat/Gunny",
+    "immutableCommit": "0f633d66fc828c311dfd3e984a4d5a7e4c4232a5",
+    "objects": [
+      {
+        "path": "public/game-ui/pets-bag/manifest.json",
+        "blob": "e71fcdbf92c787f34aedb06373ecf063c5aebb73",
+        "sha256": "cd5561c06722c0182a7a33f7c20fed21f3f4272afc897862551c342456023d8c",
+        "bytes": 244057
+      },
+      {
+        "path": "scripts/import-gunny92-pets-bag-assets.mjs",
+        "blob": "1a8e8060f66e5bb92070a3ed9025cbe4c1ae2532",
+        "sha256": "91f2c09310d24330fb4ac6df7e21f8833c83d350adfb15518bf65af35b03cd0e",
+        "bytes": 57104
+      },
+      {
+        "path": "scripts/source-pets-bag-release-audit.mjs",
+        "blob": "35c4f1ab460998b362b7e3c5c97666b17d189ea0",
+        "sha256": "b4d6678dd2ff86de3f7fc2e4e6cd83845a3b8a583fc1d28674384db51552a76c",
+        "bytes": 24606
+      },
+      {
+        "path": "src/client/source-pets.ts",
+        "blob": "91b2e276b76c98c3b413a49ae56f6cf8f690a950",
+        "sha256": "818d78342be9c071a80eae58be83d7c58950fd4febca63d42de29fed233c90db",
+        "bytes": 31425
+      },
+      {
+        "path": "src/client/source-pets.css",
+        "blob": "d220e1536c3d2c7945a2c60cf9d0780c19970dd0",
+        "sha256": "ae30a1e2dd307740da3349cfbe92b6728f176514193f1b06b4673863cdd3c2f7",
+        "bytes": 12317
+      }
+    ],
+    "petsBag": {
+      "classification": "gunny92-pets-bag-source-conversion",
+      "sourceAuthored": true,
+      "pixelExact": false,
+      "outputCount": 31,
+      "staticOutputs": 29,
+      "timelineOutputs": 2,
+      "activeTimeline": {
+        "name": "standA",
+        "firstFrame": 1,
+        "lastFrame": 33
+      },
+      "runtimeStateRead": "GET /api/pets",
+      "duplicatedIntoP042": false
+    },
+    "boundary": {
+      "existingPetsBagIsReviewedFoundation": true,
+      "p042StaticIconsClaimAnimation": false,
+      "p042ArchiveAnimationsRequireR042Consumer": true,
+      "businessStateAuthority": "Gunny Worker"
+    }
+  }
+}

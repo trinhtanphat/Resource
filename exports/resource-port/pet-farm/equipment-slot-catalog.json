@@ -1,0 +1,2001 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "slots": [
+    {
+      "slot": "arm",
+      "assets": [
+        {
+          "sourcePath": "image/petequip/arm/1/icon.png",
+          "bytes": 14033,
+          "sha256": "082843baef080fbb70dcab10d064dbb900c202241625959d65881d17a72fd1dc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/10/icon.png",
+          "bytes": 13242,
+          "sha256": "dbe7d39b4bd40787f8e49a4ded8af621db673073c31e62a8afd74b763a651195",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/10/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/11/icon.png",
+          "bytes": 11449,
+          "sha256": "970240fd861fbbbaf4da379f0a7c88e2e990cfe367e72977329721a5f95d2f2c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/11/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/12/icon.png",
+          "bytes": 16158,
+          "sha256": "f4fa33436a916c07f993053ebcd92e19a2de9e9b95b3fc30b4a0bb843d87587d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/12/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/13/icon.png",
+          "bytes": 15338,
+          "sha256": "3a3e93616571ed62f0a971387620fccbed0f2fd277fb35780e87443879fb9348",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/13/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/14/icon.png",
+          "bytes": 14054,
+          "sha256": "3c204e39ea0bafc508d307e5ae7e2017d68fa1e7136b692755defca9d4cbaccc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/14/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/15/icon.png",
+          "bytes": 15789,
+          "sha256": "33edd49f121209cdae188c7c94ee73999a2fa5d141f125927ef90f768562e239",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/15/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/16/icon.png",
+          "bytes": 15068,
+          "sha256": "9b5450c0a8f16b6edfad7219ddd4126998dc32be4f20f05c10ac353f972f4da8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/16/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/2/icon.png",
+          "bytes": 13752,
+          "sha256": "1818fd9b7b5f94c6ef432c2d8f2eeaf96c0c504ace603936bb26e77db3062526",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/3/icon.png",
+          "bytes": 12656,
+          "sha256": "a75bb2f38e4f84d2c7658e634af2d4b59673e9c5004648454a429fc20063cf04",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/4/icon.png",
+          "bytes": 11372,
+          "sha256": "ae05e6fe94b74bac498403ac734a4948ec3ea4393a3a0a55fdd493830f94e84a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/5/icon.png",
+          "bytes": 15799,
+          "sha256": "1b1bfef848099b9968cec191bdf5b533c9f5804544430919690851aa1a65a718",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/6/icon.png",
+          "bytes": 15213,
+          "sha256": "ba87fc48f0fe0a4c863530001819213a4350731488fd339f0c34298861e36d51",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/6/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/7/icon.png",
+          "bytes": 18638,
+          "sha256": "e640a4f80e88f654504773b23ac6a3a20e275dd458eea821d6720428742d9f7f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/7/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/8/icon.png",
+          "bytes": 16441,
+          "sha256": "d650aded054d06905271b99c7a8ea44a022fe266eec7d3f0d0f17e27f3ff06c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/8/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/9/icon.png",
+          "bytes": 13082,
+          "sha256": "ad85af12c8565fcc0239a786fb47d1ee4eaee3292f6e58872f207ee3d7313353",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/9/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm1/icon.png",
+          "bytes": 5133,
+          "sha256": "e1d619e51493838ba8b9eeebbfb9efc86aa2a9af23b3d9260225e03f153ffbe1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm10/icon.png",
+          "bytes": 5239,
+          "sha256": "d5c5a1c96b0698cfb0d527ea568dc3210b3bebae4d33003f94f273e33df59ef5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm10/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm11/icon.png",
+          "bytes": 4788,
+          "sha256": "b567b87303d2c8fd3833d2d7a0051f964a3b76c1f3eced74b9dffff6a6050f81",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm11/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm12/icon.png",
+          "bytes": 5189,
+          "sha256": "993a6e0402d54f01042e5dddb17ecab05339c0f576349b782ce6d42d7f5fe5f5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm12/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm13/icon.png",
+          "bytes": 4774,
+          "sha256": "1455b07c52c824d248d881527e0163e143baf7bbefc71dde0c184c6ea1b2d1bf",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm13/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm14/icon.png",
+          "bytes": 12026,
+          "sha256": "53a7037ca1e7afb7f789f6efc35ed6b7206ba5f4397d2f0c986a4b9a6b7f8054",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm14/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm15/icon.png",
+          "bytes": 5008,
+          "sha256": "eb91acc65907f6e83f3012a9c68081b83eb2389c3ec9ba1ab9258a0b474f18ea",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm15/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm16/icon.png",
+          "bytes": 5169,
+          "sha256": "c1ccc197858cc00ea0b25d7b054321bdbf8d93372c2d9da755cee3d3f8b7bdac",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm16/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm17/icon.png",
+          "bytes": 5496,
+          "sha256": "e65d6929fa0eee57431b3156089777fe0ba6ac4a27466ed432a911b2e30deb03",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm17/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm18/icon.png",
+          "bytes": 5157,
+          "sha256": "4bbbbf86a8d8735db3971425b5defe383b3d9e3b787de34ddbf349e674c45b30",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm18/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm19/icon.png",
+          "bytes": 14124,
+          "sha256": "dece7b07ff2b3ca230157dbbefdad77ec4fa1752f7e59ee92f89ec5fc3945b2d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm19/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm2/icon.png",
+          "bytes": 5280,
+          "sha256": "c671ef9e18ae912fb9abfcfdba01c0c13998a41c95a4c2882bd013eb7209a5d2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm20/icon.png",
+          "bytes": 14898,
+          "sha256": "76440259304f837d7737a0dcb1f92c7cf3e7a68351d1a45c586a9baeaa570f05",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm20/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm21/icon.png",
+          "bytes": 5794,
+          "sha256": "db6eee65f56cde75ee6e5093ffa2baf721d412cddd84313e4fc37f9a9f91d7b6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm21/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm22/icon.png",
+          "bytes": 6093,
+          "sha256": "8d19f0625705d988fbc710d3394f5e934a7e4ba0a4e150cc2480a0eff07b0702",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm22/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm23/icon.png",
+          "bytes": 4872,
+          "sha256": "babdd4e4ad2832dd1260dbef082d36736ee308aafe503b6f55529ceae5e3ce13",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm23/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm24/icon.png",
+          "bytes": 5279,
+          "sha256": "7d76a0df437c57699527c44a7003ebdbc70cdf616e6651914e2fadf54f0c7902",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm24/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm25/icon.png",
+          "bytes": 12252,
+          "sha256": "fec3ab1ffa9856cedec8976fec589c647ff64b4e6f411b84b1d30a7b8dfa6657",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm25/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm26/icon.png",
+          "bytes": 5409,
+          "sha256": "207dad4220986291ab7eae46d194a686bfd7bf1970164c5056ead7c3f3df80db",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm26/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm27/icon.png",
+          "bytes": 5060,
+          "sha256": "78f3054547d6ba31c672f3a3c9e8eb3bea48846ff79564917138293dcad58bc6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm27/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm28/icon.png",
+          "bytes": 5298,
+          "sha256": "510178884f0b8b0331910be63bb25e1e0da2c93f67949755ecb82da9435e3a4e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm28/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm29/icon.png",
+          "bytes": 4687,
+          "sha256": "2278afcdcc51e4eaae244fac062fdc0c0dfd07f34509d83e55cd6afa1e0e9002",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm29/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm3/icon.png",
+          "bytes": 5251,
+          "sha256": "9c697b28f746707fcd932d1bf04b98ec9ab569d0e0270c4b4bdb532d8f22d0f4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm30/icon.png",
+          "bytes": 4637,
+          "sha256": "37fc3dde9171a000c5ab8e840e9a4cdc8633a84cd91c25a5c6afe2d792819d12",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm30/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm31/icon.png",
+          "bytes": 5100,
+          "sha256": "8389fe2e34d949e45bfe5689299bdb58c9e1645dec2be6eba13f8fd837d7409a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm31/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm32/icon.png",
+          "bytes": 4703,
+          "sha256": "bebc7de5fa7ffbc6aba7c1ff6ba3e67147df2b4e7a2d82e307d20bd397957300",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm32/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm33/icon.png",
+          "bytes": 4649,
+          "sha256": "2d28df0908a601ffc2ff8fe367ca8cccc517f95c6186b24e8f08624fdfcaf4a6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm33/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm34/icon.png",
+          "bytes": 5579,
+          "sha256": "f73f0a7351c45aaff335bba8f64b8154b2c9a62dcf820e261994d5b458a9d595",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm34/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm35/icon.png",
+          "bytes": 11597,
+          "sha256": "7dae963dac75785c4a0914b771e0c2ef2e51052a6d564186464216acd8f41ebc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/arm/arm35/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm4/icon.png",
+          "bytes": 5128,
+          "sha256": "d64792f4d4fd612adc5162982809536289100fc246d0148cd3d1d41796f0d9d8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm5/icon.png",
+          "bytes": 5284,
+          "sha256": "ff284eabcbac23d243906f114ccfea6601998d1c4f0aa49f3e74bfc9ebc3fe14",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm6/icon.png",
+          "bytes": 5339,
+          "sha256": "b537d7c9e0a0ea906ef6d22ecf691daf2ff1cc7d6ec11bef2a9aed3c8e105ce2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm6/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm7/icon.png",
+          "bytes": 13719,
+          "sha256": "cf10e683ee4fa7bc18e4cad1847c5efba132ceb90592bb57fac3362fcad18f28",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm7/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm8/icon.png",
+          "bytes": 13217,
+          "sha256": "7b9ebdeacfcd79173adadf067ca8cf6209cf6b652dbd0818607599429723b05e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm8/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/arm9/icon.png",
+          "bytes": 4544,
+          "sha256": "68ed5a0040b5604e4f2cc2676a046d09bdb2b5033ea9dcf5bef4bf4f436cd1cb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/arm9/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwf1/icon.png",
+          "bytes": 13285,
+          "sha256": "a4dc61b46427eafdfdf48810549ff73a69f19e9ca0eafa7a4d219faf5847fb8e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwf1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwf2/icon.png",
+          "bytes": 13313,
+          "sha256": "1a5d6890cff73fa960569cac8973dea91066929a9999a72d7e93b364d3b210fe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwf2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwf3/icon.png",
+          "bytes": 14344,
+          "sha256": "aae6551e502d8b32adb79b322ae90a298705aa826954b1d98d01c2f5777ef374",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwf3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwf4/icon.png",
+          "bytes": 13983,
+          "sha256": "01525954ff36e12144ea47aca8764c92ffcb76ecf00de2ac5cfab287d761e317",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwf4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwx1/icon.png",
+          "bytes": 12408,
+          "sha256": "9fedda9b0a6c1bba1ae2b334377a194af8453d2e55bcca5ce9f05239c010fec3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwx1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwx2/icon.png",
+          "bytes": 13630,
+          "sha256": "7374f09275792fcc7a15bf0df40c2d5f68d5253fbbcf606761c0e1feaf3b6819",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwx2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwx3/icon.png",
+          "bytes": 12689,
+          "sha256": "510df7f627a7c8823a198c7dfe1908127437d76ebde8c8cbb1c2a49478412098",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwx3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwx4/icon.png",
+          "bytes": 14067,
+          "sha256": "4ee22bd8e2471c5fc77e987332aea0fbfccaad36d464975b2b45451240ed6263",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwx4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwy1/icon.png",
+          "bytes": 12782,
+          "sha256": "deabd020fa2545a2ca1b9dee128b0c96ef2bfbe8ec4b698d8f8b442170a68338",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwy1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwy2/icon.png",
+          "bytes": 13210,
+          "sha256": "94f8e9e441c3a2984d9ace1e7cdbd15b347157e758032a170eeff598b6cc24a0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwy2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwy3/icon.png",
+          "bytes": 13423,
+          "sha256": "5a6eab595110970b056cb69b26221129a92826d06ee1cdb55d05e79b1812e052",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwy3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/cwy4/icon.png",
+          "bytes": 14826,
+          "sha256": "e3ce6c253919bde923eacc98b8236a6cfef1be53306321b11ca2aecfa212655f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/cwy4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa1/icon.png",
+          "bytes": 17346,
+          "sha256": "068aa88282febc7b6421e528d3451b88f06498e2bcc1d9b761410b2306c274d4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa2/icon.png",
+          "bytes": 19496,
+          "sha256": "5269e07ec55ac1e53b15ee38322a2df13b67f84df40939798de6eba19d4f2bd5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa3/icon.png",
+          "bytes": 21508,
+          "sha256": "59e2bf91166d42624230b51e6ccd173b226409b7dda7cb5fd8a5be41425cc0b0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa4/icon.png",
+          "bytes": 17426,
+          "sha256": "5a9bcc9cf10fcee8eebbb7af5819a2308bd87a10dc0abae51929b5540c426422",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa5/icon.png",
+          "bytes": 17424,
+          "sha256": "b98082d2399cf8a978ffbee16827e4fdfd70c8fee01d1c21e83fc23f6d23855d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/arm/pa9/icon.png",
+          "bytes": 19961,
+          "sha256": "90747b4adbc493f08b2f9be9636f79d524498242418b3135d63ba1ec6cf5d967",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/arm/pa9/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm1/icon.png",
+          "bytes": 5133,
+          "sha256": "e1d619e51493838ba8b9eeebbfb9efc86aa2a9af23b3d9260225e03f153ffbe1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm1/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm2/icon.png",
+          "bytes": 5280,
+          "sha256": "c671ef9e18ae912fb9abfcfdba01c0c13998a41c95a4c2882bd013eb7209a5d2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm2/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm3/icon.png",
+          "bytes": 5251,
+          "sha256": "9c697b28f746707fcd932d1bf04b98ec9ab569d0e0270c4b4bdb532d8f22d0f4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm3/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm4/icon.png",
+          "bytes": 5128,
+          "sha256": "d64792f4d4fd612adc5162982809536289100fc246d0148cd3d1d41796f0d9d8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm4/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm5/icon.png",
+          "bytes": 5284,
+          "sha256": "ff284eabcbac23d243906f114ccfea6601998d1c4f0aa49f3e74bfc9ebc3fe14",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm5/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/arm/arm6/icon.png",
+          "bytes": 5339,
+          "sha256": "b537d7c9e0a0ea906ef6d22ecf691daf2ff1cc7d6ec11bef2a9aed3c8e105ce2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/arm/arm6/icon.png"
+        }
+      ]
+    },
+    {
+      "slot": "cloth",
+      "assets": [
+        {
+          "sourcePath": "image/petequip/cloth/1/icon.png",
+          "bytes": 14999,
+          "sha256": "9be47dbee9167b31e2cfa974bf0450e700ddbb5f06388d96d95a3c761cc1f882",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/2/icon.png",
+          "bytes": 13176,
+          "sha256": "70b4d4168430f1b0d373892b8a48191ee83a376c20410c0094ae7c56f217d05b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth1/icon.png",
+          "bytes": 5291,
+          "sha256": "ad314970431367d79b5377749093048d255f2256e6266e9af0adb101ca23c387",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth10/icon.png",
+          "bytes": 5379,
+          "sha256": "093634754d2a7405a2781fb81dc75d9e5d182c16d105a61abeee6e6f93fdd8ab",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth10/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth11/icon.png",
+          "bytes": 5205,
+          "sha256": "4a4670298edafe29371f12c949425a1be7d1de01a8a1ae09981bece3bcaad053",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth11/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth12/icon.png",
+          "bytes": 4816,
+          "sha256": "0c81d02b3fd2dba99036c90647cab52a91b169908be0212d99ceb8ee06e65ac9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth12/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth13/icon.png",
+          "bytes": 5414,
+          "sha256": "ed531a921265c164d3af442aee84afe1a50aec3ed2da8e0605df0fa660abd79d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth13/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth14/icon.png",
+          "bytes": 10779,
+          "sha256": "4beeb34d42dc02bda156676c351480d2f0c3f69b497d45f0a4b14cc1c2ba744b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth14/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth15/icon.png",
+          "bytes": 4681,
+          "sha256": "424a927641475927c6f54bb6c8525f270e4d47a278290678c982c856764f6302",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth15/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth16/icon.png",
+          "bytes": 5009,
+          "sha256": "19259c59a6b11b2866b09be970cef391851a7f12040801f792035ff5ae944522",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth16/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth17/icon.png",
+          "bytes": 5698,
+          "sha256": "3853ad66a79c6f488471ee2575e9f8aec694c87f3dad3aea1f9a7f911c219478",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth17/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth18/icon.png",
+          "bytes": 5243,
+          "sha256": "965c9ab954eac3a58b7288f039650b945570f98808b4034c35e3104abeb84187",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth18/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth19/icon.png",
+          "bytes": 13855,
+          "sha256": "68c3e60e05ca6a871fa6d9884ddf36be3f31b65e0e55ca342255cef82f228f1c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth19/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth2/icon.png",
+          "bytes": 5137,
+          "sha256": "172f58634f3ae88fb7aff160a2ebc7a00f9674f94c58f5422c0a4004c19aba39",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth20/icon.png",
+          "bytes": 14565,
+          "sha256": "3d56286fb62e2abbe8d8cc509f41eed95730ab0a88639aa7454abbfd403b68bd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth20/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth21/icon.png",
+          "bytes": 5781,
+          "sha256": "2005c071e549400221a3c1283574ef1625d45cbecb1bef01e2cb60d03d71b9f9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth21/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth22/icon.png",
+          "bytes": 6222,
+          "sha256": "1ab0d3770afb7332d65f9b6ea8968e7acf33f25dccce95f47dfd0e407879dd94",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth22/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth23/icon.png",
+          "bytes": 5298,
+          "sha256": "de64ca9467c1a263a615349ee050c6177603a0867d6e7048407595b015ab5091",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth23/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth24/icon.png",
+          "bytes": 5070,
+          "sha256": "ac38a0faa8415691126eb11b1dfa8ab899177f2a62415998e115eba9bdfb23a8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth24/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth25/icon.png",
+          "bytes": 15724,
+          "sha256": "2060ca6f4a934aba16a3fa1d25a4e00d847b9d0729cda372f28c722f7d4226af",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth25/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth26/icon.png",
+          "bytes": 5191,
+          "sha256": "f8f444f93639124a01b4948c8abea8e52f0a27055d7731a278aac3830877f846",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth26/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth27/icon.png",
+          "bytes": 5391,
+          "sha256": "ff8a4e42cd962f4c45ffd5a999dd26310c2255b03e034b83057961a1cb91cc57",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth27/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth28/icon.png",
+          "bytes": 5337,
+          "sha256": "63a99d600eaadc977e6dd95dd7014882ca75abb03abac4ac2676c4416292c17d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth28/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth29/icon.png",
+          "bytes": 4509,
+          "sha256": "ab4bf29a82e1e6bad1fc443dee8b28ce13c42b3278ce461317a1940e38160246",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth29/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth3/icon.png",
+          "bytes": 5347,
+          "sha256": "d2b5d47321d901b75043ca4085b379dd47458c3fb0bab22496e638e8ce21d33e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth30/icon.png",
+          "bytes": 4930,
+          "sha256": "8f44f215a3ecb1d37fcf0a14c4bfb4e4f61b32b300676993cfc617a1e14ac202",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth30/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth31/icon.png",
+          "bytes": 5370,
+          "sha256": "4806e85ad59074b678ef6a6c93d04a3da6798f7df1cb63b5d21946ea303f8cdd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth31/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth32/icon.png",
+          "bytes": 5244,
+          "sha256": "d39f7cb44cc6bd69e52031f14e571b24ede764895b2e19c9801b78073a9cba3f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth32/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth33/icon.png",
+          "bytes": 4555,
+          "sha256": "0c5512e3cc00e376e1fefde19dbb6c8556574b04a607223c10b1664fae34d884",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth33/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth34/icon.png",
+          "bytes": 4941,
+          "sha256": "fdfdae3c967c96bd260a112b79c3be9816225fce0d025c5158acae8aa346bdee",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth34/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth35/icon.png",
+          "bytes": 13165,
+          "sha256": "4d2d69d527b49a84492e0eec9344f51aa7f0817925f1ef6d6c05b618934f6bc7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/cloth35/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth4/icon.png",
+          "bytes": 5209,
+          "sha256": "a936af6c03ab5bc033319a6a819fdf706f1b361c68ac0effb115704f0b43c9ea",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth5/icon.png",
+          "bytes": 5266,
+          "sha256": "99ab772950d30f36f710f6dc58b089ab24ca2aac0433c8bc31aef35d19c3f6a5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth6/icon.png",
+          "bytes": 5329,
+          "sha256": "91e4e9765a1a8c78d0010823d23e2927336a871dcc6e8d1c97e2db3ab5563425",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth6/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth7/icon.png",
+          "bytes": 12790,
+          "sha256": "5c0cec228523fff58eb1784a3eb3bf28fd610c6d6f3866413d441094c47bae54",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth7/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth8/icon.png",
+          "bytes": 13758,
+          "sha256": "554e146eab899841b8ed49aa58966da62f88711166f6a02bc199806d22e0b986",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth8/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cloth9/icon.png",
+          "bytes": 4768,
+          "sha256": "d749f229e7c76e67bfcd55d23d684399ee190c245e3b973199d3227382659602",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cloth9/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwf1/icon.png",
+          "bytes": 13285,
+          "sha256": "a4dc61b46427eafdfdf48810549ff73a69f19e9ca0eafa7a4d219faf5847fb8e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwf1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwf2/icon.png",
+          "bytes": 13313,
+          "sha256": "1a5d6890cff73fa960569cac8973dea91066929a9999a72d7e93b364d3b210fe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwf2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwf3/icon.png",
+          "bytes": 14344,
+          "sha256": "aae6551e502d8b32adb79b322ae90a298705aa826954b1d98d01c2f5777ef374",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwf3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwf4/icon.png",
+          "bytes": 13983,
+          "sha256": "01525954ff36e12144ea47aca8764c92ffcb76ecf00de2ac5cfab287d761e317",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwf4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwx1/icon.png",
+          "bytes": 12408,
+          "sha256": "9fedda9b0a6c1bba1ae2b334377a194af8453d2e55bcca5ce9f05239c010fec3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwx1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwx2/icon.png",
+          "bytes": 13630,
+          "sha256": "7374f09275792fcc7a15bf0df40c2d5f68d5253fbbcf606761c0e1feaf3b6819",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwx2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwx3/icon.png",
+          "bytes": 12689,
+          "sha256": "510df7f627a7c8823a198c7dfe1908127437d76ebde8c8cbb1c2a49478412098",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwx3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwx4/icon.png",
+          "bytes": 14067,
+          "sha256": "4ee22bd8e2471c5fc77e987332aea0fbfccaad36d464975b2b45451240ed6263",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwx4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwy1/icon.png",
+          "bytes": 12782,
+          "sha256": "deabd020fa2545a2ca1b9dee128b0c96ef2bfbe8ec4b698d8f8b442170a68338",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwy1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwy2/icon.png",
+          "bytes": 13210,
+          "sha256": "94f8e9e441c3a2984d9ace1e7cdbd15b347157e758032a170eeff598b6cc24a0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwy2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwy3/icon.png",
+          "bytes": 13423,
+          "sha256": "5a6eab595110970b056cb69b26221129a92826d06ee1cdb55d05e79b1812e052",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwy3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/cwy4/icon.png",
+          "bytes": 14826,
+          "sha256": "e3ce6c253919bde923eacc98b8236a6cfef1be53306321b11ca2aecfa212655f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/cwy4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc1/icon.png",
+          "bytes": 16662,
+          "sha256": "ee36068b9c4bc29d30b1fb49b609bbb64732007be41ec23d1f243259ca18f189",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/cloth/pc1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc2/icon.png",
+          "bytes": 16120,
+          "sha256": "8780fecbaa4b12a176e1cd8ff95d48e17085704f9edd113e493f40502c541fc4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/pc2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc3/icon.png",
+          "bytes": 15637,
+          "sha256": "2fd47b9bff3ce14f1ff6eeba5c2793e9383b762830180793fa2cfa05ee2ab1cb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/pc3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc4/icon.png",
+          "bytes": 18932,
+          "sha256": "05dfb04e64fa34756a1878dd21685159efab8557af7f614e4109f9d9b5a05b19",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/pc4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc5/icon.png",
+          "bytes": 14545,
+          "sha256": "1e7c97cc59a2c3b470f9a1d764200f8f105ff588cdd511ded09be7b2fac7be7e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/pc5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/cloth/pc9/icon.png",
+          "bytes": 18459,
+          "sha256": "9b3a1e2dcc6bdbd77d546187b27caa50d2dbec4d218902da2ae2e527e00fd65d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/cloth/pc9/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth1/icon.png",
+          "bytes": 5291,
+          "sha256": "ad314970431367d79b5377749093048d255f2256e6266e9af0adb101ca23c387",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth1/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth2/icon.png",
+          "bytes": 5137,
+          "sha256": "172f58634f3ae88fb7aff160a2ebc7a00f9674f94c58f5422c0a4004c19aba39",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth2/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth3/icon.png",
+          "bytes": 5347,
+          "sha256": "d2b5d47321d901b75043ca4085b379dd47458c3fb0bab22496e638e8ce21d33e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth3/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth4/icon.png",
+          "bytes": 5209,
+          "sha256": "a936af6c03ab5bc033319a6a819fdf706f1b361c68ac0effb115704f0b43c9ea",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth4/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth5/icon.png",
+          "bytes": 5266,
+          "sha256": "99ab772950d30f36f710f6dc58b089ab24ca2aac0433c8bc31aef35d19c3f6a5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth5/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/cloth/cloth6/icon.png",
+          "bytes": 5329,
+          "sha256": "91e4e9765a1a8c78d0010823d23e2927336a871dcc6e8d1c97e2db3ab5563425",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/cloth/cloth6/icon.png"
+        }
+      ]
+    },
+    {
+      "slot": "hat",
+      "assets": [
+        {
+          "sourcePath": "image/petequip/hat/1/icon.png",
+          "bytes": 11897,
+          "sha256": "1f0bc101c316c0aa227aaf42c9dc40457b268e2f57d74aef6858e7595bd8382f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/2/icon.png",
+          "bytes": 13149,
+          "sha256": "db9897f2025e28b20643f511ca427fca5a7bfe005a0350a86b33f0d1663fbd4e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwf1/icon.png",
+          "bytes": 13285,
+          "sha256": "a4dc61b46427eafdfdf48810549ff73a69f19e9ca0eafa7a4d219faf5847fb8e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwf1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwf2/icon.png",
+          "bytes": 13313,
+          "sha256": "1a5d6890cff73fa960569cac8973dea91066929a9999a72d7e93b364d3b210fe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwf2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwf3/icon.png",
+          "bytes": 14344,
+          "sha256": "aae6551e502d8b32adb79b322ae90a298705aa826954b1d98d01c2f5777ef374",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwf3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwf4/icon.png",
+          "bytes": 13983,
+          "sha256": "01525954ff36e12144ea47aca8764c92ffcb76ecf00de2ac5cfab287d761e317",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwf4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwx1/icon.png",
+          "bytes": 12408,
+          "sha256": "9fedda9b0a6c1bba1ae2b334377a194af8453d2e55bcca5ce9f05239c010fec3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwx1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwx2/icon.png",
+          "bytes": 13630,
+          "sha256": "7374f09275792fcc7a15bf0df40c2d5f68d5253fbbcf606761c0e1feaf3b6819",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwx2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwx3/icon.png",
+          "bytes": 12689,
+          "sha256": "510df7f627a7c8823a198c7dfe1908127437d76ebde8c8cbb1c2a49478412098",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwx3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwx4/icon.png",
+          "bytes": 14067,
+          "sha256": "4ee22bd8e2471c5fc77e987332aea0fbfccaad36d464975b2b45451240ed6263",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwx4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwy1/icon.png",
+          "bytes": 12782,
+          "sha256": "deabd020fa2545a2ca1b9dee128b0c96ef2bfbe8ec4b698d8f8b442170a68338",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwy1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwy2/icon.png",
+          "bytes": 13210,
+          "sha256": "94f8e9e441c3a2984d9ace1e7cdbd15b347157e758032a170eeff598b6cc24a0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwy2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwy3/icon.png",
+          "bytes": 13423,
+          "sha256": "5a6eab595110970b056cb69b26221129a92826d06ee1cdb55d05e79b1812e052",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwy3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/cwy4/icon.png",
+          "bytes": 14826,
+          "sha256": "e3ce6c253919bde923eacc98b8236a6cfef1be53306321b11ca2aecfa212655f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/cwy4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat1/icon.png",
+          "bytes": 5032,
+          "sha256": "cc399b17b236ad7bdd1b7cedeb2e82cf896410e82f7edf47f9a7911436cbfc36",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat10/icon.png",
+          "bytes": 5136,
+          "sha256": "4214b6443b70e88d21c7ab715ab433856f33cbcb7061bdd584b0deaa2b83fc4d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat10/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat11/icon.png",
+          "bytes": 4920,
+          "sha256": "1503c548ff672a37bd870d69027c51919ddd5d2e3bde7f8194eef893c511ca2f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat11/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat12/icon.png",
+          "bytes": 4921,
+          "sha256": "5adfb2e8db55667ad57f62fcfabf23d6eff493d6d691c8a7534e3792add124c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat12/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat13/icon.png",
+          "bytes": 5011,
+          "sha256": "1c3002e5349325fb7c52d83c5a7e3b55a12092f6ca096baf282d593ae8b1f5cd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat13/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat14/icon.png",
+          "bytes": 11759,
+          "sha256": "2dd802dbc2596f00b8d3af0ffe0669d1dccb0197cfb4bd3be44eb4bdf17ad362",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat14/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat15/icon.png",
+          "bytes": 4945,
+          "sha256": "4f2c4d598bbee2fed87168ae0378972d34eed893dcf4b69d9e77f3b42d4c83e6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat15/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat16/icon.png",
+          "bytes": 4805,
+          "sha256": "9b19a8fcc3d66ffcdfada9d2903dbe58abf34ac9fe7d14b94dd824a86fb903fd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/hat/hat16/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat17/icon.png",
+          "bytes": 5520,
+          "sha256": "c446ef66b3a60e1a0e31ac078fd15602d4b5cc9516db043a6f95470415754aea",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat17/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat18/icon.png",
+          "bytes": 4643,
+          "sha256": "249354894b5caca1c50fd0937ffd3fe6b060d6de9eac4ac28906c26093c393f3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat18/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat19/icon.png",
+          "bytes": 13373,
+          "sha256": "812d7a86cdfa4979dbc1bac7b733c2cb73ed01a7e9043e188f100ab641180e30",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat19/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat2/icon.png",
+          "bytes": 4975,
+          "sha256": "63fe30a4b103eb160125ca62bf8bcb66435e423615824c15da1848babe38d11e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat20/icon.png",
+          "bytes": 14461,
+          "sha256": "1744fa6d76b84aae8225abf8c4fa2c033f4f51bedf90b6c176d45b083a47b819",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat20/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat21/icon.png",
+          "bytes": 6090,
+          "sha256": "6368c1c1c81ca1bb418f6215c5b3d068d19d3c93c0bc06900a777c021cf2f312",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat21/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat22/icon.png",
+          "bytes": 6316,
+          "sha256": "5a2fc1d136d7ce3c9a56e4c3509d5ffd242f666515ad4a3e420735ee5e69a543",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat22/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat23/icon.png",
+          "bytes": 5248,
+          "sha256": "ddd70e2be3d5376c19644d2f5961b99a6aabbef87a5643416f89bb7f634a53da",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat23/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat24/icon.png",
+          "bytes": 5419,
+          "sha256": "b9cd052f847128a45544ce89cada0cdfedc8b39b99fd9c7aca1367dd64896f40",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat24/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat25/icon.png",
+          "bytes": 12032,
+          "sha256": "71655815e58305cf06199e5b6abed8dcb6adaacb48a72bc97a9699996a6a59a3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/hat/hat25/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat26/icon.png",
+          "bytes": 5616,
+          "sha256": "c090d615b71fc72a93199cb7f50f586863a23d24d46e84bb9fbe007e3543e084",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat26/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat27/icon.png",
+          "bytes": 6171,
+          "sha256": "29a3a20f4f11b5da2b5c596e66c7631c57385d2c25c364f2cde0e82aa666f2fd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat27/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat28/icon.png",
+          "bytes": 6163,
+          "sha256": "ff3f2b5de2fd46a929d71c7204e5c5a6807ffb32d9176645a46c632221c1be0d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat28/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat29/icon.png",
+          "bytes": 4511,
+          "sha256": "9c2347c4eeaae14a78a2736401b4b846b8a81f6d8dc69f649e0bf65e6fa5adca",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat29/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat3/icon.png",
+          "bytes": 5211,
+          "sha256": "63b8457f3a7b3bf7fd7ea740e968ecc8a3db37c6c11f9396e2c251e0a03852bc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat30/icon.png",
+          "bytes": 5999,
+          "sha256": "7a64a98a955e52e1ad1dd641979c9c2ea7dc07db5dc8fb620356677a589f35dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat30/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat31/icon.png",
+          "bytes": 5298,
+          "sha256": "eb1f0cc1229b5e6e0fe7e51683f8b535990f494edde489bcdc6071407e95f86b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat31/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat32/icon.png",
+          "bytes": 5537,
+          "sha256": "fcd4ee3a4c16af29fa3a3df20d12b312c192773f02e2ef07842e8f604df3e9dc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat32/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat33/icon.png",
+          "bytes": 4685,
+          "sha256": "c9cab2521f662b8eb2066baf6112dfe2995094dedd5e3fdf06f98ea218eb45de",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat33/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat34/icon.png",
+          "bytes": 5210,
+          "sha256": "94de9a36575e89ff31ebfe38be1da899b0e643648e123d95a40c917004a385dc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat34/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat35/icon.png",
+          "bytes": 12878,
+          "sha256": "68f0c924e76b005b48339d87b6aea05e2763bfb0f6b14b99492b77aaa452993e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 82,
+          "objectKey": "image/petequip/hat/hat35/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat4/icon.png",
+          "bytes": 4942,
+          "sha256": "6fa8644cab3b816b805c1c9769b1fcebbf65018f4a2e3bc3a69dab8d7b4935ce",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat5/icon.png",
+          "bytes": 4947,
+          "sha256": "5795e405be7c63df274edf7191e800c15d6c4815a61912eaa5d7ae8f1863a9b4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat6/icon.png",
+          "bytes": 5226,
+          "sha256": "e23384a1992f8bbcf6dc813a77f7d8c43617aa1165bf3cd486a30d0cfddf01ed",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat6/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat7/icon.png",
+          "bytes": 12798,
+          "sha256": "21a940130527deed4930b734f4104dbd871d781f236722e9131513117dc9fe27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat7/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat8/icon.png",
+          "bytes": 12227,
+          "sha256": "b16d7153af9c39da134961c2ef308dde48813464ed81eb5b4b050b02d7405f00",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat8/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/hat9/icon.png",
+          "bytes": 4493,
+          "sha256": "8509a8f5a75d66a60f21a346f26837592fb83221bfe9c0fd7e93ee9931dbc392",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/hat9/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph1/icon.png",
+          "bytes": 17218,
+          "sha256": "91d57b224eeecd70a26a1d2c0a56b52bc069dd2a09e411e1c80e91461fc559cc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 79,
+          "objectKey": "image/petequip/hat/ph1/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph2/icon.png",
+          "bytes": 17392,
+          "sha256": "f5f112ab13cebd7f19c58e9c84833510e366c30b555f739be1ce2afeea6401af",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/ph2/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph3/icon.png",
+          "bytes": 20648,
+          "sha256": "dd38f7eb2a32eb6d469849efe378c146ae328e10737c322c03b4e986150565a4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/ph3/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph4/icon.png",
+          "bytes": 22161,
+          "sha256": "0c92769efa294ac54712d3ad348f4baa0664ed7b4afb65fc7e8b48f6a59a5e79",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/ph4/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph5/icon.png",
+          "bytes": 20247,
+          "sha256": "d07a45661b494bffcbf2886cda48f5fe21189b7fd58b2a3459ebcbf555d0d91e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/ph5/icon.png"
+        },
+        {
+          "sourcePath": "image/petequip/hat/ph9/icon.png",
+          "bytes": 17390,
+          "sha256": "5a7f1a15d1ca7097622e3dfb697e881b5315e783e248084ded379713343274c0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/petequip/hat/ph9/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat1/icon.png",
+          "bytes": 5032,
+          "sha256": "cc399b17b236ad7bdd1b7cedeb2e82cf896410e82f7edf47f9a7911436cbfc36",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat1/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat2/icon.png",
+          "bytes": 4975,
+          "sha256": "63fe30a4b103eb160125ca62bf8bcb66435e423615824c15da1848babe38d11e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat2/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat3/icon.png",
+          "bytes": 5211,
+          "sha256": "63b8457f3a7b3bf7fd7ea740e968ecc8a3db37c6c11f9396e2c251e0a03852bc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat3/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat4/icon.png",
+          "bytes": 4942,
+          "sha256": "6fa8644cab3b816b805c1c9769b1fcebbf65018f4a2e3bc3a69dab8d7b4935ce",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat4/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat5/icon.png",
+          "bytes": 4947,
+          "sha256": "5795e405be7c63df274edf7191e800c15d6c4815a61912eaa5d7ae8f1863a9b4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat5/icon.png"
+        },
+        {
+          "sourcePath": "image/tool/petequip/hat/hat6/icon.png",
+          "bytes": 5226,
+          "sha256": "e23384a1992f8bbcf6dc813a77f7d8c43617aa1165bf3cd486a30d0cfddf01ed",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/tool/petequip/hat/hat6/icon.png"
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "slots": [
+      "arm",
+      "cloth",
+      "hat"
+    ],
+    "slotBasis": "source-directory-name",
+    "equipCompatibility": "unresolved-no-authoritative-item-to-pet-rule-in-R029",
+    "clientEquipAuthority": false
+  }
+}

@@ -1,0 +1,3276 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "species": [
+    {
+      "key": "anyingzhiyi",
+      "stages": [
+        {
+          "sourcePath": "image/pet/anyingzhiyi/icon2.png",
+          "bytes": 4977,
+          "sha256": "40f9dc10d4957c3059909fd21391e0f4b5e7ccfdb98c5243e59b95f2b296a732",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 108,
+          "height": 115,
+          "objectKey": "image/pet/anyingzhiyi/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "badashou",
+      "stages": [
+        {
+          "sourcePath": "image/pet/badashou/icon1.png",
+          "bytes": 4905,
+          "sha256": "c57a0785a78bf7fe16e0ef073da2af060f4d43f178ef4408eea8c4c6a0323c71",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/badashou/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/badashou/icon2.png",
+          "bytes": 5460,
+          "sha256": "576d4a43f1aec6381974590e2c802c8beb5b3847f63c14e3ebfe4b62e088c265",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/badashou/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "baihu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/baihu/icon1.png",
+          "bytes": 4255,
+          "sha256": "9df98da8ac16abe061fab0c6451c2c6bdb78fabd0f25ef5a298ffb05b0025904",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/baihu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/baihu/icon2.png",
+          "bytes": 4255,
+          "sha256": "9df98da8ac16abe061fab0c6451c2c6bdb78fabd0f25ef5a298ffb05b0025904",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/baihu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/baihu/icon3.png",
+          "bytes": 4255,
+          "sha256": "9df98da8ac16abe061fab0c6451c2c6bdb78fabd0f25ef5a298ffb05b0025904",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/baihu/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "bear",
+      "stages": [
+        {
+          "sourcePath": "image/pet/bear/icon1.png",
+          "bytes": 6116,
+          "sha256": "d8521569d2a3daf9f25e86f96e26c8042394a03da285a8cfa86e1150fad87feb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 77,
+          "height": 103,
+          "objectKey": "image/pet/bear/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/bear/icon2.png",
+          "bytes": 6824,
+          "sha256": "25ff82843104597385611973fd6d676b460d485a3bc1bfb824294eefaaa9f179",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 77,
+          "height": 103,
+          "objectKey": "image/pet/bear/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "benbenn",
+      "stages": [
+        {
+          "sourcePath": "image/pet/benbenn/icon1.png",
+          "bytes": 10612,
+          "sha256": "bae91a2e6b384112e0d22220750360164afd5cd4ee65f0c7e3fb7633cc9f099b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/benbenn/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/benbenn/icon2.png",
+          "bytes": 10612,
+          "sha256": "bae91a2e6b384112e0d22220750360164afd5cd4ee65f0c7e3fb7633cc9f099b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/benbenn/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/benbenn/icon3.png",
+          "bytes": 10612,
+          "sha256": "bae91a2e6b384112e0d22220750360164afd5cd4ee65f0c7e3fb7633cc9f099b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/benbenn/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "binglong",
+      "stages": [
+        {
+          "sourcePath": "image/pet/binglong/icon1.png",
+          "bytes": 3864,
+          "sha256": "107ef9c0a488638c3a2b527506b187c83408eefca48602d54aab0bfc71d47d24",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/binglong/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/binglong/icon2.png",
+          "bytes": 3864,
+          "sha256": "107ef9c0a488638c3a2b527506b187c83408eefca48602d54aab0bfc71d47d24",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/binglong/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/binglong/icon3.png",
+          "bytes": 3864,
+          "sha256": "107ef9c0a488638c3a2b527506b187c83408eefca48602d54aab0bfc71d47d24",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/binglong/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "blueants",
+      "stages": [
+        {
+          "sourcePath": "image/pet/blueants/icon1.jpg",
+          "bytes": 2114,
+          "sha256": "b02ea2594c0ea2a28a353b66cc6338150479bc9b0988fc2df8fe3e8ce948ade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 34,
+          "height": 44,
+          "objectKey": "exports/resource-port/pet-farm/raster/b02ea2594c0ea2a28a353b66cc6338150479bc9b0988fc2df8fe3e8ce948ade8.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/blueants/icon1.png",
+          "bytes": 2114,
+          "sha256": "b02ea2594c0ea2a28a353b66cc6338150479bc9b0988fc2df8fe3e8ce948ade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 34,
+          "height": 44,
+          "objectKey": "image/pet/blueants/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/blueants/icon2.jpg",
+          "bytes": 2578,
+          "sha256": "dd853b711aec811d68ef7d6b9f76857631d651251ce8a5db0099470580fa8828",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 54,
+          "height": 52,
+          "objectKey": "exports/resource-port/pet-farm/raster/dd853b711aec811d68ef7d6b9f76857631d651251ce8a5db0099470580fa8828.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/blueants/icon2.png",
+          "bytes": 2578,
+          "sha256": "dd853b711aec811d68ef7d6b9f76857631d651251ce8a5db0099470580fa8828",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 54,
+          "height": 52,
+          "objectKey": "image/pet/blueants/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/blueants/icon3.jpg",
+          "bytes": 2676,
+          "sha256": "876008d258ff82d829015df4eb48935f5a6bcd391e6bdf90ab8bc2e5ff722362",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 68,
+          "objectKey": "exports/resource-port/pet-farm/raster/876008d258ff82d829015df4eb48935f5a6bcd391e6bdf90ab8bc2e5ff722362.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/blueants/icon3.png",
+          "bytes": 2676,
+          "sha256": "876008d258ff82d829015df4eb48935f5a6bcd391e6bdf90ab8bc2e5ff722362",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 68,
+          "objectKey": "image/pet/blueants/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "bluegoopop",
+      "stages": [
+        {
+          "sourcePath": "image/pet/bluegoopop/icon1.jpg",
+          "bytes": 2374,
+          "sha256": "ebc90828c04cf1a8fad3589d79d86f861be5e24a1107bf94be0a6120cf1b687c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 41,
+          "height": 43,
+          "objectKey": "exports/resource-port/pet-farm/raster/ebc90828c04cf1a8fad3589d79d86f861be5e24a1107bf94be0a6120cf1b687c.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/bluegoopop/icon1.png",
+          "bytes": 2374,
+          "sha256": "ebc90828c04cf1a8fad3589d79d86f861be5e24a1107bf94be0a6120cf1b687c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 41,
+          "height": 43,
+          "objectKey": "image/pet/bluegoopop/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/bluegoopop/icon2.jpg",
+          "bytes": 2628,
+          "sha256": "6fa1b18aea091372d6a565d2738fc92739177149738283921d519a4faaaf228b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 55,
+          "height": 42,
+          "objectKey": "exports/resource-port/pet-farm/raster/6fa1b18aea091372d6a565d2738fc92739177149738283921d519a4faaaf228b.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/bluegoopop/icon2.png",
+          "bytes": 2628,
+          "sha256": "6fa1b18aea091372d6a565d2738fc92739177149738283921d519a4faaaf228b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 55,
+          "height": 42,
+          "objectKey": "image/pet/bluegoopop/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/bluegoopop/icon3.jpg",
+          "bytes": 3351,
+          "sha256": "8ff2d8412b220f72983a2adfb160fed07f006fb4e55e3ce4029aed2f19d4af50",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "exports/resource-port/pet-farm/raster/8ff2d8412b220f72983a2adfb160fed07f006fb4e55e3ce4029aed2f19d4af50.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/bluegoopop/icon3.png",
+          "bytes": 3351,
+          "sha256": "8ff2d8412b220f72983a2adfb160fed07f006fb4e55e3ce4029aed2f19d4af50",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/bluegoopop/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "butterfly",
+      "stages": [
+        {
+          "sourcePath": "image/pet/butterfly/icon1.png",
+          "bytes": 8380,
+          "sha256": "fde781ce73e2c96690138ff17db3a747050b340902f30cf13290d5aadf1280ae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 109,
+          "height": 113,
+          "objectKey": "image/pet/butterfly/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/butterfly/icon2.png",
+          "bytes": 6254,
+          "sha256": "554618e680eb86b6fc0a036ef5f999cbdfa72676164e34e44acdb83f1444d631",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 109,
+          "height": 113,
+          "objectKey": "image/pet/butterfly/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "canavar",
+      "stages": [
+        {
+          "sourcePath": "image/pet/canavar/icon1.png",
+          "bytes": 10460,
+          "sha256": "470c86a19b767d160a250d783d637deb150e4afab51eb0c7d9c9f9aa94ab4ad4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 57,
+          "height": 61,
+          "objectKey": "image/pet/canavar/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/canavar/icon2.png",
+          "bytes": 10938,
+          "sha256": "36220ace2fae95745e7a1d48bf26239fd6eb3f626548d65e6a36cd6cbded471f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 61,
+          "objectKey": "image/pet/canavar/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/canavar/icon3.png",
+          "bytes": 12911,
+          "sha256": "0613dcaa7bde8a74fd1a9c5dcb09b59c1ed68bc4ba04eb95d936d825522e538d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 69,
+          "height": 68,
+          "objectKey": "image/pet/canavar/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "cat",
+      "stages": [
+        {
+          "sourcePath": "image/pet/cat/icon1.jpg",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "exports/resource-port/pet-farm/raster/ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/cat/icon1.png",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/cat/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/cat/icon2.jpg",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "exports/resource-port/pet-farm/raster/ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/cat/icon2.png",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/cat/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/cat/icon3.jpg",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "exports/resource-port/pet-farm/raster/ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/cat/icon3.png",
+          "bytes": 2623,
+          "sha256": "ad117da5aae6f94cac02f0e085d3a615f4c0f67da33f262fd86b657e052072dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/cat/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "catzombie",
+      "stages": [
+        {
+          "sourcePath": "image/pet/catzombie/icon1.jpg",
+          "bytes": 18897,
+          "sha256": "9837ca29458b3b3f2b45688cf094e89d339dc7adedcdf175be4a205284632f8f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon1.jpg",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/catzombie/icon1.png",
+          "bytes": 13147,
+          "sha256": "8b0103d199627ac5bde11e88fe3a1f7496fca13fb2d38c695118dbdfb61f8a90",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/catzombie/icon2.jpg",
+          "bytes": 18897,
+          "sha256": "9837ca29458b3b3f2b45688cf094e89d339dc7adedcdf175be4a205284632f8f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon2.jpg",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/catzombie/icon2.png",
+          "bytes": 13147,
+          "sha256": "8b0103d199627ac5bde11e88fe3a1f7496fca13fb2d38c695118dbdfb61f8a90",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/catzombie/icon3.jpg",
+          "bytes": 18897,
+          "sha256": "9837ca29458b3b3f2b45688cf094e89d339dc7adedcdf175be4a205284632f8f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon3.jpg",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/catzombie/icon3.png",
+          "bytes": 13147,
+          "sha256": "8b0103d199627ac5bde11e88fe3a1f7496fca13fb2d38c695118dbdfb61f8a90",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 76,
+          "height": 55,
+          "objectKey": "image/pet/catzombie/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "chicken",
+      "stages": [
+        {
+          "sourcePath": "image/pet/chicken/icon1.jpg",
+          "bytes": 2119,
+          "sha256": "0dd2fd235a86abebeb24a1967a21f0733ff737f7224163d976d5ac0d4b039da2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 36,
+          "height": 36,
+          "objectKey": "exports/resource-port/pet-farm/raster/0dd2fd235a86abebeb24a1967a21f0733ff737f7224163d976d5ac0d4b039da2.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/chicken/icon1.png",
+          "bytes": 2119,
+          "sha256": "0dd2fd235a86abebeb24a1967a21f0733ff737f7224163d976d5ac0d4b039da2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 36,
+          "height": 36,
+          "objectKey": "image/pet/chicken/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/chicken/icon2.jpg",
+          "bytes": 2739,
+          "sha256": "dfe98e7e7ea1c8f715714532fe455ca4cc28222b639f10278754e8403e467d5f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 45,
+          "height": 50,
+          "objectKey": "exports/resource-port/pet-farm/raster/dfe98e7e7ea1c8f715714532fe455ca4cc28222b639f10278754e8403e467d5f.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/chicken/icon2.png",
+          "bytes": 2739,
+          "sha256": "dfe98e7e7ea1c8f715714532fe455ca4cc28222b639f10278754e8403e467d5f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 45,
+          "height": 50,
+          "objectKey": "image/pet/chicken/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/chicken/icon3.jpg",
+          "bytes": 3441,
+          "sha256": "92218d483d0567bf6c9009f657294e86318ce463216d004357dbfa2937dfdf2f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 57,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/92218d483d0567bf6c9009f657294e86318ce463216d004357dbfa2937dfdf2f.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/chicken/icon3.png",
+          "bytes": 3441,
+          "sha256": "92218d483d0567bf6c9009f657294e86318ce463216d004357dbfa2937dfdf2f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 57,
+          "height": 59,
+          "objectKey": "image/pet/chicken/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "douwa",
+      "stages": [
+        {
+          "sourcePath": "image/pet/douwa/icon1.png",
+          "bytes": 4275,
+          "sha256": "861387f84959cb51d75508f244547104433cde5efe6fe79061aac74999e29cc1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 113,
+          "height": 112,
+          "objectKey": "image/pet/douwa/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/douwa/icon2.png",
+          "bytes": 3177,
+          "sha256": "5f5356c46f38308b05ee85a61686ab250952203c1745694be012511eb8f22ba8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 113,
+          "height": 112,
+          "objectKey": "image/pet/douwa/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "dragon",
+      "stages": [
+        {
+          "sourcePath": "image/pet/dragon/icon1.jpg",
+          "bytes": 2413,
+          "sha256": "487bb04e2f01b264256a0d9c01ff7bcae7ce6e052a3de8b4bbaedb091721cac0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 40,
+          "objectKey": "exports/resource-port/pet-farm/raster/487bb04e2f01b264256a0d9c01ff7bcae7ce6e052a3de8b4bbaedb091721cac0.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/dragon/icon1.png",
+          "bytes": 2413,
+          "sha256": "487bb04e2f01b264256a0d9c01ff7bcae7ce6e052a3de8b4bbaedb091721cac0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 40,
+          "objectKey": "image/pet/dragon/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/dragon/icon2.jpg",
+          "bytes": 2757,
+          "sha256": "9b4b901737507876b74fdab2736a9b1462156e031bf589cee965da7b7a81259c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 52,
+          "objectKey": "exports/resource-port/pet-farm/raster/9b4b901737507876b74fdab2736a9b1462156e031bf589cee965da7b7a81259c.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/dragon/icon2.png",
+          "bytes": 2757,
+          "sha256": "9b4b901737507876b74fdab2736a9b1462156e031bf589cee965da7b7a81259c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 52,
+          "objectKey": "image/pet/dragon/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/dragon/icon3.jpg",
+          "bytes": 3180,
+          "sha256": "9551be78ec28acc69d189d654fd19a64feab60ef26039822ec4273aeca9e7400",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 48,
+          "height": 61,
+          "objectKey": "exports/resource-port/pet-farm/raster/9551be78ec28acc69d189d654fd19a64feab60ef26039822ec4273aeca9e7400.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/dragon/icon3.png",
+          "bytes": 3180,
+          "sha256": "9551be78ec28acc69d189d654fd19a64feab60ef26039822ec4273aeca9e7400",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 48,
+          "height": 61,
+          "objectKey": "image/pet/dragon/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "dragon1",
+      "stages": [
+        {
+          "sourcePath": "image/pet/dragon1/icon1.png",
+          "bytes": 6301,
+          "sha256": "748ce4356920e16830bd55042b45d651ea58f751cd3d352b468af4ae050c7a32",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 106,
+          "height": 95,
+          "objectKey": "image/pet/dragon1/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/dragon1/icon2.png",
+          "bytes": 4583,
+          "sha256": "a121da27cca29c8dec54834be75b623e8f738871d306cc4eebfa5af537ec93fc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 106,
+          "height": 95,
+          "objectKey": "image/pet/dragon1/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "duck",
+      "stages": [
+        {
+          "sourcePath": "image/pet/duck/icon1.png",
+          "bytes": 5265,
+          "sha256": "5fc512d161200f7b4d6eb9ab93b6fc06a3e51e9fb968273bc87b12a5b5a31084",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 72,
+          "height": 102,
+          "objectKey": "image/pet/duck/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/duck/icon2.png",
+          "bytes": 3591,
+          "sha256": "aaa00db67380b49798467251cdf8afa62dac9b9e509810c53fb10134a1493a0b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 72,
+          "height": 102,
+          "objectKey": "image/pet/duck/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "elk",
+      "stages": [
+        {
+          "sourcePath": "image/pet/elk/icon1.jpg",
+          "bytes": 6764,
+          "sha256": "aeae32ccc54aa74614530a5f11eb9d98d4a9c28d269465fed092d6c68edebfde",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 40,
+          "height": 44,
+          "objectKey": "exports/resource-port/pet-farm/raster/aeae32ccc54aa74614530a5f11eb9d98d4a9c28d269465fed092d6c68edebfde.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/elk/icon1.png",
+          "bytes": 6764,
+          "sha256": "aeae32ccc54aa74614530a5f11eb9d98d4a9c28d269465fed092d6c68edebfde",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 40,
+          "height": 44,
+          "objectKey": "image/pet/elk/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/elk/icon2.jpg",
+          "bytes": 7592,
+          "sha256": "a3dbdbb1c04c884c1e811d22143fd804e26afaf7cfd8f3fc11be8a37d73acc5c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 43,
+          "height": 47,
+          "objectKey": "exports/resource-port/pet-farm/raster/a3dbdbb1c04c884c1e811d22143fd804e26afaf7cfd8f3fc11be8a37d73acc5c.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/elk/icon2.png",
+          "bytes": 7592,
+          "sha256": "a3dbdbb1c04c884c1e811d22143fd804e26afaf7cfd8f3fc11be8a37d73acc5c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 43,
+          "height": 47,
+          "objectKey": "image/pet/elk/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/elk/icon3.jpg",
+          "bytes": 9224,
+          "sha256": "6f79782c61ea59fd10ea5c22266bd401d834e7716550a66f01d81d6f380cf8f9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 51,
+          "objectKey": "exports/resource-port/pet-farm/raster/6f79782c61ea59fd10ea5c22266bd401d834e7716550a66f01d81d6f380cf8f9.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/elk/icon3.png",
+          "bytes": 9224,
+          "sha256": "6f79782c61ea59fd10ea5c22266bd401d834e7716550a66f01d81d6f380cf8f9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 51,
+          "objectKey": "image/pet/elk/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "eye",
+      "stages": [
+        {
+          "sourcePath": "image/pet/eye/icon1.jpg",
+          "bytes": 5037,
+          "sha256": "af6406d12e08e2c8a7178b84e657a38572829595f560fb13f9f355f8ae701447",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 42,
+          "height": 42,
+          "objectKey": "exports/resource-port/pet-farm/raster/af6406d12e08e2c8a7178b84e657a38572829595f560fb13f9f355f8ae701447.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/eye/icon1.png",
+          "bytes": 5037,
+          "sha256": "af6406d12e08e2c8a7178b84e657a38572829595f560fb13f9f355f8ae701447",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 42,
+          "height": 42,
+          "objectKey": "image/pet/eye/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/eye/icon2.jpg",
+          "bytes": 9468,
+          "sha256": "6f43bbc83962f2af0bb4ad964b690e296e58644800057d7b0dd91635c0987d0a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 64,
+          "height": 64,
+          "objectKey": "exports/resource-port/pet-farm/raster/6f43bbc83962f2af0bb4ad964b690e296e58644800057d7b0dd91635c0987d0a.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/eye/icon2.png",
+          "bytes": 9468,
+          "sha256": "6f43bbc83962f2af0bb4ad964b690e296e58644800057d7b0dd91635c0987d0a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 64,
+          "height": 64,
+          "objectKey": "image/pet/eye/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/eye/icon3.jpg",
+          "bytes": 8689,
+          "sha256": "0c923cbeb26b58a85794aaba709de2e08778f0481d97949822c37d41f60791b3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 72,
+          "height": 72,
+          "objectKey": "exports/resource-port/pet-farm/raster/0c923cbeb26b58a85794aaba709de2e08778f0481d97949822c37d41f60791b3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/eye/icon3.png",
+          "bytes": 8689,
+          "sha256": "0c923cbeb26b58a85794aaba709de2e08778f0481d97949822c37d41f60791b3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 72,
+          "height": 72,
+          "objectKey": "image/pet/eye/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "feishou",
+      "stages": [
+        {
+          "sourcePath": "image/pet/feishou/icon1.png",
+          "bytes": 5810,
+          "sha256": "d4cb80110d1fef377a676be521c8c86f02eb8261c68171ce8aeffefc8563108f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 125,
+          "height": 93,
+          "objectKey": "image/pet/feishou/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/feishou/icon2.png",
+          "bytes": 6474,
+          "sha256": "2bc9e116d997019dbce6a99f3844ca727345590faa4a104a6c7d33b8cce6f773",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 125,
+          "height": 93,
+          "objectKey": "image/pet/feishou/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "fenghuang",
+      "stages": [
+        {
+          "sourcePath": "image/pet/fenghuang/icon1.png",
+          "bytes": 3019,
+          "sha256": "c52e3d56611255cd5b04e2da942ef41a88530d3023de31cdd117e8b8206e63c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/fenghuang/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/fenghuang/icon2.png",
+          "bytes": 3019,
+          "sha256": "c52e3d56611255cd5b04e2da942ef41a88530d3023de31cdd117e8b8206e63c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/fenghuang/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/fenghuang/icon3.png",
+          "bytes": 3019,
+          "sha256": "c52e3d56611255cd5b04e2da942ef41a88530d3023de31cdd117e8b8206e63c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/fenghuang/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "flowers",
+      "stages": [
+        {
+          "sourcePath": "image/pet/flowers/icon1.jpg",
+          "bytes": 2241,
+          "sha256": "18be6b4ae3c1b81143292acf1260c0525353d4bf5ed486e5b84ab25f47c1c052",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 37,
+          "height": 42,
+          "objectKey": "exports/resource-port/pet-farm/raster/18be6b4ae3c1b81143292acf1260c0525353d4bf5ed486e5b84ab25f47c1c052.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/flowers/icon1.png",
+          "bytes": 2241,
+          "sha256": "18be6b4ae3c1b81143292acf1260c0525353d4bf5ed486e5b84ab25f47c1c052",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 37,
+          "height": 42,
+          "objectKey": "image/pet/flowers/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/flowers/icon2.jpg",
+          "bytes": 2556,
+          "sha256": "eefe44cc4f1564eeee7697780b99a23d1fcde0db95033ed093366df91a4f0673",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 54,
+          "objectKey": "exports/resource-port/pet-farm/raster/eefe44cc4f1564eeee7697780b99a23d1fcde0db95033ed093366df91a4f0673.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/flowers/icon2.png",
+          "bytes": 2556,
+          "sha256": "eefe44cc4f1564eeee7697780b99a23d1fcde0db95033ed093366df91a4f0673",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 54,
+          "objectKey": "image/pet/flowers/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/flowers/icon3.jpg",
+          "bytes": 3675,
+          "sha256": "e827d4274e1c0c1fff1aa047dd082b2dbb98bfd7017bcf11586e1d52ec62ce53",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 68,
+          "height": 62,
+          "objectKey": "exports/resource-port/pet-farm/raster/e827d4274e1c0c1fff1aa047dd082b2dbb98bfd7017bcf11586e1d52ec62ce53.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/flowers/icon3.png",
+          "bytes": 3675,
+          "sha256": "e827d4274e1c0c1fff1aa047dd082b2dbb98bfd7017bcf11586e1d52ec62ce53",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 68,
+          "height": 62,
+          "objectKey": "image/pet/flowers/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "ghost",
+      "stages": [
+        {
+          "sourcePath": "image/pet/ghost/icon1.png",
+          "bytes": 5752,
+          "sha256": "57977efdd23af3b7add534f3f01592ebe253e64f0ea628f32095a9008c1ab3f7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 83,
+          "height": 103,
+          "objectKey": "image/pet/ghost/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/ghost/icon2.png",
+          "bytes": 3497,
+          "sha256": "0e5fe764af40114178b1a6a2811488a2ae581e64fc6ff7c12b6d22d745b1cf48",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 83,
+          "height": 103,
+          "objectKey": "image/pet/ghost/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "ghost1",
+      "stages": [
+        {
+          "sourcePath": "image/pet/ghost1/icon2.png",
+          "bytes": 7028,
+          "sha256": "8aa0cc15a7ebbbbb8b7cc53e6aa51b50058d197285ae524ecc06520a48f63fc3",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 108,
+          "height": 115,
+          "objectKey": "image/pet/ghost1/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "heihu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/heihu/icon1.png",
+          "bytes": 4043,
+          "sha256": "bf22ea5ce62673425970998277a23ef43c051f9d53934a9dbe1e525663659dd1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/heihu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/heihu/icon2.png",
+          "bytes": 4043,
+          "sha256": "bf22ea5ce62673425970998277a23ef43c051f9d53934a9dbe1e525663659dd1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/heihu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/heihu/icon3.png",
+          "bytes": 4043,
+          "sha256": "bf22ea5ce62673425970998277a23ef43c051f9d53934a9dbe1e525663659dd1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/heihu/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "kingofmonkey",
+      "stages": [
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon1.jpg",
+          "bytes": 2386,
+          "sha256": "a130fd99efda6c52296281bc975195ce4590509b424cfe2b54d1c1e4bef29cc5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 52,
+          "height": 52,
+          "objectKey": "exports/resource-port/pet-farm/raster/a130fd99efda6c52296281bc975195ce4590509b424cfe2b54d1c1e4bef29cc5.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon1.png",
+          "bytes": 2386,
+          "sha256": "a130fd99efda6c52296281bc975195ce4590509b424cfe2b54d1c1e4bef29cc5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 52,
+          "height": 52,
+          "objectKey": "image/pet/kingofmonkey/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon2.jpg",
+          "bytes": 2874,
+          "sha256": "a35e61ccab354f60dbe59a732386b411df3fa24ee4c289c31d2b6d7a06ca9095",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 53,
+          "height": 50,
+          "objectKey": "exports/resource-port/pet-farm/raster/a35e61ccab354f60dbe59a732386b411df3fa24ee4c289c31d2b6d7a06ca9095.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon2.png",
+          "bytes": 2874,
+          "sha256": "a35e61ccab354f60dbe59a732386b411df3fa24ee4c289c31d2b6d7a06ca9095",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 53,
+          "height": 50,
+          "objectKey": "image/pet/kingofmonkey/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon3.jpg",
+          "bytes": 4422,
+          "sha256": "3a50ebe419b09a2643a2a0262555f48605c8e592207ba254c87d0b0f080acf9c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 70,
+          "height": 72,
+          "objectKey": "exports/resource-port/pet-farm/raster/3a50ebe419b09a2643a2a0262555f48605c8e592207ba254c87d0b0f080acf9c.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kingofmonkey/icon3.png",
+          "bytes": 4422,
+          "sha256": "3a50ebe419b09a2643a2a0262555f48605c8e592207ba254c87d0b0f080acf9c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 70,
+          "height": 72,
+          "objectKey": "image/pet/kingofmonkey/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "kungfumaster",
+      "stages": [
+        {
+          "sourcePath": "image/pet/kungfumaster/icon1.jpg",
+          "bytes": 2429,
+          "sha256": "261de7a68a920dce64aa6465649527a9e3dbc2e2aff826a2f1aa4c5c3d1e4e49",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 50,
+          "objectKey": "exports/resource-port/pet-farm/raster/261de7a68a920dce64aa6465649527a9e3dbc2e2aff826a2f1aa4c5c3d1e4e49.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfumaster/icon1.png",
+          "bytes": 2429,
+          "sha256": "261de7a68a920dce64aa6465649527a9e3dbc2e2aff826a2f1aa4c5c3d1e4e49",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 50,
+          "objectKey": "image/pet/kungfumaster/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kungfumaster/icon2.jpg",
+          "bytes": 3137,
+          "sha256": "6ce144763302669bdbfded715ae06847ad2598fb0518d9538ab64c0e65a38a1e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 68,
+          "objectKey": "exports/resource-port/pet-farm/raster/6ce144763302669bdbfded715ae06847ad2598fb0518d9538ab64c0e65a38a1e.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfumaster/icon2.png",
+          "bytes": 3137,
+          "sha256": "6ce144763302669bdbfded715ae06847ad2598fb0518d9538ab64c0e65a38a1e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 68,
+          "objectKey": "image/pet/kungfumaster/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kungfumaster/icon3.jpg",
+          "bytes": 4087,
+          "sha256": "9ae571f8bbbfe805b8d98346a27a04ba06aba446b5cfe6485e94af7a8afc6187",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 81,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/9ae571f8bbbfe805b8d98346a27a04ba06aba446b5cfe6485e94af7a8afc6187.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfumaster/icon3.png",
+          "bytes": 4087,
+          "sha256": "9ae571f8bbbfe805b8d98346a27a04ba06aba446b5cfe6485e94af7a8afc6187",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 81,
+          "height": 59,
+          "objectKey": "image/pet/kungfumaster/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "kungfuwarrior",
+      "stages": [
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon1.jpg",
+          "bytes": 2449,
+          "sha256": "75e3d4cd8a0a34c41ae41762579f9594bb1eb7d2258b6d2ac558a1f1dba9cc9c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 50,
+          "objectKey": "exports/resource-port/pet-farm/raster/75e3d4cd8a0a34c41ae41762579f9594bb1eb7d2258b6d2ac558a1f1dba9cc9c.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon1.png",
+          "bytes": 2449,
+          "sha256": "75e3d4cd8a0a34c41ae41762579f9594bb1eb7d2258b6d2ac558a1f1dba9cc9c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 46,
+          "height": 50,
+          "objectKey": "image/pet/kungfuwarrior/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon2.jpg",
+          "bytes": 3051,
+          "sha256": "3edf275db09905680ea384e52106c08fe9313548e88948995616389f7e531edc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 68,
+          "objectKey": "exports/resource-port/pet-farm/raster/3edf275db09905680ea384e52106c08fe9313548e88948995616389f7e531edc.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon2.png",
+          "bytes": 3051,
+          "sha256": "3edf275db09905680ea384e52106c08fe9313548e88948995616389f7e531edc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 68,
+          "objectKey": "image/pet/kungfuwarrior/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon3.jpg",
+          "bytes": 3612,
+          "sha256": "f306ffb3b917d66c2f16450662599ca6f275338bf60ceb1872413c9c5b98192e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 81,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/f306ffb3b917d66c2f16450662599ca6f275338bf60ceb1872413c9c5b98192e.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/kungfuwarrior/icon3.png",
+          "bytes": 3612,
+          "sha256": "f306ffb3b917d66c2f16450662599ca6f275338bf60ceb1872413c9c5b98192e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 81,
+          "height": 59,
+          "objectKey": "image/pet/kungfuwarrior/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "lafeier",
+      "stages": [
+        {
+          "sourcePath": "image/pet/lafeier/icon1.png",
+          "bytes": 3482,
+          "sha256": "0b60532177679159878d90227deff405fda67ff517ab781682ba5d24ce616c48",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/lafeier/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/lafeier/icon2.png",
+          "bytes": 3482,
+          "sha256": "0b60532177679159878d90227deff405fda67ff517ab781682ba5d24ce616c48",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/lafeier/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/lafeier/icon3.png",
+          "bytes": 3482,
+          "sha256": "0b60532177679159878d90227deff405fda67ff517ab781682ba5d24ce616c48",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/lafeier/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "linghu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/linghu/icon1.png",
+          "bytes": 3113,
+          "sha256": "af83c0c7690ab4973cc0500b17e03f934ee59cd54c05e67d68551cb1b457456a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/linghu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/linghu/icon2.png",
+          "bytes": 3113,
+          "sha256": "af83c0c7690ab4973cc0500b17e03f934ee59cd54c05e67d68551cb1b457456a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/linghu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/linghu/icon3.png",
+          "bytes": 3113,
+          "sha256": "af83c0c7690ab4973cc0500b17e03f934ee59cd54c05e67d68551cb1b457456a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/linghu/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "linghuxiaoqi",
+      "stages": [
+        {
+          "sourcePath": "image/pet/linghuxiaoqi/icon1.png",
+          "bytes": 5539,
+          "sha256": "c715834ccadae99616735b39e0ec72b158f985cd97f5e6247340b3094ce9dd60",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/linghuxiaoqi/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/linghuxiaoqi/icon2.png",
+          "bytes": 5715,
+          "sha256": "01089aa503fae26049c2fde5caffa1eba816dbb5565655037b3ae5f787443dae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/linghuxiaoqi/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "littledevil",
+      "stages": [
+        {
+          "sourcePath": "image/pet/littledevil/icon1.png",
+          "bytes": 6640,
+          "sha256": "c726fe0a60f4bab1a00e4f178257dd66d7ca8f2515e9e5c6a9bd40d8d153076d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 52,
+          "height": 52,
+          "objectKey": "image/pet/littledevil/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/littledevil/icon2.png",
+          "bytes": 9332,
+          "sha256": "e9f948c3261e0870531176bc362b0742d1c16d8ee261af61976bf8b6f8eed6ed",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/littledevil/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/littledevil/icon3.png",
+          "bytes": 10730,
+          "sha256": "d27ffe45eee7f420460e0cc3d57a6d3e242e61626620bb70e439c3c51fb46c11",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 69,
+          "height": 69,
+          "objectKey": "image/pet/littledevil/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "luna",
+      "stages": [
+        {
+          "sourcePath": "image/pet/luna/icon1.png",
+          "bytes": 7666,
+          "sha256": "ba147dabb3e3a395a1831bee119697ae398f5dd7ca3c40dbd0ff8e4745ba17f5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 106,
+          "height": 107,
+          "objectKey": "image/pet/luna/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/luna/icon2.png",
+          "bytes": 4828,
+          "sha256": "67877182bf5ce22052a72999b4e3fbc1137f7c730029a30007d00285c077371d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 106,
+          "height": 107,
+          "objectKey": "image/pet/luna/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "maomi",
+      "stages": [
+        {
+          "sourcePath": "image/pet/maomi/icon1.png",
+          "bytes": 6506,
+          "sha256": "400824e96fdf3a38aa34447dee77266e5eb7e3e8d8b3b688a2627cf85a2a6c6e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/maomi/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/maomi/icon2.png",
+          "bytes": 6506,
+          "sha256": "400824e96fdf3a38aa34447dee77266e5eb7e3e8d8b3b688a2627cf85a2a6c6e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/maomi/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/maomi/icon3.png",
+          "bytes": 6506,
+          "sha256": "400824e96fdf3a38aa34447dee77266e5eb7e3e8d8b3b688a2627cf85a2a6c6e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/maomi/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "mengshu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/mengshu/icon1.png",
+          "bytes": 2973,
+          "sha256": "60055f2c93a38a521102eb4077dc72d285ff38765ef82d08be2702d9706ceec0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/mengshu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/mengshu/icon2.png",
+          "bytes": 2973,
+          "sha256": "60055f2c93a38a521102eb4077dc72d285ff38765ef82d08be2702d9706ceec0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/mengshu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/mengshu/icon3.png",
+          "bytes": 2973,
+          "sha256": "60055f2c93a38a521102eb4077dc72d285ff38765ef82d08be2702d9706ceec0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/mengshu/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "miaomiao",
+      "stages": [
+        {
+          "sourcePath": "image/pet/miaomiao/icon1.png",
+          "bytes": 7573,
+          "sha256": "126cfa91f56cda3896e2cd88e984fa8291be0a386f9fc233660d9978a6b8c478",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 143,
+          "height": 84,
+          "objectKey": "image/pet/miaomiao/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/miaomiao/icon2.png",
+          "bytes": 7946,
+          "sha256": "bae2128d394d612004f2d41310923273d213272fe86317b639dc8f43b2e7af8b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 143,
+          "height": 84,
+          "objectKey": "image/pet/miaomiao/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "monkey",
+      "stages": [
+        {
+          "sourcePath": "image/pet/monkey/icon1.png",
+          "bytes": 5560,
+          "sha256": "87057dcfc643d982122a0cc7c21bf7e208413a45047e41f5ca79bac0f2d3c215",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/monkey/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/monkey/icon2.png",
+          "bytes": 5688,
+          "sha256": "9ec1d573f238ab43a0dd4ffb8a4cf4e4aaad9bd84992e888253d16ff685dbf87",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/monkey/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "orthrus1",
+      "stages": [
+        {
+          "sourcePath": "image/pet/orthrus1/icon1.png",
+          "bytes": 5423,
+          "sha256": "cbe882e9d54603890c3615357631e26e855c33c85d2d00f924feb6a5a4f18013",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 52,
+          "height": 52,
+          "objectKey": "image/pet/orthrus1/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/orthrus1/icon2.png",
+          "bytes": 6901,
+          "sha256": "e52a12cf6b5a649c75865bf4ef76e3a4e8d51dae9c18ee8a2e3c7eaf1cff397c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/orthrus1/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/orthrus1/icon3.png",
+          "bytes": 9716,
+          "sha256": "c27cca59371bbd559f33e05e26085b90b7f10ceb0ad76f2c4e9aca6b9a14b424",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 69,
+          "height": 69,
+          "objectKey": "image/pet/orthrus1/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "orthrus2",
+      "stages": [
+        {
+          "sourcePath": "image/pet/orthrus2/icon1.png",
+          "bytes": 5565,
+          "sha256": "dafd7d5d1e0e7a5caa51f7d759e61496ea23077879b20dcec2c44c3a69d1b1b0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 52,
+          "height": 52,
+          "objectKey": "image/pet/orthrus2/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/orthrus2/icon2.png",
+          "bytes": 7651,
+          "sha256": "dc856d9b454babdf7f2b6b5d279eff85bf768db34ac679d79c45d97cf6e5bb7b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/orthrus2/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/orthrus2/icon3.png",
+          "bytes": 10139,
+          "sha256": "58d093a0ce10587b75c0d3988df1fb31606ff2538d2fb24e11518819fea0dd21",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 69,
+          "height": 69,
+          "objectKey": "image/pet/orthrus2/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "owl",
+      "stages": [
+        {
+          "sourcePath": "image/pet/owl/icon1.png",
+          "bytes": 5837,
+          "sha256": "f51dd93e069847cd401dd378f979dba199e5edfaf0c73f5420bf563f975f1ce1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/owl/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/owl/icon2.png",
+          "bytes": 6301,
+          "sha256": "cc792cd888bcf619f55c820f909a2ff75123ac65f7fc7908042dfdf2968221cc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/owl/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "panda",
+      "stages": [
+        {
+          "sourcePath": "image/pet/panda/icon1.png",
+          "bytes": 5201,
+          "sha256": "b4062ed92d392ecf002202a950f474f4e03140497466781860e5d890d935013d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/panda/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/panda/icon2.png",
+          "bytes": 5748,
+          "sha256": "055a1dbb97a4de55b88b8b3d5b7be0ba178bfa82905970877e1f454ebb995ad5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/panda/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "paopaolong",
+      "stages": [
+        {
+          "sourcePath": "image/pet/paopaolong/icon2.png",
+          "bytes": 4216,
+          "sha256": "3e1f62114691ad9891b08ddd51e692b59134225ffae20ceca593dcdebebe643e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 108,
+          "height": 115,
+          "objectKey": "image/pet/paopaolong/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "parrot",
+      "stages": [
+        {
+          "sourcePath": "image/pet/parrot/icon1.png",
+          "bytes": 8034,
+          "sha256": "8a6071724532ee2580f6b455cf54ab8c7d54cfeeb847437a4eaeecc0bdf7a4ae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 113,
+          "height": 112,
+          "objectKey": "image/pet/parrot/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/parrot/icon2.png",
+          "bytes": 6070,
+          "sha256": "4a8d20063c8d44138f33c2f79a157fd8dcc285ddb4f98a3c14eaedea2fe40a99",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 113,
+          "height": 112,
+          "objectKey": "image/pet/parrot/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "phoenix",
+      "stages": [
+        {
+          "sourcePath": "image/pet/phoenix/icon1.jpg",
+          "bytes": 1888,
+          "sha256": "c4cb1b3ce33dd4f90b38623c16dd29b63f14d29114adfb94fcdff7e379f08ce6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 49,
+          "height": 44,
+          "objectKey": "exports/resource-port/pet-farm/raster/c4cb1b3ce33dd4f90b38623c16dd29b63f14d29114adfb94fcdff7e379f08ce6.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/phoenix/icon1.png",
+          "bytes": 1888,
+          "sha256": "c4cb1b3ce33dd4f90b38623c16dd29b63f14d29114adfb94fcdff7e379f08ce6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 49,
+          "height": 44,
+          "objectKey": "image/pet/phoenix/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/phoenix/icon2.jpg",
+          "bytes": 2037,
+          "sha256": "9533f6507e6e523f6b127b535c24b24232ba34b75a24d58eea8c83c5e41d78c7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 51,
+          "objectKey": "exports/resource-port/pet-farm/raster/9533f6507e6e523f6b127b535c24b24232ba34b75a24d58eea8c83c5e41d78c7.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/phoenix/icon2.png",
+          "bytes": 2037,
+          "sha256": "9533f6507e6e523f6b127b535c24b24232ba34b75a24d58eea8c83c5e41d78c7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 51,
+          "objectKey": "image/pet/phoenix/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/phoenix/icon3.jpg",
+          "bytes": 2305,
+          "sha256": "24e05d364d7829129afad38b449f4f9e5dde60f4aaf4e7427d3ca1a276be1b6d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/24e05d364d7829129afad38b449f4f9e5dde60f4aaf4e7427d3ca1a276be1b6d.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/phoenix/icon3.png",
+          "bytes": 2305,
+          "sha256": "24e05d364d7829129afad38b449f4f9e5dde60f4aaf4e7427d3ca1a276be1b6d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/phoenix/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "pipipig",
+      "stages": [
+        {
+          "sourcePath": "image/pet/pipipig/icon1.png",
+          "bytes": 3204,
+          "sha256": "8178b44918bd0dd9bf22dbcb0378601f030da3947298175fc0e890bf0eb1ef10",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/pipipig/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/pipipig/icon2.png",
+          "bytes": 3204,
+          "sha256": "8178b44918bd0dd9bf22dbcb0378601f030da3947298175fc0e890bf0eb1ef10",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/pipipig/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/pipipig/icon3.png",
+          "bytes": 3204,
+          "sha256": "8178b44918bd0dd9bf22dbcb0378601f030da3947298175fc0e890bf0eb1ef10",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/pipipig/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "pumpkin01",
+      "stages": [
+        {
+          "sourcePath": "image/pet/pumpkin01/icon1.png",
+          "bytes": 4799,
+          "sha256": "e400d5c8565411e27f0c283d0a5fc4eb199cbadf7dd9da4d38da374473b700c2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/pumpkin01/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/pumpkin01/icon2.png",
+          "bytes": 5490,
+          "sha256": "87d6f1172e47c34d03bd5934736f87d954c02d9295ffec107b290dc8b2c5aec0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/pumpkin01/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "pumpkin1",
+      "stages": [
+        {
+          "sourcePath": "image/pet/pumpkin1/icon2.png",
+          "bytes": 5490,
+          "sha256": "87d6f1172e47c34d03bd5934736f87d954c02d9295ffec107b290dc8b2c5aec0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/pumpkin1/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "rabbit",
+      "stages": [
+        {
+          "sourcePath": "image/pet/rabbit/icon1.png",
+          "bytes": 5456,
+          "sha256": "72a82b7c517ebbc5b979ce7b6e7b555c91f59bffa550746ca3b5ca5d449da44d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 66,
+          "height": 110,
+          "objectKey": "image/pet/rabbit/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/rabbit/icon2.png",
+          "bytes": 3808,
+          "sha256": "6377d9428cf9fbbdfc7272bb4677a8330c4ad830f6ff7e8e8ca53237a8745c5b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 66,
+          "height": 110,
+          "objectKey": "image/pet/rabbit/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "racoon",
+      "stages": [
+        {
+          "sourcePath": "image/pet/racoon/icon1.png",
+          "bytes": 5418,
+          "sha256": "6a076e1da0f56a951c875f8358c0e2780a72cbcce0915db40ed85868bde41ed4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/racoon/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/racoon/icon2.png",
+          "bytes": 3692,
+          "sha256": "4fd0c3d1bde14eeee882317c697bcac0b428286743dc09eca24c0cc7d3e1c9bc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/racoon/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "radish",
+      "stages": [
+        {
+          "sourcePath": "image/pet/radish/icon1.png",
+          "bytes": 5086,
+          "sha256": "1cf71980deac827d43dba6e76610ddfac22500b0b64862fdbe9841c1b2ccf058",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/radish/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/radish/icon2.png",
+          "bytes": 5414,
+          "sha256": "b25c0742d660c794365c1978cc0b5f968d0b8fc21d9cbf35b680b2bd947413af",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/radish/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "rarechicken",
+      "stages": [
+        {
+          "sourcePath": "image/pet/rarechicken/icon1.jpg",
+          "bytes": 1885,
+          "sha256": "436c3de2674dd1b7bea681da389cdba50cc0d14f4035557ab38dba77fb9861aa",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 35,
+          "height": 36,
+          "objectKey": "exports/resource-port/pet-farm/raster/436c3de2674dd1b7bea681da389cdba50cc0d14f4035557ab38dba77fb9861aa.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rarechicken/icon1.png",
+          "bytes": 1885,
+          "sha256": "436c3de2674dd1b7bea681da389cdba50cc0d14f4035557ab38dba77fb9861aa",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 35,
+          "height": 36,
+          "objectKey": "image/pet/rarechicken/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/rarechicken/icon2.jpg",
+          "bytes": 2725,
+          "sha256": "7e6eecdbba7d98066b30ef1753cd31c09e1857dbd11469fef7c6fde912e24953",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 52,
+          "objectKey": "exports/resource-port/pet-farm/raster/7e6eecdbba7d98066b30ef1753cd31c09e1857dbd11469fef7c6fde912e24953.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rarechicken/icon2.png",
+          "bytes": 2725,
+          "sha256": "7e6eecdbba7d98066b30ef1753cd31c09e1857dbd11469fef7c6fde912e24953",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 47,
+          "height": 52,
+          "objectKey": "image/pet/rarechicken/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/rarechicken/icon3.jpg",
+          "bytes": 3927,
+          "sha256": "c58daa4b2a374e25ce66843fb045a109bf508f68956040d87e33e8f1f6dae636",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/c58daa4b2a374e25ce66843fb045a109bf508f68956040d87e33e8f1f6dae636.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rarechicken/icon3.png",
+          "bytes": 3927,
+          "sha256": "c58daa4b2a374e25ce66843fb045a109bf508f68956040d87e33e8f1f6dae636",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/rarechicken/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "rareflowers",
+      "stages": [
+        {
+          "sourcePath": "image/pet/rareflowers/icon1.jpg",
+          "bytes": 2293,
+          "sha256": "43972b76df199df686ef4df037e6001ccab8722d64c1117276d9242349af353d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 39,
+          "objectKey": "exports/resource-port/pet-farm/raster/43972b76df199df686ef4df037e6001ccab8722d64c1117276d9242349af353d.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rareflowers/icon1.png",
+          "bytes": 2293,
+          "sha256": "43972b76df199df686ef4df037e6001ccab8722d64c1117276d9242349af353d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 39,
+          "objectKey": "image/pet/rareflowers/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/rareflowers/icon2.jpg",
+          "bytes": 2992,
+          "sha256": "0e1ec4c0bc6e5bba696ad21bd3f4f195166971c5210efdece32df2844f8be670",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 57,
+          "height": 56,
+          "objectKey": "exports/resource-port/pet-farm/raster/0e1ec4c0bc6e5bba696ad21bd3f4f195166971c5210efdece32df2844f8be670.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rareflowers/icon2.png",
+          "bytes": 2992,
+          "sha256": "0e1ec4c0bc6e5bba696ad21bd3f4f195166971c5210efdece32df2844f8be670",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 57,
+          "height": 56,
+          "objectKey": "image/pet/rareflowers/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/rareflowers/icon3.jpg",
+          "bytes": 3575,
+          "sha256": "16ca224d9582300c730cf756b48a76cc080d84b28c2ca427fc867d2b81eefa30",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 67,
+          "height": 60,
+          "objectKey": "exports/resource-port/pet-farm/raster/16ca224d9582300c730cf756b48a76cc080d84b28c2ca427fc867d2b81eefa30.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/rareflowers/icon3.png",
+          "bytes": 3575,
+          "sha256": "16ca224d9582300c730cf756b48a76cc080d84b28c2ca427fc867d2b81eefa30",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 67,
+          "height": 60,
+          "objectKey": "image/pet/rareflowers/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "redants",
+      "stages": [
+        {
+          "sourcePath": "image/pet/redants/icon1.jpg",
+          "bytes": 2145,
+          "sha256": "b40b9a53c2b3112b1012ee7da1962cc4f45986f1bacfe40019bbde11b745101b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 46,
+          "objectKey": "exports/resource-port/pet-farm/raster/b40b9a53c2b3112b1012ee7da1962cc4f45986f1bacfe40019bbde11b745101b.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redants/icon1.png",
+          "bytes": 2145,
+          "sha256": "b40b9a53c2b3112b1012ee7da1962cc4f45986f1bacfe40019bbde11b745101b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 39,
+          "height": 46,
+          "objectKey": "image/pet/redants/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/redants/icon2.jpg",
+          "bytes": 2556,
+          "sha256": "0ffdb6b694d6ea6f85fca445378f5f9ce841c5bc114677f4648399d48724eb25",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 64,
+          "height": 52,
+          "objectKey": "exports/resource-port/pet-farm/raster/0ffdb6b694d6ea6f85fca445378f5f9ce841c5bc114677f4648399d48724eb25.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redants/icon2.png",
+          "bytes": 2556,
+          "sha256": "0ffdb6b694d6ea6f85fca445378f5f9ce841c5bc114677f4648399d48724eb25",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 64,
+          "height": 52,
+          "objectKey": "image/pet/redants/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/redants/icon3.jpg",
+          "bytes": 3217,
+          "sha256": "07a363326bae57a004484b68610e1f28a2522ee955cb2da5b654742638b08833",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 60,
+          "height": 72,
+          "objectKey": "exports/resource-port/pet-farm/raster/07a363326bae57a004484b68610e1f28a2522ee955cb2da5b654742638b08833.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redants/icon3.png",
+          "bytes": 3217,
+          "sha256": "07a363326bae57a004484b68610e1f28a2522ee955cb2da5b654742638b08833",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 60,
+          "height": 72,
+          "objectKey": "image/pet/redants/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "redgoopop",
+      "stages": [
+        {
+          "sourcePath": "image/pet/redgoopop/icon1.jpg",
+          "bytes": 2117,
+          "sha256": "6813f98fcda9665057fb3fbd5e02a147fa02f158b1cc65a882483254ec621533",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 41,
+          "height": 41,
+          "objectKey": "exports/resource-port/pet-farm/raster/6813f98fcda9665057fb3fbd5e02a147fa02f158b1cc65a882483254ec621533.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redgoopop/icon1.png",
+          "bytes": 2117,
+          "sha256": "6813f98fcda9665057fb3fbd5e02a147fa02f158b1cc65a882483254ec621533",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 41,
+          "height": 41,
+          "objectKey": "image/pet/redgoopop/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/redgoopop/icon2.jpg",
+          "bytes": 2991,
+          "sha256": "02f5c95bb1677604905733fe8591ff728ec8d9fe47087914d571d93d590b22a9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 56,
+          "height": 48,
+          "objectKey": "exports/resource-port/pet-farm/raster/02f5c95bb1677604905733fe8591ff728ec8d9fe47087914d571d93d590b22a9.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redgoopop/icon2.png",
+          "bytes": 2991,
+          "sha256": "02f5c95bb1677604905733fe8591ff728ec8d9fe47087914d571d93d590b22a9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 56,
+          "height": 48,
+          "objectKey": "image/pet/redgoopop/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/redgoopop/icon3.jpg",
+          "bytes": 3250,
+          "sha256": "d02959e83a55c443a9ea665deaa1c06f554778ef1f6d8f6e9665e6ca99f82300",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 53,
+          "height": 74,
+          "objectKey": "exports/resource-port/pet-farm/raster/d02959e83a55c443a9ea665deaa1c06f554778ef1f6d8f6e9665e6ca99f82300.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/redgoopop/icon3.png",
+          "bytes": 3250,
+          "sha256": "d02959e83a55c443a9ea665deaa1c06f554778ef1f6d8f6e9665e6ca99f82300",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 53,
+          "height": 74,
+          "objectKey": "image/pet/redgoopop/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "renzhe",
+      "stages": [
+        {
+          "sourcePath": "image/pet/renzhe/icon1.png",
+          "bytes": 2736,
+          "sha256": "bf11cf0ce85af2c8415620ea8948f868b49891ef31adce8e45f15a65677a4b74",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/renzhe/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/renzhe/icon2.png",
+          "bytes": 2736,
+          "sha256": "bf11cf0ce85af2c8415620ea8948f868b49891ef31adce8e45f15a65677a4b74",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/renzhe/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/renzhe/icon3.png",
+          "bytes": 2736,
+          "sha256": "bf11cf0ce85af2c8415620ea8948f868b49891ef31adce8e45f15a65677a4b74",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/renzhe/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "sazile",
+      "stages": [
+        {
+          "sourcePath": "image/pet/sazile/icon1.png",
+          "bytes": 3766,
+          "sha256": "fe612d87b107f6280364f351d49424a1fa25cf2d4f95a87b7eb33eddaac74951",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/sazile/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/sazile/icon2.png",
+          "bytes": 3766,
+          "sha256": "fe612d87b107f6280364f351d49424a1fa25cf2d4f95a87b7eb33eddaac74951",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/sazile/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/sazile/icon3.png",
+          "bytes": 3766,
+          "sha256": "fe612d87b107f6280364f351d49424a1fa25cf2d4f95a87b7eb33eddaac74951",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/sazile/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "shenquan",
+      "stages": [
+        {
+          "sourcePath": "image/pet/shenquan/icon1.png",
+          "bytes": 19536,
+          "sha256": "51410f7e3a62163bc64714e4058ebf3773cccd35880c86863099f527520d5fa7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/shenquan/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/shenquan/icon2.png",
+          "bytes": 12225,
+          "sha256": "7ec5a0a9c410e9258def71055c73937c9743fedb4573504f21e61c085c270054",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 115,
+          "objectKey": "image/pet/shenquan/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "snake",
+      "stages": [
+        {
+          "sourcePath": "image/pet/snake/icon1.jpg",
+          "bytes": 6782,
+          "sha256": "fa373b8489816a19d06edbe0ecc4e45df2498afb39c162d0e32c581579905246",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 44,
+          "height": 44,
+          "objectKey": "exports/resource-port/pet-farm/raster/fa373b8489816a19d06edbe0ecc4e45df2498afb39c162d0e32c581579905246.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/snake/icon1.png",
+          "bytes": 6782,
+          "sha256": "fa373b8489816a19d06edbe0ecc4e45df2498afb39c162d0e32c581579905246",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 44,
+          "height": 44,
+          "objectKey": "image/pet/snake/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/snake/icon2.jpg",
+          "bytes": 6913,
+          "sha256": "e7627c6d2466efa5b4df7efd4bf3bd9d950cee4875a739282d38384b6cc78d67",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 45,
+          "height": 45,
+          "objectKey": "exports/resource-port/pet-farm/raster/e7627c6d2466efa5b4df7efd4bf3bd9d950cee4875a739282d38384b6cc78d67.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/snake/icon2.png",
+          "bytes": 6913,
+          "sha256": "e7627c6d2466efa5b4df7efd4bf3bd9d950cee4875a739282d38384b6cc78d67",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 45,
+          "height": 45,
+          "objectKey": "image/pet/snake/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/snake/icon3.jpg",
+          "bytes": 8513,
+          "sha256": "4f392cf892d10a15d0ded7bee2e93f914d236caae54ee2b2ff8379359a2d47c6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 51,
+          "objectKey": "exports/resource-port/pet-farm/raster/4f392cf892d10a15d0ded7bee2e93f914d236caae54ee2b2ff8379359a2d47c6.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/snake/icon3.png",
+          "bytes": 8513,
+          "sha256": "4f392cf892d10a15d0ded7bee2e93f914d236caae54ee2b2ff8379359a2d47c6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 51,
+          "height": 51,
+          "objectKey": "image/pet/snake/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "snake1",
+      "stages": [
+        {
+          "sourcePath": "image/pet/snake1/icon1.png",
+          "bytes": 5239,
+          "sha256": "3578ec74ed3db2e2761c8dae20eacc8a47641a4f44fd0d164cf4ffffc4bbe5f5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 100,
+          "objectKey": "image/pet/snake1/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/snake1/icon2.png",
+          "bytes": 3426,
+          "sha256": "2269e7ba6d55f9acc94c00bde32bf06baa5498c4d277987ad60847079a3d057e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 82,
+          "height": 100,
+          "objectKey": "image/pet/snake1/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "tacticdog",
+      "stages": [
+        {
+          "sourcePath": "image/pet/tacticdog/icon1.png",
+          "bytes": 6253,
+          "sha256": "865303fc79d15869915bba0d30d526ff9b36364d028cabee0df4824d3473d6be",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/tacticdog/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/tacticdog/icon2.png",
+          "bytes": 6625,
+          "sha256": "b3b11b388658c639e8df02112cac2b8aaf0762e9e54d4ad63fc945ecaa99b681",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/tacticdog/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "xianhu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/xianhu/icon1.png",
+          "bytes": 23039,
+          "sha256": "04c012b78e4ae2b133fbbc98d69c27e5bb09c367f166f52dadb80818d20c3295",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 112,
+          "objectKey": "image/pet/xianhu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xianhu/icon2.png",
+          "bytes": 13590,
+          "sha256": "e1e738ac337b6860fd98fa862dcf41de152b8a52c6db6ff16b059f604c0eb8dd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 90,
+          "height": 112,
+          "objectKey": "image/pet/xianhu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "xiaohaishi",
+      "stages": [
+        {
+          "sourcePath": "image/pet/xiaohaishi/icon1.png",
+          "bytes": 5456,
+          "sha256": "8a5aeece2baacd1e479db3d1e3f0470decbe43e3e59b460358bd24449d145969",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 96,
+          "height": 105,
+          "objectKey": "image/pet/xiaohaishi/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xiaohaishi/icon2.png",
+          "bytes": 6260,
+          "sha256": "42c902ccb34ca8371787ef86f2f0affbf0d26f3eef6352da7916f8f75850017b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 96,
+          "height": 105,
+          "objectKey": "image/pet/xiaohaishi/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "xiaoke",
+      "stages": [
+        {
+          "sourcePath": "image/pet/xiaoke/icon1.png",
+          "bytes": 4537,
+          "sha256": "456c805fb4f79251dfb15c032a9b28c5272fcf89b58cabf8f3274fb5c6cba435",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/xiaoke/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xiaoke/icon2.png",
+          "bytes": 4927,
+          "sha256": "6d7595d7f8b4f592a70373ce8d30bfb5b8155148d2767f59c9418917d79efd77",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/xiaoke/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "xiaolaji",
+      "stages": [
+        {
+          "sourcePath": "image/pet/xiaolaji/icon1.png",
+          "bytes": 5426,
+          "sha256": "2626fe36c3a1aa81e13d2ddb88c7170f767b30cd82147fb23a5663eb49348315",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/xiaolaji/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xiaolaji/icon2.png",
+          "bytes": 6010,
+          "sha256": "2104098ee53d88dbaaaab5039fa0068c06dcdc203b45db537c32dd594cbc200c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 100,
+          "height": 100,
+          "objectKey": "image/pet/xiaolaji/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "xuangui",
+      "stages": [
+        {
+          "sourcePath": "image/pet/xuangui/icon1.png",
+          "bytes": 3407,
+          "sha256": "f211ddf5a08d76465ddfb67375df3543479d483c4c32574ede7ad85ccf55b20c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/xuangui/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xuangui/icon2.png",
+          "bytes": 3407,
+          "sha256": "f211ddf5a08d76465ddfb67375df3543479d483c4c32574ede7ad85ccf55b20c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/xuangui/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/xuangui/icon3.png",
+          "bytes": 3407,
+          "sha256": "f211ddf5a08d76465ddfb67375df3543479d483c4c32574ede7ad85ccf55b20c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/xuangui/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "yongye",
+      "stages": [
+        {
+          "sourcePath": "image/pet/yongye/icon1.png",
+          "bytes": 4150,
+          "sha256": "0e9f0318ab3c0e4a8c208aae0d53afa78031d5e141629d58cc3cbb91f5d8a28f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yongye/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/yongye/icon2.png",
+          "bytes": 4150,
+          "sha256": "0e9f0318ab3c0e4a8c208aae0d53afa78031d5e141629d58cc3cbb91f5d8a28f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yongye/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/yongye/icon3.png",
+          "bytes": 4150,
+          "sha256": "0e9f0318ab3c0e4a8c208aae0d53afa78031d5e141629d58cc3cbb91f5d8a28f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yongye/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "yuetu",
+      "stages": [
+        {
+          "sourcePath": "image/pet/yuetu/icon1.jpg",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/yuetu/icon1.png",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yuetu/icon1.png",
+          "authoredStageToken": "1",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/yuetu/icon2.jpg",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/yuetu/icon2.png",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yuetu/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        },
+        {
+          "sourcePath": "image/pet/yuetu/icon3.jpg",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "exports/resource-port/pet-farm/raster/9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "jpg",
+          "correctedExtension": "png"
+        },
+        {
+          "sourcePath": "image/pet/yuetu/icon3.png",
+          "bytes": 110604,
+          "sha256": "9d74c9ed7509f33070346cce011168a069fdb06bbd2484a21e39820bd97eb730",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 59,
+          "height": 59,
+          "objectKey": "image/pet/yuetu/icon3.png",
+          "authoredStageToken": "3",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    },
+    {
+      "key": "ziyinglong",
+      "stages": [
+        {
+          "sourcePath": "image/pet/ziyinglong/icon2.png",
+          "bytes": 5296,
+          "sha256": "47e5d965db3387f3d459009e8276b75c0ab20e0f98c4088629d0acf8d273cebd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 108,
+          "height": 115,
+          "objectKey": "image/pet/ziyinglong/icon2.png",
+          "authoredStageToken": "2",
+          "declaredExtension": "png",
+          "correctedExtension": null
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "stageLabels": "source-filename-token-only",
+    "staticIconsClaimAnimation": false,
+    "missingStageFallback": "source-neutral-placeholder-never-neighbor-art"
+  }
+}
