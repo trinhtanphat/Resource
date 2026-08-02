@@ -3,7 +3,7 @@
   "accountName": "trinhtanphat3333",
   "accountId": "291f5d12e63427644f59ac4a1d8f9664",
   "bucket": "ddtank-resource",
-  "defaultProfile": "images",
+  "defaultProfile": "full-resource",
   "publicBaseUrl": null,
   "profiles": {
     "images": {
@@ -14,6 +14,7 @@
     },
     "full-resource": {
       "roots": [
+        "exports",
         "flash",
         "image",
         "partical",

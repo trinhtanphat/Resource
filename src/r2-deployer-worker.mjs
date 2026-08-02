@@ -3,7 +3,7 @@ const allowedProfiles = new Set(["images", "full-resource"]);
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    const profile = url.searchParams.get("profile") ?? "images";
+    const profile = url.searchParams.get("profile") ?? "full-resource";
     if (!allowedProfiles.has(profile)) {
       return Response.json({ status: "error", error: "invalid profile" }, { status: 400 });
     }
