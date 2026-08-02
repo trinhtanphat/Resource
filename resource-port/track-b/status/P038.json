@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "runtimeSessionId": "R038",
+  "owner": "avatar-equipment",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 96880,
+    "bytes": 2420649008,
+    "uniqueBlobs": 32148,
+    "exact": 88860,
+    "inferred": 0,
+    "unresolved": 8020,
+    "profiles": {
+      "text-data": 42,
+      "raster": 94625,
+      "fla-authoring": 391,
+      "swf-timeline": 552,
+      "binary-unknown": 1270
+    },
+    "pathVariantTokens": {
+      "game": 34876,
+      "show": 30235,
+      "icon": 24827,
+      "none": 6942
+    },
+    "genderTokens": {
+      "m": 40752,
+      "f": 43326,
+      "none": 12802
+    },
+    "catalogShards": 24,
+    "sourceFilesProcessed": 96880,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass: node resource-port/track-b/checks/P038.mjs with exact Gunny and Resource roots",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P038.mjs",
+    "jsonParse": "pass: every P038 JSON artifact parsed",
+    "dependencyGate": "pass-generated-from-exact-origin-main-blobs",
+    "provenanceHashCount": "pass-generated-from-R001-R024",
+    "imageMediaValidation": "pass-by-Track-A-evidence:94625-raster-files",
+    "gitDiffCheck": "pass: git diff --check",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "552 SWF timelines do not have reviewed browser-native frame/duration/transform conversion",
+    "391 FLA authoring files remain evidence-only",
+    "1270 unknown binary files remain quarantined from runtime",
+    "secondary weapon layers and uncurated path variants have no consumer authority",
+    "color values and animation duration are not authored by characterdefine.xml"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "packageFirstCommit": "a1b6bd76c4c25a1d8608fabe36f894f45f809661",
+    "packageFirstTree": "af7c611ceca03328e96c7a358e6fa5446f183aa5",
+    "releaseCommit": null
+  }
+}
