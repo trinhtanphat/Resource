@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "runtimeSessionId": "R039",
+  "owner": "battle-hud-effects",
+  "branch": "resource-port/P039-battle-hud-effects",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependencies": [
+    {
+      "sessionId": "R025",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "a0a677303cfa337a8921b960a78ad5f07375643d",
+      "evidencePath": "config/resource-port-evidence/R025.json",
+      "evidenceGitBlobSha1": "402545b66cad8801977ed866c0cb824b543fdd64",
+      "evidenceSha256": "825916d59c782982f2ac9a6eec1df7c2fbd0746433449790f32bcd6bd39a818e",
+      "importerPath": "scripts/import-resource-port-r025.mjs",
+      "importerGitBlobSha1": "411ec16be48adce49698296369abcb5fd7261191",
+      "importerSha256": "b9484f3ee8b192dabf49eaafdc5a3117489addbc6d7e81b738ea7a23bb630447",
+      "sourceFiles": 4096,
+      "sourceBytes": 440710203,
+      "trackBDependencySatisfied": true,
+      "selectedFiles": 4096,
+      "selectedBytes": 440710203
+    },
+    {
+      "sessionId": "R026",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "a0a677303cfa337a8921b960a78ad5f07375643d",
+      "evidencePath": "config/resource-port-evidence/R026.json",
+      "evidenceGitBlobSha1": "e8c6f6d31f158e424ba3623375b50a1f9067c19a",
+      "evidenceSha256": "ff372ff8d7ecfda80e3c32e05fad8750c139007dc3b6d965b681ebe6f2780a3d",
+      "importerPath": "scripts/import-resource-port-r026.mjs",
+      "importerGitBlobSha1": "99a2543a4600ee874ff75c3dffee8bb228313a6e",
+      "importerSha256": "ed0bed7dcf91936581526d9f49fbf362eaef627c3fc0e0a9d6ba1cf3a6737b89",
+      "sourceFiles": 542,
+      "sourceBytes": 29323893,
+      "trackBDependencySatisfied": true,
+      "selectedFiles": 530,
+      "selectedBytes": 29252300
+    }
+  ],
+  "summary": {
+    "files": 4626,
+    "bytes": 469962503,
+    "uniqueBlobs": 4555,
+    "exact": 892,
+    "inferred": 0,
+    "unresolved": 3734,
+    "exactBrowserRasters": 889,
+    "profiles": {
+      "swf-timeline": 3404,
+      "raster": 1121,
+      "fla-authoring": 62,
+      "text-data": 38,
+      "binary-unknown": 1
+    },
+    "catalogShards": 2,
+    "sourceFilesProcessed": 4626,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "conversion": {
+    "existingBrowserNativeRasters": 889,
+    "extractedBrowserNativeParticleTextures": 96,
+    "totalBrowserNativeAssets": 985,
+    "particleDefinitions": {
+      "emitters": 83,
+      "particleDefinitions": 103,
+      "mappedDefinitions": 100,
+      "browserNativeReadyDefinitions": 96,
+      "mappedDefinitionsWithoutExtractedTexture": 4,
+      "unresolvedDefinitions": 3,
+      "duplicateEmitterIds": [
+        0,
+        80
+      ],
+      "unresolvedDisplayCreators": [
+        0,
+        72,
+        73
+      ]
+    },
+    "legacyTimelineMetadataRecords": 3300
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P039.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R025-R026-evidence-and-importer-blobs",
+    "ffdecIdentity": "pass-exact-cli-and-jar-sha256",
+    "particleExtraction": "pass-96-png-94-symbol-classes-100-exact-symbol-mappings",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "claims": {
+    "hudAndTransientEffectsSeparated": true,
+    "exactParticleDefinitionToSymbolMappings": 100,
+    "swfTimelineMetadataRetained": 3300,
+    "cssOrSyntheticAnimationInvented": false,
+    "swfRuntimeAllowed": false,
+    "unresolvedRuntimeAllowed": false,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "immutablePackageCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "immutableMergeCommit": null
+  },
+  "generatedAt": "2026-08-02T00:00:00Z",
+  "githubActions": false
+}

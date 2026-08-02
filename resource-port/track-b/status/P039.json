@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "runtimeSessionId": "R039",
+  "owner": "battle-hud-effects",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 4626,
+    "bytes": 469962503,
+    "uniqueBlobs": 4555,
+    "exact": 892,
+    "inferred": 0,
+    "unresolved": 3734,
+    "exactBrowserRasters": 889,
+    "profiles": {
+      "swf-timeline": 3404,
+      "raster": 1121,
+      "fla-authoring": 62,
+      "text-data": 38,
+      "binary-unknown": 1
+    },
+    "catalogShards": 2,
+    "sourceFilesProcessed": 4626,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P039.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R025-R026-evidence-and-importer-blobs",
+    "ffdecIdentity": "pass-exact-cli-and-jar-sha256",
+    "particleExtraction": "pass-96-png-94-symbol-classes-100-exact-symbol-mappings",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "3300 real SWF timelines retain exact metadata but lack reviewed browser-native visual conversion",
+    "3 particle definitions have no exact symbol class and remain disabled",
+    "4 symbol-mapped particle definitions use vector-only symbols and require reviewed browser-native rendering",
+    "62 FLA authoring files remain evidence-only",
+    "1 unknown binary file remains quarantined",
+    "runtime selection and gameplay lifecycle authority belong to R039, not this Resource package"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}

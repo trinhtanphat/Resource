@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "source": {
+    "configPaths": [
+      "partical/config.xml",
+      "image/partical/config.xml"
+    ],
+    "configSha256": "3cd0ed96c72c5a41e286c069a405b0bbdf3dc17710a39b7507485f219de0c83d",
+    "shapePaths": [
+      "partical/shape.swf",
+      "image/partical/shape.swf"
+    ],
+    "shapeSha256": "b2c9df77dbd79574905b415fd0c55302f4f0598b707e338bff82115bb1afb688"
+  },
+  "extractor": {
+    "product": "JPEXS Free Flash Decompiler",
+    "version": "26.2.1",
+    "cliSha256": "2d9ba11fdb264ec15354d520a5249024b5c8f1960493c794d1c16c7a2523d161",
+    "jarSha256": "090ab695053ad94cba6408574c7d7eea20ec60b6ae789ee6056a23f45106762f"
+  },
+  "assets": [
+    {
+      "characterId": 1,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/1.png",
+      "contentType": "image/png",
+      "bytes": 13984,
+      "sha256": "fed900cf6fcf6237c0e10493cd8d8482cccd07df757fb6b3b7eae7a9b23e0714",
+      "width": 83,
+      "height": 80,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 4,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/4.png",
+      "contentType": "image/png",
+      "bytes": 7898,
+      "sha256": "274a8f2684b368e27cb645745651c03369739148e56f91dfa5ff181fb567a901",
+      "width": 80,
+      "height": 64,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 7,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/7.png",
+      "contentType": "image/png",
+      "bytes": 3147,
+      "sha256": "97be9df3dcec83d5885703cf1f5141461201ba31aabcd91c23c53ed913df8700",
+      "width": 40,
+      "height": 36,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 10,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/10.png",
+      "contentType": "image/png",
+      "bytes": 10830,
+      "sha256": "8854e6e926b06abc25b7597205a07dd7314ad6dba7abbf2e759a60d5bfb79e43",
+      "width": 100,
+      "height": 100,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 13,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/13.png",
+      "contentType": "image/png",
+      "bytes": 5779,
+      "sha256": "762c0719a19e0ae15c09777126331c0b01071b79d779a048e6aeab87e29f69f8",
+      "width": 154,
+      "height": 154,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 16,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/16.png",
+      "contentType": "image/png",
+      "bytes": 2909,
+      "sha256": "0b9cec20a96ca0b7579bbea89d8f0b7863f1b8be5263b61405e117c9984b1dc1",
+      "width": 154,
+      "height": 38,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 19,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/19.png",
+      "contentType": "image/png",
+      "bytes": 2170,
+      "sha256": "af82035701ef6c6e54a2b195bf138d1223ac71914f091ba90c98a3786b9a513b",
+      "width": 34,
+      "height": 33,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 22,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/22.png",
+      "contentType": "image/png",
+      "bytes": 2706,
+      "sha256": "4777aabfffc8faceb0869b8a17771cc393dd304ed2e32ea3ed50f5e6d7e67b38",
+      "width": 50,
+      "height": 50,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 26,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/26.png",
+      "contentType": "image/png",
+      "bytes": 6492,
+      "sha256": "b54fa45982a18ec484c4749c486e84c6521b174054b677cd3865c2a2d29b1a0d",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 29,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/29.png",
+      "contentType": "image/png",
+      "bytes": 7332,
+      "sha256": "dfd39c211674dd7794d548b993ac1022aac8d64b12367c7dfb667bda9f8a1d3d",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 32,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/32.png",
+      "contentType": "image/png",
+      "bytes": 960,
+      "sha256": "a43d2a5dc6ecbfcc5f1a441ff9d4c164cbe6c6a687929fdf64c8f7984c63365b",
+      "width": 70,
+      "height": 70,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 35,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/35.png",
+      "contentType": "image/png",
+      "bytes": 5178,
+      "sha256": "e43a9665026014babf70e0cecd80a2a2d3c73913f569d2af04eea1910d09e6be",
+      "width": 80,
+      "height": 80,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 38,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/38.png",
+      "contentType": "image/png",
+      "bytes": 1294,
+      "sha256": "af3329884ef3474b60e6bf715651f251f00e4fdb89953b8388c306824df653d7",
+      "width": 24,
+      "height": 24,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 41,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/41.png",
+      "contentType": "image/png",
+      "bytes": 10542,
+      "sha256": "5ad5ce0fa909868a1d68600eba9fac4588ec3c674b867be3b39c32581fa7b07d",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 44,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/44.png",
+      "contentType": "image/png",
+      "bytes": 5761,
+      "sha256": "73a537248e8dbfb7306e57dcc3fa0262243b8bbd9922b87f530553ad45abcfe8",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 49,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/49.png",
+      "contentType": "image/png",
+      "bytes": 6819,
+      "sha256": "c7e2d31d02edd40d4294d8f5ed18381baa046a63a7a0e6606fb17439d906e437",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 52,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/52.png",
+      "contentType": "image/png",
+      "bytes": 7067,
+      "sha256": "5154ebb7033f63ac0ebb665797ca7499166d936530361f211a2818ba72fbe67c",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 55,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/55.png",
+      "contentType": "image/png",
+      "bytes": 43381,
+      "sha256": "4515f4771633377c3c0c187d278190a1bbe49a55c236a09ee294bbc284857468",
+      "width": 128,
+      "height": 128,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 58,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/58.png",
+      "contentType": "image/png",
+      "bytes": 29113,
+      "sha256": "0bd893ddafe62c12b0334e5116b333d1bf8ca3b1bd29ab83bef23b3c3de6de30",
+      "width": 154,
+      "height": 154,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 69,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/69.png",
+      "contentType": "image/png",
+      "bytes": 12067,
+      "sha256": "cd496285039f203c3bbeaf5e4bdca536bcc25d19c7bc6474acbe2c6e14c53eea",
+      "width": 53,
+      "height": 87,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 72,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/72.png",
+      "contentType": "image/png",
+      "bytes": 36971,
+      "sha256": "0223f87fcb642775a0a06500b438da37a35146429ee8c5a1074f10f5194848d9",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 74,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/74.png",
+      "contentType": "image/png",
+      "bytes": 36219,
+      "sha256": "1d6cf590ad311b48f08214bf451814af0aab4a0c79fea32943ccd34fa1f8dd0d",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 76,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/76.png",
+      "contentType": "image/png",
+      "bytes": 33567,
+      "sha256": "1fe288656c2bf7d0c0ff56f3e0c64cedb85b67cff424444c0383243c0ac5f7f6",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 78,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/78.png",
+      "contentType": "image/png",
+      "bytes": 31880,
+      "sha256": "7a744eb78ee1707b7db8f73a4cfb19db5a07e2bdbe5481af867ee5ebbd711b54",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 80,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/80.png",
+      "contentType": "image/png",
+      "bytes": 30243,
+      "sha256": "ed2b465146512d9a98f6c49f1371a20bf311bb2327df00b5c715ff38231346ab",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 82,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/82.png",
+      "contentType": "image/png",
+      "bytes": 31374,
+      "sha256": "b52318fce9acca057c0d26109473bfe335fd7954b6386f8e5729d5c778cd452d",
+      "width": 250,
+      "height": 200,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 85,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/85.png",
+      "contentType": "image/png",
+      "bytes": 1830,
+      "sha256": "f27845f18559a0f1973a28036526486ea5c2628139c34a44564e8043ef778204",
+      "width": 44,
+      "height": 18,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 88,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/88.png",
+      "contentType": "image/png",
+      "bytes": 3071,
+      "sha256": "cb0525a76f80c58152aa1f49f6619558ba68dd49276101363a05ced3aa11bdbb",
+      "width": 59,
+      "height": 24,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 91,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/91.png",
+      "contentType": "image/png",
+      "bytes": 3603,
+      "sha256": "a3764e2c4e6fad275ab50f07b3211679d55195eadb795657110163bd3aef4e77",
+      "width": 41,
+      "height": 41,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 94,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/94.png",
+      "contentType": "image/png",
+      "bytes": 2585,
+      "sha256": "e76ea9fcb1e1382429aca07e1f82fe68dfc518d08990eb7b2abebbf1fffdaac5",
+      "width": 30,
+      "height": 42,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 97,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/97.png",
+      "contentType": "image/png",
+      "bytes": 3846,
+      "sha256": "0c584198a4c22cc172a07df940be521bee5f24dd51e4f807af852a4443656a32",
+      "width": 43,
+      "height": 47,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 100,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/100.png",
+      "contentType": "image/png",
+      "bytes": 3781,
+      "sha256": "088333663aed8e1d9ac5a98b13d03ee53155395cd981b143468299fde0ec75a9",
+      "width": 44,
+      "height": 47,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 103,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/103.png",
+      "contentType": "image/png",
+      "bytes": 7179,
+      "sha256": "ef4b5ae1fb96feefc27b88ac720934f9d5f8abf5b2935ee12f7915b6f635ec78",
+      "width": 60,
+      "height": 60,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 106,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/106.png",
+      "contentType": "image/png",
+      "bytes": 4444,
+      "sha256": "b7974d135cebfcf8517c81aa1decaf64b456a20830797afe9e666f27ecf13a3c",
+      "width": 51,
+      "height": 45,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 109,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/109.png",
+      "contentType": "image/png",
+      "bytes": 2678,
+      "sha256": "c90107bd605c222b06c4e480c71e1ffd3a3c8c3e890e0d7186543de45031d62a",
+      "width": 30,
+      "height": 30,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 112,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/112.png",
+      "contentType": "image/png",
+      "bytes": 315,
+      "sha256": "e6208a2a653c014a9eebc09488eb9ab615aef49661e6a7417cf7f94b76013f1a",
+      "width": 12,
+      "height": 12,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 115,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/115.png",
+      "contentType": "image/png",
+      "bytes": 8270,
+      "sha256": "516b864193f328d5b10a390b6d8f060fe7f85469e458800f574c6dcc605850c1",
+      "width": 91,
+      "height": 54,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 118,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/118.png",
+      "contentType": "image/png",
+      "bytes": 2351,
+      "sha256": "600fc93285b862d221cc0534bb9e2083ea2bae19cad662193736dcd7fc64c798",
+      "width": 30,
+      "height": 29,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 121,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/121.png",
+      "contentType": "image/png",
+      "bytes": 2907,
+      "sha256": "4b5a1f33323f338b878052ba3021147936a5ba79e1cabd90347f69e49ed416cf",
+      "width": 35,
+      "height": 30,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 124,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/124.png",
+      "contentType": "image/png",
+      "bytes": 6465,
+      "sha256": "28a9415a6a111d4b41d9603ee5458ce099a0e5960fd1b7c87657279e82b5a0a4",
+      "width": 57,
+      "height": 54,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 127,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/127.png",
+      "contentType": "image/png",
+      "bytes": 6552,
+      "sha256": "e4be72ca24c91dd64166eddf39cd730123fcc4ce9f55008490cacc41ef471d91",
+      "width": 57,
+      "height": 54,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 130,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/130.png",
+      "contentType": "image/png",
+      "bytes": 8425,
+      "sha256": "0931a558e2cb20bbb1652571ca79dd2a2e86f1b8acd05c5291debdd7367816bb",
+      "width": 89,
+      "height": 54,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 133,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/133.png",
+      "contentType": "image/png",
+      "bytes": 1740,
+      "sha256": "cf294e224938bf0fc8f5b703a23397af99ea30261bc63f18c0332d9e33cc183a",
+      "width": 47,
+      "height": 39,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 136,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/136.png",
+      "contentType": "image/png",
+      "bytes": 7554,
+      "sha256": "0b45a9c804db99f932cd18f54fe80ac8344365f0611dc69e418906afa88e8a92",
+      "width": 55,
+      "height": 54,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 139,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/139.png",
+      "contentType": "image/png",
+      "bytes": 2986,
+      "sha256": "a07da9a4461b3fefb56663b365d58e980954b8ef9ea98b7f057178c44117d5ba",
+      "width": 32,
+      "height": 38,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 142,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/142.png",
+      "contentType": "image/png",
+      "bytes": 5357,
+      "sha256": "2771637f655294790f57c5fd7cd4aa271266a3906e5aef0243b50ede74347520",
+      "width": 44,
+      "height": 49,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 145,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/145.png",
+      "contentType": "image/png",
+      "bytes": 8206,
+      "sha256": "64001b924c0d693b5ee8a4a07140e636508beb0698b3bbe18957c65065ae3263",
+      "width": 50,
+      "height": 66,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 148,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/148.png",
+      "contentType": "image/png",
+      "bytes": 5470,
+      "sha256": "e484a7e28c80b68d073f747f2c42dade933df39181d97c00adf7c0f47c6a9234",
+      "width": 46,
+      "height": 46,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 151,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/151.png",
+      "contentType": "image/png",
+      "bytes": 3446,
+      "sha256": "b46f6c0e6fcd3ef7b7f070b003cc1ea4ad999afe86f47934c25ef7655c2ca6f7",
+      "width": 36,
+      "height": 49,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 154,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/154.png",
+      "contentType": "image/png",
+      "bytes": 6630,
+      "sha256": "cd548f80728f5681735528960b23f819cc0f1f6db3203cd9f75b6aae68a70f94",
+      "width": 51,
+      "height": 50,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 157,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/157.png",
+      "contentType": "image/png",
+      "bytes": 2646,
+      "sha256": "8c282656fb2f874ce75eff9b0af05f661d3e21d7220a90a3478b2a0440c14b74",
+      "width": 32,
+      "height": 30,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 160,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/160.png",
+      "contentType": "image/png",
+      "bytes": 10097,
+      "sha256": "86ba75caf5e5927991e77f2ce2cfc583f7ddac2c63f17c3ea2f7b3cbde961997",
+      "width": 100,
+      "height": 46,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 163,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/163.png",
+      "contentType": "image/png",
+      "bytes": 732,
+      "sha256": "5c8b93d4e42e75aed3477f1c87753cf4f6b1197f6e5a68e42671fe478f1cce76",
+      "width": 52,
+      "height": 9,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 166,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/166.png",
+      "contentType": "image/png",
+      "bytes": 3201,
+      "sha256": "3c9bd899a9d46dfb8efb0efb3209d888e1dee570f95237e547358da0f64f2e6f",
+      "width": 50,
+      "height": 23,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 169,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/169.png",
+      "contentType": "image/png",
+      "bytes": 7834,
+      "sha256": "880a0cc002ac075df2228a0759ac0860c2f84e982b49f4d130e3beb26c58abb9",
+      "width": 69,
+      "height": 43,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 172,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/172.png",
+      "contentType": "image/png",
+      "bytes": 3381,
+      "sha256": "a083833e2aeb4559d49b0787cde6686eb8601768b7d251341453068c8b138d4a",
+      "width": 70,
+      "height": 73,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 175,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/175.png",
+      "contentType": "image/png",
+      "bytes": 13395,
+      "sha256": "c3faa0facfdc256e5dfd874cab8e772c28697dd16af965e9b6113f69d9ccbff7",
+      "width": 63,
+      "height": 86,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 178,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/178.png",
+      "contentType": "image/png",
+      "bytes": 6524,
+      "sha256": "efc01911387077ee383d806e189e1c41c307f96dabc9d6f146eef0c954006cbf",
+      "width": 54,
+      "height": 60,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 181,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/181.png",
+      "contentType": "image/png",
+      "bytes": 4135,
+      "sha256": "4eebcb39f6cf59f8be1c7d7320a3f2da3b0603e40e84f2cd8ed8978ad1580571",
+      "width": 89,
+      "height": 93,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 184,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/184.png",
+      "contentType": "image/png",
+      "bytes": 537,
+      "sha256": "a3d558f5f95506d2fce3f47f59050660cfd40618ab5560df5762d83ad7ff1925",
+      "width": 18,
+      "height": 14,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 187,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/187.png",
+      "contentType": "image/png",
+      "bytes": 6256,
+      "sha256": "d282882d2c2c5064883f099c4de588bf854f1d00ba63460a4f0586eec1163fe4",
+      "width": 77,
+      "height": 77,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 190,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/190.png",
+      "contentType": "image/png",
+      "bytes": 6524,
+      "sha256": "efc01911387077ee383d806e189e1c41c307f96dabc9d6f146eef0c954006cbf",
+      "width": 54,
+      "height": 60,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 193,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/193.png",
+      "contentType": "image/png",
+      "bytes": 4135,
+      "sha256": "4eebcb39f6cf59f8be1c7d7320a3f2da3b0603e40e84f2cd8ed8978ad1580571",
+      "width": 89,
+      "height": 93,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 196,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/196.png",
+      "contentType": "image/png",
+      "bytes": 6734,
+      "sha256": "8f7e44c22ea12ab4e5a7ccc228b1f4ebd11b138b82cbda24a2c10620b9e6e019",
+      "width": 50,
+      "height": 62,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 199,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/199.png",
+      "contentType": "image/png",
+      "bytes": 3573,
+      "sha256": "c15888ddb9c4499c291fa4922ebb032d35e8524d6a285071a025e958350bbd89",
+      "width": 36,
+      "height": 49,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 202,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/202.png",
+      "contentType": "image/png",
+      "bytes": 6613,
+      "sha256": "6e3b1e268fe546a11b46c61048ce13b5e81b1e059821d1bdacf5e1a70f7952be",
+      "width": 55,
+      "height": 49,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 205,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/205.png",
+      "contentType": "image/png",
+      "bytes": 3975,
+      "sha256": "cfeca1180910ff4f4f139c8f756d8b76561f05d86b13b208fa4c3e94cd2c86ae",
+      "width": 60,
+      "height": 25,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 208,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/208.png",
+      "contentType": "image/png",
+      "bytes": 2226,
+      "sha256": "9ca05414d9a74c38bbd06dc2c2519f5105c202a9715958abb7ff0f5fcd4fb98d",
+      "width": 37,
+      "height": 25,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 210,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/210.png",
+      "contentType": "image/png",
+      "bytes": 2274,
+      "sha256": "dbcf282f27f8dac1ebff86139187ed753766d0b4f231699e16553495baeed191",
+      "width": 37,
+      "height": 25,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 212,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/212.png",
+      "contentType": "image/png",
+      "bytes": 2225,
+      "sha256": "3596f4e4ae51f1381cf1709584cc7c1cf8ca455d2204ded5824bbbfec9c83c75",
+      "width": 37,
+      "height": 25,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 215,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/215.png",
+      "contentType": "image/png",
+      "bytes": 132,
+      "sha256": "59d6efcafa192ce6701e29ed677e00397be0a2d3653e56b34b692f5c60efda7d",
+      "width": 15,
+      "height": 15,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 218,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/218.png",
+      "contentType": "image/png",
+      "bytes": 2642,
+      "sha256": "307e6f57b785201af5bd3716bfc950eb4fce00327b40340a21ed751247bd8f96",
+      "width": 30,
+      "height": 39,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 221,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/221.png",
+      "contentType": "image/png",
+      "bytes": 3188,
+      "sha256": "327278a281633f2af80a2199de3cbf8071d7f4dcb5c9089402ee5eba826b638f",
+      "width": 33,
+      "height": 43,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 224,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/224.png",
+      "contentType": "image/png",
+      "bytes": 7106,
+      "sha256": "1813bf3f314f9876f72b1244fa7365510c6dee03f552ea6b1eecec19460ad396",
+      "width": 54,
+      "height": 59,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 227,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/227.png",
+      "contentType": "image/png",
+      "bytes": 7604,
+      "sha256": "2b0640b4cab684bac1ff86cbf2ec51d665af7375781c8e7c1b6d24c296eca6a6",
+      "width": 55,
+      "height": 62,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 230,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/230.png",
+      "contentType": "image/png",
+      "bytes": 7143,
+      "sha256": "0383e87a68baf7e1a460a6d1e461f22f239ae3b7eb9c33019633fdd56c917802",
+      "width": 55,
+      "height": 55,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 233,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/233.png",
+      "contentType": "image/png",
+      "bytes": 8825,
+      "sha256": "98bf51f751d4fdc414fb690cd43565178a01987f28a3a23ec60aaa3300b0e157",
+      "width": 61,
+      "height": 62,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 236,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/236.png",
+      "contentType": "image/png",
+      "bytes": 5753,
+      "sha256": "40f5149346de3654a60b5a21c937a38d04184fe5e5ba21693ddb9655998a8dc5",
+      "width": 116,
+      "height": 109,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 239,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/239.png",
+      "contentType": "image/png",
+      "bytes": 8062,
+      "sha256": "2884bb4205ed53352dc55c0d7bf140127046f721980ba8b0d2dfc6e47fd85ef3",
+      "width": 133,
+      "height": 135,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 242,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/242.png",
+      "contentType": "image/png",
+      "bytes": 9532,
+      "sha256": "526768ee6cdc90332f0f0e3f302c2c027a9a931cf523e4b1ed5b4946e26cc7e5",
+      "width": 100,
+      "height": 40,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 245,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/245.png",
+      "contentType": "image/png",
+      "bytes": 10327,
+      "sha256": "cfbbdd231652fdc918c08e427c126538d40e5dd6bf1fe9cb21c8f5d92c1618c8",
+      "width": 100,
+      "height": 40,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 248,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/248.png",
+      "contentType": "image/png",
+      "bytes": 1669,
+      "sha256": "1122911de528b3ceea4632f224d7231da8468c1c15bb154a5693ac680ed0d1a8",
+      "width": 55,
+      "height": 22,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 251,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/251.png",
+      "contentType": "image/png",
+      "bytes": 1275,
+      "sha256": "ca45480589909f9c9de6193206cb08c1089f829be957cf314a7579ddf1c4303b",
+      "width": 25,
+      "height": 26,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 254,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/254.png",
+      "contentType": "image/png",
+      "bytes": 4514,
+      "sha256": "f0c44bb02a5387fc69a191e1fc1497c4911c60379bd44a5a4b0dfb8096a1b32a",
+      "width": 68,
+      "height": 38,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 257,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/257.png",
+      "contentType": "image/png",
+      "bytes": 4677,
+      "sha256": "a04d8aff70c14656072d78344aa8cf9cade79e8593725483e8cccc474ecfe1a8",
+      "width": 71,
+      "height": 39,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 260,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/260.png",
+      "contentType": "image/png",
+      "bytes": 4332,
+      "sha256": "bfa9180b153ef06e3218a24eee232156c9f61c45c47223fc1fb347c5067e3677",
+      "width": 40,
+      "height": 41,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 263,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/263.png",
+      "contentType": "image/png",
+      "bytes": 5282,
+      "sha256": "0823eff500164439d8bc17dca11feb9ae40941ca5a12bcfc8aef620d364db08a",
+      "width": 53,
+      "height": 39,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 266,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/266.png",
+      "contentType": "image/png",
+      "bytes": 6594,
+      "sha256": "2640cbbc8347fa84f883d912451fd4c33aa0e0781dbcdaa61219cd545b0889a1",
+      "width": 50,
+      "height": 62,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 269,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/269.png",
+      "contentType": "image/png",
+      "bytes": 7499,
+      "sha256": "a93773a76727294de3216cd527a55164c4395a8fd350d17be398c8a1be58e1eb",
+      "width": 53,
+      "height": 69,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 272,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/272.png",
+      "contentType": "image/png",
+      "bytes": 1851,
+      "sha256": "831e6101486ece850cd6a9a1dbfff6d895bed0e275402f9af2ca2eab53da2144",
+      "width": 26,
+      "height": 24,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 275,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/275.png",
+      "contentType": "image/png",
+      "bytes": 5009,
+      "sha256": "76ec757f3b8ef532e94fe7369ced38542120b0d1bcb4e00811eda77bb046cd58",
+      "width": 40,
+      "height": 48,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 278,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/278.png",
+      "contentType": "image/png",
+      "bytes": 8300,
+      "sha256": "ad3f39a62cd2142834d39e5c65221cb4582cc8da9f1f161b1e79570163dfb61d",
+      "width": 60,
+      "height": 74,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 281,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/281.png",
+      "contentType": "image/png",
+      "bytes": 3903,
+      "sha256": "a01ea5f38ac39f8e09e99212a511670977c47ebc81ebbe6c71d6d81c23b15415",
+      "width": 72,
+      "height": 24,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 284,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/284.png",
+      "contentType": "image/png",
+      "bytes": 16840,
+      "sha256": "61f5d037164949671a37766719e811060206c0f8354ea3f16e926f8fdf6c3217",
+      "width": 93,
+      "height": 79,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 287,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/287.png",
+      "contentType": "image/png",
+      "bytes": 20766,
+      "sha256": "42c6a14876fd6df1a662e4779767fb7953b4dedfb7476fb4b72e6d971bdca4a6",
+      "width": 101,
+      "height": 89,
+      "alphaKind": "alpha-channel"
+    },
+    {
+      "characterId": 290,
+      "path": "exports/resource-port/battle-hud-effects/particle/textures/290.png",
+      "contentType": "image/png",
+      "bytes": 19634,
+      "sha256": "4af44836a90a8b731a29459810bf6e441cc68e96e3514cc3ae55739e89282100",
+      "width": 99,
+      "height": 90,
+      "alphaKind": "alpha-channel"
+    }
+  ],
+  "classMappings": [
+    {
+      "classNumber": 1,
+      "className": "ParticalShap1",
+      "spriteId": 3,
+      "textureCharacterIds": [
+        1
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/1.png"
+      ]
+    },
+    {
+      "classNumber": 2,
+      "className": "ParticalShap2",
+      "spriteId": 6,
+      "textureCharacterIds": [
+        4
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/4.png"
+      ]
+    },
+    {
+      "classNumber": 3,
+      "className": "ParticalShap3",
+      "spriteId": 9,
+      "textureCharacterIds": [
+        7
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/7.png"
+      ]
+    },
+    {
+      "classNumber": 4,
+      "className": "ParticalShap4",
+      "spriteId": 12,
+      "textureCharacterIds": [
+        10
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/10.png"
+      ]
+    },
+    {
+      "classNumber": 5,
+      "className": "ParticalShap5",
+      "spriteId": 15,
+      "textureCharacterIds": [
+        13
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/13.png"
+      ]
+    },
+    {
+      "classNumber": 6,
+      "className": "ParticalShap6",
+      "spriteId": 18,
+      "textureCharacterIds": [
+        16
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/16.png"
+      ]
+    },
+    {
+      "classNumber": 7,
+      "className": "ParticalShap7",
+      "spriteId": 21,
+      "textureCharacterIds": [
+        19
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/19.png"
+      ]
+    },
+    {
+      "classNumber": 8,
+      "className": "ParticalShap8",
+      "spriteId": 25,
+      "textureCharacterIds": [
+        22
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/22.png"
+      ]
+    },
+    {
+      "classNumber": 9,
+      "className": "ParticalShap9",
+      "spriteId": 28,
+      "textureCharacterIds": [
+        26
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/26.png"
+      ]
+    },
+    {
+      "classNumber": 10,
+      "className": "ParticalShap10",
+      "spriteId": 31,
+      "textureCharacterIds": [
+        29
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/29.png"
+      ]
+    },
+    {
+      "classNumber": 11,
+      "className": "ParticalShap11",
+      "spriteId": 34,
+      "textureCharacterIds": [
+        32
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/32.png"
+      ]
+    },
+    {
+      "classNumber": 12,
+      "className": "ParticalShap12",
+      "spriteId": 37,
+      "textureCharacterIds": [
+        35
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/35.png"
+      ]
+    },
+    {
+      "classNumber": 13,
+      "className": "ParticalShap13",
+      "spriteId": 40,
+      "textureCharacterIds": [
+        38
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/38.png"
+      ]
+    },
+    {
+      "classNumber": 14,
+      "className": "ParticalShap14",
+      "spriteId": 43,
+      "textureCharacterIds": [
+        41
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/41.png"
+      ]
+    },
+    {
+      "classNumber": 15,
+      "className": "ParticalShap15",
+      "spriteId": 46,
+      "textureCharacterIds": [
+        44
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/44.png"
+      ]
+    },
+    {
+      "classNumber": 16,
+      "className": "ParticalShap16",
+      "spriteId": 48,
+      "textureCharacterIds": [],
+      "texturePaths": []
+    },
+    {
+      "classNumber": 17,
+      "className": "ParticalShap17",
+      "spriteId": 51,
+      "textureCharacterIds": [
+        49
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/49.png"
+      ]
+    },
+    {
+      "classNumber": 18,
+      "className": "ParticalShap18",
+      "spriteId": 54,
+      "textureCharacterIds": [
+        52
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/52.png"
+      ]
+    },
+    {
+      "classNumber": 19,
+      "className": "ParticalShap19",
+      "spriteId": 57,
+      "textureCharacterIds": [
+        55
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/55.png"
+      ]
+    },
+    {
+      "classNumber": 20,
+      "className": "ParticalShap20",
+      "spriteId": 60,
+      "textureCharacterIds": [
+        58
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/58.png"
+      ]
+    },
+    {
+      "classNumber": 21,
+      "className": "ParticalShap21",
+      "spriteId": 62,
+      "textureCharacterIds": [],
+      "texturePaths": []
+    },
+    {
+      "classNumber": 22,
+      "className": "ParticalShap22",
+      "spriteId": 64,
+      "textureCharacterIds": [],
+      "texturePaths": []
+    },
+    {
+      "classNumber": 23,
+      "className": "ParticalShap23",
+      "spriteId": 66,
+      "textureCharacterIds": [],
+      "texturePaths": []
+    },
+    {
+      "classNumber": 24,
+      "className": "ParticalShap24",
+      "spriteId": 68,
+      "textureCharacterIds": [],
+      "texturePaths": []
+    },
+    {
+      "classNumber": 25,
+      "className": "ParticalShap25",
+      "spriteId": 71,
+      "textureCharacterIds": [
+        69
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/69.png"
+      ]
+    },
+    {
+      "classNumber": 26,
+      "className": "ParticalShap26",
+      "spriteId": 84,
+      "textureCharacterIds": [
+        72,
+        74,
+        76,
+        78,
+        80,
+        82
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/72.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/74.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/76.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/78.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/80.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/82.png"
+      ]
+    },
+    {
+      "classNumber": 27,
+      "className": "ParticalShap27",
+      "spriteId": 87,
+      "textureCharacterIds": [
+        85
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/85.png"
+      ]
+    },
+    {
+      "classNumber": 28,
+      "className": "ParticalShap28",
+      "spriteId": 90,
+      "textureCharacterIds": [
+        88
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/88.png"
+      ]
+    },
+    {
+      "classNumber": 29,
+      "className": "ParticalShap29",
+      "spriteId": 93,
+      "textureCharacterIds": [
+        91
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/91.png"
+      ]
+    },
+    {
+      "classNumber": 30,
+      "className": "ParticalShap30",
+      "spriteId": 96,
+      "textureCharacterIds": [
+        94
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/94.png"
+      ]
+    },
+    {
+      "classNumber": 31,
+      "className": "ParticalShap31",
+      "spriteId": 99,
+      "textureCharacterIds": [
+        97
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/97.png"
+      ]
+    },
+    {
+      "classNumber": 32,
+      "className": "ParticalShap32",
+      "spriteId": 102,
+      "textureCharacterIds": [
+        100
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/100.png"
+      ]
+    },
+    {
+      "classNumber": 33,
+      "className": "ParticalShap33",
+      "spriteId": 105,
+      "textureCharacterIds": [
+        103
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/103.png"
+      ]
+    },
+    {
+      "classNumber": 34,
+      "className": "ParticalShap34",
+      "spriteId": 108,
+      "textureCharacterIds": [
+        106
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/106.png"
+      ]
+    },
+    {
+      "classNumber": 35,
+      "className": "ParticalShap35",
+      "spriteId": 111,
+      "textureCharacterIds": [
+        109
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/109.png"
+      ]
+    },
+    {
+      "classNumber": 36,
+      "className": "ParticalShap36",
+      "spriteId": 114,
+      "textureCharacterIds": [
+        112
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/112.png"
+      ]
+    },
+    {
+      "classNumber": 37,
+      "className": "ParticalShap37",
+      "spriteId": 117,
+      "textureCharacterIds": [
+        115
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/115.png"
+      ]
+    },
+    {
+      "classNumber": 38,
+      "className": "ParticalShap38",
+      "spriteId": 120,
+      "textureCharacterIds": [
+        118
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/118.png"
+      ]
+    },
+    {
+      "classNumber": 39,
+      "className": "ParticalShap39",
+      "spriteId": 123,
+      "textureCharacterIds": [
+        121
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/121.png"
+      ]
+    },
+    {
+      "classNumber": 40,
+      "className": "ParticalShap40",
+      "spriteId": 126,
+      "textureCharacterIds": [
+        124
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/124.png"
+      ]
+    },
+    {
+      "classNumber": 41,
+      "className": "ParticalShap41",
+      "spriteId": 129,
+      "textureCharacterIds": [
+        127
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/127.png"
+      ]
+    },
+    {
+      "classNumber": 42,
+      "className": "ParticalShap42",
+      "spriteId": 132,
+      "textureCharacterIds": [
+        130
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/130.png"
+      ]
+    },
+    {
+      "classNumber": 43,
+      "className": "ParticalShap43",
+      "spriteId": 135,
+      "textureCharacterIds": [
+        133
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/133.png"
+      ]
+    },
+    {
+      "classNumber": 44,
+      "className": "ParticalShap44",
+      "spriteId": 138,
+      "textureCharacterIds": [
+        136
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/136.png"
+      ]
+    },
+    {
+      "classNumber": 45,
+      "className": "ParticalShap45",
+      "spriteId": 141,
+      "textureCharacterIds": [
+        139
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/139.png"
+      ]
+    },
+    {
+      "classNumber": 46,
+      "className": "ParticalShap46",
+      "spriteId": 144,
+      "textureCharacterIds": [
+        142
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/142.png"
+      ]
+    },
+    {
+      "classNumber": 47,
+      "className": "ParticalShap47",
+      "spriteId": 147,
+      "textureCharacterIds": [
+        145
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/145.png"
+      ]
+    },
+    {
+      "classNumber": 48,
+      "className": "ParticalShap48",
+      "spriteId": 150,
+      "textureCharacterIds": [
+        148
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/148.png"
+      ]
+    },
+    {
+      "classNumber": 49,
+      "className": "ParticalShap49",
+      "spriteId": 153,
+      "textureCharacterIds": [
+        151
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/151.png"
+      ]
+    },
+    {
+      "classNumber": 50,
+      "className": "ParticalShap50",
+      "spriteId": 156,
+      "textureCharacterIds": [
+        154
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/154.png"
+      ]
+    },
+    {
+      "classNumber": 51,
+      "className": "ParticalShap51",
+      "spriteId": 159,
+      "textureCharacterIds": [
+        157
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/157.png"
+      ]
+    },
+    {
+      "classNumber": 52,
+      "className": "ParticalShap52",
+      "spriteId": 165,
+      "textureCharacterIds": [
+        163
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/163.png"
+      ]
+    },
+    {
+      "classNumber": 53,
+      "className": "ParticalShap53",
+      "spriteId": 162,
+      "textureCharacterIds": [
+        160
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/160.png"
+      ]
+    },
+    {
+      "classNumber": 54,
+      "className": "ParticalShap54",
+      "spriteId": 168,
+      "textureCharacterIds": [
+        166
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/166.png"
+      ]
+    },
+    {
+      "classNumber": 55,
+      "className": "ParticalShap55",
+      "spriteId": 171,
+      "textureCharacterIds": [
+        169
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/169.png"
+      ]
+    },
+    {
+      "classNumber": 56,
+      "className": "ParticalShap56",
+      "spriteId": 174,
+      "textureCharacterIds": [
+        172
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/172.png"
+      ]
+    },
+    {
+      "classNumber": 57,
+      "className": "ParticalShap57",
+      "spriteId": 283,
+      "textureCharacterIds": [
+        281
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/281.png"
+      ]
+    },
+    {
+      "classNumber": 58,
+      "className": "ParticalShap58",
+      "spriteId": 177,
+      "textureCharacterIds": [
+        175
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/175.png"
+      ]
+    },
+    {
+      "classNumber": 59,
+      "className": "ParticalShap59",
+      "spriteId": 180,
+      "textureCharacterIds": [
+        178
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/178.png"
+      ]
+    },
+    {
+      "classNumber": 60,
+      "className": "ParticalShap60",
+      "spriteId": 183,
+      "textureCharacterIds": [
+        181
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/181.png"
+      ]
+    },
+    {
+      "classNumber": 61,
+      "className": "ParticalShap61",
+      "spriteId": 186,
+      "textureCharacterIds": [
+        184
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/184.png"
+      ]
+    },
+    {
+      "classNumber": 62,
+      "className": "ParticalShap62",
+      "spriteId": 189,
+      "textureCharacterIds": [
+        187
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/187.png"
+      ]
+    },
+    {
+      "classNumber": 63,
+      "className": "ParticalShap63",
+      "spriteId": 262,
+      "textureCharacterIds": [
+        260
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/260.png"
+      ]
+    },
+    {
+      "classNumber": 64,
+      "className": "ParticalShap64",
+      "spriteId": 198,
+      "textureCharacterIds": [
+        196
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/196.png"
+      ]
+    },
+    {
+      "classNumber": 65,
+      "className": "ParticalShap65",
+      "spriteId": 192,
+      "textureCharacterIds": [
+        190
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/190.png"
+      ]
+    },
+    {
+      "classNumber": 66,
+      "className": "ParticalShap66",
+      "spriteId": 195,
+      "textureCharacterIds": [
+        193
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/193.png"
+      ]
+    },
+    {
+      "classNumber": 67,
+      "className": "ParticalShap67",
+      "spriteId": 201,
+      "textureCharacterIds": [
+        199
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/199.png"
+      ]
+    },
+    {
+      "classNumber": 68,
+      "className": "ParticalShap68",
+      "spriteId": 204,
+      "textureCharacterIds": [
+        202
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/202.png"
+      ]
+    },
+    {
+      "classNumber": 69,
+      "className": "ParticalShap69",
+      "spriteId": 207,
+      "textureCharacterIds": [
+        205
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/205.png"
+      ]
+    },
+    {
+      "classNumber": 70,
+      "className": "ParticalShap70",
+      "spriteId": 214,
+      "textureCharacterIds": [
+        208,
+        210,
+        212
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/208.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/210.png",
+        "exports/resource-port/battle-hud-effects/particle/textures/212.png"
+      ]
+    },
+    {
+      "classNumber": 71,
+      "className": "ParticalShap71",
+      "spriteId": 217,
+      "textureCharacterIds": [
+        215
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/215.png"
+      ]
+    },
+    {
+      "classNumber": 74,
+      "className": "ParticalShap74",
+      "spriteId": 220,
+      "textureCharacterIds": [
+        218
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/218.png"
+      ]
+    },
+    {
+      "classNumber": 75,
+      "className": "ParticalShap75",
+      "spriteId": 223,
+      "textureCharacterIds": [
+        221
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/221.png"
+      ]
+    },
+    {
+      "classNumber": 76,
+      "className": "ParticalShap76",
+      "spriteId": 226,
+      "textureCharacterIds": [
+        224
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/224.png"
+      ]
+    },
+    {
+      "classNumber": 77,
+      "className": "ParticalShap77",
+      "spriteId": 229,
+      "textureCharacterIds": [
+        227
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/227.png"
+      ]
+    },
+    {
+      "classNumber": 78,
+      "className": "ParticalShap78",
+      "spriteId": 232,
+      "textureCharacterIds": [
+        230
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/230.png"
+      ]
+    },
+    {
+      "classNumber": 79,
+      "className": "ParticalShap79",
+      "spriteId": 235,
+      "textureCharacterIds": [
+        233
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/233.png"
+      ]
+    },
+    {
+      "classNumber": 80,
+      "className": "ParticalShap80",
+      "spriteId": 238,
+      "textureCharacterIds": [
+        236
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/236.png"
+      ]
+    },
+    {
+      "classNumber": 81,
+      "className": "ParticalShap81",
+      "spriteId": 241,
+      "textureCharacterIds": [
+        239
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/239.png"
+      ]
+    },
+    {
+      "classNumber": 82,
+      "className": "ParticalShap82",
+      "spriteId": 244,
+      "textureCharacterIds": [
+        242
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/242.png"
+      ]
+    },
+    {
+      "classNumber": 83,
+      "className": "ParticalShap83",
+      "spriteId": 247,
+      "textureCharacterIds": [
+        245
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/245.png"
+      ]
+    },
+    {
+      "classNumber": 84,
+      "className": "ParticalShap84",
+      "spriteId": 250,
+      "textureCharacterIds": [
+        248
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/248.png"
+      ]
+    },
+    {
+      "classNumber": 85,
+      "className": "ParticalShap85",
+      "spriteId": 253,
+      "textureCharacterIds": [
+        251
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/251.png"
+      ]
+    },
+    {
+      "classNumber": 86,
+      "className": "ParticalShap86",
+      "spriteId": 256,
+      "textureCharacterIds": [
+        254
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/254.png"
+      ]
+    },
+    {
+      "classNumber": 87,
+      "className": "ParticalShap87",
+      "spriteId": 259,
+      "textureCharacterIds": [
+        257
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/257.png"
+      ]
+    },
+    {
+      "classNumber": 88,
+      "className": "ParticalShap88",
+      "spriteId": 265,
+      "textureCharacterIds": [
+        263
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/263.png"
+      ]
+    },
+    {
+      "classNumber": 89,
+      "className": "ParticalShap89",
+      "spriteId": 268,
+      "textureCharacterIds": [
+        266
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/266.png"
+      ]
+    },
+    {
+      "classNumber": 90,
+      "className": "ParticalShap90",
+      "spriteId": 271,
+      "textureCharacterIds": [
+        269
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/269.png"
+      ]
+    },
+    {
+      "classNumber": 91,
+      "className": "ParticalShap91",
+      "spriteId": 274,
+      "textureCharacterIds": [
+        272
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/272.png"
+      ]
+    },
+    {
+      "classNumber": 92,
+      "className": "ParticalShap92",
+      "spriteId": 277,
+      "textureCharacterIds": [
+        275
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/275.png"
+      ]
+    },
+    {
+      "classNumber": 93,
+      "className": "ParticalShap93",
+      "spriteId": 280,
+      "textureCharacterIds": [
+        278
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/278.png"
+      ]
+    },
+    {
+      "classNumber": 94,
+      "className": "ParticalShap94",
+      "spriteId": 286,
+      "textureCharacterIds": [
+        284
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/284.png"
+      ]
+    },
+    {
+      "classNumber": 95,
+      "className": "ParticalShap95",
+      "spriteId": 289,
+      "textureCharacterIds": [
+        287
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/287.png"
+      ]
+    },
+    {
+      "classNumber": 96,
+      "className": "ParticalShap96",
+      "spriteId": 292,
+      "textureCharacterIds": [
+        290
+      ],
+      "texturePaths": [
+        "exports/resource-port/battle-hud-effects/particle/textures/290.png"
+      ]
+    }
+  ],
+  "summary": {
+    "textures": 96,
+    "symbolClasses": 94,
+    "symbolClassesWithExtractedTextures": 89,
+    "vectorOnlySymbolClasses": 5,
+    "missingClassNumbers": [
+      72,
+      73
+    ]
+  }
+}
