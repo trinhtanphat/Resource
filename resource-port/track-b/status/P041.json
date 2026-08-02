@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "owner": "guild-social-marriage",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 1201,
+    "bytes": 18391659,
+    "uniqueBlobs": 1031,
+    "trackA": {
+      "exact": 1173,
+      "inferred": 0,
+      "unresolved": 28
+    },
+    "package": {
+      "exact": 1175,
+      "inferred": 0,
+      "unresolved": 26
+    },
+    "profiles": {
+      "raster": 1175,
+      "swf-timeline": 26
+    },
+    "catalogShards": 1,
+    "sourceFilesProcessed": 1201,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P041.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R028-evidence-importer-and-shard",
+    "r028ImporterCheck": "pass: 1201 files / 18391659 bytes / 28 Track A unresolved",
+    "mediaValidation": "pass-two-byte-identical-extension-corrections-with-signature-dimensions-and-sha256",
+    "foundationAudit": "pass-eight-immutable-FFDec-compatible-outputs-no-binary-duplication",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "26 SWF containers retain exact FFDec metadata but no reviewed P041 browser-native visual composition",
+    "R028 SWF opcode summaries do not prove a behavior port; P041 claims zero SWF behavior rewrites",
+    "wedding appearance layer order and anchors are absent from R028 and remain unresolved",
+    "map00, PathRoboSearcher segmentation, per-child map01 depth, invite, continuation, fireworks, ceremony start/stop and settlement remain fail-closed",
+    "the eight existing foundation outputs are referenced from immutable Resource commit 7dc16b70 and are not duplicated",
+    "business state and permissions remain Gunny server authority",
+    "runtime selection belongs to R041, not this Resource package"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}

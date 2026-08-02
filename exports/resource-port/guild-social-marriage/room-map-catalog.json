@@ -1,0 +1,1716 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "mapIdentity": "exact-source-directory",
+  "maps": [
+    {
+      "mapId": "0",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/0/icon.png",
+          "basename": "icon.png",
+          "bytes": 5560,
+          "sha256": "3401712fd0a3dbcb6a8c4484f0dc69e894efd8813c0f557ec6a500959c08649f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/0/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 53835,
+          "sha256": "363c0f7eed952342515b3928d8d33cdd85e40c2244c85c2b955360d4dd6681a0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/0/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 21923,
+          "sha256": "bc728aebce68ad06a41ac4fe202560989b08889eed07e0e83599b714c0ed28da",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1/icon.png",
+          "basename": "icon.png",
+          "bytes": 3499,
+          "sha256": "104164beeafca68bdec988ed36b348aa190cdc17c902f4562445a5a950b75580",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 17816,
+          "sha256": "bfb09a450eade9999df279a2ed58782d906d9f45a726b269b9b7d6c9df9d7ff0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 3236,
+          "sha256": "659f9c79f3e192a9dbaf6074e1c0be5b55dc7fd75674fdf95e0796683986c1d9",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 53395,
+          "sha256": "87ea7cdc4be80d8305ed0af856ec4b63acd4b24144cbcefa486234978ed25381",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 42975,
+          "sha256": "8af65be87a36a3d531c8bfba784927c5ce332584a75d74d729188ec09748241d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 42333,
+          "sha256": "b754b2b69be3684dcbd1c89d7ac9e7f1b67b544c04e64e69ee8add8a619785da",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 40901,
+          "sha256": "c9e0bacd628fd138b253afb5101f418a108aa05c73faa5a8cce4b45d91477c32",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 39306,
+          "sha256": "ede2e664f1620e7abe261607ed0eedcc02fe2961c52d4524d442e6eb77566363",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "2",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/2/icon.png",
+          "basename": "icon.png",
+          "bytes": 2734,
+          "sha256": "f90040ae04ab3c562194e9bde023c48bb6839c96d9474debaa2beb096fface00",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/2/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 20427,
+          "sha256": "1bb72b2b171532a3272383eeb47e834593c548405b220459d2c74bd25c81018b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/2/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 26897,
+          "sha256": "8af1f0a56aab3d4c1786d1a99a4a9842b75ec061e8c6b27ff910dd72a07aabca",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/2/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 96955,
+          "sha256": "8119c80e34219696be327fd5022916b86077dbdfb50c2863ec0442c4f9d4442f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/2/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 33847,
+          "sha256": "3a3648ffab60532dd178b81793fd11d00332483c45ed6bad32b682966c8bcaf0",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "3",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/3/icon.png",
+          "basename": "icon.png",
+          "bytes": 3047,
+          "sha256": "6d2770cc0fd2ba5a03eb45e6627f560f74be38bec144222456f38b969c8c8a10",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 17890,
+          "sha256": "eb6fb887676bd36d873d637cd48f089504d29a564993f87c5135ab7f01b1f936",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 27448,
+          "sha256": "0f02bc2fbe340faf01ac0b43dce5b268221b22ea67db509ab4f14d4919b3b52c",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 93801,
+          "sha256": "990c75fcd556939dff4d4566a44dd85b674e48afb76310fef60b724a30e7eb5d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 28663,
+          "sha256": "634dac8b04317e24a48e5e59bd0afe5c25c27a5dd69de33ee76a5b81286e10dc",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 29578,
+          "sha256": "072b95062489ba537cb6afc29129e60d4673a5312188373faa1461451e0a7d5d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 34190,
+          "sha256": "b28f6cac4d82ed96b95bc142cfd62c9d951481677872421eb0f864f7ca3f6f32",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/3/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 40558,
+          "sha256": "bf2aeb3d0b4f393be4783b27fa3f9c0a64660763e97789436653ab9c29526496",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "4",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/4/icon.png",
+          "basename": "icon.png",
+          "bytes": 5912,
+          "sha256": "feb0e6b63b491afc73bf4af48b7ba5cc9c201dc9c5006243bcee009dc173e661",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/4/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 14983,
+          "sha256": "180e1b7a5a72be74b877f8373b11dd406cbf20345e2f7d5306a789d72553a810",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/4/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 2659,
+          "sha256": "6a2d62985123345e22b062161fe9f939063655db31b11b692ff195c4b47ab0e1",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/4/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 90071,
+          "sha256": "b80291d6968784dd8818a2bbfc5d302b93744e1fcb1014d7574c3a41979eab32",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/4/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 98688,
+          "sha256": "91e975c9005ce5bf8aefd5d550f9018b8aa76068515ba7d79076f90490d88a56",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/4/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 98015,
+          "sha256": "387069ba41eb7778b971823618f078325742cc789c52c749195901e267975bcb",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "5",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/5/icon.png",
+          "basename": "icon.png",
+          "bytes": 2989,
+          "sha256": "13ba8d79038e10e03f9b098901533218a72101344b019cb510d6f389a6c6a75c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 14060,
+          "sha256": "cc8b55abe2565890a0802891c2dccbf63849104470a348129e174bbfc9dc7554",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 6766,
+          "sha256": "c4b9f93036b45b981f8a107949e980e6883da423fbc5cec12bcc580b2d6289aa",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 49611,
+          "sha256": "7b76211e6f34d37cb5a5538a8aa7401004f18c10e29d71d3c1ca1fef0c0d10af",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 52698,
+          "sha256": "5dc1515c894d451e7aff319aead44ba8dea41b9c9ed9e121481da02595a4a655",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 55844,
+          "sha256": "03f40a4a7851c1db77cd1b9991a2aba33425c2190299544ef02eb9e705544534",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/5/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 40417,
+          "sha256": "cd06ff9556701876bbe7d50255e813ed98bc0ad84a794bbc2fb46bae79d3ef47",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "6",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/6/icon.png",
+          "basename": "icon.png",
+          "bytes": 3248,
+          "sha256": "708f1261d5f57e94b0dbe55ec5655b740fb4f1d71587b60e241cb443a172668f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 13773,
+          "sha256": "16e8f83996fe562422f06329236150c37855c7d5845d1a1ccd0f4a95c6468c05",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 24458,
+          "sha256": "96bf221ef825bc3d526f93f1b55b0bb29e14fb58d05be6a3bbb3d410472ae854",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 68317,
+          "sha256": "a6874b97f683de63772d61a2bed09bf515163419a524cfae094771c7eb7e2c55",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 259378,
+          "sha256": "fc2fc67cf4ed62eec433992f481196e32b4d92f8b39638e0ecd48731c697007f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 230170,
+          "sha256": "c62b8e2bc04ba7ecf964476190c91813557dbe09e2ff4c1dfb19623c6765a80d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 245596,
+          "sha256": "8e39c3b78ab8d26dc05f6232ba7919ea459b4d3cd624d851bfda9d2e46ceb750",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/6/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 56311,
+          "sha256": "cf09f215a132f9dbcc3272d36cb8513a60139ba901a11440ba94a2d2d5949591",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "7",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/7/icon.png",
+          "basename": "icon.png",
+          "bytes": 3760,
+          "sha256": "3fa4ba9b393da94973872e1c2e34c899fb218259d99ea6702cd3875558697506",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 15820,
+          "sha256": "c7b8936b673d6a697d2fe330ca8930686ed181397979ab4c10555b689d6c5db1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 6588,
+          "sha256": "0fce5ac26016b3c1b383450d6a0af547321bcc124ae5e2237f60951bdf8d6453",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 62749,
+          "sha256": "8cf14d9aa0ab53aafff918ba894a0e68a0afda23f26e37985cd806083d6eb717",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 208542,
+          "sha256": "7bef4e03d9e7c3430f070f3eb771c234ab882a85c6c7c0c59fd7e8b994063825",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 233988,
+          "sha256": "1ad7ab5e31e6b0f824506c395a344af41c7f244aa36333c7dd2aa89f1c12d9fc",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 232606,
+          "sha256": "3113f8b8138b0f060761344d5a90749ab1095d052863a189479c935dcac4f514",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/7/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 233420,
+          "sha256": "cab3a7c87e1a4d21b16a636feaaba1645304129506770c745ad0f3d4598ec254",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "8",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/8/icon.png",
+          "basename": "icon.png",
+          "bytes": 2404,
+          "sha256": "efd919d0d0177a15c652b122f3309e0330a9bbdc4284df45e6c3a282c36adf1b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 14325,
+          "sha256": "be4cd7b8565094296da18e58774118431cd061bfc7d54e6813a3819770ec6992",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 3001,
+          "sha256": "21137eb4acef75875769c262f81dbaaf133ac58698a0e6ddf9bd5179df8a8530",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 49010,
+          "sha256": "b408697553945f60e505d6fe6bab26a36d0775192cb2793e530e6d054ad9b9bd",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 54596,
+          "sha256": "2a1e9a2e9e5f9347045b8a332f09bdf6a0587e873a4996edf80ff173c67211d0",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 48246,
+          "sha256": "9b86df697251fc25462011c4258d6d620c915ca9d7c9fd3c59533a8e5f79d1dd",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 34837,
+          "sha256": "e03418f0df15b216fdf116226f647cf50e08b71c1a0250a654c296faf200fd6d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/8/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 39753,
+          "sha256": "566f137024383ccd13135a7a8276bae2fe1d2bdccdb3e044e03a6db4d444ca8e",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "9",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/9/icon.png",
+          "basename": "icon.png",
+          "bytes": 2469,
+          "sha256": "e6efdf696a3e6c5b40bab17ee7bc83adba3b33e16eca45fa6c54846b26844eba",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/9/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 21553,
+          "sha256": "02949c818f4ed675138b8ce49f6213912ab93956443da9c427738fb7e7d51609",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/9/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 7860,
+          "sha256": "0d402e3c5402b1fa6b895c5d1f1b3855f0ac1b108cb60c690e0c15fc0a3d5d84",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/9/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 49982,
+          "sha256": "5ec19c2263d886c3fb209dda83e036939ea3bbe2cfab7a61f72d68e24c166be1",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/9/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 46613,
+          "sha256": "6fa85d1c0d0b993c9fe401d614e64cc10b7cb2e839838ab60c317222c3c51298",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "10",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/10/icon.png",
+          "basename": "icon.png",
+          "bytes": 2492,
+          "sha256": "b90077f053faf8ea037add75ec77f0a674b512c742ca2288f9643269cc9df6ed",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 18452,
+          "sha256": "bf537183e6eac9872427dbbac3cb91db2ee24f26a913d52b7ca7f03be1ded034",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 7340,
+          "sha256": "230f06bfde480c03ca33cad888599266592e05e2af7efe67ae5f69326c677885",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 52395,
+          "sha256": "87cc52bcc452444177813f063d387d9b14cc2e5667e411d8ff959bc8099527c3",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 52675,
+          "sha256": "8dd898fc0db9e2927fe09ee822156bfb55df546d9be0520f98b8b54aa84e0445",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "11",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/11/icon.png",
+          "basename": "icon.png",
+          "bytes": 2418,
+          "sha256": "70aebba7cfc5c2fd1d05c5290313c4df7b773175ef09904f4ffc4ee281101dbc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/11/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 14524,
+          "sha256": "79bf8a93a74a684bfea693877a956573c832d91df5d7b189581941a18bea53e1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/11/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 8698,
+          "sha256": "7f9a2ca3674ce81f8649484fdae10dda19214e264ac7612148f4203295487ae1",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/11/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 52117,
+          "sha256": "119946df098abba9bb940424cb5581efeb76e11063d0cc57742124833420accd",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/11/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 61789,
+          "sha256": "2982d3fe14ab699ca7dbb59f6fe6b0d45a46c215bea2285f2064381a3fbf9c9f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "12",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/12/icon.png",
+          "basename": "icon.png",
+          "bytes": 2815,
+          "sha256": "62445d269787f7be87ba340da27356857a2e216a59cb8a564c72e52ceec023b4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 16661,
+          "sha256": "150809031f81b1e86cad3d17e9c4bd4788323a2ba141230c1bd92dbe5347f75a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 5014,
+          "sha256": "a7ea15a6efe0982f2db172b6f7af3b97d1bc505eca92ff6749eaf04b6ad7f86b",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 214108,
+          "sha256": "6333a53f92fda4b56088645d51941b639310cf547c35996c4b127cebe1be90b4",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 40585,
+          "sha256": "569e70e05d1bd8ffc17ef91a719f23774cabf4fd2ea3b33727ff8837b34764c4",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 43824,
+          "sha256": "38b6c1a262889fdda3f1c42e01017b72ec1739252ffa68bc6179cce8619129ba",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 44656,
+          "sha256": "6fe6dbaa816570d28dd13a25e5be0660e706c09fb4e9cd02045370fc203a4940",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/12/show5.jpg",
+          "basename": "show5.jpg",
+          "bytes": 44730,
+          "sha256": "d70557cf926fd861a48868fd770047c272fa6790f844b66741b8605f73c7cba8",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "13",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/13/icon.png",
+          "basename": "icon.png",
+          "bytes": 3229,
+          "sha256": "3258a786b1895a2d0ff512643c4a8ceabafa4196dba3fb21ac49a3359ac3809b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/13/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 17506,
+          "sha256": "70cb38a604f4e689d8dec1c9b24376a5cdd1dc1c3021b33d93b0a4c88b258c69",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/13/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 12129,
+          "sha256": "057f3161b1f700543d44e48b87be43bd0cd2953ca9794700d6d3777dbbcc26db",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 131,
+          "height": 51,
+          "packageOutput": "exports/resource-port/guild-social-marriage/raster/church-map-13-small.png"
+        },
+        {
+          "sourcePath": "image/church/map/13/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 54994,
+          "sha256": "c1adcf03e22e7841b03cf0134915b1cf01956e3b20e3d1ea7e8483cc05c7543a",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/13/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 53809,
+          "sha256": "7390430c422f12a4bb26a2d4c3cca9fbd087792c6f78184efbb601b9335e0666",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/13/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 46267,
+          "sha256": "abedc797511620810679dad698f0995b7f3df62ddc150bd655555c5e8361424a",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/13/show4.jpg",
+          "basename": "show4.jpg",
+          "bytes": 48892,
+          "sha256": "f24d62a4c31de39ccf39e619cb340ccb05a6b696e04f6ce6a82d6d1a02693541",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "14",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/14/icon.png",
+          "basename": "icon.png",
+          "bytes": 4402,
+          "sha256": "462c850205fc6f16d8b09c9872f1348b755fcb52aad36fecad490bee57fe7bf8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/14/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 16275,
+          "sha256": "42a396190df0595244651033564a7abab44f9b2bb1810180e7a343a5da176a7a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/14/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 5570,
+          "sha256": "1a7e61c71e3ac67e3295bf54f874da7a432be09b6968850a11412d1fce00156d",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/14/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 35501,
+          "sha256": "b5dbb157cc9466c05b625d9e5761d45cfa7cbf20b4cca58ea88b3b5455a2f0be",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/14/show2.jpg",
+          "basename": "show2.jpg",
+          "bytes": 41047,
+          "sha256": "5eea5b9cd0b288b9d576db4868e142f8ab20be557bb39ec9de59d3b8ff9ae9e4",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/14/show3.jpg",
+          "basename": "show3.jpg",
+          "bytes": 43445,
+          "sha256": "c0b2ececde042fc83d2a77f1a38cbbac118d439b74153b9edfe0573618d4b6f0",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 314,
+          "height": 394,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "111",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/111/icon.png",
+          "basename": "icon.png",
+          "bytes": 3932,
+          "sha256": "1c0924d5cd9aeb5268b16acef3bee40b3d6f9033b2de08f3c9edd0de8e113a65",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/111/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 11623,
+          "sha256": "99ea9ea5f4e57e2ec50449d52fed390ffe9df2492ebc6ff073cf1848fffa0a90",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/111/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 38340,
+          "sha256": "60203ac8824bbce13cf7f14b8dcc704960db6884fccce61ab5e68367eabda91b",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "112",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/112/icon.png",
+          "basename": "icon.png",
+          "bytes": 4006,
+          "sha256": "b5cd84e9f5975d836bb4fa2d7c45dc7fd30ccf7280275cea314e71d7b3ae0a6f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/112/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 18995,
+          "sha256": "a818792fc3524ffa86ef4ec06a918528ca7ca65743b65f969d139b34ed328385",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/112/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 40306,
+          "sha256": "72173fbb43330981e76091cb9b9dbc5a63e1664ce132916a96fcddde866c3914",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "113",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/113/icon.png",
+          "basename": "icon.png",
+          "bytes": 3854,
+          "sha256": "81f558a3ea82234db3a8e92fa9c6d1acb5732850ae1bce90d52a45d5e337c120",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/113/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 14159,
+          "sha256": "53ee87de4937d27b2ceb6e8384c8afff145a8c95935db5ef05ee653d48d69ab8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/113/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 8093,
+          "sha256": "3f9d4819aab9a5b2b69d671a97e27ef6840591b5e5ad2d43243859d6992a5b01",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/113/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 40769,
+          "sha256": "c4d94e92cb96ec1d4c800c4ccbdd93f804f2560db5b034c37e267afb2edca198",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "114",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/114/icon.png",
+          "basename": "icon.png",
+          "bytes": 3921,
+          "sha256": "2f88b28a2617553bdb48f487fdf2bea1133aecc8a7e98ba3e683b2740d07b4f8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/114/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 17986,
+          "sha256": "4da2abd9f803ec8177c163ca400bcdbf4549596d58ac026dfec6d629fed6c19f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/114/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 36762,
+          "sha256": "d938bf50f335e21df36ed2a71fb6008b9ad54624b0c3a3bba95674875182c1da",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "115",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/115/icon.png",
+          "basename": "icon.png",
+          "bytes": 4040,
+          "sha256": "f840c1b0616a1e541fa9cbd39534d018d6dc941a7ade381cefac62075f060cc7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/115/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 18187,
+          "sha256": "041ae862e31ae86549d51b5af62d5ffb41316b8361cd69d1058dd77a0af78ea7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/115/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 41156,
+          "sha256": "77f969b508847cd9a74e1cb30baee91a91bceaced4d2908226ba21287b610a2b",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "116",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/116/icon.png",
+          "basename": "icon.png",
+          "bytes": 4056,
+          "sha256": "f30dcec4b38505854b6929cebd854c09c74537a88d96fb8730349f1dbe0f3d36",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/116/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 15008,
+          "sha256": "7b54a34db8c4711ca9c9d64edb41c17d32f58f1288102598276ffcf5caf237a9",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/116/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 42896,
+          "sha256": "56fc7f61902171ed23c3c34d25b5251d8e1041b7505240d98d2619b174c16105",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1001",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1001/icon.png",
+          "basename": "icon.png",
+          "bytes": 6376,
+          "sha256": "4b72f53aece22277cca063cb92d88d6f6edd516e9fa2af781a0e9ccdda85c569",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1001/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 16564,
+          "sha256": "a3c2d13cce9e71eebcf40c791d882eac71f3e82e43521b099a3ffe8f7d62035b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1001/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 25854,
+          "sha256": "6a91cb9fabd9ffbfc374f2a953a284228c41fb2be4af5cc011dae319016d41c9",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1002",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1002/icon.png",
+          "basename": "icon.png",
+          "bytes": 6253,
+          "sha256": "ab5ec94752f10c0feb47b5ce570290ae1ba8c587f305c358f87b9fa96fd5cc3f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1002/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 24087,
+          "sha256": "3f437b35333f5083f3ba55bb71df54800ef463b7f17b8a19f7d9c03d0e7c008c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1002/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 23607,
+          "sha256": "74b04a341630ced5cf199814d374e99b2af23f95bfce05fd69b4fe278d938e9f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1003",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1003/icon.png",
+          "basename": "icon.png",
+          "bytes": 6959,
+          "sha256": "c57b6f2aff95cacad6e70eab3a59e9e99d3141ad5904401c7189748fdc15f973",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1003/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 19812,
+          "sha256": "c0e07278e3f2efff09a4899334e8b9ae35b648297c9c489dfe127fefddaf7635",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1003/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 31903,
+          "sha256": "3563336c0c69392ea9cc5a53d5c7f1b1e066392ff44769ba14031393e52bc553",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1004",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1004/icon.png",
+          "basename": "icon.png",
+          "bytes": 6143,
+          "sha256": "9265b20f4c8d29a770cd1a87ecea42fd1c16dfb5d711e1a4becd807f04dc4e2f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1004/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 19843,
+          "sha256": "2f9795c41fc4cddd33b1dec5497d93582c3b8c1c0a37c759f950ddb81e8d7bbe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1004/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 33236,
+          "sha256": "29ef3b9197eba05d9f8a5f78f6f250d8dc61443d8ad5a45da0cdfc7900da3b06",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 130,
+          "height": 50,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "1243",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/1243/icon.png",
+          "basename": "icon.png",
+          "bytes": 2570,
+          "sha256": "208d4787d2d12c9fb25ca31a13834176c98b780981cbc47cee2241de9255f0fc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1243/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 12856,
+          "sha256": "169f51a9ecb902b06cf8c92b1869af7c5bcef5ecb2a093d2ddea230643ade4d1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1243/samll_map_s.jpg",
+          "basename": "samll_map_s.jpg",
+          "bytes": 5845,
+          "sha256": "1241010abc6e082d33c79a68ceee94805734f6138107fd34868e9547897503f4",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 131,
+          "height": 51,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/1243/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 35510,
+          "sha256": "003762c4801fd59b0ab14143d37a51a0d40da31b2ce80462fd2562df205698bc",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 396,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "10000",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/10000/icon.png",
+          "basename": "icon.png",
+          "bytes": 5059,
+          "sha256": "30e714389acc10efa9371063e4619ac95532cbd5b2f210a3d6d6ea3fce358f76",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 128,
+          "height": 26,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10000/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 53835,
+          "sha256": "363c0f7eed952342515b3928d8d33cdd85e40c2244c85c2b955360d4dd6681a0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/10000/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 47126,
+          "sha256": "8c3dd8dabd685e9800fbc326dbc2ff972046a04134ca31b006b1835cd16a2382",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 316,
+          "height": 361,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "30001",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/30001/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 62890,
+          "sha256": "2d8bfd66b24721eba7d04c584f9a3bc8369ebcb7428df134caf2ea4ae30fc3c5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/30001/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 31741,
+          "sha256": "45c4a7b3d0c32396baaf60d622eca68f7d1a3785d76f70014ed2145faeea7400",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "30002",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/30002/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 62890,
+          "sha256": "2d8bfd66b24721eba7d04c584f9a3bc8369ebcb7428df134caf2ea4ae30fc3c5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/30002/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 31741,
+          "sha256": "45c4a7b3d0c32396baaf60d622eca68f7d1a3785d76f70014ed2145faeea7400",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        }
+      ]
+    },
+    {
+      "mapId": "30004",
+      "assets": [
+        {
+          "sourcePath": "image/church/map/30004/samll_map.png",
+          "basename": "samll_map.png",
+          "bytes": 16869,
+          "sha256": "fb2be2b4decc395f5c5debf5c9346bba348fde870846397a5517e44651200b7b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 295,
+          "height": 107,
+          "packageOutput": null
+        },
+        {
+          "sourcePath": "image/church/map/30004/show1.jpg",
+          "basename": "show1.jpg",
+          "bytes": 28763,
+          "sha256": "c0ecf1b3c751fa381e0756763d4f0f139b2244c3e71f23980d4a7cbb689e9b0f",
+          "classification": "exact",
+          "contentType": "image/jpeg",
+          "width": 319,
+          "height": 361,
+          "packageOutput": null
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "mapIds": 30,
+    "sourceFiles": 141,
+    "exactBrowserNativeFiles": 141,
+    "correctedExtensionFiles": 1,
+    "authoredRoomCoordinates": 0,
+    "authoredRoomLifecycle": 0
+  }
+}

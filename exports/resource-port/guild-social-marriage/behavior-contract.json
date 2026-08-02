@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "source": {
+    "repository": "trinhtanphat/DDTank41",
+    "commit": "7fcb55290e4c7aabd6887d3c1ccd2621b5080924",
+    "owners": [
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomView.as",
+        "bytes": 10208,
+        "sha256": "09fac80a0764efcec21cd10157301dd333f204934c1da5fc9d1c1070a0603b8f"
+      },
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomMenuView.as",
+        "bytes": 12697,
+        "sha256": "76b3593fae782c821d65378506721438c9ad78da0d9db847a374d66c49d154eb"
+      },
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomToolView.as",
+        "bytes": 50761,
+        "sha256": "0789a8ae3f69276986a495f2891bf8580803bde892639e31398b3a3c7790af86"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/SceneMap.as",
+        "bytes": 20098,
+        "sha256": "d6cac70a5fa0d62b4f34f3d68569e18f8815aec58d4b648894b23055c21084af"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/WeddingSceneMap.as",
+        "bytes": 18091,
+        "sha256": "0f4fa1df4a70d65546e911e1b42ee1fee08581d76c4230f2ab1dfe9e6f7e4d3e"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/MoonSceneMap.as",
+        "bytes": 7927,
+        "sha256": "870fc941f51c80544e0a8587501a18862fd998992dffa69d109367b180ed11a3"
+      },
+      {
+        "path": "Source Flash/src/ddt/view/scenePathSearcher/PathMapHitTester.as",
+        "bytes": 1031,
+        "sha256": "a45a09e88535d093019f44a5e59e562e2041b69596e2e2ba18bf7e22b1380a05"
+      }
+    ],
+    "runtimeTarget": "src/client/source-church-room-world.ts",
+    "runtimeTargetPin": {
+      "blob": "72c4f57967d2995a3e165ab3a8e00f245e28f589",
+      "sha256": "5c3866748439a3510f29be331dbbe44148a7249bdaa2030a0815f7cbcb8bdded"
+    }
+  },
+  "presentationBehavior": {
+    "camera": "source 1000x600 viewport clamp with +50 vertical bias",
+    "depthSort": "mapWidth * y + x",
+    "movementThrottleMs": 200,
+    "movement": "existing 1000x600 API coordinates are projected into each source map; exported source collision alpha rejects blocked destinations",
+    "pathfinding": "PathRoboSearcher route segmentation is not yet ported; the Worker receives the validated destination only",
+    "sceneSwitch": "moon is local source navigation; the back control returns locally to Wedding, while Wedding exit uses POST /api/marriage/rooms/leave",
+    "routes": {
+      "leave": "POST /api/marriage/rooms/leave {}",
+      "kick": "POST /api/marriage/rooms/kick {targetCharacterId}",
+      "forbid": "POST /api/marriage/rooms/:roomId/forbid {characterId}"
+    },
+    "serverAvailableNotBound": {
+      "invite": "POST /api/social-scenes/invite {name} remains server-owned, but the Church toolbar is disabled until the source friend/guild roster, guest_invite capability and BaseFrame composition are ported",
+      "continuation": "POST /api/marriage/rooms/:roomId/continuation {durationHours:2|3|4} remains server-owned and returns the reviewed 409 until Money settlement and the source BaseFrame controls are complete",
+      "gunsalute": "POST /api/marriage/rooms/:roomId/gunsalute exists, but is not mapped to the toolbar fire button; the source uses that button to open ChurchFireView and plays salute from MoonSceneMap state",
+      "firecrackers": "POST /api/marriage/rooms/firecrackers intentionally rejects until source economy settlement is safe"
+    },
+    "failClosed": [
+      "chat bubbles without server chat-ball state",
+      "player fire visibility without ChurchFireEffectPlayer event payload",
+      "wedding start/stop without a complete lifecycle owner",
+      "room modification without source metadata in WorldState",
+      "friend/guild invite roster, guest_invite capability and its BaseFrame composition",
+      "continuation BaseFrame controls and Money settlement",
+      "recharge navigation",
+      "gift/largess settlement",
+      "ChurchFireView and firecracker economy settlement",
+      "MoonSceneMap gun-salute interaction and visual effect",
+      "continuation Money settlement returns the server-owned 409 instead of using the incompatible free renew route"
+    ]
+  },
+  "lifecycle": {
+    "surfaces": [
+      "loading",
+      "list",
+      "room"
+    ],
+    "activeRoomRequiresAuthenticatedPresence": true,
+    "sceneIdChangeRequiresRemount": true,
+    "localSceneSwitches": [
+      "wedding-to-moon",
+      "moon-to-wedding"
+    ],
+    "serverOwnedCommands": [
+      "leave",
+      "kick",
+      "forbid"
+    ],
+    "disabledUntilAuthoritative": [
+      "invite",
+      "continuation",
+      "gunsalute",
+      "firecrackers",
+      "wedding-start-stop",
+      "gift-settlement"
+    ]
+  },
+  "authority": {
+    "presentationAndLocalViewState": "client",
+    "roomMembership": "Gunny server",
+    "marriageState": "Gunny server",
+    "permissions": "Gunny server",
+    "currencyAndSettlement": "Gunny server",
+    "guildLifecycle": "Gunny server",
+    "clientBusinessAuthority": false
+  },
+  "actionScriptPort": {
+    "reviewedFoundationAvailable": true,
+    "p041SwfConstructorMetadataRecords": 26,
+    "p041SwfBehaviorPortsClaimed": 0,
+    "reason": "R028 SWF evidence exposes constructor/opcode metadata but not a reviewed behavior source port"
+  },
+  "failClosed": [
+    "chat bubbles without server chat-ball state",
+    "player fire visibility without ChurchFireEffectPlayer event payload",
+    "wedding start/stop without a complete lifecycle owner",
+    "room modification without source metadata in WorldState",
+    "friend/guild invite roster, guest_invite capability and its BaseFrame composition",
+    "continuation BaseFrame controls and Money settlement",
+    "recharge navigation",
+    "gift/largess settlement",
+    "ChurchFireView and firecracker economy settlement",
+    "MoonSceneMap gun-salute interaction and visual effect",
+    "continuation Money settlement returns the server-owned 409 instead of using the incompatible free renew route"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "owner": "guild-social-marriage",
+  "status": "complete-package-with-explicit-unresolved",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependency": {
+    "sessions": [
+      "R028"
+    ],
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "verifiedOnMain": "0bc3c4b14ff44d1da162eadb4f338610ac3d4d5d"
+  },
+  "summary": {
+    "files": 1201,
+    "bytes": 18391659,
+    "uniqueBlobs": 1031,
+    "trackA": {
+      "exact": 1173,
+      "inferred": 0,
+      "unresolved": 28
+    },
+    "package": {
+      "exact": 1175,
+      "inferred": 0,
+      "unresolved": 26
+    },
+    "profiles": {
+      "raster": 1175,
+      "swf-timeline": 26
+    }
+  },
+  "conversion": {
+    "exactBrowserNativeSourceObjects": 1175,
+    "correctedExtensionObjects": 2,
+    "weddingAppearanceMappings": 986,
+    "roomMapFiles": 141,
+    "roomMapIds": 30,
+    "ceremonyRasterMappings": 46,
+    "referencedFoundationOutputs": 8,
+    "p041OwnedFoundationOutputs": 6,
+    "unresolvedSwfTimelines": 26,
+    "swfVisualCompositionsConvertedByP041": 0,
+    "p041SwfBehaviorPorts": 0
+  },
+  "readiness": {
+    "sourceFilesProcessed": 1201,
+    "sourceFilesUnprocessed": 0,
+    "typedGeometryAndTransforms": true,
+    "presentationLifecycleContract": true,
+    "businessAuthorityInClient": false,
+    "fullSwfVisualParity": false,
+    "fullWeddingCharacterComposition": false,
+    "legacyRuntimeContainersAllowed": false,
+    "runtimeIntegration": false
+  },
+  "exports": [
+    {
+      "path": "exports/resource-port/guild-social-marriage/catalog-index.json",
+      "bytes": 1383,
+      "sha256": "823e505d12c9116e18b992f02ff942cbc1b4c9dccb67c47843fafb18d6252dd7",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/catalog/r028.json",
+      "bytes": 451285,
+      "sha256": "5f090f2d8aa44a724aaab863fc83ab6c298a61fcc2fca79d2d86ec004339aa2f",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/room-map-catalog.json",
+      "bytes": 56628,
+      "sha256": "0a10ff45eff24d07f7b2b60d4f5e6b5fbb51b8c0549cbf8bbacdf4c18b7ca1fd",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/appearance-contract.json",
+      "bytes": 390577,
+      "sha256": "fc112e7894c43f9e073a45c108b95611b9bbc5247b1dc62f7bbf319b115cc3cb",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/geometry-contract.json",
+      "bytes": 4166,
+      "sha256": "507ed003a578ae4ae9ff2a03604c62306f5bf12f09a7d781a2b6b61532399800",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/behavior-contract.json",
+      "bytes": 6026,
+      "sha256": "b44f992a03ac59963d16ba213eea0d8434ba6caeb857e09b46291e411023ba5d",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/timeline-index.json",
+      "bytes": 239744,
+      "sha256": "ba8b4999933032856c12f648b71f73950ca1d1d6ad1c99bcbf8ba9339758de1d",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/foundation-audit.json",
+      "bytes": 5639,
+      "sha256": "36cf61765eff79fceda41739270d9e1e099fe2e5ebaa4a39dfe61b0b2a14842e",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/runtime-contract.json",
+      "bytes": 1010,
+      "sha256": "f9634d48f1dcd3ec031293921d6cd42f7d998fefe21a0bbc0f8b31b238b84b7e",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/raster/church-map-13-small.png",
+      "bytes": 12129,
+      "sha256": "057f3161b1f700543d44e48b87be43bd0cd2953ca9794700d6d3777dbbcc26db",
+      "contentType": "image/png"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/raster/consortia-map-default.jpg",
+      "bytes": 149496,
+      "sha256": "5e614251ccd4b39504ba607680ab23da301004f56e7fba050b5e75ce83b5ca5b",
+      "contentType": "image/jpeg"
+    }
+  ],
+  "githubActions": false
+}
