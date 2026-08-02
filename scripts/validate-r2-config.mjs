@@ -19,7 +19,7 @@ function expectArray(actual, expected, label) {
   expect(JSON.stringify(actual), JSON.stringify(expected), label);
 }
 
-const fullResourceRoots = [
+const localResourceRoots = [
   "exports",
   "flash",
   "image",
@@ -29,6 +29,39 @@ const fullResourceRoots = [
   "weekly",
   "xml"
 ];
+const runtimeRoots = ["screens", "pets", "effects", "public"];
+const fullResourceRoots = [...localResourceRoots, ...runtimeRoots];
+const expectedRuntimeSources = [
+  {
+    name: "resource-web-assets",
+    repository: "trinhtanphat/Resource",
+    ref: "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+    mappings: [
+      { group: "screens", sourcePath: "screens", destinationPath: "screens" },
+      { group: "pets", sourcePath: "pets", destinationPath: "pets" },
+      { group: "effects", sourcePath: "effects", destinationPath: "effects" }
+    ]
+  },
+  {
+    name: "gunny-audio-browser",
+    repository: "trinhtanphat/Gunny",
+    ref: "669ddf6b462f79d16afbb020f6a5a3285685c987",
+    mappings: [
+      { group: "audio", sourcePath: "public/game-ui/audio", destinationPath: "public/game-ui/audio" }
+    ]
+  },
+  {
+    name: "gunny-bulk-browser",
+    repository: "trinhtanphat/Gunny",
+    ref: "f2e1ff59b22f50935d3f70c0f42b608a8239432b",
+    mappings: [
+      { group: "npc", sourcePath: "public/game-ui/npc", destinationPath: "public/game-ui/npc" },
+      { group: "items", sourcePath: "public/game-ui/items", destinationPath: "public/game-ui/items" },
+      { group: "weapons", sourcePath: "public/game-ui/weapons", destinationPath: "public/game-ui/weapons" },
+      { group: "avatar", sourcePath: "public/game-ui/avatar", destinationPath: "public/game-ui/avatar" }
+    ]
+  }
+];
 
 expect(config.schemaVersion, 2, "schemaVersion");
 expect(config.accountName, "trinhtanphat3333", "accountName");
@@ -37,8 +70,15 @@ expect(config.bucket, "ddtank-resource", "bucket");
 expect(config.defaultProfile, "full-resource", "defaultProfile");
 expect(config.publicBaseUrl, null, "publicBaseUrl");
 expectArray(config.profiles?.images?.roots, ["image"], "images roots");
+expectArray(config.profiles?.images?.runtimeSources, [], "images runtime sources");
 expect(config.profiles?.images?.probeContentTypePrefix, "image/", "images probe type");
 expectArray(config.profiles?.["full-resource"]?.roots, fullResourceRoots, "full-resource roots");
+expectArray(
+  config.profiles?.["full-resource"]?.runtimeSources,
+  expectedRuntimeSources.map((source) => source.name),
+  "full-resource runtime sources"
+);
+expectArray(config.runtimeSources, expectedRuntimeSources, "runtime source pins and mappings");
 expect(config.ci?.worker, "ddtank-r2-deployer", "CI worker");
 expect(config.ci?.productionBranch, "main", "CI production branch");
 expect(config.ci?.manifestPrefix, "_deployment/manifests", "CI manifest prefix");
@@ -55,15 +95,18 @@ const expectedScripts = {
   "r2:probe": "node scripts/r2-deploy.mjs probe",
   "r2:deploy": "node scripts/r2-deploy.mjs deploy",
   "r2:validate": "node scripts/validate-r2-config.mjs",
-  "r2:plan:ci": "node scripts/r2-ci-deploy.mjs plan",
-  "r2:deploy:ci": "node scripts/r2-ci-deploy.mjs deploy",
-  "r2:verify:ci": "node scripts/r2-ci-deploy.mjs verify-manifest",
-  "r2:probe:ci": "node scripts/r2-ci-deploy.mjs probe",
+  "r2:runtime:materialize": "node scripts/materialize-r2-runtime-exports.mjs",
+  "r2:plan:ci": "node scripts/r2-runtime-command.mjs plan",
+  "r2:deploy:ci": "node scripts/r2-runtime-command.mjs deploy",
+  "r2:verify:ci": "node scripts/r2-runtime-command.mjs verify-manifest",
+  "r2:probe:ci": "node scripts/r2-runtime-command.mjs probe",
   "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
   "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
-  "cloudflare:deploy:r2": "R2_PROFILE=full-resource npm run r2:deploy:ci && npm run deploy:r2-worker"
+  "cloudflare:deploy:r2": "npm run r2:deploy:ci && npm run deploy:r2-worker"
 };
-for (const [name, value] of Object.entries(expectedScripts)) expect(packageJson.scripts?.[name], value, `package script ${name}`);
+for (const [name, value] of Object.entries(expectedScripts)) {
+  expect(packageJson.scripts?.[name], value, `package script ${name}`);
+}
 expect(packageJson.dependencies?.["@aws-sdk/client-s3"], "3.1095.0", "AWS S3 SDK version");
 expect(packageJson.dependencies?.["@aws-sdk/lib-storage"], "3.1095.0", "AWS multipart SDK version");
 
@@ -75,9 +118,19 @@ expect(buildMatrix.buildCommand, "npm install --ignore-scripts --no-audit --no-f
 expect(buildMatrix.deployCommand, "npm run cloudflare:deploy:r2", "deploy command");
 expectArray(buildMatrix.secretVariables, ["R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY"], "build secrets");
 expect(buildMatrix.environmentVariables?.R2_PROFILE, "full-resource", "build R2 profile");
-for (const rootName of fullResourceRoots) {
+for (const rootName of localResourceRoots) {
   if (!buildMatrix.watchPaths?.include?.includes(`${rootName}/**`)) {
     failures.push(`build watch paths: missing ${rootName}/**`);
+  }
+}
+for (const script of [
+  "scripts/materialize-r2-runtime-exports.mjs",
+  "scripts/r2-runtime-command.mjs",
+  "scripts/r2-ci-deploy.mjs",
+  "scripts/validate-r2-config.mjs"
+]) {
+  if (!buildMatrix.watchPaths?.include?.includes(script)) {
+    failures.push(`build watch paths: missing ${script}`);
   }
 }
 
@@ -98,7 +151,14 @@ console.log(JSON.stringify({
   productionBranch: config.ci.productionBranch,
   defaultProfile: config.defaultProfile,
   profiles: Object.keys(config.profiles),
-  fullResourceRoots,
+  localResourceRoots,
+  runtimeRoots,
+  runtimeSources: expectedRuntimeSources.map((source) => ({
+    name: source.name,
+    repository: source.repository,
+    ref: source.ref,
+    groups: source.mappings.map((mapping) => mapping.group)
+  })),
   dashboardBuildCommand: buildMatrix.buildCommand,
   dashboardDeployCommand: buildMatrix.deployCommand
 }, null, 2));
