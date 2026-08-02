@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "owner": "guild-social-marriage",
+  "branch": "resource-port/P041-guild-social-marriage",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependencies": [
+    {
+      "sessionId": "R028",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "0bc3c4b14ff44d1da162eadb4f338610ac3d4d5d",
+      "evidencePath": "config/resource-port-evidence/R028.json",
+      "evidenceGitBlobSha1": "507710268dadff9baec0cd22035cdce088fd3c03",
+      "evidenceSha256": "b1a803fb905257b556fe6c3fd5cdad62594971fbf00999007e884ad273bcbb62",
+      "importerPath": "scripts/import-resource-port-r028.mjs",
+      "importerGitBlobSha1": "8b15c6cc99a09112c5f83011fa3f779c2a6c6b33",
+      "importerSha256": "c38cb9a1e86b5119f9fcc743229a85df501ea207cc28031f8382b099f27d8cc3",
+      "shardPath": "config/resource-port-dispatch/shards/guild-social-marriage-001.json",
+      "shardSha256": "f49b67ee54c2965ebe657872d51fcbbd79815ea295fc862a89848fea247f3b88",
+      "sourceFiles": 1201,
+      "sourceBytes": 18391659,
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "contextPins": [
+    {
+      "path": "config/source-church-room-world.json",
+      "blob": "8ba45d3688ee7db9e885a21162672ebd19e85612",
+      "sha256": "7908a5378248a6a13480e01e833a4c33f683926eddc2e82256550c5e6173bcd3"
+    },
+    {
+      "path": "scripts/import-source-church-room-world-assets.mjs",
+      "blob": "25e04ece81ac4f940fd661ee04c8ce680a95340b",
+      "sha256": "135039b4fb291344664bd4ddd28f48a6715bf11f91b2ee807d7ee86ca08af21a"
+    },
+    {
+      "path": "src/client/source-church-room-world.ts",
+      "blob": "72c4f57967d2995a3e165ab3a8e00f245e28f589",
+      "sha256": "5c3866748439a3510f29be331dbbe44148a7249bdaa2030a0815f7cbcb8bdded"
+    },
+    {
+      "path": "src/client/social-scene-world.ts",
+      "blob": "5540fd38551b7bbd13ee77d82559d49329a72899",
+      "sha256": "8a4d061d283731546efb6bfef122f8f39bace51520c12aeaab16a59979362491"
+    }
+  ],
+  "foundation": {
+    "repository": "trinhtanphat/Resource",
+    "immutableCommit": "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+    "outputs": [
+      {
+        "path": "screens/churchroom-world/map01-background.png",
+        "gitBlobSha1": "cc8cfa3415b21136655fd3c5d35be0f636ec37ee",
+        "bytes": 6196422,
+        "width": 2011,
+        "height": 1361,
+        "sha256": "06d85dbe48aa16f2aab80310547aac7950ce092217d6ba61eb35cc5280b04ca1",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-collision.png",
+        "gitBlobSha1": "711da62f01689d19738aae5e62cf9e2aefe3b566",
+        "bytes": 74883,
+        "width": 2012,
+        "height": 1362,
+        "sha256": "e1a7cdd404952e13ef3b7c120aef2bb72861441d41fee0d5e98af27b19d16a9d",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-entity.png",
+        "gitBlobSha1": "ffeba9e5fd84d247136c42255a137c34c0f90183",
+        "bytes": 657344,
+        "width": 1789,
+        "height": 588,
+        "sha256": "44203d80cb9fffe9da6ba8d1e39dc2a7a846d32de391e7fc1c89b1f45abff639",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-sky.png",
+        "gitBlobSha1": "0bced34446da487cf121d9f1316eb4210a554a1a",
+        "bytes": 367900,
+        "width": 1411,
+        "height": 360,
+        "sha256": "464f847024ef63039999f167941e57e78ebea9fc85ed9094828ca610774af418",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map02-background.png",
+        "gitBlobSha1": "6b58f0e790a6842b69377b9c4efd88a2a17cd635",
+        "bytes": 1117944,
+        "width": 1363,
+        "height": 1206,
+        "sha256": "72ff7f4ce09220f2ab188bad02aaf937a18fb87ebf668fd33fc54d8f078848c0",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map02-collision.png",
+        "gitBlobSha1": "f01f052ddf04c7815b570aefa75f5c30fb7364ad",
+        "bytes": 13761,
+        "width": 1209,
+        "height": 836,
+        "sha256": "6b2855c4e0d3c440f1c4e993dc06afa09d08486c3436e01e9f2bb954903249f8",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/mouse-click.png",
+        "gitBlobSha1": "c54f1a96af9208de1b8495df7f5dec1ec1fd6461",
+        "bytes": 53284,
+        "width": 71,
+        "height": 59,
+        "sha256": "a91f05770cbce81d04561988f2c562ea56cdc73f308b0f23566ffe1fdaa16e38",
+        "extraction": "ffdec-apng",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": false,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/moon-button.png",
+        "gitBlobSha1": "10c755802153b066e51d0580695aa7a9812651cb",
+        "bytes": 585180,
+        "width": 184,
+        "height": 127,
+        "sha256": "2d6ac634020c026228edc6b9b4f1c97d6e7853f7851938cd2e6b1d1fade9d292",
+        "extraction": "ffdec-apng",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": false,
+        "duplicatedIntoP041": false
+      }
+    ],
+    "summary": {
+      "outputs": 8,
+      "ownedByR028Source": 6,
+      "externalChurchroomControlOutputs": 2,
+      "bytesDuplicatedIntoP041": 0
+    }
+  },
+  "summary": {
+    "files": 1201,
+    "bytes": 18391659,
+    "uniqueBlobs": 1031,
+    "trackA": {
+      "exact": 1173,
+      "inferred": 0,
+      "unresolved": 28
+    },
+    "package": {
+      "exact": 1175,
+      "inferred": 0,
+      "unresolved": 26
+    },
+    "profiles": {
+      "raster": 1175,
+      "swf-timeline": 26
+    },
+    "catalogShards": 1,
+    "sourceFilesProcessed": 1201,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "conversion": {
+    "exactBrowserNativeSourceObjects": 1175,
+    "correctedExtensionObjects": 2,
+    "weddingAppearanceMappings": 986,
+    "roomMapFiles": 141,
+    "roomMapIds": 30,
+    "ceremonyRasterMappings": 46,
+    "referencedFoundationOutputs": 8,
+    "p041OwnedFoundationOutputs": 6,
+    "unresolvedSwfTimelines": 26,
+    "swfVisualCompositionsConvertedByP041": 0,
+    "p041SwfBehaviorPorts": 0
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P041.mjs",
+    "jsonParse": "pass-generated-and-reparsed-by-checker",
+    "dependencyGate": "pass-exact-R028-evidence-importer-and-shard",
+    "r028ImporterCheck": "pass: 1201 files / 18391659 bytes / 28 Track A unresolved",
+    "mediaValidation": "pass-two-byte-identical-extension-corrections-with-signature-dimensions-and-sha256",
+    "foundationAudit": "pass-eight-immutable-FFDec-compatible-outputs-no-binary-duplication",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "claims": {
+    "exactBrowserNativeObjects": 1175,
+    "extensionMismatchCorrections": 2,
+    "authoredGeometryInvented": false,
+    "representativeFrameClaimsAnimation": false,
+    "p041SwfBehaviorClaimedPorted": false,
+    "clientBusinessAuthority": false,
+    "swfRuntimeAllowed": false,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "immutablePackageCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "immutableMergeCommit": null
+  },
+  "generatedAt": "2026-08-02T00:00:00Z",
+  "githubActions": false
+}

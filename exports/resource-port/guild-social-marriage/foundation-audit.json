@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "foundation": {
+    "repository": "trinhtanphat/Resource",
+    "immutableCommit": "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+    "outputs": [
+      {
+        "path": "screens/churchroom-world/map01-background.png",
+        "gitBlobSha1": "cc8cfa3415b21136655fd3c5d35be0f636ec37ee",
+        "bytes": 6196422,
+        "width": 2011,
+        "height": 1361,
+        "sha256": "06d85dbe48aa16f2aab80310547aac7950ce092217d6ba61eb35cc5280b04ca1",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-collision.png",
+        "gitBlobSha1": "711da62f01689d19738aae5e62cf9e2aefe3b566",
+        "bytes": 74883,
+        "width": 2012,
+        "height": 1362,
+        "sha256": "e1a7cdd404952e13ef3b7c120aef2bb72861441d41fee0d5e98af27b19d16a9d",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-entity.png",
+        "gitBlobSha1": "ffeba9e5fd84d247136c42255a137c34c0f90183",
+        "bytes": 657344,
+        "width": 1789,
+        "height": 588,
+        "sha256": "44203d80cb9fffe9da6ba8d1e39dc2a7a846d32de391e7fc1c89b1f45abff639",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map01-sky.png",
+        "gitBlobSha1": "0bced34446da487cf121d9f1316eb4210a554a1a",
+        "bytes": 367900,
+        "width": 1411,
+        "height": 360,
+        "sha256": "464f847024ef63039999f167941e57e78ebea9fc85ed9094828ca610774af418",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map02-background.png",
+        "gitBlobSha1": "6b58f0e790a6842b69377b9c4efd88a2a17cd635",
+        "bytes": 1117944,
+        "width": 1363,
+        "height": 1206,
+        "sha256": "72ff7f4ce09220f2ab188bad02aaf937a18fb87ebf668fd33fc54d8f078848c0",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/map02-collision.png",
+        "gitBlobSha1": "f01f052ddf04c7815b570aefa75f5c30fb7364ad",
+        "bytes": 13761,
+        "width": 1209,
+        "height": 836,
+        "sha256": "6b2855c4e0d3c440f1c4e993dc06afa09d08486c3436e01e9f2bb954903249f8",
+        "extraction": "ffdec-sprite-frame",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": true,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/mouse-click.png",
+        "gitBlobSha1": "c54f1a96af9208de1b8495df7f5dec1ec1fd6461",
+        "bytes": 53284,
+        "width": 71,
+        "height": 59,
+        "sha256": "a91f05770cbce81d04561988f2c562ea56cdc73f308b0f23566ffe1fdaa16e38",
+        "extraction": "ffdec-apng",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": false,
+        "duplicatedIntoP041": false
+      },
+      {
+        "path": "screens/churchroom-world/moon-button.png",
+        "gitBlobSha1": "10c755802153b066e51d0580695aa7a9812651cb",
+        "bytes": 585180,
+        "width": 184,
+        "height": 127,
+        "sha256": "2d6ac634020c026228edc6b9b4f1c97d6e7853f7851938cd2e6b1d1fade9d292",
+        "extraction": "ffdec-apng",
+        "classification": "inferred-ffdec-compatible-not-pixel-exact",
+        "ownedByR028Source": false,
+        "duplicatedIntoP041": false
+      }
+    ],
+    "summary": {
+      "outputs": 8,
+      "ownedByR028Source": 6,
+      "externalChurchroomControlOutputs": 2,
+      "bytesDuplicatedIntoP041": 0
+    }
+  },
+  "sourceMatches": {
+    "map01Swf": "image/church/scene/map01.swf",
+    "map02Swf": "image/church/scene/map02.swf",
+    "exactR028SourceMatches": 2
+  },
+  "covered": [
+    "typed XML geometry and transforms",
+    "camera projection and source collision-mask hit testing",
+    "member depth sorting",
+    "toolbar/menu presentation states",
+    "authenticated room lifecycle and server-owned command boundaries"
+  ],
+  "unresolved": [
+    "map00 has no reviewed browser-native scene composition",
+    "23 church bomb SWFs retain metadata only",
+    "per-child Flash depth sorting is flattened in the map01 entity composite",
+    "PathRoboSearcher route segmentation is not ported",
+    "chat bubbles without server chat-ball state",
+    "player fire visibility without ChurchFireEffectPlayer event payload",
+    "wedding start/stop without a complete lifecycle owner",
+    "room modification without source metadata in WorldState",
+    "friend/guild invite roster, guest_invite capability and its BaseFrame composition",
+    "continuation BaseFrame controls and Money settlement",
+    "recharge navigation",
+    "gift/largess settlement",
+    "ChurchFireView and firecracker economy settlement",
+    "MoonSceneMap gun-salute interaction and visual effect",
+    "continuation Money settlement returns the server-owned 409 instead of using the incompatible free renew route"
+  ]
+}

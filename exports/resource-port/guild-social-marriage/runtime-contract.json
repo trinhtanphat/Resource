@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "packageOnly": true,
+  "publication": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false,
+    "immutableFallbackRequired": true
+  },
+  "browserNative": {
+    "exactSourceRasters": 1175,
+    "correctedMediaObjects": 2,
+    "referencedFoundationOutputs": 8,
+    "duplicatedFoundationBytes": 0
+  },
+  "consumerBoundary": {
+    "typedGeometryReady": true,
+    "presentationBehaviorReady": true,
+    "roomMapCatalogReady": true,
+    "weddingAppearanceCatalogReady": true,
+    "fullSwfVisualConversionReady": false,
+    "fullWeddingCharacterCompositionReady": false,
+    "runtimeIntegration": false
+  },
+  "prohibited": {
+    "swfRuntime": true,
+    "filenameOnlySelection": true,
+    "inventedGeometryOrLabels": true,
+    "representativeFrameAsAnimation": true,
+    "clientBusinessAuthority": true
+  }
+}

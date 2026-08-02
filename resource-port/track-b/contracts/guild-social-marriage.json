@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "owner": "guild-social-marriage",
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "sourceFamilies": [
+    "image/church/",
+    "image/consortiaicon/",
+    "image/consortiamap/"
+  ],
+  "lockedPaths": [
+    "exports/resource-port/guild-social-marriage/**",
+    "resource-port/track-b/contracts/guild-social-marriage.json",
+    "resource-port/track-b/evidence/P041.json",
+    "resource-port/track-b/checks/P041.mjs",
+    "resource-port/track-b/findings/P041.md",
+    "resource-port/track-b/status/P041.json"
+  ],
+  "dependencies": [
+    {
+      "sessionId": "R028",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "0bc3c4b14ff44d1da162eadb4f338610ac3d4d5d",
+      "evidencePath": "config/resource-port-evidence/R028.json",
+      "evidenceGitBlobSha1": "507710268dadff9baec0cd22035cdce088fd3c03",
+      "evidenceSha256": "b1a803fb905257b556fe6c3fd5cdad62594971fbf00999007e884ad273bcbb62",
+      "importerPath": "scripts/import-resource-port-r028.mjs",
+      "importerGitBlobSha1": "8b15c6cc99a09112c5f83011fa3f779c2a6c6b33",
+      "importerSha256": "c38cb9a1e86b5119f9fcc743229a85df501ea207cc28031f8382b099f27d8cc3",
+      "shardPath": "config/resource-port-dispatch/shards/guild-social-marriage-001.json",
+      "shardSha256": "f49b67ee54c2965ebe657872d51fcbbd79815ea295fc862a89848fea247f3b88",
+      "sourceFiles": 1201,
+      "sourceBytes": 18391659,
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "contextPins": [
+    {
+      "path": "config/source-church-room-world.json",
+      "blob": "8ba45d3688ee7db9e885a21162672ebd19e85612",
+      "sha256": "7908a5378248a6a13480e01e833a4c33f683926eddc2e82256550c5e6173bcd3"
+    },
+    {
+      "path": "scripts/import-source-church-room-world-assets.mjs",
+      "blob": "25e04ece81ac4f940fd661ee04c8ce680a95340b",
+      "sha256": "135039b4fb291344664bd4ddd28f48a6715bf11f91b2ee807d7ee86ca08af21a"
+    },
+    {
+      "path": "src/client/source-church-room-world.ts",
+      "blob": "72c4f57967d2995a3e165ab3a8e00f245e28f589",
+      "sha256": "5c3866748439a3510f29be331dbbe44148a7249bdaa2030a0815f7cbcb8bdded"
+    },
+    {
+      "path": "src/client/social-scene-world.ts",
+      "blob": "5540fd38551b7bbd13ee77d82559d49329a72899",
+      "sha256": "8a4d061d283731546efb6bfef122f8f39bace51520c12aeaab16a59979362491"
+    }
+  ],
+  "assetAddressing": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "canonicalObjectKey": "exact Resource source path or immutable package export path",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false
+  },
+  "consumerBoundary": {
+    "packageOnly": true,
+    "runtimeIntegration": false,
+    "geometryAndPresentationBehaviorReady": true,
+    "sourceRasterCatalogReady": true,
+    "swfRuntimeAllowed": false,
+    "clientBusinessAuthority": false,
+    "unresolvedRuntimeAllowed": false
+  }
+}

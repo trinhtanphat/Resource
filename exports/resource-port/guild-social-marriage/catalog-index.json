@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "trackAClassification",
+    "packageClassification",
+    "inspectionProfile",
+    "detectedFormat",
+    "contentType",
+    "width",
+    "height",
+    "family",
+    "consumerRole",
+    "packageOutput"
+  ],
+  "shards": [
+    {
+      "dependencySessionId": "R028",
+      "path": "exports/resource-port/guild-social-marriage/catalog/r028.json",
+      "bytes": 451285,
+      "sha256": "5f090f2d8aa44a724aaab863fc83ab6c298a61fcc2fca79d2d86ec004339aa2f",
+      "contentType": "application/json",
+      "files": 1201
+    }
+  ],
+  "summary": {
+    "files": 1201,
+    "bytes": 18391659,
+    "uniqueBlobs": 1031,
+    "trackA": {
+      "exact": 1173,
+      "inferred": 0,
+      "unresolved": 28
+    },
+    "package": {
+      "exact": 1175,
+      "inferred": 0,
+      "unresolved": 26
+    },
+    "profiles": {
+      "raster": 1175,
+      "swf-timeline": 26
+    }
+  },
+  "publication": {
+    "sourceObjectKeys": "exact Resource source paths",
+    "correctedObjects": [
+      "exports/resource-port/guild-social-marriage/raster/church-map-13-small.png",
+      "exports/resource-port/guild-social-marriage/raster/consortia-map-default.jpg"
+    ],
+    "sourceBytesDuplicatedIntoPackage": 161625,
+    "foundationBytesDuplicatedIntoPackage": 0,
+    "r2First": true
+  }
+}

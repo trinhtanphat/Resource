@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "source": {
+    "repository": "trinhtanphat/DDTank41",
+    "commit": "7fcb55290e4c7aabd6887d3c1ccd2621b5080924",
+    "xml": {
+      "path": "Source Flash/FlashSV1/ui/vietnam/xml/churchRoom.xml",
+      "bytes": 40109,
+      "sha256": "8041f71b94310f73873a2141934c69bbbe1fc0f2cc35cafcf21c72ec430a0645"
+    },
+    "actionScriptOwners": [
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomView.as",
+        "bytes": 10208,
+        "sha256": "09fac80a0764efcec21cd10157301dd333f204934c1da5fc9d1c1070a0603b8f"
+      },
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomMenuView.as",
+        "bytes": 12697,
+        "sha256": "76b3593fae782c821d65378506721438c9ad78da0d9db847a374d66c49d154eb"
+      },
+      {
+        "path": "Source Flash/src/church/view/weddingRoom/WeddingRoomToolView.as",
+        "bytes": 50761,
+        "sha256": "0789a8ae3f69276986a495f2891bf8580803bde892639e31398b3a3c7790af86"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/SceneMap.as",
+        "bytes": 20098,
+        "sha256": "d6cac70a5fa0d62b4f34f3d68569e18f8815aec58d4b648894b23055c21084af"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/WeddingSceneMap.as",
+        "bytes": 18091,
+        "sha256": "0f4fa1df4a70d65546e911e1b42ee1fee08581d76c4230f2ab1dfe9e6f7e4d3e"
+      },
+      {
+        "path": "Source Flash/src/church/view/churchScene/MoonSceneMap.as",
+        "bytes": 7927,
+        "sha256": "870fc941f51c80544e0a8587501a18862fd998992dffa69d109367b180ed11a3"
+      },
+      {
+        "path": "Source Flash/src/ddt/view/scenePathSearcher/PathMapHitTester.as",
+        "bytes": 1031,
+        "sha256": "a45a09e88535d093019f44a5e59e562e2041b69596e2e2ba18bf7e22b1380a05"
+      }
+    ],
+    "evidenceMode": "typed-reference-to-reviewed-existing-foundation"
+  },
+  "coordinateSystem": {
+    "unit": "source-pixel",
+    "twipsPerPixel": 20,
+    "viewport": {
+      "width": 1000,
+      "height": 600,
+      "cameraVerticalBias": 50
+    },
+    "preserveFractionalTransforms": true,
+    "inferMissingCoordinates": false
+  },
+  "scenes": {
+    "wedding": {
+      "mapWidth": 2011,
+      "mapHeight": 1361,
+      "defaultPosition": {
+        "x": 646,
+        "y": 1241
+      },
+      "layers": {
+        "background": {
+          "sourceId": 48,
+          "x": 0,
+          "y": 0
+        },
+        "collision": {
+          "sourceId": 50,
+          "x": -0.5,
+          "y": -0.5
+        },
+        "entity": {
+          "sourceId": 57,
+          "x": 131.2,
+          "y": 507
+        },
+        "sky": {
+          "sourceId": 67,
+          "x": 0,
+          "y": 1000.95
+        }
+      },
+      "renderOrder": [
+        "background",
+        "depth-sorted-members-with-flat-entity",
+        "sky"
+      ],
+      "collisionLayer": "hit-test-only-not-render-authority"
+    },
+    "moon": {
+      "mapWidth": 1208,
+      "mapHeight": 835,
+      "defaultPosition": {
+        "x": 800,
+        "y": 763
+      },
+      "layers": {
+        "background": {
+          "sourceId": 63,
+          "x": 0,
+          "y": -370.05
+        },
+        "collision": {
+          "sourceId": 65,
+          "x": -0.5,
+          "y": -0.5
+        }
+      },
+      "renderOrder": [
+        "background",
+        "depth-sorted-members"
+      ],
+      "collisionLayer": "hit-test-only-not-render-authority"
+    }
+  },
+  "menu": {
+    "showName": {
+      "x": 12,
+      "y": 13
+    },
+    "showBubble": {
+      "x": 12,
+      "y": 43
+    },
+    "showFire": {
+      "x": 12,
+      "y": 73
+    },
+    "moonButton": {
+      "x": 526,
+      "y": 516
+    }
+  },
+  "toolbar": {
+    "ownerX": 668,
+    "ownerY": 474,
+    "closedX": 966,
+    "durationMs": 500,
+    "easing": "Sine.easeInOut",
+    "backgroundY": 66,
+    "adminBackground": {
+      "x": 32,
+      "y": 4
+    }
+  },
+  "zOrder": {
+    "members": "mapWidth * y + x",
+    "weddingEntity": "flat-foreground-approximation-at-mapWidth*850",
+    "perChildFlashDepth": "unresolved"
+  },
+  "classification": "exact-typed-foundation-reference-with-declared-ffdec-limit",
+  "runtimeAuthority": false
+}
