@@ -8,7 +8,15 @@
     "build:shard": "node scripts/build-shards.mjs --source . --output ./dist --shard",
     "validate:assets": "node scripts/build-shards.mjs --source . --output ./dist --validate-only && node scripts/validate-shards.mjs",
     "coordinator:report": "node scripts/validate-shards.mjs",
-    "probe:shard": "node scripts/probe-shard.mjs"
+    "probe:shard": "node scripts/probe-shard.mjs",
+    "r2:plan": "node scripts/r2-deploy.mjs plan",
+    "r2:bucket:create": "node scripts/r2-deploy.mjs bucket-create",
+    "r2:bucket:list": "node scripts/r2-deploy.mjs bucket-list",
+    "r2:upload": "node scripts/r2-deploy.mjs upload",
+    "r2:sync": "node scripts/r2-deploy.mjs sync",
+    "r2:verify": "node scripts/r2-deploy.mjs verify",
+    "r2:probe": "node scripts/r2-deploy.mjs probe",
+    "r2:deploy": "node scripts/r2-deploy.mjs deploy"
   },
   "devDependencies": {
     "wrangler": "^4.34.0"
