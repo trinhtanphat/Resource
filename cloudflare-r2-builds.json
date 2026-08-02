@@ -9,8 +9,9 @@
   "deployCommand": "npm run cloudflare:deploy:r2",
   "watchPaths": {
     "include": [
-      "image/**",
+      "exports/**",
       "flash/**",
+      "image/**",
       "partical/**",
       "sound/**",
       "video/**",
@@ -25,7 +26,7 @@
     ]
   },
   "environmentVariables": {
-    "R2_PROFILE": "images",
+    "R2_PROFILE": "full-resource",
     "R2_UPLOAD_CONCURRENCY": "48",
     "R2_HASH_CONCURRENCY": "8",
     "R2_CHECKPOINT_EVERY_FILES": "5000",

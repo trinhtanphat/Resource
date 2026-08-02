@@ -19,19 +19,26 @@ function expectArray(actual, expected, label) {
   expect(JSON.stringify(actual), JSON.stringify(expected), label);
 }
 
+const fullResourceRoots = [
+  "exports",
+  "flash",
+  "image",
+  "partical",
+  "sound",
+  "video",
+  "weekly",
+  "xml"
+];
+
 expect(config.schemaVersion, 2, "schemaVersion");
 expect(config.accountName, "trinhtanphat3333", "accountName");
 expect(config.accountId, "291f5d12e63427644f59ac4a1d8f9664", "accountId");
 expect(config.bucket, "ddtank-resource", "bucket");
-expect(config.defaultProfile, "images", "defaultProfile");
+expect(config.defaultProfile, "full-resource", "defaultProfile");
 expect(config.publicBaseUrl, null, "publicBaseUrl");
 expectArray(config.profiles?.images?.roots, ["image"], "images roots");
 expect(config.profiles?.images?.probeContentTypePrefix, "image/", "images probe type");
-expectArray(
-  config.profiles?.["full-resource"]?.roots,
-  ["flash", "image", "partical", "sound", "video", "weekly", "xml"],
-  "full-resource roots"
-);
+expectArray(config.profiles?.["full-resource"]?.roots, fullResourceRoots, "full-resource roots");
 expect(config.ci?.worker, "ddtank-r2-deployer", "CI worker");
 expect(config.ci?.productionBranch, "main", "CI production branch");
 expect(config.ci?.manifestPrefix, "_deployment/manifests", "CI manifest prefix");
@@ -54,7 +61,7 @@ const expectedScripts = {
   "r2:probe:ci": "node scripts/r2-ci-deploy.mjs probe",
   "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
   "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
-  "cloudflare:deploy:r2": "npm run r2:deploy:ci && npm run deploy:r2-worker"
+  "cloudflare:deploy:r2": "R2_PROFILE=full-resource npm run r2:deploy:ci && npm run deploy:r2-worker"
 };
 for (const [name, value] of Object.entries(expectedScripts)) expect(packageJson.scripts?.[name], value, `package script ${name}`);
 expect(packageJson.dependencies?.["@aws-sdk/client-s3"], "3.1095.0", "AWS S3 SDK version");
@@ -67,6 +74,12 @@ expect(buildMatrix.previewBuilds, false, "preview builds");
 expect(buildMatrix.buildCommand, "npm install --ignore-scripts --no-audit --no-fund", "build command");
 expect(buildMatrix.deployCommand, "npm run cloudflare:deploy:r2", "deploy command");
 expectArray(buildMatrix.secretVariables, ["R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY"], "build secrets");
+expect(buildMatrix.environmentVariables?.R2_PROFILE, "full-resource", "build R2 profile");
+for (const rootName of fullResourceRoots) {
+  if (!buildMatrix.watchPaths?.include?.includes(`${rootName}/**`)) {
+    failures.push(`build watch paths: missing ${rootName}/**`);
+  }
+}
 
 expect(wrangler.name, "ddtank-r2-deployer", "Wrangler worker name");
 expect(wrangler.main, "src/r2-deployer-worker.mjs", "Wrangler entrypoint");
@@ -83,7 +96,9 @@ console.log(JSON.stringify({
   bucket: config.bucket,
   worker: config.ci.worker,
   productionBranch: config.ci.productionBranch,
+  defaultProfile: config.defaultProfile,
   profiles: Object.keys(config.profiles),
+  fullResourceRoots,
   dashboardBuildCommand: buildMatrix.buildCommand,
   dashboardDeployCommand: buildMatrix.deployCommand
 }, null, 2));
