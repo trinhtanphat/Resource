@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.r2/
+.env
+.env.*
+!.env.example
+rclone.conf

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "accountName": "trinhtanphat3333",
+  "accountId": "291f5d12e63427644f59ac4a1d8f9664",
+  "bucket": "ddtank-resource",
+  "defaultProfile": "images",
+  "publicBaseUrl": null,
+  "profiles": {
+    "images": {
+      "roots": [
+        "image"
+      ],
+      "probeContentTypePrefix": "image/"
+    },
+    "full-resource": {
+      "roots": [
+        "flash",
+        "image",
+        "partical",
+        "sound",
+        "video",
+        "weekly",
+        "xml"
+      ],
+      "probeContentTypePrefix": ""
+    }
+  },
+  "rclone": {
+    "remoteName": "cloudflare-r2",
+    "transfers": 32,
+    "checkers": 64
+  }
+}
