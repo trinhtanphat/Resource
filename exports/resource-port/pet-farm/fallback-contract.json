@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "policies": {
+    "missingStaticAsset": "neutral-placeholder",
+    "missingPetStage": "neutral-placeholder-never-neighbor-pet-art",
+    "missingMountAnimation": "exact-static-source-raster-if-owned-otherwise-neutral-placeholder",
+    "unsupportedDragonBonesFeature": "hold-last-valid-authored-frame-or-neutral-placeholder",
+    "invalidArchive": "reject-entire-pack-atomically",
+    "unresolvedSwfLike": "disabled-no-SWF-runtime-no-representative-frame-animation",
+    "clientBusinessAuthority": false
+  },
+  "nonClaims": [
+    "static pet icons are not animation",
+    "TexturePacker rectangles do not provide mount playback timing",
+    "R029 skill icons do not define labels or combat effects",
+    "R029 farm stages do not define growth durations",
+    "nearby IDs and filenames do not authorize behavioral inference"
+  ]
+}

@@ -1,0 +1,2516 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "crops": [
+    {
+      "key": "blueberries",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/blueberries/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/blueberries/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/blueberries/crop1.png",
+          "bytes": 3887,
+          "sha256": "b63f31562e970a0584a16f0bb13ef6fa5735631fa5ec944099f65400ced95354",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/blueberries/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/blueberries/crop2.png",
+          "bytes": 3946,
+          "sha256": "f091bf8f7e8c4df66197f77b4cffc44056bb040235a91bd081090299f4c0632c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/blueberries/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/blueberries/seed.png",
+          "bytes": 4347,
+          "sha256": "e017f34743f1cc4dcf4018b2646fd450370a0129b808c2f9d31d0d1c4c36f25c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/blueberries/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "carnation1",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/carnation1/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/carnation1/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/carnation1/crop1.png",
+          "bytes": 13917,
+          "sha256": "ad3b96c1a5a1e6e93ece5b26c3cf4a11be91afbba11d93f8db31fedd2d61daae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/carnation1/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/carnation1/crop2.png",
+          "bytes": 18419,
+          "sha256": "ea5856fb75c78099c8be2b1252f4ee965664b5020d8d725a73825b0a0a3aa539",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/carnation1/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/carnation1/seed.png",
+          "bytes": 4709,
+          "sha256": "d9d3f3ca49edda46ca3e3a224fa3ceae6d3ecd2d8ef6e7c413692a0b6a461dc1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/carnation1/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "cherry",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/cherry/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cherry/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/cherry/crop1.png",
+          "bytes": 4390,
+          "sha256": "33337769ec81a7378b413c016580cdcf9b7555aba3a7a87bcca4c0b43ac3dadc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cherry/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/cherry/crop2.png",
+          "bytes": 4417,
+          "sha256": "dc26bd0e67b7c4cb13126d1a929ffcdfb506a4b74bc65866171189f99db8747d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cherry/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/cherry/seed.png",
+          "bytes": 3703,
+          "sha256": "689fb9c540c3880aa26d36067f352bc4ee7f945099c4bb4a246e194599b7fd30",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/cherry/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "chienhon",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/chienhon/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chienhon/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/chienhon/crop1.png",
+          "bytes": 4390,
+          "sha256": "33337769ec81a7378b413c016580cdcf9b7555aba3a7a87bcca4c0b43ac3dadc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chienhon/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/chienhon/crop2.png",
+          "bytes": 4417,
+          "sha256": "dc26bd0e67b7c4cb13126d1a929ffcdfb506a4b74bc65866171189f99db8747d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chienhon/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/chienhon/seed.png",
+          "bytes": 10748,
+          "sha256": "7c93d7cf16d28859749ddf37a9f3f17da201d3f1d3a2bad7e96e02b7c8a05b77",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/chienhon/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "chocolatebeans",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/chocolatebeans/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chocolatebeans/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/chocolatebeans/crop1.png",
+          "bytes": 4023,
+          "sha256": "028a0cb035d3602e6bb3b57e816529ae1ec95bdb93688478a09e65f3828e9d88",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chocolatebeans/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/chocolatebeans/crop2.png",
+          "bytes": 4470,
+          "sha256": "164c62e88daa3720798cb8e1e7fa48695ad5f7e316cf8c14ccb131664e9eba80",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chocolatebeans/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/chocolatebeans/seed.png",
+          "bytes": 3197,
+          "sha256": "d90a55fed4dde0637a130f0d4174be4819212c207f768743705037267ff07666",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/chocolatebeans/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "christmastree",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/christmastree/crop0.png",
+          "bytes": 1386,
+          "sha256": "a320e556178a104b6f5603e97eff6f1af8a7bfcfa11c8fd22498f62788a71ef2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/christmastree/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/christmastree/crop1.png",
+          "bytes": 2826,
+          "sha256": "1e23216d028db76f3433264e61d1366f7df1c24714f0a3bc972618646f9e87d2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/christmastree/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/christmastree/crop2.png",
+          "bytes": 3685,
+          "sha256": "dbb3bbdaa543a2978cc8c0009f475f0b20d4e3267ef86710f4c7c2182ece1bfe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/christmastree/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/christmastree/seed.png",
+          "bytes": 3862,
+          "sha256": "cc8cf5396462367de866ef53059fe1f1d16e140607d010f0d3e1c8ade125f381",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/christmastree/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "chrysanthemum1",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/chrysanthemum1/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chrysanthemum1/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/chrysanthemum1/crop1.png",
+          "bytes": 13916,
+          "sha256": "973364b311d50ed6bee45347ddd230d4e183bf211ae43c737e80d2fcb86ea491",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chrysanthemum1/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/chrysanthemum1/crop2.png",
+          "bytes": 17797,
+          "sha256": "32e56958a2fc7837674e0f9c00d19a0b0e9056749cab6bf98f78b61f595f84fe",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/chrysanthemum1/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/chrysanthemum1/seed.png",
+          "bytes": 4723,
+          "sha256": "0b9fd8f465783afe13f0adee2575fc687288371421addea1184f2ede977cefc4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/chrysanthemum1/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "coffeebeans",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/coffeebeans/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/coffeebeans/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/coffeebeans/crop1.png",
+          "bytes": 4471,
+          "sha256": "2270eee72a3bb6b337c8c7b0a95bd99ec92e46846d72d4ffcc21762e2ef4ec14",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/coffeebeans/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/coffeebeans/crop2.png",
+          "bytes": 4782,
+          "sha256": "4ecf59f30cce20be99eda34a13807996b7f3374fb16749c7d560d07299ba943d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/coffeebeans/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/coffeebeans/seed.png",
+          "bytes": 4403,
+          "sha256": "058bcc884bac8fd7808e7821bf6233879d76a412c81d20eff557357efcc1240e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/coffeebeans/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "cole",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/cole/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cole/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/cole/crop1.png",
+          "bytes": 3411,
+          "sha256": "973e8feab86ce59eb8adc9f5bd0b4c28c5b2d2a235ce39d61ece1069b3250a6f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cole/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/cole/crop2.png",
+          "bytes": 4107,
+          "sha256": "4f9ab15a7905e6ea5f16cdb4ec34502bfb24b0b81d922e1dd3afb967f549cc23",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/cole/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/cole/seed.png",
+          "bytes": 3487,
+          "sha256": "d721b13035e035681130b3caa15860f6745eeef90e67152782d684187c6399c8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/cole/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "dacuonghoa",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/dacuonghoa/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/dacuonghoa/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/dacuonghoa/crop1.png",
+          "bytes": 3887,
+          "sha256": "b63f31562e970a0584a16f0bb13ef6fa5735631fa5ec944099f65400ced95354",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/dacuonghoa/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/dacuonghoa/crop2.png",
+          "bytes": 3946,
+          "sha256": "f091bf8f7e8c4df66197f77b4cffc44056bb040235a91bd081090299f4c0632c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/dacuonghoa/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/dacuonghoa/seed.png",
+          "bytes": 10409,
+          "sha256": "4e79d6ed74a604fd765919761e18ba7dc5b65c9783c486fdf44fced1b4616d9a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/dacuonghoa/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "greentea",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/greentea/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/greentea/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/greentea/crop1.png",
+          "bytes": 3399,
+          "sha256": "4b7d31093805ef13e0c292fbcd82fe32f6e5767c11b91004488b0b8d85000a31",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/greentea/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/greentea/crop2.png",
+          "bytes": 4011,
+          "sha256": "b12c7e704feacf6891fdc25e6d90208124eeadabced466d7d450e7fca99f94b2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/greentea/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/greentea/seed.png",
+          "bytes": 3062,
+          "sha256": "8465b0b1935531c766fc3f039a21115bbee1597919673852c714cc5f0766b55a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/greentea/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "honorseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/honorseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/honorseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/honorseeds/crop1.png",
+          "bytes": 3399,
+          "sha256": "4b7d31093805ef13e0c292fbcd82fe32f6e5767c11b91004488b0b8d85000a31",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/honorseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/honorseeds/crop2.png",
+          "bytes": 4011,
+          "sha256": "b12c7e704feacf6891fdc25e6d90208124eeadabced466d7d450e7fca99f94b2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/honorseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/honorseeds/seed.png",
+          "bytes": 10690,
+          "sha256": "e6c567ec4af492f6c58b8ffc6dcfb8c8b2692fb1b0fb679c66e130805b3d392a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/honorseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "immortal",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/immortal/crop0.png",
+          "bytes": 1386,
+          "sha256": "a320e556178a104b6f5603e97eff6f1af8a7bfcfa11c8fd22498f62788a71ef2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/immortal/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/immortal/crop1.png",
+          "bytes": 2774,
+          "sha256": "b1dac4cf55aabea1a44624fd09bf8146bb1a5d257dfca148fc857a919e07b915",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/immortal/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/immortal/crop2.png",
+          "bytes": 3657,
+          "sha256": "1dfb5809e6e1d5c5dc0d5901350b2ef3131e6720a2f07b2ca5ea292a4ea0ef68",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/immortal/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/immortal/seed.png",
+          "bytes": 3893,
+          "sha256": "f3a8e9569fe91b8020b6d14f2ea1a7efe4b9ff024b69f747fb4e20f3c6270590",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/immortal/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "intermediateseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/intermediateseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/intermediateseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/intermediateseeds/crop1.png",
+          "bytes": 3892,
+          "sha256": "dfc442f296fc9742a6186e6b8133507760ae3ad764bc2debb36add96aed89623",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/intermediateseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/intermediateseeds/crop2.png",
+          "bytes": 3132,
+          "sha256": "785ebfff93dbf2e8719ab926af86d3e0fa9b4922e0e7f2f40177b5bdc1904eb4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/intermediateseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/intermediateseeds/seed.png",
+          "bytes": 3676,
+          "sha256": "b7221720936c0088dce2b49f8152f01716004b1c925f40df70c3604d5d31aaf8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/intermediateseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "jindou",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/jindou/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jindou/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/jindou/crop1.png",
+          "bytes": 3358,
+          "sha256": "f67fbcabd950c10fa7065ea8242ee2be62b2056c5ed2ff66e8b32a3b280bb5ef",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jindou/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/jindou/crop2.png",
+          "bytes": 3957,
+          "sha256": "c7cc69dbd4965262b353f74bf801ffc0c470c376a8ce7c018f286d9162bef0a4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jindou/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/jindou/seed.png",
+          "bytes": 3951,
+          "sha256": "71f56371347cde72da729691f1863d423c835261c2fbd1123ffa2f0eb36c26c0",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/jindou/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "jujube",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/jujube/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jujube/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/jujube/crop1.png",
+          "bytes": 3976,
+          "sha256": "2250e475417061c2f25abd5bbd699c84a6e51537ff227b5b70dcc84ceb092a27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jujube/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/jujube/crop2.png",
+          "bytes": 4102,
+          "sha256": "e6a439aa0f07dae03fdc7eec7248bb0b4d2aa2a52d90c01c0c5594c6caceade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/jujube/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/jujube/seed.png",
+          "bytes": 3441,
+          "sha256": "bb8226ac08b6e8b1a767bfdda82d17d98ff705519641a3fde61070d48e3c0eb8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/jujube/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "kinhnghiem",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/kinhnghiem/crop0.png",
+          "bytes": 5702,
+          "sha256": "b345d77884f02befdb2cd4ff3e9100cbd7249f7cd2153bc572f17df387df0776",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/kinhnghiem/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/kinhnghiem/crop1.png",
+          "bytes": 8629,
+          "sha256": "f851d48b5d5febf39db378295d6886e097304d894e1b4cb227f120ea2048c367",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/kinhnghiem/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/kinhnghiem/crop2.png",
+          "bytes": 12224,
+          "sha256": "c43e57e36add45e9df32bac5366bbb7a0e36ba455b14dd40484b8ff373526ece",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/kinhnghiem/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/kinhnghiem/seed.png",
+          "bytes": 10044,
+          "sha256": "f041a2398aed6ce18f83c5a22221ed5691037d1c066a3e01b0d0cdcd7d89188c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/kinhnghiem/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "laurel",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/laurel/crop0.png",
+          "bytes": 1386,
+          "sha256": "a320e556178a104b6f5603e97eff6f1af8a7bfcfa11c8fd22498f62788a71ef2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/laurel/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/laurel/crop1.png",
+          "bytes": 4751,
+          "sha256": "1ad7c64d264427aa0913022eb7dac283297406cc7ecc20749cbae6735a3db17f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/laurel/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/laurel/crop2.png",
+          "bytes": 4820,
+          "sha256": "c306425dae4383448ff5a5b7a6a3ae8ca76d035ab890ef0dd95d39bd7fdd2c86",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/laurel/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/laurel/seed.png",
+          "bytes": 3883,
+          "sha256": "e71f2b45ffc4a16c4eadcecd890e2e39e0eb228762392bdb45dcc65168d32fb7",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/laurel/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "lotus",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/lotus/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/lotus/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/lotus/crop1.png",
+          "bytes": 3265,
+          "sha256": "8c88a46020a511160d5b6900c056b567387861049250c1cf655bb7d1f2e4067e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/lotus/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/lotus/crop2.png",
+          "bytes": 3509,
+          "sha256": "a2cd6f22096a39caf2a30a0451a0abaa5e72e46276e0b792ec387ce7bde8dd18",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/lotus/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/lotus/seed.png",
+          "bytes": 3712,
+          "sha256": "7a263d5e65c4ad1c71cb9e4078ec177f5dd6937d831bb557e2f9874865ff295b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/lotus/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "mayflower",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/mayflower/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/mayflower/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/mayflower/crop1.png",
+          "bytes": 1909,
+          "sha256": "fb0abf42b348046413c1443c40802b940eb9b79913c1995d7a5dfa9cd093d26a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/mayflower/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/mayflower/crop2.png",
+          "bytes": 2527,
+          "sha256": "5c235eeabde92ea75857c20d7e666de864bb1dcbdc52ecccd9a161fa4a0d4478",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/mayflower/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/mayflower/seed.png",
+          "bytes": 3898,
+          "sha256": "7920f509fe070b74c2cc8131c189f2bf5020787632ed055a0ea40e982b45339b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/mayflower/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "newg",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/newg/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/newg/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/newg/crop1.png",
+          "bytes": 11230,
+          "sha256": "f0efa8d30b564d3c16d007bf491aa68d66093f3bcb3cd1cf5220b56fcf040e6d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/newg/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/newg/crop2.png",
+          "bytes": 12292,
+          "sha256": "3b268493203460f0111e2cd56fa07beda57102b039962298b3c693b5f644ea27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/newg/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/newg/seed.png",
+          "bytes": 11263,
+          "sha256": "5096416322894805823f080b27dbb2ebd9dcfac576abf205b55f7ce9dd61a56b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/newg/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "oat",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/oat/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/oat/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/oat/crop1.png",
+          "bytes": 3644,
+          "sha256": "cf21b3972dce721a66b1df80546767142cb959b75e306ccd50fb7e304d492783",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/oat/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/oat/crop2.png",
+          "bytes": 3821,
+          "sha256": "856671064031afc7d4bc1f25e095bcd4364798684ce46ff01a4be21d7b2f5757",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/oat/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/oat/seed.png",
+          "bytes": 3880,
+          "sha256": "ea9afe6371ec3bcb6faa06ce5e8b4528cca4768c43491595fb1f3dbb44eff500",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/oat/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "peas",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/peas/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/peas/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/peas/crop1.png",
+          "bytes": 3892,
+          "sha256": "dfc442f296fc9742a6186e6b8133507760ae3ad764bc2debb36add96aed89623",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/peas/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/peas/crop2.png",
+          "bytes": 3132,
+          "sha256": "785ebfff93dbf2e8719ab926af86d3e0fa9b4922e0e7f2f40177b5bdc1904eb4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/peas/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/peas/seed.png",
+          "bytes": 3646,
+          "sha256": "0fe87b66e77611d7224437116f28a29176f4c1d7bf5c418c73350f2cc69371cb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/peas/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "pineseed",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/pineseed/crop0.png",
+          "bytes": 1386,
+          "sha256": "a320e556178a104b6f5603e97eff6f1af8a7bfcfa11c8fd22498f62788a71ef2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pineseed/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/pineseed/crop1.png",
+          "bytes": 2631,
+          "sha256": "6a28d1cd7aadeeb7b7e31ba84ae4dd0f23bca16a29edaacf4c54ecef22c3aa17",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pineseed/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/pineseed/crop2.png",
+          "bytes": 3693,
+          "sha256": "5d1ed35c8228d4311c067fe5d84be46124877dd0aec73e607bc06ece4ba5cbfd",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pineseed/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/pineseed/seed.png",
+          "bytes": 4657,
+          "sha256": "3cdef97c67e8d253199a11150cf4a50b9eec08770552333f6fda0f23736b9bcc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/pineseed/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "polishedglutinousrice",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/polishedglutinousrice/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/polishedglutinousrice/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/polishedglutinousrice/crop1.png",
+          "bytes": 3799,
+          "sha256": "af0d99a8c08f89ae11233e90780ead3c11c142d566ca62bca8a191ddf981c51e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/polishedglutinousrice/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/polishedglutinousrice/crop2.png",
+          "bytes": 4777,
+          "sha256": "33aec2283413570452e8f9be1f8f90c671dd17d47d63e95c4131ca494b291e8b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/polishedglutinousrice/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/polishedglutinousrice/seed.png",
+          "bytes": 3374,
+          "sha256": "d7c43f5d2ac09fedb30929ae6e6bbd8a53de7c87afc48991640e9c11f81f4d8e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/polishedglutinousrice/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "potatoes",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/potatoes/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/potatoes/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/potatoes/crop1.png",
+          "bytes": 2984,
+          "sha256": "fd67dcbd4a978bcfa295775f0cec90026697cf737e331df85858d109d920b457",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/potatoes/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/potatoes/crop2.png",
+          "bytes": 4564,
+          "sha256": "5a8a466b566d242c7534c06cb19abaf0ac34f9a0ff3a1525df93940e3c426d17",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/potatoes/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/potatoes/seed.png",
+          "bytes": 3972,
+          "sha256": "93c5b63e4beb2d3a2adfe7a829fbc6fee9701fcee0ad916f6bcb7b79c744f6b1",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/potatoes/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "primaryseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/primaryseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/primaryseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/primaryseeds/crop1.png",
+          "bytes": 3110,
+          "sha256": "6e4c9db3ab1a354dce58b8c9c1a93ab75ea8c88c7c0eccb359da7d1131e6b58e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/primaryseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/primaryseeds/crop2.png",
+          "bytes": 4408,
+          "sha256": "a7425a8f595eca7f57e08d7948c7cbc1846538038e5c70736f4f660e28f5eeae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/primaryseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/primaryseeds/seed.png",
+          "bytes": 3903,
+          "sha256": "e59863d313b53d2ba251263f158ebd61abed8737dd287964e0246e79f5b09b08",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/primaryseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "pumpkin",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/pumpkin/crop0.png",
+          "bytes": 1386,
+          "sha256": "a320e556178a104b6f5603e97eff6f1af8a7bfcfa11c8fd22498f62788a71ef2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pumpkin/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/pumpkin/crop1.png",
+          "bytes": 4433,
+          "sha256": "f0e5c5e78df7b19a280b1075b177467375aba6957fb2a600035a65e4eba6978d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pumpkin/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/pumpkin/crop2.png",
+          "bytes": 4573,
+          "sha256": "bdfb0a45e9c71842894fc793bc62b6b10f4ba4b25e3ae18da8edcdd500048caf",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/pumpkin/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/pumpkin/seed.png",
+          "bytes": 3870,
+          "sha256": "d01032c98aa4613f079dfe8b63183f027438fa617a06a60c069b7315782f6f2c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/pumpkin/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "purplechips",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/purplechips/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/purplechips/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/purplechips/crop1.png",
+          "bytes": 2874,
+          "sha256": "01d6f801dc255f15e00ec80857116ba300aef52375f0dfeda446713001daf248",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/purplechips/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/purplechips/crop2.png",
+          "bytes": 4721,
+          "sha256": "7d2990bf5c1dd5a79f5c55b041f709c0eb5060d2a080b5cf35932ee8dd69f28c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/purplechips/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/purplechips/seed.png",
+          "bytes": 3657,
+          "sha256": "8ccf50d9a5314868c60bf9571f7c9f0f7b32a0299a596cf232682162ccdcc692",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/purplechips/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "redbeans",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/redbeans/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/redbeans/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/redbeans/crop1.png",
+          "bytes": 3280,
+          "sha256": "8c22ced5b77117efd669e16c4ea3fdecade0d9ce5a7159222d0da8cdabcaf479",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/redbeans/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/redbeans/crop2.png",
+          "bytes": 4043,
+          "sha256": "e4d3b0e4d34c66b64bc6327b34d8cba3da10d52ac4444af0700abfc346631f8f",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/redbeans/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/redbeans/seed.png",
+          "bytes": 3697,
+          "sha256": "fee54f1bdb9cf131902fadac4f7b0df8c003f858cdc429ec8750903886aac20c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/redbeans/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "rice",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/rice/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rice/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/rice/crop1.png",
+          "bytes": 3065,
+          "sha256": "3e1d5d4ce2e75ec65c718be37fa05d4293160f35ff5470e5fa29cbf02b998404",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rice/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/rice/crop2.png",
+          "bytes": 4428,
+          "sha256": "9d5a2eaab5b432615cda0f6d9ea748d34149ef83dad6275de6ef5c05e2701758",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rice/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/rice/seed.png",
+          "bytes": 4489,
+          "sha256": "176f8f5e44a1d03aec46d6dc85075a51c4771d0e7cc544d5d3a4efcf06c79d70",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/rice/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "rose1",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/rose1/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rose1/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/rose1/crop1.png",
+          "bytes": 17429,
+          "sha256": "5ad126641c7503123cfbf574deecb8b612b288e41725997ff55ba3f98b289bf5",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rose1/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/rose1/crop2.png",
+          "bytes": 18888,
+          "sha256": "f8ad576cf3e45d5f0521bdf4c2a4fe65533c3274eca9e53e45b59610568e06fb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/rose1/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/rose1/seed.png",
+          "bytes": 4932,
+          "sha256": "4a419b0a08c7c523b996d0a430dbe61f7a4148239d19770dd09285cd6e0a0865",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/rose1/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seed01",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seed01/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed01/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed01/crop1.png",
+          "bytes": 20145,
+          "sha256": "1395877f7f2d8e535aa539249d1599476fc231f3d829283642fec1015f68a091",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed01/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed01/crop2.png",
+          "bytes": 21226,
+          "sha256": "93354b89c622d4783275e260fe2c1dd98280647896dda9187fbf4d950b0a6104",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed01/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed01/seed.png",
+          "bytes": 26016,
+          "sha256": "daf4259457c7aff6d94b01497ae9960774e55999356c5da759efffa3cf0fdb3c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seed01/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seed1",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seed1/crop0.png",
+          "bytes": 2827,
+          "sha256": "7fcbf5e322ed20f0026441b9763b3f3e2ce3371dacf9f339d85a502b24ede472",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed1/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed1/crop1.png",
+          "bytes": 4023,
+          "sha256": "028a0cb035d3602e6bb3b57e816529ae1ec95bdb93688478a09e65f3828e9d88",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed1/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed1/crop2.png",
+          "bytes": 12415,
+          "sha256": "2fe7a094f118398d7939225775e00adf73cc373896581d90d13d3b1233f6f3d4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed1/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed1/seed.png",
+          "bytes": 3574,
+          "sha256": "cf4a35b5a6acb1b0f016bcae25c9045cf608a3d2a6e774d2d2576424bb69db70",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seed1/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seed2",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seed2/crop0.png",
+          "bytes": 3063,
+          "sha256": "50b9bc54dcefeb49230e164099309b2c1297deea8d3d03722a0db95b924d1a77",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed2/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed2/crop1.png",
+          "bytes": 4023,
+          "sha256": "028a0cb035d3602e6bb3b57e816529ae1ec95bdb93688478a09e65f3828e9d88",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed2/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed2/crop2.png",
+          "bytes": 13775,
+          "sha256": "a9ceb4a223f8ebbbfdeb25dcd3d7a9448ed73b78965ff8ed50b89772c827ce0c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed2/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed2/seed.png",
+          "bytes": 3612,
+          "sha256": "0b43fdb5776e7d99cc12b8b3a76c09f93cbc8c5481ecff43233ae785d4daebba",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seed2/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seed3",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seed3/crop0.png",
+          "bytes": 4474,
+          "sha256": "de8312bbe68419d4b50ac649d0a94f694e5a0d44f7daced2ebd188b2e990d8f6",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed3/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed3/crop1.png",
+          "bytes": 4023,
+          "sha256": "028a0cb035d3602e6bb3b57e816529ae1ec95bdb93688478a09e65f3828e9d88",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed3/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed3/crop2.png",
+          "bytes": 17296,
+          "sha256": "a76a4161576bfb253ed7328d7553507051c324cb2882db89308dab4c0db5d781",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seed3/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seed3/seed.png",
+          "bytes": 3636,
+          "sha256": "7cf03c710120e14a3394b2c7586fb3f630e4320de7a115d467816c6dd1fbc2e2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seed3/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seedofgod",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seedofgod/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seedofgod/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seedofgod/crop1.png",
+          "bytes": 1909,
+          "sha256": "fb0abf42b348046413c1443c40802b940eb9b79913c1995d7a5dfa9cd093d26a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seedofgod/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seedofgod/crop2.png",
+          "bytes": 2527,
+          "sha256": "5c235eeabde92ea75857c20d7e666de864bb1dcbdc52ecccd9a161fa4a0d4478",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seedofgod/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seedofgod/seed.png",
+          "bytes": 3783,
+          "sha256": "2d8db241c00b5942caa34c69ecbd7d5207f858b1296f59d45d3ab7430de6865e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seedofgod/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "seniorseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/seniorseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seniorseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/seniorseeds/crop1.png",
+          "bytes": 2919,
+          "sha256": "6a30c44d6ed2167f8e282ff2e7445a0ec68dbd03f25d11b3fdc2af0d164a5c21",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seniorseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/seniorseeds/crop2.png",
+          "bytes": 3913,
+          "sha256": "43bde584a3f29f0d3c4cce229d6ab81ff415dd506e9eee9a0ae55b4d8948e00a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/seniorseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/seniorseeds/seed.png",
+          "bytes": 3731,
+          "sha256": "a860a8c0d81015a8d58743797b06a8b254a77f58a30a84b7f26002697080e1eb",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/seniorseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "soulseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/soulseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/soulseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/soulseeds/crop1.png",
+          "bytes": 3887,
+          "sha256": "b63f31562e970a0584a16f0bb13ef6fa5735631fa5ec944099f65400ced95354",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/soulseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/soulseeds/crop2.png",
+          "bytes": 3946,
+          "sha256": "f091bf8f7e8c4df66197f77b4cffc44056bb040235a91bd081090299f4c0632c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/soulseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/soulseeds/seed.png",
+          "bytes": 10761,
+          "sha256": "c4d6fe7a94dbd717afd88ba94bfa0fc9e4d8ffa991548b5729fb8e68c99cd71b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/soulseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "specialprimary",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/specialprimary/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialprimary/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialprimary/crop1.png",
+          "bytes": 3110,
+          "sha256": "6e4c9db3ab1a354dce58b8c9c1a93ab75ea8c88c7c0eccb359da7d1131e6b58e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialprimary/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialprimary/crop2.png",
+          "bytes": 4408,
+          "sha256": "a7425a8f595eca7f57e08d7948c7cbc1846538038e5c70736f4f660e28f5eeae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialprimary/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialprimary/seed.png",
+          "bytes": 3563,
+          "sha256": "84a7735078ec9db49b621781116d7b87668ea721d65083b32a09c03170f7531a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/specialprimary/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "specialsenior",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/specialsenior/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialsenior/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialsenior/crop1.png",
+          "bytes": 2919,
+          "sha256": "6a30c44d6ed2167f8e282ff2e7445a0ec68dbd03f25d11b3fdc2af0d164a5c21",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialsenior/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialsenior/crop2.png",
+          "bytes": 3913,
+          "sha256": "43bde584a3f29f0d3c4cce229d6ab81ff415dd506e9eee9a0ae55b4d8948e00a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/specialsenior/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/specialsenior/seed.png",
+          "bytes": 3521,
+          "sha256": "f0a9e140c5db3e9d19820de4971fa947eca156ce153ec1f7f813b5af6973a401",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/specialsenior/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "strawberry",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/strawberry/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strawberry/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/strawberry/crop1.png",
+          "bytes": 2919,
+          "sha256": "6a30c44d6ed2167f8e282ff2e7445a0ec68dbd03f25d11b3fdc2af0d164a5c21",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strawberry/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/strawberry/crop2.png",
+          "bytes": 3913,
+          "sha256": "43bde584a3f29f0d3c4cce229d6ab81ff415dd506e9eee9a0ae55b4d8948e00a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strawberry/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/strawberry/seed.png",
+          "bytes": 3986,
+          "sha256": "343716e5dacd10d86a9b0ea801fa1b4e2c7ab56435407c26696333b8fa0c9f61",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/strawberry/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "strengthseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/strengthseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strengthseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/strengthseeds/crop1.png",
+          "bytes": 3887,
+          "sha256": "b63f31562e970a0584a16f0bb13ef6fa5735631fa5ec944099f65400ced95354",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strengthseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/strengthseeds/crop2.png",
+          "bytes": 3946,
+          "sha256": "f091bf8f7e8c4df66197f77b4cffc44056bb040235a91bd081090299f4c0632c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/strengthseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/strengthseeds/seed.png",
+          "bytes": 10409,
+          "sha256": "4e79d6ed74a604fd765919761e18ba7dc5b65c9783c486fdf44fced1b4616d9a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/strengthseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "sucrose",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/sucrose/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/sucrose/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/sucrose/crop1.png",
+          "bytes": 3888,
+          "sha256": "2072754e1991cef94c377aae3c2b8d0ac79f12333d9a243a707158595724f4e4",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/sucrose/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/sucrose/crop2.png",
+          "bytes": 4485,
+          "sha256": "334feca23dee693bfb694e4e897291aae40c76726bc87811ac60b67120bc6bee",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/sucrose/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/sucrose/seed.png",
+          "bytes": 4076,
+          "sha256": "dc4d98949274681ac28da3bbf906c76662786e3e9344563e0177498d67568f15",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/sucrose/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "thehon",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/thehon/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thehon/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/thehon/crop1.png",
+          "bytes": 3887,
+          "sha256": "b63f31562e970a0584a16f0bb13ef6fa5735631fa5ec944099f65400ced95354",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thehon/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/thehon/crop2.png",
+          "bytes": 3946,
+          "sha256": "f091bf8f7e8c4df66197f77b4cffc44056bb040235a91bd081090299f4c0632c",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thehon/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/thehon/seed.png",
+          "bytes": 10761,
+          "sha256": "c4d6fe7a94dbd717afd88ba94bfa0fc9e4d8ffa991548b5729fb8e68c99cd71b",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/thehon/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "thucanpet",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/thucanpet/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thucanpet/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/thucanpet/crop1.png",
+          "bytes": 3976,
+          "sha256": "2250e475417061c2f25abd5bbd699c84a6e51537ff227b5b70dcc84ceb092a27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thucanpet/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/thucanpet/crop2.png",
+          "bytes": 4102,
+          "sha256": "e6a439aa0f07dae03fdc7eec7248bb0b4d2aa2a52d90c01c0c5594c6caceade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/thucanpet/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/thucanpet/seed.png",
+          "bytes": 3441,
+          "sha256": "bb8226ac08b6e8b1a767bfdda82d17d98ff705519641a3fde61070d48e3c0eb8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/thucanpet/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "tuluyen",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/tuluyen/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/tuluyen/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/tuluyen/crop1.png",
+          "bytes": 3976,
+          "sha256": "2250e475417061c2f25abd5bbd699c84a6e51537ff227b5b70dcc84ceb092a27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/tuluyen/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/tuluyen/crop2.png",
+          "bytes": 4102,
+          "sha256": "e6a439aa0f07dae03fdc7eec7248bb0b4d2aa2a52d90c01c0c5594c6caceade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/tuluyen/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/tuluyen/seed.png",
+          "bytes": 11030,
+          "sha256": "af7cc54ca7db50f2c8aa00109adf14790d4da8b14ab8a552deff2a030234a08a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/tuluyen/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "vinhdu",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/vinhdu/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/vinhdu/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/vinhdu/crop1.png",
+          "bytes": 3399,
+          "sha256": "4b7d31093805ef13e0c292fbcd82fe32f6e5767c11b91004488b0b8d85000a31",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/vinhdu/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/vinhdu/crop2.png",
+          "bytes": 4011,
+          "sha256": "b12c7e704feacf6891fdc25e6d90208124eeadabced466d7d450e7fca99f94b2",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/vinhdu/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/vinhdu/seed.png",
+          "bytes": 10690,
+          "sha256": "e6c567ec4af492f6c58b8ffc6dcfb8c8b2692fb1b0fb679c66e130805b3d392a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/vinhdu/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "wheat",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/wheat/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/wheat/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/wheat/crop1.png",
+          "bytes": 3110,
+          "sha256": "6e4c9db3ab1a354dce58b8c9c1a93ab75ea8c88c7c0eccb359da7d1131e6b58e",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/wheat/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/wheat/crop2.png",
+          "bytes": 4408,
+          "sha256": "a7425a8f595eca7f57e08d7948c7cbc1846538038e5c70736f4f660e28f5eeae",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/wheat/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/wheat/seed.png",
+          "bytes": 4073,
+          "sha256": "c3a6053eae66f6b3e19b621e45d1df1da0c94354bb6bd455d629953d1b79acfc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/wheat/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "xiulianseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/xiulianseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/xiulianseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/xiulianseeds/crop1.png",
+          "bytes": 3976,
+          "sha256": "2250e475417061c2f25abd5bbd699c84a6e51537ff227b5b70dcc84ceb092a27",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/xiulianseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/xiulianseeds/crop2.png",
+          "bytes": 4102,
+          "sha256": "e6a439aa0f07dae03fdc7eec7248bb0b4d2aa2a52d90c01c0c5594c6caceade8",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/xiulianseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/xiulianseeds/seed.png",
+          "bytes": 11030,
+          "sha256": "af7cc54ca7db50f2c8aa00109adf14790d4da8b14ab8a552deff2a030234a08a",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/xiulianseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    },
+    {
+      "key": "zhanhunseeds",
+      "stages": [
+        {
+          "sourcePath": "image/farm/crops/zhanhunseeds/crop0.png",
+          "bytes": 1386,
+          "sha256": "65260dd75ceeeb44b5e4e35b89147caf3e81b9e21e52d0764e0953cbddfe0762",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/zhanhunseeds/crop0.png",
+          "authoredStageToken": "crop0"
+        },
+        {
+          "sourcePath": "image/farm/crops/zhanhunseeds/crop1.png",
+          "bytes": 4390,
+          "sha256": "33337769ec81a7378b413c016580cdcf9b7555aba3a7a87bcca4c0b43ac3dadc",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/zhanhunseeds/crop1.png",
+          "authoredStageToken": "crop1"
+        },
+        {
+          "sourcePath": "image/farm/crops/zhanhunseeds/crop2.png",
+          "bytes": 4417,
+          "sha256": "dc26bd0e67b7c4cb13126d1a929ffcdfb506a4b74bc65866171189f99db8747d",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 88,
+          "height": 82,
+          "objectKey": "image/farm/crops/zhanhunseeds/crop2.png",
+          "authoredStageToken": "crop2"
+        },
+        {
+          "sourcePath": "image/farm/crops/zhanhunseeds/seed.png",
+          "bytes": 10748,
+          "sha256": "7c93d7cf16d28859749ddf37a9f3f17da201d3f1d3a2bad7e96e02b7c8a05b77",
+          "classification": "exact",
+          "contentType": "image/png",
+          "width": 78,
+          "height": 78,
+          "objectKey": "image/farm/crops/zhanhunseeds/seed.png",
+          "authoredStageToken": "seed"
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "stageOrder": [
+      "seed",
+      "crop0",
+      "crop1",
+      "crop2"
+    ],
+    "orderBasis": "authored-source-filenames",
+    "timing": "unresolved-no-growth-duration-in-R029",
+    "cropBehaviorAuthority": false
+  }
+}

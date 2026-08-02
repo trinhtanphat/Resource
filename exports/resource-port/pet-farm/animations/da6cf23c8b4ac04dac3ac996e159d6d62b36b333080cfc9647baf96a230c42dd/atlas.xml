@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7343172d95e325ec67e4a0707815ad0b:1/1$ -->
+<TextureAtlas imagePath="image_petFollow_2.png">
+    <SubTexture name="Living513/body" x="76" y="375" width="25" height="28"/>
+    <SubTexture name="Living513/hua 拷贝" x="372" y="271" width="10" height="40"/>
+    <SubTexture name="Living513/hua" x="448" y="366" width="26" height="30"/>
+    <SubTexture name="Living513/hua_1" x="83" y="346" width="11" height="27"/>
+    <SubTexture name="Living513/touding" x="213" y="64" width="64" height="56"/>
+    <SubTexture name="Living513/touding_1" x="363" y="106" width="58" height="57"/>
+    <SubTexture name="Living513/yezi1" x="112" y="340" width="25" height="16"/>
+    <SubTexture name="Living513/yezi1_1" x="204" y="304" width="36" height="16"/>
+    <SubTexture name="Living513/yezi2" x="171" y="160" width="40" height="23"/>
+    <SubTexture name="Living513/yezi2_1" x="170" y="202" width="40" height="15"/>
+    <SubTexture name="Living513/yezi3" x="204" y="322" width="35" height="25"/>
+    <SubTexture name="Living513/yezi3_1" x="337" y="271" width="33" height="29"/>
+    <SubTexture name="Living513/yezi4" x="170" y="185" width="40" height="15"/>
+    <SubTexture name="Living513/yezi4_1" x="73" y="81" width="41" height="36"/>
+    <SubTexture name="Living513/yezi5" x="337" y="302" width="33" height="28"/>
+    <SubTexture name="Living513/yezi6" x="459" y="241" width="18" height="27"/>
+    <SubTexture name="Living513/yezi6_1" x="476" y="393" width="26" height="15"/>
+    <SubTexture name="Living513/yezi7" x="206" y="286" width="37" height="16"/>
+    <SubTexture name="Living513/yezi7_1" x="362" y="333" width="20" height="27"/>
+    <SubTexture name="Living513/youer 拷贝" x="494" y="108" width="15" height="32"/>
+    <SubTexture name="Living513/youer" x="27" y="340" width="23" height="25"/>
+    <SubTexture name="Living513/youshou" x="235" y="375" width="14" height="17"/>
+    <SubTexture name="Living513/youshou_1" x="134" y="375" width="17" height="17"/>
+    <SubTexture name="Living513/图层 289" x="479" y="162" width="9" height="8"/>
+    <SubTexture name="Living513/图层 290" x="83" y="405" width="17" height="14"/>
+    <SubTexture name="Living513/图层 291" x="384" y="298" width="33" height="26"/>
+    <SubTexture name="Living513/图层 292" x="497" y="43" width="13" height="16"/>
+    <SubTexture name="Living513/图层 293" x="134" y="404" width="14" height="17"/>
+    <SubTexture name="Living513/图层 294" x="31" y="367" width="10" height="6"/>
+    <SubTexture name="Living513/图层 295" x="182" y="414" width="10" height="7"/>
+    <SubTexture name="Living513/图层 297" x="56" y="257" width="13" height="6"/>
+    <SubTexture name="Living513/图层 298 拷贝" x="273" y="184" width="23" height="32"/>
+    <SubTexture name="Living513/图层 298" x="187" y="87" width="24" height="26"/>
+    <SubTexture name="Living513/图层 299" x="486" y="331" width="22" height="18"/>
+    <SubTexture name="Living513/图层 300" x="183" y="405" width="12" height="7"/>
+    <SubTexture name="Living513/图层 301" x="169" y="414" width="11" height="8"/>
+    <SubTexture name="Living513/图层 302" x="139" y="355" width="21" height="18"/>
+    <SubTexture name="Living513/图层 303 拷贝" x="96" y="340" width="14" height="28"/>
+    <SubTexture name="Living513/图层 303" x="279" y="64" width="19" height="24"/>
+    <SubTexture name="Living513/图层 304 拷贝" x="60" y="375" width="14" height="29"/>
+    <SubTexture name="Living513/图层 304" x="486" y="351" width="21" height="23"/>
+    <SubTexture name="Living513/图层 305" x="56" y="265" width="12" height="16"/>
+    <SubTexture name="Living513/图层 306" x="56" y="283" width="12" height="15"/>
+    <SubTexture name="Living513/图层 307" x="122" y="378" width="10" height="18"/>
+    <SubTexture name="Living513/图层 308" x="487" y="291" width="23" height="29"/>
+    <SubTexture name="Living513/图层 310" x="147" y="315" width="17" height="29"/>
+    <SubTexture name="Living513/图层 312" x="187" y="115" width="24" height="16"/>
+    <SubTexture name="Living513/图层 313" x="419" y="328" width="29" height="17"/>
+    <SubTexture name="Living513/图层 314" x="279" y="112" width="18" height="33"/>
+    <SubTexture name="Living513/图层 317" x="490" y="142" width="20" height="30"/>
+    <SubTexture name="Living513/图层 318" x="419" y="347" width="27" height="18"/>
+    <SubTexture name="Living513/图层 319" x="403" y="199" width="18" height="29"/>
+    <SubTexture name="Living513/图层 320" x="455" y="291" width="30" height="16"/>
+    <SubTexture name="Living515/b头" x="2" y="287" width="49" height="50"/>
+    <SubTexture name="Living515/b耳朵" x="265" y="218" width="31" height="42"/>
+    <SubTexture name="Living515/b耳朵02" x="256" y="310" width="35" height="33" frameX="0" frameY="0" frameWidth="37" frameHeight="33"/>
+    <SubTexture name="Living515/b脚" x="497" y="2" width="13" height="21"/>
+    <SubTexture name="Living515/b身子" x="170" y="219" width="38" height="49" frameX="-4" frameY="0" frameWidth="42" frameHeight="49"/>
+    <SubTexture name="Living515/元件 10" x="293" y="311" width="33" height="24" frameX="-1" frameY="-1" frameWidth="35" frameHeight="26"/>
+    <SubTexture name="Living515/元件 11" x="70" y="303" width="38" height="23"/>
+    <SubTexture name="Living515/元件 12" x="210" y="263" width="44" height="21" frameX="-1" frameY="-1" frameWidth="46" frameHeight="23"/>
+    <SubTexture name="Living515/元件 13" x="299" y="165" width="52" height="21" frameX="-1" frameY="0" frameWidth="54" frameHeight="21"/>
+    <SubTexture name="Living515/元件 14 副本" x="423" y="212" width="46" height="11" frameX="0" frameY="-3" frameWidth="46" frameHeight="15"/>
+    <SubTexture name="Living515/元件 14" x="2" y="197" width="53" height="15"/>
+    <SubTexture name="Living515/元件 15" x="210" y="238" width="46" height="23" frameX="-2" frameY="0" frameWidth="50" frameHeight="23"/>
+    <SubTexture name="Living515/元件 16" x="384" y="266" width="34" height="30" frameX="-1" frameY="0" frameWidth="36" frameHeight="32"/>
+    <SubTexture name="Living515/元件 17" x="255" y="345" width="32" height="25" frameX="-2" frameY="0" frameWidth="34" frameHeight="27"/>
+    <SubTexture name="Living515/元件 18" x="273" y="122" width="4" height="7"/>
+    <SubTexture name="Living515/元件 20" x="423" y="123" width="6" height="4"/>
+    <SubTexture name="Living515/元件 21" x="423" y="129" width="6" height="3"/>
+    <SubTexture name="Living515/元件 23" x="423" y="139" width="5" height="3"/>
+    <SubTexture name="Living515/元件 24" x="423" y="134" width="5" height="3"/>
+    <SubTexture name="Living515/元件 4" x="103" y="395" width="17" height="15"/>
+    <SubTexture name="Living515/元件 6" x="122" y="398" width="10" height="12"/>
+    <SubTexture name="Living515/元件 7" x="169" y="405" width="12" height="7"/>
+    <SubTexture name="Living515/元件 8" x="494" y="61" width="16" height="19"/>
+    <SubTexture name="Living515/元件 9" x="479" y="263" width="31" height="26" frameX="-2" frameY="0" frameWidth="33" frameHeight="26"/>
+    <SubTexture name="Living515/右大腿" x="172" y="376" width="10" height="15"/>
+    <SubTexture name="Living515/右眼" x="153" y="400" width="14" height="17"/>
+    <SubTexture name="Living515/右脚" x="372" y="313" width="10" height="18"/>
+    <SubTexture name="Living515/右腮红" x="384" y="257" width="7" height="5"/>
+    <SubTexture name="Living515/右腿" x="245" y="286" width="9" height="16"/>
+    <SubTexture name="Living515/嘴巴" x="494" y="99" width="16" height="7" frameX="0" frameY="-2" frameWidth="16" frameHeight="9"/>
+    <SubTexture name="Living515/图层 37 拷贝 4" x="115" y="412" width="11" height="13"/>
+    <SubTexture name="Living515/图层 37 拷贝 6" x="318" y="401" width="8" height="12"/>
+    <SubTexture name="Living515/图层 95 拷贝 3" x="110" y="315" width="35" height="23"/>
+    <SubTexture name="Living515/图层 95 拷贝 4" x="362" y="362" width="20" height="22"/>
+    <SubTexture name="Living515/图层 96 拷贝 3" x="82" y="328" width="23" height="10"/>
+    <SubTexture name="Living515/图层 96 拷贝 4" x="2" y="499" width="15" height="11"/>
+    <SubTexture name="Living515/图层 97 拷贝 3" x="384" y="353" width="27" height="12"/>
+    <SubTexture name="Living515/图层 97 拷贝 4" x="153" y="376" width="17" height="12"/>
+    <SubTexture name="Living515/左大腿" x="423" y="106" width="6" height="15"/>
+    <SubTexture name="Living515/左小腿" x="393" y="205" width="8" height="15"/>
+    <SubTexture name="Living515/左手" x="83" y="421" width="11" height="16"/>
+    <SubTexture name="Living515/左眼睛" x="57" y="197" width="12" height="16"/>
+    <SubTexture name="Living515/左脚" x="102" y="412" width="11" height="19"/>
+    <SubTexture name="Living515/耳朵01" x="423" y="241" width="34" height="41"/>
+    <SubTexture name="Living515/耳朵02" x="455" y="325" width="29" height="39"/>
+    <SubTexture name="Living515/肚子" x="384" y="326" width="33" height="25"/>
+    <SubTexture name="Living515/胸" x="479" y="227" width="31" height="34"/>
+    <SubTexture name="Living515/脸" x="115" y="263" width="49" height="50"/>
+    <SubTexture name="Living515/蝴蝶结" x="273" y="147" width="24" height="14"/>
+    <SubTexture name="Living515/鼻子" x="273" y="131" width="4" height="3"/>
+    <SubTexture name="living517/fdgdfgdfvg" x="344" y="250" width="38" height="19"/>
+    <SubTexture name="living517/fdsfegrdfsf" x="300" y="79" width="61" height="32"/>
+    <SubTexture name="living517/gdfgfdgf" x="2" y="152" width="67" height="43" frameX="0" frameY="-2" frameWidth="69" frameHeight="49"/>
+    <SubTexture name="living517/gdgrehtfggr" x="367" y="58" width="62" height="46"/>
+    <SubTexture name="living517/gdrfgfdgre" x="212" y="211" width="51" height="25"/>
+    <SubTexture name="living517/gfdfdsf" x="298" y="269" width="37" height="40"/>
+    <SubTexture name="living517/gfdgbdgfd" x="166" y="270" width="38" height="19"/>
+    <SubTexture name="living517/gfdgfdgdg" x="258" y="262" width="38" height="19"/>
+    <SubTexture name="living517/gfdgregregre" x="52" y="340" width="29" height="33"/>
+    <SubTexture name="living517/gfdsfgr" x="31" y="375" width="27" height="30"/>
+    <SubTexture name="living517/gfdsgeswfsd" x="32" y="407" width="22" height="22"/>
+    <SubTexture name="living517/gfdtggghe" x="289" y="364" width="30" height="35"/>
+    <SubTexture name="living517/gfdwgf" x="70" y="268" width="43" height="17" frameX="-2" frameY="-3" frameWidth="47" frameHeight="23"/>
+    <SubTexture name="living517/gfhddfe" x="56" y="246" width="13" height="9"/>
+    <SubTexture name="living517/gfrefd" x="242" y="319" width="12" height="13"/>
+    <SubTexture name="living517/gfregfrg" x="432" y="2" width="63" height="54"/>
+    <SubTexture name="living517/gfsredf" x="56" y="232" width="13" height="12"/>
+    <SubTexture name="living517/hbgfhbfdgd" x="384" y="250" width="7" height="5"/>
+    <SubTexture name="living517/hbgfhdgfrf" x="187" y="51" width="24" height="34"/>
+    <SubTexture name="living517/hehgdsf" x="200" y="401" width="12" height="8"/>
+    <SubTexture name="living517/hfhtgddf" x="367" y="2" width="63" height="54"/>
+    <SubTexture name="living517/hgffhgbg" x="242" y="304" width="12" height="13"/>
+    <SubTexture name="living517/hgfgddf" x="393" y="222" width="8" height="5"/>
+    <SubTexture name="living517/hgfgdfhbdg" x="200" y="391" width="12" height="8"/>
+    <SubTexture name="living517/ngrtgdgdf" x="197" y="411" width="11" height="12"/>
+    <SubTexture name="living522/bvbvcbngf" x="479" y="174" width="31" height="51"/>
+    <SubTexture name="living522/dgfvggsg" x="115" y="181" width="53" height="80"/>
+    <SubTexture name="living522/dgkjhdfds" x="116" y="2" width="95" height="47"/>
+    <SubTexture name="living522/ejghdgdf" x="182" y="423" width="8" height="8"/>
+    <SubTexture name="living522/fdgfdfvgdfdg" x="300" y="2" width="65" height="75"/>
+    <SubTexture name="living522/fgcvfxzcvs" x="213" y="122" width="58" height="87"/>
+    <SubTexture name="living522/gddgfsfsggfs" x="328" y="332" width="32" height="79"/>
+    <SubTexture name="living522/gdfdgfsgreewf" x="2" y="431" width="29" height="66"/>
+    <SubTexture name="living522/gffdfdf" x="29" y="499" width="27" height="10"/>
+    <SubTexture name="living522/grdsgdfferfe1.png" x="53" y="328" width="27" height="10"/>
+    <SubTexture name="living522/heghdsfss" x="2" y="2" width="112" height="77" frameX="-6" frameY="-7" frameWidth="128" frameHeight="97"/>
+    <SubTexture name="living522/sdmgndgnfd001" x="73" y="119" width="40" height="44"/>
+    <SubTexture name="living522/sdmgndgnfd002" x="150" y="419" width="8" height="7"/>
+    <SubTexture name="living522/sdmgndgnfd003" x="494" y="82" width="16" height="15"/>
+    <SubTexture name="living522/sdmgndgnfd004" x="497" y="25" width="13" height="16"/>
+    <SubTexture name="living522/sdmgndgnfd006" x="431" y="58" width="61" height="60"/>
+    <SubTexture name="living522/sdmgndgnfd007" x="56" y="470" width="17" height="27"/>
+    <SubTexture name="living522/sdmgndgnfd008" x="235" y="394" width="14" height="10"/>
+    <SubTexture name="living522/sdmgndgnfd009" x="420" y="284" width="33" height="42"/>
+    <SubTexture name="living522/shtgjdshgds011" x="33" y="431" width="21" height="61"/>
+    <SubTexture name="living522/sthgjdshgds001" x="115" y="133" width="54" height="46"/>
+    <SubTexture name="living522/sthgjdshgds002" x="166" y="291" width="36" height="74"/>
+    <SubTexture name="living522/sthgjdshgds004" x="240" y="406" width="11" height="9"/>
+    <SubTexture name="living522/sthgjdshgds005" x="103" y="378" width="17" height="15"/>
+    <SubTexture name="living522/sthgjdshgds007" x="431" y="120" width="57" height="40"/>
+    <SubTexture name="living522/sthgjdshgds008" x="353" y="165" width="48" height="38"/>
+    <SubTexture name="living522/sthgjdshgds010" x="2" y="214" width="52" height="44"/>
+    <SubTexture name="living522/tshgjdshgds006" x="19" y="499" width="8" height="11"/>
+    <SubTexture name="living522/tshgjdshgds009" x="219" y="370" width="14" height="18" frameX="0" frameY="0" frameWidth="18" frameHeight="18"/>
+    <SubTexture name="living522/ugfbcfdfs" x="213" y="2" width="85" height="60"/>
+    <SubTexture name="living523/gffghdfgvb001" x="56" y="431" width="25" height="37"/>
+    <SubTexture name="living523/gffghdfgvb002" x="423" y="225" width="45" height="14"/>
+    <SubTexture name="living523/gffghdfgvb003" x="470" y="225" width="7" height="7"/>
+    <SubTexture name="living523/gffghdfgvb004" x="53" y="300" width="15" height="26"/>
+    <SubTexture name="living523/gffghdfgvb005" x="2" y="407" width="28" height="22"/>
+    <SubTexture name="living523/gffghdfgvb006" x="273" y="163" width="24" height="12"/>
+    <SubTexture name="living523/gffghdfgvb007" x="2" y="81" width="69" height="69"/>
+    <SubTexture name="living523/gffghdfgvb008" x="162" y="367" width="20" height="7"/>
+    <SubTexture name="living523/gffghdfgvb009" x="241" y="334" width="12" height="12"/>
+    <SubTexture name="living523/gffghdfgvb010" x="139" y="346" width="25" height="7"/>
+    <SubTexture name="living523/gffghdfgvb011" x="184" y="386" width="14" height="17"/>
+    <SubTexture name="living523/gffghdfgvb012" x="393" y="230" width="28" height="34"/>
+    <SubTexture name="living523/gffghdfgvb013" x="293" y="337" width="32" height="25"/>
+    <SubTexture name="living523/gffghdfgvb014" x="171" y="133" width="40" height="25"/>
+    <SubTexture name="living523/gffghdfgvb015" x="256" y="283" width="37" height="25"/>
+    <SubTexture name="living523/jkfsgsfdfd007" x="455" y="309" width="30" height="14"/>
+    <SubTexture name="living523/jkfsgsfdfd008" x="347" y="205" width="44" height="43"/>
+    <SubTexture name="living523/jkfsgsfdfd009" x="116" y="51" width="69" height="80"/>
+    <SubTexture name="living523/jkfsgsfdfd010" x="134" y="394" width="17" height="8"/>
+    <SubTexture name="living523/jkfsgsfdfd011" x="219" y="390" width="14" height="14"/>
+    <SubTexture name="living523/jkfsgsfdfd012" x="153" y="390" width="17" height="8"/>
+    <SubTexture name="living523/jkfsgsfdfd013" x="56" y="215" width="13" height="15"/>
+    <SubTexture name="living523/jkfsgsfdfd014" x="2" y="367" width="27" height="38"/>
+    <SubTexture name="living523/jksfgsfdfd001" x="254" y="372" width="30" height="33"/>
+    <SubTexture name="living523/jksfgsfdfd002" x="56" y="407" width="25" height="19"/>
+    <SubTexture name="living523/jksfgsfdfd003" x="2" y="340" width="23" height="25"/>
+    <SubTexture name="living523/jksfgsfdfd004" x="237" y="358" width="15" height="15"/>
+    <SubTexture name="living523/jksfgsfdfd005" x="403" y="165" width="18" height="32"/>
+    <SubTexture name="living523/jksfgsfdfd006" x="203" y="370" width="14" height="19"/>
+    <SubTexture name="living528/Graphic/shape 158" x="286" y="401" width="30" height="28"/>
+    <SubTexture name="living528/MovieClip/sprite 147" x="298" y="229" width="44" height="38"/>
+    <SubTexture name="living528/MovieClip/sprite 148" x="71" y="254" width="42" height="12"/>
+    <SubTexture name="living528/MovieClip/sprite 149" x="423" y="162" width="54" height="48"/>
+    <SubTexture name="living528/MovieClip/sprite 150" x="70" y="287" width="43" height="14"/>
+    <SubTexture name="living528/MovieClip/sprite 152" x="2" y="260" width="52" height="25"/>
+    <SubTexture name="living528/MovieClip/sprite 153" x="214" y="406" width="11" height="12"/>
+    <SubTexture name="living528/MovieClip/sprite 154" x="487" y="322" width="23" height="7"/>
+    <SubTexture name="living528/MovieClip/sprite 156" x="470" y="234" width="7" height="5"/>
+    <SubTexture name="living528/MovieClip/sprite 157" x="273" y="177" width="24" height="5"/>
+    <SubTexture name="living528/MovieClip/sprite 165" x="172" y="393" width="10" height="10"/>
+    <SubTexture name="living528/MovieClip/sprite 26" x="476" y="366" width="8" height="8"/>
+    <SubTexture name="living528/MovieClip/sprite 29" x="58" y="499" width="15" height="10"/>
+    <SubTexture name="living528/MovieClip/sprite 32" x="476" y="376" width="26" height="15"/>
+    <SubTexture name="living528/MovieClip/sprite 35" x="279" y="90" width="19" height="20"/>
+    <SubTexture name="living528/MovieClip/sprite 38" x="112" y="358" width="20" height="18"/>
+    <SubTexture name="living528/MovieClip/sprite 41" x="184" y="367" width="17" height="17"/>
+    <SubTexture name="living528/MovieClip/sprite 44" x="298" y="188" width="47" height="39"/>
+    <SubTexture name="living528/MovieClip/sprite 47" x="71" y="239" width="42" height="13"/>
+    <SubTexture name="living528/MovieClip/sprite 51" x="299" y="113" width="54" height="50"/>
+    <SubTexture name="living528/MovieClip/sprite 54" x="241" y="348" width="12" height="8"/>
+    <SubTexture name="living528/MovieClip/sprite 57" x="227" y="406" width="11" height="10"/>
+    <SubTexture name="living528/MovieClip/sprite 60" x="204" y="349" width="31" height="19"/>
+    <SubTexture name="living528/MovieClip/sprite 63" x="459" y="270" width="18" height="19"/>
+    <SubTexture name="living528/MovieClip/sprite 66" x="71" y="202" width="42" height="35"/>
+    <SubTexture name="living528/MovieClip/sprite 98" x="227" y="406" width="11" height="10"/>
+    <SubTexture name="living528/MovieClip/sprite dsscc" x="71" y="165" width="42" height="35"/>
+</TextureAtlas>

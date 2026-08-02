@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "runtimeSessionId": "R042",
+  "owner": "pet-farm",
+  "branch": "resource-port/P042-pet-farm",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependencies": [
+    {
+      "sessionId": "R029",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "0f633d66fc828c311dfd3e984a4d5a7e4c4232a5",
+      "evidencePath": "config/resource-port-evidence/R029.json",
+      "evidenceGitBlobSha1": "a746d0dff36d3e8ab3778178c26e174ad0d7401b",
+      "evidenceSha256": "2963538169d3e8a3711d1acab67cf71927fcf02be2420fec8cba3e858ac44efa",
+      "importerPath": "scripts/import-resource-port-r029.mjs",
+      "importerGitBlobSha1": "bee682855cf82522adc2ee86dbd7d0ad923b5bea",
+      "importerSha256": "9f57f3dd7081a859808fc110ab8c3623ee45cbb89b60bc6d5d9c9254e2bdaa26",
+      "shardPath": "config/resource-port-dispatch/shards/pet-farm-001.json",
+      "shardSha256": "94d4e19546f852e4a79897a09a9dfb20b225ef8ba279d6b1497430e01da9c69d",
+      "sourceFiles": 1700,
+      "sourceBytes": 29109140,
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "contextPins": [
+    {
+      "path": "public/game-ui/pets-bag/manifest.json",
+      "blob": "e71fcdbf92c787f34aedb06373ecf063c5aebb73",
+      "sha256": "cd5561c06722c0182a7a33f7c20fed21f3f4272afc897862551c342456023d8c"
+    },
+    {
+      "path": "scripts/import-gunny92-pets-bag-assets.mjs",
+      "blob": "1a8e8060f66e5bb92070a3ed9025cbe4c1ae2532",
+      "sha256": "91f2c09310d24330fb4ac6df7e21f8833c83d350adfb15518bf65af35b03cd0e"
+    },
+    {
+      "path": "scripts/source-pets-bag-release-audit.mjs",
+      "blob": "35c4f1ab460998b362b7e3c5c97666b17d189ea0",
+      "sha256": "b4d6678dd2ff86de3f7fc2e4e6cd83845a3b8a583fc1d28674384db51552a76c"
+    },
+    {
+      "path": "src/client/source-pets.ts",
+      "blob": "91b2e276b76c98c3b413a49ae56f6cf8f690a950",
+      "sha256": "818d78342be9c071a80eae58be83d7c58950fd4febca63d42de29fed233c90db"
+    },
+    {
+      "path": "src/client/source-pets.css",
+      "blob": "d220e1536c3d2c7945a2c60cf9d0780c19970dd0",
+      "sha256": "ae30a1e2dd307740da3349cfbe92b6728f176514193f1b06b4673863cdd3c2f7"
+    }
+  ],
+  "summary": {
+    "files": 1700,
+    "bytes": 29109140,
+    "uniqueBlobs": 1096,
+    "trackA": {
+      "exact": 1285,
+      "inferred": 0,
+      "unresolved": 415
+    },
+    "package": {
+      "exact": 1505,
+      "inferred": 0,
+      "unresolved": 195
+    },
+    "profiles": {
+      "swf-timeline": 12,
+      "raster": 1590,
+      "binary-unknown": 98
+    },
+    "correctedSourcePaths": 220,
+    "correctedUniqueObjects": 140,
+    "authoredArchive": {
+      "sourcePaths": 106,
+      "uniqueArchivePacks": 62,
+      "entries": 164,
+      "uncompressedBytes": 7283377,
+      "atlasPng": 62,
+      "atlasXml": 62,
+      "rigJson": 40,
+      "subtextures": 1522,
+      "armatures": 84,
+      "authoredAnimations": 124,
+      "authoredSlots": 991,
+      "authoredImagePathMismatches": 1
+    },
+    "sourceFilesProcessed": 1700,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "conversion": {
+    "exactBrowserNativeSourceObjects": 1505,
+    "correctedSourcePaths": 220,
+    "correctedUniqueObjects": 140,
+    "authoredArchivePacks": 62,
+    "authoredAtlasFrames": 1522,
+    "authoredRigAnimations": 124,
+    "authoredAtlasImagePathMismatches": 1,
+    "unresolvedSourceObjects": 195,
+    "unresolvedSwfLike": 40,
+    "p042SwfBehaviorPorts": 0
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P042.mjs",
+    "dependencyGate": "pass-exact-R029-evidence-importer-and-shard",
+    "r029ImporterCheck": "pass: 1700 files / 29109140 bytes / 415 Track A unresolved",
+    "zipValidation": "pass-central-and-local-records-deflate-size-crc-path-signature-and-authored-JSON-XML",
+    "mediaValidation": "pass-220-byte-identical-safe-PNG-path-corrections-140-unique",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "claims": {
+    "staticIconsClaimAnimation": false,
+    "inventedGeometryAnimationLabelsOrBehavior": false,
+    "p042SwfBehaviorClaimedPorted": false,
+    "clientBusinessAuthority": false,
+    "swfRuntimeAllowed": false,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "immutablePackageCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "immutableMergeCommit": null
+  },
+  "generatedAt": "2026-08-02T00:00:00Z",
+  "githubActions": false
+}

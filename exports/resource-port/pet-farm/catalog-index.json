@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "trackAClassification",
+    "packageClassification",
+    "inspectionProfile",
+    "detectedFormat",
+    "declaredFormat",
+    "contentType",
+    "width",
+    "height",
+    "family",
+    "consumerRole",
+    "packageOutput"
+  ],
+  "shards": [
+    {
+      "path": "exports/resource-port/pet-farm/catalog/r029.json",
+      "bytes": 654843,
+      "sha256": "820acc13e00f28eb197bcc7c400e79018098131f723222888c953d88fbdf5148",
+      "contentType": "application/json"
+    }
+  ],
+  "summary": {
+    "files": 1700,
+    "bytes": 29109140,
+    "uniqueBlobs": 1096,
+    "trackA": {
+      "exact": 1285,
+      "inferred": 0,
+      "unresolved": 415
+    },
+    "package": {
+      "exact": 1505,
+      "inferred": 0,
+      "unresolved": 195
+    },
+    "profiles": {
+      "swf-timeline": 12,
+      "raster": 1590,
+      "binary-unknown": 98
+    }
+  }
+}
