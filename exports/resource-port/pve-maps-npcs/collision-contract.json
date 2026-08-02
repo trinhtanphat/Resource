@@ -1,0 +1,1765 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "mappings": [
+    {
+      "mapId": "1001",
+      "authoredFore": "Server/fight/map/1001/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1001/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1002",
+      "authoredFore": "Server/fight/map/1002/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1002/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1003",
+      "authoredFore": "Server/fight/map/1003/fore.map",
+      "authoredDead": "Server/fight/map/1003/dead.map",
+      "visualFore": "image/map/1003/fore.png",
+      "visualDead": "image/map/1003/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1004",
+      "authoredFore": "Server/fight/map/1004/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1004/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1005",
+      "authoredFore": "Server/fight/map/1005/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1005/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1006",
+      "authoredFore": "Server/fight/map/1006/fore.map",
+      "authoredDead": "Server/fight/map/1006/dead.map",
+      "visualFore": "image/map/1006/fore.png",
+      "visualDead": "image/map/1006/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1007",
+      "authoredFore": "Server/fight/map/1007/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1007/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1008",
+      "authoredFore": "Server/fight/map/1008/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1008/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1009",
+      "authoredFore": "Server/fight/map/1009/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1009/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1010",
+      "authoredFore": "Server/fight/map/1010/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1010/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1011",
+      "authoredFore": "Server/fight/map/1011/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1011/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1012",
+      "authoredFore": "Server/fight/map/1012/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1012/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "31",
+      "authoredFore": "Server/fight/map/31/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/31/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "401",
+      "authoredFore": "Server/fight/map/401/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/401/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1013",
+      "authoredFore": "Server/fight/map/1013/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1013/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1014",
+      "authoredFore": "Server/fight/map/1014/fore.map",
+      "authoredDead": "Server/fight/map/1014/dead.map",
+      "visualFore": "image/map/1014/fore.png",
+      "visualDead": "image/map/1014/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1015",
+      "authoredFore": "Server/fight/map/1015/fore.map",
+      "authoredDead": "Server/fight/map/1015/dead.map",
+      "visualFore": "image/map/1015/fore.png",
+      "visualDead": "image/map/1015/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1016",
+      "authoredFore": "Server/fight/map/1016/fore.map",
+      "authoredDead": "Server/fight/map/1016/dead.map",
+      "visualFore": "image/map/1016/fore.png",
+      "visualDead": "image/map/1016/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1017",
+      "authoredFore": "Server/fight/map/1017/fore.map",
+      "authoredDead": "Server/fight/map/1017/dead.map",
+      "visualFore": "image/map/1017/fore.png",
+      "visualDead": "image/map/1017/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1018",
+      "authoredFore": "Server/fight/map/1018/fore.map",
+      "authoredDead": "Server/fight/map/1018/dead.map",
+      "visualFore": "image/map/1018/fore.png",
+      "visualDead": "image/map/1018/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1019",
+      "authoredFore": "Server/fight/map/1019/fore.map",
+      "authoredDead": "Server/fight/map/1019/dead.map",
+      "visualFore": "image/map/1019/fore.png",
+      "visualDead": "image/map/1019/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1020",
+      "authoredFore": "Server/fight/map/1020/fore.map",
+      "authoredDead": "Server/fight/map/1020/dead.map",
+      "visualFore": "image/map/1020/fore.png",
+      "visualDead": "image/map/1020/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1021",
+      "authoredFore": "Server/fight/map/1021/fore.map",
+      "authoredDead": "Server/fight/map/1021/dead.map",
+      "visualFore": "image/map/1021/fore.png",
+      "visualDead": "image/map/1021/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1022",
+      "authoredFore": "Server/fight/map/1022/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1022/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1023",
+      "authoredFore": "Server/fight/map/1023/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1023/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1025",
+      "authoredFore": "Server/fight/map/1025/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1025/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1026",
+      "authoredFore": "Server/fight/map/1026/fore.map",
+      "authoredDead": "Server/fight/map/1026/dead.map",
+      "visualFore": "image/map/1026/fore.png",
+      "visualDead": "image/map/1026/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1027",
+      "authoredFore": "Server/fight/map/1027/fore.map",
+      "authoredDead": "Server/fight/map/1027/dead.map",
+      "visualFore": "image/map/1027/fore.png",
+      "visualDead": "image/map/1027/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1028",
+      "authoredFore": "Server/fight/map/1028/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1028/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1029",
+      "authoredFore": "Server/fight/map/1029/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1029/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1030",
+      "authoredFore": "Server/fight/map/1030/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1030/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1031",
+      "authoredFore": "Server/fight/map/1031/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1031/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1032",
+      "authoredFore": "Server/fight/map/1032/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1032/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1033",
+      "authoredFore": "Server/fight/map/1033/fore.map",
+      "authoredDead": "Server/fight/map/1033/dead.map",
+      "visualFore": "image/map/1033/fore.png",
+      "visualDead": "image/map/1033/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1034",
+      "authoredFore": "Server/fight/map/1034/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1034/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1035",
+      "authoredFore": "Server/fight/map/1035/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1035/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1036",
+      "authoredFore": "Server/fight/map/1036/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1036/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1037",
+      "authoredFore": "Server/fight/map/1037/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1037/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1038",
+      "authoredFore": "Server/fight/map/1038/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1038/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1039",
+      "authoredFore": "Server/fight/map/1039/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1039/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1040",
+      "authoredFore": "Server/fight/map/1040/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1040/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1041",
+      "authoredFore": "Server/fight/map/1041/fore.map",
+      "authoredDead": "Server/fight/map/1041/dead.map",
+      "visualFore": "image/map/1041/fore.png",
+      "visualDead": "image/map/1041/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1042",
+      "authoredFore": "Server/fight/map/1042/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1042/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1043",
+      "authoredFore": "Server/fight/map/1043/fore.map",
+      "authoredDead": "Server/fight/map/1043/dead.map",
+      "visualFore": "image/map/1043/fore.png",
+      "visualDead": "image/map/1043/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1044",
+      "authoredFore": "Server/fight/map/1044/fore.map",
+      "authoredDead": "Server/fight/map/1044/dead.map",
+      "visualFore": "image/map/1044/fore.png",
+      "visualDead": "image/map/1044/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1045",
+      "authoredFore": "Server/fight/map/1045/fore.map",
+      "authoredDead": "Server/fight/map/1045/dead.map",
+      "visualFore": "image/map/1045/fore.png",
+      "visualDead": "image/map/1045/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1046",
+      "authoredFore": "Server/fight/map/1046/fore.map",
+      "authoredDead": "Server/fight/map/1046/dead.map",
+      "visualFore": "image/map/1046/fore.png",
+      "visualDead": "image/map/1046/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1047",
+      "authoredFore": "Server/fight/map/1047/fore.map",
+      "authoredDead": "Server/fight/map/1047/dead.map",
+      "visualFore": "image/map/1047/fore.png",
+      "visualDead": "image/map/1047/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1048",
+      "authoredFore": "Server/fight/map/1048/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1048/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1049",
+      "authoredFore": "Server/fight/map/1049/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1049/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1050",
+      "authoredFore": "Server/fight/map/1050/fore.map",
+      "authoredDead": "Server/fight/map/1050/dead.map",
+      "visualFore": "image/map/1050/fore.png",
+      "visualDead": "image/map/1050/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1051",
+      "authoredFore": "Server/fight/map/1051/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1051/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1053",
+      "authoredFore": "Server/fight/map/1053/fore.map",
+      "authoredDead": "Server/fight/map/1053/dead.map",
+      "visualFore": "image/map/1053/fore.png",
+      "visualDead": "image/map/1053/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1055",
+      "authoredFore": "Server/fight/map/1055/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1055/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1056",
+      "authoredFore": "Server/fight/map/1056/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1056/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1057",
+      "authoredFore": "Server/fight/map/1057/fore.map",
+      "authoredDead": "Server/fight/map/1057/dead.map",
+      "visualFore": "image/map/1057/fore.png",
+      "visualDead": "image/map/1057/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1058",
+      "authoredFore": "Server/fight/map/1058/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1058/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1059",
+      "authoredFore": "Server/fight/map/1059/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1059/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1060",
+      "authoredFore": "Server/fight/map/1060/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1060/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1061",
+      "authoredFore": "Server/fight/map/1061/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1061/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1062",
+      "authoredFore": "Server/fight/map/1062/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1062/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1063",
+      "authoredFore": "Server/fight/map/1063/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1063/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1064",
+      "authoredFore": "Server/fight/map/1064/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1064/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1065",
+      "authoredFore": "Server/fight/map/1065/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1065/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1066",
+      "authoredFore": "Server/fight/map/1066/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1066/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1067",
+      "authoredFore": "Server/fight/map/1067/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1067/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1068",
+      "authoredFore": "Server/fight/map/1068/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1068/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1069",
+      "authoredFore": "Server/fight/map/1069/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1069/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1070",
+      "authoredFore": "Server/fight/map/1070/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1070/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1071",
+      "authoredFore": "Server/fight/map/1071/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1071/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1077",
+      "authoredFore": "Server/fight/map/1077/fore.map",
+      "authoredDead": "Server/fight/map/1077/dead.map",
+      "visualFore": "image/map/1077/fore.png",
+      "visualDead": "image/map/1077/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1078",
+      "authoredFore": "Server/fight/map/1078/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1078/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1079",
+      "authoredFore": "Server/fight/map/1079/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1079/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1080",
+      "authoredFore": "Server/fight/map/1080/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1080/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1081",
+      "authoredFore": "Server/fight/map/1081/fore.map",
+      "authoredDead": "Server/fight/map/1081/dead.map",
+      "visualFore": "image/map/1081/fore.png",
+      "visualDead": "image/map/1081/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1115",
+      "authoredFore": "Server/fight/map/1115/fore.map",
+      "authoredDead": "Server/fight/map/1115/dead.map",
+      "visualFore": "image/map/1115/fore.png",
+      "visualDead": "image/map/1115/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1116",
+      "authoredFore": "Server/fight/map/1116/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1116/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1117",
+      "authoredFore": "Server/fight/map/1117/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1117/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1119",
+      "authoredFore": "Server/fight/map/1119/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1119/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1127",
+      "authoredFore": "Server/fight/map/1127/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1127/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1128",
+      "authoredFore": "Server/fight/map/1128/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1128/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1145",
+      "authoredFore": "Server/fight/map/1145/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1145/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1146",
+      "authoredFore": "Server/fight/map/1146/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1146/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1147",
+      "authoredFore": "Server/fight/map/1147/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1147/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1148",
+      "authoredFore": "Server/fight/map/1148/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1148/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1149",
+      "authoredFore": "Server/fight/map/1149/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1149/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1150",
+      "authoredFore": "Server/fight/map/1150/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1150/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1155",
+      "authoredFore": "Server/fight/map/1155/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1155/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1156",
+      "authoredFore": "Server/fight/map/1156/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1156/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1157",
+      "authoredFore": "Server/fight/map/1157/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1157/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1158",
+      "authoredFore": "Server/fight/map/1158/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1158/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1159",
+      "authoredFore": "Server/fight/map/1159/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1159/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1160",
+      "authoredFore": "Server/fight/map/1160/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1160/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1169",
+      "authoredFore": "Server/fight/map/1169/fore.map",
+      "authoredDead": "Server/fight/map/1169/dead.map",
+      "visualFore": "image/map/1169/fore.png",
+      "visualDead": "image/map/1169/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1170",
+      "authoredFore": "Server/fight/map/1170/fore.map",
+      "authoredDead": "Server/fight/map/1170/dead.map",
+      "visualFore": "image/map/1170/fore.png",
+      "visualDead": "image/map/1170/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1171",
+      "authoredFore": "Server/fight/map/1171/fore.map",
+      "authoredDead": "Server/fight/map/1171/dead.map",
+      "visualFore": "image/map/1171/fore.png",
+      "visualDead": "image/map/1171/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1172",
+      "authoredFore": "Server/fight/map/1172/fore.map",
+      "authoredDead": "Server/fight/map/1172/dead.map",
+      "visualFore": "image/map/1172/fore.png",
+      "visualDead": "image/map/1172/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1173",
+      "authoredFore": "Server/fight/map/1173/fore.map",
+      "authoredDead": "Server/fight/map/1173/dead.map",
+      "visualFore": "image/map/1173/fore.png",
+      "visualDead": "image/map/1173/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1174",
+      "authoredFore": "Server/fight/map/1174/fore.map",
+      "authoredDead": "Server/fight/map/1174/dead.map",
+      "visualFore": "image/map/1174/fore.png",
+      "visualDead": "image/map/1174/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1175",
+      "authoredFore": "Server/fight/map/1175/fore.map",
+      "authoredDead": "Server/fight/map/1175/dead.map",
+      "visualFore": "image/map/1175/fore.png",
+      "visualDead": "image/map/1175/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1176",
+      "authoredFore": "Server/fight/map/1176/fore.map",
+      "authoredDead": "Server/fight/map/1176/dead.map",
+      "visualFore": "image/map/1176/fore.png",
+      "visualDead": "image/map/1176/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1177",
+      "authoredFore": "Server/fight/map/1177/fore.map",
+      "authoredDead": "Server/fight/map/1177/dead.map",
+      "visualFore": "image/map/1177/fore.png",
+      "visualDead": "image/map/1177/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1178",
+      "authoredFore": "Server/fight/map/1178/fore.map",
+      "authoredDead": "Server/fight/map/1178/dead.map",
+      "visualFore": "image/map/1178/fore.png",
+      "visualDead": "image/map/1178/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1179",
+      "authoredFore": "Server/fight/map/1179/fore.map",
+      "authoredDead": "Server/fight/map/1179/dead.map",
+      "visualFore": "image/map/1179/fore.png",
+      "visualDead": "image/map/1179/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1180",
+      "authoredFore": "Server/fight/map/1180/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1180/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1182",
+      "authoredFore": "Server/fight/map/1182/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1182/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1183",
+      "authoredFore": "Server/fight/map/1183/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1183/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1187",
+      "authoredFore": "Server/fight/map/1187/fore.map",
+      "authoredDead": "Server/fight/map/1187/dead.map",
+      "visualFore": "image/map/1187/fore.png",
+      "visualDead": "image/map/1187/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1188",
+      "authoredFore": "Server/fight/map/1188/fore.map",
+      "authoredDead": "Server/fight/map/1188/dead.map",
+      "visualFore": "image/map/1188/fore.png",
+      "visualDead": "image/map/1188/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1190",
+      "authoredFore": "Server/fight/map/1190/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1190/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1191",
+      "authoredFore": "Server/fight/map/1191/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1191/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1192",
+      "authoredFore": "Server/fight/map/1192/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1192/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1193",
+      "authoredFore": "Server/fight/map/1193/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1193/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1194",
+      "authoredFore": "Server/fight/map/1194/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1194/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1195",
+      "authoredFore": "Server/fight/map/1195/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1195/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1196",
+      "authoredFore": "Server/fight/map/1196/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1196/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1197",
+      "authoredFore": "Server/fight/map/1197/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1197/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1198",
+      "authoredFore": "Server/fight/map/1198/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1198/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1200",
+      "authoredFore": "Server/fight/map/1200/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1200/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1201",
+      "authoredFore": "Server/fight/map/1201/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1201/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1202",
+      "authoredFore": "Server/fight/map/1202/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1202/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1203",
+      "authoredFore": "Server/fight/map/1203/fore.map",
+      "authoredDead": "Server/fight/map/1203/dead.map",
+      "visualFore": "image/map/1203/fore.png",
+      "visualDead": "image/map/1203/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1204",
+      "authoredFore": "Server/fight/map/1204/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1204/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1205",
+      "authoredFore": "Server/fight/map/1205/fore.map",
+      "authoredDead": "Server/fight/map/1205/dead.map",
+      "visualFore": "image/map/1205/fore.png",
+      "visualDead": "image/map/1205/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1211",
+      "authoredFore": "Server/fight/map/1211/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1211/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1212",
+      "authoredFore": "Server/fight/map/1212/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1212/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1213",
+      "authoredFore": "Server/fight/map/1213/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1213/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1218",
+      "authoredFore": "Server/fight/map/1218/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1218/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1219",
+      "authoredFore": "Server/fight/map/1219/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1219/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1220",
+      "authoredFore": "Server/fight/map/1220/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1220/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1221",
+      "authoredFore": "Server/fight/map/1221/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1221/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1242",
+      "authoredFore": "Server/fight/map/1242/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1242/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1247",
+      "authoredFore": "Server/fight/map/1247/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1247/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1251",
+      "authoredFore": "Server/fight/map/1251/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1251/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1252",
+      "authoredFore": "Server/fight/map/1252/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1252/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1253",
+      "authoredFore": "Server/fight/map/1253/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1253/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1266",
+      "authoredFore": "Server/fight/map/1266/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1266/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1267",
+      "authoredFore": "Server/fight/map/1267/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1267/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1268",
+      "authoredFore": "Server/fight/map/1268/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1268/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1290",
+      "authoredFore": "Server/fight/map/1290/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1290/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1302",
+      "authoredFore": "Server/fight/map/1302/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1302/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1305",
+      "authoredFore": "Server/fight/map/1305/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1305/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1306",
+      "authoredFore": "Server/fight/map/1306/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1306/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1307",
+      "authoredFore": "Server/fight/map/1307/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1307/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1308",
+      "authoredFore": "Server/fight/map/1308/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1308/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1312",
+      "authoredFore": "Server/fight/map/1312/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1312/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1328",
+      "authoredFore": "Server/fight/map/1328/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1328/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1342",
+      "authoredFore": "Server/fight/map/1342/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1342/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1343",
+      "authoredFore": "Server/fight/map/1343/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1343/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1344",
+      "authoredFore": "Server/fight/map/1344/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1344/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1346",
+      "authoredFore": "Server/fight/map/1346/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1346/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1400",
+      "authoredFore": "Server/fight/map/1400/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1400/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1401",
+      "authoredFore": "Server/fight/map/1401/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1401/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1402",
+      "authoredFore": "Server/fight/map/1402/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1402/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1429",
+      "authoredFore": "Server/fight/map/1429/fore.map",
+      "authoredDead": "Server/fight/map/1429/dead.map",
+      "visualFore": "image/map/1429/fore.png",
+      "visualDead": "image/map/1429/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1455",
+      "authoredFore": "Server/fight/map/1455/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1455/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1456",
+      "authoredFore": "Server/fight/map/1456/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1456/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1457",
+      "authoredFore": "Server/fight/map/1457/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1457/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1458",
+      "authoredFore": "Server/fight/map/1458/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1458/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1463",
+      "authoredFore": "Server/fight/map/1463/fore.map",
+      "authoredDead": "Server/fight/map/1463/dead.map",
+      "visualFore": "image/map/1463/fore.png",
+      "visualDead": "image/map/1463/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1466",
+      "authoredFore": "Server/fight/map/1466/fore.map",
+      "authoredDead": "Server/fight/map/1466/dead.map",
+      "visualFore": "image/map/1466/fore.png",
+      "visualDead": "image/map/1466/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1467",
+      "authoredFore": "Server/fight/map/1467/fore.map",
+      "authoredDead": "Server/fight/map/1467/dead.map",
+      "visualFore": "image/map/1467/fore.png",
+      "visualDead": "image/map/1467/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1474",
+      "authoredFore": "Server/fight/map/1474/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1474/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1475",
+      "authoredFore": "Server/fight/map/1475/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1475/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1476",
+      "authoredFore": "Server/fight/map/1476/fore.map",
+      "authoredDead": "Server/fight/map/1476/dead.map",
+      "visualFore": "image/map/1476/fore.png",
+      "visualDead": "image/map/1476/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1477",
+      "authoredFore": "Server/fight/map/1477/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1477/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1478",
+      "authoredFore": "Server/fight/map/1478/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1478/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1479",
+      "authoredFore": "Server/fight/map/1479/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1479/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1480",
+      "authoredFore": "Server/fight/map/1480/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1480/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1481",
+      "authoredFore": "Server/fight/map/1481/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1481/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1482",
+      "authoredFore": "Server/fight/map/1482/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1482/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1486",
+      "authoredFore": "Server/fight/map/1486/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1486/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1487",
+      "authoredFore": "Server/fight/map/1487/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1487/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1488",
+      "authoredFore": "Server/fight/map/1488/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1488/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1490",
+      "authoredFore": "Server/fight/map/1490/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1490/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1491",
+      "authoredFore": "Server/fight/map/1491/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1491/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1493",
+      "authoredFore": "Server/fight/map/1493/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1493/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1497",
+      "authoredFore": "Server/fight/map/1497/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1497/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1505",
+      "authoredFore": "Server/fight/map/1505/fore.map",
+      "authoredDead": "Server/fight/map/1505/dead.map",
+      "visualFore": "image/map/1505/fore.png",
+      "visualDead": "image/map/1505/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1638",
+      "authoredFore": "Server/fight/map/1638/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1638/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1702",
+      "authoredFore": "Server/fight/map/1702/fore.map",
+      "authoredDead": "Server/fight/map/1702/dead.map",
+      "visualFore": "image/map/1702/fore.png",
+      "visualDead": "image/map/1702/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1703",
+      "authoredFore": "Server/fight/map/1703/fore.map",
+      "authoredDead": "Server/fight/map/1703/dead.map",
+      "visualFore": "image/map/1703/fore.png",
+      "visualDead": "image/map/1703/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1704",
+      "authoredFore": "Server/fight/map/1704/fore.map",
+      "authoredDead": "Server/fight/map/1704/dead.map",
+      "visualFore": "image/map/1704/fore.png",
+      "visualDead": "image/map/1704/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1705",
+      "authoredFore": "Server/fight/map/1705/fore.map",
+      "authoredDead": "Server/fight/map/1705/dead.map",
+      "visualFore": "image/map/1705/fore.png",
+      "visualDead": "image/map/1705/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1706",
+      "authoredFore": "Server/fight/map/1706/fore.map",
+      "authoredDead": "Server/fight/map/1706/dead.map",
+      "visualFore": "image/map/1706/fore.png",
+      "visualDead": "image/map/1706/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1708",
+      "authoredFore": "Server/fight/map/1708/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1708/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1709",
+      "authoredFore": "Server/fight/map/1709/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1709/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "1999",
+      "authoredFore": "Server/fight/map/1999/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/1999/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "2001",
+      "authoredFore": "Server/fight/map/2001/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/2001/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "10777",
+      "authoredFore": "Server/fight/map/10777/fore.map",
+      "authoredDead": "Server/fight/map/10777/dead.map",
+      "visualFore": "image/map/10777/fore.png",
+      "visualDead": "image/map/10777/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "13000",
+      "authoredFore": "Server/fight/map/13000/fore.map",
+      "authoredDead": "Server/fight/map/13000/dead.map",
+      "visualFore": "image/map/13000/fore.png",
+      "visualDead": "image/map/13000/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "14002",
+      "authoredFore": "Server/fight/map/14002/fore.map",
+      "authoredDead": "Server/fight/map/14002/dead.map",
+      "visualFore": "image/map/14002/fore.png",
+      "visualDead": "image/map/14002/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "14003",
+      "authoredFore": "Server/fight/map/14003/fore.map",
+      "authoredDead": "Server/fight/map/14003/dead.map",
+      "visualFore": "image/map/14003/fore.png",
+      "visualDead": "image/map/14003/dead.png",
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    },
+    {
+      "mapId": "70025",
+      "authoredFore": "Server/fight/map/70025/fore.map",
+      "authoredDead": null,
+      "visualFore": "image/map/70025/fore.png",
+      "visualDead": null,
+      "collisionAuthority": "Gunny server-authored bitmap terrain",
+      "resourcePackageOwnsCollisionBits": false
+    }
+  ],
+  "summary": {
+    "maps": 194,
+    "authoredForeSources": 194,
+    "authoredDeadSources": 55,
+    "exactResourceVisualPaths": 249,
+    "collisionBitsPublishedByP040": 0
+  },
+  "authorityBoundary": {
+    "visualPathsAreCollisionAuthority": false,
+    "collisionBitsRemainGunnyServerOwned": true,
+    "inferCollisionFromRasterPixels": false,
+    "inferSpawnFromArt": false
+  }
+}

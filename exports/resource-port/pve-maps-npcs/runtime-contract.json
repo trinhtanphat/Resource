@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "packageOnly": true,
+  "mapPresentation": {
+    "exactConsumerMappedPaths": 282,
+    "exactConsumerMappedMapIds": 197,
+    "uncoupledCatalogMapIds": 585,
+    "backgroundForegroundParallax": "only exact consumer-referenced paths; no inferred parallax factors",
+    "authoredCoordinates": "unresolved-not-present-in-r027-source-families",
+    "authoredSpawns": "unresolved-not-present-in-r027-source-families"
+  },
+  "collision": {
+    "exactVisualToAuthoredSourceMappings": 194,
+    "authority": "Gunny server runtime",
+    "packagePublishesCollisionBits": false
+  },
+  "npcPresentation": {
+    "schemaVersion": 1,
+    "packageSessionId": "P040",
+    "sourceAssignment": {
+      "assignedR027Files": 0,
+      "permittedFamily": "R027-assigned NPC presentation files only",
+      "observedR027NpcFiles": 0
+    },
+    "currentGunnyContext": {
+      "catalogNpcRows": 658,
+      "referencedSpriteModels": 194,
+      "representativeStaticSprites": 207,
+      "npcIdsCoveredByRepresentativeSprites": 651,
+      "spritesWithoutUsableRepresentativeFrame": [
+        "1001"
+      ],
+      "fullAnimationTimelinesPackagedByP040": 0,
+      "staticRepresentativeIsFullAnimation": false
+    },
+    "classification": "unresolved",
+    "blocker": "R027 contains only image/map and image/tilemap; no NPC presentation file is assigned to P040",
+    "crossOwnerAssetsUsed": false,
+    "runtimeIntegration": false
+  },
+  "tilemap": {
+    "exactStructuralOutput": "tilemap/map-1.json",
+    "cellSemanticsAuthoritative": false
+  },
+  "delivery": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false,
+    "immutableFallbackRequired": true
+  },
+  "prohibited": {
+    "swfRuntime": true,
+    "representativeFrameAsAnimation": true,
+    "inferredCollisionOrSpawn": true,
+    "crossOwnerNpcAssets": true,
+    "clientGameplayAuthority": true
+  }
+}
