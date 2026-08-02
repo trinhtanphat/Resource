@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ddtank-r2-deployer",
+  "main": "src/r2-deployer-worker.mjs",
+  "compatibility_date": "2026-08-02",
+  "r2_buckets": [
+    {
+      "binding": "RESOURCE_BUCKET",
+      "bucket_name": "ddtank-resource"
+    }
+  ],
+  "vars": {
+    "R2_MANIFEST_PREFIX": "_deployment/manifests"
+  }
+}

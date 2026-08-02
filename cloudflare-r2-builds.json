@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "repository": "trinhtanphat/Resource",
+  "worker": "ddtank-r2-deployer",
+  "productionBranch": "main",
+  "previewBuilds": false,
+  "rootDirectory": "/",
+  "buildCommand": "npm install --ignore-scripts --no-audit --no-fund",
+  "deployCommand": "npm run cloudflare:deploy:r2",
+  "watchPaths": {
+    "include": [
+      "image/**",
+      "flash/**",
+      "partical/**",
+      "sound/**",
+      "video/**",
+      "weekly/**",
+      "xml/**",
+      "scripts/r2-ci-deploy.mjs",
+      "scripts/validate-r2-config.mjs",
+      "src/r2-deployer-worker.mjs",
+      "r2-deployment.json",
+      "wrangler.r2-deployer.jsonc",
+      "package.json"
+    ]
+  },
+  "environmentVariables": {
+    "R2_PROFILE": "images",
+    "R2_UPLOAD_CONCURRENCY": "48",
+    "R2_HASH_CONCURRENCY": "8",
+    "R2_CHECKPOINT_EVERY_FILES": "5000",
+    "R2_VERIFY_SAMPLE_SIZE": "256"
+  },
+  "secretVariables": [
+    "R2_ACCESS_KEY_ID",
+    "R2_SECRET_ACCESS_KEY"
+  ],
+  "notes": [
+    "This file is the canonical dashboard matrix; Cloudflare does not import it automatically.",
+    "Create or connect the Worker named ddtank-r2-deployer to this repository.",
+    "Keep preview builds disabled so non-main branches cannot publish production objects.",
+    "Set R2_PUBLIC_BASE_URL only after a custom domain or temporary r2.dev URL is enabled."
+  ]
+}
