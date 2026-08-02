@@ -10,6 +10,7 @@
       "roots": [
         "image"
       ],
+      "runtimeSources": [],
       "probeContentTypePrefix": "image/"
     },
     "full-resource": {
@@ -21,11 +22,83 @@
         "sound",
         "video",
         "weekly",
-        "xml"
+        "xml",
+        "screens",
+        "pets",
+        "effects",
+        "public"
+      ],
+      "runtimeSources": [
+        "resource-web-assets",
+        "gunny-audio-browser",
+        "gunny-bulk-browser"
       ],
       "probeContentTypePrefix": ""
     }
   },
+  "runtimeSources": [
+    {
+      "name": "resource-web-assets",
+      "repository": "trinhtanphat/Resource",
+      "ref": "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+      "mappings": [
+        {
+          "group": "screens",
+          "sourcePath": "screens",
+          "destinationPath": "screens"
+        },
+        {
+          "group": "pets",
+          "sourcePath": "pets",
+          "destinationPath": "pets"
+        },
+        {
+          "group": "effects",
+          "sourcePath": "effects",
+          "destinationPath": "effects"
+        }
+      ]
+    },
+    {
+      "name": "gunny-audio-browser",
+      "repository": "trinhtanphat/Gunny",
+      "ref": "669ddf6b462f79d16afbb020f6a5a3285685c987",
+      "mappings": [
+        {
+          "group": "audio",
+          "sourcePath": "public/game-ui/audio",
+          "destinationPath": "public/game-ui/audio"
+        }
+      ]
+    },
+    {
+      "name": "gunny-bulk-browser",
+      "repository": "trinhtanphat/Gunny",
+      "ref": "f2e1ff59b22f50935d3f70c0f42b608a8239432b",
+      "mappings": [
+        {
+          "group": "npc",
+          "sourcePath": "public/game-ui/npc",
+          "destinationPath": "public/game-ui/npc"
+        },
+        {
+          "group": "items",
+          "sourcePath": "public/game-ui/items",
+          "destinationPath": "public/game-ui/items"
+        },
+        {
+          "group": "weapons",
+          "sourcePath": "public/game-ui/weapons",
+          "destinationPath": "public/game-ui/weapons"
+        },
+        {
+          "group": "avatar",
+          "sourcePath": "public/game-ui/avatar",
+          "destinationPath": "public/game-ui/avatar"
+        }
+      ]
+    }
+  ],
   "ci": {
     "worker": "ddtank-r2-deployer",
     "productionBranch": "main",
