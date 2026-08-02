@@ -116,6 +116,14 @@ for (const topLevel of managedTopLevels) {
 }
 await fs.rm(checkoutRoot, { recursive: true, force: true });
 await fs.mkdir(checkoutRoot, { recursive: true });
+await fs.writeFile(markerPath, `${JSON.stringify({
+  schemaVersion: 1,
+  profile: profileName,
+  state: "materializing",
+  materializedAt: new Date().toISOString(),
+  managedTopLevels,
+  sources: []
+}, null, 2)}\n`, "utf8");
 
 const reportSources = [];
 try {
@@ -168,6 +176,12 @@ try {
       mappings
     });
   }
+} catch (error) {
+  for (const topLevel of managedTopLevels) {
+    await fs.rm(insideRepository(topLevel, "managed runtime destination"), { recursive: true, force: true });
+  }
+  await fs.rm(markerPath, { force: true });
+  throw error;
 } finally {
   await fs.rm(checkoutRoot, { recursive: true, force: true });
 }
