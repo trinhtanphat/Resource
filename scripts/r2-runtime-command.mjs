@@ -49,7 +49,9 @@ async function cleanupMaterializedPaths() {
 
 try {
   await runNode("scripts/materialize-r2-runtime-exports.mjs");
+  if (command === "deploy") await runNode("scripts/r2-prune-unmanaged.mjs", ["self-test"]);
   await runNode("scripts/r2-ci-deploy.mjs", [command]);
+  if (command === "deploy") await runNode("scripts/r2-prune-unmanaged.mjs", ["prune"]);
 } finally {
   await cleanupMaterializedPaths();
 }
