@@ -66,8 +66,8 @@ const expectedRuntimeSources = [
 ];
 
 expect(config.schemaVersion, 2, "schemaVersion");
-expect(config.accountName, "trinhtanphat3333", "accountName");
-expect(config.accountId, "291f5d12e63427644f59ac4a1d8f9664", "accountId");
+expect(config.accountName, "trinhtanphat0000", "accountName");
+expect(config.accountId, "7bf34a0373ce49a1d7d7928029d62340", "accountId");
 expect(config.bucket, "ddtank-resource", "bucket");
 expect(config.defaultProfile, "full-resource", "defaultProfile");
 expect(config.publicBaseUrl, null, "publicBaseUrl");
