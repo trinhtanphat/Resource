@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "importer": "JPEXS FFDec DefineSound export plus pinned FFmpeg conversion",
+  "records": [
+    {
+      "sourcePath": "sound/sound201.swf",
+      "sourceBlobSha1": "48bef49629c08f99a8433ee81890c41514f3d01e",
+      "sourceSha256": "862d7b18d820cbe46ce1351504b0dbddfa2624cf9fe5185e514ab1b2ba27f3c6",
+      "sourceBytes": 17767,
+      "eventName": "201",
+      "sourceSymbol": "Sound201",
+      "metadata": {
+        "characterId": 1,
+        "symbol": "Sound201",
+        "soundFormat": 1,
+        "sampleRate": 5512,
+        "sampleSize": 16,
+        "channels": 1,
+        "sampleCount": 32935
+      },
+      "ffdecIntermediate": {
+        "format": "flv",
+        "bytes": 20633,
+        "sha256": "74f79cc1eabc3d71253d1f8c3343df6db02a53e1e0f6d9e8676d02b52b9b2fee"
+      },
+      "browserAudio": {
+        "path": "exports/resource-port/audio-localization/audio/e059ebca4cb94444cd8de0574863ec29f390eb76105a7aa0d112b0d417d3573b.ogg",
+        "sha256": "e059ebca4cb94444cd8de0574863ec29f390eb76105a7aa0d112b0d417d3573b",
+        "bytes": 15665,
+        "container": "ogg",
+        "codec": "vorbis",
+        "probe": {
+          "format": {
+            "names": [
+              "ogg"
+            ],
+            "duration": "5.975145",
+            "size": "15665",
+            "bitRate": "20973"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "audio",
+              "codec": "vorbis",
+              "profile": null,
+              "sampleRate": "5512",
+              "channels": 1,
+              "channelLayout": "mono",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "5.975145",
+              "durationTs": "32935",
+              "bitRate": "4294967295"
+            }
+          ]
+        },
+        "conversion": "ffdec-adpcm-export-then-sample-count-trimmed-vorbis"
+      },
+      "consumerClassification": "unresolved",
+      "loopContract": {
+        "mode": "Sound.play loop-count",
+        "sourceDefaultLoops": 0,
+        "customLoopPoints": null
+      },
+      "volumeContract": {
+        "channel": "sound",
+        "source": "SoundManager.soundVolumn / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "sourcePath": "sound/sound202.swf",
+      "sourceBlobSha1": "763605f76ccfc92a28a2be018f3364d080b19a3b",
+      "sourceSha256": "e8e1e7e7b6da5c352e25f285b2895c10feb11f6a84331f999cb6ea18dfca2834",
+      "sourceBytes": 9245,
+      "eventName": "202",
+      "sourceSymbol": "Sound202",
+      "metadata": {
+        "characterId": 1,
+        "symbol": "Sound202",
+        "soundFormat": 2,
+        "sampleRate": 11025,
+        "sampleSize": 16,
+        "channels": 1,
+        "sampleCount": 50799
+      },
+      "ffdecIntermediate": {
+        "format": "mp3",
+        "bytes": 9672,
+        "sha256": "5fdd6e212a5e30409a7a65dbc5eb19b72e7f295155642c72471e27ef724595b3"
+      },
+      "browserAudio": {
+        "path": "exports/resource-port/audio-localization/audio/5fdd6e212a5e30409a7a65dbc5eb19b72e7f295155642c72471e27ef724595b3.mp3",
+        "sha256": "5fdd6e212a5e30409a7a65dbc5eb19b72e7f295155642c72471e27ef724595b3",
+        "bytes": 9672,
+        "container": "mp3",
+        "codec": "mp3",
+        "probe": {
+          "format": {
+            "names": [
+              "mp3"
+            ],
+            "duration": "4.836000",
+            "size": "9672",
+            "bitRate": "16000"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "audio",
+              "codec": "mp3",
+              "profile": null,
+              "sampleRate": "11025",
+              "channels": 1,
+              "channelLayout": "mono",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "4.836000",
+              "durationTs": "68245632",
+              "bitRate": "16000"
+            }
+          ]
+        },
+        "conversion": "lossless-ffdec-mp3-DefineSound-extraction"
+      },
+      "consumerClassification": "unresolved",
+      "loopContract": {
+        "mode": "Sound.play loop-count",
+        "sourceDefaultLoops": 0,
+        "customLoopPoints": null
+      },
+      "volumeContract": {
+        "channel": "sound",
+        "source": "SoundManager.soundVolumn / 100",
+        "perEventGain": 1
+      }
+    }
+  ]
+}

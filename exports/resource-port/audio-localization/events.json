@@ -1,0 +1,4772 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "owner": "audio-localization",
+  "resolver": {
+    "eventName": "exact filename stem",
+    "sourceTemplate": "sound/<eventName>.flv",
+    "loop": "whole-file restart; no embedded loop-point metadata is consumed",
+    "volume": "global music percentage divided by 100; no per-event gain"
+  },
+  "authorityFiles": [
+    {
+      "path": "flashbaseSrc/src/church/controller/ChurchRoomListController.as",
+      "sha256": "07ebc5c0f2a3721d6150459bea5066044869aac6a4879a4bdf4c1855b8c359f8"
+    },
+    {
+      "path": "flashbaseSrc/src/church/view/churchScene/MoonSceneMap.as",
+      "sha256": "2add46dff5d7302b827012ee8886c06fb5da56458cf1882b6084e697d6241be8"
+    },
+    {
+      "path": "flashbaseSrc/src/church/view/churchScene/WeddingSceneMap.as",
+      "sha256": "bbaa01f2628aa6bf7b11e19164cf4fa80797bb87bfbff788fa7873bbf7e099ca"
+    },
+    {
+      "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomMask.as",
+      "sha256": "74ed9d2927fba112fdf9bc3a96a222445591d8a386b8d23b39591502a6c366a7"
+    },
+    {
+      "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomView.as",
+      "sha256": "9597c192f2b477bee106462a76862ffc5dcf325f89d02ed91f20234dcd953c86"
+    },
+    {
+      "path": "flashbaseSrc/src/consortionBattle/view/ConsortiaBattleMainView.as",
+      "sha256": "6d2049d58971a208d52e5dc002733705f58801c9ee04d05950d9399aa8f9ef13"
+    },
+    {
+      "path": "flashbaseSrc/src/ddt/data/map/MapInfo.as",
+      "sha256": "0eb25a0192efd8b436b27b58ba99a75c1512b09e54d1f3778148f354256dc0fd"
+    },
+    {
+      "path": "flashbaseSrc/src/ddt/manager/SoundManager.as",
+      "sha256": "d97c7ecf95dec14a6ae116073f46b17d2dc1c9d08e9bfdde100ada9a0d0be6e4"
+    },
+    {
+      "path": "flashbaseSrc/src/ddt/states/BaseStateView.as",
+      "sha256": "e7b2ea229bd98c9a0d2eee5a3425abf39992e3418fc8659ee0621a168f0ba5b5"
+    },
+    {
+      "path": "flashbaseSrc/src/fightLib/FightLibState.as",
+      "sha256": "103cc4324713c0e74d8dd97b1d7b2d09443fc4a4228f361f575decc9723d86aa"
+    },
+    {
+      "path": "flashbaseSrc/src/game/view/GameViewBase.as",
+      "sha256": "7d897ad9637ee259718dad0026cae43c644c20ee1f79aab05eebc9c35694218c"
+    },
+    {
+      "path": "flashbaseSrc/src/hall/HallStateView.as",
+      "sha256": "648dc9852d050240b6e26447a90a0468a7e55468777bfb2bf57c2c1e06da95e4"
+    },
+    {
+      "path": "flashbaseSrc/src/hotSpring/view/HotSpringMainView.as",
+      "sha256": "5efcd8164a92d7bb5549e5b64a3bd57a3ed9d15e57ca74db49ca6cec0cb94b66"
+    },
+    {
+      "path": "flashbaseSrc/src/hotSpring/view/HotSpringRoomView.as",
+      "sha256": "6fa8963134afa7265f0c007c1ebbb025af0542063c30dda48769f602e74b8683"
+    },
+    {
+      "path": "flashbaseSrc/src/littleGame/LittleGame.as",
+      "sha256": "e4accb3a5385262c31568920086b2754502e8984facedf0847164e4bcc4c005c"
+    },
+    {
+      "path": "flashbaseSrc/src/room/view/states/BaseRoomState.as",
+      "sha256": "5af0c678d8024f745c2139ef5bbe8cee4bcba4aa17ad5e3963ea26b274f0b76c"
+    },
+    {
+      "path": "flashbaseSrc/src/roomList/pveRoomList/DungeonListController.as",
+      "sha256": "f8ac1c95208c12de393d9e3a7b26b750ec3c6313aee918f2c939a4fd5b3a9d17"
+    },
+    {
+      "path": "flashbaseSrc/src/roomList/pvpRoomList/RoomListController.as",
+      "sha256": "ccd4fb3a379f33378421319e358f3b30e18b85390bcc5b9d6850979d8ad76913"
+    },
+    {
+      "path": "flashbaseSrc/src/roulette/LeftGunRouletteManager.as",
+      "sha256": "2561ed085b8ba1852dc87aa1b3cb933e3be500f86454212dc3d059e2f04e71e4"
+    },
+    {
+      "path": "flashbaseSrc/src/roulette/RouletteFrame.as",
+      "sha256": "a0cc02dc35f1045e461e249ea5be3f651f95f3fd2050e76b72c0768210bfffb0"
+    },
+    {
+      "path": "flashbaseSrc/src/times/TimesManager.as",
+      "sha256": "74f46aea6417e9f8fbded692fa7f0a2bb5bd8b13e060e200fa4e4b179924e6c1"
+    },
+    {
+      "path": "flashbaseSrc/src/worldboss/view/WorldBossRoomView.as",
+      "sha256": "d3708882ed0dd0e3156ca4e780cd90fc17ded6e84bf44878ff6720800253ded5"
+    }
+  ],
+  "calls": [
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/church/controller/ChurchRoomListController.as",
+      "line": 53
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"3003\"",
+      "literalEventName": "3003",
+      "loop": true,
+      "path": "flashbaseSrc/src/church/view/churchScene/MoonSceneMap.as",
+      "line": 50
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"3002\"",
+      "literalEventName": "3002",
+      "loop": true,
+      "path": "flashbaseSrc/src/church/view/churchScene/WeddingSceneMap.as",
+      "line": 71
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"3001\"",
+      "literalEventName": "3001",
+      "loop": true,
+      "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomMask.as",
+      "line": 65
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"3002\"",
+      "literalEventName": "3002",
+      "loop": true,
+      "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomView.as",
+      "line": 177
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"12019\"",
+      "literalEventName": "12019",
+      "loop": true,
+      "path": "flashbaseSrc/src/consortionBattle/view/ConsortiaBattleMainView.as",
+      "line": 71
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\",true,false",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/ddt/states/BaseStateView.as",
+      "line": 61
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"065\"",
+      "literalEventName": "065",
+      "loop": true,
+      "path": "flashbaseSrc/src/fightLib/FightLibState.as",
+      "line": 79
+    },
+    {
+      "method": "playGameBackMusic",
+      "expression": "this._map.info.BackMusic",
+      "literalEventName": null,
+      "loop": "source-game-playlist-repeat",
+      "path": "flashbaseSrc/src/game/view/GameViewBase.as",
+      "line": 182
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\",true,false",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/hall/HallStateView.as",
+      "line": 241
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/hotSpring/view/HotSpringMainView.as",
+      "line": 84
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"3004\"",
+      "literalEventName": "3004",
+      "loop": true,
+      "path": "flashbaseSrc/src/hotSpring/view/HotSpringRoomView.as",
+      "line": 189
+    },
+    {
+      "method": "playMusic",
+      "expression": "this._game.music",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/littleGame/LittleGame.as",
+      "line": 236
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\",true,false",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/littleGame/LittleGame.as",
+      "line": 264
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"065\"",
+      "literalEventName": "065",
+      "loop": true,
+      "path": "flashbaseSrc/src/room/view/states/BaseRoomState.as",
+      "line": 46
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/roomList/pveRoomList/DungeonListController.as",
+      "line": 227
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/roomList/pvpRoomList/RoomListController.as",
+      "line": 224
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/roulette/LeftGunRouletteManager.as",
+      "line": 151
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"140\"",
+      "literalEventName": "140",
+      "loop": true,
+      "path": "flashbaseSrc/src/roulette/LeftGunRouletteManager.as",
+      "line": 194
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"140\"",
+      "literalEventName": "140",
+      "loop": true,
+      "path": "flashbaseSrc/src/roulette/RouletteFrame.as",
+      "line": 428
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/roulette/RouletteFrame.as",
+      "line": 549
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"140\"",
+      "literalEventName": "140",
+      "loop": true,
+      "path": "flashbaseSrc/src/times/TimesManager.as",
+      "line": 147
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"062\"",
+      "literalEventName": "062",
+      "loop": true,
+      "path": "flashbaseSrc/src/times/TimesManager.as",
+      "line": 217
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"worldbossroom-\" + WorldBossManager.Instance.BossResourceId",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/worldboss/view/WorldBossRoomView.as",
+      "line": 84
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"worldbossroom-\" + WorldBossManager.Instance.BossResourceId",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/worldboss/view/WorldBossRoomView.as",
+      "line": 137
+    }
+  ],
+  "dynamicCalls": [
+    {
+      "method": "playGameBackMusic",
+      "expression": "this._map.info.BackMusic",
+      "literalEventName": null,
+      "loop": "source-game-playlist-repeat",
+      "path": "flashbaseSrc/src/game/view/GameViewBase.as",
+      "line": 182
+    },
+    {
+      "method": "playMusic",
+      "expression": "this._game.music",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/littleGame/LittleGame.as",
+      "line": 236
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"worldbossroom-\" + WorldBossManager.Instance.BossResourceId",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/worldboss/view/WorldBossRoomView.as",
+      "line": 84
+    },
+    {
+      "method": "playMusic",
+      "expression": "\"worldbossroom-\" + WorldBossManager.Instance.BossResourceId",
+      "literalEventName": null,
+      "loop": true,
+      "path": "flashbaseSrc/src/worldboss/view/WorldBossRoomView.as",
+      "line": 137
+    }
+  ],
+  "events": [
+    {
+      "eventName": "050",
+      "sourcePath": "sound/050.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "051",
+      "sourcePath": "sound/051.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "052",
+      "sourcePath": "sound/052.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "053",
+      "sourcePath": "sound/053.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "054",
+      "sourcePath": "sound/054.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "055",
+      "sourcePath": "sound/055.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "056",
+      "sourcePath": "sound/056.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "057",
+      "sourcePath": "sound/057.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "058",
+      "sourcePath": "sound/058.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "059",
+      "sourcePath": "sound/059.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "060",
+      "sourcePath": "sound/060.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "061",
+      "sourcePath": "sound/061.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "062",
+      "sourcePath": "sound/062.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/church/controller/ChurchRoomListController.as",
+          "line": 53
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\",true,false",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/ddt/states/BaseStateView.as",
+          "line": 61
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\",true,false",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/hall/HallStateView.as",
+          "line": 241
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/hotSpring/view/HotSpringMainView.as",
+          "line": 84
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\",true,false",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/littleGame/LittleGame.as",
+          "line": 264
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/roomList/pveRoomList/DungeonListController.as",
+          "line": 227
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/roomList/pvpRoomList/RoomListController.as",
+          "line": 224
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/roulette/LeftGunRouletteManager.as",
+          "line": 151
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/roulette/RouletteFrame.as",
+          "line": 549
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"062\"",
+          "literalEventName": "062",
+          "loop": true,
+          "path": "flashbaseSrc/src/times/TimesManager.as",
+          "line": 217
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "063",
+      "sourcePath": "sound/063.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "064",
+      "sourcePath": "sound/064.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "065",
+      "sourcePath": "sound/065.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"065\"",
+          "literalEventName": "065",
+          "loop": true,
+          "path": "flashbaseSrc/src/fightLib/FightLibState.as",
+          "line": 79
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"065\"",
+          "literalEventName": "065",
+          "loop": true,
+          "path": "flashbaseSrc/src/room/view/states/BaseRoomState.as",
+          "line": 46
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "085",
+      "sourcePath": "sound/085.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "086",
+      "sourcePath": "sound/086.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "087",
+      "sourcePath": "sound/087.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1001",
+      "sourcePath": "sound/1001.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1002",
+      "sourcePath": "sound/1002.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1003",
+      "sourcePath": "sound/1003.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1004",
+      "sourcePath": "sound/1004.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1005",
+      "sourcePath": "sound/1005.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1006",
+      "sourcePath": "sound/1006.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1007",
+      "sourcePath": "sound/1007.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1008",
+      "sourcePath": "sound/1008.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1009",
+      "sourcePath": "sound/1009.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1010",
+      "sourcePath": "sound/1010.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1011",
+      "sourcePath": "sound/1011.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1012",
+      "sourcePath": "sound/1012.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1013",
+      "sourcePath": "sound/1013.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1014",
+      "sourcePath": "sound/1014.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1023",
+      "sourcePath": "sound/1023.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1024",
+      "sourcePath": "sound/1024.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1025",
+      "sourcePath": "sound/1025.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1026",
+      "sourcePath": "sound/1026.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1027",
+      "sourcePath": "sound/1027.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1028",
+      "sourcePath": "sound/1028.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1029",
+      "sourcePath": "sound/1029.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1030",
+      "sourcePath": "sound/1030.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1031",
+      "sourcePath": "sound/1031.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1032",
+      "sourcePath": "sound/1032.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1033",
+      "sourcePath": "sound/1033.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1034",
+      "sourcePath": "sound/1034.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1035",
+      "sourcePath": "sound/1035.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1036",
+      "sourcePath": "sound/1036.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1037",
+      "sourcePath": "sound/1037.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1038",
+      "sourcePath": "sound/1038.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1039",
+      "sourcePath": "sound/1039.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1040",
+      "sourcePath": "sound/1040.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1041",
+      "sourcePath": "sound/1041.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1059",
+      "sourcePath": "sound/1059.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1060",
+      "sourcePath": "sound/1060.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1061",
+      "sourcePath": "sound/1061.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1062",
+      "sourcePath": "sound/1062.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1063",
+      "sourcePath": "sound/1063.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1065",
+      "sourcePath": "sound/1065.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1066",
+      "sourcePath": "sound/1066.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1067",
+      "sourcePath": "sound/1067.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1068",
+      "sourcePath": "sound/1068.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1069",
+      "sourcePath": "sound/1069.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1071",
+      "sourcePath": "sound/1071.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1072",
+      "sourcePath": "sound/1072.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1073",
+      "sourcePath": "sound/1073.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1074",
+      "sourcePath": "sound/1074.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1075",
+      "sourcePath": "sound/1075.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1076",
+      "sourcePath": "sound/1076.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1077",
+      "sourcePath": "sound/1077.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1078",
+      "sourcePath": "sound/1078.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1079",
+      "sourcePath": "sound/1079.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1084",
+      "sourcePath": "sound/1084.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11006",
+      "sourcePath": "sound/11006.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11007",
+      "sourcePath": "sound/11007.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11008",
+      "sourcePath": "sound/11008.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11009",
+      "sourcePath": "sound/11009.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11010",
+      "sourcePath": "sound/11010.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11011",
+      "sourcePath": "sound/11011.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11012",
+      "sourcePath": "sound/11012.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11013",
+      "sourcePath": "sound/11013.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11014",
+      "sourcePath": "sound/11014.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11015",
+      "sourcePath": "sound/11015.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11016",
+      "sourcePath": "sound/11016.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11017",
+      "sourcePath": "sound/11017.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11018",
+      "sourcePath": "sound/11018.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11019",
+      "sourcePath": "sound/11019.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11020",
+      "sourcePath": "sound/11020.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11021",
+      "sourcePath": "sound/11021.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11022",
+      "sourcePath": "sound/11022.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11023",
+      "sourcePath": "sound/11023.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11024",
+      "sourcePath": "sound/11024.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11025",
+      "sourcePath": "sound/11025.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11029",
+      "sourcePath": "sound/11029.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11030",
+      "sourcePath": "sound/11030.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11031",
+      "sourcePath": "sound/11031.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11032",
+      "sourcePath": "sound/11032.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11033",
+      "sourcePath": "sound/11033.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11034",
+      "sourcePath": "sound/11034.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11035",
+      "sourcePath": "sound/11035.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11036",
+      "sourcePath": "sound/11036.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11037",
+      "sourcePath": "sound/11037.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11038",
+      "sourcePath": "sound/11038.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11039",
+      "sourcePath": "sound/11039.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11040",
+      "sourcePath": "sound/11040.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11041",
+      "sourcePath": "sound/11041.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11042",
+      "sourcePath": "sound/11042.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11043",
+      "sourcePath": "sound/11043.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11044",
+      "sourcePath": "sound/11044.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11045",
+      "sourcePath": "sound/11045.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11046",
+      "sourcePath": "sound/11046.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11047",
+      "sourcePath": "sound/11047.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "11048",
+      "sourcePath": "sound/11048.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1119",
+      "sourcePath": "sound/1119.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1120",
+      "sourcePath": "sound/1120.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1121",
+      "sourcePath": "sound/1121.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1122",
+      "sourcePath": "sound/1122.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1123",
+      "sourcePath": "sound/1123.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1124",
+      "sourcePath": "sound/1124.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1125",
+      "sourcePath": "sound/1125.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1126",
+      "sourcePath": "sound/1126.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1127",
+      "sourcePath": "sound/1127.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1128",
+      "sourcePath": "sound/1128.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1142",
+      "sourcePath": "sound/1142.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1143",
+      "sourcePath": "sound/1143.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1144",
+      "sourcePath": "sound/1144.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1145",
+      "sourcePath": "sound/1145.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1146",
+      "sourcePath": "sound/1146.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1147",
+      "sourcePath": "sound/1147.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1148",
+      "sourcePath": "sound/1148.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1149",
+      "sourcePath": "sound/1149.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1151",
+      "sourcePath": "sound/1151.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1152",
+      "sourcePath": "sound/1152.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1153",
+      "sourcePath": "sound/1153.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1154",
+      "sourcePath": "sound/1154.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1156",
+      "sourcePath": "sound/1156.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1158",
+      "sourcePath": "sound/1158.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1159",
+      "sourcePath": "sound/1159.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1160",
+      "sourcePath": "sound/1160.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1161",
+      "sourcePath": "sound/1161.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1162",
+      "sourcePath": "sound/1162.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1163",
+      "sourcePath": "sound/1163.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1164",
+      "sourcePath": "sound/1164.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1165",
+      "sourcePath": "sound/1165.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1166",
+      "sourcePath": "sound/1166.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1167",
+      "sourcePath": "sound/1167.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1168",
+      "sourcePath": "sound/1168.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1180",
+      "sourcePath": "sound/1180.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1184",
+      "sourcePath": "sound/1184.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1185",
+      "sourcePath": "sound/1185.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1186",
+      "sourcePath": "sound/1186.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1187",
+      "sourcePath": "sound/1187.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1188",
+      "sourcePath": "sound/1188.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1189",
+      "sourcePath": "sound/1189.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1190",
+      "sourcePath": "sound/1190.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1191",
+      "sourcePath": "sound/1191.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1192",
+      "sourcePath": "sound/1192.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1193",
+      "sourcePath": "sound/1193.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1194",
+      "sourcePath": "sound/1194.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1195",
+      "sourcePath": "sound/1195.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1196",
+      "sourcePath": "sound/1196.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1197",
+      "sourcePath": "sound/1197.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1198",
+      "sourcePath": "sound/1198.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12001",
+      "sourcePath": "sound/12001.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12002",
+      "sourcePath": "sound/12002.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12003",
+      "sourcePath": "sound/12003.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12004",
+      "sourcePath": "sound/12004.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12005",
+      "sourcePath": "sound/12005.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12006",
+      "sourcePath": "sound/12006.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12007",
+      "sourcePath": "sound/12007.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12008",
+      "sourcePath": "sound/12008.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12009",
+      "sourcePath": "sound/12009.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1201",
+      "sourcePath": "sound/1201.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12010",
+      "sourcePath": "sound/12010.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12011",
+      "sourcePath": "sound/12011.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12012",
+      "sourcePath": "sound/12012.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12013",
+      "sourcePath": "sound/12013.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12014",
+      "sourcePath": "sound/12014.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12015",
+      "sourcePath": "sound/12015.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12016",
+      "sourcePath": "sound/12016.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12017",
+      "sourcePath": "sound/12017.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12018",
+      "sourcePath": "sound/12018.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12019",
+      "sourcePath": "sound/12019.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"12019\"",
+          "literalEventName": "12019",
+          "loop": true,
+          "path": "flashbaseSrc/src/consortionBattle/view/ConsortiaBattleMainView.as",
+          "line": 71
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12020",
+      "sourcePath": "sound/12020.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12025",
+      "sourcePath": "sound/12025.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12026",
+      "sourcePath": "sound/12026.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12027",
+      "sourcePath": "sound/12027.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12028",
+      "sourcePath": "sound/12028.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12029",
+      "sourcePath": "sound/12029.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "12030",
+      "sourcePath": "sound/12030.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1204",
+      "sourcePath": "sound/1204.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1205",
+      "sourcePath": "sound/1205.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1207",
+      "sourcePath": "sound/1207.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1208",
+      "sourcePath": "sound/1208.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1209",
+      "sourcePath": "sound/1209.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1210",
+      "sourcePath": "sound/1210.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1211",
+      "sourcePath": "sound/1211.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1214",
+      "sourcePath": "sound/1214.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1215",
+      "sourcePath": "sound/1215.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1216",
+      "sourcePath": "sound/1216.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1217",
+      "sourcePath": "sound/1217.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1248",
+      "sourcePath": "sound/1248.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1328",
+      "sourcePath": "sound/1328.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1342",
+      "sourcePath": "sound/1342.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1343",
+      "sourcePath": "sound/1343.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1344",
+      "sourcePath": "sound/1344.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1345",
+      "sourcePath": "sound/1345.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "140",
+      "sourcePath": "sound/140.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"140\"",
+          "literalEventName": "140",
+          "loop": true,
+          "path": "flashbaseSrc/src/roulette/LeftGunRouletteManager.as",
+          "line": 194
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"140\"",
+          "literalEventName": "140",
+          "loop": true,
+          "path": "flashbaseSrc/src/roulette/RouletteFrame.as",
+          "line": 428
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"140\"",
+          "literalEventName": "140",
+          "loop": true,
+          "path": "flashbaseSrc/src/times/TimesManager.as",
+          "line": 147
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1400",
+      "sourcePath": "sound/1400.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "1401",
+      "sourcePath": "sound/1401.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "2001",
+      "sourcePath": "sound/2001.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "3000",
+      "sourcePath": "sound/3000.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "3001",
+      "sourcePath": "sound/3001.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"3001\"",
+          "literalEventName": "3001",
+          "loop": true,
+          "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomMask.as",
+          "line": 65
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "3002",
+      "sourcePath": "sound/3002.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"3002\"",
+          "literalEventName": "3002",
+          "loop": true,
+          "path": "flashbaseSrc/src/church/view/churchScene/WeddingSceneMap.as",
+          "line": 71
+        },
+        {
+          "method": "playMusic",
+          "expression": "\"3002\"",
+          "literalEventName": "3002",
+          "loop": true,
+          "path": "flashbaseSrc/src/church/view/weddingRoom/WeddingRoomView.as",
+          "line": 177
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "3003",
+      "sourcePath": "sound/3003.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"3003\"",
+          "literalEventName": "3003",
+          "loop": true,
+          "path": "flashbaseSrc/src/church/view/churchScene/MoonSceneMap.as",
+          "line": 50
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "3004",
+      "sourcePath": "sound/3004.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "exact",
+      "callsites": [
+        {
+          "method": "playMusic",
+          "expression": "\"3004\"",
+          "literalEventName": "3004",
+          "loop": true,
+          "path": "flashbaseSrc/src/hotSpring/view/HotSpringRoomView.as",
+          "line": 189
+        }
+      ],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "fin",
+      "sourcePath": "sound/fin.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "qx01",
+      "sourcePath": "sound/qx01.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "worldbossfight",
+      "sourcePath": "sound/worldbossfight.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "worldbossroom-1",
+      "sourcePath": "sound/worldbossroom-1.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "inferred",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "worldbossroom-4",
+      "sourcePath": "sound/worldbossroom-4.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "inferred",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "worldbossroom",
+      "sourcePath": "sound/worldbossroom.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "xxgbj2",
+      "sourcePath": "sound/xxgbj2.flv",
+      "eventNameClassification": "exact",
+      "consumerClassification": "unresolved",
+      "callsites": [],
+      "loopContract": {
+        "mode": "whole-file-restart-on-NetStream.Play.Stop",
+        "startSeconds": 0,
+        "end": "decoded-duration",
+        "sourceDefault": true,
+        "callerOverrideAllowed": true
+      },
+      "volumeContract": {
+        "channel": "music",
+        "source": "SoundManager._musicVolume / 100",
+        "perEventGain": 1
+      }
+    }
+  ],
+  "summary": {
+    "exact": 9,
+    "inferred": 2,
+    "unresolved": 211
+  },
+  "embeddedEvents": [
+    {
+      "eventName": "201",
+      "sourcePath": "sound/sound201.swf",
+      "sourceSymbol": "Sound201",
+      "consumerClassification": "unresolved",
+      "loopContract": {
+        "mode": "Sound.play loop-count",
+        "sourceDefaultLoops": 0,
+        "customLoopPoints": null
+      },
+      "volumeContract": {
+        "channel": "sound",
+        "source": "SoundManager.soundVolumn / 100",
+        "perEventGain": 1
+      }
+    },
+    {
+      "eventName": "202",
+      "sourcePath": "sound/sound202.swf",
+      "sourceSymbol": "Sound202",
+      "consumerClassification": "unresolved",
+      "loopContract": {
+        "mode": "Sound.play loop-count",
+        "sourceDefaultLoops": 0,
+        "customLoopPoints": null
+      },
+      "volumeContract": {
+        "channel": "sound",
+        "source": "SoundManager.soundVolumn / 100",
+        "perEventGain": 1
+      }
+    }
+  ]
+}

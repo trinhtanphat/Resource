@@ -1,0 +1,6 @@
+.gitattributes text eol=lf
+*.json text eol=lf
+audio/** -text
+video/** -text
+xml/** -text
+support/** -text

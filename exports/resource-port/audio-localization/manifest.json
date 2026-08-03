@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "runtimeSessionId": "R047",
+  "owner": "audio-localization",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "families": [
+      "sound/",
+      "xml/"
+    ]
+  },
+  "trackAEvidence": {
+    "repository": "trinhtanphat/Gunny",
+    "sessionId": "R035",
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "findingsCommit": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170",
+    "evidenceGitBlobSha1": "c6da41d64ac046765f4e48c44a6244ab40a45e44",
+    "dispatchSha256": "b043c6e636114e4ef78ef4a802d4d83ebf658d953bf943d1d0744ac36330bc10",
+    "verifiedOnGunnyMain": "894d7ba12b3b4966342195afbd6b1917b5c94c61",
+    "path": "config/resource-port-evidence/R035.json"
+  },
+  "toolchain": {
+    "ffmpeg": {
+      "bytes": 101897728,
+      "sha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e"
+    },
+    "ffprobe": {
+      "bytes": 101692928,
+      "sha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07"
+    },
+    "ffdec": {
+      "bytes": 5075015,
+      "sha256": "090ab695053ad94cba6408574c7d7eea20ec60b6ae789ee6056a23f45106762f"
+    },
+    "versions": {
+      "ffmpeg": "ffmpeg version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "ffprobe": "ffprobe version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+      "ffdec": "JPEXS Free Flash Decompiler 26.2.1",
+      "java": "openjdk 17.0.19 2026-04-21",
+      "node": "v25.0.0"
+    }
+  },
+  "catalogs": [
+    {
+      "path": "exports/resource-port/audio-localization/audio-assets-01.json",
+      "sha256": "9074c5154fe397da241398f7322255db8e98574c5ba88887b51a25b5ff024d4f",
+      "groups": 50
+    },
+    {
+      "path": "exports/resource-port/audio-localization/audio-assets-02.json",
+      "sha256": "1adbdcf5ba6d8429e835791140eccd597a036d3aa166d7393683ff1b4d6bd0e1",
+      "groups": 51
+    },
+    {
+      "path": "exports/resource-port/audio-localization/audio-assets-03.json",
+      "sha256": "b404e8391b4328ec84fc5d481400f95611294b01e02560690173a58030a0bde7",
+      "groups": 50
+    },
+    {
+      "path": "exports/resource-port/audio-localization/audio-assets-04.json",
+      "sha256": "74cb846cf3012e43369a950120c6cb86cbf05a10c8caf1918c19cda8a5f5ad5d",
+      "groups": 51
+    },
+    {
+      "path": "exports/resource-port/audio-localization/events.json",
+      "sha256": "29841624217ba8b31251956bd22cd8ab3846f225072a4330387e6564db585693"
+    },
+    {
+      "path": "exports/resource-port/audio-localization/documents.json",
+      "sha256": "1555a5c857db3eb2a732a45100be24217c18464e2d0cdb26fb930ce396dbe7d7"
+    },
+    {
+      "path": "exports/resource-port/audio-localization/embedded-swf-audio.json",
+      "sha256": "115e0c9212790c8dab1bb25a9a6fd0ab84e72cc41485c90031b408748cecc5a6"
+    },
+    {
+      "path": "exports/resource-port/audio-localization/support-assets.json",
+      "sha256": "33abb34e1a7d099c83733885116a6f9210727767be1dbd8d100be3fca736a64f"
+    }
+  ],
+  "binaryOutputs": {
+    "count": 211,
+    "bytes": 193039734,
+    "aggregateSha256": "94bf5fdc9dcf0ed8571353e64abd7033cea53edd2e45cd48593fa02acad68480",
+    "contentAddressed": true
+  },
+  "summary": {
+    "sourceFiles": 229,
+    "sourceBytes": 220403442,
+    "flvFiles": 222,
+    "uniqueFlvBlobs": 202,
+    "flvMp3Blobs": 200,
+    "flvAacBlobs": 2,
+    "audioOnlyFlvBlobs": 198,
+    "multimediaFlvBlobs": 4,
+    "uniqueBrowserAudioOutputs": 204,
+    "browserVideoOutputs": 4,
+    "embeddedSwfAudioOutputs": 2,
+    "xmlDocuments": 2,
+    "localizationCatalogs": 0,
+    "identityRasterOutputs": 0,
+    "legacyLauncherSupportObjects": 1,
+    "evidenceOnlyFla": 2,
+    "exactConsumerMappings": 9,
+    "inferredConsumerMappings": 2,
+    "unresolvedConsumerMappings": 213,
+    "runtimeIntegration": false
+  },
+  "runtimeBoundary": {
+    "packageOnly": true,
+    "nextSession": "R047",
+    "failClosedForUnresolvedConsumers": true,
+    "xmlRequiresBrowserParser": true,
+    "mutableBranchAllowed": false
+  }
+}
