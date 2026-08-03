@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "branch": "resource-port/P044-quests-events",
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "sourceTree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+  "dependencies": [
+    {
+      "sessionId": "R032",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "evidencePath": "config/resource-port-evidence/R032.json",
+      "evidenceGitBlobSha1": "3dec3b3a7e3d9b672bf245fb8e01545c93ac2541",
+      "evidenceSha256": "1d3cbef90794dd2fe96deae0184ff08c6d1122edca3182a786a1f07d17680db5",
+      "importerPath": "scripts/import-resource-port-r032.mjs",
+      "importerGitBlobSha1": "3fa128f8b8e565d387550e349929000021c44b04",
+      "importerSha256": "ebe65ba9708086c0ff80d800dfe73829e519eaaff83432c233cffd72705f0a9b",
+      "shardPath": "config/resource-port-dispatch/shards/quests-events-001.json",
+      "shardGitBlobSha1": "8f345ae51e1904ef1affcd716329205f18452b82",
+      "shardSha256": "72500422e0ff53b5809dc23b9e7397838262283184f5c3d1fb0b0da2446676e1",
+      "sourceFiles": 774,
+      "sourceBytes": 33541657,
+      "verifiedOnGunnyMain": "85a40447689a056ba0135331cbbfed8d52f0ac25",
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "sourceFamilies": [
+    "image/badgerole/",
+    "image/badge/",
+    "image/binglong/",
+    "image/cardcollect/",
+    "image/collectiontask/",
+    "image/ddqiyuan/",
+    "image/dice/",
+    "image/explorermanual/",
+    "image/honorbackground/",
+    "image/leaguerank/",
+    "image/sevendouble/",
+    "image/task/",
+    "image/weekly/",
+    "image/yearfood/"
+  ],
+  "lockedPaths": [
+    "exports/resource-port/quests-events/**",
+    "resource-port/track-b/contracts/quests-events.json",
+    "resource-port/track-b/evidence/P044.json",
+    "resource-port/track-b/checks/P044.mjs",
+    "resource-port/track-b/findings/P044.md",
+    "resource-port/track-b/status/P044.json"
+  ],
+  "outputs": {
+    "manifest": "exports/resource-port/quests-events/manifest.json",
+    "catalogIndex": "exports/resource-port/quests-events/catalog-index.json",
+    "visualSurfaceCatalog": "exports/resource-port/quests-events/visual-surface-catalog.json",
+    "timelineEvidence": "exports/resource-port/quests-events/timeline-evidence.json",
+    "weeklyPublicationCatalog": "exports/resource-port/quests-events/weekly-publication-catalog.json",
+    "foundationAudit": "exports/resource-port/quests-events/foundation-audit.json",
+    "presentationStateContract": "exports/resource-port/quests-events/presentation-state-contract.json",
+    "runtimeContract": "exports/resource-port/quests-events/runtime-contract.json"
+  },
+  "consumerBoundary": {
+    "exactSourceIdentityRequired": true,
+    "visualOnlyIsBehaviorReady": false,
+    "runtimeIntegration": false,
+    "nextSession": "R044",
+    "datesRewardsEligibilityResetScheduleAndProgression": "Gunny Worker/API",
+    "filenameOnlyOrNearbyIdSelectionAllowed": false,
+    "legacySwfRuntimeAllowed": false
+  },
+  "commitPolicy": [
+    "P044",
+    "P044-F"
+  ],
+  "mergeMethod": "rebase",
+  "githubActions": false
+}

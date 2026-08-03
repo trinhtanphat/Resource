@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "status": "complete-package-with-explicit-unresolved",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "readOnly": true
+  },
+  "dependencies": [
+    {
+      "sessionId": "R032",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "evidencePath": "config/resource-port-evidence/R032.json",
+      "evidenceGitBlobSha1": "3dec3b3a7e3d9b672bf245fb8e01545c93ac2541",
+      "evidenceSha256": "1d3cbef90794dd2fe96deae0184ff08c6d1122edca3182a786a1f07d17680db5",
+      "importerPath": "scripts/import-resource-port-r032.mjs",
+      "importerGitBlobSha1": "3fa128f8b8e565d387550e349929000021c44b04",
+      "importerSha256": "ebe65ba9708086c0ff80d800dfe73829e519eaaff83432c233cffd72705f0a9b",
+      "shardPath": "config/resource-port-dispatch/shards/quests-events-001.json",
+      "shardGitBlobSha1": "8f345ae51e1904ef1affcd716329205f18452b82",
+      "shardSha256": "72500422e0ff53b5809dc23b9e7397838262283184f5c3d1fb0b0da2446676e1",
+      "sourceFiles": 774,
+      "sourceBytes": 33541657,
+      "verifiedOnGunnyMain": "85a40447689a056ba0135331cbbfed8d52f0ac25",
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "summary": {
+    "files": 774,
+    "bytes": 33541657,
+    "uniqueBlobs": 752,
+    "trackA": {
+      "exact": 699,
+      "inferred": 0,
+      "unresolved": 75
+    },
+    "package": {
+      "exact": 702,
+      "inferred": 0,
+      "unresolved": 72
+    },
+    "profiles": {
+      "raster": 701,
+      "swf-timeline": 64,
+      "binary-unknown": 8,
+      "text-data": 1
+    },
+    "families": {
+      "image/badgerole/": {
+        "files": 22,
+        "bytes": 102309,
+        "exact": 22,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/badge/": {
+        "files": 12,
+        "bytes": 64689,
+        "exact": 12,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/binglong/": {
+        "files": 1,
+        "bytes": 10130,
+        "exact": 1,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/cardcollect/": {
+        "files": 29,
+        "bytes": 614644,
+        "exact": 29,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/collectiontask/": {
+        "files": 1,
+        "bytes": 814464,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 1
+      },
+      "image/ddqiyuan/": {
+        "files": 0,
+        "bytes": 0,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/dice/": {
+        "files": 12,
+        "bytes": 217687,
+        "exact": 12,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/explorermanual/": {
+        "files": 402,
+        "bytes": 2608123,
+        "exact": 402,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/honorbackground/": {
+        "files": 1,
+        "bytes": 2229,
+        "exact": 1,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/leaguerank/": {
+        "files": 14,
+        "bytes": 81717,
+        "exact": 14,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/sevendouble/": {
+        "files": 7,
+        "bytes": 1123474,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 7
+      },
+      "image/task/": {
+        "files": 184,
+        "bytes": 2390349,
+        "exact": 177,
+        "inferred": 0,
+        "unresolved": 7
+      },
+      "image/weekly/": {
+        "files": 88,
+        "bytes": 24860432,
+        "exact": 32,
+        "inferred": 0,
+        "unresolved": 56
+      },
+      "image/yearfood/": {
+        "files": 1,
+        "bytes": 651410,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 1
+      }
+    },
+    "exactRawRaster": 698,
+    "correctedMappings": 3,
+    "correctedObjects": 3,
+    "visualReady": 701,
+    "behaviorReady": 0
+  },
+  "conversion": {
+    "rawSourceFilesModified": 0,
+    "exactRawRasterMappings": 698,
+    "correctedRasterMappings": 3,
+    "correctedRasterObjects": 3,
+    "correctedRasterBytes": 144489,
+    "visualReadyAssets": 701,
+    "behaviorReadyAssets": 0,
+    "swfMetadataRecords": 64,
+    "swfRuntimeContainersPublished": 0,
+    "binaryQuarantineRecords": 8,
+    "weeklySourceMetadataRecords": 1,
+    "weeklyEnabledEntries": 0,
+    "runtimeIntegration": false
+  },
+  "exports": [
+    {
+      "path": "exports/resource-port/quests-events/.gitattributes",
+      "bytes": 29,
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d",
+      "contentType": "text/plain"
+    },
+    {
+      "path": "exports/resource-port/quests-events/catalog-index.json",
+      "bytes": 3392,
+      "sha256": "fa34c58888b836cfd42fcb786612991545db545ba3c9deb170ed2b338f09e9f4",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/catalog/r032.json",
+      "bytes": 375504,
+      "sha256": "3d7d76eb5ac7bbceb3f353fe1a880a33b3916eba13ec1016f3722635c49c9a8e",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/foundation-audit.json",
+      "bytes": 45561,
+      "sha256": "3668d57aeb23570b686611fa1683472e63faf2ee68e970ecb4a029a047f96e0e",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/presentation-state-contract.json",
+      "bytes": 3198,
+      "sha256": "f42e7b559767a69a2848684216cc5712aabc93441b1d73cdb5ebb49afb2f0491",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/raster/78bfe0214cdf1ee8b7f96ce5af9279e7db155187a185176ee42086210a2f2119.jpg",
+      "bytes": 73762,
+      "sha256": "78bfe0214cdf1ee8b7f96ce5af9279e7db155187a185176ee42086210a2f2119",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "exports/resource-port/quests-events/raster/ac7ae6751cc90b7ea4bdd01673a3fe4b425d702ca4f89979557fbc10ce04f21b.jpg",
+      "bytes": 62570,
+      "sha256": "ac7ae6751cc90b7ea4bdd01673a3fe4b425d702ca4f89979557fbc10ce04f21b",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "exports/resource-port/quests-events/raster/cd6ddd9b861496616fc80095b5d62ec3e12171b2e4a670cfb018dbbdff8ce897.png",
+      "bytes": 8157,
+      "sha256": "cd6ddd9b861496616fc80095b5d62ec3e12171b2e4a670cfb018dbbdff8ce897",
+      "contentType": "image/png"
+    },
+    {
+      "path": "exports/resource-port/quests-events/runtime-contract.json",
+      "bytes": 728,
+      "sha256": "daa7fb0346fcaf3a3184aa360b92aa9ec252b4eafad42bfe01396ddda5e4f9cc",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/timeline-evidence.json",
+      "bytes": 403724,
+      "sha256": "01d937034de9c0f0ce9cc6d67b33e8354ad19a86aa59a40eaf980dbe5463cd98",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/visual-surface-catalog.json",
+      "bytes": 412992,
+      "sha256": "9c6b03f22e6d797b09e2e75af0ed95d2b6a7a6904c258c34eeeed5f8697eba15",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/weekly-publication-catalog.json",
+      "bytes": 7181,
+      "sha256": "55fa556999beacca012cec5a6db0d257dadcf8f20e36ceedb1068ecb73872dee",
+      "contentType": "application/json"
+    }
+  ],
+  "generatedAt": "2026-08-02T00:00:00Z",
+  "githubActions": false
+}

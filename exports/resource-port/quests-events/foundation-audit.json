@@ -1,0 +1,1234 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "foundation": {
+    "repository": "trinhtanphat/Gunny",
+    "immutableCommit": "85a40447689a056ba0135331cbbfed8d52f0ac25",
+    "code": [
+      {
+        "path": "src/client/source-quest.ts",
+        "gitBlobSha1": "223fc40bec0d7038a87c472e9bcd45a93a843796",
+        "bytes": 25066,
+        "sha256": "faa96f5f92a06b20b0fd28d66c1c4749e9a3802fb1d71eb19ba625d9beb7cd23"
+      },
+      {
+        "path": "src/client/source-quest-modal-guard.ts",
+        "gitBlobSha1": "37206677a4921a4f97569180d2247951a347757f",
+        "bytes": 9085,
+        "sha256": "2b2750bc16fbc2df647e9a8fd3ead5d920d8ce99a3acf0bdf3ae0202ea74705f"
+      },
+      {
+        "path": "src/client/source-activeevents.ts",
+        "gitBlobSha1": "9ed5c76788ff822f1628e45bf1834194a278b2f5",
+        "bytes": 11972,
+        "sha256": "96245ab6d70888fab20c82027f9bcb3137eb27fa1ea35528e4c334b98337c69c"
+      },
+      {
+        "path": "src/client/source-calendar.ts",
+        "gitBlobSha1": "e5f484f5ef0496b48a3921fa9dd1ba71db066cd5",
+        "bytes": 32758,
+        "sha256": "26e1d0b28d466e5997c9a1145b4aceb820432a28643f7654bdbc325342fad9a0"
+      },
+      {
+        "path": "src/client/live-events.ts",
+        "gitBlobSha1": "47ffd321d94e744b0982d27e82b452f7d1bc91ac",
+        "bytes": 28533,
+        "sha256": "7b3db8024c58a24eb6d59eabc0308431aea65bfa82fccd007818088a56bba486"
+      },
+      {
+        "path": "src/worker/quest-engine.ts",
+        "gitBlobSha1": "aafb066d08432d2470638dc0b9afe76cf8f1989e",
+        "bytes": 13472,
+        "sha256": "ea3045ad21babfbe3ffafee6848f70ddb0b697bba8cf6286eb240202433b6c45"
+      },
+      {
+        "path": "src/worker/quest-routes.ts",
+        "gitBlobSha1": "7b1ef307870436d24b0389fd6cc242b7f224d82d",
+        "bytes": 885,
+        "sha256": "08b702a7483974f8f430ff15ad4aff14fc08ef0df61056370cfe846ae675d44d"
+      },
+      {
+        "path": "src/worker/live-event-routes.ts",
+        "gitBlobSha1": "1fd879e6817ed475deb955b14ed37c14b1739fb3",
+        "bytes": 1675,
+        "sha256": "8ce24941f5cffd749abb6da873232c52ace01fa77c04f456c1528de2eddc1d32"
+      }
+    ],
+    "roots": [
+      {
+        "path": "public/game-ui/quest",
+        "files": [
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_1.png",
+            "gitBlobSha1": "fae85b535029187ae3fe3061989ee4b21243ed0c",
+            "bytes": 3416
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_10.png",
+            "gitBlobSha1": "4fc8bad5564625c06d3eb317fecb331f17762305",
+            "bytes": 3113
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_100.png",
+            "gitBlobSha1": "c911efeb5605d7368d62980ff8dd5c0771cd74bd",
+            "bytes": 782
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_101.png",
+            "gitBlobSha1": "35a82258c7a68497c639fb27b7dfc12567695c84",
+            "bytes": 837
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_102.png",
+            "gitBlobSha1": "b91a49cb24b4df83a942f2f88b98cc7f7c153d3a",
+            "bytes": 1281
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_103.png",
+            "gitBlobSha1": "e3ee91796c0c6352dbf051e723ed23078a54b650",
+            "bytes": 1098
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_104.png",
+            "gitBlobSha1": "e4bc34028e4480d525eace886f1db79d80669e2a",
+            "bytes": 822
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_105.png",
+            "gitBlobSha1": "8b679d1e7a63d2943ad5cf282c13ae686f82059c",
+            "bytes": 859
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_106.png",
+            "gitBlobSha1": "5ea604d0581af8efb89e8b73525fe2ba58d8afc0",
+            "bytes": 852
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_107.png",
+            "gitBlobSha1": "343c517be171c193bb289e96d03c66d51af9c46c",
+            "bytes": 1329
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_108.png",
+            "gitBlobSha1": "d1444b771968afa9671b770b57a7e6709a88c737",
+            "bytes": 2367
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_109.png",
+            "gitBlobSha1": "55d45dc61c3104be184fda6a3491f5d4efd5c560",
+            "bytes": 987
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_11.png",
+            "gitBlobSha1": "031af1a3b540dfcddbd250406bde1eba0ed36b12",
+            "bytes": 2453
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_110.png",
+            "gitBlobSha1": "373a308cb96692a7a2381aea2f11bf46898529b9",
+            "bytes": 834
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_111.png",
+            "gitBlobSha1": "b2d5f8e46bf9bd36da1c3ea2af72c918ff3c7806",
+            "bytes": 1470
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_112.png",
+            "gitBlobSha1": "02b77276a6e377096e656a1da9723355ec1127a0",
+            "bytes": 1389
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_113.png",
+            "gitBlobSha1": "718393fb6aa0044351cb21e05ee69a29a77aa192",
+            "bytes": 962
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_114.png",
+            "gitBlobSha1": "e9839a5a834e20bccd4446dd9833bc128b8655c1",
+            "bytes": 1012
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_115.png",
+            "gitBlobSha1": "6b9c8a99cbb6cc293975b16c5011f342383b851a",
+            "bytes": 961
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_116.png",
+            "gitBlobSha1": "85608fe91c3cff95a34a34cb348db8bceeeb19f7",
+            "bytes": 1178
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_117.png",
+            "gitBlobSha1": "0e56cca0bb4794073e1c94249ec1a39e69b306c3",
+            "bytes": 835
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_118.png",
+            "gitBlobSha1": "5bd9f9e17879f31090834a7a7debd3d50e5ac996",
+            "bytes": 800
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_119.png",
+            "gitBlobSha1": "a494792e11536bf920cc06da2ca12aa9754a76c7",
+            "bytes": 1322
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_12.png",
+            "gitBlobSha1": "8b65d0bdd581ff9d6e08ec588ebdff74200ec17e",
+            "bytes": 752
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_120.png",
+            "gitBlobSha1": "d9266c72773c21be4ea1728195045a1411e4f5cd",
+            "bytes": 1146
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_121.png",
+            "gitBlobSha1": "a72c3bc4ef975292eb0fb8a41caffc6152193ba6",
+            "bytes": 835
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_122.png",
+            "gitBlobSha1": "7ea2ccdda02a673ed02f3d689ee4aabba0a36862",
+            "bytes": 819
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_123.png",
+            "gitBlobSha1": "3b2ec26d22aeb85efa3562e4b542e7cc2bbee498",
+            "bytes": 857
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_124.png",
+            "gitBlobSha1": "d4336a6d5f87e803d6d8be66efc7df4c0aa06577",
+            "bytes": 1258
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_125.png",
+            "gitBlobSha1": "cdb29503fbbe0d61b62de4b82687a1b696386299",
+            "bytes": 983
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_126.png",
+            "gitBlobSha1": "31a1836177102e49d4ac0de8d3e8c28e1785707b",
+            "bytes": 826
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_127.png",
+            "gitBlobSha1": "019b58997fd4d8f89fb97e3534e0d0d43110bf77",
+            "bytes": 1457
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_128.png",
+            "gitBlobSha1": "44581f22fe44207d589b540477fd26e2d4d67c3b",
+            "bytes": 1375
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_129.png",
+            "gitBlobSha1": "497760c0297364ab79c9fb8ca46f548b4bd1c41f",
+            "bytes": 895
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_13.png",
+            "gitBlobSha1": "74eb907d043ec51da1da431a5328ee3a059dd2c5",
+            "bytes": 6012
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_130.png",
+            "gitBlobSha1": "caa07fad507113e324264fe92ed99d2703f19430",
+            "bytes": 973
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_131.png",
+            "gitBlobSha1": "eb175c1a599d27da0bf6b27ff2770655102d4b18",
+            "bytes": 949
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_132.png",
+            "gitBlobSha1": "9fd03d1819f5e5661c33dc08b65f411f2f001e5b",
+            "bytes": 1207
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_133.png",
+            "gitBlobSha1": "ee697a35a502ab5c5cfdfc7b4d80fd1e591cd098",
+            "bytes": 111666
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_134.png",
+            "gitBlobSha1": "e79c2ccd764902810a5b671e24cae12282abfd77",
+            "bytes": 436
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_135.png",
+            "gitBlobSha1": "5d10997c6f1d301c61359643243d5f9ceb7a2f87",
+            "bytes": 248
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_136.png",
+            "gitBlobSha1": "1b13f863b09d2bd6e560ccdccb5ae16f9ebd632b",
+            "bytes": 1452
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_14.png",
+            "gitBlobSha1": "4c176e7ab8b268c8045df14751038d98245039e7",
+            "bytes": 10208
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_15.png",
+            "gitBlobSha1": "5252866c55becf35fc00657e3dc0ca95b3bfd4d7",
+            "bytes": 8712
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_152.png",
+            "gitBlobSha1": "01a0e30587168fd39ffe3a230d648749444e8d09",
+            "bytes": 6105
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_153.png",
+            "gitBlobSha1": "653349cb81bbf8fa0df9d61c1a05c3f509ff85e6",
+            "bytes": 22113
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_16.png",
+            "gitBlobSha1": "79b08c4812b4795f1305025288dde8f67f1d41da",
+            "bytes": 13933
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_162.png",
+            "gitBlobSha1": "c67dfbda0f19c927063e9260514a825c1032209c",
+            "bytes": 3102
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_166.png",
+            "gitBlobSha1": "f40b0f896dcc93465856bdf4f94df6ca06f50dec",
+            "bytes": 6118
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_169.png",
+            "gitBlobSha1": "fcdd621e530156aa219dc843e41d270af762770d",
+            "bytes": 5638
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_17.png",
+            "gitBlobSha1": "26603987325432c15725f38336b8b959bd66a279",
+            "bytes": 12996
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_173.png",
+            "gitBlobSha1": "62628bfe6ba67e919f553ca315e571a88121f7ab",
+            "bytes": 15015
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_175.png",
+            "gitBlobSha1": "2d8897c316398050ccf568280f9472217f824a64",
+            "bytes": 2780
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_179.png",
+            "gitBlobSha1": "27f540453f9490b92972dc5aa992732905b80faf",
+            "bytes": 8519
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_18.png",
+            "gitBlobSha1": "d559c172e7b576bd3abd791fbc2e6b666da07bf4",
+            "bytes": 1737
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_19.png",
+            "gitBlobSha1": "4961e5f3609203204e617d83efe9dac47e2737be",
+            "bytes": 1928
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_2.png",
+            "gitBlobSha1": "c12e1923ab7cfdba7f6947336d159195f7feb8b6",
+            "bytes": 3002
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_20.png",
+            "gitBlobSha1": "366c782fe4e7ae1c7b7a61520a02049e800dfc9d",
+            "bytes": 1606
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_21.png",
+            "gitBlobSha1": "554cb8e96af39af814ec60c92e4ad32024ec3323",
+            "bytes": 3313
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_22.png",
+            "gitBlobSha1": "edfca7cf19f7f37c9b08de6c91afdd877bc3cb95",
+            "bytes": 2905
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_23.png",
+            "gitBlobSha1": "b96ddab2ae309211e80b242eeb92d269efa375e7",
+            "bytes": 3600
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_24.png",
+            "gitBlobSha1": "1ef26c28e2a825c4e86f15f782d98aa096cec6d5",
+            "bytes": 1029
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_25.png",
+            "gitBlobSha1": "d98cdcdd5241a8b30f66865576ab16638ac233eb",
+            "bytes": 3546
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_26.png",
+            "gitBlobSha1": "cb4dd8c513cef426117abcf32633d7ed2e15ae89",
+            "bytes": 1087
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_27.png",
+            "gitBlobSha1": "3ba9a696ba0d1bdfd2cd0baa427e915177f8f17b",
+            "bytes": 3330
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_28.png",
+            "gitBlobSha1": "aefd441c65602216e8c998472ed3d719687f750f",
+            "bytes": 2882
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_29.png",
+            "gitBlobSha1": "c67dfbda0f19c927063e9260514a825c1032209c",
+            "bytes": 3102
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_3.png",
+            "gitBlobSha1": "12a10405772f0432e41665afd1c58021035a41ec",
+            "bytes": 3826
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_30.png",
+            "gitBlobSha1": "35eef0d88c25f2981af1adc75c388486e1e5ae17",
+            "bytes": 3841
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_31.png",
+            "gitBlobSha1": "ed53b8f41f30acec5c0c81538c18feb8c4e7dee3",
+            "bytes": 831
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_32.png",
+            "gitBlobSha1": "740f5ab9d99cf42154fadeb60ddb167ca243768c",
+            "bytes": 4527
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_33.png",
+            "gitBlobSha1": "664367445e8c3ff5c404148410df558333c231ef",
+            "bytes": 3846
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_34.png",
+            "gitBlobSha1": "ff53695ee0a002b2acdff598de2a42bd8e5059b6",
+            "bytes": 4302
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_35.png",
+            "gitBlobSha1": "5b780acb7b16b9c9d6e5455a67246e0dc52d6f11",
+            "bytes": 59485
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_36.png",
+            "gitBlobSha1": "e6542b15217ee12b01d0cdd04c955f9687f27b7e",
+            "bytes": 947
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_37.png",
+            "gitBlobSha1": "c9406f6433e923903cbb95a63b0ca740fa8df67b",
+            "bytes": 822
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_38.png",
+            "gitBlobSha1": "55b317a704d616cbd0a25c1007841aebb675331b",
+            "bytes": 22730
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_39.png",
+            "gitBlobSha1": "961825dbdf7730107a9e74124b56eaa9446dced3",
+            "bytes": 605
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_4.png",
+            "gitBlobSha1": "dcb61a89b8c717e17427744ad2e486dd328560cb",
+            "bytes": 3380
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_40.png",
+            "gitBlobSha1": "f031632b24ae1187ef37834c6f9c028d144203e6",
+            "bytes": 27767
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_41.png",
+            "gitBlobSha1": "410237e63524f1dc1de229d3d16071433bf05bae",
+            "bytes": 641
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_42.png",
+            "gitBlobSha1": "8bb4a524a1d64e9a68530cce2598b63df45f50fd",
+            "bytes": 644
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_43.png",
+            "gitBlobSha1": "5140eb1ccf98052b33a182db45e519c201825b88",
+            "bytes": 555
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_44.png",
+            "gitBlobSha1": "4e828dfe1ffb806d3b8dfab9856448ac451e0864",
+            "bytes": 543
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_45.png",
+            "gitBlobSha1": "265fe3611a610adbc2fba399675037ffb7287d2b",
+            "bytes": 3635
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_46.png",
+            "gitBlobSha1": "d3f128d67ade12562be518e971ae67a60b950821",
+            "bytes": 3150
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_47.png",
+            "gitBlobSha1": "20678106a5a6379634010218b5e443906b7dfba0",
+            "bytes": 3749
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_48.png",
+            "gitBlobSha1": "bb99aaddf1872fd171ffca0e048d4fc6fdaa44ff",
+            "bytes": 3210
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_49.png",
+            "gitBlobSha1": "03fe799b4ce9bd2ef6a4a17255bc4ffbedc30df0",
+            "bytes": 2631
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_5.png",
+            "gitBlobSha1": "857727d9d62cd42f59b2ae5067eb43b8b6a2629a",
+            "bytes": 28757
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_50.png",
+            "gitBlobSha1": "8d9051cb45ab702beba53e6c9a9828117e7a06c2",
+            "bytes": 4242
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_51.png",
+            "gitBlobSha1": "5dcc16a1c5877c1ab31320462721ce62286c3a85",
+            "bytes": 3746
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_52.png",
+            "gitBlobSha1": "ada9bbe7e593fdefb0417f1ad17d3840d30204a9",
+            "bytes": 2772
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_53.png",
+            "gitBlobSha1": "a45806f8b282b0b8762728880ece8adf705bb44e",
+            "bytes": 365
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_54.png",
+            "gitBlobSha1": "fcbedd09c749f0e15673cbaae9bd40cee86ad8ee",
+            "bytes": 3295
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_55.png",
+            "gitBlobSha1": "800771490fef013438008c282a314cf2d54d62e9",
+            "bytes": 2610
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_56.png",
+            "gitBlobSha1": "3e140d9f3c4f79596a8a8a94e3d08407749ad9e4",
+            "bytes": 7511
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_57.png",
+            "gitBlobSha1": "4b063a1b7b3c70dfbff569fff8d3f62ff3b90809",
+            "bytes": 2016
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_58.png",
+            "gitBlobSha1": "33b968df9b35f0dee8e2ea8cba73fb7e5fa48291",
+            "bytes": 5618
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_59.png",
+            "gitBlobSha1": "73088743ec17e89e0da4a510cf5fffef1aaae2b1",
+            "bytes": 1660
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_6.png",
+            "gitBlobSha1": "a7a997a2087ce87e05d15de5fc3b80e1534860d8",
+            "bytes": 2216
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_60.png",
+            "gitBlobSha1": "69f17a1e332cede8f29be7e2481b820b9d978a25",
+            "bytes": 801
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_61.png",
+            "gitBlobSha1": "e442b37c75cd36e000ed8810545eb3b2504998c4",
+            "bytes": 824
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_62.png",
+            "gitBlobSha1": "cde9b8e27a438b5f1b7540c904110d294f5100b2",
+            "bytes": 1586
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_63.png",
+            "gitBlobSha1": "ad96bea817b8142c7eb75c1696a6c4b01ce5d3ed",
+            "bytes": 1389
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_64.png",
+            "gitBlobSha1": "f91aaa31c716591a8a4f45d42b6b959d6380e2cc",
+            "bytes": 810
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_65.png",
+            "gitBlobSha1": "48a5732f17ddafa0adbdafe73753cba3cac5280e",
+            "bytes": 788
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_66.png",
+            "gitBlobSha1": "45b7b7298b148794eeb0c16d7524a3b8bf7e8f1e",
+            "bytes": 858
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_67.png",
+            "gitBlobSha1": "cec767ea1f51c4cac3263b16b3b34b8273836709",
+            "bytes": 1223
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_68.png",
+            "gitBlobSha1": "c395e84a083d601625627417a0af31e49166cdca",
+            "bytes": 776
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_69.png",
+            "gitBlobSha1": "5fc52991aaa47f2808ebc0da3a52ca864dde6771",
+            "bytes": 863
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_7.png",
+            "gitBlobSha1": "c57c65450ca456fc3d15e778336b61704ea8d532",
+            "bytes": 3248
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_70.png",
+            "gitBlobSha1": "03dbde30ba5345228f37aa0cedbfedc2791cc4fc",
+            "bytes": 1323
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_71.png",
+            "gitBlobSha1": "76d8e167366cb4f46a8c1888fa8957e5920346e8",
+            "bytes": 1111
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_72.png",
+            "gitBlobSha1": "12ff3203962d8e99620e5c469412b721e5491e11",
+            "bytes": 859
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_73.png",
+            "gitBlobSha1": "f9ed332dc34dbe3d35ce948db8fba86d36268a76",
+            "bytes": 823
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_74.png",
+            "gitBlobSha1": "8fb444c02b3780e22b1f53583617a120d33ec0d8",
+            "bytes": 802
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_75.png",
+            "gitBlobSha1": "d0985b1f017c537c138b98a88c6e7591fefe3093",
+            "bytes": 1443
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_76.png",
+            "gitBlobSha1": "46d97d8a3f890c809910b63600a3443dff002ab4",
+            "bytes": 1007
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_77.png",
+            "gitBlobSha1": "e0d00e6825e0f0bb40257ae0ba9eeba20a445e4c",
+            "bytes": 865
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_78.png",
+            "gitBlobSha1": "aa4325f1a084fe6bd3f12103974442493fbfd577",
+            "bytes": 1430
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_79.png",
+            "gitBlobSha1": "5ef9d5ad780b47194492e058c7b9c896e8bf1951",
+            "bytes": 1382
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_8.png",
+            "gitBlobSha1": "6326487aa40a7ac582f17e2a306126266f83bc74",
+            "bytes": 2792
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_80.png",
+            "gitBlobSha1": "3e531988d084827fc159f22a2e8effa33470d401",
+            "bytes": 918
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_81.png",
+            "gitBlobSha1": "a6f7fd6f220160f5ad9a2bb3ba0c28bf8973f9d9",
+            "bytes": 1001
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_82.png",
+            "gitBlobSha1": "5ab49d4a0e683d2c198fc55ea8ab2649c813dd8b",
+            "bytes": 989
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_83.png",
+            "gitBlobSha1": "aae3d1a8a9153899c3ce57c162c9099834b41719",
+            "bytes": 1217
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_84.png",
+            "gitBlobSha1": "e3da9030745e48d2daf0098c12d02d1fc13bc70a",
+            "bytes": 835
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_85.png",
+            "gitBlobSha1": "1316a68af922de8c232fb14244238fb7069df298",
+            "bytes": 857
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_86.png",
+            "gitBlobSha1": "80a017e1a32165cb8a752af4645f1e899ad64de4",
+            "bytes": 1235
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_87.png",
+            "gitBlobSha1": "cfb43fd640d58ebe9928775d78e9c7054ef069f7",
+            "bytes": 1109
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_88.png",
+            "gitBlobSha1": "d503a47d4f823900317af1b0520234c287a6afed",
+            "bytes": 819
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_89.png",
+            "gitBlobSha1": "a4bfe9a1dbed0d965889d8b7c3d689ace32bf78b",
+            "bytes": 831
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_9.png",
+            "gitBlobSha1": "b12c08a3b5373150527f81e107e60be065ab25de",
+            "bytes": 1644
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_90.png",
+            "gitBlobSha1": "04e3c3a6c5b3e8d11646a030453032fcfd90579e",
+            "bytes": 825
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_91.png",
+            "gitBlobSha1": "eef55244bcca15bbc2cbc7d0b810c24b2c75a04e",
+            "bytes": 1335
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_92.png",
+            "gitBlobSha1": "803f0f0e6bd00a878704553c8c41107da6a226a2",
+            "bytes": 1016
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_93.png",
+            "gitBlobSha1": "0de6d9fa451bdb051b28ac5034a4208a04898d15",
+            "bytes": 848
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_94.png",
+            "gitBlobSha1": "964cfdf7092140a5e52db5e19089fc26dd3e0e9f",
+            "bytes": 1392
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_95.png",
+            "gitBlobSha1": "ca97060d4c4da9e7792185f4faa091c8824f0cc7",
+            "bytes": 1330
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_96.png",
+            "gitBlobSha1": "ad8741c301a934f3ad68ebabd0cf3597ad3421e7",
+            "bytes": 964
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_97.png",
+            "gitBlobSha1": "ea14d4ee9164554340a1d4a9ade2ada154f51f8f",
+            "bytes": 984
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_98.png",
+            "gitBlobSha1": "7bf771425dc020f9ab1de25d024d4bfc99123980",
+            "bytes": 988
+          },
+          {
+            "root": "public/game-ui/quest",
+            "path": "public/game-ui/quest/quest_99.png",
+            "gitBlobSha1": "bb88c647e87f307f9893e43c17d7e7a94b130459",
+            "bytes": 1071
+          }
+        ],
+        "summary": {
+          "files": 144,
+          "bytes": 583097,
+          "uniqueBlobs": 143
+        },
+        "identitySha256": "03dcf8b79b4f8a0315cc3d50dc18c47a539588859cf3789eea4d707ee1d1648e"
+      },
+      {
+        "path": "public/game-ui/calendar",
+        "files": [
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_1.png",
+            "gitBlobSha1": "f31d28d97b1067f4f0f48cf7b910c929e1525324",
+            "bytes": 160
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_10.png",
+            "gitBlobSha1": "5d839d9d4dc05b57852c9d3da8c926db6e24c8d0",
+            "bytes": 27541
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_11.png",
+            "gitBlobSha1": "6af7bc88875d468d49a30c0a5457e41ac5f141d3",
+            "bytes": 3552
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_12.png",
+            "gitBlobSha1": "a42b1a27c1a0ff207814dd10aa5a3894c0d2b5b1",
+            "bytes": 4344
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_13.png",
+            "gitBlobSha1": "a930ea609e1abe57211d80de1e8494cedfdab895",
+            "bytes": 3659
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_14.png",
+            "gitBlobSha1": "b57e76e03ce0c62034bf4cddf0988bc218e6c053",
+            "bytes": 2580
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_15.png",
+            "gitBlobSha1": "f6247a82019fe5bff9a2b92b1410be5afa917ed9",
+            "bytes": 928
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_16.png",
+            "gitBlobSha1": "67e61d7d2a76602e95c3fdbd15b87de24a391cb5",
+            "bytes": 13187
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_17.png",
+            "gitBlobSha1": "944e0838af70cbdb83421dcdd8a07dff9a8c5e2a",
+            "bytes": 12148
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_18.png",
+            "gitBlobSha1": "643f5de21c0f789a8830d78bc4bca592ee6756fc",
+            "bytes": 1132
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_19.png",
+            "gitBlobSha1": "5652c7a916ecc74cdcf4c5b76431aaf3a053c6e8",
+            "bytes": 11824
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_2.png",
+            "gitBlobSha1": "42f0bde1faa4e7f3ee700cddc769be3d8e47cfca",
+            "bytes": 3968
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_20.png",
+            "gitBlobSha1": "f5d0483dc4312744b28826c28b7366f114dc9c6b",
+            "bytes": 2952
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_21.png",
+            "gitBlobSha1": "e1226e902a01c2c653687cb24799bf19ae43c26e",
+            "bytes": 599
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_22.png",
+            "gitBlobSha1": "671ebee28256cd07c401498807cb6156867097fc",
+            "bytes": 3166
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_23.png",
+            "gitBlobSha1": "27339cfb48d5e0bff4f30b10bd42c3d160b4d1fd",
+            "bytes": 5317
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_24.png",
+            "gitBlobSha1": "2c200bcdf542e9f34ea2ec6fccd1d1dff33cbac0",
+            "bytes": 5921
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_25.png",
+            "gitBlobSha1": "bd91dc0e8f5c083222366539325c329a985dacbc",
+            "bytes": 1192
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_26.png",
+            "gitBlobSha1": "b60b52705b7730ec812e3d0fa1a5025f4ecdb460",
+            "bytes": 728
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_27.png",
+            "gitBlobSha1": "fabb7f82b726b2734ad699944ad73ff400739ba2",
+            "bytes": 1185
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_28.png",
+            "gitBlobSha1": "6aac1fd94c5e4b67bfe79fbc17a18b92254aa6ac",
+            "bytes": 2689
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_29.png",
+            "gitBlobSha1": "00dc4050b047da4ea30fe848cacb4e1bdba307f3",
+            "bytes": 441
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_3.png",
+            "gitBlobSha1": "38586edfd138b19dfae19d3663056a028173d2f3",
+            "bytes": 19913
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_30.png",
+            "gitBlobSha1": "33bdc95bf31697f294377de861a5578a54eaa48f",
+            "bytes": 26723
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_31.png",
+            "gitBlobSha1": "954d6094cbb2c47fbaf4dbf33c3c96576d397aa0",
+            "bytes": 1063
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_32.png",
+            "gitBlobSha1": "53d2f43a262d88bbd66d34e1180068cdc58daf86",
+            "bytes": 933
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_33.png",
+            "gitBlobSha1": "6fe33fc09fcaa608b914af16bcf1f7b671f6d8aa",
+            "bytes": 27874
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_39.png",
+            "gitBlobSha1": "b26571d080d76b3ce92b73556be0498d41dcfa89",
+            "bytes": 784
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_4.png",
+            "gitBlobSha1": "91572acbecb19b5d707f762ae5f971e4a6698eaf",
+            "bytes": 3195
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_42.png",
+            "gitBlobSha1": "9f0df1501539948ba9395ac88fb08a45e7b1c911",
+            "bytes": 1261
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_5.png",
+            "gitBlobSha1": "80464d80b0813d149909e3223748375626ff8efd",
+            "bytes": 5954
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_6.png",
+            "gitBlobSha1": "7e5bbcdee5001b6e1deedf6cae392901d50f08d6",
+            "bytes": 5778
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_7.png",
+            "gitBlobSha1": "6fe5fa728b14567ee51a1dea07c4f72b3e6e7c93",
+            "bytes": 2059
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_8.png",
+            "gitBlobSha1": "054f09c357b30652b70d36c3dc28f1f0a3ed2525",
+            "bytes": 2552
+          },
+          {
+            "root": "public/game-ui/calendar",
+            "path": "public/game-ui/calendar/calendar_9.png",
+            "gitBlobSha1": "12ba6e30c92c2d51fb57fded408e9600fe15d584",
+            "bytes": 10609
+          }
+        ],
+        "summary": {
+          "files": 35,
+          "bytes": 217911,
+          "uniqueBlobs": 35
+        },
+        "identitySha256": "386cdb1dbae876de79b80b6c387d2df4f7fb0b6897f3ebec2a9e3b7165a3179a"
+      },
+      {
+        "path": "public/game-ui/activeevents",
+        "files": [
+          {
+            "root": "public/game-ui/activeevents",
+            "path": "public/game-ui/activeevents/manifest.json",
+            "gitBlobSha1": "d5005ecf965b735717a25df4ea353e6b35ff163c",
+            "bytes": 12346
+          }
+        ],
+        "summary": {
+          "files": 1,
+          "bytes": 12346,
+          "uniqueBlobs": 1
+        },
+        "identitySha256": "8f756d0b1a6a6f0dbe4282097809c1bc97cdf55cb675f8340f541304c5a811eb"
+      },
+      {
+        "path": "public/game-ui/league",
+        "files": [
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_1.png",
+            "gitBlobSha1": "f8e5c1a887b034f93efd72876d9e8b57e8cefb44",
+            "bytes": 1401
+          },
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_2.png",
+            "gitBlobSha1": "c014e96310c3687c4570660060754cb6bc4414ab",
+            "bytes": 1477
+          },
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_3.png",
+            "gitBlobSha1": "5763da2082fb23d2be200c89da230b3f2c2ecf7f",
+            "bytes": 1431
+          },
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_4.png",
+            "gitBlobSha1": "d35100132ee9759519b1dfbc8688d0d454a0e010",
+            "bytes": 1763
+          },
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_5.png",
+            "gitBlobSha1": "f6a4adfeeb62bd7637ab8c3a43b7481e4e01daf8",
+            "bytes": 290592
+          },
+          {
+            "root": "public/game-ui/league",
+            "path": "public/game-ui/league/league_6.png",
+            "gitBlobSha1": "e9a84491dc0c8986a53960581173ffd0ef52bcb4",
+            "bytes": 1341
+          }
+        ],
+        "summary": {
+          "files": 6,
+          "bytes": 298005,
+          "uniqueBlobs": 6
+        },
+        "identitySha256": "10ff0af78a35f141881eb26179c347f42ab8b7a67f510092ed59ecd369ed09fc"
+      }
+    ],
+    "summary": {
+      "codeFiles": 8,
+      "assetFiles": 186,
+      "assetBytes": 1111359,
+      "duplicatedIntoP044": 0
+    }
+  },
+  "authority": {
+    "questProgressRewardsAndClaims": "Gunny Worker/API",
+    "liveEventDatesEligibilityAndScheduling": "Gunny Worker/API",
+    "calendarResetAndClaimState": "Gunny Worker/API",
+    "p044ArtworkBusinessAuthority": false
+  }
+}
