@@ -11,7 +11,7 @@ if (!allowed.has(command)) throw new Error(`Unsupported R2 runtime command: ${co
 
 const env = {
   ...process.env,
-  R2_PROFILE: "full-resource"
+  R2_PROFILE: process.env.R2_PROFILE ?? "full-resource"
 };
 const markerPath = path.join(repositoryRoot, ".r2-runtime-materialized.json");
 
