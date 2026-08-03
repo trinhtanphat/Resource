@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "runtimeSessionId": "R043",
+  "packageOnly": true,
+  "publication": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "sourceObjectKeys": "exact Resource source paths",
+    "packageObjectKeys": "immutable exports/resource-port/store-mail-economy paths",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false,
+    "immutableFallbackRequired": true
+  },
+  "consumerBoundary": {
+    "itemCardCatalogReady": true,
+    "giftCatalogReady": true,
+    "shopDecorationCatalogReady": true,
+    "itemIconCatalogReady": true,
+    "mailFoundationReferenced": true,
+    "stateContractReady": true,
+    "runtimeIntegration": false
+  },
+  "prohibited": {
+    "swfRuntime": true,
+    "filenameOnlyBusinessSemantics": true,
+    "artworkDerivedPrice": true,
+    "artworkDerivedCurrency": true,
+    "artworkDerivedRarity": true,
+    "artworkDerivedTransactionRules": true,
+    "clientBusinessAuthority": true,
+    "unresolvedRuntimeAssets": true
+  }
+}

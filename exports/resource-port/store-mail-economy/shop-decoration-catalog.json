@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "kind": "shop-decoration",
+  "assets": [
+    {
+      "sourcePath": "image/oneshopping/101.png",
+      "sourceId": "101",
+      "objectKey": "image/oneshopping/101.png",
+      "bytes": 9339,
+      "sha256": "3803e2df3abdb8a53b10a06fec974700d2affafc9e67ad8a250006e1f297a427",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/102.png",
+      "sourceId": "102",
+      "objectKey": "image/oneshopping/102.png",
+      "bytes": 7358,
+      "sha256": "425900ee6837f066c9ad7c26a1b38d04feec8f0552c43258cc47ca4df04ce160",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/103.png",
+      "sourceId": "103",
+      "objectKey": "image/oneshopping/103.png",
+      "bytes": 13836,
+      "sha256": "6e861b52b56e89eb70d5eb8571ee8ea4548c44cc8ed218a25e30aff185ca063c",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/104.png",
+      "sourceId": "104",
+      "objectKey": "image/oneshopping/104.png",
+      "bytes": 7190,
+      "sha256": "4c9802887fd64cf49227b2dacc1fd09086e9ef19c0984163afa7cf186b2c438a",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/105.png",
+      "sourceId": "105",
+      "objectKey": "image/oneshopping/105.png",
+      "bytes": 11702,
+      "sha256": "1e9f066ab7df756ea22a49710c466201b539968ce59755ac6299c9ed2cfd0006",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/106.png",
+      "sourceId": "106",
+      "objectKey": "image/oneshopping/106.png",
+      "bytes": 12113,
+      "sha256": "e004ca4632a56e67153f0fdbd87ea55dcad804ad807043a6a00c5390b5ab611d",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/107.png",
+      "sourceId": "107",
+      "objectKey": "image/oneshopping/107.png",
+      "bytes": 10664,
+      "sha256": "3f5ce57feee81386482dc3eb350c5c35e782496a4465444edb7c688c80b73e1f",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/108.png",
+      "sourceId": "108",
+      "objectKey": "image/oneshopping/108.png",
+      "bytes": 12021,
+      "sha256": "e26adb30f7d1fc04ee1f39464140eeee17f70e02ab712741d1a5627c2f4fe014",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/109.png",
+      "sourceId": "109",
+      "objectKey": "image/oneshopping/109.png",
+      "bytes": 15934,
+      "sha256": "d90f08528653aad77bd64be576f6feaeef0723090eb9f5b7944e14d55359a7da",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/110.png",
+      "sourceId": "110",
+      "objectKey": "image/oneshopping/110.png",
+      "bytes": 10044,
+      "sha256": "3a5e47db62d42583ea174f5d329f24468606b92a39516a9e204b50beb50c7ea6",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/111.png",
+      "sourceId": "111",
+      "objectKey": "image/oneshopping/111.png",
+      "bytes": 16473,
+      "sha256": "ec03b1d968e17193c2c3f37b33de66e159bb74b618abf1ab5cb138a0d237ea0f",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/112.png",
+      "sourceId": "112",
+      "objectKey": "image/oneshopping/112.png",
+      "bytes": 16599,
+      "sha256": "8dc0cb413e81543b7225a7df3ffd5bdbd442a5dc2f8ff700900de28f7ed12f99",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/113.png",
+      "sourceId": "113",
+      "objectKey": "image/oneshopping/113.png",
+      "bytes": 13646,
+      "sha256": "138944bfe4be3fca2b3457138e47be478b8a9e2ba706b230d67b76915609e721",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/114.png",
+      "sourceId": "114",
+      "objectKey": "image/oneshopping/114.png",
+      "bytes": 19215,
+      "sha256": "3aea3d919e20fa32804c283d9daab9fc4546ecc4aef0d395d7aab4495c6a0f5b",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    },
+    {
+      "sourcePath": "image/oneshopping/301.png",
+      "sourceId": "301",
+      "objectKey": "image/oneshopping/301.png",
+      "bytes": 8637,
+      "sha256": "93fed50aa6ba8bafa2a733855eae325897f4ba2108c14813982e1013fa3bcbf1",
+      "contentType": "image/png",
+      "width": 165,
+      "height": 190,
+      "classification": "exact"
+    }
+  ],
+  "summary": {
+    "assets": 15,
+    "exact": 15,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "semantics": {
+    "sourceIdIsDisplayLabel": false,
+    "artworkDefinesPrice": false,
+    "artworkDefinesCurrency": false,
+    "artworkDefinesTransactionRules": false
+  }
+}
