@@ -162,10 +162,6 @@ function metadataHeaders(object, key, delivery, cacheControl) {
   return corsHeaders(headers);
 }
 
-function conditionalStatus(request) {
-  return request.headers.has("if-none-match") || request.headers.has("if-modified-since") ? 304 : 412;
-}
-
 function matchesHeadCondition(request, object) {
   const ifNoneMatch = request.headers.get("if-none-match");
   if (ifNoneMatch) {
@@ -202,9 +198,23 @@ async function serveR2Object(request, env, key) {
     headers.set("Content-Length", String(object.size));
     return new Response(null, { status: matchesHeadCondition(request, object) ?? 200, headers });
   }
+  const hasConditions = ["if-match", "if-none-match", "if-modified-since", "if-unmodified-since"]
+    .some((name) => request.headers.has(name));
+  if (hasConditions) {
+    let metadata;
+    try { metadata = await env.RESOURCE_BUCKET.head(key); } catch { return null; }
+    if (!metadata) return null;
+    const status = matchesHeadCondition(request, metadata);
+    if (status !== null) {
+      return new Response(null, {
+        status,
+        headers: metadataHeaders(metadata, key, "r2", DEFAULT_CACHE_CONTROL),
+      });
+    }
+  }
   let object;
   try {
-    object = await env.RESOURCE_BUCKET.get(key, { onlyIf: request.headers, range: request.headers });
+    object = await env.RESOURCE_BUCKET.get(key, { range: request.headers });
   } catch {
     return request.headers.has("range")
       ? new Response("Range Not Satisfiable", {
@@ -218,7 +228,7 @@ async function serveR2Object(request, env, key) {
   }
   if (!object) return null;
   const headers = metadataHeaders(object, key, "r2", DEFAULT_CACHE_CONTROL);
-  if (!("body" in object)) return new Response(null, { status: conditionalStatus(request), headers });
+  if (!("body" in object)) return null;
   const ranged = request.headers.has("range") && rangeHeaders(headers, object);
   if (!ranged) headers.set("Content-Length", String(object.size));
   return new Response(object.body, { status: ranged ? 206 : 200, headers });
