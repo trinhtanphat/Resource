@@ -1,1 +1,45 @@
-{"schemaVersion":1,"packageSessionId":"P045","runtimeSessionId":"R045","owner":"hall-room-world","status":"complete-package-with-fail-closed-interactions","runtimeIntegration":false,"sourcePin":"519c35a293745b6a0477c4f6ea03110a89de2318","dependency":{"sessionId":"R033","implementationCommit":"3540fda0bf108366ae855028c6f55016ad1902f5","evidenceGitBlobSha1":"08bd429f94363b9d368194e82d5705fee8f90909","dispatchSha256":"c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a","verifiedOnGunnyMain":"303a12fb4978353b45a12e718a4742b28bdf8edf"},"summary":{"exportFiles":5,"sourceFiles":396,"sourceBytes":48720359,"rasterReferences":311,"uniqueBrowserRasterBlobs":156,"unresolvedSwfOccurrences":101,"unresolvedSwfUniqueBlobs":97,"sceneFamilies":4,"sceneDefinitions":4,"layerDefinitions":6,"transitionCandidates":5,"enabledTransitions":0,"hotSpringControlPublished":false,"runtimeIntegration":false},"publication":{"repository":"trinhtanphat/Resource","immutableCommitRequired":true,"mutableBranchAllowed":false,"releaseCommit":null,"note":"Runtime R045 must pin the eventual immutable rebase-merge commit; this package does not self-pin."},"checks":{"trackBVerifier":"not-run: complete Resource checkout/control files are not mounted; current verifier source was inspected","packageChecker":"pass","nodeSyntax":"pass","jsonParse":"pass","dependencyGate":"pass","r033ImporterCheck":"pass-by-immutable-R033-evidence; not rerun without Gunny checkout","packageImporterCheck":"not-available: no scripts/package-resource-port-track-b.mjs on current Resource main","sceneImageChecks":"pass: catalog totals and exact Track A hashes locked; no binary duplication or conversion performed","gitDiffCheck":"equivalent-pass: generated UTF-8 files have LF endings, terminal newline, no trailing whitespace","githubActionsUsedOrInspected":false},"remainingRisks":["97 unique SWF timelines remain non-browser-native.","All five navigation hotspot candidates remain disabled pending exact bounds and runtime handler authority.","Hot Spring is visual foundations only.","No Gunny runtime file was changed."]}
+{
+  "schemaVersion": 2,
+  "packageSessionId": "P045",
+  "runtimeSessionId": "R045",
+  "owner": "hall-room-world",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "occurrences": 101,
+    "uniqueTimelines": 97,
+    "convertedTimelines": 73,
+    "convertedVisualTimelines": 73,
+    "convertedAudioTimelines": 0,
+    "deferredAudioTimelines": 4,
+    "unresolvedTimelines": 24,
+    "mediaArtifacts": 110,
+    "behaviorReady": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass",
+    "dependencyPins": "pass",
+    "dependencyImporterCheck": "pass: external R033 importer and staged payload verified",
+    "rawPin": "pass: 396 files / 48720359 bytes",
+    "ffdecTimelineReview": "pass: 97 unique blobs reviewed",
+    "browserMediaConversion": "pass: 73 visual converted / 20 visual unresolved / 4 audio deferred to P047",
+    "hotspotFailClosed": "pass: 1 candidate / 0 enabled",
+    "githubActions": "not used or inspected"
+  },
+  "remainingRisks": [
+    "20 scripted, interactive, oversized or long-cycle SWF timelines remain disabled without a retained complete browser-native conversion",
+    "4 audio-only SWF timelines are reviewed but publish no P045 audio bytes; codec normalization, ffprobe inventory and provenance are explicitly handed to P047/R047",
+    "the sole DefineButton2 candidate remains disabled because per-button bounds and an authoritative handler are both absent",
+    "converted SVG and lossless WebP media do not confer gameplay, room membership, state selection or event authority",
+    "Hot Spring already has a Gunny foundation, but its source release still lacks reviewed vector shapes, scene texture masks, collision and water masks",
+    "runtime integration and immutable object publication belong to R045 and the coordinated release sequence"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "packageCommit": null,
+    "findingsCommit": null
+  }
+}

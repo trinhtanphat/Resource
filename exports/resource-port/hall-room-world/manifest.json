@@ -1,8 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packageSessionId": "P045",
   "runtimeSessionId": "R045",
-  "part": "hall-room-world",
+  "owner": "hall-room-world",
+  "branch": "resource-port/P045-hall-room-world",
+  "status": "complete-package-with-explicit-unresolved",
   "source": {
     "repository": "trinhtanphat/Resource",
     "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
@@ -10,42 +12,760 @@
     "readOnly": true
   },
   "dependency": {
-    "repository": "trinhtanphat/Gunny",
     "sessionId": "R033",
-    "implementationCommit": "3540fda0bf108366ae855028c6f55016ad1902f5",
+    "implementationCommit": "c6ed10b54c9fe79ab9fc3f307593210f9e855b95",
     "evidencePath": "config/resource-port-evidence/R033.json",
-    "evidenceGitBlobSha1": "08bd429f94363b9d368194e82d5705fee8f90909",
-    "importerGitBlobSha1": "a3e96ac24cdda93feb91ef7413fb16eaa10d3967",
-    "dispatchGitBlobSha1": "7bcc645d7c5b13a24cdb78ae3923e7fce19f822f",
-    "dispatchSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
-    "verifiedOnGunnyMain": "303a12fb4978353b45a12e718a4742b28bdf8edf"
+    "evidenceGitBlobSha1": "d3d49478e7daad52564f69e58bac522d0b8cbf82",
+    "evidenceSha256": "cf93befab436da47f2ee80cfd51d93e15dfda589ee28bbd8cadd6b8f9833a1fd",
+    "importerPath": "scripts/import-resource-port-r033.mjs",
+    "importerGitBlobSha1": "7bbdc3321e1cf46d2d99c2756aa72e231370d237",
+    "importerSha256": "3084eab49755cc8ecd8f6d35a26028ca0e50aff4bfa209eefebe48882da249ed",
+    "shardPath": "config/resource-port-dispatch/shards/hall-room-world-001.json",
+    "shardGitBlobSha1": "7bcc645d7c5b13a24cdb78ae3923e7fce19f822f",
+    "shardSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
+    "verifiedOnGunnyMain": "c6ed10b54c9fe79ab9fc3f307593210f9e855b95",
+    "gunnyFoundationCommit": "96a86885e23e5028e6654ed5b029870151b32d73",
+    "trackBDependencySatisfied": true
+  },
+  "sourceFamilies": [
+    "image/camp/",
+    "image/campbattle/",
+    "image/escort/",
+    "image/factionwar/",
+    "image/house/",
+    "image/scene/",
+    "image/world/",
+    "image/worldboss/"
+  ],
+  "lockedPaths": [
+    "exports/resource-port/hall-room-world/**",
+    "resource-port/track-b/contracts/hall-room-world.json",
+    "resource-port/track-b/evidence/P045.json",
+    "resource-port/track-b/checks/P045.mjs",
+    "resource-port/track-b/findings/P045.md",
+    "resource-port/track-b/status/P045.json"
+  ],
+  "summary": {
+    "occurrences": 101,
+    "uniqueTimelines": 97,
+    "convertedTimelines": 73,
+    "convertedVisualTimelines": 73,
+    "convertedAudioTimelines": 0,
+    "deferredAudioTimelines": 4,
+    "unresolvedTimelines": 24,
+    "mediaArtifacts": 110,
+    "behaviorReady": 0,
+    "runtimeIntegration": false
   },
   "exports": [
-    "exports/resource-port/hall-room-world/scene-graph.json",
-    "exports/resource-port/hall-room-world/navigation.json",
-    "exports/resource-port/hall-room-world/hot-spring-foundations.json",
-    "exports/resource-port/hall-room-world/raster-catalog.json"
+    {
+      "path": "exports/resource-port/hall-room-world/hot-spring-foundations.json",
+      "bytes": 3854,
+      "sha256": "3bbbf795ae65e9aefc5f25543a0f8ce5014bebb7ad02668f64817bfa27923928",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/01d2b9f90df2acd15433d9503483c1775a52797a6f9b2e95b8ca53f573ed4eb4.svg",
+      "bytes": 119710,
+      "sha256": "01d2b9f90df2acd15433d9503483c1775a52797a6f9b2e95b8ca53f573ed4eb4",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/0cd5e7db05342f30138e83c8f4b62bdb03ecf6eea51013aa0ac4ef29fcf345ca.svg",
+      "bytes": 487048,
+      "sha256": "0cd5e7db05342f30138e83c8f4b62bdb03ecf6eea51013aa0ac4ef29fcf345ca",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/0d6510421c70fc04e0497dd43d9aaad0238f244fbb8234dcfdbe309a510124d1.svg",
+      "bytes": 45968,
+      "sha256": "0d6510421c70fc04e0497dd43d9aaad0238f244fbb8234dcfdbe309a510124d1",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/11e7817ef838c6740522a58718526b1ba5858653a20ce4245a022ff664cc0d32.svg",
+      "bytes": 641926,
+      "sha256": "11e7817ef838c6740522a58718526b1ba5858653a20ce4245a022ff664cc0d32",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/12848c0b82a38560c9eface99137641c9b1913b19f03f8386bd4dda921a5e85c.svg",
+      "bytes": 198993,
+      "sha256": "12848c0b82a38560c9eface99137641c9b1913b19f03f8386bd4dda921a5e85c",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1950848e08435b388933de4cb337bc565be6facf760e5ec1cbf0c6cae4aadce8.svg",
+      "bytes": 104610,
+      "sha256": "1950848e08435b388933de4cb337bc565be6facf760e5ec1cbf0c6cae4aadce8",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1a231e6688e079e523bf71ffe37efe19c1616630e1d674dc8a436649ae24b40a.svg",
+      "bytes": 4631625,
+      "sha256": "1a231e6688e079e523bf71ffe37efe19c1616630e1d674dc8a436649ae24b40a",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1af18446594431a2e4aeb91874e2338b94e905115fe0529bf67a7bbd6c4f7b23.svg",
+      "bytes": 134008,
+      "sha256": "1af18446594431a2e4aeb91874e2338b94e905115fe0529bf67a7bbd6c4f7b23",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1c4bf0a00e2f33442bdf0f4a707ee976b5ec8ba59df3549b32cefa9182114168.svg",
+      "bytes": 1057094,
+      "sha256": "1c4bf0a00e2f33442bdf0f4a707ee976b5ec8ba59df3549b32cefa9182114168",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1c8b290cad3fdb29fdeb77f885068278a6f045a87d30fb12e649eaf143451f33.svg",
+      "bytes": 250893,
+      "sha256": "1c8b290cad3fdb29fdeb77f885068278a6f045a87d30fb12e649eaf143451f33",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/1d2e2b5d4c41dcb6b86fde32534fe8ce55ee3218dcfb385337109eb1aad52ab1.svg",
+      "bytes": 177545,
+      "sha256": "1d2e2b5d4c41dcb6b86fde32534fe8ce55ee3218dcfb385337109eb1aad52ab1",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/232883729b21f5ef203bf62d3eb5dbbceb3b2b76b770d39d307c075a7e01c88f.svg",
+      "bytes": 342449,
+      "sha256": "232883729b21f5ef203bf62d3eb5dbbceb3b2b76b770d39d307c075a7e01c88f",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/2433ab58b693dc0bd4282216a031ae1b26c9fadd8a0fed0a2a39eb386126e71f.svg",
+      "bytes": 34552,
+      "sha256": "2433ab58b693dc0bd4282216a031ae1b26c9fadd8a0fed0a2a39eb386126e71f",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/260a451fad111f1558b9a066c1fdaae7c9a2a02c920786d5a5eea396ec64c9e5.svg",
+      "bytes": 369258,
+      "sha256": "260a451fad111f1558b9a066c1fdaae7c9a2a02c920786d5a5eea396ec64c9e5",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/2913297bb8fff4d94470f649937f438b5dd86351432034d6ff5b7b27552bafc0.svg",
+      "bytes": 180325,
+      "sha256": "2913297bb8fff4d94470f649937f438b5dd86351432034d6ff5b7b27552bafc0",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/306a07fcb34f19a29e68d9281bb4951c304c213263fe3cd0d09e46cbb7ec9501.svg",
+      "bytes": 4744898,
+      "sha256": "306a07fcb34f19a29e68d9281bb4951c304c213263fe3cd0d09e46cbb7ec9501",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/32e5b9929630194607b8c8ae3986135c4ef8017f987e7d13ed01b8a923127b10.svg",
+      "bytes": 118398,
+      "sha256": "32e5b9929630194607b8c8ae3986135c4ef8017f987e7d13ed01b8a923127b10",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/36058af9de3bc53fddfaed62dfef6ce652e8f06042a95d5667955635517c9243.svg",
+      "bytes": 344488,
+      "sha256": "36058af9de3bc53fddfaed62dfef6ce652e8f06042a95d5667955635517c9243",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/373650ab9d2152fa46ddc5454fe6d1a18ac58564aa53ef7eee2a6b937949afc0.svg",
+      "bytes": 30854,
+      "sha256": "373650ab9d2152fa46ddc5454fe6d1a18ac58564aa53ef7eee2a6b937949afc0",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/381430df7313109a24498f1dcdd7802c3225401f071df728e98c1b3849e41236.svg",
+      "bytes": 196217,
+      "sha256": "381430df7313109a24498f1dcdd7802c3225401f071df728e98c1b3849e41236",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/383ae3e0bb679dc3cb3808ee644be065724f519919bf4fa622b9124df1ff0b8e.svg",
+      "bytes": 347837,
+      "sha256": "383ae3e0bb679dc3cb3808ee644be065724f519919bf4fa622b9124df1ff0b8e",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/3abb2d5d07472bffc31841d34f329c3af76659b46798d850fde932056b675652.svg",
+      "bytes": 29861,
+      "sha256": "3abb2d5d07472bffc31841d34f329c3af76659b46798d850fde932056b675652",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/40478d6f85f2bcacf69417f18f0a4b9920d14ecd61ffd691561a1f30324cbd71.svg",
+      "bytes": 1225525,
+      "sha256": "40478d6f85f2bcacf69417f18f0a4b9920d14ecd61ffd691561a1f30324cbd71",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/445cd4c11a2182f8bb72bdd6d8e0121f503b229de587294eee4e960fa7d90017.svg",
+      "bytes": 121189,
+      "sha256": "445cd4c11a2182f8bb72bdd6d8e0121f503b229de587294eee4e960fa7d90017",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/4b5087c2aa586c4e20a757be9e30902472cf0c4339d4f331e5ad7c4af3f3bb84.svg",
+      "bytes": 253309,
+      "sha256": "4b5087c2aa586c4e20a757be9e30902472cf0c4339d4f331e5ad7c4af3f3bb84",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5216d48af9b87b72ad692f21c9ccf4d8dcbdd637a15a6dd1fa16b26eafddf591.svg",
+      "bytes": 85659,
+      "sha256": "5216d48af9b87b72ad692f21c9ccf4d8dcbdd637a15a6dd1fa16b26eafddf591",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/59db398548ffc4d9dd039a5e8d880f54518266a8e5a2146e460f709242a40ea1.svg",
+      "bytes": 199149,
+      "sha256": "59db398548ffc4d9dd039a5e8d880f54518266a8e5a2146e460f709242a40ea1",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5c22eeb1ad9ba534fda6a62ef1d22644becf9ae1ee166652ae8932caa78262e3.svg",
+      "bytes": 123642,
+      "sha256": "5c22eeb1ad9ba534fda6a62ef1d22644becf9ae1ee166652ae8932caa78262e3",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5c6415618e23bd12146234c7dfa5113ccadc14cb5d21ce37cf76349dfcdd6d3d.svg",
+      "bytes": 37147,
+      "sha256": "5c6415618e23bd12146234c7dfa5113ccadc14cb5d21ce37cf76349dfcdd6d3d",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5e56fdce11efdb97117af72c4e60db5c25ff2f0ecf157cfd62abe4be34a4941a.svg",
+      "bytes": 131255,
+      "sha256": "5e56fdce11efdb97117af72c4e60db5c25ff2f0ecf157cfd62abe4be34a4941a",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5e61079ae12d7158d2ac3a8e2802661496a467a274b7c2e0b482c9224efa8daf.svg",
+      "bytes": 43657,
+      "sha256": "5e61079ae12d7158d2ac3a8e2802661496a467a274b7c2e0b482c9224efa8daf",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/5fdc66adce648610c191a10dc605d0f659466491d3071fd877e625599eace041.svg",
+      "bytes": 220629,
+      "sha256": "5fdc66adce648610c191a10dc605d0f659466491d3071fd877e625599eace041",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/650ffff0987f23fcd15ac35b29b09959bf7dbf5a400ea6f179ca902fa29f7645.svg",
+      "bytes": 617737,
+      "sha256": "650ffff0987f23fcd15ac35b29b09959bf7dbf5a400ea6f179ca902fa29f7645",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/6b501a9ab2a9158aa0c75fcb967fda6c4a10ef01d0be64636238fffdd70dd2ea.svg",
+      "bytes": 463069,
+      "sha256": "6b501a9ab2a9158aa0c75fcb967fda6c4a10ef01d0be64636238fffdd70dd2ea",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/6b6748263678ace6937baa47d6599b93891fda21e6cc3593857aa84b1f8ed4b5.svg",
+      "bytes": 131570,
+      "sha256": "6b6748263678ace6937baa47d6599b93891fda21e6cc3593857aa84b1f8ed4b5",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/7c3e3308ef6002e5e45aed0ab566a3d0d378f0453ce6923c1ec2b7028a03db1a.svg",
+      "bytes": 26444,
+      "sha256": "7c3e3308ef6002e5e45aed0ab566a3d0d378f0453ce6923c1ec2b7028a03db1a",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/837d48962750dd1eacacdacacb851e5eb6fb2d44df199361fc811a6148ca92d6.svg",
+      "bytes": 39962,
+      "sha256": "837d48962750dd1eacacdacacb851e5eb6fb2d44df199361fc811a6148ca92d6",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/91bb01c2a9c21f24177802b880dbd20de92f414cc50c4cc249467bb258594750.svg",
+      "bytes": 29892,
+      "sha256": "91bb01c2a9c21f24177802b880dbd20de92f414cc50c4cc249467bb258594750",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/98989712561bea687c954bc12f80724ce59004c02af3aaf398b6321bcc58c573.svg",
+      "bytes": 109654,
+      "sha256": "98989712561bea687c954bc12f80724ce59004c02af3aaf398b6321bcc58c573",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/9df76f63937a0b1ff5df5fe0a83ad4f12c26fc9c525cd1570c233c17a2f57b36.svg",
+      "bytes": 235892,
+      "sha256": "9df76f63937a0b1ff5df5fe0a83ad4f12c26fc9c525cd1570c233c17a2f57b36",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/a2425b08d44b22f2f13d90b3492caafe344fedf28fb0f898619d0050b8b0d8e7.svg",
+      "bytes": 432649,
+      "sha256": "a2425b08d44b22f2f13d90b3492caafe344fedf28fb0f898619d0050b8b0d8e7",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/a8e5b4f8094c6b058acf8c43ae6542101554ba5a896b1f5185123f03a02c6ce3.svg",
+      "bytes": 128510,
+      "sha256": "a8e5b4f8094c6b058acf8c43ae6542101554ba5a896b1f5185123f03a02c6ce3",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/ab56f7fa466ae6cfc98bbd21fd3a42d5d9e831e1fc1c05fbc7075dac23e65dfb.svg",
+      "bytes": 147214,
+      "sha256": "ab56f7fa466ae6cfc98bbd21fd3a42d5d9e831e1fc1c05fbc7075dac23e65dfb",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/ac54c495f08ce6f5906a3003f88a3080d76a956a7877f0b6e13e97b238354015.svg",
+      "bytes": 188593,
+      "sha256": "ac54c495f08ce6f5906a3003f88a3080d76a956a7877f0b6e13e97b238354015",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/aed4942d97acbc258521034dfd2d7fb19564a68e4ff3122ccedd3f990b7f5cbd.svg",
+      "bytes": 52562,
+      "sha256": "aed4942d97acbc258521034dfd2d7fb19564a68e4ff3122ccedd3f990b7f5cbd",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/b71212965eb7921f30db6a539e8210cd4467a3447af4483ee3991e33d63b1b3c.svg",
+      "bytes": 124236,
+      "sha256": "b71212965eb7921f30db6a539e8210cd4467a3447af4483ee3991e33d63b1b3c",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/bad653e73179c1e3e0eed294420f360074a418c1fdf2b6e7967d281146b42eef.svg",
+      "bytes": 253401,
+      "sha256": "bad653e73179c1e3e0eed294420f360074a418c1fdf2b6e7967d281146b42eef",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/bd7a20150fe40571639303ca95d08a4012b8f1eef7a4d690794ab4d930c63c79.svg",
+      "bytes": 51115,
+      "sha256": "bd7a20150fe40571639303ca95d08a4012b8f1eef7a4d690794ab4d930c63c79",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/c16af3d19c59d098daceb799dbb56058311e0a50aadd56d26983851d4117bc56.svg",
+      "bytes": 66131,
+      "sha256": "c16af3d19c59d098daceb799dbb56058311e0a50aadd56d26983851d4117bc56",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/c244a4fd460f3360771ac66328fbad06d1288066fcba05532b46a776cabf8223.svg",
+      "bytes": 964852,
+      "sha256": "c244a4fd460f3360771ac66328fbad06d1288066fcba05532b46a776cabf8223",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/c24ca3d62d7e077e221e1f75e7aa5854d2921107cc2b218e74508dcea7f9ea67.svg",
+      "bytes": 113919,
+      "sha256": "c24ca3d62d7e077e221e1f75e7aa5854d2921107cc2b218e74508dcea7f9ea67",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/d6a808f2d7b58787c441cdccd159df7a1dabe8bd0ca14d5cab3b37806864f3a1.svg",
+      "bytes": 86862,
+      "sha256": "d6a808f2d7b58787c441cdccd159df7a1dabe8bd0ca14d5cab3b37806864f3a1",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/dff33c823fac87acfb0fd425dcdb898986c03ac2b34f50b1d5c852f48c56e3c0.svg",
+      "bytes": 175245,
+      "sha256": "dff33c823fac87acfb0fd425dcdb898986c03ac2b34f50b1d5c852f48c56e3c0",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/e14114db2907f20970576b9f2863118a7d503601be68e5c3af7a0c274a348294.svg",
+      "bytes": 3627826,
+      "sha256": "e14114db2907f20970576b9f2863118a7d503601be68e5c3af7a0c274a348294",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/e44547b806caa70b820ff8b74f269bcdae7b1c6904af117cebdb4a4dec79474f.svg",
+      "bytes": 66843,
+      "sha256": "e44547b806caa70b820ff8b74f269bcdae7b1c6904af117cebdb4a4dec79474f",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/ef27438d4bb6170fc7dc735bdc425e3169b6d18e37ce6e398daaba8f28688651.svg",
+      "bytes": 40734,
+      "sha256": "ef27438d4bb6170fc7dc735bdc425e3169b6d18e37ce6e398daaba8f28688651",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/efce16b29bb1bd1715a8f649b9932bf3464eb817123b7d40da2d23460578c6ac.svg",
+      "bytes": 1727409,
+      "sha256": "efce16b29bb1bd1715a8f649b9932bf3464eb817123b7d40da2d23460578c6ac",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/f0c39004778cf472a703fbff966c5678933e6e12dd8625c383fc14a974815d06.svg",
+      "bytes": 119067,
+      "sha256": "f0c39004778cf472a703fbff966c5678933e6e12dd8625c383fc14a974815d06",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/f5ed4d862bb9bb7dcb5b5db087cb7feb12d3bda289d8e74aa733eb1863d354e5.svg",
+      "bytes": 91422,
+      "sha256": "f5ed4d862bb9bb7dcb5b5db087cb7feb12d3bda289d8e74aa733eb1863d354e5",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/f79d3e8a4e86f98dad7aa52cb0f122b0d07812586fd4e1f0264c9008904a178a.svg",
+      "bytes": 33669,
+      "sha256": "f79d3e8a4e86f98dad7aa52cb0f122b0d07812586fd4e1f0264c9008904a178a",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/f886d08884d686456f82e136ee5933485de7b54db8a5209d8340fa86cde98c87.svg",
+      "bytes": 3523802,
+      "sha256": "f886d08884d686456f82e136ee5933485de7b54db8a5209d8340fa86cde98c87",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/fb39f9a4d714dd1112e10a9e25d516aaa5824035d100c33344ccef02281cd3b9.svg",
+      "bytes": 371868,
+      "sha256": "fb39f9a4d714dd1112e10a9e25d516aaa5824035d100c33344ccef02281cd3b9",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/svg/fc9bc1a528d0473b55097b832c40b72c8f8482461e7f96e0c7a05f4a96713c5e.svg",
+      "bytes": 66454,
+      "sha256": "fc9bc1a528d0473b55097b832c40b72c8f8482461e7f96e0c7a05f4a96713c5e",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/0a98645a791705ec3419351298c0e542752c7e6afe6462b42c6321e1c8cf4128.webp",
+      "bytes": 501718,
+      "sha256": "0a98645a791705ec3419351298c0e542752c7e6afe6462b42c6321e1c8cf4128",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/0d27fe23384b0f5aa10d779502ce8ad38e8066711ac027d42ecd2800bedd95e8.webp",
+      "bytes": 274406,
+      "sha256": "0d27fe23384b0f5aa10d779502ce8ad38e8066711ac027d42ecd2800bedd95e8",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/0e45eb8ec36d4ff7fa1d0750ca49aa658bf72e554dc21a95228d0ddbaad412eb.webp",
+      "bytes": 140846,
+      "sha256": "0e45eb8ec36d4ff7fa1d0750ca49aa658bf72e554dc21a95228d0ddbaad412eb",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/106018f7de0b9d7d87475cf6abfc8d61704e393dd7a47978c69ec5c8d9257b92.webp",
+      "bytes": 332468,
+      "sha256": "106018f7de0b9d7d87475cf6abfc8d61704e393dd7a47978c69ec5c8d9257b92",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/16a02e196fe48df348784bda1927f1e7a684d4d11b0a49cc5e1d2dd32c68996a.webp",
+      "bytes": 221290,
+      "sha256": "16a02e196fe48df348784bda1927f1e7a684d4d11b0a49cc5e1d2dd32c68996a",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/1dc681a36a89e41fd59a09516b6e9cfe562c86c6123af4a3bf782ebd7554bab4.webp",
+      "bytes": 363658,
+      "sha256": "1dc681a36a89e41fd59a09516b6e9cfe562c86c6123af4a3bf782ebd7554bab4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/2376e1282de69fe293aca356bba8156d55f0a46cde84b39f7de224195dd479dc.webp",
+      "bytes": 44,
+      "sha256": "2376e1282de69fe293aca356bba8156d55f0a46cde84b39f7de224195dd479dc",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/2f14ed4a267519b0a77fbf13778c8929203d7ca42b736ba431b5053e87a31750.webp",
+      "bytes": 229956,
+      "sha256": "2f14ed4a267519b0a77fbf13778c8929203d7ca42b736ba431b5053e87a31750",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/34a09b162a5eefb6cee5dd1a04f688c2aaf9b6cd86b3c56f01b49025ead392b1.webp",
+      "bytes": 185308,
+      "sha256": "34a09b162a5eefb6cee5dd1a04f688c2aaf9b6cd86b3c56f01b49025ead392b1",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/3558cce6ecc8639db54e003a816362108d2e90978fd413a8e1557281c8b32849.webp",
+      "bytes": 263708,
+      "sha256": "3558cce6ecc8639db54e003a816362108d2e90978fd413a8e1557281c8b32849",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/36940c48377448c83cfbe17e754be1d7cf03d2b7b134c23f6e94176acefa310f.webp",
+      "bytes": 306556,
+      "sha256": "36940c48377448c83cfbe17e754be1d7cf03d2b7b134c23f6e94176acefa310f",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/382a96a1e2f0efdff1d30a3c6a7747bdf8fa2eb5c6437c0729037a3223f8b5b4.webp",
+      "bytes": 387418,
+      "sha256": "382a96a1e2f0efdff1d30a3c6a7747bdf8fa2eb5c6437c0729037a3223f8b5b4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/3b82642425663b14a7b70c30effee51e44049af54083e10dff4db0e8a06f6136.webp",
+      "bytes": 573944,
+      "sha256": "3b82642425663b14a7b70c30effee51e44049af54083e10dff4db0e8a06f6136",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/454ab6ee9d3beaf620f0c6026d32609ad87f890e220b65267b395c7380172000.webp",
+      "bytes": 383926,
+      "sha256": "454ab6ee9d3beaf620f0c6026d32609ad87f890e220b65267b395c7380172000",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/4cca9feb92a367bcfa5a72acee328cb360d149254e87367c18e9d312deaa92a6.webp",
+      "bytes": 40,
+      "sha256": "4cca9feb92a367bcfa5a72acee328cb360d149254e87367c18e9d312deaa92a6",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/582c19e66b0caee612d1a0af2d8e17ea5f17ccb93f2b735af8940bd17a0d43e8.webp",
+      "bytes": 44,
+      "sha256": "582c19e66b0caee612d1a0af2d8e17ea5f17ccb93f2b735af8940bd17a0d43e8",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/5bcc863140b9d7f789bac33b53fe003389c5874f0083b4d76ac19dc220d59e5b.webp",
+      "bytes": 639422,
+      "sha256": "5bcc863140b9d7f789bac33b53fe003389c5874f0083b4d76ac19dc220d59e5b",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/5c6541876b4fde7de03b85e3d29afb62c0e0d4a7f42b64f094e9ec99eb6aed2c.webp",
+      "bytes": 337838,
+      "sha256": "5c6541876b4fde7de03b85e3d29afb62c0e0d4a7f42b64f094e9ec99eb6aed2c",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/5d678f0252618807e56a39027a269a211748c80e2276d109a31c201ab9f33ef6.webp",
+      "bytes": 484080,
+      "sha256": "5d678f0252618807e56a39027a269a211748c80e2276d109a31c201ab9f33ef6",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/669fe64f8c8dd18bd28c27b23bbfe6f1af5311720f2a271d48eb3de61a1688d3.webp",
+      "bytes": 182600,
+      "sha256": "669fe64f8c8dd18bd28c27b23bbfe6f1af5311720f2a271d48eb3de61a1688d3",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/69c9ae2436f86b7b60f6c7412d8cace89de6cad3c3432ef7db740259e8e042c2.webp",
+      "bytes": 219680,
+      "sha256": "69c9ae2436f86b7b60f6c7412d8cace89de6cad3c3432ef7db740259e8e042c2",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/70f0e5d31725387bfb5281f68ffef89bb9577933cfc24e35373aa4f4781f5602.webp",
+      "bytes": 2612830,
+      "sha256": "70f0e5d31725387bfb5281f68ffef89bb9577933cfc24e35373aa4f4781f5602",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/777370b31ab3f246101c3e6584bdb8061cb4ea4b090a45e6d91e971f2d9a7e94.webp",
+      "bytes": 15866,
+      "sha256": "777370b31ab3f246101c3e6584bdb8061cb4ea4b090a45e6d91e971f2d9a7e94",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/7d3c60efcf51147e8d9edaf1c793c65bd95101780d32d77e504673a5f33f7614.webp",
+      "bytes": 177326,
+      "sha256": "7d3c60efcf51147e8d9edaf1c793c65bd95101780d32d77e504673a5f33f7614",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/7d65765dd0b3542f9225c9936f582296aa46e721b6d88e876418afd8050ceb74.webp",
+      "bytes": 290050,
+      "sha256": "7d65765dd0b3542f9225c9936f582296aa46e721b6d88e876418afd8050ceb74",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/884db4156d17dcbf93b43908a8533b081620d77782a9b5ab53b3b2a76b782524.webp",
+      "bytes": 44,
+      "sha256": "884db4156d17dcbf93b43908a8533b081620d77782a9b5ab53b3b2a76b782524",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/9602903c927a30de94fded6b3258bc6667eb47de9758f094a9f2b3b0408e40df.webp",
+      "bytes": 178488,
+      "sha256": "9602903c927a30de94fded6b3258bc6667eb47de9758f094a9f2b3b0408e40df",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/970bca41756f649812e044dc65542c525bba13c4b8112d2755661426061662e7.webp",
+      "bytes": 304546,
+      "sha256": "970bca41756f649812e044dc65542c525bba13c4b8112d2755661426061662e7",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/997b7bf0dc769116a96d8a508ee15da4682ed3a43a28896882d0095dec388e76.webp",
+      "bytes": 233884,
+      "sha256": "997b7bf0dc769116a96d8a508ee15da4682ed3a43a28896882d0095dec388e76",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/9ababded2bf3ae4e49fd2138e87a2071009737fe431a38e6b88de80f85089517.webp",
+      "bytes": 1441598,
+      "sha256": "9ababded2bf3ae4e49fd2138e87a2071009737fe431a38e6b88de80f85089517",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/b088a68388cc4ede1223d355e63927115f5eb7ef49cb16a57b91e3c2bfd7fb8b.webp",
+      "bytes": 644342,
+      "sha256": "b088a68388cc4ede1223d355e63927115f5eb7ef49cb16a57b91e3c2bfd7fb8b",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/b0e8aab9ac043582feab12077fb0b5e6207fd04a0194d5b949f6c6023fbf88df.webp",
+      "bytes": 194440,
+      "sha256": "b0e8aab9ac043582feab12077fb0b5e6207fd04a0194d5b949f6c6023fbf88df",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/b0f5be84efdfcb6b8acecb2775f07870de6f635d3d98fb96684c7dba5ed72b0d.webp",
+      "bytes": 734154,
+      "sha256": "b0f5be84efdfcb6b8acecb2775f07870de6f635d3d98fb96684c7dba5ed72b0d",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/b17bdecb4558cb22d1448cae0004279ff079ab5ce06972a26d0ef6aff0e19264.webp",
+      "bytes": 335580,
+      "sha256": "b17bdecb4558cb22d1448cae0004279ff079ab5ce06972a26d0ef6aff0e19264",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/b26afeb0b1c10cc3190ab36f56c2262509b2e77dd7160cdea530c785acdd5bcd.webp",
+      "bytes": 40,
+      "sha256": "b26afeb0b1c10cc3190ab36f56c2262509b2e77dd7160cdea530c785acdd5bcd",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/bb782e6f2c98660a4268417f929551fbec996f2d0361258dd9dfce80a76b074e.webp",
+      "bytes": 582614,
+      "sha256": "bb782e6f2c98660a4268417f929551fbec996f2d0361258dd9dfce80a76b074e",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/c08b38d549959522298ef005920e005fcc8534818c2da31cdc29fc2a7760abc8.webp",
+      "bytes": 2634908,
+      "sha256": "c08b38d549959522298ef005920e005fcc8534818c2da31cdc29fc2a7760abc8",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/c77e8ddf86fe65f06932b2676c0cb3b7d8b8b28b96142a38c6dc9eef67d7a637.webp",
+      "bytes": 483568,
+      "sha256": "c77e8ddf86fe65f06932b2676c0cb3b7d8b8b28b96142a38c6dc9eef67d7a637",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/cfcae2530ea2896a188a8216f645257d922d1c42972539e204a7dd2edf9c00e3.webp",
+      "bytes": 269206,
+      "sha256": "cfcae2530ea2896a188a8216f645257d922d1c42972539e204a7dd2edf9c00e3",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/d73b232d75f84b34da66c3e5712183dd3b8a93200da032ccad079114b014f205.webp",
+      "bytes": 42,
+      "sha256": "d73b232d75f84b34da66c3e5712183dd3b8a93200da032ccad079114b014f205",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/dae7a4dad1370b5548d3f23da99c196d8b202bb87475e9691767be6f3cad16b4.webp",
+      "bytes": 174752,
+      "sha256": "dae7a4dad1370b5548d3f23da99c196d8b202bb87475e9691767be6f3cad16b4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/ea12b7371c7e3522c7204d96aee455e2edc7a8abd081f180dd72593b5fd47dc2.webp",
+      "bytes": 1162638,
+      "sha256": "ea12b7371c7e3522c7204d96aee455e2edc7a8abd081f180dd72593b5fd47dc2",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/ee058f60e56dc6fab1d4b975a64b1ef618911069710b7c0f9fac39bc5fdab71a.webp",
+      "bytes": 250596,
+      "sha256": "ee058f60e56dc6fab1d4b975a64b1ef618911069710b7c0f9fac39bc5fdab71a",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/ef4970a02936318e4394f106defb572971c4ff9158e68639c50bbc086884cbb6.webp",
+      "bytes": 1390520,
+      "sha256": "ef4970a02936318e4394f106defb572971c4ff9158e68639c50bbc086884cbb6",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/f6eebef6294abdaf108dd37aaf667d09e32564ab09c2a1469a6ef37c2cc0e681.webp",
+      "bytes": 1010676,
+      "sha256": "f6eebef6294abdaf108dd37aaf667d09e32564ab09c2a1469a6ef37c2cc0e681",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/f8345b593eb50af8cb73e7195b65aac3c56ea99b4b9c9a31da4e04f96e35824e.webp",
+      "bytes": 143254,
+      "sha256": "f8345b593eb50af8cb73e7195b65aac3c56ea99b4b9c9a31da4e04f96e35824e",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/media/webp/fddf6f99f95ca26a7da78bbfe6c25aa4f1a7cf6b0e0cd887305d26cb09d92c11.webp",
+      "bytes": 396548,
+      "sha256": "fddf6f99f95ca26a7da78bbfe6c25aa4f1a7cf6b0e0cd887305d26cb09d92c11",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/navigation.json",
+      "bytes": 1024,
+      "sha256": "5ba34c6ae7b90fad4e547e1013983546331f28583e81e645225305c1229dd715",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/raster-catalog.json",
+      "bytes": 150525,
+      "sha256": "1246aac535f7f5a9a894391fef120d1525d1d08ce56d9388690fa1c776862642",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/scene-graph.json",
+      "bytes": 87066,
+      "sha256": "26a7e1558b1c65fdb1a07da706ac4da11999592549107cab3c3720b075906455",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/hall-room-world/timeline-review.json",
+      "bytes": 326116,
+      "sha256": "f20aa99d41f4a7b9d704ec949956dbb9f8a974aaab927ab6f828030ad6134a86",
+      "contentType": "application/json"
+    }
   ],
-  "readiness": {
-    "package": "complete-with-fail-closed-interactions",
+  "delivery": {
+    "rasterBase": "R033 external R2 staging",
+    "convertedMedia": "immutable P045 package objects",
+    "mutableBranchAllowed": false,
+    "legacySwfRuntimeAllowed": false
+  },
+  "consumerBoundary": {
+    "mediaConversionIsBehaviorAuthority": false,
+    "hotspotRequiresBoundsAndHandlerAuthority": true,
+    "audioPackageOwner": "P047",
     "runtimeIntegration": false,
-    "sourceUnlocked": true
+    "nextSession": "R045"
   },
-  "claims": {
-    "sceneArt": true,
-    "authoredCoordinateReferences": true,
-    "zOrderReferences": true,
-    "maskReferences": true,
-    "stateContract": true,
-    "navigationMetadata": true,
-    "gameplayAuthority": false,
-    "roomAuthority": false,
-    "hotSpringControl": false
-  },
-  "unresolved": [
-    "97 unique SWF timelines lack reviewed browser-native conversion",
-    "hotspot bounds and handlers are disabled unless exact placement and runtime authority are both proven",
-    "Hot Spring controls/interactions remain unresolved"
+  "commitPolicy": [
+    "P045",
+    "P045-F"
   ],
+  "mergeMethod": "rebase",
   "githubActions": false
 }
