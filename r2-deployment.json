@@ -16,6 +16,7 @@
     "full-resource": {
       "roots": [
         "exports",
+        "resource-port-assets",
         "flash",
         "image",
         "partical",

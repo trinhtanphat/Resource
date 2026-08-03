@@ -5,9 +5,12 @@ const encoder = new TextEncoder();
 const CONTRACT = "ddtank-r2-gateway-v1";
 const SCREEN_REF = "7dc16b70b4b868d6be709cca7d400def67f6d4b6";
 const SHOW_REF = "7ca3ac34dd14022318ebf4785f419d11545dc038";
+const R033_REF = "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a";
+const R033_KEY = "resource-port-assets/hall-room-world/r033/manifest.json";
 const bytesByKey = new Map([
   ["screens/Login/bg.png", encoder.encode("PNGDATA")],
   ["image/equip/1/show.png", encoder.encode("SHOW")],
+  [R033_KEY, encoder.encode("R033-MANIFEST")],
   ["_deployment/manifests/full-resource.json.gz", encoder.encode("MANIFEST")],
 ]);
 const calls = [];
@@ -22,9 +25,11 @@ function metadata(key, bytes, range = null, body = true) {
     customMetadata: key.startsWith("_deployment/")
       ? { sourcecommit: "c5049bc212b9e41f3ca3b77f88212f744241fb2c", complete: "1", filecount: "3" }
       : {
-          sourcecommit: key.startsWith("image/")
-            ? "f".repeat(40)
-            : "0cd1dd48f1a05ab876111f629492b2fcf98122f0",
+          sourcecommit: key.startsWith("resource-port-assets/")
+            ? R033_REF
+            : key.startsWith("image/")
+              ? "f".repeat(40)
+              : "0cd1dd48f1a05ab876111f629492b2fcf98122f0",
           sha256: "a".repeat(64),
         },
     range,
@@ -115,6 +120,19 @@ assert(response.headers.get("x-ddtank-resource-alias") === "direct", "direct ali
 assert(response.headers.get("x-ddtank-resource-revision") === "f".repeat(40), "object provenance may advance independently");
 assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "advanced object revision must retain contract");
 
+response = await request(`/objects/${R033_KEY}`);
+assert(response.status === 200, "R033 manifest GET must succeed");
+assert(response.headers.get("x-ddtank-resource-delivery") === "r2", "R033 manifest must prefer R2");
+assert(response.headers.get("x-ddtank-resource-key") === R033_KEY, "R033 manifest key header missing");
+assert(response.headers.get("x-ddtank-resource-revision") === R033_REF, "R033 manifest revision must match the immutable payload commit");
+assert(await response.text() === "R033-MANIFEST", "R033 manifest body mismatch");
+
+response = await request(`/objects/${R033_KEY}`, { method: "HEAD" });
+assert(response.status === 200, "R033 manifest HEAD must succeed");
+assert(response.headers.get("x-ddtank-resource-delivery") === "r2", "R033 HEAD must prefer R2");
+assert(response.headers.get("content-length") === String(bytesByKey.get(R033_KEY).byteLength), "R033 HEAD length mismatch");
+assert(await response.text() === "", "R033 HEAD must not return a body");
+
 response = await request("/objects/screens/Login/bg.png", {
   headers: { "If-None-Match": '"etag-screens-Login-bg.png"' },
 });
@@ -137,6 +155,11 @@ response = await request("/objects/image/equip/m/head/missing/show.png");
 assert(response.status === 200, "missing SHOW key must use reviewed immutable fallback");
 assert(fallbackCalls[1].url.includes(`/trinhtanphat/Resource/${SHOW_REF}/image/equip/m/head/missing/show.png`), "SHOW fallback URL must remain immutable");
 
+response = await request("/objects/resource-port-assets/hall-room-world/r033/raster/missing.png");
+assert(response.status === 200, "missing R033 key must use reviewed immutable fallback");
+assert(response.headers.get("x-ddtank-resource-delivery") === "immutable-fallback", "R033 fallback delivery evidence missing");
+assert(fallbackCalls[2].url.includes(`/trinhtanphat/Resource/${R033_REF}/resource-port-assets/hall-room-world/r033/raster/missing.png`), "R033 fallback URL must remain immutable");
+
 response = await request("/objects/%252e%252e/screens/Login/bg.png");
 assert(response.status === 400, "encoded traversal must be rejected");
 response = await request("/objects/unknown/file.png");
@@ -151,12 +174,13 @@ assert(response.headers.get("x-ddtank-resource-contract") === CONTRACT, "preflig
 
 assert(__R2_GATEWAY_TESTING__.gatewayContract === CONTRACT, "exported gateway contract drift");
 assert(__R2_GATEWAY_TESTING__.normalizeObjectKey("screens/Login/bg.png") === "screens/Login/bg.png", "safe key normalization failed");
+assert(__R2_GATEWAY_TESTING__.normalizeObjectKey(R033_KEY) === R033_KEY, "R033 root normalization failed");
 assert(__R2_GATEWAY_TESTING__.normalizeObjectKey("screens/../bg.png") === null, "unsafe key normalization accepted traversal");
 assert(calls.some((entry) => entry.method === "get" && entry.key === "screens/Login/bg.png"), "R2 key was not read");
 
 console.log(JSON.stringify({
   status: "ok",
-  assertions: 40,
+  assertions: 53,
   gatewayContract: CONTRACT,
   r2Calls: calls.length,
   fallbackCalls: fallbackCalls.length,

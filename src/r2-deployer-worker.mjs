@@ -7,7 +7,7 @@ const MAX_OBJECT_KEY_LENGTH = 2048;
 const DEFAULT_CACHE_CONTROL = "public, max-age=86400, s-maxage=86400, stale-while-revalidate=86400";
 const IMMUTABLE_CACHE_CONTROL = "public, max-age=31536000, immutable";
 const PUBLIC_ROOTS = new Set([
-  "exports", "flash", "image", "partical", "sound", "video", "weekly", "xml",
+  "exports", "resource-port-assets", "flash", "image", "partical", "sound", "video", "weekly", "xml",
   "screens", "pets", "effects", "public",
 ]);
 
@@ -26,6 +26,11 @@ const IMMUTABLE_FALLBACKS = Object.freeze([
     repository: "trinhtanphat/Resource",
     releaseRef: "3c05990a88d66ab3364a00b7e4cf71201f528cf4",
     prefixes: Object.freeze(["exports/resource-port/common-ui/"]),
+  }),
+  Object.freeze({
+    repository: "trinhtanphat/Resource",
+    releaseRef: "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a",
+    prefixes: Object.freeze(["resource-port-assets/hall-room-world/r033/"]),
   }),
   Object.freeze({
     repository: "trinhtanphat/Gunny",

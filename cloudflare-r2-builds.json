@@ -10,6 +10,7 @@
   "watchPaths": {
     "include": [
       "exports/**",
+      "resource-port-assets/**",
       "flash/**",
       "image/**",
       "partical/**",
