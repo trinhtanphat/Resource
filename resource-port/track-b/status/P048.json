@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P048",
+  "runtimeSessionId": "R048",
+  "owner": "tutorial-video",
+  "status": "complete-package",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "dependency": {
+    "sessionId": "R036",
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "findingsCommit": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170",
+    "evidencePath": "config/resource-port-evidence/R036.json",
+    "evidenceGitBlobSha1": "6bbb36e24af8feae1438008a518fb6045a0aecee",
+    "evidenceSha256": "cc17a78c30b898380d4c5403b2e3227117249235fefd4f5678e3bd0838c52bda",
+    "dispatchPath": "config/resource-port-dispatch/shards/tutorial-video-001.json",
+    "dispatchSha256": "8a8d2c044a50970259def03f65f94c90d409863d8a9947c283f191fc0539184a",
+    "verifiedOnGunnyMain": "f813311182e55cd8df46953c914b9a11aa517c12"
+  },
+  "summary": {
+    "sourceFiles": 2,
+    "sourceBytes": 1152234,
+    "uniqueSourceBlobs": 1,
+    "sourceFlvFiles": 2,
+    "browserVideoOutputs": 1,
+    "browserVideoBytes": 1471331,
+    "posterOutputs": 1,
+    "posterBytes": 155649,
+    "exactAssetSelections": 2,
+    "exactBrowserDerivatives": 2,
+    "inferredConsumerMappings": 0,
+    "unresolvedConsumerMappings": 1,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "repository": "trinhtanphat/Resource",
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  },
+  "checks": {
+    "r036Importer": "pass on reviewed Gunny main; two pinned paths remain explicit Track A inputs",
+    "sourcePinAndTree": "pass",
+    "ffprobeSourceAndOutputs": "pass",
+    "deterministicCodecConversion": "pass: repeated MP4 and poster bytes",
+    "packageChecker": "pass after generation; rerun with pinned P048_FFMPEG and P048_FFPROBE",
+    "interactionAuthority": "unresolved and disabled; no literal source consumer found",
+    "programVerifier": "coordinator-owned session map unchanged",
+    "githubActionsUsedOrInspected": false
+  }
+}

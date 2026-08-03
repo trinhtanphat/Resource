@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P048",
+  "runtimeSessionId": "R048",
+  "owner": "tutorial-video",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "paths": [
+      {
+        "path": "image/video/simpletutorial.flv",
+        "gitMode": "100644",
+        "gitBlobSha1": "5ceb67ede18f9156fd20503933830b3537b2c9a1",
+        "sha256": "076f85950f84749a34d5af167219cd32cfb7fda367d55ac78ccbed11ca1bf558",
+        "bytes": 576117,
+        "classification": "exact"
+      },
+      {
+        "path": "video/simpletutorial.flv",
+        "gitMode": "100644",
+        "gitBlobSha1": "5ceb67ede18f9156fd20503933830b3537b2c9a1",
+        "sha256": "076f85950f84749a34d5af167219cd32cfb7fda367d55ac78ccbed11ca1bf558",
+        "bytes": 576117,
+        "classification": "exact"
+      }
+    ],
+    "duplicatePaths": 2,
+    "uniqueBlobs": 1,
+    "container": "flv",
+    "videoCodec": "vp6f",
+    "audioStreams": 0,
+    "width": 350,
+    "height": 350,
+    "frameRate": "30/1",
+    "decodedFrames": 541,
+    "metadataDurationSeconds": 18,
+    "probe": {
+      "format": {
+        "names": [
+          "flv"
+        ],
+        "duration": "18.000000",
+        "size": "576117",
+        "bitRate": "256052"
+      },
+      "streams": [
+        {
+          "index": 0,
+          "type": "video",
+          "codec": "vp6f",
+          "profile": null,
+          "width": 350,
+          "height": 350,
+          "pixelFormat": "yuv420p",
+          "realFrameRate": "30/1",
+          "averageFrameRate": "30/1",
+          "startTime": "0.000000",
+          "duration": null,
+          "bitRate": "204800",
+          "frames": null,
+          "decodedFrames": "541"
+        }
+      ]
+    }
+  },
+  "browserVideo": {
+    "path": "exports/resource-port/tutorial-video/video/f066ea603f9daf60a12deb5b98303aea944b354b01bb9348c0395804a33b405a.mp4",
+    "sha256": "f066ea603f9daf60a12deb5b98303aea944b354b01bb9348c0395804a33b405a",
+    "bytes": 1471331,
+    "mime": "video/mp4",
+    "container": "mp4",
+    "videoCodec": "h264",
+    "videoProfile": "High",
+    "audioCodec": null,
+    "width": 350,
+    "height": 350,
+    "pixelFormat": "yuv420p",
+    "frameRate": "30/1",
+    "decodedFrames": 541,
+    "durationSeconds": 18.033333,
+    "conversion": "pinned-ffmpeg-vp6-to-h264-crf18-single-thread-bitexact-faststart",
+    "classification": "exact",
+    "probe": {
+      "format": {
+        "names": [
+          "mov",
+          "mp4",
+          "m4a",
+          "3gp",
+          "3g2",
+          "mj2"
+        ],
+        "duration": "18.033333",
+        "size": "1471331",
+        "bitRate": "652716"
+      },
+      "streams": [
+        {
+          "index": 0,
+          "type": "video",
+          "codec": "h264",
+          "profile": "High",
+          "width": 350,
+          "height": 350,
+          "pixelFormat": "yuv420p",
+          "realFrameRate": "30/1",
+          "averageFrameRate": "30/1",
+          "startTime": "0.000000",
+          "duration": "18.033333",
+          "bitRate": "650310",
+          "frames": "541",
+          "decodedFrames": "541"
+        }
+      ]
+    }
+  },
+  "poster": {
+    "path": "exports/resource-port/tutorial-video/poster/180054569db73e5267d1f1ee158816b5e833c5084637ba26718b363fcbd25557.png",
+    "sha256": "180054569db73e5267d1f1ee158816b5e833c5084637ba26718b363fcbd25557",
+    "bytes": 155649,
+    "mime": "image/png",
+    "width": 350,
+    "height": 350,
+    "frameIndex": 0,
+    "timestampSeconds": 0,
+    "selection": "first decoded source frame without crop, resize, or authored overlay",
+    "classification": "exact",
+    "probe": {
+      "format": {
+        "names": [
+          "png_pipe"
+        ],
+        "duration": null,
+        "size": "155649",
+        "bitRate": null
+      },
+      "streams": [
+        {
+          "index": 0,
+          "type": "video",
+          "codec": "png",
+          "profile": null,
+          "width": 350,
+          "height": 350,
+          "pixelFormat": "rgb24",
+          "realFrameRate": "25/1",
+          "averageFrameRate": "25/1",
+          "startTime": null,
+          "duration": null,
+          "bitRate": null,
+          "frames": null,
+          "decodedFrames": null
+        }
+      ]
+    }
+  },
+  "content": {
+    "visualText": "burned into the source video frames",
+    "separateCaptionTrack": false,
+    "localizationClassification": "unresolved"
+  },
+  "playbackAndInteraction": {
+    "consumerClassification": "unresolved",
+    "literalAssetCallsites": [],
+    "reviewedSourceRoot": "Gunny92/flashbaseSrc/src/**/*.as",
+    "reviewedSearchTerms": [
+      "simpletutorial",
+      "tutorial.flv"
+    ],
+    "autoplay": null,
+    "loop": null,
+    "skip": null,
+    "completionSignal": null,
+    "captionBehavior": null,
+    "playerDefault": "disabled-until-R048-explicit-consumer-authority",
+    "reason": "No ActionScript literal binds either source path to a tutorial lifecycle or player state."
+  },
+  "runtimeBoundary": {
+    "browserNativeMedia": true,
+    "browserNativePoster": true,
+    "rawFlvRuntimeAllowed": false,
+    "packageOnly": true,
+    "runtimeIntegration": false,
+    "unresolvedConsumersFailClosed": true
+  }
+}

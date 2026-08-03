@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P048",
+  "runtimeSessionId": "R048",
+  "owner": "tutorial-video",
+  "packageManifest": "exports/resource-port/tutorial-video/manifest.json",
+  "assetAddressing": {
+    "kind": "immutable-commit-relative-path",
+    "repository": "trinhtanphat/Resource",
+    "mutableBranchAllowed": false
+  },
+  "media": {
+    "sourceContainer": "flv",
+    "forbiddenRuntimeContainers": [
+      "flv",
+      "swf"
+    ],
+    "browserContainer": "mp4",
+    "browserVideoCodec": "h264",
+    "browserAudioCodec": null,
+    "posterMime": "image/png",
+    "preserveDimensions": true,
+    "preserveFrameRate": true,
+    "preserveAllDecodedFrames": true
+  },
+  "playback": {
+    "autoplay": "unresolved-disabled",
+    "loop": "unresolved-disabled",
+    "skip": "unresolved-disabled",
+    "completion": "unresolved-disabled",
+    "captions": "no separate track; burned-in source text retained without invented localization"
+  },
+  "consumers": {
+    "exact": 0,
+    "inferred": 0,
+    "unresolved": 1,
+    "failClosed": true
+  },
+  "handoffRequirements": [
+    "Pin the immutable Resource merge commit.",
+    "Load the MP4 and poster only through the central same-origin package resolver.",
+    "Keep raw FLV and every unresolved playback or completion behavior inactive.",
+    "Require explicit reviewed consumer authority before mounting the tutorial player.",
+    "Do not treat the burned-in source text as a separate caption or localization contract."
+  ]
+}
