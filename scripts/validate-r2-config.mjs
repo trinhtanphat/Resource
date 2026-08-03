@@ -106,7 +106,7 @@ const expectedScripts = {
   "r2:probe:ci": "node scripts/r2-runtime-command.mjs probe",
   "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
   "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
-  "cloudflare:deploy:r2": "npm run r2:validate && npm run r2:deploy:ci && npm run deploy:r2-worker"
+  "cloudflare:deploy:r2": "npm run r2:validate && npm run deploy:r2-worker && npm run r2:deploy:ci"
 };
 for (const [name, value] of Object.entries(expectedScripts)) {
   expect(packageJson.scripts?.[name], value, `package script ${name}`);
