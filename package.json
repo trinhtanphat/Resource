@@ -18,8 +18,9 @@
     "r2:probe": "node scripts/r2-deploy.mjs probe",
     "r2:deploy": "node scripts/r2-deploy.mjs deploy",
     "r2:gateway:test": "node scripts/r2-gateway-self-test.mjs",
-    "r2:validate": "node scripts/validate-r2-config.mjs && node scripts/r2-gateway-self-test.mjs",
-    "postr2:validate": "node scripts/r2-prune-unmanaged.mjs self-test",
+    "r2:prune:test": "node scripts/r2-prune-unmanaged.mjs self-test",
+    "r2:prune": "node scripts/r2-prune-unmanaged.mjs prune",
+    "r2:validate": "node scripts/validate-r2-config.mjs && node scripts/r2-gateway-self-test.mjs && npm run r2:prune:test",
     "r2:runtime:materialize": "node scripts/materialize-r2-runtime-exports.mjs",
     "r2:plan:ci": "node scripts/r2-runtime-command.mjs plan",
     "r2:deploy:ci": "node scripts/r2-runtime-command.mjs deploy",
@@ -27,8 +28,7 @@
     "r2:probe:ci": "node scripts/r2-runtime-command.mjs probe",
     "r2:self-test": "node scripts/r2-ci-deploy.mjs self-test",
     "deploy:r2-worker": "npx wrangler deploy --config wrangler.r2-deployer.jsonc",
-    "cloudflare:deploy:r2": "npm run r2:validate && npm run deploy:r2-worker && npm run r2:deploy:ci",
-    "postcloudflare:deploy:r2": "node scripts/r2-prune-unmanaged.mjs prune"
+    "cloudflare:deploy:r2": "npm run r2:validate && npm run deploy:r2-worker && npm run r2:deploy:ci && npm run r2:prune"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.1095.0",
