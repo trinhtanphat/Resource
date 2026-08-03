@@ -21,6 +21,7 @@
       "scripts/materialize-r2-runtime-exports.mjs",
       "scripts/r2-runtime-command.mjs",
       "scripts/r2-ci-deploy.mjs",
+      "scripts/r2-prune-unmanaged.mjs",
       "scripts/r2-gateway-self-test.mjs",
       "scripts/validate-r2-config.mjs",
       "src/r2-deployer-worker.mjs",
@@ -44,9 +45,11 @@
     "This file is the canonical dashboard matrix; Cloudflare does not import it automatically.",
     "Create or connect the Worker named ddtank-r2-deployer to this repository.",
     "Keep preview builds disabled so non-main branches cannot publish production objects.",
-    "The production command validates the R2 object gateway, materializes immutable browser-ready runtime exports, uploads the full-resource profile, and only then deploys the Worker.",
+    "The production command validates the R2 object gateway, deploys the current Worker, materializes immutable browser-ready runtime exports, uploads the full-resource profile, probes the public gateway, and then prunes every bucket object outside the full-resource allowlist.",
+    "The prune step preserves all configured profile manifests and refuses to run from a partial profile or an unexpectedly small managed file set.",
     "External runtime source updates require an immutable pin change in r2-deployment.json.",
     "The Worker exposes canonical /objects/<key> GET/HEAD/Range routes; legacy immutable aliases exist only for rollback compatibility.",
+    "Internal roots such as _review are never public Worker routes and are removed from the R2 bucket by the post-deploy prune step.",
     "Set R2_PUBLIC_BASE_URL only after a custom domain or temporary r2.dev URL is enabled."
   ]
 }
