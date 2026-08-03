@@ -33,6 +33,11 @@ const IMMUTABLE_FALLBACKS = Object.freeze([
     prefixes: Object.freeze(["resource-port-assets/hall-room-world/r033/"]),
   }),
   Object.freeze({
+    repository: "trinhtanphat/Resource",
+    releaseRef: "2c85526303c15dbff0585c5976823aef7c9da33d",
+    prefixes: Object.freeze(["exports/resource-port/hall-room-world/"]),
+  }),
+  Object.freeze({
     repository: "trinhtanphat/Gunny",
     releaseRef: "669ddf6b462f79d16afbb020f6a5a3285685c987",
     prefixes: Object.freeze(["public/game-ui/audio/"]),

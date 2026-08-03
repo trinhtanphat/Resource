@@ -155,7 +155,9 @@ for (const marker of [
   "immutable-fallback",
   "objects/",
   "resource-port-assets/hall-room-world/r033/",
-  "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a"
+  "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a",
+  "exports/resource-port/hall-room-world/",
+  "2c85526303c15dbff0585c5976823aef7c9da33d"
 ]) {
   if (!gatewaySource.includes(marker)) failures.push(`gateway source: missing ${marker}`);
 }
@@ -167,6 +169,7 @@ for (const marker of [
   "R033 manifest GET must succeed",
   "R033 manifest HEAD must succeed",
   "R033 fallback URL must remain immutable",
+  "P045 fallback URL must remain immutable",
   "R2 conditional GET must use HEAD preflight"
 ]) {
   if (!gatewayTestSource.includes(marker)) failures.push(`gateway self-test: missing ${marker}`);

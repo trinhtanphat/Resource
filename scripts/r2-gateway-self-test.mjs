@@ -6,6 +6,7 @@ const CONTRACT = "ddtank-r2-gateway-v1";
 const SCREEN_REF = "7dc16b70b4b868d6be709cca7d400def67f6d4b6";
 const SHOW_REF = "7ca3ac34dd14022318ebf4785f419d11545dc038";
 const R033_REF = "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a";
+const P045_REF = "2c85526303c15dbff0585c5976823aef7c9da33d";
 const R033_KEY = "resource-port-assets/hall-room-world/r033/manifest.json";
 const bytesByKey = new Map([
   ["screens/Login/bg.png", encoder.encode("PNGDATA")],
@@ -164,6 +165,11 @@ assert(response.status === 200, "missing R033 key must use reviewed immutable fa
 assert(response.headers.get("x-ddtank-resource-delivery") === "immutable-fallback", "R033 fallback delivery evidence missing");
 assert(fallbackCalls[2].url.includes(`/trinhtanphat/Resource/${R033_REF}/resource-port-assets/hall-room-world/r033/raster/missing.png`), "R033 fallback URL must remain immutable");
 
+response = await request("/objects/exports/resource-port/hall-room-world/media/svg/missing.svg");
+assert(response.status === 200, "missing P045 key must use reviewed immutable fallback");
+assert(response.headers.get("x-ddtank-resource-delivery") === "immutable-fallback", "P045 fallback delivery evidence missing");
+assert(fallbackCalls[3].url.includes(`/trinhtanphat/Resource/${P045_REF}/exports/resource-port/hall-room-world/media/svg/missing.svg`), "P045 fallback URL must remain immutable");
+
 response = await request("/objects/%252e%252e/screens/Login/bg.png");
 assert(response.status === 400, "encoded traversal must be rejected");
 response = await request("/objects/unknown/file.png");
@@ -184,7 +190,7 @@ assert(calls.some((entry) => entry.method === "get" && entry.key === "screens/Lo
 
 console.log(JSON.stringify({
   status: "ok",
-  assertions: 55,
+  assertions: 58,
   gatewayContract: CONTRACT,
   r2Calls: calls.length,
   fallbackCalls: fallbackCalls.length,
