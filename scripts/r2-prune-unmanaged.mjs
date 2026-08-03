@@ -2,7 +2,10 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { gunzip } from "node:zlib";
+import { promisify } from "node:util";
 
+const gunzipAsync = promisify(gunzip);
 const repositoryRoot = process.env.R2_REPO_ROOT
   ? path.resolve(process.env.R2_REPO_ROOT)
   : fileURLToPath(new URL("..", import.meta.url));
@@ -13,6 +16,7 @@ const profile = config.profiles?.[profileName];
 const ci = config.ci ?? {};
 const branch = process.env.WORKERS_CI_BRANCH ?? process.env.GIT_BRANCH ?? null;
 const manifestPrefix = String(ci.manifestPrefix ?? "_deployment/manifests").replace(/^\/+|\/+$/gu, "");
+const manifestKey = `${manifestPrefix}/${profileName}.json.gz`;
 
 function validateConfiguration() {
   if (config.schemaVersion !== 2) throw new Error("r2-deployment.json schemaVersion must be 2");
@@ -24,9 +28,6 @@ function validateConfiguration() {
   if (profileName !== config.defaultProfile && process.env.R2_PRUNE_ALLOW_PARTIAL !== "1") {
     throw new Error(`Refusing to prune from partial profile ${profileName}; expected ${config.defaultProfile}`);
   }
-  for (const rootName of profile.roots) {
-    if (!/^[A-Za-z0-9._-]+$/u.test(rootName)) throw new Error(`Unsafe source root: ${rootName}`);
-  }
 }
 
 function positiveInteger(value, fallback, maximum = Number.MAX_SAFE_INTEGER) {
@@ -34,39 +35,16 @@ function positiveInteger(value, fallback, maximum = Number.MAX_SAFE_INTEGER) {
   return Number.isInteger(parsed) && parsed > 0 ? Math.min(parsed, maximum) : fallback;
 }
 
-async function walk(directory) {
-  const entries = await fs.readdir(directory, { withFileTypes: true });
-  entries.sort((a, b) => a.name.localeCompare(b.name, "en"));
-  const files = [];
-  for (const entry of entries) {
-    if (entry.name === ".DS_Store" || entry.name === "Thumbs.db") continue;
-    const absolute = path.join(directory, entry.name);
-    if (entry.isSymbolicLink()) throw new Error(`Symlinks are not allowed in R2 source roots: ${absolute}`);
-    if (entry.isDirectory()) files.push(...await walk(absolute));
-    else if (entry.isFile()) files.push(absolute);
-  }
-  return files;
+async function bodyToBuffer(body) {
+  if (!body) return Buffer.alloc(0);
+  if (typeof body.transformToByteArray === "function") return Buffer.from(await body.transformToByteArray());
+  const chunks = [];
+  for await (const chunk of body) chunks.push(Buffer.from(chunk));
+  return Buffer.concat(chunks);
 }
 
-function profileManifestKeys() {
+function protectedManifestKeys() {
   return Object.keys(config.profiles ?? {}).map((name) => `${manifestPrefix}/${name}.json.gz`);
-}
-
-async function collectManagedKeys() {
-  const managed = new Set(profileManifestKeys());
-  for (const rootName of profile.roots) {
-    const absoluteRoot = path.join(repositoryRoot, rootName);
-    const stat = await fs.stat(absoluteRoot).catch((error) => {
-      if (error?.code === "ENOENT") throw new Error(`Configured source root does not exist: ${rootName}`);
-      throw error;
-    });
-    if (!stat.isDirectory()) throw new Error(`Configured source root is not a directory: ${rootName}`);
-    for (const absolutePath of await walk(absoluteRoot)) {
-      const key = path.relative(repositoryRoot, absolutePath).split(path.sep).join("/").normalize("NFC");
-      managed.add(key);
-    }
-  }
-  return managed;
 }
 
 function findUnmanagedKeys(remoteKeys, managedKeys) {
@@ -101,13 +79,29 @@ async function createS3() {
   return { client, sdk };
 }
 
+async function readManagedKeys(client, sdk) {
+  const response = await client.send(new sdk.GetObjectCommand({ Bucket: config.bucket, Key: manifestKey }));
+  const manifest = JSON.parse((await gunzipAsync(await bodyToBuffer(response.Body))).toString("utf8"));
+  if (manifest.schemaVersion !== 1 || manifest.profile !== profileName || manifest.complete !== true) {
+    throw new Error(`Refusing to prune from incompatible or incomplete manifest: ${manifestKey}`);
+  }
+  const files = manifest.files;
+  if (!files || typeof files !== "object" || Array.isArray(files)) {
+    throw new Error(`R2 manifest has no managed file map: ${manifestKey}`);
+  }
+  const managedKeys = new Set(Object.keys(files).map((key) => key.normalize("NFC")));
+  for (const key of protectedManifestKeys()) managedKeys.add(key);
+  return managedKeys;
+}
+
 async function listRemoteKeys(client, sdk) {
   const keys = [];
   let continuationToken;
   do {
     const response = await client.send(new sdk.ListObjectsV2Command({
       Bucket: config.bucket,
-      ContinuationToken: continuationToken
+      ContinuationToken: continuationToken,
+      MaxKeys: 1000
     }));
     for (const object of response.Contents ?? []) {
       if (typeof object.Key === "string" && object.Key.length > 0) keys.push(object.Key.normalize("NFC"));
@@ -121,9 +115,10 @@ async function listRemoteKeys(client, sdk) {
 }
 
 async function deleteKeys(client, sdk, keys) {
+  const batchSize = positiveInteger(process.env.R2_PRUNE_DELETE_BATCH_SIZE, 100, 100);
   let deleted = 0;
-  for (let offset = 0; offset < keys.length; offset += 1000) {
-    const batch = keys.slice(offset, offset + 1000);
+  for (let offset = 0; offset < keys.length; offset += batchSize) {
+    const batch = keys.slice(offset, offset + batchSize);
     const response = await client.send(new sdk.DeleteObjectsCommand({
       Bucket: config.bucket,
       Delete: { Quiet: true, Objects: batch.map((Key) => ({ Key })) }
@@ -143,15 +138,19 @@ async function prune() {
     console.log(JSON.stringify(report, null, 2));
     return report;
   }
-  const managedKeys = await collectManagedKeys();
+  const { client, sdk } = await createS3();
+  const managedKeys = await readManagedKeys(client, sdk);
   const minimumManagedFiles = positiveInteger(process.env.R2_PRUNE_MIN_MANAGED_FILES, 1000, 10_000_000);
-  const managedResourceFiles = managedKeys.size - profileManifestKeys().length;
+  const managedResourceFiles = managedKeys.size - protectedManifestKeys().length;
   if (managedResourceFiles < minimumManagedFiles) {
     throw new Error(`Refusing to prune with only ${managedResourceFiles} managed resource files; minimum is ${minimumManagedFiles}`);
   }
-  const { client, sdk } = await createS3();
   const remoteKeys = await listRemoteKeys(client, sdk);
   const unmanagedKeys = findUnmanagedKeys(remoteKeys, managedKeys);
+  const maximumDeletes = positiveInteger(process.env.R2_PRUNE_MAX_DELETE, 100_000, 1_000_000);
+  if (unmanagedKeys.length > maximumDeletes) {
+    throw new Error(`Refusing to prune ${unmanagedKeys.length} objects; maximum is ${maximumDeletes}`);
+  }
   const dryRun = process.env.R2_PRUNE_DRY_RUN === "1";
   const deleted = dryRun ? 0 : await deleteKeys(client, sdk, unmanagedKeys);
   const report = {
@@ -161,8 +160,9 @@ async function prune() {
     profile: profileName,
     branch,
     dryRun,
+    manifestKey,
     managedResourceFiles,
-    protectedManifestKeys: profileManifestKeys(),
+    protectedManifestKeys: protectedManifestKeys(),
     remoteObjects: remoteKeys.length,
     unmanagedDetected: unmanagedKeys.length,
     deleted,
@@ -194,7 +194,7 @@ function selfTest() {
   if (summary._review !== 1 || summary["package.json"] !== 1) {
     throw new Error(`R2 prune summary self-test failed: ${JSON.stringify(summary)}`);
   }
-  console.log(JSON.stringify({ status: "ok", command: "self-test", assertions: 2 }, null, 2));
+  console.log(JSON.stringify({ status: "ok", command: "self-test", assertions: 2, deleteBatchMaximum: 100 }, null, 2));
 }
 
 switch (command) {
