@@ -23,6 +23,7 @@ function expectArray(actual, expected, label) {
 
 const localResourceRoots = [
   "exports",
+  "resource-port-assets",
   "flash",
   "image",
   "partical",
@@ -152,7 +153,9 @@ for (const marker of [
   "range: request.headers",
   "X-DDTank-Resource-Delivery",
   "immutable-fallback",
-  "objects/"
+  "objects/",
+  "resource-port-assets/hall-room-world/r033/",
+  "3c35db1200d5f52ac37e7c5f8fc7afdf58ebea4a"
 ]) {
   if (!gatewaySource.includes(marker)) failures.push(`gateway source: missing ${marker}`);
 }
@@ -160,7 +163,10 @@ for (const marker of [
   "canonical object GET must succeed",
   "range GET must return 206",
   "encoded traversal must be rejected",
-  "known missing R2 key must use immutable fallback"
+  "known missing R2 key must use immutable fallback",
+  "R033 manifest GET must succeed",
+  "R033 manifest HEAD must succeed",
+  "R033 fallback URL must remain immutable"
 ]) {
   if (!gatewayTestSource.includes(marker)) failures.push(`gateway self-test: missing ${marker}`);
 }
