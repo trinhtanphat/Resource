@@ -2,29 +2,39 @@
   "schemaVersion": 1,
   "packageSessionId": "P045",
   "runtimeSessionId": "R045",
-  "authority": "presentation-contract-only",
-  "transitions": [
-    {"id": "hall-to-room", "from": "hall", "to": "room", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "Room membership and routing belong to Gunny runtime authority."},
-    {"id": "room-to-hall", "from": "room", "to": "hall", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "No reviewed source hotspot/handler pair is published by R033."},
-    {"id": "world-to-hall", "from": "world", "to": "hall", "state": "declared-disabled", "enabled": false, "coordinates": null, "handler": null, "reason": "Scene transition target is known; authored hit bounds are not independently authoritative."},
-    {"id": "world-to-hot-spring", "from": "world", "to": "hot-spring", "state": "foundation-only", "enabled": false, "coordinates": null, "handler": null, "reason": "Hot Spring backdrop/foundation does not prove control or entry eligibility."},
-    {"id": "hot-spring-to-world", "from": "hot-spring", "to": "world", "state": "foundation-only", "enabled": false, "coordinates": null, "handler": null, "reason": "Exit control and lifecycle are not published."}
+  "transitions": [],
+  "hotspots": [
+    {
+      "id": "camp-battle-map-define-button2-1",
+      "sourceSha256": "1b62ebfdd0271221b166b814c08ca087a4d6591af5def6ca5a44d3a2b65e0e16",
+      "sourcePath": "image/camp/map/campbattlemap.swf",
+      "sourceButtonEvidence": {
+        "defineButton2": 1,
+        "states": {
+          "Up": 2,
+          "Over": 2,
+          "Down": 2,
+          "HitTest": 2
+        }
+      },
+      "bounds": null,
+      "handler": null,
+      "enabled": false,
+      "disabledReasons": [
+        "R033 aggregate bounds are not bound to this button character",
+        "P045 has no authoritative navigation handler for this source button"
+      ]
+    }
   ],
-  "hotspots": {
-    "published": 5,
+  "summary": {
+    "sourceCandidates": 1,
     "enabled": 0,
-    "coordinatePolicy": "Coordinates remain null unless R045 runtime integration binds an exact R033 placement and an authoritative handler.",
-    "zOrder": 400,
-    "maskPolicy": "Preserve source clipDepth masks when a reviewed browser timeline conversion exists; otherwise disable."
+    "transitions": 0
   },
-  "states": {
-    "default": {"visible": true, "interactive": false},
-    "loading": {"visible": true, "interactive": false},
-    "disabled": {"visible": true, "interactive": false},
-    "waiting": {"visible": true, "interactive": false},
-    "ready": {"visible": true, "interactive": false},
-    "in-game": {"visible": true, "interactive": false},
-    "closed": {"visible": false, "interactive": false},
-    "foundation": {"visible": true, "interactive": false}
+  "policy": {
+    "boundsRequired": true,
+    "handlerAuthorityRequired": true,
+    "filenameOrNearbyGeometryInferenceAllowed": false,
+    "defaultEnabled": false
   }
 }

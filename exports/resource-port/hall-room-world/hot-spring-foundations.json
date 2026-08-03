@@ -1,25 +1,102 @@
 {
   "schemaVersion": 1,
   "packageSessionId": "P045",
-  "sceneId": "hot-spring",
-  "scope": "visual-foundations",
-  "sourcePrefix": "image/hotSpring/",
-  "published": {
-    "backdrops": {"status": "catalogued-by-R033", "contentAddressed": true},
-    "skins": {"status": "catalogued-by-R033", "contentAddressed": true},
-    "compiledCoordinates": {"status": "reference-only", "source": "R033 FFDec transforms and bounds"},
-    "zOrder": {"status": "reference-only", "source": "R033 display depths"},
-    "masks": {"status": "reference-only", "source": "R033 clipDepth"},
-    "states": ["foundation", "loading", "disabled"]
+  "runtimeSessionId": "R045",
+  "scope": "existing-gunny-foundation-audit",
+  "p045SourceMatches": 0,
+  "foundation": {
+    "repository": "trinhtanphat/Gunny",
+    "immutableCommit": "96a86885e23e5028e6654ed5b029870151b32d73",
+    "files": [
+      {
+        "path": "config/source-hot-spring-room-list.json",
+        "gitBlobSha1": "97408f72fe8c50b9ebbf46f611f52b9f4b9adf77",
+        "bytes": 7113,
+        "sha256": "b69614cf5fe41b18d01d4c9e16a1cf50b78b4f73f33b69a76b4e93d6fb2356a0"
+      },
+      {
+        "path": "config/source-hot-spring-room-world.json",
+        "gitBlobSha1": "5f124c74c218ac4a30a2570a235141bce10e86ed",
+        "bytes": 10027,
+        "sha256": "d69e11d892728a7797cf121d466c838e98000dc7fc2700179abe0cb8d7b2ac83"
+      },
+      {
+        "path": "public/game-ui/hall/hover/hot-spring.png",
+        "gitBlobSha1": "cd622b71635370f2c57aecd3d91350468f5fc3ac",
+        "bytes": 96629,
+        "sha256": "1eeea5db6b5c85d651c85f5f11c2bd1eaa771e47a1c05970323ca8d600f63d38"
+      },
+      {
+        "path": "src/client/source-hot-spring-room-list.ts",
+        "gitBlobSha1": "5e009e01d248cc03574174caeea543fcffd723a9",
+        "bytes": 13382,
+        "sha256": "d13a1e99207a39a0400d92a9619e8944854dacacaacbb0fa5bb7d1bc5bf26177"
+      },
+      {
+        "path": "src/client/source-hot-spring-room-world.ts",
+        "gitBlobSha1": "6027313443339b32caea0f7683174ab068c30c33",
+        "bytes": 25086,
+        "sha256": "34fb3530cc311438e2a2a9a900731300e28b69660891005e9329407554165b1c"
+      },
+      {
+        "path": "src/worker/source-s030-hot-spring-runtime.ts",
+        "gitBlobSha1": "2ba861f7bf958491111edd59f699cd5292aea0f8",
+        "bytes": 1569,
+        "sha256": "97e0de0d4800c934168a4afe3e4981f8317cb45055e4563140a04a414eebdbd6"
+      },
+      {
+        "path": "tests/source-hot-spring-room-world.test.ts",
+        "gitBlobSha1": "4d7faee33f1323ba07e617b3603d6fbfe28d8a62",
+        "bytes": 10416,
+        "sha256": "dcfc8b7f8ec33324f4ae6ca49d55935254d14762e86fe63a64be59c66e41e03c"
+      }
+    ],
+    "roomWorld": {
+      "sourceSwfSha256": "98a7aeb6a525b1092eb6e66939810688b10afc4f978e68065981ce35d6fde1da",
+      "sourceSwfBytes": 2272644,
+      "viewport": {
+        "width": 1000,
+        "height": 600
+      },
+      "map": {
+        "width": 1200,
+        "height": 1077,
+        "initialX": 0,
+        "initialY": -210
+      },
+      "menu": {
+        "x": 904,
+        "y": 530
+      },
+      "exportedAssetCount": 132,
+      "exportedBytes": 7589533,
+      "compositionAssetCount": 22,
+      "missingVectorShapes": 136,
+      "missingSpriteTimelines": 41,
+      "missingSceneTextureMasks": "Shape 308 for day texture and Shape 78 for night texture",
+      "missingCollisionMask": "Shape 239, bounds 0,0-1200,1077",
+      "missingWaterMask": "Shape 215, bounds 438.9,647.55-1138.15,1035.25",
+      "fidelity": {
+        "classification": "source-raw-texture-approximation",
+        "pixelExact": false,
+        "reason": "The reviewed release contains all embedded bitmaps but not the Shape 308/78 masks, collision/water geometry or rendered player timelines. The owner uses the fully opaque raw day/night textures, exact recoverable tree and house overlays, and source controls without inventing missing vector material."
+      }
+    },
+    "roomList": {
+      "sourceSwfSha256": "519bef2a2de743ebf45201bff913f1a969d6d234e2762f3a4793421a184e09c5",
+      "sourceSwfBytes": 778315,
+      "width": 943,
+      "height": 540,
+      "pageSize": 8,
+      "compositionAssetCount": 15
+    }
   },
-  "notPublished": [
-    "HotSpringControl.swf browser runtime",
-    "entry or exit eligibility",
-    "movement, bathing, buff or economy behavior",
-    "room membership",
-    "click handlers and hit areas without handler proof",
-    "NPC or player lifecycle"
-  ],
-  "runtimeIntegration": false,
-  "failClosed": true
+  "p045Boundary": {
+    "duplicatesExistingArtwork": false,
+    "inventsMissingVectorGeometry": false,
+    "addsHotSpringHotspots": false,
+    "claimsPixelExactHotSpringScene": false,
+    "existingGunnyHandlersRemainAuthoritative": true,
+    "runtimeIntegration": false
+  }
 }

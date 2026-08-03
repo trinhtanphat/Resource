@@ -1,10 +1,39 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packageSessionId": "P045",
   "runtimeSessionId": "R045",
   "owner": "hall-room-world",
+  "branch": "resource-port/P045-hall-room-world",
   "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
-  "sourceFamilies": ["flash/assets/hall/**", "flash/assets/room/**", "flash/assets/world/**", "flash/assets/hot-spring/**"],
+  "sourceTree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+  "dependencies": [
+    {
+      "sessionId": "R033",
+      "implementationCommit": "c6ed10b54c9fe79ab9fc3f307593210f9e855b95",
+      "evidencePath": "config/resource-port-evidence/R033.json",
+      "evidenceGitBlobSha1": "d3d49478e7daad52564f69e58bac522d0b8cbf82",
+      "evidenceSha256": "cf93befab436da47f2ee80cfd51d93e15dfda589ee28bbd8cadd6b8f9833a1fd",
+      "importerPath": "scripts/import-resource-port-r033.mjs",
+      "importerGitBlobSha1": "7bbdc3321e1cf46d2d99c2756aa72e231370d237",
+      "importerSha256": "3084eab49755cc8ecd8f6d35a26028ca0e50aff4bfa209eefebe48882da249ed",
+      "shardPath": "config/resource-port-dispatch/shards/hall-room-world-001.json",
+      "shardGitBlobSha1": "7bcc645d7c5b13a24cdb78ae3923e7fce19f822f",
+      "shardSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
+      "verifiedOnGunnyMain": "c6ed10b54c9fe79ab9fc3f307593210f9e855b95",
+      "gunnyFoundationCommit": "96a86885e23e5028e6654ed5b029870151b32d73",
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "sourceFamilies": [
+    "image/camp/",
+    "image/campbattle/",
+    "image/escort/",
+    "image/factionwar/",
+    "image/house/",
+    "image/scene/",
+    "image/world/",
+    "image/worldboss/"
+  ],
   "lockedPaths": [
     "exports/resource-port/hall-room-world/**",
     "resource-port/track-b/contracts/hall-room-world.json",
@@ -13,20 +42,30 @@
     "resource-port/track-b/findings/P045.md",
     "resource-port/track-b/status/P045.json"
   ],
-  "dependency": {
-    "sessionId": "R033",
-    "implementationCommit": "3540fda0bf108366ae855028c6f55016ad1902f5",
-    "evidenceGitBlobSha1": "08bd429f94363b9d368194e82d5705fee8f90909",
-    "dispatchSha256": "c635eecdc66825827131dda1b6ebdacfe9e348eb0dd02849802d4c6b5aa1b83a",
-    "required": true,
-    "failClosed": true
+  "outputs": {
+    "manifest": "exports/resource-port/hall-room-world/manifest.json",
+    "timelineReview": "exports/resource-port/hall-room-world/timeline-review.json",
+    "rasterCatalog": "exports/resource-port/hall-room-world/raster-catalog.json",
+    "sceneGraph": "exports/resource-port/hall-room-world/scene-graph.json",
+    "navigation": "exports/resource-port/hall-room-world/navigation.json",
+    "hotSpringFoundations": "exports/resource-port/hall-room-world/hot-spring-foundations.json"
   },
-  "sceneBoundary": {"sceneArt": "published", "navigation": "metadata-only", "roomGameplayAuthority": "not-owned", "worldGameplayAuthority": "not-owned", "hotSpring": "foundations-only"},
-  "coordinateContract": {"origin": "source", "scale": 1, "twipsPerPixel": 20, "preserveMatrices": true, "inventOffsets": false},
-  "hotspotContract": {"publishCandidates": true, "defaultEnabled": false, "requiresExactBounds": true, "requiresRuntimeHandler": true},
-  "zOrderContract": {"source": "compiled display depth", "preserve": true, "authoredLayerNamesClaimed": false},
-  "maskContract": {"source": "clipDepth", "preserve": true, "fallback": "disabled"},
-  "stateContract": {"preserveFrameLabels": true, "inventStates": false, "runtimeTransitionsOwned": false},
-  "assetAddressing": {"contentAddressed": true, "mutableBranchAllowed": false, "rawSourceReadOnly": true},
-  "runtimeIntegration": false
+  "hotspotContract": {
+    "boundsRequired": true,
+    "handlerAuthorityRequired": true,
+    "defaultEnabled": false
+  },
+  "assetAddressing": {
+    "rawSourceReadOnly": true,
+    "mutableBranchAllowed": false,
+    "legacySwfRuntimeAllowed": false
+  },
+  "audioHandoff": {
+    "packageSessionId": "P047",
+    "runtimeSessionId": "R047",
+    "timelineCount": 4,
+    "p045PublishesAudioBytes": false
+  },
+  "runtimeIntegration": false,
+  "githubActions": false
 }

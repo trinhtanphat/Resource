@@ -1,48 +1,3210 @@
 {
   "schemaVersion": 1,
   "packageSessionId": "P045",
-  "runtimeSessionId": "R045",
-  "owner": "hall-room-world",
-  "authority": {
-    "sceneArt": "resource-package",
-    "navigationPresentation": "resource-package",
-    "roomMembership": "gunny-runtime-only",
-    "gameplay": "gunny-runtime-only",
-    "hotSpringControl": "unresolved-fail-closed"
-  },
   "coordinateSystem": {
     "unit": "source-pixel",
-    "twipConversion": 20,
-    "origin": {"x": 0, "y": 0},
-    "policy": "Preserve R033 FFDec display rectangles and placement matrices without scaling or inferred offsets.",
-    "evidence": "trinhtanphat/Gunny@3540fda0bf108366ae855028c6f55016ad1902f5:public/assets/resource-port/hall-room-world/r033/manifest.json"
+    "twipsPerPixel": 20,
+    "externalScenePlacement": "runtime-unbound"
   },
-  "sourceFamilies": [
-    {"id": "hall", "logicalPattern": "flash/assets/hall/**", "rawPrefixes": ["image/farm/hall/", "image/scene/hall/"], "role": "hall scene art"},
-    {"id": "room", "logicalPattern": "flash/assets/room/**", "rawPrefixes": ["image/farm/house/", "image/scene/room/"], "role": "room scene art"},
-    {"id": "world", "logicalPattern": "flash/assets/world/**", "rawPrefixes": ["image/farm/world/", "image/world/", "image/scene/", "image/worldboss/", "image/escort/", "image/camp/", "image/campbattle/", "image/factionwar/"], "role": "world and navigation art"},
-    {"id": "hot-spring", "logicalPattern": "flash/assets/hot-spring/**", "rawPrefixes": ["image/hotSpring/"], "role": "Hot Spring visual foundations only"}
+  "summary": {
+    "convertedVisualTimelines": 73,
+    "unresolvedVisualTimelines": 20,
+    "artifactReferences": 110
+  },
+  "families": {
+    "image/camp/": {
+      "convertedTimelines": 0,
+      "artifactReferences": 0
+    },
+    "image/campbattle/": {
+      "convertedTimelines": 0,
+      "artifactReferences": 0
+    },
+    "image/escort/": {
+      "convertedTimelines": 6,
+      "artifactReferences": 30
+    },
+    "image/factionwar/": {
+      "convertedTimelines": 1,
+      "artifactReferences": 1
+    },
+    "image/house/": {
+      "convertedTimelines": 62,
+      "artifactReferences": 62
+    },
+    "image/scene/": {
+      "convertedTimelines": 1,
+      "artifactReferences": 1
+    },
+    "image/world/": {
+      "convertedTimelines": 2,
+      "artifactReferences": 14
+    },
+    "image/worldboss/": {
+      "convertedTimelines": 1,
+      "artifactReferences": 2
+    }
+  },
+  "surfaces": [
+    {
+      "sourceSha256": "00d6abfd301d775eae4e26b79819ad4e889272315181b9e0885961522eacc65a",
+      "sourcePaths": [
+        "image/house/carpet/carpet403.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet403"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 220,
+        "maxHeight": 81
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/f79d3e8a4e86f98dad7aa52cb0f122b0d07812586fd4e1f0264c9008904a178a.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "01edba85f3f3ccd41b935f8fdaedab9af056ced9b45b0c6c66f4c92170c7ca94",
+      "sourcePaths": [
+        "image/house/desk/desk001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.desk.desk001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 208,
+        "maxHeight": 178
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/e44547b806caa70b820ff8b74f269bcdae7b1c6904af117cebdb4a4dec79474f.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "028682d2cb57e0af91d30f8e6ca6f465dfb29474ed6be337a12f334fd54f2ac9",
+      "sourcePaths": [
+        "image/house/brick/brick004.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.brick.brick004"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 2032,
+        "maxHeight": 1175
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/f886d08884d686456f82e136ee5933485de7b54db8a5209d8340fa86cde98c87.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "02aedeee1f2d5541b57137b9dc21ce14e8958cbd24fdd51580f85bd07df5867b",
+      "sourcePaths": [
+        "image/house/bed/bed401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 511,
+        "maxHeight": 252
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/12848c0b82a38560c9eface99137641c9b1913b19f03f8386bd4dda921a5e85c.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "043acff347e94a71e503a70236da60e86855c0d79e615f26108f08fa74788f09",
+      "sourcePaths": [
+        "image/house/sofa/sofa701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.sofa.sofa701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 959,
+        "maxHeight": 418
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/650ffff0987f23fcd15ac35b29b09959bf7dbf5a400ea6f179ca902fa29f7645.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "089cde5ab7f7e7d0be00bd830fc6f9c1d6bcf1d1c8656677bd3699b05d58398f",
+      "sourcePaths": [
+        "image/house/bed/bed702.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed702"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 623,
+        "maxHeight": 361
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/383ae3e0bb679dc3cb3808ee644be065724f519919bf4fa622b9124df1ff0b8e.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "0d13c4749c0a899b2a559283386e690a6f9617bcb5c37df85ade71cca3931ae3",
+      "sourcePaths": [
+        "image/worldboss/2/icon/worldbossicon.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 5,
+          "name": "asset.hall.worldBossEntrance-2"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 90,
+        "maxHeight": 100
+      },
+      "compiledDisplayDepths": 2,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "state-1",
+          "path": "exports/resource-port/hall-room-world/media/webp/f6eebef6294abdaf108dd37aaf667d09e32564ab09c2a1469a6ef37c2cc0e681.webp",
+          "frames": 60
+        },
+        {
+          "variant": "state-2-static",
+          "path": "exports/resource-port/hall-room-world/media/webp/777370b31ab3f246101c3e6584bdb8061cb4ea4b090a45e6d91e971f2d9a7e94.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "0e4cc75eea2e78ccb8b8bea1393a970661379cf73174b95354d6904baddd6e10",
+      "sourcePaths": [
+        "image/house/carpet/carpet001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 220,
+        "maxHeight": 78
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/7c3e3308ef6002e5e45aed0ab566a3d0d378f0453ce6923c1ec2b7028a03db1a.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "0fedd1bcacb807158f561906cb47e76e51b3eb2e0fa9a7a9ee935eebb79c98bc",
+      "sourcePaths": [
+        "image/house/wardrobe/wardrobe002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.wardrobe.wardrobe002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 223,
+        "maxHeight": 325
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/01d2b9f90df2acd15433d9503483c1775a52797a6f9b2e95b8ca53f573ed4eb4.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "0ff07aac9720751b9143b8bf5be732132f1f18fe7637c7fbd2c3cde1eade4b6e",
+      "sourcePaths": [
+        "image/house/bed/bed003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 416,
+        "maxHeight": 207
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/c24ca3d62d7e077e221e1f75e7aa5854d2921107cc2b218e74508dcea7f9ea67.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "11925f2d380aff095ff4abd1d4bda622dd0c33518d4738bac0c3227c6e2b4224",
+      "sourcePaths": [
+        "image/world/monster/bogu6.png::zhongbogu.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 37,
+          "name": "asset.zhongbogu.Walk"
+        },
+        {
+          "swfCharacterId": 96,
+          "name": "asset.zhongbogu.Stand"
+        },
+        {
+          "swfCharacterId": 109,
+          "name": "asset.zhongbogu.Inhaled"
+        },
+        {
+          "swfCharacterId": 174,
+          "name": "asset.zhongbogu.Die"
+        },
+        {
+          "swfCharacterId": 203,
+          "name": "asset.zhongbogu.Born"
+        },
+        {
+          "swfCharacterId": 240,
+          "name": "asset.zhongbogu.BackWalk"
+        },
+        {
+          "swfCharacterId": 291,
+          "name": "asset.zhongbogu.BackStand"
+        }
+      ],
+      "bounds": {
+        "count": 142,
+        "maxWidth": 250,
+        "maxHeight": 277
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "walk",
+          "path": "exports/resource-port/hall-room-world/media/webp/7d65765dd0b3542f9225c9936f582296aa46e721b6d88e876418afd8050ceb74.webp",
+          "frames": 18
+        },
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/ea12b7371c7e3522c7204d96aee455e2edc7a8abd081f180dd72593b5fd47dc2.webp",
+          "frames": 75
+        },
+        {
+          "variant": "inhaled",
+          "path": "exports/resource-port/hall-room-world/media/webp/b0e8aab9ac043582feab12077fb0b5e6207fd04a0194d5b949f6c6023fbf88df.webp",
+          "frames": 6
+        },
+        {
+          "variant": "die",
+          "path": "exports/resource-port/hall-room-world/media/webp/b088a68388cc4ede1223d355e63927115f5eb7ef49cb16a57b91e3c2bfd7fb8b.webp",
+          "frames": 33
+        },
+        {
+          "variant": "born",
+          "path": "exports/resource-port/hall-room-world/media/webp/5d678f0252618807e56a39027a269a211748c80e2276d109a31c201ab9f33ef6.webp",
+          "frames": 25
+        },
+        {
+          "variant": "backwalk",
+          "path": "exports/resource-port/hall-room-world/media/webp/ee058f60e56dc6fab1d4b975a64b1ef618911069710b7c0f9fac39bc5fdab71a.webp",
+          "frames": 18
+        },
+        {
+          "variant": "backstand",
+          "path": "exports/resource-port/hall-room-world/media/webp/5c6541876b4fde7de03b85e3d29afb62c0e0d4a7f42b64f094e9ec99eb6aed2c.webp",
+          "frames": 25
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "1e2f65f8f259a472cf85c0a6e2a1159449bffc7bd14f7468feb5956499fd63c8",
+      "sourcePaths": [
+        "image/house/sofa/sofa702.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.sofa.sofa702"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 936,
+        "maxHeight": 409
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/11e7817ef838c6740522a58718526b1ba5858653a20ce4245a022ff664cc0d32.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "2153ce30fe17e5a61d77ae62441396bdc3dc531e290dbde652961785733f0832",
+      "sourcePaths": [
+        "image/factionwar/icon/factionwaricon.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 9,
+          "name": "asset.consortiaBattle.entryBtn"
+        }
+      ],
+      "bounds": {
+        "count": 4,
+        "maxWidth": 75,
+        "maxHeight": 87
+      },
+      "compiledDisplayDepths": 18,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "nested-cycle",
+          "path": "exports/resource-port/hall-room-world/media/webp/70f0e5d31725387bfb5281f68ffef89bb9577933cfc24e35373aa4f4781f5602.webp",
+          "frames": 180
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "2189159b46240815e53670af8d16c6ab6b9a1fc5b940d0f1c2ed224068b81781",
+      "sourcePaths": [
+        "image/house/desk/desk701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.desk.desk701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 269,
+        "maxHeight": 192
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5216d48af9b87b72ad692f21c9ccf4d8dcbdd637a15a6dd1fa16b26eafddf591.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "231dd89c7f2e03dc57a09db7f4ee311240bd9ab5f6300ba7ac6015bc309e5bae",
+      "sourcePaths": [
+        "image/escort/escortother0.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 100,
+          "name": "asset.escort.other0"
+        }
+      ],
+      "bounds": {
+        "count": 57,
+        "maxWidth": 195,
+        "maxHeight": 108
+      },
+      "compiledDisplayDepths": 27,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/0e45eb8ec36d4ff7fa1d0750ca49aa658bf72e554dc21a95228d0ddbaad412eb.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/f8345b593eb50af8cb73e7195b65aac3c56ea99b4b9c9a31da4e04f96e35824e.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/9602903c927a30de94fded6b3258bc6667eb47de9758f094a9f2b3b0408e40df.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/970bca41756f649812e044dc65542c525bba13c4b8112d2755661426061662e7.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/4cca9feb92a367bcfa5a72acee328cb360d149254e87367c18e9d312deaa92a6.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "27f7af330f09478ebcbb5910573427e939e46cdd80ddfa322cbf2563876be207",
+      "sourcePaths": [
+        "image/house/wardrobe/wardrobe003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.wardrobe.wardrobe003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 237,
+        "maxHeight": 324
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/32e5b9929630194607b8c8ae3986135c4ef8017f987e7d13ed01b8a923127b10.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "28cd182ce80ba2e2ff75b9e7bdf9e231649c4aa4201a8a39466795b263de9c49",
+      "sourcePaths": [
+        "image/house/fence/fence004.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.fence.fence004"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 1709,
+        "maxHeight": 966
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/efce16b29bb1bd1715a8f649b9932bf3464eb817123b7d40da2d23460578c6ac.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "29c9eab131fc15d15bb8af44712a673b44f0cbcb2873beb739ace9d3a2525a6b",
+      "sourcePaths": [
+        "image/escort/escortself2.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 109,
+          "name": "asset.escort.self2"
+        }
+      ],
+      "bounds": {
+        "count": 54,
+        "maxWidth": 160.85,
+        "maxHeight": 138
+      },
+      "compiledDisplayDepths": 30,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/106018f7de0b9d7d87475cf6abfc8d61704e393dd7a47978c69ec5c8d9257b92.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/b17bdecb4558cb22d1448cae0004279ff079ab5ce06972a26d0ef6aff0e19264.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/382a96a1e2f0efdff1d30a3c6a7747bdf8fa2eb5c6437c0729037a3223f8b5b4.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/b0f5be84efdfcb6b8acecb2775f07870de6f635d3d98fb96684c7dba5ed72b0d.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/2376e1282de69fe293aca356bba8156d55f0a46cde84b39f7de224195dd479dc.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "3003181f0de38995dbe79e6d7de1e35143e49fb79b6f7be91682d86dc0e7416b",
+      "sourcePaths": [
+        "image/house/brick/brick001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.brick.brick001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 2032,
+        "maxHeight": 1215
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1a231e6688e079e523bf71ffe37efe19c1616630e1d674dc8a436649ae24b40a.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "3646fe30133826f7044e9143703eca6b4dd5dd401ab5717b167c56b2bad12a64",
+      "sourcePaths": [
+        "image/house/table/table401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 788,
+        "maxHeight": 343
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/a2425b08d44b22f2f13d90b3492caafe344fedf28fb0f898619d0050b8b0d8e7.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "37270598c3faf33f3542dcb844a0674f8e00e2cb18d3795f9cca0344adafe20b",
+      "sourcePaths": [
+        "image/house/carpet/carpet003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 220,
+        "maxHeight": 80
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/373650ab9d2152fa46ddc5454fe6d1a18ac58564aa53ef7eee2a6b937949afc0.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "39daf981473fa4cf751d23340f08a67242a81014a80d50b44a803fce29d66d8c",
+      "sourcePaths": [
+        "image/house/longtable/longtable401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.longtable.longtable401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 514,
+        "maxHeight": 203
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/ab56f7fa466ae6cfc98bbd21fd3a42d5d9e831e1fc1c05fbc7075dac23e65dfb.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "3d05824cf1d1c97c45fd3120d4dea594ff1eb049d90ac24c35ba9fde0428541d",
+      "sourcePaths": [
+        "image/house/carpet/carpet402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 218,
+        "maxHeight": 78
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/3abb2d5d07472bffc31841d34f329c3af76659b46798d850fde932056b675652.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "414a217037f9fbe77b3cfebc6dbcac4153aeaeab28886aeda4fa3c21a571dd42",
+      "sourcePaths": [
+        "image/house/table/table402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 792,
+        "maxHeight": 331
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/0cd5e7db05342f30138e83c8f4b62bdb03ecf6eea51013aa0ac4ef29fcf345ca.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "4433778f7a2f0ac5c355d985cb57a4cbbb14399dc54ca736b092bc3308f99b00",
+      "sourcePaths": [
+        "image/house/table/table702.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table702"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 438,
+        "maxHeight": 294
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/381430df7313109a24498f1dcdd7802c3225401f071df728e98c1b3849e41236.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "46ad3acc270af9913e325e1d754ed34ce3074e9ccc3364b4ec69c582bf78c1a5",
+      "sourcePaths": [
+        "image/house/fence/fence002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.fence.fence002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 1702,
+        "maxHeight": 966
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/40478d6f85f2bcacf69417f18f0a4b9920d14ecd61ffd691561a1f30324cbd71.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "4a84d78b66e67b5d5ca3d244b0f3ff2f7322f0d2616a62b8289f371aa5a5b3c7",
+      "sourcePaths": [
+        "image/house/stairs/stairs401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.stairs.stairs401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 404,
+        "maxHeight": 348
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/dff33c823fac87acfb0fd425dcdb898986c03ac2b34f50b1d5c852f48c56e3c0.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "5b7e15f975e95609028b660f1ed6599dfd89e0481d965205f1cd11ec46a4103d",
+      "sourcePaths": [
+        "image/house/bookcase/bookcase702.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bookcase.bookcase702"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 353,
+        "maxHeight": 334
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/bad653e73179c1e3e0eed294420f360074a418c1fdf2b6e7967d281146b42eef.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6180f5d6d6815962244be24a1c3520cd54211d91ada1f994dbf55ac8611f7daa",
+      "sourcePaths": [
+        "image/house/longtable/longtable402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.longtable.longtable402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 516,
+        "maxHeight": 210
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/6b6748263678ace6937baa47d6599b93891fda21e6cc3593857aa84b1f8ed4b5.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "627786c6477bf5ceae2699e0333b50c00f370a1e204015826a14b36693159db3",
+      "sourcePaths": [
+        "image/house/fence/fence003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.fence.fence003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 2108,
+        "maxHeight": 1215
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/c244a4fd460f3360771ac66328fbad06d1288066fcba05532b46a776cabf8223.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "62fb1b4fd05bdad0c3ef7ae784468ff394670594b1ec7bd8ec8d1b715b120dac",
+      "sourcePaths": [
+        "image/house/stairs/stairs701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.stairs.stairs701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 526,
+        "maxHeight": 410
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/232883729b21f5ef203bf62d3eb5dbbceb3b2b76b770d39d307c075a7e01c88f.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "64d1155920498813139d7f2327524e47f77305f34a172e020c41288ca3e2eea2",
+      "sourcePaths": [
+        "image/escort/escortother2.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 116,
+          "name": "asset.escort.other2"
+        }
+      ],
+      "bounds": {
+        "count": 64,
+        "maxWidth": 160.85,
+        "maxHeight": 138
+      },
+      "compiledDisplayDepths": 30,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/3558cce6ecc8639db54e003a816362108d2e90978fd413a8e1557281c8b32849.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/cfcae2530ea2896a188a8216f645257d922d1c42972539e204a7dd2edf9c00e3.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/36940c48377448c83cfbe17e754be1d7cf03d2b7b134c23f6e94176acefa310f.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/bb782e6f2c98660a4268417f929551fbec996f2d0361258dd9dfce80a76b074e.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/d73b232d75f84b34da66c3e5712183dd3b8a93200da032ccad079114b014f205.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "696fad8b7648178aac6bd786db9e88be8949e7b6ef615b4e8c9d4f60099c0451",
+      "sourcePaths": [
+        "image/house/platform/platform001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.platform.platform001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 139,
+        "maxHeight": 92
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/837d48962750dd1eacacdacacb851e5eb6fb2d44df199361fc811a6148ca92d6.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6a0db4c37b985f460bfe240d401abd1c4a4f164d2b5354e3c3c1c9ccc41c7570",
+      "sourcePaths": [
+        "image/house/platform/platform002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.platform.platform002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 145,
+        "maxHeight": 97
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/ef27438d4bb6170fc7dc735bdc425e3169b6d18e37ce6e398daaba8f28688651.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6c37d9fd21b9c3935e5e10cf37817ace4c78ec75869d72bd639ac03b97cb12ee",
+      "sourcePaths": [
+        "image/house/table/table701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 408,
+        "maxHeight": 277
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5fdc66adce648610c191a10dc605d0f659466491d3071fd877e625599eace041.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6e43920430a32f0276f5d88f3a1e23095af2bb4f43ce9bd4fd281829575b779c",
+      "sourcePaths": [
+        "image/house/window/window001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.window.window001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 148,
+        "maxHeight": 161
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/0d6510421c70fc04e0497dd43d9aaad0238f244fbb8234dcfdbe309a510124d1.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6e723ca4fdee620485dedf00aa736e99a390f4ed6851a39f7524b5b4b7bc0f1c",
+      "sourcePaths": [
+        "image/house/wardrobe/wardrobe702.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.wardrobe.wardrobe702"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 357,
+        "maxHeight": 353
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/4b5087c2aa586c4e20a757be9e30902472cf0c4339d4f331e5ad7c4af3f3bb84.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "6f35634848af44c5b2c57fdbc39d724004accfacfd43971ae18c6ee514110f29",
+      "sourcePaths": [
+        "image/house/bed/bed701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 677,
+        "maxHeight": 349
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/fb39f9a4d714dd1112e10a9e25d516aaa5824035d100c33344ccef02281cd3b9.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "715ff8240e9b75c51fa8a458420e59bbb5d726bd637073601b020dfbec7fd141",
+      "sourcePaths": [
+        "image/scene/catchinsect/map/catchinsectmap.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 40000,
+        "yMinTwips": 0,
+        "yMaxTwips": 20000,
+        "width": 2000,
+        "height": 1000,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 13,
+          "name": "asset.catchInsect.map"
+        }
+      ],
+      "bounds": {
+        "count": 6,
+        "maxWidth": 2518.5,
+        "maxHeight": 1309
+      },
+      "compiledDisplayDepths": 9,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/36058af9de3bc53fddfaed62dfef6ce652e8f06042a95d5667955635517c9243.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "814647b881fe2f02805978361218f98a3c5305ff24d0cb77b3c684d5bae0d18f",
+      "sourcePaths": [
+        "image/escort/escortself0.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 91,
+          "name": "asset.escort.self0"
+        }
+      ],
+      "bounds": {
+        "count": 45,
+        "maxWidth": 195,
+        "maxHeight": 108
+      },
+      "compiledDisplayDepths": 26,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/dae7a4dad1370b5548d3f23da99c196d8b202bb87475e9691767be6f3cad16b4.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/7d3c60efcf51147e8d9edaf1c793c65bd95101780d32d77e504673a5f33f7614.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/16a02e196fe48df348784bda1927f1e7a684d4d11b0a49cc5e1d2dd32c68996a.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/454ab6ee9d3beaf620f0c6026d32609ad87f890e220b65267b395c7380172000.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/884db4156d17dcbf93b43908a8533b081620d77782a9b5ab53b3b2a76b782524.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "824b72971704e938d5d11bdf815a2c07aec3a66c00f74b35dc4c5092524c8ad9",
+      "sourcePaths": [
+        "image/house/window/window403.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.window.window403"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 516,
+        "maxHeight": 326.95
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/d6a808f2d7b58787c441cdccd159df7a1dabe8bd0ca14d5cab3b37806864f3a1.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "848d1b1d009ef3c6eddbbe8d256278ef5e235349891377f2b28f9e12f7616fdf",
+      "sourcePaths": [
+        "image/house/garden/garden002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.garden.garden002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 525,
+        "maxHeight": 342
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/6b501a9ab2a9158aa0c75fcb967fda6c4a10ef01d0be64636238fffdd70dd2ea.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "857b048f82fbd2841862683c8831f33d73abe50d167424a6f12bf8ed556a5eb7",
+      "sourcePaths": [
+        "image/house/window/window402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.window.window402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 547.5,
+        "maxHeight": 355.5
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1950848e08435b388933de4cb337bc565be6facf760e5ec1cbf0c6cae4aadce8.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "87008bb257fc70f16cb6a419667fa280f60a2e2ce4ac503867c36f14d4f6ac78",
+      "sourcePaths": [
+        "image/house/fence/fence001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.fence.fence001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 1722,
+        "maxHeight": 956
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1c4bf0a00e2f33442bdf0f4a707ee976b5ec8ba59df3549b32cefa9182114168.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "885c70e674be84d70fcdf4b8ba31261b52ed8f622b5eec92ffa80bc0be14bf25",
+      "sourcePaths": [
+        "image/house/carpet/carpet002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 219,
+        "maxHeight": 77
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5c6415618e23bd12146234c7dfa5113ccadc14cb5d21ce37cf76349dfcdd6d3d.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "88602335c38614f3ce10734f06d87a71f47a0cb6a87cd4c93539a3cfa0a07a83",
+      "sourcePaths": [
+        "image/escort/escortself1.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 99,
+          "name": "asset.escort.self1"
+        }
+      ],
+      "bounds": {
+        "count": 48,
+        "maxWidth": 105,
+        "maxHeight": 108
+      },
+      "compiledDisplayDepths": 24,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/2f14ed4a267519b0a77fbf13778c8929203d7ca42b736ba431b5053e87a31750.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/997b7bf0dc769116a96d8a508ee15da4682ed3a43a28896882d0095dec388e76.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/0d27fe23384b0f5aa10d779502ce8ad38e8066711ac027d42ecd2800bedd95e8.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/0a98645a791705ec3419351298c0e542752c7e6afe6462b42c6321e1c8cf4128.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/582c19e66b0caee612d1a0af2d8e17ea5f17ccb93f2b735af8940bd17a0d43e8.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "895f892421326932be06c27e8076784c80daefca6f9aa2ee8a1cb2a4f50b3f4f",
+      "sourcePaths": [
+        "image/house/bed/bed002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 400,
+        "maxHeight": 215
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5e56fdce11efdb97117af72c4e60db5c25ff2f0ecf157cfd62abe4be34a4941a.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "8c263aed13aba589154d8a1d66ad09774fef65f8a35e410c66dec9fde0c848f5",
+      "sourcePaths": [
+        "image/escort/escortother1.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 106,
+          "name": "asset.escort.other1"
+        }
+      ],
+      "bounds": {
+        "count": 58,
+        "maxWidth": 105,
+        "maxHeight": 108
+      },
+      "compiledDisplayDepths": 23,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/669fe64f8c8dd18bd28c27b23bbfe6f1af5311720f2a271d48eb3de61a1688d3.webp",
+          "frames": 7
+        },
+        {
+          "variant": "transparent",
+          "path": "exports/resource-port/hall-room-world/media/webp/34a09b162a5eefb6cee5dd1a04f688c2aaf9b6cd86b3c56f01b49025ead392b1.webp",
+          "frames": 7
+        },
+        {
+          "variant": "accelerate",
+          "path": "exports/resource-port/hall-room-world/media/webp/69c9ae2436f86b7b60f6c7412d8cace89de6cad3c3432ef7db740259e8e042c2.webp",
+          "frames": 7
+        },
+        {
+          "variant": "moderate",
+          "path": "exports/resource-port/hall-room-world/media/webp/fddf6f99f95ca26a7da78bbfe6c25aa4f1a7cf6b0e0cd887305d26cb09d92c11.webp",
+          "frames": 14
+        },
+        {
+          "variant": "unreachable-tail-frame-36",
+          "path": "exports/resource-port/hall-room-world/media/webp/b26afeb0b1c10cc3190ab36f56c2262509b2e77dd7160cdea530c785acdd5bcd.webp",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "8c836d846782399dce00addfef14dfe2a530202756bdbea4476df7ddf11f508c",
+      "sourcePaths": [
+        "image/house/light/light701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.light.light701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 303,
+        "maxHeight": 138
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/98989712561bea687c954bc12f80724ce59004c02af3aaf398b6321bcc58c573.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "907fa10dd240d3eeb396d4cb41e041cf3889567e8f6eb7bce3c67ac11e1b8330",
+      "sourcePaths": [
+        "image/house/wardrobe/wardrobe001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.wardrobe.wardrobe001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 247,
+        "maxHeight": 330
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/445cd4c11a2182f8bb72bdd6d8e0121f503b229de587294eee4e960fa7d90017.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "99f8d33911582d62d6693a7d35d0a4ec4d113122ce98ada379dfab487df20da0",
+      "sourcePaths": [
+        "image/house/carpet/carpet404.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet404"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 221,
+        "maxHeight": 78
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/2433ab58b693dc0bd4282216a031ae1b26c9fadd8a0fed0a2a39eb386126e71f.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "9b781febf546d7abad8ae064d952163e023c1924dd5610a62475358a8d27fcce",
+      "sourcePaths": [
+        "image/world/monster/bogu7.png::dabogu.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 20480,
+        "yMinTwips": 0,
+        "yMaxTwips": 15360,
+        "width": 1024,
+        "height": 768,
+        "frameRate": 25,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 33,
+          "name": "asset.dabogu.Walk"
+        },
+        {
+          "swfCharacterId": 90,
+          "name": "asset.dabogu.Stand"
+        },
+        {
+          "swfCharacterId": 103,
+          "name": "asset.dabogu.Inhaled"
+        },
+        {
+          "swfCharacterId": 166,
+          "name": "asset.dabogu.Die"
+        },
+        {
+          "swfCharacterId": 197,
+          "name": "asset.dabogu.Born"
+        },
+        {
+          "swfCharacterId": 226,
+          "name": "asset.dabogu.BackWalk"
+        },
+        {
+          "swfCharacterId": 275,
+          "name": "asset.dabogu.BackStand"
+        }
+      ],
+      "bounds": {
+        "count": 134,
+        "maxWidth": 315,
+        "maxHeight": 420
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "walk",
+          "path": "exports/resource-port/hall-room-world/media/webp/3b82642425663b14a7b70c30effee51e44049af54083e10dff4db0e8a06f6136.webp",
+          "frames": 16
+        },
+        {
+          "variant": "stand",
+          "path": "exports/resource-port/hall-room-world/media/webp/c08b38d549959522298ef005920e005fcc8534818c2da31cdc29fc2a7760abc8.webp",
+          "frames": 75
+        },
+        {
+          "variant": "inhaled",
+          "path": "exports/resource-port/hall-room-world/media/webp/c77e8ddf86fe65f06932b2676c0cb3b7d8b8b28b96142a38c6dc9eef67d7a637.webp",
+          "frames": 6
+        },
+        {
+          "variant": "die",
+          "path": "exports/resource-port/hall-room-world/media/webp/9ababded2bf3ae4e49fd2138e87a2071009737fe431a38e6b88de80f85089517.webp",
+          "frames": 31
+        },
+        {
+          "variant": "born",
+          "path": "exports/resource-port/hall-room-world/media/webp/ef4970a02936318e4394f106defb572971c4ff9158e68639c50bbc086884cbb6.webp",
+          "frames": 23
+        },
+        {
+          "variant": "backwalk",
+          "path": "exports/resource-port/hall-room-world/media/webp/1dc681a36a89e41fd59a09516b6e9cfe562c86c6123af4a3bf782ebd7554bab4.webp",
+          "frames": 14
+        },
+        {
+          "variant": "backstand",
+          "path": "exports/resource-port/hall-room-world/media/webp/5bcc863140b9d7f789bac33b53fe003389c5874f0083b4d76ac19dc220d59e5b.webp",
+          "frames": 25
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "a80dcd1a20358051675ab9cff1e1287bc35bed1a4c64f843c29ded321899ac39",
+      "sourcePaths": [
+        "image/house/garden/garden001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.garden.garden001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 525,
+        "maxHeight": 342
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/260a451fad111f1558b9a066c1fdaae7c9a2a02c920786d5a5eea396ec64c9e5.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "a89c8f7e9a4c48149b9a5d999ef48a38c05683345d4d79a34c85e2ad79f029c9",
+      "sourcePaths": [
+        "image/house/table/table002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 384,
+        "maxHeight": 266
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5c22eeb1ad9ba534fda6a62ef1d22644becf9ae1ee166652ae8932caa78262e3.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "a9c17d66f760a40da958ae60d7ebef485afa9520d98b13549ee952fd40965234",
+      "sourcePaths": [
+        "image/house/wardrobe/wardrobe701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.wardrobe.wardrobe701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 335,
+        "maxHeight": 335
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1d2e2b5d4c41dcb6b86fde32534fe8ce55ee3218dcfb385337109eb1aad52ab1.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "aa94c8272963a68d129c04fa94ba329ab31f0cb8e2fb39af96306d085776c9d6",
+      "sourcePaths": [
+        "image/house/bookcase/bookcase002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bookcase.bookcase002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 243,
+        "maxHeight": 347
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1af18446594431a2e4aeb91874e2338b94e905115fe0529bf67a7bbd6c4f7b23.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "abb9b38584b8cd6de4cd234bf4a49b61c67cb690e6fd3a584512e9dca9ec327e",
+      "sourcePaths": [
+        "image/house/table/table001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 333,
+        "maxHeight": 272
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/f0c39004778cf472a703fbff966c5678933e6e12dd8625c383fc14a974815d06.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "ac2e9c76c4b2a88cfaaa2dc2be63cc15e57a22920edaf4361a25396d8cf92654",
+      "sourcePaths": [
+        "image/house/platform/platform003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.platform.platform003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 168,
+        "maxHeight": 132
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/bd7a20150fe40571639303ca95d08a4012b8f1eef7a4d690794ab4d930c63c79.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "adfcc85565ddba7176103da5081a44b08e4339f0c98824fe3cf4c81f180a3af1",
+      "sourcePaths": [
+        "image/house/brick/brick003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.brick.brick003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 2032,
+        "maxHeight": 1175
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/e14114db2907f20970576b9f2863118a7d503601be68e5c3af7a0c274a348294.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "b07f07e1395aebac306ae9bd9c06c94a3d604cc23507008caab43de86a958bd6",
+      "sourcePaths": [
+        "image/house/plant/plant401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.plant.plant401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 108,
+        "maxHeight": 192
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/5e61079ae12d7158d2ac3a8e2802661496a467a274b7c2e0b482c9224efa8daf.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "b5643531c02d276a00adc631ffc54fe13dfda203bae0bda0c8029366b45f3227",
+      "sourcePaths": [
+        "image/house/window/window002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.window.window002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 176,
+        "maxHeight": 200
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/aed4942d97acbc258521034dfd2d7fb19564a68e4ff3122ccedd3f990b7f5cbd.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "bc2c5a108881cca79b22f1c2f74cc97375343cfe43c9d87e539bbcc65bf11bbf",
+      "sourcePaths": [
+        "image/house/light/light401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.light.light401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 248,
+        "maxHeight": 104
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/c16af3d19c59d098daceb799dbb56058311e0a50aadd56d26983851d4117bc56.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "bfb80cdb3499212edd6b1dece8839749a9e9ce0c88c2fb8092b0d73b99107845",
+      "sourcePaths": [
+        "image/house/bookcase/bookcase001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bookcase.bookcase001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 221,
+        "maxHeight": 335
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/b71212965eb7921f30db6a539e8210cd4467a3447af4483ee3991e33d63b1b3c.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "c30bbd9726befe9c5811ee7fb5a6e5b40ac51d61989645cc9c205567ff2d393b",
+      "sourcePaths": [
+        "image/house/longtable/longtable703.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.longtable.longtable703"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 546,
+        "maxHeight": 315
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/2913297bb8fff4d94470f649937f438b5dd86351432034d6ff5b7b27552bafc0.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "c7b31bdaf6f43cbf32ce307bc00077b61cea6fd40145c5c14e1cddb315648710",
+      "sourcePaths": [
+        "image/house/bed/bed402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 531,
+        "maxHeight": 260
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/59db398548ffc4d9dd039a5e8d880f54518266a8e5a2146e460f709242a40ea1.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "ca6425f765b6e12365f5380499dce9e332da757df32bc3d31e8a89bc2aa5e9ea",
+      "sourcePaths": [
+        "image/house/window/window401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.window.window401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 520,
+        "maxHeight": 316.95
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/f5ed4d862bb9bb7dcb5b5db087cb7feb12d3bda289d8e74aa733eb1863d354e5.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "d5e6628ed5bbb87e4d8dc79af36ef497358b8e5ec071f0d7378e9bdd9064ff1e",
+      "sourcePaths": [
+        "image/house/carpet/carpet401.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.carpet.carpet401"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 218,
+        "maxHeight": 78
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/91bb01c2a9c21f24177802b880dbd20de92f414cc50c4cc249467bb258594750.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "d6df53d49857edcfba13c80f868d3ea2a79cd3273e3c4057052b2e8f547c124d",
+      "sourcePaths": [
+        "image/house/bed/bed001.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bed.bed001"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 394,
+        "maxHeight": 200
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/a8e5b4f8094c6b058acf8c43ae6542101554ba5a896b1f5185123f03a02c6ce3.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "d8fce04eb04926f3003892caf4943851d25e96961d21a4b603720b3ab9854618",
+      "sourcePaths": [
+        "image/house/bookcase/bookcase701.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.bookcase.bookcase701"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 315,
+        "maxHeight": 322
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/9df76f63937a0b1ff5df5fe0a83ad4f12c26fc9c525cd1570c233c17a2f57b36.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "de0deb3e30069271a2b1f080ffd5f99811eba9019238bcb7222de664627d42ec",
+      "sourcePaths": [
+        "image/house/desk/desk002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.desk.desk002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 219,
+        "maxHeight": 189
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/fc9bc1a528d0473b55097b832c40b72c8f8482461e7f96e0c7a05f4a96713c5e.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "e8e4916ebf56c165bb5b2421cacc1f01097b0693ead384a0e5575e4371006e7e",
+      "sourcePaths": [
+        "image/house/table/table003.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.table.table003"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 566,
+        "maxHeight": 297
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/1c8b290cad3fdb29fdeb77f885068278a6f045a87d30fb12e649eaf143451f33.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "ecde48ac8721dc2b6cbf1f8fb82a1b5cbd92a6eefbca216fa69fb0c351e6b39a",
+      "sourcePaths": [
+        "image/house/stairs/stairs402.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.stairs.stairs402"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 403,
+        "maxHeight": 347
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/ac54c495f08ce6f5906a3003f88a3080d76a956a7877f0b6e13e97b238354015.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    },
+    {
+      "sourceSha256": "f98ebfa2dabbebdd232baa2bcfbdcf86630f6a0963e735fc46e5f9ba0104fea3",
+      "sourcePaths": [
+        "image/house/brick/brick002.swf"
+      ],
+      "stage": {
+        "xMinTwips": 0,
+        "xMaxTwips": 11000,
+        "yMinTwips": 0,
+        "yMaxTwips": 8000,
+        "width": 550,
+        "height": 400,
+        "frameRate": 24,
+        "frameCount": 1
+      },
+      "symbols": [
+        {
+          "swfCharacterId": 3,
+          "name": "house.brick.brick002"
+        }
+      ],
+      "bounds": {
+        "count": 1,
+        "maxWidth": 2032,
+        "maxHeight": 1175
+      },
+      "compiledDisplayDepths": 1,
+      "masksRenderedIntoArtifact": 0,
+      "artifacts": [
+        {
+          "variant": "static",
+          "path": "exports/resource-port/hall-room-world/media/svg/306a07fcb34f19a29e68d9281bb4951c304c213263fe3cd0d09e46cbb7ec9501.svg",
+          "frames": 1
+        }
+      ],
+      "externalX": null,
+      "externalY": null,
+      "externalZOrder": null,
+      "runtimeStateBinding": null
+    }
   ],
-  "layerModel": [
-    {"z": 0, "id": "backdrop", "kind": "raster", "coordinates": {"x": 0, "y": 0}, "state": "visible", "mask": null},
-    {"z": 100, "id": "environment", "kind": "raster-or-unresolved-timeline", "coordinates": {"source": "R033.transform"}, "state": "source-authored", "mask": {"source": "R033.clipDepth", "preserve": true}},
-    {"z": 200, "id": "actors", "kind": "runtime-slot", "coordinates": {"source": "runtime-authority"}, "state": "not-published", "mask": null},
-    {"z": 300, "id": "foreground", "kind": "raster-or-unresolved-timeline", "coordinates": {"source": "R033.transform"}, "state": "source-authored", "mask": {"source": "R033.clipDepth", "preserve": true}},
-    {"z": 400, "id": "navigation-overlay", "kind": "metadata", "coordinates": {"source": "navigation.json"}, "state": "disabled-until-runtime-owner", "mask": null},
-    {"z": 500, "id": "ui", "kind": "runtime-slot", "coordinates": {"source": "runtime-authority"}, "state": "not-published", "mask": null}
-  ],
-  "scenes": [
-    {"id": "hall", "family": "hall", "layers": ["backdrop", "environment", "foreground", "navigation-overlay"], "states": ["default", "loading", "disabled"], "transitionTargets": ["room", "world"], "interactionAuthority": false},
-    {"id": "room", "family": "room", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["default", "waiting", "ready", "in-game", "closed"], "transitionTargets": ["hall", "world"], "interactionAuthority": false},
-    {"id": "world", "family": "world", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["default", "loading", "disabled"], "transitionTargets": ["hall", "room", "hot-spring"], "interactionAuthority": false},
-    {"id": "hot-spring", "family": "hot-spring", "layers": ["backdrop", "environment", "actors", "foreground", "navigation-overlay"], "states": ["foundation", "loading", "disabled"], "transitionTargets": ["world"], "interactionAuthority": false}
-  ],
-  "compiledTimelineBoundary": {
-    "occurrences": 101,
-    "uniqueBlobs": 97,
-    "availableMetadata": ["stage", "frameRate", "frameCount", "symbols", "sprites", "displayDepth", "masks", "filters", "blendModes", "transforms", "bounds", "frameLabels", "buttonStateCounts"],
-    "browserNative": false,
-    "authoredLayerNamesRecoverable": false,
-    "failClosed": true
+  "authority": {
+    "internalTransformsAndZOrderRenderedFromFfdec": true,
+    "externalRoomLayoutInvented": false,
+    "roomMembership": "Gunny runtime only",
+    "gameplay": "Gunny Worker/API only",
+    "runtimeIntegration": false
   }
 }
