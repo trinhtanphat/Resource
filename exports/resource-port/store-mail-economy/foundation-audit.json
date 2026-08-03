@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "foundation": {
+    "repository": "trinhtanphat/Gunny",
+    "immutableCommit": "e2552ddf57beca13d9ab2dca1b168fda0161f337",
+    "roots": [
+      {
+        "path": "public/game-ui/kit/shop",
+        "files": [
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/add-to-cart-button.png",
+            "gitBlobSha1": "b109a178e260cc0caf75abcca110a44b75aaa6c0",
+            "bytes": 3059
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/body-info-background.png",
+            "gitBlobSha1": "ba5c233b3c3471eb3a762e325fcc1e802b014fda",
+            "bytes": 28971
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/buy-button.png",
+            "gitBlobSha1": "c72654c56e6ca949363ec803013e8edc47287bc3",
+            "bytes": 1384
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/category-subtab-active.png",
+            "gitBlobSha1": "889e2c95e500a70bb0d252c5313bbb6a27f45f1a",
+            "bytes": 772
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/category-subtab-idle.png",
+            "gitBlobSha1": "61f59a1b07f7e5c81eeabd8c036449d7c998725e",
+            "bytes": 1050
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/currency-free-label.png",
+            "gitBlobSha1": "9b7c5b2cfa7137ec732643bf08ab2bbeed234f39",
+            "bytes": 771
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/currency-le-kim-label.png",
+            "gitBlobSha1": "2cebe84f53156ee06e36e3325b7e36ced9fade36",
+            "bytes": 1344
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/currency-medal-label.png",
+            "gitBlobSha1": "89472074f9119a8d2608b7484f9ab42739c24fa6",
+            "bytes": 2062
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/currency-xu-label.png",
+            "gitBlobSha1": "75a865c41e3297954461bacdd6bcab2468cbce45",
+            "bytes": 1174
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/footer-background.png",
+            "gitBlobSha1": "2d83a7b2bd9ab7f76b5d360dd1f950a2aef7e615",
+            "bytes": 3139
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/giving-button.png",
+            "gitBlobSha1": "1507ec22a7c250757e1c9bde01254fc871a15c91",
+            "bytes": 1594
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/good-item-manifest.json",
+            "gitBlobSha1": "d5aaadf442884a2b6163d4a8622ef7071ac8d937",
+            "bytes": 5525
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/item-background-gift.png",
+            "gitBlobSha1": "0a84007a42d43af35a1de7a261bf1f7ac4b42dc5",
+            "bytes": 2149
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/item-background-money.png",
+            "gitBlobSha1": "1b95e6aa3f00fbb59dee364977324b37d0b089df",
+            "bytes": 4145
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/page-first-button.png",
+            "gitBlobSha1": "092506fe7e8667009f0ba04075fdf740c27479f2",
+            "bytes": 3470
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/page-last-button.png",
+            "gitBlobSha1": "ccaad935ffc9db3c29414c67e4d3fd9296f99102",
+            "bytes": 3400
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/page-next-button.png",
+            "gitBlobSha1": "5a69dfc0d012284624b3d8fdc3761c7af58361d8",
+            "bytes": 3360
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/page-previous-button.png",
+            "gitBlobSha1": "5e78fdb66fa721b03403de08e48673720b105f12",
+            "bytes": 3317
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/right-background.png",
+            "gitBlobSha1": "10c14af4f95aa55ef5ecd5a970d11e80aeb6fd8c",
+            "bytes": 94395
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/select-button.png",
+            "gitBlobSha1": "94520e2c19635207232b6572a340a2e72653b833",
+            "bytes": 6222
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-beauty-idle.png",
+            "gitBlobSha1": "f0365b66fd0ca7a3858c17dbd7904831a5d1586e",
+            "bytes": 5456
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-beauty-selected.png",
+            "gitBlobSha1": "860a043ad96b9864c90adb8a1a2453586d067f2f",
+            "bytes": 6030
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-equipment-idle.png",
+            "gitBlobSha1": "b28317a95192e85424886695e6fa3c82fdb0421a",
+            "bytes": 5373
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-equipment-selected.png",
+            "gitBlobSha1": "d224994034d99716373a1bf3820416a1039c2238",
+            "bytes": 5889
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-exchange-idle.png",
+            "gitBlobSha1": "5f05adb1eef8ac918efb1ed3057abb2b36005dcc",
+            "bytes": 5205
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-exchange-selected.png",
+            "gitBlobSha1": "c508dd4657a0d8284ce40d44ba19dbd4e3f6cfcc",
+            "bytes": 5553
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-free-idle.png",
+            "gitBlobSha1": "2afe9ec0163ca2f246fbf2f63214f1fcc6712cc6",
+            "bytes": 3172
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-free-selected.png",
+            "gitBlobSha1": "8b0b830e69ca975a2339314921d6ebf67d4c0671",
+            "bytes": 8417
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-props-idle.png",
+            "gitBlobSha1": "6393403dd7d0df68c79e4cdf1d15392ac569a906",
+            "bytes": 5393
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-props-selected.png",
+            "gitBlobSha1": "09cabbd789626c4b1520c2dfac95527a4b3a8962",
+            "bytes": 5974
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-recommend-idle.png",
+            "gitBlobSha1": "0b80edc55bacc5c9286965b40f83576484e2e808",
+            "bytes": 5592
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/tab-recommend-selected.png",
+            "gitBlobSha1": "9ad3133490fc3e6a699d440300b3ab60f56321b1",
+            "bytes": 6135
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/title.png",
+            "gitBlobSha1": "78713a82417e510a0dbae294fd1ece01004476f6",
+            "bytes": 34435
+          },
+          {
+            "root": "public/game-ui/kit/shop",
+            "path": "public/game-ui/kit/shop/try-on-button.png",
+            "gitBlobSha1": "88fd58f510c3fa71de52c06e324b7d10b7fde219",
+            "bytes": 3222
+          }
+        ],
+        "bytes": 277149,
+        "uniqueBlobs": 34,
+        "identitySha256": "436e79958855b1058700bbb3407fe362a17ba988f63286e605f895d0161e0b08"
+      },
+      {
+        "path": "public/game-ui/mail",
+        "files": [
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_10.png",
+            "gitBlobSha1": "97e23ed8383b80f36526a734b94b3a7a15598435",
+            "bytes": 2597
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_11.png",
+            "gitBlobSha1": "3948a53e5cd22bbe58c4a90df5e817a399f62a61",
+            "bytes": 1794
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_12.png",
+            "gitBlobSha1": "d12683243a861165a15b962f456bf4f064d5150d",
+            "bytes": 510
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_13.png",
+            "gitBlobSha1": "c2d9e3a48b24703ef1ecd79835ff1e64addae8d5",
+            "bytes": 2425
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_14.png",
+            "gitBlobSha1": "d1a7f826cc073e458e2864f6dc5c46efad396341",
+            "bytes": 2000
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_15.png",
+            "gitBlobSha1": "6d62c5d7165a6a637038f98144619f7b509801f9",
+            "bytes": 8681
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_16.png",
+            "gitBlobSha1": "4a080077eb5884b6c9a0155d484cd42a1c380f33",
+            "bytes": 197
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_17.png",
+            "gitBlobSha1": "adfd68426490659e51ed164be45a008700c5dec8",
+            "bytes": 3587
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_18.png",
+            "gitBlobSha1": "d6ba113a8ebb241d611fbc3f731795dc413de697",
+            "bytes": 658
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_19.png",
+            "gitBlobSha1": "5852ab1240d91f50670bb3b80b64f05ee089c761",
+            "bytes": 5564
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_2.png",
+            "gitBlobSha1": "c013db73c6b4c9e0bc93931739f49359d8b402e1",
+            "bytes": 2322
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_20.png",
+            "gitBlobSha1": "6196e4aa53dfb07db1c08a927db2be1594e21f0a",
+            "bytes": 4074
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_21.png",
+            "gitBlobSha1": "e61c5f71724bebf2299fcbe7d07841cde19e2f95",
+            "bytes": 3880
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_22.png",
+            "gitBlobSha1": "2ecf89dcbbd1c001e7267efb340d9e93aa1bb0fb",
+            "bytes": 2596
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_23.png",
+            "gitBlobSha1": "519071155970c711548f0facf195c3da105e76b5",
+            "bytes": 1357
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_24.png",
+            "gitBlobSha1": "ad87a3b33846161e8cc56f4b30418ee7085307fe",
+            "bytes": 1912
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_25.png",
+            "gitBlobSha1": "6f2549ce3bb8d398c87a0bb0f102f94361310215",
+            "bytes": 1613
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_26.png",
+            "gitBlobSha1": "1126191c7cd550ed91eafceb5a5b4ddc331bdb08",
+            "bytes": 448
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_27.png",
+            "gitBlobSha1": "230bed1609a4a1c05d11618536ee12a5af3413d7",
+            "bytes": 1983
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_28.png",
+            "gitBlobSha1": "a1e4adaba1ccb2834da1f5a8a45d217606bd2550",
+            "bytes": 11600
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_29.png",
+            "gitBlobSha1": "29c4d5daeb73f8c7bdf1d4861cd163b065a1c7d0",
+            "bytes": 508
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_3.png",
+            "gitBlobSha1": "4bfff2a4e018bb1c5521a9735b43469c7e96a396",
+            "bytes": 1762
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_30.png",
+            "gitBlobSha1": "fac585eadb2ccb8d5ececdffbf9261e4909ee1c5",
+            "bytes": 49873
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_31.png",
+            "gitBlobSha1": "70f62646b524aa599c9e7b2e106706fdeac59666",
+            "bytes": 2021
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_32.png",
+            "gitBlobSha1": "428ba3e4303531a80a9915c895f80882188b1322",
+            "bytes": 1396
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_33.png",
+            "gitBlobSha1": "7cc2a8d7a252e44f56090407a53b490d72ba4f83",
+            "bytes": 8817
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_34.png",
+            "gitBlobSha1": "59eca86798063da2f7914bd9b87e4ccdfbfee832",
+            "bytes": 4254
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_35.png",
+            "gitBlobSha1": "b45a178640b4f8551f2fafb375aebffa8222edbc",
+            "bytes": 3320
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_36.png",
+            "gitBlobSha1": "db17625fe6fe705a98ed3f63ab2d8af357b573b3",
+            "bytes": 1586
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_37.png",
+            "gitBlobSha1": "d813b7252f3bed543b66ccbe9693feefffd19b59",
+            "bytes": 3236
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_38.png",
+            "gitBlobSha1": "d11e8de9e115dc22a41e0001b9b1cf415a1184c1",
+            "bytes": 2903
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_39.png",
+            "gitBlobSha1": "50722b243dcaeca22bba9bdbb9c4783791fccff2",
+            "bytes": 1170
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_4.png",
+            "gitBlobSha1": "cd39049fc5551f1e6d4f5128c3ddee66c17b1835",
+            "bytes": 977
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_40.png",
+            "gitBlobSha1": "41d221c8c19c45e0ed9c4e0055335c6ce14029fa",
+            "bytes": 1998
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_41.png",
+            "gitBlobSha1": "c1f8e9e240d2815e537b1e5545437f514b6f96ed",
+            "bytes": 1264
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_42.png",
+            "gitBlobSha1": "9cc7cc84a00bc75ac5d2414cb0251b19dbbc128f",
+            "bytes": 967
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_43.png",
+            "gitBlobSha1": "0d8025173fd696fbf5529475687c70ed611da0be",
+            "bytes": 2090
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_44.png",
+            "gitBlobSha1": "6cb87f907679b349aea1babed484c026fbd351c3",
+            "bytes": 2255
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_45.png",
+            "gitBlobSha1": "50f7795ed59a7a40083895796b5f66946a0fee28",
+            "bytes": 1591
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_46.png",
+            "gitBlobSha1": "398146c2670f80cedcea35fd395ec00f592d9aa8",
+            "bytes": 4153
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_47.png",
+            "gitBlobSha1": "c835f8e9261872ae5ea0ff7c07fd46ee05cfc5b0",
+            "bytes": 2197
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_48.png",
+            "gitBlobSha1": "bf0d7b0607e9c69bd385e91ab29ba9aaaa9b364c",
+            "bytes": 1619
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_49.png",
+            "gitBlobSha1": "eabe3d84113984dc431f7e3c5cf0e78e9ddfcf8b",
+            "bytes": 3107
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_5.png",
+            "gitBlobSha1": "8628291fc19e5595868f28a59dc4a88230dd658a",
+            "bytes": 3557
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_50.png",
+            "gitBlobSha1": "3f47cb3a05909498c729a9240e4291f2b6debd7d",
+            "bytes": 4857
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_51.png",
+            "gitBlobSha1": "1e5f658f7b42da5567365afa286f561c6486d1fd",
+            "bytes": 2104
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_52.png",
+            "gitBlobSha1": "81c4a6d4c430f7e40623b80c2b9421789b4c1bca",
+            "bytes": 610
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_53.png",
+            "gitBlobSha1": "6669f93de670e6d8e24f3e6885fafa25d715142b",
+            "bytes": 859
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_54.png",
+            "gitBlobSha1": "af84e96a54c5cff28a955ab4a6920b85abf23322",
+            "bytes": 7069
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_55.png",
+            "gitBlobSha1": "fa867dc5e06ee30f92a7178f271c0d4a47f409f3",
+            "bytes": 1771
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_56.png",
+            "gitBlobSha1": "b6f553cda9021f25ea13cee19e60909b239b03c3",
+            "bytes": 1469
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_57.png",
+            "gitBlobSha1": "361822c63ee8b4e1823f3f0a878549ce424bebd3",
+            "bytes": 1695
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_58.png",
+            "gitBlobSha1": "43638de93b47cff0e9206479a058c2e1a6955d28",
+            "bytes": 1429
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_6.png",
+            "gitBlobSha1": "e8f5aafb5eada837f781d2ca173e026a43f9a1fd",
+            "bytes": 1703
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_7.png",
+            "gitBlobSha1": "5a61baa9b9141db2279860a1dea2d680d2f15aed",
+            "bytes": 1481
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_8.png",
+            "gitBlobSha1": "08b7a3f2c9000cbd1bd4fe36c43bbb055cf1735e",
+            "bytes": 1903
+          },
+          {
+            "root": "public/game-ui/mail",
+            "path": "public/game-ui/mail/email_9.png",
+            "gitBlobSha1": "5f916c614dfe7a9707e4e74d2098fb5af89b69d3",
+            "bytes": 1701
+          }
+        ],
+        "bytes": 195070,
+        "uniqueBlobs": 57,
+        "identitySha256": "a770f73b1025b224adc34e2455398084af1ba052b365153e642b51bdce130ccd"
+      },
+      {
+        "path": "public/game-ui/gift",
+        "files": [
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_1.png",
+            "gitBlobSha1": "cd4f5b81c0d5117d17fd62b06460b6b3de60c5a2",
+            "bytes": 2465
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_10.png",
+            "gitBlobSha1": "bfbef57b5752757ee55fe1a914b9122ee70c260c",
+            "bytes": 2621
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_11.png",
+            "gitBlobSha1": "f8815ddff86a4e0034a17d5a699537e676970434",
+            "bytes": 6073
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_12.png",
+            "gitBlobSha1": "4616245c4e2cc31e0a13c4a64cc8edcdcfe06277",
+            "bytes": 4201
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_13.png",
+            "gitBlobSha1": "1c621b1e72ba62a3989db4c78bf6b420e296b3de",
+            "bytes": 824
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_14.png",
+            "gitBlobSha1": "a63609bdc7136103cb5834a2f03505c006438110",
+            "bytes": 7793
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_15.png",
+            "gitBlobSha1": "8974e52b441b12183378312338de3c170ec30115",
+            "bytes": 8972
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_16.png",
+            "gitBlobSha1": "c0fc26ac3a6949e5fdb7168eb034d10b7ae094f6",
+            "bytes": 61847
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_17.png",
+            "gitBlobSha1": "54b7a3d165714d3cd73817e538fc973b130d6649",
+            "bytes": 2571
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_18.png",
+            "gitBlobSha1": "826a8ed5e4a3f68fc55371547336297219f2d5f5",
+            "bytes": 1837
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_19.png",
+            "gitBlobSha1": "93efec8c1d824189595950abc758620aeaca1e11",
+            "bytes": 2578
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_2.png",
+            "gitBlobSha1": "8b9ef2b9312671ed9b8f767544487780bebb4864",
+            "bytes": 1821
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_20.png",
+            "gitBlobSha1": "caf33e80eaa050cc758635ced59b9a3df30470a7",
+            "bytes": 5957
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_21.png",
+            "gitBlobSha1": "a3ded898b573368215afdd65ba27878c64a52787",
+            "bytes": 69523
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_22.png",
+            "gitBlobSha1": "73b0a7122fbc66bebe4214223ce94c2547dea2ce",
+            "bytes": 5811
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_23.png",
+            "gitBlobSha1": "7fa86a6f9146ca0e80bfe3cb7631f524ae99194b",
+            "bytes": 1825
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_24.png",
+            "gitBlobSha1": "ce9731b0973c121415cb9167f60560bc3980eeb6",
+            "bytes": 2572
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_25.png",
+            "gitBlobSha1": "3186860ac20bb967117aba0dbba8b926a753dd95",
+            "bytes": 1714
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_26.png",
+            "gitBlobSha1": "ea9492e3f1fda6e08381ca24da9d84c38184f6ac",
+            "bytes": 431
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_27.png",
+            "gitBlobSha1": "8166d03009778b32f15c87e90584f392239613fa",
+            "bytes": 3570
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_28.png",
+            "gitBlobSha1": "f3b6fd0e0a8ffa952b9c7a9127522900d0b1f91f",
+            "bytes": 10025
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_29.png",
+            "gitBlobSha1": "7b7151cb33d4cf8e8e2da1f37fdce727da5cda85",
+            "bytes": 9115
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_3.png",
+            "gitBlobSha1": "280abab428d3d752c08cf18946ae22ef42d4d009",
+            "bytes": 984
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_30.png",
+            "gitBlobSha1": "92ee92af2756e79ab5b00452bc317585db1b123b",
+            "bytes": 1697
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_31.png",
+            "gitBlobSha1": "2a9f1e1243b7102c87583f0a58266ff791f3511c",
+            "bytes": 2386
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_32.png",
+            "gitBlobSha1": "1a643baf1fea11d9a2a36b7a0697dd76f67e3284",
+            "bytes": 1814
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_33.png",
+            "gitBlobSha1": "3670a17a2014028ee6474b45b062f73058beae63",
+            "bytes": 2387
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_34.png",
+            "gitBlobSha1": "2e169b42309a506a4e60e5e424bea1d42cc1a6cb",
+            "bytes": 657
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_35.png",
+            "gitBlobSha1": "0ef66f61541bc4ae9b4a77592fb415b84f34ea29",
+            "bytes": 1107
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_36.png",
+            "gitBlobSha1": "92d7e77d28de981060ac4811aee839dd0430bd56",
+            "bytes": 55933
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_37.png",
+            "gitBlobSha1": "c66c6297ebea972b67d05fc289dc934b364c6be9",
+            "bytes": 6364
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_38.png",
+            "gitBlobSha1": "9680f6447317dffaa7b180500178de19bc780bec",
+            "bytes": 1027
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_39.png",
+            "gitBlobSha1": "0a1787dbe4df6696c81879ca15ff06758e6fea3d",
+            "bytes": 1773
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_4.png",
+            "gitBlobSha1": "40ad2911481bedd558c244927c4440ffe6627447",
+            "bytes": 1826
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_40.png",
+            "gitBlobSha1": "f74529e9f1f43fe29dd4cec3a54afca7736c7db6",
+            "bytes": 1636
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_5.png",
+            "gitBlobSha1": "36bb8dc737c2402068d4a585e07794c6a5435aa3",
+            "bytes": 2491
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_6.png",
+            "gitBlobSha1": "0363c7899641324fd2b3ab05b4ce989786b30906",
+            "bytes": 1835
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_7.png",
+            "gitBlobSha1": "65b8739356993764f74d23b6e3bb430d6cef84d7",
+            "bytes": 2568
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_8.png",
+            "gitBlobSha1": "9d07341b7f24508a805da7dd72c25cb73ef54d68",
+            "bytes": 995
+          },
+          {
+            "root": "public/game-ui/gift",
+            "path": "public/game-ui/gift/giftSystem_9.png",
+            "gitBlobSha1": "4d8d8f5c1aae6a7fefb373228760a9aab1e92f9d",
+            "bytes": 1463
+          }
+        ],
+        "bytes": 303089,
+        "uniqueBlobs": 40,
+        "identitySha256": "b9e4b78876ef62e20a4a09caf63ac473f2e54eaa86eb73f1c4646c4f0a57056e"
+      },
+      {
+        "path": "public/game-ui/store-embed",
+        "files": [
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-balance-background.png",
+            "gitBlobSha1": "3d1f14a4d82a7bebb0e79725ef9508971c4557ac",
+            "bytes": 1329
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-centre.png",
+            "gitBlobSha1": "79106554d8fb8b3d267a8d0bd4b0ecba1cac856d",
+            "bytes": 1187
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-down-centre.png",
+            "gitBlobSha1": "971ec1dc4ab0c32457777395ec23844155d69006",
+            "bytes": 1000
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-left-centre.png",
+            "gitBlobSha1": "07b979927477fd83f73ce86fe556664eab33e91b",
+            "bytes": 1159
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-left-down.png",
+            "gitBlobSha1": "e6749e560b3468773daa6c1c541d123a5172210e",
+            "bytes": 3229
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-left-up.png",
+            "gitBlobSha1": "52f7d2a674195d6259ad691597cd32b9c279237d",
+            "bytes": 3438
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-right-centre.png",
+            "gitBlobSha1": "8195df79f73a3a62f11171160d440b3234fea1c8",
+            "bytes": 1183
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-right-down.png",
+            "gitBlobSha1": "9ab531a66768807d60287b74a058fd16525b07f5",
+            "bytes": 3170
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-right-up.png",
+            "gitBlobSha1": "6c320a793367496c3ec6da4bb86569a12b5734a5",
+            "bytes": 3386
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-frame-up-centre.png",
+            "gitBlobSha1": "61ad60e83a4b8b09be750e6e4f0a3cff5aed8dac",
+            "bytes": 2485
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-gift-icon.png",
+            "gitBlobSha1": "6a05dfa94557bd3590689c9c8c27b000c65ae9a1",
+            "bytes": 351
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-gold-icon.png",
+            "gitBlobSha1": "dd7be0a6e84ac1e38b6420f393cd96dd7e87800f",
+            "bytes": 502
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-money-icon.png",
+            "gitBlobSha1": "e1e94e26d865a650d735e080bff60e1d46ca71e5",
+            "bytes": 714
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-panel-bottom-background.png",
+            "gitBlobSha1": "075b7ba96ec7f6c44fd6c5b1c1063b507bdc87c4",
+            "bytes": 1309
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-panel-equipment-title.png",
+            "gitBlobSha1": "20909beba1a36a501426c7d2c725b882e45f9d9f",
+            "bytes": 1095
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-panel-prop-title.png",
+            "gitBlobSha1": "335bdda01f2daa6edde360f376592845dc07922b",
+            "bytes": 1025
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/bag-panel-top-background.png",
+            "gitBlobSha1": "d9737af05ccdeadef35e8cc4ba021cd1e70f1b54",
+            "bytes": 1361
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-centre.png",
+            "gitBlobSha1": "284df873dcc785efc8c59cb3804748d1886ea45f",
+            "bytes": 870
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-down-centre.png",
+            "gitBlobSha1": "25d26d2146b442af24ec6535d53cf4ad05adf985",
+            "bytes": 1065
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-left-centre.png",
+            "gitBlobSha1": "5daa1f160965e37ca7d4b6e01f400a03b664dd34",
+            "bytes": 1334
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-left-down.png",
+            "gitBlobSha1": "669c6aabdfd0a52153b9c99c989656638b19b2ee",
+            "bytes": 1584
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-left-up.png",
+            "gitBlobSha1": "76da3c3d24eccb4f39ad84680b5c6cfbbaf67c57",
+            "bytes": 1498
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-right-centre.png",
+            "gitBlobSha1": "f4bdad81d9de8588a2b9aa751e26779a0f52069f",
+            "bytes": 1300
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-right-down.png",
+            "gitBlobSha1": "3cf39ec833ca5261df8cbabac1b97826c6466b9b",
+            "bytes": 1513
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-right-up.png",
+            "gitBlobSha1": "106dbaf492e7d19d2b7413734fb6e80e0fdd06b9",
+            "bytes": 1569
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/base-up-centre.png",
+            "gitBlobSha1": "be740d19a74a3423103b7b7a213e7473e44f38dc",
+            "bytes": 1192
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/compose-tab.png",
+            "gitBlobSha1": "5bff7111e9fd27c6d6b5b9afe6aec3b07bfe7f56",
+            "bytes": 9623
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/embed-background.png",
+            "gitBlobSha1": "18c0a9c1407e590854df788a99f79a168b5f2649",
+            "bytes": 473183
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/embed-tab.png",
+            "gitBlobSha1": "29edfc3ffa051b7f1dce630d09ac54f90ce33a55",
+            "bytes": 7797
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/equipment-background.png",
+            "gitBlobSha1": "58aabe1406bf5e749745267a2673cd8919afbaa1",
+            "bytes": 17057
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/equipment-bag-label.png",
+            "gitBlobSha1": "28185c8cc1b574e20c1c2ac6902c468be80b891a",
+            "bytes": 6226
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/equipment-cell-background.png",
+            "gitBlobSha1": "f29c3d032e929134d92e72cce65d7b34e76f53c8",
+            "bytes": 93
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/extract-button.png",
+            "gitBlobSha1": "5e04c51e60b6cd1d03fe69f96d3ba9756d3af9a9",
+            "bytes": 7852
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/extract-cursor-down.png",
+            "gitBlobSha1": "315a38a85b65063c002c8feb5bc0fdf37040798f",
+            "bytes": 9429
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/extract-cursor-up.png",
+            "gitBlobSha1": "e677a5d5814a6bf54c75d0c74d572118c0275163",
+            "bytes": 9531
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/extract-socket-cue.png",
+            "gitBlobSha1": "4a591f7749f29d9674130ac4789a30daaeb731b8",
+            "bytes": 2316
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/fusion-tab.png",
+            "gitBlobSha1": "27efd8f9c7ca12c5ad97b1789df3d6171e5ff70e",
+            "bytes": 9651
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/gem-bag-label.png",
+            "gitBlobSha1": "390af2b5ef068fe9914f59439cf51739d974f2d4",
+            "bytes": 5629
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/help-button.png",
+            "gitBlobSha1": "6f864b06b25abb971cbcabf6668d72e062d75f50",
+            "bytes": 1142
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/hole-exp-background.png",
+            "gitBlobSha1": "61b8ec1bd485a74107d78e61dc304cbd214d94d3",
+            "bytes": 750
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/hole-exp-thumb.png",
+            "gitBlobSha1": "93a95263e0265c374237d49431960c8ab1a3e49e",
+            "bytes": 666
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/manifest.json",
+            "gitBlobSha1": "a513f19d74f20913d2766709168361477030ba79",
+            "bytes": 46225
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/open-hole-button.png",
+            "gitBlobSha1": "42775718cbb34f6c071852ed3647f0684d688cc9",
+            "bytes": 2681
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/outer-fine-tab-unselected.png",
+            "gitBlobSha1": "4369168f6891e3f53fa199f1416c57f18990e166",
+            "bytes": 2851
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/outer-forge-tab-unselected.png",
+            "gitBlobSha1": "5ddd36e2351a541794601c9e346ee0e2680694d7",
+            "bytes": 2580
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/outer-store-tab-selected.png",
+            "gitBlobSha1": "a508e504bd2d89e06d94e96a5c4fe78b7baf2aa7",
+            "bytes": 10150
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-arrow-down-over.png",
+            "gitBlobSha1": "7c12a3c968efad94a99245c97059a518caec6a9e",
+            "bytes": 370
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-arrow-down.png",
+            "gitBlobSha1": "4aa2f9e018828bc717d9dd6fdefe2416297526ef",
+            "bytes": 494
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-arrow-up-over.png",
+            "gitBlobSha1": "15c3323e5dd708795b47ae9949cb020083c6a07a",
+            "bytes": 412
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-arrow-up.png",
+            "gitBlobSha1": "f96d38516f88e676276192f74f685d393a8d866f",
+            "bytes": 499
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-thumb-drag.png",
+            "gitBlobSha1": "500bda58e1044b9a01a4363f18c2031417094f2f",
+            "bytes": 82
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-thumb-over.png",
+            "gitBlobSha1": "cb07e727c34a4dad0d1d77417388a38ac6794799",
+            "bytes": 460
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-thumb.png",
+            "gitBlobSha1": "de17c55bf4d179efe8b15ed1cfe1b2314f63a504",
+            "bytes": 293
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/scroll-track.png",
+            "gitBlobSha1": "47dc81844c8837bcc798f5351712f488f4f48038",
+            "bytes": 296
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-attack.png",
+            "gitBlobSha1": "2073b4bea0532d2241b165f6c8576726b9737f6c",
+            "bytes": 12601
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-attribute.png",
+            "gitBlobSha1": "2aa8552396f527c425d9606eb9ee14ffe4eebbea",
+            "bytes": 12992
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-cell-background.png",
+            "gitBlobSha1": "2de989d9f65584d56c834beea83cf249ea447f3a",
+            "bytes": 90
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-closed.png",
+            "gitBlobSha1": "d631406d11d59da4154faeed597b208d168f3d6d",
+            "bytes": 4693
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-defense.png",
+            "gitBlobSha1": "ebf30e44b982e6c322e1750d2f97a0688a647f90",
+            "bytes": 11463
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-five-six-closed.png",
+            "gitBlobSha1": "4ad928c4cc5a08017bbfecc5eef3de5e54616bac",
+            "bytes": 4963
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/socket-help-tip.png",
+            "gitBlobSha1": "244a3f6349888849d7ade7cde2412f2e994faac5",
+            "bytes": 5310
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/store-background.png",
+            "gitBlobSha1": "fdf4771887dae2c7c48eaae605dbe07504c4bc39",
+            "bytes": 2318
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/strength-tab.png",
+            "gitBlobSha1": "bc0d660bc08a5d1ec43209be29eabce6b3f4ae53",
+            "bytes": 10248
+          },
+          {
+            "root": "public/game-ui/store-embed",
+            "path": "public/game-ui/store-embed/transfer-tab.png",
+            "gitBlobSha1": "20cbbd1541ec4a4b93bc559d3a858ca51fc59014",
+            "bytes": 9690
+          }
+        ],
+        "bytes": 742554,
+        "uniqueBlobs": 64,
+        "identitySha256": "2651fef3bacfbe7bff34dabbe2749df46a02fd728b68f3599e0d9e19f82b3935"
+      }
+    ],
+    "contextPins": [
+      {
+        "path": "src/client/source-shop-paged.ts",
+        "blob": "d310cd6295f641dac887d3d1bcf55a0b50645f7a",
+        "bytes": 19902,
+        "sha256": "c9de74f0ffbd144eb84a3d1bf861a71b0d736e30ecc91b8b070e2b12677b1efb"
+      },
+      {
+        "path": "src/client/source-shop-resource-icons.ts",
+        "blob": "603a1d7b89e6b266596725ce3679bc33a436e191",
+        "bytes": 2365,
+        "sha256": "8ee4cdb0e6796247075f72da95028fb830ad7fe783662af28adabb818420485c"
+      },
+      {
+        "path": "src/client/source-shop-good-item.css",
+        "blob": "06b3fd38fd1c700244a21a884b79b03fb1941224",
+        "bytes": 6336,
+        "sha256": "c4102925a244cbc57876a4097ea7a6ce059283a3f85e5b2cb42646dd57c30750"
+      },
+      {
+        "path": "src/client/account.css",
+        "blob": "c79ded65f6b36d905a5b8525af759f58c1f2b5e3",
+        "bytes": 25197,
+        "sha256": "9cdaa0f511ecd192569bbcb8e509e2c9aa909244f97f761123a8fdcbbb8b1694"
+      },
+      {
+        "path": "src/client/shop-gift.ts",
+        "blob": "a638fb607e3bd788b7a2ee7953e59fae770252f9",
+        "bytes": 12387,
+        "sha256": "49c956db4018ed0b80a00d6f30d53421000cd14e305048e9c36377d73293491c"
+      },
+      {
+        "path": "src/client/source-mail.ts",
+        "blob": "9125000b685dadd6597444c0de1dc0943d94895f",
+        "bytes": 46146,
+        "sha256": "1509393cb7656869c01f1134988bb5de51db4ab8fbc5ee5e5c85f4d2d94303b6"
+      },
+      {
+        "path": "src/client/source-store-embed-view.ts",
+        "blob": "c9d9ccacdf0cfbba27210a2ab0f4af9ffaba81b2",
+        "bytes": 22564,
+        "sha256": "fa242e8631007176f4d6ffbd243f53b4d60063204a6ce6444913542f5ea21f00"
+      },
+      {
+        "path": "src/worker/item-routes.ts",
+        "blob": "1b1e1738e5c1d0ea870ab3f026ab9676c2eba2f1",
+        "bytes": 13781,
+        "sha256": "12ccac39d7165358caf564a8c2f4146e559356b568bac94906255997412ef900"
+      },
+      {
+        "path": "src/worker/shop-gift-routes.ts",
+        "blob": "601b81202867e881cd5a6b5e8f17f2b3e2803323",
+        "bytes": 10350,
+        "sha256": "af1968bd8e74f2501abc4edaf52b92cc9043e3011e13f1499f1e2793531842f3"
+      },
+      {
+        "path": "src/worker/legacy-content.ts",
+        "blob": "3e2622fcc42aa44e454344fa8e75cbe060ea8bea",
+        "bytes": 13008,
+        "sha256": "0c3ca0abb31a12a0840c44ebace76df4ab6c51e02073b0b423d186926293dfed"
+      },
+      {
+        "path": "public/game-ui/kit/shop/good-item-manifest.json",
+        "blob": "d5aaadf442884a2b6163d4a8622ef7071ac8d937",
+        "bytes": 5525,
+        "sha256": "0dba5f29b474467f35ec1e034ade9e8b23be59a9b023e625ef7a903067e1b12a"
+      },
+      {
+        "path": "public/game-ui/store-embed/manifest.json",
+        "blob": "a513f19d74f20913d2766709168361477030ba79",
+        "bytes": 46225,
+        "sha256": "3d9253f18fcc2f12dde4e5d5be41f93ecd387b10d608796ff885315c80b975b1"
+      }
+    ],
+    "summary": {
+      "files": 195,
+      "bytes": 1517862,
+      "uniqueBlobs": 195,
+      "duplicatedIntoP043": 0
+    }
+  },
+  "coverage": {
+    "shop": "referenced-existing-Gunny-foundation",
+    "gift": "referenced-existing-Gunny-foundation",
+    "mail": "referenced-existing-Gunny-foundation",
+    "storeEmbed": "referenced-existing-Gunny-foundation",
+    "bytesDuplicatedIntoP043": 0
+  }
+}

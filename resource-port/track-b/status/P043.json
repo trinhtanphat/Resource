@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "runtimeSessionId": "R043",
+  "owner": "store-mail-economy",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 4735,
+    "bytes": 35195703,
+    "uniqueBlobs": 3470,
+    "trackA": {
+      "exact": 4631,
+      "inferred": 0,
+      "unresolved": 104
+    },
+    "package": {
+      "exact": 4724,
+      "inferred": 0,
+      "unresolved": 11
+    },
+    "profiles": {
+      "raster": 4709,
+      "binary-unknown": 25,
+      "text-data": 1
+    },
+    "families": {
+      "image/card/": {
+        "files": 216,
+        "bytes": 2304628,
+        "exact": 216,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/cardbox/": {
+        "files": 84,
+        "bytes": 473690,
+        "exact": 84,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/gift/": {
+        "files": 143,
+        "bytes": 748630,
+        "exact": 142,
+        "inferred": 0,
+        "unresolved": 1
+      },
+      "image/oneshopping/": {
+        "files": 15,
+        "bytes": 184771,
+        "exact": 15,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/unfrightprop/": {
+        "files": 4277,
+        "bytes": 31483984,
+        "exact": 4267,
+        "inferred": 0,
+        "unresolved": 10
+      }
+    },
+    "aliasMappings": 78,
+    "correctedMappings": 15,
+    "correctedObjects": 12,
+    "catalogShards": 2,
+    "sourceFilesProcessed": 4735,
+    "sourceFilesUnprocessed": 0,
+    "runtimeIntegration": false
+  },
+  "checks": {
+    "trackBVerifier": "pass: node resource-port/track-b/verify.mjs",
+    "packageChecker": "pass-generated-from-exact-origin-main-and-raw-pins",
+    "nodeSyntax": "pass: node --check resource-port/track-b/checks/P043.mjs",
+    "dependencyGate": "pass-exact-R030-R031-evidence-importer-shard-and-implementation-pins",
+    "importerChecks": "pass: R030 4096 files; R031 639 files",
+    "mediaValidation": "pass-78-exact-aliases-15-corrected-mappings-12-content-addressed-raster-objects",
+    "foundationAudit": "pass-195-existing-Gunny-shop-mail-gift-store-embed-files",
+    "rawSourceMutation": false,
+    "githubActionsUsedOrInspected": false
+  },
+  "remainingRisks": [
+    "4 truncated PNG objects remain disabled",
+    "4 files detected as SWF but lacking a valid SWF or known Gunny wrapper remain disabled",
+    "3 zero-byte objects remain disabled",
+    "raw artwork contains no authoritative price, currency, rarity, recipient, inventory or settlement rules",
+    "mail surface art is referenced from the exact existing Gunny foundation because P043 source families contain no reviewed mail surface family",
+    "existing Gunny shop, gift, mail and store-embed foundations are referenced and not duplicated into P043",
+    "runtime selection and all business lifecycle authority belong to R043 and the Gunny Worker"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}

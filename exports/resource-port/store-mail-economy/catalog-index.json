@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "columns": [
+    "path",
+    "gitBlobSha1",
+    "bytes",
+    "sha256",
+    "trackAClassification",
+    "packageClassification",
+    "inspectionProfile",
+    "detectedFormat",
+    "contentType",
+    "width",
+    "height",
+    "sourceFamily",
+    "consumerRole",
+    "canonicalSourcePath",
+    "packageOutput",
+    "dependencySessionId"
+  ],
+  "shards": [
+    {
+      "dependencySessionId": "R030",
+      "path": "exports/resource-port/store-mail-economy/catalog/r030.json",
+      "bytes": 1711482,
+      "sha256": "39f0b2966a27db763b7ee675bdb5cf7708fd215a1dc56abf98fe876e38677949",
+      "contentType": "application/json",
+      "sourceFiles": 4096,
+      "sourceBytes": 29627845
+    },
+    {
+      "dependencySessionId": "R031",
+      "path": "exports/resource-port/store-mail-economy/catalog/r031.json",
+      "bytes": 266081,
+      "sha256": "40afc33656b0c6821bed13fd02260773e0dcb02006464d8b9114d82cbf32c786",
+      "contentType": "application/json",
+      "sourceFiles": 639,
+      "sourceBytes": 5567858
+    }
+  ],
+  "summary": {
+    "files": 4735,
+    "bytes": 35195703,
+    "uniqueBlobs": 3470,
+    "trackA": {
+      "exact": 4631,
+      "inferred": 0,
+      "unresolved": 104
+    },
+    "package": {
+      "exact": 4724,
+      "inferred": 0,
+      "unresolved": 11
+    },
+    "profiles": {
+      "raster": 4709,
+      "binary-unknown": 25,
+      "text-data": 1
+    },
+    "families": {
+      "image/card/": {
+        "files": 216,
+        "bytes": 2304628,
+        "exact": 216,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/cardbox/": {
+        "files": 84,
+        "bytes": 473690,
+        "exact": 84,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/gift/": {
+        "files": 143,
+        "bytes": 748630,
+        "exact": 142,
+        "inferred": 0,
+        "unresolved": 1
+      },
+      "image/oneshopping/": {
+        "files": 15,
+        "bytes": 184771,
+        "exact": 15,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/unfrightprop/": {
+        "files": 4277,
+        "bytes": 31483984,
+        "exact": 4267,
+        "inferred": 0,
+        "unresolved": 10
+      }
+    },
+    "aliasMappings": 78,
+    "correctedMappings": 15,
+    "correctedObjects": 12
+  },
+  "resolution": {
+    "aliasMappings": 78,
+    "correctedMappings": 15,
+    "correctedObjects": 12,
+    "correctedBytes": 93842,
+    "unresolvedObjects": 11,
+    "policy": "exact blob alias or validated content-addressed raster only; otherwise unresolved"
+  }
+}

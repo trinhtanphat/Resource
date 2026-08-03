@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "runtimeSessionId": "R043",
+  "owner": "store-mail-economy",
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "sourceFamilies": [
+    "image/card/",
+    "image/cardbox/",
+    "image/gift/",
+    "image/oneshopping/",
+    "image/unfrightprop/"
+  ],
+  "lockedPaths": [
+    "exports/resource-port/store-mail-economy/**",
+    "resource-port/track-b/contracts/store-mail-economy.json",
+    "resource-port/track-b/evidence/P043.json",
+    "resource-port/track-b/checks/P043.mjs",
+    "resource-port/track-b/findings/P043.md",
+    "resource-port/track-b/status/P043.json"
+  ],
+  "dependencies": [
+    {
+      "sessionId": "R030",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "e2552ddf57beca13d9ab2dca1b168fda0161f337",
+      "evidencePath": "config/resource-port-evidence/R030.json",
+      "evidenceGitBlobSha1": "4bc9d98db71fc14ae656d61c15bc097bb84cc685",
+      "evidenceSha256": "9b0abf854107ff2fbba7871b6091cf3c000e10d0dd83bcc2e9a30d3d35d10ce8",
+      "importerPath": "scripts/import-resource-port-r030.mjs",
+      "importerGitBlobSha1": "cd939de2e05d972a7b6e528081b01a56be0298fe",
+      "importerSha256": "776cc115dd846de3f95ac32d0d645a84a45fcfd5f62df0d3a1a0c02e29fc9705",
+      "shardPath": "config/resource-port-dispatch/shards/store-mail-economy-001.json",
+      "shardSha256": "54636cfb5ccd6b11d2f3b21b78ade42fa940111dcd7d7f683ff2ad5f1fd90876",
+      "sourceFiles": 4096,
+      "sourceBytes": 29627845,
+      "trackBDependencySatisfied": true
+    },
+    {
+      "sessionId": "R031",
+      "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+      "verifiedOnGunnyMain": "e2552ddf57beca13d9ab2dca1b168fda0161f337",
+      "evidencePath": "config/resource-port-evidence/R031.json",
+      "evidenceGitBlobSha1": "fd1f3ac3934eff756aab27884721f14cb895bccb",
+      "evidenceSha256": "620586a52a8991cbbb5a7d8cbdaabe815bd1ae1b17a7a39279face4512921157",
+      "importerPath": "scripts/import-resource-port-r031.mjs",
+      "importerGitBlobSha1": "16ae11d6d9aafa0410215ac81916887f7e26fda2",
+      "importerSha256": "fa3f422c18c3ab52717a5241dd42c44e256edb2bd6ab8e4d32d86376be3bfb60",
+      "shardPath": "config/resource-port-dispatch/shards/store-mail-economy-002.json",
+      "shardSha256": "721fb1577863e47b0507df0c56398c855adb5434104c0a898b3ed88eb0c01600",
+      "sourceFiles": 639,
+      "sourceBytes": 5567858,
+      "trackBDependencySatisfied": true
+    }
+  ],
+  "contextPins": [
+    {
+      "path": "src/client/source-shop-paged.ts",
+      "blob": "d310cd6295f641dac887d3d1bcf55a0b50645f7a",
+      "bytes": 19902,
+      "sha256": "c9de74f0ffbd144eb84a3d1bf861a71b0d736e30ecc91b8b070e2b12677b1efb"
+    },
+    {
+      "path": "src/client/source-shop-resource-icons.ts",
+      "blob": "603a1d7b89e6b266596725ce3679bc33a436e191",
+      "bytes": 2365,
+      "sha256": "8ee4cdb0e6796247075f72da95028fb830ad7fe783662af28adabb818420485c"
+    },
+    {
+      "path": "src/client/source-shop-good-item.css",
+      "blob": "06b3fd38fd1c700244a21a884b79b03fb1941224",
+      "bytes": 6336,
+      "sha256": "c4102925a244cbc57876a4097ea7a6ce059283a3f85e5b2cb42646dd57c30750"
+    },
+    {
+      "path": "src/client/account.css",
+      "blob": "c79ded65f6b36d905a5b8525af759f58c1f2b5e3",
+      "bytes": 25197,
+      "sha256": "9cdaa0f511ecd192569bbcb8e509e2c9aa909244f97f761123a8fdcbbb8b1694"
+    },
+    {
+      "path": "src/client/shop-gift.ts",
+      "blob": "a638fb607e3bd788b7a2ee7953e59fae770252f9",
+      "bytes": 12387,
+      "sha256": "49c956db4018ed0b80a00d6f30d53421000cd14e305048e9c36377d73293491c"
+    },
+    {
+      "path": "src/client/source-mail.ts",
+      "blob": "9125000b685dadd6597444c0de1dc0943d94895f",
+      "bytes": 46146,
+      "sha256": "1509393cb7656869c01f1134988bb5de51db4ab8fbc5ee5e5c85f4d2d94303b6"
+    },
+    {
+      "path": "src/client/source-store-embed-view.ts",
+      "blob": "c9d9ccacdf0cfbba27210a2ab0f4af9ffaba81b2",
+      "bytes": 22564,
+      "sha256": "fa242e8631007176f4d6ffbd243f53b4d60063204a6ce6444913542f5ea21f00"
+    },
+    {
+      "path": "src/worker/item-routes.ts",
+      "blob": "1b1e1738e5c1d0ea870ab3f026ab9676c2eba2f1",
+      "bytes": 13781,
+      "sha256": "12ccac39d7165358caf564a8c2f4146e559356b568bac94906255997412ef900"
+    },
+    {
+      "path": "src/worker/shop-gift-routes.ts",
+      "blob": "601b81202867e881cd5a6b5e8f17f2b3e2803323",
+      "bytes": 10350,
+      "sha256": "af1968bd8e74f2501abc4edaf52b92cc9043e3011e13f1499f1e2793531842f3"
+    },
+    {
+      "path": "src/worker/legacy-content.ts",
+      "blob": "3e2622fcc42aa44e454344fa8e75cbe060ea8bea",
+      "bytes": 13008,
+      "sha256": "0c3ca0abb31a12a0840c44ebace76df4ab6c51e02073b0b423d186926293dfed"
+    },
+    {
+      "path": "public/game-ui/kit/shop/good-item-manifest.json",
+      "blob": "d5aaadf442884a2b6163d4a8622ef7071ac8d937",
+      "bytes": 5525,
+      "sha256": "0dba5f29b474467f35ec1e034ade9e8b23be59a9b023e625ef7a903067e1b12a"
+    },
+    {
+      "path": "public/game-ui/store-embed/manifest.json",
+      "blob": "a513f19d74f20913d2766709168361477030ba79",
+      "bytes": 46225,
+      "sha256": "3d9253f18fcc2f12dde4e5d5be41f93ecd387b10d608796ff885315c80b975b1"
+    }
+  ],
+  "assetAddressing": {
+    "mode": "cloudflare-r2-gateway",
+    "gatewayContract": "ddtank-r2-gateway-v1",
+    "canonicalObjectKey": "exact Resource source path or immutable content-addressed package output",
+    "sameOriginOnlyInComponents": true,
+    "directGatewayHostnameAllowedInClient": false
+  },
+  "consumerBoundary": {
+    "packageOnly": true,
+    "runtimeIntegration": false,
+    "sourceRasterCatalogReady": true,
+    "itemCardGiftShopMailSurfaceContractReady": true,
+    "presentationStatesEvidenceBacked": true,
+    "artworkDefinesBusinessSemantics": false,
+    "clientBusinessAuthority": false,
+    "swfRuntimeAllowed": false,
+    "unresolvedRuntimeAllowed": false
+  }
+}
