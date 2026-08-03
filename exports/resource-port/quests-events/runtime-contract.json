@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "packageOnly": true,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "consumerBoundary": {
+    "runtimeIntegration": false,
+    "nextSession": "R044",
+    "exactSourceIdentityRequired": true,
+    "visualReadyAssets": 701,
+    "behaviorReadyAssets": 0,
+    "unresolvedAssetsDisabled": 72,
+    "immutableGunnyFoundationFallback": "85a40447689a056ba0135331cbbfed8d52f0ac25"
+  },
+  "prohibited": {
+    "swfRuntime": true,
+    "filenameOnlySelection": true,
+    "artworkDerivedDateRewardEligibilityResetOrProgression": true,
+    "clientBusinessAuthority": true,
+    "unresolvedAssetEnablement": true
+  }
+}

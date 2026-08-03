@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "status": "complete-package-with-explicit-unresolved",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "summary": {
+    "files": 774,
+    "bytes": 33541657,
+    "uniqueBlobs": 752,
+    "trackA": {
+      "exact": 699,
+      "inferred": 0,
+      "unresolved": 75
+    },
+    "package": {
+      "exact": 702,
+      "inferred": 0,
+      "unresolved": 72
+    },
+    "profiles": {
+      "raster": 701,
+      "swf-timeline": 64,
+      "binary-unknown": 8,
+      "text-data": 1
+    },
+    "families": {
+      "image/badgerole/": {
+        "files": 22,
+        "bytes": 102309,
+        "exact": 22,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/badge/": {
+        "files": 12,
+        "bytes": 64689,
+        "exact": 12,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/binglong/": {
+        "files": 1,
+        "bytes": 10130,
+        "exact": 1,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/cardcollect/": {
+        "files": 29,
+        "bytes": 614644,
+        "exact": 29,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/collectiontask/": {
+        "files": 1,
+        "bytes": 814464,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 1
+      },
+      "image/ddqiyuan/": {
+        "files": 0,
+        "bytes": 0,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/dice/": {
+        "files": 12,
+        "bytes": 217687,
+        "exact": 12,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/explorermanual/": {
+        "files": 402,
+        "bytes": 2608123,
+        "exact": 402,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/honorbackground/": {
+        "files": 1,
+        "bytes": 2229,
+        "exact": 1,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/leaguerank/": {
+        "files": 14,
+        "bytes": 81717,
+        "exact": 14,
+        "inferred": 0,
+        "unresolved": 0
+      },
+      "image/sevendouble/": {
+        "files": 7,
+        "bytes": 1123474,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 7
+      },
+      "image/task/": {
+        "files": 184,
+        "bytes": 2390349,
+        "exact": 177,
+        "inferred": 0,
+        "unresolved": 7
+      },
+      "image/weekly/": {
+        "files": 88,
+        "bytes": 24860432,
+        "exact": 32,
+        "inferred": 0,
+        "unresolved": 56
+      },
+      "image/yearfood/": {
+        "files": 1,
+        "bytes": 651410,
+        "exact": 0,
+        "inferred": 0,
+        "unresolved": 1
+      }
+    },
+    "exactRawRaster": 698,
+    "correctedMappings": 3,
+    "correctedObjects": 3,
+    "visualReady": 701,
+    "behaviorReady": 0,
+    "sourceFilesProcessed": 774,
+    "sourceFilesUnprocessed": 0
+  },
+  "checks": {
+    "dependencyEvidencePin": "pass",
+    "dependencyImporterPin": "pass",
+    "dependencyImporterCheck": "pass: R032 774 files / 33541657 bytes / 699 exact / 75 unresolved",
+    "rawSourceHashAudit": "pass: 774 files / 33541657 bytes",
+    "rawPinnedBlobRetrievalAudit": "pass: 3 materialized mismatches read from immutable Git blobs",
+    "weeklyWeaponDuplicateAudit": "pass: 55 exact duplicates of P038-owned unresolved SWFs",
+    "ffdecEvidenceAudit": "pass: 64 metadata records using FFDec 26.2.1",
+    "correctedRasterAudit": "pass: 3 objects / 144489 bytes",
+    "consumerMappingAudit": "pass: 701 visual-ready mappings; 72 disabled mappings retained",
+    "packageChecker": "pass",
+    "programVerifier": "pass",
+    "githubActionsUsed": false
+  },
+  "remainingRisks": [
+    "64 SWF timeline containers remain metadata-only and disabled; 55 are exact duplicate weekly weapon SWFs already unresolved under P038",
+    "the seven-double audio SWF contains 5 embedded sounds but lacks reviewed extraction, browser codec and event trigger authority",
+    "8 binary objects remain quarantined, including PHP, BAT, RAR and zero-byte files",
+    "19 weeklyinfo.xml entries reference source files absent from the R032 shard and remain disabled",
+    "static artwork does not define dates, rewards, eligibility, reset schedules or progression semantics",
+    "runtime selection, behavior and business authority belong to R044 and the Gunny Worker/API"
+  ],
+  "publication": {
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  }
+}

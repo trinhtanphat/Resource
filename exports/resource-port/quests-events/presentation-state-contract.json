@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "surfaces": [
+    {
+      "sourceFamily": "image/badgerole/",
+      "consumerNamespace": "badgerole",
+      "files": 22,
+      "visualReady": 22,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/badge/",
+      "consumerNamespace": "badge",
+      "files": 12,
+      "visualReady": 12,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/binglong/",
+      "consumerNamespace": "binglong",
+      "files": 1,
+      "visualReady": 1,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/cardcollect/",
+      "consumerNamespace": "cardcollect",
+      "files": 29,
+      "visualReady": 29,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/collectiontask/",
+      "consumerNamespace": "collectiontask",
+      "files": 1,
+      "visualReady": 0,
+      "behaviorReady": 0,
+      "unresolved": 1
+    },
+    {
+      "sourceFamily": "image/ddqiyuan/",
+      "consumerNamespace": "ddqiyuan",
+      "files": 0,
+      "visualReady": 0,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/dice/",
+      "consumerNamespace": "dice",
+      "files": 12,
+      "visualReady": 12,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/explorermanual/",
+      "consumerNamespace": "explorermanual",
+      "files": 402,
+      "visualReady": 402,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/honorbackground/",
+      "consumerNamespace": "honorbackground",
+      "files": 1,
+      "visualReady": 1,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/leaguerank/",
+      "consumerNamespace": "leaguerank",
+      "files": 14,
+      "visualReady": 14,
+      "behaviorReady": 0,
+      "unresolved": 0
+    },
+    {
+      "sourceFamily": "image/sevendouble/",
+      "consumerNamespace": "sevendouble",
+      "files": 7,
+      "visualReady": 0,
+      "behaviorReady": 0,
+      "unresolved": 7
+    },
+    {
+      "sourceFamily": "image/task/",
+      "consumerNamespace": "task",
+      "files": 184,
+      "visualReady": 177,
+      "behaviorReady": 0,
+      "unresolved": 7
+    },
+    {
+      "sourceFamily": "image/weekly/",
+      "consumerNamespace": "weekly",
+      "files": 88,
+      "visualReady": 31,
+      "behaviorReady": 0,
+      "unresolved": 56
+    },
+    {
+      "sourceFamily": "image/yearfood/",
+      "consumerNamespace": "yearfood",
+      "files": 1,
+      "visualReady": 0,
+      "behaviorReady": 0,
+      "unresolved": 1
+    }
+  ],
+  "states": {
+    "exactStaticArtIsVisualOnly": true,
+    "hoverSelectedDisabledStatesFromArtwork": false,
+    "timelineMetadataIsPlayback": false,
+    "sourceDateIsActiveSchedule": false,
+    "sourcePathOrNumericTokenDefinesRewardEligibilityOrProgression": false
+  },
+  "authority": {
+    "datesRewardsEligibilityResetScheduleAndProgression": "Gunny Worker/API",
+    "packageProvidesBusinessBehavior": false,
+    "clientBusinessAuthority": false
+  }
+}

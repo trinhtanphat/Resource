@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "source": {
+    "path": "image/weekly/weeklyinfo.xml",
+    "bytes": 1820,
+    "sha256": "7b55ba2d5631ace89e8e92d4bf404591d5f5369c480e5fbe6d1e4dc0df891a9f",
+    "metadata": {
+      "value": "true",
+      "message": "Success!",
+      "webPath": "image/",
+      "edition": "6",
+      "editor": "第七大道",
+      "nextDate": "20110207",
+      "soundName": "201101301025061406.flv"
+    }
+  },
+  "entries": [
+    {
+      "sourceIndex": 0,
+      "type": "small",
+      "path": "201103010285762.swf",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 1,
+      "type": "small",
+      "path": "2011030102859546.swf",
+      "targetCategory": "1",
+      "targetPage": "2",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 2,
+      "type": "small",
+      "path": "201103010292265.swf",
+      "targetCategory": "0",
+      "targetPage": "1",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 3,
+      "type": "big",
+      "path": "201103010295731.jpg",
+      "targetCategory": "1",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 4,
+      "type": "big",
+      "path": "201103010300875.jpg",
+      "targetCategory": "1",
+      "targetPage": "1",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 5,
+      "type": "big",
+      "path": "201103010304750.jpg",
+      "targetCategory": "1",
+      "targetPage": "3",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 6,
+      "type": "big",
+      "path": "201103010307875.jpg",
+      "targetCategory": "2",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 7,
+      "type": "big",
+      "path": "2011030103010875.jpg",
+      "targetCategory": "3",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 8,
+      "type": "category0",
+      "path": "201103010298984.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 9,
+      "type": "category0",
+      "path": "2011030102912796.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 10,
+      "type": "category1",
+      "path": "2011030102924390.swf",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 11,
+      "type": "category1",
+      "path": "2011030102927234.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 12,
+      "type": "category1",
+      "path": "2011030102930468.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 13,
+      "type": "category1",
+      "path": "2011030102933468.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 14,
+      "type": "category1",
+      "path": "2011030102936515.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 15,
+      "type": "category2",
+      "path": "2011030102941750.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 16,
+      "type": "category2",
+      "path": "2011030102944671.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 17,
+      "type": "category3",
+      "path": "2011030102949187.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    },
+    {
+      "sourceIndex": 18,
+      "type": "category3",
+      "path": "2011030102952187.jpg",
+      "targetCategory": "0",
+      "targetPage": "0",
+      "resolvedSourcePath": null,
+      "visualReady": false,
+      "behaviorReady": false,
+      "enabled": false,
+      "disabledReason": "referenced-source-not-in-R032-shard"
+    }
+  ],
+  "summary": {
+    "entries": 19,
+    "resolvedSourceEntries": 0,
+    "visualReady": 0,
+    "behaviorReady": 0,
+    "enabled": 0
+  },
+  "authority": {
+    "sourceNextDateIsRuntimeSchedule": false,
+    "sourceTargetCategoryIsNavigationAuthority": false,
+    "sourceTargetPageIsNavigationAuthority": false,
+    "activeScheduleEligibilityRewardsAndReset": "Gunny Worker/API"
+  }
+}
