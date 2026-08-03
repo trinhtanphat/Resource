@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P048",
+  "runtimeSessionId": "R048",
+  "owner": "tutorial-video",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344",
+    "families": [
+      "image/video/",
+      "video/"
+    ]
+  },
+  "trackAEvidence": {
+    "repository": "trinhtanphat/Gunny",
+    "sessionId": "R036",
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "findingsCommit": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170",
+    "evidencePath": "config/resource-port-evidence/R036.json",
+    "evidenceGitBlobSha1": "6bbb36e24af8feae1438008a518fb6045a0aecee",
+    "evidenceSha256": "cc17a78c30b898380d4c5403b2e3227117249235fefd4f5678e3bd0838c52bda",
+    "dispatchPath": "config/resource-port-dispatch/shards/tutorial-video-001.json",
+    "dispatchSha256": "8a8d2c044a50970259def03f65f94c90d409863d8a9947c283f191fc0539184a",
+    "verifiedOnGunnyMain": "f813311182e55cd8df46953c914b9a11aa517c12"
+  },
+  "toolchain": {
+    "ffmpeg": {
+      "bytes": 101897728,
+      "sha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e"
+    },
+    "ffprobe": {
+      "bytes": 101692928,
+      "sha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07"
+    },
+    "versions": {
+      "ffmpeg": "ffmpeg version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "ffprobe": "ffprobe version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+      "node": "v25.0.0"
+    }
+  },
+  "catalogs": [
+    {
+      "path": "exports/resource-port/tutorial-video/tutorial.json",
+      "sha256": "3bd04658c669672d2672f7c227cc473333b6b13e1121bea68cbf04ac5ca4d4b8",
+      "tutorials": 1
+    }
+  ],
+  "binaryOutputs": {
+    "count": 2,
+    "bytes": 1626980,
+    "aggregateSha256": "4880e9ec61887fb41729c3fc8af74c3390a2127187d5933850060e1d6bfbcefb",
+    "contentAddressed": true
+  },
+  "summary": {
+    "sourceFiles": 2,
+    "sourceBytes": 1152234,
+    "uniqueSourceBlobs": 1,
+    "sourceFlvFiles": 2,
+    "browserVideoOutputs": 1,
+    "browserVideoBytes": 1471331,
+    "posterOutputs": 1,
+    "posterBytes": 155649,
+    "exactAssetSelections": 2,
+    "exactBrowserDerivatives": 2,
+    "inferredConsumerMappings": 0,
+    "unresolvedConsumerMappings": 1,
+    "runtimeIntegration": false
+  },
+  "runtimeBoundary": {
+    "packageOnly": true,
+    "nextSession": "R048",
+    "failClosedForUnresolvedConsumers": true,
+    "rawFlvRuntimeAllowed": false,
+    "mutableBranchAllowed": false
+  }
+}
