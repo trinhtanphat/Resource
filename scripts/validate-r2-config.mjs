@@ -166,7 +166,8 @@ for (const marker of [
   "known missing R2 key must use immutable fallback",
   "R033 manifest GET must succeed",
   "R033 manifest HEAD must succeed",
-  "R033 fallback URL must remain immutable"
+  "R033 fallback URL must remain immutable",
+  "R2 conditional GET must use HEAD preflight"
 ]) {
   if (!gatewayTestSource.includes(marker)) failures.push(`gateway self-test: missing ${marker}`);
 }

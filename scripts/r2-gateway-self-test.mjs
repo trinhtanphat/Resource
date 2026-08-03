@@ -53,7 +53,7 @@ const bucket = {
     const bytes = bytesByKey.get(key);
     if (!bytes) return null;
     const etag = `\"etag-${key.replaceAll("/", "-")}\"`;
-    if (options.onlyIf?.get?.("if-none-match") === etag) return metadata(key, bytes, null, false);
+    if (options.onlyIf?.get?.("if-none-match") === etag) return null;
     const range = options.range?.get?.("range");
     if (range === "bytes=1-3") {
       const sliced = bytes.slice(1, 4);
@@ -133,10 +133,14 @@ assert(response.headers.get("x-ddtank-resource-delivery") === "r2", "R033 HEAD m
 assert(response.headers.get("content-length") === String(bytesByKey.get(R033_KEY).byteLength), "R033 HEAD length mismatch");
 assert(await response.text() === "", "R033 HEAD must not return a body");
 
+const conditionalCallStart = calls.length;
 response = await request("/objects/screens/Login/bg.png", {
   headers: { "If-None-Match": '"etag-screens-Login-bg.png"' },
 });
 assert(response.status === 304, "conditional GET must return 304");
+const conditionalCalls = calls.slice(conditionalCallStart);
+assert(conditionalCalls.some((entry) => entry.method === "head"), "R2 conditional GET must use HEAD preflight");
+assert(!conditionalCalls.some((entry) => entry.method === "get"), "R2 conditional 304 must not fall through to GET");
 
 response = await request("/objects/screens/Login/bg.png", {
   headers: { Range: "bytes=1-3" },
@@ -180,7 +184,7 @@ assert(calls.some((entry) => entry.method === "get" && entry.key === "screens/Lo
 
 console.log(JSON.stringify({
   status: "ok",
-  assertions: 53,
+  assertions: 55,
   gatewayContract: CONTRACT,
   r2Calls: calls.length,
   fallbackCalls: fallbackCalls.length,
