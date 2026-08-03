@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "authoring": [
+    {
+      "sourcePath": "sound/sound201.fla",
+      "sourceBlobSha1": "717754db4d9efc028dfd6ea408f1c6d63f846cad",
+      "sourceBytes": 155136,
+      "disposition": "evidence-only-authoring-container",
+      "browserOutput": null
+    },
+    {
+      "sourcePath": "sound/sound202.fla",
+      "sourceBlobSha1": "85cc0661c4e510d833ffb908a381bfa1b71a78c9",
+      "sourceBytes": 431104,
+      "disposition": "evidence-only-authoring-container",
+      "browserOutput": null
+    }
+  ],
+  "launcherPayload": {
+    "sourcePath": "xml/update/ddtluncher.png",
+    "sourceBlobSha1": "efb5da34a8b4702d7ffedcbe98a910cf83755961",
+    "sourceSha256": "c3da65edf10a44b22227a6c98e0ed1f6b85d224e6a9ff97729ac310b709dda94",
+    "sourceBytes": 292794,
+    "detectedFormat": "adobe-air-installer-zip",
+    "detectedMime": "application/vnd.adobe.air-application-installer-package+zip",
+    "misleadingSourceExtension": ".png",
+    "publishedSupportObject": {
+      "path": "exports/resource-port/audio-localization/support/c3da65edf10a44b22227a6c98e0ed1f6b85d224e6a9ff97729ac310b709dda94.air",
+      "sha256": "c3da65edf10a44b22227a6c98e0ed1f6b85d224e6a9ff97729ac310b709dda94",
+      "bytes": 292794
+    },
+    "conversion": "identity-pinned-git-blob-renamed-to-.air",
+    "browserRuntimeAllowed": false,
+    "consumerClassification": "unresolved-legacy-launcher-only"
+  },
+  "multimediaSources": [
+    {
+      "sourcePaths": [
+        "sound/1041.flv"
+      ],
+      "sourceProbe": {
+        "format": {
+          "names": [
+            "flv"
+          ],
+          "duration": "80.200000",
+          "size": "1421602",
+          "bitRate": "141805"
+        },
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "h264",
+            "profile": "Main",
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": 320,
+            "height": 240,
+            "pixelFormat": "yuv420p",
+            "frameRate": "25/1",
+            "startTime": "0.080000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "511000"
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "profile": "LC",
+            "sampleRate": "44100",
+            "channels": 2,
+            "channelLayout": "stereo",
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.080000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "128000"
+          }
+        ]
+      },
+      "browserVideo": {
+        "path": "exports/resource-port/audio-localization/video/a0ef7afa566906ec659407b019a78e5e507eab74422055985f9f2b7c8b4c354f.mp4",
+        "sha256": "a0ef7afa566906ec659407b019a78e5e507eab74422055985f9f2b7c8b4c354f",
+        "bytes": 1391790,
+        "container": "mp4",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "probe": {
+          "format": {
+            "names": [
+              "mov",
+              "mp4",
+              "m4a",
+              "3gp",
+              "3g2",
+              "mj2"
+            ],
+            "duration": "80.120000",
+            "size": "1391790",
+            "bitRate": "138970"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "video",
+              "codec": "h264",
+              "profile": "Main",
+              "sampleRate": null,
+              "channels": null,
+              "channelLayout": null,
+              "width": 320,
+              "height": 240,
+              "pixelFormat": "yuv420p",
+              "frameRate": "25/1",
+              "startTime": "0.000000",
+              "duration": "80.120000",
+              "durationTs": "1281920",
+              "bitRate": "4221"
+            },
+            {
+              "index": 1,
+              "type": "audio",
+              "codec": "aac",
+              "profile": "LC",
+              "sampleRate": "44100",
+              "channels": 2,
+              "channelLayout": "stereo",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "80.015714",
+              "durationTs": "3528693",
+              "bitRate": "127999"
+            }
+          ]
+        },
+        "conversion": "lossless-h264-aac-remux",
+        "consumerClassification": "unresolved"
+      },
+      "consumerClassification": "unresolved-non-audio-stream"
+    },
+    {
+      "sourcePaths": [
+        "sound/1345.flv"
+      ],
+      "sourceProbe": {
+        "format": {
+          "names": [
+            "flv"
+          ],
+          "duration": "124.880000",
+          "size": "2214565",
+          "bitRate": "141868"
+        },
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "h264",
+            "profile": "Main",
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": 320,
+            "height": 240,
+            "pixelFormat": "yuv420p",
+            "frameRate": "25/1",
+            "startTime": "0.080000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "511000"
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "profile": "LC",
+            "sampleRate": "44100",
+            "channels": 2,
+            "channelLayout": "stereo",
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.080000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "128000"
+          }
+        ]
+      },
+      "browserVideo": {
+        "path": "exports/resource-port/audio-localization/video/3b5cabef5dba1c50d827d1e2e397ff3c5a8243784b06878a11de25c2f1d65336.mp4",
+        "sha256": "3b5cabef5dba1c50d827d1e2e397ff3c5a8243784b06878a11de25c2f1d65336",
+        "bytes": 2167553,
+        "container": "mp4",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "probe": {
+          "format": {
+            "names": [
+              "mov",
+              "mp4",
+              "m4a",
+              "3gp",
+              "3g2",
+              "mj2"
+            ],
+            "duration": "124.800000",
+            "size": "2167553",
+            "bitRate": "138945"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "video",
+              "codec": "h264",
+              "profile": "Main",
+              "sampleRate": null,
+              "channels": null,
+              "channelLayout": null,
+              "width": 320,
+              "height": 240,
+              "pixelFormat": "yuv420p",
+              "frameRate": "25/1",
+              "startTime": "0.000000",
+              "duration": "124.800000",
+              "durationTs": "1996800",
+              "bitRate": "4195"
+            },
+            {
+              "index": 1,
+              "type": "audio",
+              "codec": "aac",
+              "profile": "LC",
+              "sampleRate": "44100",
+              "channels": 2,
+              "channelLayout": "stereo",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "124.690907",
+              "durationTs": "5498869",
+              "bitRate": "127995"
+            }
+          ]
+        },
+        "conversion": "lossless-h264-aac-remux",
+        "consumerClassification": "unresolved"
+      },
+      "consumerClassification": "unresolved-non-audio-stream"
+    },
+    {
+      "sourcePaths": [
+        "sound/1400.flv"
+      ],
+      "sourceProbe": {
+        "format": {
+          "names": [
+            "flv"
+          ],
+          "duration": "140.673000",
+          "size": "1079552",
+          "bitRate": "61393"
+        },
+        "streams": [
+          {
+            "index": 0,
+            "type": "data",
+            "codec": null,
+            "profile": null,
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.000000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": null
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "mp3",
+            "profile": null,
+            "sampleRate": "22050",
+            "channels": 1,
+            "channelLayout": "mono",
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.000000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "49152"
+          },
+          {
+            "index": 2,
+            "type": "video",
+            "codec": "vp6f",
+            "profile": null,
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": 256,
+            "height": 144,
+            "pixelFormat": "yuv420p",
+            "frameRate": "989/33",
+            "startTime": "0.054000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "258048"
+          }
+        ]
+      },
+      "browserVideo": {
+        "path": "exports/resource-port/audio-localization/video/41cf242c1f07e8b2fa53c70ae6b561d03d81a27fcc2ea0e5a29f04121123f873.mp4",
+        "sha256": "41cf242c1f07e8b2fa53c70ae6b561d03d81a27fcc2ea0e5a29f04121123f873",
+        "bytes": 1315368,
+        "container": "mp4",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "probe": {
+          "format": {
+            "names": [
+              "mov",
+              "mp4",
+              "m4a",
+              "3gp",
+              "3g2",
+              "mj2"
+            ],
+            "duration": "140.746984",
+            "size": "1315368",
+            "bitRate": "74764"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "video",
+              "codec": "h264",
+              "profile": "High",
+              "sampleRate": null,
+              "channels": null,
+              "channelLayout": null,
+              "width": 256,
+              "height": 144,
+              "pixelFormat": "yuv420p",
+              "frameRate": "30000/1001",
+              "startTime": "0.066000",
+              "duration": "140.673867",
+              "durationTs": "4220216",
+              "bitRate": "3911"
+            },
+            {
+              "index": 1,
+              "type": "audio",
+              "codec": "aac",
+              "profile": "LC",
+              "sampleRate": "22050",
+              "channels": 1,
+              "channelLayout": "mono",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "140.746984",
+              "durationTs": "3103471",
+              "bitRate": "64195"
+            }
+          ]
+        },
+        "conversion": "deterministic-vp6-mp3-to-h264-aac",
+        "consumerClassification": "unresolved"
+      },
+      "consumerClassification": "unresolved-non-audio-stream"
+    },
+    {
+      "sourcePaths": [
+        "sound/1401.flv"
+      ],
+      "sourceProbe": {
+        "format": {
+          "names": [
+            "flv"
+          ],
+          "duration": "127.494000",
+          "size": "979178",
+          "bitRate": "61441"
+        },
+        "streams": [
+          {
+            "index": 0,
+            "type": "data",
+            "codec": null,
+            "profile": null,
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.000000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": null
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "mp3",
+            "profile": null,
+            "sampleRate": "22050",
+            "channels": 1,
+            "channelLayout": "mono",
+            "width": null,
+            "height": null,
+            "pixelFormat": null,
+            "frameRate": "0/0",
+            "startTime": "0.000000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "49152"
+          },
+          {
+            "index": 2,
+            "type": "video",
+            "codec": "vp6f",
+            "profile": null,
+            "sampleRate": null,
+            "channels": null,
+            "channelLayout": null,
+            "width": 256,
+            "height": 144,
+            "pixelFormat": "yuv420p",
+            "frameRate": "989/33",
+            "startTime": "0.054000",
+            "duration": null,
+            "durationTs": null,
+            "bitRate": "258048"
+          }
+        ]
+      },
+      "browserVideo": {
+        "path": "exports/resource-port/audio-localization/video/8884ab936ec428b6effff1d7aa2eedb3f13f39bf3f474459e7306f7a0b2295aa.mp4",
+        "sha256": "8884ab936ec428b6effff1d7aa2eedb3f13f39bf3f474459e7306f7a0b2295aa",
+        "bytes": 1210972,
+        "container": "mp4",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "probe": {
+          "format": {
+            "names": [
+              "mov",
+              "mp4",
+              "m4a",
+              "3gp",
+              "3g2",
+              "mj2"
+            ],
+            "duration": "127.560033",
+            "size": "1210972",
+            "bitRate": "75946"
+          },
+          "streams": [
+            {
+              "index": 0,
+              "type": "video",
+              "codec": "h264",
+              "profile": "High",
+              "sampleRate": null,
+              "channels": null,
+              "channelLayout": null,
+              "width": 256,
+              "height": 144,
+              "pixelFormat": "yuv420p",
+              "frameRate": "30000/1001",
+              "startTime": "0.066000",
+              "duration": "127.494033",
+              "durationTs": "3824821",
+              "bitRate": "3917"
+            },
+            {
+              "index": 1,
+              "type": "audio",
+              "codec": "aac",
+              "profile": "LC",
+              "sampleRate": "22050",
+              "channels": 1,
+              "channelLayout": "mono",
+              "width": null,
+              "height": null,
+              "pixelFormat": null,
+              "frameRate": "0/0",
+              "startTime": "0.000000",
+              "duration": "127.555011",
+              "durationTs": "2812588",
+              "bitRate": "65362"
+            }
+          ]
+        },
+        "conversion": "deterministic-vp6-mp3-to-h264-aac",
+        "consumerClassification": "unresolved"
+      },
+      "consumerClassification": "unresolved-non-audio-stream"
+    }
+  ]
+}

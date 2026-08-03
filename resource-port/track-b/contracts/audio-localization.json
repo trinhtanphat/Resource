@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "runtimeSessionId": "R047",
+  "owner": "audio-localization",
+  "packageManifest": "exports/resource-port/audio-localization/manifest.json",
+  "assetAddressing": {
+    "kind": "immutable-commit-relative-path",
+    "repository": "trinhtanphat/Resource",
+    "mutableBranchAllowed": false
+  },
+  "audio": {
+    "browserContainers": [
+      "mp3",
+      "ogg"
+    ],
+    "forbiddenRuntimeContainers": [
+      "flv",
+      "swf",
+      "fla"
+    ],
+    "mp3Policy": "copy FLV/SWF MP3 frames without re-encoding",
+    "unsupportedCodecPolicy": "decode through pinned FFDec/FFmpeg and encode deterministic Ogg Vorbis",
+    "eventName": "exact source filename stem or exact SWF SoundNNN symbol mapping",
+    "loop": "preserve caller loop semantics; whole-file loop starts at 0 and ends at decoded duration",
+    "volume": "preserve source music/sound percentage channels; no invented per-event gain"
+  },
+  "xml": {
+    "encoding": "UTF-8",
+    "parser": "browser DOMParser application/xml",
+    "preserveOrderAndDuplicateIds": true,
+    "directCaseInsensitiveUrlResolutionForbidden": true,
+    "localizationCatalogs": 0
+  },
+  "consumers": {
+    "exact": 9,
+    "inferred": 2,
+    "unresolved": 213,
+    "failClosed": true
+  },
+  "handoffRequirements": [
+    "Pin the immutable Resource merge commit.",
+    "Load every audio path through the central asset resolver and browser Audio APIs.",
+    "Consume XML through the typed R047 browser parser; never inject XML as HTML.",
+    "Keep unresolved event consumers and all four non-audio FLV streams inactive.",
+    "Preserve the source music/sound settings channels and whole-file loop contract."
+  ]
+}

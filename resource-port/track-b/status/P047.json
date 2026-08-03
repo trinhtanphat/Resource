@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "runtimeSessionId": "R047",
+  "owner": "audio-localization",
+  "status": "complete-package",
+  "runtimeIntegration": false,
+  "sourcePin": "519c35a293745b6a0477c4f6ea03110a89de2318",
+  "dependency": {
+    "sessionId": "R035",
+    "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
+    "findingsCommit": "1221419cc1f0ce4f50012b4c5b175ab84f6a8170",
+    "evidenceGitBlobSha1": "c6da41d64ac046765f4e48c44a6244ab40a45e44",
+    "dispatchSha256": "b043c6e636114e4ef78ef4a802d4d83ebf658d953bf943d1d0744ac36330bc10",
+    "verifiedOnGunnyMain": "894d7ba12b3b4966342195afbd6b1917b5c94c61"
+  },
+  "summary": {
+    "sourceFiles": 229,
+    "sourceBytes": 220403442,
+    "flvFiles": 222,
+    "uniqueFlvBlobs": 202,
+    "flvMp3Blobs": 200,
+    "flvAacBlobs": 2,
+    "audioOnlyFlvBlobs": 198,
+    "multimediaFlvBlobs": 4,
+    "uniqueBrowserAudioOutputs": 204,
+    "browserVideoOutputs": 4,
+    "embeddedSwfAudioOutputs": 2,
+    "xmlDocuments": 2,
+    "localizationCatalogs": 0,
+    "identityRasterOutputs": 0,
+    "legacyLauncherSupportObjects": 1,
+    "evidenceOnlyFla": 2,
+    "exactConsumerMappings": 9,
+    "inferredConsumerMappings": 2,
+    "unresolvedConsumerMappings": 213,
+    "runtimeIntegration": false
+  },
+  "publication": {
+    "repository": "trinhtanphat/Resource",
+    "immutableCommitRequired": true,
+    "mutableBranchAllowed": false,
+    "releaseCommit": null
+  },
+  "checks": {
+    "r035Importer": "pass on reviewed Gunny main with external staging",
+    "sourcePinAndTree": "pass",
+    "ffprobeInventory": "pass: every unique FLV source and browser media output",
+    "ffdecEmbeddedAudio": "pass: Sound201 and Sound202 symbol exports",
+    "deterministicCodecConversion": "pass",
+    "xmlUtf8Parsing": "pass",
+    "packageChecker": "pass after generation; rerun checker with pinned P047_FFPROBE",
+    "programVerifier": "coordinator-owned session map unchanged",
+    "githubActionsUsedOrInspected": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P047",
+  "documents": [
+    {
+      "sourcePath": "xml/config.xml",
+      "sourceBlobSha1": "e17435596dd58f7fdcc9609856cbdfbf3b9bfd9d",
+      "sourceSha256": "f32345ea584ea35d14511546a39b545966b7447442f1002b12dacc609e47e983",
+      "sourceBytes": 18088,
+      "browserDocument": {
+        "path": "exports/resource-port/audio-localization/xml/f32345ea584ea35d14511546a39b545966b7447442f1002b12dacc609e47e983.xml",
+        "sha256": "f32345ea584ea35d14511546a39b545966b7447442f1002b12dacc609e47e983",
+        "bytes": 18088
+      },
+      "conversion": "identity-pinned-git-blob-UTF-8",
+      "parsed": {
+        "kind": "particle-emitter-catalog",
+        "root": "list",
+        "emitterCount": 20,
+        "emitterIds": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "0",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "0"
+        ],
+        "duplicateEmitterIds": [
+          "0"
+        ],
+        "firstEmitterName": "炮单飞行",
+        "localizationCatalog": false
+      },
+      "runtimeConsumerClassification": "unresolved-until-R047-browser-parser"
+    },
+    {
+      "sourcePath": "xml/update/desktopupdate.xml",
+      "sourceBlobSha1": "06f3015a193ad961071879b416c327250933f2ab",
+      "sourceSha256": "935656f0920533dc73bce18d31d5cf4c503d96430a27daedda1d9793395437c1",
+      "sourceBytes": 123,
+      "browserDocument": {
+        "path": "exports/resource-port/audio-localization/xml/935656f0920533dc73bce18d31d5cf4c503d96430a27daedda1d9793395437c1.xml",
+        "sha256": "935656f0920533dc73bce18d31d5cf4c503d96430a27daedda1d9793395437c1",
+        "bytes": 123
+      },
+      "conversion": "identity-pinned-git-blob-UTF-8",
+      "parsed": {
+        "kind": "legacy-launcher-update",
+        "root": "example",
+        "version": "1.2",
+        "lastPublic": "ddtLuncher.png",
+        "actualSourcePath": "xml/update/ddtluncher.png",
+        "caseSensitiveReferenceMatches": false,
+        "localizationCatalog": false
+      },
+      "runtimeConsumerClassification": "unresolved-until-R047-browser-parser"
+    }
+  ],
+  "localizationCatalogs": 0,
+  "note": "The pinned XML family contains a particle emitter catalog and a legacy launcher descriptor, not a locale string catalog."
+}
