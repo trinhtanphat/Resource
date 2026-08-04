@@ -67,6 +67,17 @@
       "sha256": "ae30a1e2dd307740da3349cfbe92b6728f176514193f1b06b4673863cdd3c2f7"
     }
   ],
+  "publication": {
+    "trackA": {
+      "path": "exports/resource-port/pet-farm/track-a/publication.json",
+      "bytes": 1884,
+      "sha256": "331c49ecdcf2cb136914bf6cac2bb117b989cddeda82e1d701ea742b66a9ba83",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2451
+    }
+  },
   "consumerBoundary": {
     "staticCatalogReady": true,
     "authoredMountAtlasReady": true,

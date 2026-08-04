@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "resource-port-offload-boundary",
+  "part": "R029",
+  "owner": "pet-farm",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "shard": {
+    "path": "config/resource-port-dispatch/shards/pet-farm-001.json",
+    "sha256": "94d4e19546f852e4a79897a09a9dfb20b225ef8ba279d6b1497430e01da9c69d",
+    "files": 1700,
+    "bytes": 29109140
+  },
+  "publicationBoundary": {
+    "policy": "manifest-only-external-staging-boundary",
+    "excludedProfiles": [
+      "swf-timeline",
+      "fla-authoring",
+      "audio-video",
+      "binary-unknown"
+    ],
+    "note": "Raw source containers stay evidence-only. Validated browser-native files are catalogued for immutable Resource publication and are never written into the Gunny public tree."
+  },
+  "embeddedAssets": [],
+  "offloadPlan": {
+    "status": "staged-awaiting-publication",
+    "publicationGrant": "not-granted-by-this-run",
+    "controlledOrigin": {
+      "config": "src/shared/source-asset-release.json",
+      "repository": "trinhtanphat/Resource",
+      "inventoryRef": "web-assets",
+      "releaseRef": "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+      "publicPathMappings": [
+        {
+          "group": "screens",
+          "publicPrefix": "/game-ui/screens/",
+          "cdnPrefix": "screens/"
+        },
+        {
+          "group": "pets",
+          "publicPrefix": "/game-ui/pets/",
+          "cdnPrefix": "pets/"
+        },
+        {
+          "group": "effects",
+          "publicPrefix": "/game-ui/effects/",
+          "cdnPrefix": "effects/"
+        },
+        {
+          "group": "show",
+          "publicPrefix": "/game-ui/show/",
+          "cdnPrefix": "image/",
+          "repository": "trinhtanphat/Resource",
+          "releaseRef": "7ca3ac34dd14022318ebf4785f419d11545dc038"
+        },
+        {
+          "group": "audio",
+          "publicPrefix": "/game-ui/audio/",
+          "cdnPrefix": "public/game-ui/audio/",
+          "repository": "trinhtanphat/Gunny",
+          "releaseRef": "669ddf6b462f79d16afbb020f6a5a3285685c987"
+        }
+      ]
+    },
+    "candidateFiles": 1285,
+    "candidateBytes": 15201945,
+    "uniqueCandidateBlobs": 949,
+    "evidenceRef": "config/resource-port-evidence/R029.json#files[].output",
+    "stagingNamespace": "pet-farm/r029",
+    "targetRepository": "trinhtanphat/Resource"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "runtimeSessionId": "R042",
+  "owner": "pet-farm",
+  "source": {
+    "repository": "trinhtanphat/Gunny",
+    "verifiedOnMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "stagingRootEnv": "RESOURCE_PORT_STAGING_ROOT"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/pet-farm/track-a/",
+    "publicPrefix": "/resource-port/packages/pet-farm/track-a/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "sessions": [
+    {
+      "sessionId": "R029",
+      "objectPrefix": "exports/resource-port/pet-farm/track-a/r029/",
+      "publicPrefix": "/resource-port/packages/pet-farm/track-a/r029/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r029/publication.json",
+      "manifestSha256": "b14a2b7f54c47e21ce0dd2ecd4d8644d0139052b93029ba5c06617dc616c4be4",
+      "requestSha256": "3609cf275909318d2a246796b43d53130fe65671d5ee9338a129b389bcc834d2",
+      "evidenceSha256": "2963538169d3e8a3711d1acab67cf71927fcf02be2420fec8cba3e858ac44efa",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2451,
+            "sha256": "c3a2fe3dcb15ece9e68f3c84e36c4c44db35c6bee5a594b673da240a7b62f7a3"
+          }
+        ],
+        "aggregateSha256": "3472497701bea85fa16c10c90ae373297d9a60ca6e405c373fc0ec75e872d923"
+      }
+    }
+  ],
+  "summary": {
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2451,
+    "generatedSessionManifests": 1,
+    "exact": 1,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "boundary": {
+    "stagedBytesClassification": "exact",
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}
