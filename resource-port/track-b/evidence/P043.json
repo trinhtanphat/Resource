@@ -207,6 +207,7 @@
     "importerChecks": "pass: R030 4096 files; R031 639 files",
     "mediaValidation": "pass-78-exact-aliases-15-corrected-mappings-12-content-addressed-raster-objects",
     "foundationAudit": "pass-195-existing-Gunny-shop-mail-gift-store-embed-files",
+    "trackAStagingPublication": "pass: 2 exact staged payloads and 2 immutable publication manifests",
     "rawSourceMutation": false,
     "githubActionsUsedOrInspected": false
   },
@@ -225,7 +226,16 @@
   "publication": {
     "immutablePackageCommitRequired": true,
     "mutableBranchAllowed": false,
-    "immutableMergeCommit": null
+    "immutableMergeCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/store-mail-economy/track-a/publication.json",
+      "bytes": 2858,
+      "sha256": "30c5e75afb1bcf00771d6a543f6cee0c90f2700592f13502a1a7b8d194c7d0d1",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 2,
+      "stagedFiles": 2,
+      "stagedBytes": 4959
+    }
   },
   "generatedAt": "2026-08-02T00:00:00Z",
   "githubActions": false
