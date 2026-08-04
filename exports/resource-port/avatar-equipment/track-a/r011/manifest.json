@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "resource-port-offload-boundary",
+  "part": "R011",
+  "owner": "avatar-equipment",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "shard": {
+    "path": "config/resource-port-dispatch/shards/avatar-equipment-011.json",
+    "sha256": "31330e40583fe70561c36db46315f75507170042c23b3afcbbf2fc00402d4536",
+    "files": 4096,
+    "bytes": 114714049
+  },
+  "publicationBoundary": {
+    "policy": "manifest-only-external-staging-boundary",
+    "excludedProfiles": [
+      "swf-timeline",
+      "fla-authoring",
+      "audio-video",
+      "binary-unknown"
+    ],
+    "note": "Raw source containers stay evidence-only. Validated browser-native files are catalogued for immutable Resource publication and are never written into the Gunny public tree."
+  },
+  "embeddedAssets": [],
+  "offloadPlan": {
+    "status": "staged-awaiting-publication",
+    "publicationGrant": "not-granted-by-this-run",
+    "controlledOrigin": {
+      "config": "src/shared/source-asset-release.json",
+      "repository": "trinhtanphat/Resource",
+      "inventoryRef": "web-assets",
+      "releaseRef": "7dc16b70b4b868d6be709cca7d400def67f6d4b6",
+      "publicPathMappings": [
+        {
+          "group": "screens",
+          "publicPrefix": "/game-ui/screens/",
+          "cdnPrefix": "screens/"
+        },
+        {
+          "group": "pets",
+          "publicPrefix": "/game-ui/pets/",
+          "cdnPrefix": "pets/"
+        },
+        {
+          "group": "effects",
+          "publicPrefix": "/game-ui/effects/",
+          "cdnPrefix": "effects/"
+        },
+        {
+          "group": "show",
+          "publicPrefix": "/game-ui/show/",
+          "cdnPrefix": "image/",
+          "repository": "trinhtanphat/Resource",
+          "releaseRef": "7ca3ac34dd14022318ebf4785f419d11545dc038"
+        },
+        {
+          "group": "audio",
+          "publicPrefix": "/game-ui/audio/",
+          "cdnPrefix": "public/game-ui/audio/",
+          "repository": "trinhtanphat/Gunny",
+          "releaseRef": "669ddf6b462f79d16afbb020f6a5a3285685c987"
+        }
+      ]
+    },
+    "candidateFiles": 3354,
+    "candidateBytes": 105345472,
+    "uniqueCandidateBlobs": 2458,
+    "evidenceRef": "config/resource-port-evidence/R011.json#files[].output",
+    "stagingNamespace": "avatar-equipment/r011",
+    "targetRepository": "trinhtanphat/Resource"
+  }
+}

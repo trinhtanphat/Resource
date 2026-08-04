@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "runtimeSessionId": "R038",
+  "owner": "avatar-equipment",
+  "source": {
+    "repository": "trinhtanphat/Gunny",
+    "verifiedOnMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "stagingRootEnv": "RESOURCE_PORT_STAGING_ROOT"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/avatar-equipment/track-a/",
+    "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "sessions": [
+    {
+      "sessionId": "R001",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r001/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r001/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r001/publication.json",
+      "manifestSha256": "23c6df27c247d06b1de884da6706bcffbad2b1747d50c6c3091281e18fcf07dc",
+      "requestSha256": "1a090b75f1e6d300b5da63e5071bd95ff830bbb4daf5a93b96fc2632a7a2553d",
+      "evidenceSha256": "3e3c1d842145298de56634267856a0febfa7f083b770b6db24e20db9a01cc674",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "6d0c362d614846bb904d206391f0225353f9adafab08e1f4170fcbd4e42e376d"
+          }
+        ],
+        "aggregateSha256": "42d4012b60e384f86673a54e247297ae12ccd233bc85d5e2476a43f00a7a5121"
+      }
+    },
+    {
+      "sessionId": "R002",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r002/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r002/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r002/publication.json",
+      "manifestSha256": "8930406b6dec589344426c08e16a71abaf90501b52d1e1b070e74b1b6a491b0b",
+      "requestSha256": "d70ceb8a0167e5b57cf450f3fd57a02d24b12c4ea37064b9f566fc51999d1188",
+      "evidenceSha256": "f97dfd552693c6f8b91cff13be727c61534868afca51abffbbac1ced8c3963ef",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "f3fb4919a9de042b3ed07a674ba4d0e18632653ffdb599671a67b1c31034076a"
+          }
+        ],
+        "aggregateSha256": "84d66dbe25be27fa12e12b73b0b16ee2f46de73f6d8fe8c49524536149a74d7c"
+      }
+    },
+    {
+      "sessionId": "R003",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r003/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r003/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r003/publication.json",
+      "manifestSha256": "55b20b051283b2206e56ef96a91265894846209a7dc1afef70192cd669e2f698",
+      "requestSha256": "8b29f6d9804bdb4de22622715d19ab35657cd8c52ee23e304407622b03b0d0c8",
+      "evidenceSha256": "04ad76d3d383ff7b344ae6b5e192c2e51a3aa23c92f731d011bdbeb5c51eabf6",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "10bf94f0e87244c9156393c74dfd293ab816093446afc1ee35fb9abd58089151"
+          }
+        ],
+        "aggregateSha256": "fc76ab94769fe0a76b20c86c31f5ea843513c3ac2e137e6574c1ce804e418231"
+      }
+    },
+    {
+      "sessionId": "R004",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r004/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r004/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r004/publication.json",
+      "manifestSha256": "e5a5a4deecea0bb7ab432bd8c820f06bc2791c8c7bc279ce03f836d8b29050f6",
+      "requestSha256": "da10cb811106b1ddd134d0ca11c03926681ccab218acf02dc4ef1b184dab7131",
+      "evidenceSha256": "45098428f0993fd39fb78ce3757f15ba1a2ffaad0bce9c2dad6add50dfb486c1",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "a8cbcbd4b06c39b076b4f16c338ae29bc56aa8989f56eb9c8b0ae91bf44d7e17"
+          }
+        ],
+        "aggregateSha256": "7c8546c57cb85a72f1218e36dedcc3068a4b9412edc22903ea4ea42fce5cee9d"
+      }
+    },
+    {
+      "sessionId": "R005",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r005/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r005/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r005/publication.json",
+      "manifestSha256": "284f7cb2de777f7bc40393eca72e41ed8d718929dcf1231405c7b96473f864c2",
+      "requestSha256": "000b1d7a6352fdb540d090c811143490c20d570209c3cb79bbb412a0986f9455",
+      "evidenceSha256": "eefa494d38e3bc5068e59e96cbf367513d007dbc1e65d7115af56e664c52b5e1",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "d43cb72c5a580e257d8ef37dfbaa540b6d4264d99dcd9d31483685a2272acd3f"
+          }
+        ],
+        "aggregateSha256": "178a2e59b4cf2b73c44025b915265b423e07da44253329178e539789bdffd379"
+      }
+    },
+    {
+      "sessionId": "R006",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r006/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r006/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r006/publication.json",
+      "manifestSha256": "83dd7751d7d288ec1af5dcf98d695bed0cafc1731ec35bf53c36155744e2581f",
+      "requestSha256": "599781f6441ab6bec70a056c2982fd6fb3f09500f322cab67c05688299e93871",
+      "evidenceSha256": "1bb01481bd4d2cca76123a81ae4f160f6bf8705ebe90420a069caab9eafca2b6",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2477,
+            "sha256": "8eb857722acdb4869648130fac4ec6a044ee9b96a37a7c9eb85e0da6cf3ec660"
+          }
+        ],
+        "aggregateSha256": "a7b6290e441fb682c3141dbc411b6bb78e0f5cdffa87ed58cde576b6dd95f6d5"
+      }
+    },
+    {
+      "sessionId": "R007",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r007/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r007/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r007/publication.json",
+      "manifestSha256": "d1ef54923af9ca60798125921891524a6b1986cb92da804a6eb5edaf126e0134",
+      "requestSha256": "f1a5758f95afca28a867ec6f6d0be73ca8fc9138f55304d84ce0f028ebad9c00",
+      "evidenceSha256": "5d27492b5dc56f12f45b1e4ab5ecaaae7b6435ae954663b5a74a02f712902db1",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "93579f59c0f8d5da0fcc808d44a79362dc7b76b994b74a694438e0c4296070f5"
+          }
+        ],
+        "aggregateSha256": "3b0e88d6e82e0b89e1fb91ecf0681bd71800abb45857af1a743ee7904cf1651c"
+      }
+    },
+    {
+      "sessionId": "R008",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r008/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r008/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r008/publication.json",
+      "manifestSha256": "17e10b3ecbda7f77142a47fa8dc0590dbe941df59901d1d85f0609f1f8776850",
+      "requestSha256": "cf4bc59959030207c58180ec442958fa05155b8ba819b5db0e17b45f29eea367",
+      "evidenceSha256": "1a687e2f72da2da43e5dd93b7f15fa73a8d0978786f19350f7bc7275680d7756",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "b4b772c86dfcec3ee4da1bf8f760ebf9c5597e54e9a126fe968b8284c673e6a4"
+          }
+        ],
+        "aggregateSha256": "804a661f3d3c2eabcffaac6293019ab48a56626c88a642209c43f0e1a2bdc605"
+      }
+    },
+    {
+      "sessionId": "R009",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r009/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r009/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r009/publication.json",
+      "manifestSha256": "b7a320d6f0e46a7bbe4dcb59d1863fe6e6b6184fe10171030b4976fca63d6b5c",
+      "requestSha256": "330ebd420e4b7a5720a9c3de9585e7378f50c0dc642c30fd35765605d03eaf4f",
+      "evidenceSha256": "0a9e677eef89a5d6d2ab35ef1fbdc78438ad1b8c44b745c600f5a7e605b62cc8",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "ab3bbf9444b1a6cddc7181ce3c3613ba8856106a26cf159899359b19c3809338"
+          }
+        ],
+        "aggregateSha256": "8c6a032cf8592e60c59cba6dfd59284326e684a16630d365a5492824e3758695"
+      }
+    },
+    {
+      "sessionId": "R010",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r010/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r010/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r010/publication.json",
+      "manifestSha256": "12d2d96bea27f45ec09d9398a627aeb18d6d56e33490164aa3db7055c0e95ffb",
+      "requestSha256": "f6a00bcaab1eeb535bc45beb9c69e32b13d86ce0192a2a6f7120b5e6799d37a5",
+      "evidenceSha256": "80db520184b1f6fff1900ee6eb7270b439b4a7263a8d61fad07f1e3eef53ac43",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "01152cb4eb99c850f4d01d62751fd2c9842ea7b44e1f64c84e4c219ea752d3dd"
+          }
+        ],
+        "aggregateSha256": "7c197eee8e54f5cc6707d40087da4638405d9f5ef8573f3867633e44b37e150b"
+      }
+    },
+    {
+      "sessionId": "R011",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r011/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r011/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r011/publication.json",
+      "manifestSha256": "a64600e6860f76e8010b586d3f3aebc2c2cafb7f2b39d6eb77b760a4a8b32254",
+      "requestSha256": "13bcb6900fcf7eff4b413ca12f9101cefc3997ec66133ddd7499e1ca46289954",
+      "evidenceSha256": "4d89ad72c820815fa7fdbdcd1785e9be43fb22a11f9874a9dd7f5ec67f3c3270",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "8bc4f06e91ac18dd4c5193f55cdb063de532f708797dad07e633e1078766e391"
+          }
+        ],
+        "aggregateSha256": "1cb4b24b811cc60e896539e928d63a013c9972e0f720578e9cb2f04a82f2010d"
+      }
+    },
+    {
+      "sessionId": "R012",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r012/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r012/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r012/publication.json",
+      "manifestSha256": "4ee512071dba76a9ddadc8099fe6b3421b2ad86e421c08945c09ba159b29af94",
+      "requestSha256": "27af16bb22fed3a7e6c1bea6e79babea2c230d96fac8874b517865ce930cb4bb",
+      "evidenceSha256": "0e2ab70fc6eb686be99ea48ee088a80c948e2b4b21a05e959e8b28c1d48da9ac",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "c9bb020090bf5d1686811777caf34341f11db8d31e2e3a76a2d95a0207ec07f4"
+          }
+        ],
+        "aggregateSha256": "2e16161d12d0e8b287cf9da9240f38873b0a4311e926ab8f147570d275b3caf7"
+      }
+    },
+    {
+      "sessionId": "R013",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r013/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r013/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r013/publication.json",
+      "manifestSha256": "ccec2a29f0c900242db3e4ca28fa7e3f4dd3454e6b73481fed1f48db68800ee1",
+      "requestSha256": "b077d034279dce79ed904b54f6f1115f49b285499ec46bd734b509eae240387b",
+      "evidenceSha256": "26c2fb030b7fdc5e3337c001d2ed107749e588e41abc5b481800f6b43ab5686c",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "24a40733865b4f04f98df7aad0218040f8fe6874d9f60034f238a977c465a90c"
+          }
+        ],
+        "aggregateSha256": "615cbe92e7fdc884506908d98bd589a20c724cd393be0276a54f4177dbb0c0b1"
+      }
+    },
+    {
+      "sessionId": "R014",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r014/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r014/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r014/publication.json",
+      "manifestSha256": "406636e152fd2e871116c206857af496c1401b603d81d039d492c359a0e30a21",
+      "requestSha256": "73e84e2ce86895598f37c6675d24bea535a254bbacb51768c73830753024f3e5",
+      "evidenceSha256": "e10ebb1514a886dd8b6450dbcc25eed13d3c5dfb3ed671e1b24c39cbc46b1f17",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "0f96b28c01aa7afc19a358ff3b2efa6ef6a4cc6e7eb018cf1044779812da9b7e"
+          }
+        ],
+        "aggregateSha256": "ef5c832400c4f09b6b3121f3f816fbc36e244d244cad991a6acd32c6dffd6ae5"
+      }
+    },
+    {
+      "sessionId": "R015",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r015/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r015/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r015/publication.json",
+      "manifestSha256": "12d48df26e8bbaee8a388e05a17718cf332ab53aecda99463494975f19b2db1d",
+      "requestSha256": "a3275ddf4b1708781df90bfba74ae517041447bfe16904716f5954792c938b48",
+      "evidenceSha256": "e7732902a47026b5833d762753f64ca867003eaf1dc0ef95da34240722044a75",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "e25e7daae8fc1d0b7d4321629a50dcc721c18110a451f5b8e1afe88f23e2bdc9"
+          }
+        ],
+        "aggregateSha256": "7de02b384be97a6f32b13f55316dfd25d9865b687ab59c3d130d409f3030cb66"
+      }
+    },
+    {
+      "sessionId": "R016",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r016/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r016/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r016/publication.json",
+      "manifestSha256": "f92d50bb99bc483b2ca4ac882b69417c1f02c72f498aed69a53d36d876e57142",
+      "requestSha256": "4087377b755c70fe73667524d2680b401fa4c35c17acabbd4246be556bca066f",
+      "evidenceSha256": "83c379b150d6294f7c492cc926a7c2744fe58cbfa7425d57ca90912e5881eecf",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "3f23ee12e7b8cd07e3133f7bd9debf60d46c064fe288d5d63aca2433b3c43876"
+          }
+        ],
+        "aggregateSha256": "003838ac0afeea1e572d1c81d46d9e3a466cae3a8cc64c5b95d815f97ce10e4f"
+      }
+    },
+    {
+      "sessionId": "R017",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r017/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r017/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r017/publication.json",
+      "manifestSha256": "713109eb6cb4d5ca1fa3577d7848a797eb4cd50c505b6df8f09d78ee240c532a",
+      "requestSha256": "f40dd9e6d6dbc04355c0f94e87348018facbc6dccf6bacc07ae1f8e603d8ef9e",
+      "evidenceSha256": "5c359ef16e55201364adc0e2d38e031182418b119dad8ad5cfec9d1397bb81dd",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2477,
+            "sha256": "f7b76acbc978c1a745135c2d4d0e6fea4c2831ea8fc5a5c7132ba2cb7813dda9"
+          }
+        ],
+        "aggregateSha256": "659a090fb4ee5b1cf020d815d34df2565231dd679d399d96ed2f5aba9cd07753"
+      }
+    },
+    {
+      "sessionId": "R018",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r018/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r018/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r018/publication.json",
+      "manifestSha256": "2f9a04b039a73b96991b15e72d5881c0efad2dff7f323c94ad7d45d289497d59",
+      "requestSha256": "3f180218fe056b95877521ab11fb90b182ed11df35320cbb176accb7d7952353",
+      "evidenceSha256": "76555122b133c3591128c8d020a8c042b47c8c48197c24ed067c058dfe36d58c",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "74f3baa875583f5c187b764c0189bd5faf65eca0ee6745b0ea4b1ef4652723dc"
+          }
+        ],
+        "aggregateSha256": "6a71ea01d9cc8ffc421f0b40903b88f7560ef2d91b0881d1d68943e2ac1ee831"
+      }
+    },
+    {
+      "sessionId": "R019",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r019/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r019/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r019/publication.json",
+      "manifestSha256": "488c570eb9e7d7bc533e78c6cc6d32690cfe2c6a916f74c2863d2948c640868e",
+      "requestSha256": "a2bdae42e8e770c6f2623478354df4630365d569505fd48b84ba3d24f94c1762",
+      "evidenceSha256": "2c5c33f400625796b4b7a64715d84d934abada78c9e8c80cf96c1f5479209b7b",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "6355ad620a32b1b325349a3795bc160ff09395d4dda7b6526f4a519e46725a77"
+          }
+        ],
+        "aggregateSha256": "65db5368f73231dbe1743e9e0c248abd605a3b60629c4bbd347957904142d5d9"
+      }
+    },
+    {
+      "sessionId": "R020",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r020/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r020/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r020/publication.json",
+      "manifestSha256": "5f98eb9b713c31a9d93f5b0644ca96f04cbe527c085c3cfebcd9ac0038396cb2",
+      "requestSha256": "c684d755e018cc2cc3678ee2fa360cc907295822033464c3292b3d49d76469a0",
+      "evidenceSha256": "2a79fcafd98d840446ced9274c5762db5c584e8ede157041f9d93b984be48c4e",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "fa0b4a32cdd5480ea1779084ca6e20eb90250a4b995bebc45d60932301ee4b61"
+          }
+        ],
+        "aggregateSha256": "12d36004227388b8f0328a94bddde450f6ef9708a172c651bff3ee07ac83477c"
+      }
+    },
+    {
+      "sessionId": "R021",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r021/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r021/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r021/publication.json",
+      "manifestSha256": "22b28ed6d6d8addf56ae05d6dd1542f5639cce6dc21c45d68873e507eb072eaf",
+      "requestSha256": "59821b2fae7f6302be300994d7df563489f474c0bcce0a2946934717fcaa096e",
+      "evidenceSha256": "fde49d83cf63e1411ddd4ea4200685b2ccb6e9e5e64e3f21800499f44d1f6905",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "327121208161d64b03bfa37c33a6f67ea32c4e4eb652ec77925beff38cbab2f2"
+          }
+        ],
+        "aggregateSha256": "6b6e4a32c6b37a71a1f8d4229cf5676f514ebc50390f063a1e55679fe6fa8b27"
+      }
+    },
+    {
+      "sessionId": "R022",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r022/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r022/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r022/publication.json",
+      "manifestSha256": "c2355fede54e417138a10451cfd3a3aa8184939af36cb24d500dc17d658e1282",
+      "requestSha256": "47d872ab35272fbbf64024530c477ce17143402e20359987326af42ec0dd1e10",
+      "evidenceSha256": "cbd701b932069fc8ece1cdc6ec2bafe2802fdc1cc18ee1dcbd856d26a3131231",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "c8869872cac7d29edd0910bb2afb9c6d2883cff772641f437f9728b1eaf47419"
+          }
+        ],
+        "aggregateSha256": "85e28b0b17ac7b82148f857b19b5f4774861408be292d9607f68b127d2100bbe"
+      }
+    },
+    {
+      "sessionId": "R023",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r023/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r023/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r023/publication.json",
+      "manifestSha256": "892cd25c6c1ca0db0967e2a5d1fc5d4ee69482229f9c31c1b3998760f47d6c99",
+      "requestSha256": "dbf2a0e03f3c954477c08543262932c4090dbc109877dab7c38de6580e087e69",
+      "evidenceSha256": "a80f3fb194461a584d5371209eae7b4aaea9b646030e4def95940058206cc46c",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2476,
+            "sha256": "667ccfeb67212455006b25269299a8171c42b1b707d4a59366802f5cdbf4fb9e"
+          }
+        ],
+        "aggregateSha256": "200f6a9f188bbf2b16a82a3cd5f37a4c2ec6c8fa62167d27348dc705292516c5"
+      }
+    },
+    {
+      "sessionId": "R024",
+      "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r024/",
+      "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r024/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r024/publication.json",
+      "manifestSha256": "6e891ca06391b00d448923be4820417965c2cb90764739014c66478127206a98",
+      "requestSha256": "718bf3d24666603a074ad486f352b87f35962611a47c83e058666475c479190b",
+      "evidenceSha256": "fb3d14a901cb08a12c30146a0c3efbbb77eb94cbf5edf15cbac9d3af33a6de96",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2478,
+            "sha256": "34981d244894cdceb81f3598d8c0ec27af3f396384ed28fcd62a810a2f70e63d"
+          }
+        ],
+        "aggregateSha256": "25dcd22a4f635581798e1ab0710d235da2834a24f1c03ca9f6de992126ad3f03"
+      }
+    }
+  ],
+  "summary": {
+    "sessions": 24,
+    "stagedFiles": 24,
+    "stagedBytes": 59438,
+    "generatedSessionManifests": 24,
+    "exact": 24,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "boundary": {
+    "stagedBytesClassification": "exact",
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

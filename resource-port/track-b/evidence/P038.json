@@ -385,6 +385,7 @@
     "jsonParse": "pass: every P038 JSON artifact parsed",
     "dependencyGate": "pass-generated-from-exact-origin-main-blobs",
     "provenanceHashCount": "pass-generated-from-R001-R024",
+    "trackAStagingPublication": "pass: 24 exact staged payloads and 24 immutable publication manifests",
     "imageMediaValidation": "pass-by-Track-A-evidence:94625-raster-files",
     "gitDiffCheck": "pass: git diff --check",
     "rawSourceMutation": false,
@@ -410,7 +411,15 @@
   "publication": {
     "firstCommit": "a1b6bd76c4c25a1d8608fabe36f894f45f809661",
     "firstTree": "af7c611ceca03328e96c7a358e6fa5446f183aa5",
-    "immutableMergeCommit": null
+    "immutableMergeCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/avatar-equipment/track-a/publication.json",
+      "sha256": "e59cc80b7dd9a767791ae08026c098282131acb2e0b6ce46f6273ce7e94aa391",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 24,
+      "stagedFiles": 24,
+      "stagedBytes": 59438
+    }
   },
   "generatedAt": "2026-08-02T00:00:00Z",
   "githubActions": false

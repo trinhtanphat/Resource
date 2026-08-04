@@ -847,7 +847,15 @@
   "publication": {
     "mode": "content-addressed-source-reference",
     "canonicalObjectKey": "exact Resource source path",
-    "bytesDuplicatedIntoPackage": 0,
-    "browserNativeRasterFiles": 94625
+    "bytesDuplicatedIntoPackage": 59438,
+    "browserNativeRasterFiles": 94625,
+    "trackA": {
+      "path": "exports/resource-port/avatar-equipment/track-a/publication.json",
+      "sha256": "e59cc80b7dd9a767791ae08026c098282131acb2e0b6ce46f6273ce7e94aa391",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 24,
+      "stagedFiles": 24,
+      "stagedBytes": 59438
+    }
   }
 }

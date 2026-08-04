@@ -14,6 +14,14 @@ const GUNNY_IMPLEMENTATION_COMMIT = "3d7a049655847ab6b7802541560ef227e17df1ed";
 const GUNNY_VERIFIED_MAIN = "1221419cc1f0ce4f50012b4c5b175ab84f6a8170";
 const PACKAGE_FIRST_COMMIT = "a1b6bd76c4c25a1d8608fabe36f894f45f809661";
 const PACKAGE_FIRST_TREE = "af7c611ceca03328e96c7a358e6fa5446f183aa5";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/avatar-equipment/track-a/publication.json",
+  sha256: "e59cc80b7dd9a767791ae08026c098282131acb2e0b6ce46f6273ce7e94aa391",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 24,
+  stagedFiles: 24,
+  stagedBytes: 59438,
+});
 const DEPENDENCIES = Array.from({ length: 24 }, (_, index) => `R${String(index + 1).padStart(3, "0")}`);
 const SOURCE_FAMILIES = [
   "flash/characterdefine.xml",
@@ -402,7 +410,8 @@ async function buildFromTrackA() {
       sameOriginOnlyInComponents: true,
       mutableBranchAllowed: false,
       rawSourceReadOnly: true,
-      bytesDuplicatedIntoPackage: 0,
+      bytesDuplicatedIntoPackage: TRACK_A_PUBLICATION.stagedBytes,
+      trackAPublication: TRACK_A_PUBLICATION,
     },
     consumerBoundary: {
       packageOnly: true,
@@ -433,8 +442,9 @@ async function buildFromTrackA() {
     publication: {
       mode: "content-addressed-source-reference",
       canonicalObjectKey: "exact Resource source path",
-      bytesDuplicatedIntoPackage: 0,
+      bytesDuplicatedIntoPackage: TRACK_A_PUBLICATION.stagedBytes,
       browserNativeRasterFiles: EXPECTED.browserNativeRasters,
+      trackA: TRACK_A_PUBLICATION,
     },
   };
   await writeJson("exports/resource-port/avatar-equipment/catalog-index.json", catalogIndex);
@@ -443,6 +453,7 @@ async function buildFromTrackA() {
     "exports/resource-port/avatar-equipment/catalog-index.json",
     "exports/resource-port/avatar-equipment/character-rig.json",
     "exports/resource-port/avatar-equipment/sprite-frame-contract.json",
+    TRACK_A_PUBLICATION.path,
     ...shardDescriptors.map((entry) => entry.path),
   ];
   const manifest = {
@@ -453,6 +464,7 @@ async function buildFromTrackA() {
     source: { repository: "trinhtanphat/Resource", commit: SOURCE_COMMIT, tree: SOURCE_TREE, readOnly: true },
     dependency: { repository: "trinhtanphat/Gunny", sessions: DEPENDENCIES, implementationCommit: GUNNY_IMPLEMENTATION_COMMIT, verifiedOnMain: gunnyMain },
     exports: exportPaths,
+    trackAPublication: TRACK_A_PUBLICATION,
     summary,
     readiness: {
       package: "complete-with-explicit-unresolved",
@@ -480,6 +492,7 @@ async function buildFromTrackA() {
     jsonParse: "pass: every P038 JSON artifact parsed",
     dependencyGate: "pass-generated-from-exact-origin-main-blobs",
     provenanceHashCount: "pass-generated-from-R001-R024",
+    trackAStagingPublication: "pass: 24 exact staged payloads and 24 immutable publication manifests",
     imageMediaValidation: `pass-by-Track-A-evidence:${EXPECTED.browserNativeRasters}-raster-files`,
     gitDiffCheck: "pass: git diff --check",
     rawSourceMutation: false,
@@ -512,7 +525,12 @@ async function buildFromTrackA() {
       swfRuntimeAllowed: false,
       runtimeIntegration: false,
     },
-    publication: { firstCommit: PACKAGE_FIRST_COMMIT, firstTree: PACKAGE_FIRST_TREE, immutableMergeCommit: null },
+    publication: {
+      firstCommit: PACKAGE_FIRST_COMMIT,
+      firstTree: PACKAGE_FIRST_TREE,
+      immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
   };
@@ -534,6 +552,7 @@ async function buildFromTrackA() {
       packageFirstCommit: PACKAGE_FIRST_COMMIT,
       packageFirstTree: PACKAGE_FIRST_TREE,
       releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
     },
   };
   await writeJson("resource-port/track-b/status/P038.json", status);
@@ -543,6 +562,7 @@ async function buildFromTrackA() {
     + `This package inventories ${EXPECTED.files.toLocaleString("en-US")} source files (${EXPECTED.bytes.toLocaleString("en-US")} bytes), including ${EXPECTED.browserNativeRasters.toLocaleString("en-US")} validated rasters. It duplicates no raw binary bytes; catalogs retain exact path, Git blob SHA-1, SHA-256, MIME, dimensions and classification for same-origin R2 delivery.\n\n`
     + `The exact character rig preserves eight action sequences, document layer order, registration point, per-action frame indices, offsets and front/back action names. Duration is unresolved because characterdefine.xml has no FPS or millisecond field. Color values remain runtime-authoritative; the package preserves source masks but invents no transform.\n\n`
     + `Fail-closed boundary: ${EXPECTED.swfTimeline} SWF, ${EXPECTED.flaAuthoring} FLA and ${EXPECTED.binaryUnknown} unknown binary files remain outside browser runtime. Secondary weapon layers and filename-only icon/show/game candidates require a curated consumer mapping in R038.\n\n`
+    + `Track A publication adds ${TRACK_A_PUBLICATION.stagedFiles} exact staged manifests (${TRACK_A_PUBLICATION.stagedBytes.toLocaleString("en-US")} bytes) under the locked avatar-equipment package. Each R001-R024 prefix has its own hash-bound publication manifest; this is publication evidence only and does not claim additional browser conversion or R038 runtime ownership.\n\n`
     + `The immutable package commit is \`${PACKAGE_FIRST_COMMIT}\` with tree \`${PACKAGE_FIRST_TREE}\`. Track B verification, package checking against exact Gunny/Resource roots, Node syntax, JSON parsing, path/hash/count gates and \`git diff --check\` passed locally. The Resource checkout reports no change below any raw source root. GitHub Actions were not used.\n`;
   await writeFile(resolve(root, "resource-port/track-b/findings/P038.md"), findings, "utf8");
 }
@@ -555,6 +575,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/avatar-equipment.json");
   const evidence = await json("resource-port/track-b/evidence/P038.json");
   const status = await json("resource-port/track-b/status/P038.json");
+  const trackAPublication = await verifyTrackAPublication();
   if (manifest.packageSessionId !== PACKAGE_ID || manifest.runtimeSessionId !== RUNTIME_ID) fail("session identity mismatch");
   if (manifest.source?.commit !== SOURCE_COMMIT || manifest.source?.tree !== SOURCE_TREE) fail("source pin changed");
   if (JSON.stringify(manifest.dependency?.sessions) !== JSON.stringify(DEPENDENCIES)) fail("dependency set changed");
@@ -583,12 +604,18 @@ async function verifyPackage() {
   if (sprites.timelineBoundary?.browserRuntimeAllowed !== false || sprites.weaponDirection?.secondaryStatus !== "unresolved") fail("legacy timeline boundary changed");
   if (sprites.colorTransform?.default !== "identity" || sprites.colorTransform?.failClosed !== true) fail("color transform boundary changed");
   if (contract.assetAddressing?.gatewayContract !== "ddtank-r2-gateway-v1" || contract.assetAddressing?.sameOriginOnlyInComponents !== true) fail("R2 delivery contract changed");
+  if (contract.assetAddressing?.bytesDuplicatedIntoPackage !== TRACK_A_PUBLICATION.stagedBytes
+    || contract.assetAddressing?.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication contract changed");
   if (contract.consumerBoundary?.filenameOnlySelectionForbidden !== true || contract.consumerBoundary?.runtimeIntegration !== false) fail("consumer boundary changed");
   if (evidence.summary?.sourceFilesProcessed !== EXPECTED.files || evidence.summary?.sourceFilesUnprocessed !== 0) fail("evidence processing census mismatch");
   if (evidence.claims?.colorTransformInvented !== false || evidence.claims?.swfRuntimeAllowed !== false) fail("evidence overclaims conversion");
   if (evidence.publication?.firstCommit !== PACKAGE_FIRST_COMMIT || evidence.publication?.firstTree !== PACKAGE_FIRST_TREE) fail("first package commit identity mismatch");
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("evidence Track A publication changed");
   if (status.status !== "complete-package-with-explicit-unresolved" || status.runtimeIntegration !== false) fail("status boundary mismatch");
   if (status.publication?.packageFirstCommit !== PACKAGE_FIRST_COMMIT || status.publication?.packageFirstTree !== PACKAGE_FIRST_TREE) fail("status first package identity mismatch");
+  if (status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("status Track A publication changed");
+  if (manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || index.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("package Track A publication changed");
   if (manifest.githubActions !== false || evidence.githubActions !== false) fail("GitHub Actions boundary changed");
 
   if (gunnyRoot) {
@@ -621,9 +648,60 @@ async function verifyPackage() {
     catalogShards: index.shards.length,
     characterActions: rig.actions.length,
     rawBytesDuplicated: index.publication.bytesDuplicatedIntoPackage,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
     githubActions: false,
   }, null, 2));
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) fail("Track A publication root digest mismatch");
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER) {
+    fail("Track A publication identity mismatch");
+  }
+  if (publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain) fail("Track A Gunny main pin changed");
+  if (publication.summary?.sessions !== TRACK_A_PUBLICATION.sessions
+    || publication.summary?.stagedFiles !== TRACK_A_PUBLICATION.stagedFiles
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.inferred !== 0
+    || publication.summary?.unresolved !== 0) fail("Track A publication census changed");
+  if (JSON.stringify(publication.sessions?.map((entry) => entry.sessionId)) !== JSON.stringify(DEPENDENCIES)) {
+    fail("Track A publication dependency order changed");
+  }
+  let stagedFiles = 0;
+  let stagedBytes = 0;
+  const seenObjectKeys = new Set();
+  for (const entry of publication.sessions) {
+    const lower = entry.sessionId.toLowerCase();
+    const expectedPrefix = `exports/resource-port/${OWNER}/track-a/${lower}/`;
+    if (entry.objectPrefix !== expectedPrefix || entry.manifestPath !== `track-a/${lower}/publication.json`) {
+      fail(`${entry.sessionId} Track A publication prefix changed`);
+    }
+    const sessionPath = resolve(root, "exports/resource-port/avatar-equipment", entry.manifestPath);
+    const sessionBytes = await readFile(sessionPath);
+    if (sha256(sessionBytes) !== entry.manifestSha256) fail(`${entry.sessionId} publication manifest digest mismatch`);
+    const session = JSON.parse(sessionBytes.toString("utf8"));
+    if (session.sessionId !== entry.sessionId || session.classification !== "exact"
+      || session.target?.objectPrefix !== expectedPrefix || session.boundary?.runtimeIntegration !== false) {
+      fail(`${entry.sessionId} publication manifest contract changed`);
+    }
+    for (const file of session.payload?.files ?? []) {
+      if (!/^[A-Za-z0-9._/-]+$/u.test(file.path) || file.path.includes("..")) fail(`${entry.sessionId} unsafe payload path`);
+      const objectKey = `${expectedPrefix}${file.path}`;
+      if (file.objectKey !== objectKey || seenObjectKeys.has(objectKey)) fail(`${entry.sessionId} duplicate or mismatched object key`);
+      seenObjectKeys.add(objectKey);
+      const payloadBytes = await readFile(resolve(root, "exports/resource-port/avatar-equipment/track-a", lower, file.path));
+      if (payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) fail(`${entry.sessionId} payload digest mismatch: ${file.path}`);
+      stagedFiles += 1;
+      stagedBytes += file.bytes;
+    }
+  }
+  if (stagedFiles !== TRACK_A_PUBLICATION.stagedFiles || stagedBytes !== TRACK_A_PUBLICATION.stagedBytes) {
+    fail("Track A publication payload totals changed");
+  }
+  return publication;
 }
 
 if (writing) await buildFromTrackA();
