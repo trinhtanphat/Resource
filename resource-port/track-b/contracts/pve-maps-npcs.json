@@ -82,7 +82,17 @@
     "gatewayContract": "ddtank-r2-gateway-v1",
     "canonicalObjectKey": "exact Resource source path or immutable package export path",
     "sameOriginOnlyInComponents": true,
-    "directGatewayHostnameAllowedInClient": false
+    "directGatewayHostnameAllowedInClient": false,
+    "sourceBytesDuplicatedIntoPackage": 2469,
+    "trackAPublication": {
+      "path": "exports/resource-port/pve-maps-npcs/track-a/publication.json",
+      "bytes": 1909,
+      "sha256": "83fc0724a9eec38af2fa968b45da6b30d0e0a12d0d6f8f403f98c22d5516dd52",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2469
+    }
   },
   "consumerBoundary": {
     "packageOnly": true,

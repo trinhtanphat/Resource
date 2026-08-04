@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "sessionId": "R027",
+  "owner": "pve-maps-npcs",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R027.json",
+    "sha256": "c31226fb36ff5a644666fbff2c0c999e36550eeee65df1df6ec30efc237a167e",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R027.json",
+    "sha256": "9b22cc7a18008480da6bed2feacfdb18ee62235b0b2fec0148b37ad8c019ccae",
+    "requestedObjectPrefix": "resource-port/pve-maps-npcs/r027/",
+    "aggregateSha256": "bf33020893bc9083f3c0fe95dc10580b8e495f79568d783f5441cd3fe85836a9"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/pve-maps-npcs/track-a/r027/",
+    "publicPrefix": "/resource-port/packages/pve-maps-npcs/track-a/r027/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2469,
+        "sha256": "4e18a7b0d25b45396154bc252343f9134eeceb978c727d16e691c1670b21064a",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/pve-maps-npcs/track-a/r027/manifest.json"
+      }
+    ],
+    "aggregateSha256": "bf33020893bc9083f3c0fe95dc10580b8e495f79568d783f5441cd3fe85836a9"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

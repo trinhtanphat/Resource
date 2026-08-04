@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P040",
+  "runtimeSessionId": "R040",
+  "owner": "pve-maps-npcs",
+  "source": {
+    "repository": "trinhtanphat/Gunny",
+    "verifiedOnMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "stagingRootEnv": "RESOURCE_PORT_STAGING_ROOT"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/pve-maps-npcs/track-a/",
+    "publicPrefix": "/resource-port/packages/pve-maps-npcs/track-a/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "sessions": [
+    {
+      "sessionId": "R027",
+      "objectPrefix": "exports/resource-port/pve-maps-npcs/track-a/r027/",
+      "publicPrefix": "/resource-port/packages/pve-maps-npcs/track-a/r027/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r027/publication.json",
+      "manifestSha256": "0327f3fae97307c157a7dc9890fb03c437b77058578ca2ffaf79bf37692e7e3e",
+      "requestSha256": "9b22cc7a18008480da6bed2feacfdb18ee62235b0b2fec0148b37ad8c019ccae",
+      "evidenceSha256": "c31226fb36ff5a644666fbff2c0c999e36550eeee65df1df6ec30efc237a167e",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2469,
+            "sha256": "4e18a7b0d25b45396154bc252343f9134eeceb978c727d16e691c1670b21064a"
+          }
+        ],
+        "aggregateSha256": "bf33020893bc9083f3c0fe95dc10580b8e495f79568d783f5441cd3fe85836a9"
+      }
+    }
+  ],
+  "summary": {
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2469,
+    "generatedSessionManifests": 1,
+    "exact": 1,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "boundary": {
+    "stagedBytesClassification": "exact",
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

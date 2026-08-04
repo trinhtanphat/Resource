@@ -13,6 +13,15 @@ const SOURCE_COMMIT = "519c35a293745b6a0477c4f6ea03110a89de2318";
 const SOURCE_TREE = "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344";
 const GUNNY_IMPLEMENTATION_COMMIT = "3d7a049655847ab6b7802541560ef227e17df1ed";
 const GUNNY_VERIFIED_MAIN = "4bf2cab1daf733964dd8772498f2d306e3a73584";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/pve-maps-npcs/track-a/publication.json",
+  bytes: 1909,
+  sha256: "83fc0724a9eec38af2fa968b45da6b30d0e0a12d0d6f8f403f98c22d5516dd52",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 1,
+  stagedFiles: 1,
+  stagedBytes: 2469,
+});
 const DEPENDENCY = Object.freeze({
   sessionId: "R027",
   evidencePath: "config/resource-port-evidence/R027.json",
@@ -492,6 +501,7 @@ async function buildPackage() {
     dependencyGate: "pass-exact-R027-evidence-and-importer-blobs",
     consumerEvidence: "pass-282-exact-source-paths-across-197-map-identities",
     tilemapParserReuse: "pass-existing-Gunny-parser-contract-and-exact-decoded-hash",
+    trackAStagingPublication: "pass: 1 exact staged payload and 1 immutable publication manifest",
     rawSourceMutation: false,
     githubActionsUsedOrInspected: false,
   };
@@ -518,8 +528,9 @@ async function buildPackage() {
     summary,
     publication: {
       sourceObjectKeys: "exact Resource source paths",
-      sourceBytesDuplicatedIntoPackage: 0,
+      sourceBytesDuplicatedIntoPackage: TRACK_A_PUBLICATION.stagedBytes,
       r2First: true,
+      trackA: TRACK_A_PUBLICATION,
     },
   });
   await writeJson("exports/resource-port/pve-maps-npcs/map-catalog.json", {
@@ -620,6 +631,8 @@ async function buildPackage() {
       canonicalObjectKey: "exact Resource source path or immutable package export path",
       sameOriginOnlyInComponents: true,
       directGatewayHostnameAllowedInClient: false,
+      sourceBytesDuplicatedIntoPackage: TRACK_A_PUBLICATION.stagedBytes,
+      trackAPublication: TRACK_A_PUBLICATION,
     },
     consumerBoundary: {
       packageOnly: true,
@@ -641,6 +654,7 @@ async function buildPackage() {
     "exports/resource-port/pve-maps-npcs/timeline-index.json",
     "exports/resource-port/pve-maps-npcs/npc-presentation.json",
     "exports/resource-port/pve-maps-npcs/runtime-contract.json",
+    TRACK_A_PUBLICATION.path,
   ];
   const exports = [];
   for (const path of exportPaths) exports.push(await artifact(path));
@@ -652,6 +666,7 @@ async function buildPackage() {
     status: "complete-package-with-explicit-unresolved",
     source: { repository: "trinhtanphat/Resource", commit: SOURCE_COMMIT, tree: SOURCE_TREE, readOnly: true },
     dependency: { sessions: ["R027"], implementationCommit: GUNNY_IMPLEMENTATION_COMMIT, verifiedOnMain: GUNNY_VERIFIED_MAIN },
+    trackAPublication: TRACK_A_PUBLICATION,
     summary,
     conversion: {
       exactBrowserNativeSourceObjects: EXPECTED.exact,
@@ -701,7 +716,12 @@ async function buildPackage() {
       crossOwnerNpcAssetsUsed: false,
       runtimeIntegration: false,
     },
-    publication: { immutablePackageCommitRequired: true, mutableBranchAllowed: false, immutableMergeCommit: null },
+    publication: {
+      immutablePackageCommitRequired: true,
+      mutableBranchAllowed: false,
+      immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
   };
@@ -725,7 +745,12 @@ async function buildPackage() {
       "125 raster, 16 authoring, 6 text, and 11 binary source files remain unresolved",
       "runtime selection and gameplay authority belong to R040, not this Resource package",
     ],
-    publication: { immutableCommitRequired: true, mutableBranchAllowed: false, releaseCommit: null },
+    publication: {
+      immutableCommitRequired: true,
+      mutableBranchAllowed: false,
+      releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
   });
 }
 
@@ -749,6 +774,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/pve-maps-npcs.json");
   const evidence = await json("resource-port/track-b/evidence/P040.json");
   const status = await json("resource-port/track-b/status/P040.json");
+  const trackAPublication = await verifyTrackAPublication();
 
   if (manifest.packageSessionId !== PACKAGE_ID || manifest.runtimeSessionId !== RUNTIME_ID || manifest.owner !== OWNER
     || manifest.source?.commit !== SOURCE_COMMIT || manifest.source?.tree !== SOURCE_TREE) fail("manifest identity mismatch");
@@ -803,12 +829,18 @@ async function verifyPackage() {
     || contract.consumerBoundary?.runtimeIntegration !== false || contract.consumerBoundary?.npcAnimationReady !== false) {
     fail("package contract mismatch");
   }
+  if (contract.assetAddressing?.sourceBytesDuplicatedIntoPackage !== TRACK_A_PUBLICATION.stagedBytes
+    || contract.assetAddressing?.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication contract changed");
   if (evidence.summary?.sourceFilesProcessed !== EXPECTED.files || evidence.summary?.sourceFilesUnprocessed !== 0
     || evidence.claims?.collisionOrSpawnInferredFromArt !== false || evidence.claims?.crossOwnerNpcAssetsUsed !== false
     || status.status !== "complete-package-with-explicit-unresolved" || status.runtimeIntegration !== false) {
     fail("evidence or status overclaims P040");
   }
-  if (manifest.exports?.length !== 8 || manifest.githubActions !== false || evidence.githubActions !== false
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || index.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication metadata changed");
+  if (manifest.exports?.length !== 9 || manifest.githubActions !== false || evidence.githubActions !== false
     || manifest.exports.some((entry) => /\.(?:swf|fla)$/iu.test(entry.path))) fail("manifest publication boundary mismatch");
   for (const descriptor of manifest.exports) await verifyArtifactDescriptor(descriptor);
 
@@ -839,9 +871,42 @@ async function verifyPackage() {
     unresolvedSwfTimelines: timelines.records.length,
     assignedNpcPresentationFiles: 0,
     rawSourceBytesDuplicated: index.publication.sourceBytesDuplicatedIntoPackage,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
     githubActions: false,
   }, null, 2));
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (rootBytes.length !== TRACK_A_PUBLICATION.bytes || sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication root identity mismatch");
+  }
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER
+    || publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain
+    || publication.summary?.sessions !== TRACK_A_PUBLICATION.sessions
+    || publication.summary?.stagedFiles !== TRACK_A_PUBLICATION.stagedFiles
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.exact !== TRACK_A_PUBLICATION.stagedFiles
+    || publication.summary?.inferred !== 0 || publication.summary?.unresolved !== 0
+    || publication.boundary?.browserNativeConversionClaimed !== false
+    || publication.boundary?.runtimeIntegration !== false) fail("Track A publication contract changed");
+  const entry = publication.sessions?.[0];
+  const expectedPrefix = `exports/resource-port/${OWNER}/track-a/r027/`;
+  if (entry?.sessionId !== "R027" || entry.objectPrefix !== expectedPrefix
+    || entry.manifestPath !== "track-a/r027/publication.json") fail("R027 publication prefix changed");
+  const sessionBytes = await readFile(resolve(root, "exports/resource-port", OWNER, entry.manifestPath));
+  if (sha256(sessionBytes) !== entry.manifestSha256) fail("R027 publication manifest digest mismatch");
+  const session = JSON.parse(sessionBytes.toString("utf8"));
+  if (session.classification !== "exact" || session.target?.objectPrefix !== expectedPrefix
+    || session.boundary?.runtimeIntegration !== false || session.payload?.files?.length !== 1) fail("R027 publication manifest changed");
+  const file = session.payload.files[0];
+  const payloadBytes = await readFile(resolve(root, "exports/resource-port", OWNER, "track-a/r027", file.path));
+  if (file.objectKey !== `${expectedPrefix}${file.path}` || file.contentType !== "application/json; charset=utf-8"
+    || payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) fail("R027 payload identity changed");
+  JSON.parse(payloadBytes.toString("utf8"));
+  return publication;
 }
 
 if (writing) await buildPackage();
