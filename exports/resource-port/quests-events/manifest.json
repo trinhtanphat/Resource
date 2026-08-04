@@ -29,6 +29,15 @@
       "trackBDependencySatisfied": true
     }
   ],
+  "trackAPublication": {
+    "path": "exports/resource-port/quests-events/track-a/publication.json",
+    "bytes": 1909,
+    "sha256": "e24ea4e786cd6ae1364c3fd28f4e820185d63962994b4c2ebff2d6d3e69b1ad9",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2464
+  },
   "summary": {
     "files": 774,
     "bytes": 33541657,
@@ -179,8 +188,8 @@
     },
     {
       "path": "exports/resource-port/quests-events/catalog-index.json",
-      "bytes": 3392,
-      "sha256": "fa34c58888b836cfd42fcb786612991545db545ba3c9deb170ed2b338f09e9f4",
+      "bytes": 3765,
+      "sha256": "380fd576c7f1971c2e23b2f6ce4554a076a0f1a7255280a44d48a91e241320ac",
       "contentType": "application/json"
     },
     {
@@ -241,6 +250,12 @@
       "path": "exports/resource-port/quests-events/weekly-publication-catalog.json",
       "bytes": 7181,
       "sha256": "55fa556999beacca012cec5a6db0d257dadcf8f20e36ceedb1068ecb73872dee",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/quests-events/track-a/publication.json",
+      "bytes": 1909,
+      "sha256": "e24ea4e786cd6ae1364c3fd28f4e820185d63962994b4c2ebff2d6d3e69b1ad9",
       "contentType": "application/json"
     }
   ],

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "owner": "quests-events",
+  "source": {
+    "repository": "trinhtanphat/Gunny",
+    "verifiedOnMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "stagingRootEnv": "RESOURCE_PORT_STAGING_ROOT"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/quests-events/track-a/",
+    "publicPrefix": "/resource-port/packages/quests-events/track-a/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "sessions": [
+    {
+      "sessionId": "R032",
+      "objectPrefix": "exports/resource-port/quests-events/track-a/r032/",
+      "publicPrefix": "/resource-port/packages/quests-events/track-a/r032/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r032/publication.json",
+      "manifestSha256": "59f57a70d8371e54835e79f385f682aac16c06dac1d2f64c37b8603530d9cdf4",
+      "requestSha256": "9b2078c7b27f6c567949e503a33a652cfcf22a949e9798dda7d8e369cb449225",
+      "evidenceSha256": "1d3cbef90794dd2fe96deae0184ff08c6d1122edca3182a786a1f07d17680db5",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2464,
+            "sha256": "e34274537b8870beb21fcd2f09da36e853a0239fccdb104ba9dcc52f30791dea"
+          }
+        ],
+        "aggregateSha256": "9865e4bb0847893f2ed9f841cbff409f097ab893b45527f4d091c094b5f28567"
+      }
+    }
+  ],
+  "summary": {
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2464,
+    "generatedSessionManifests": 1,
+    "exact": 1,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "boundary": {
+    "stagedBytesClassification": "exact",
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

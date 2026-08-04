@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P044",
+  "runtimeSessionId": "R044",
+  "sessionId": "R032",
+  "owner": "quests-events",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R032.json",
+    "sha256": "1d3cbef90794dd2fe96deae0184ff08c6d1122edca3182a786a1f07d17680db5",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R032.json",
+    "sha256": "9b2078c7b27f6c567949e503a33a652cfcf22a949e9798dda7d8e369cb449225",
+    "requestedObjectPrefix": "resource-port/quests-events/r032/",
+    "aggregateSha256": "9865e4bb0847893f2ed9f841cbff409f097ab893b45527f4d091c094b5f28567"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/quests-events/track-a/r032/",
+    "publicPrefix": "/resource-port/packages/quests-events/track-a/r032/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2464,
+        "sha256": "e34274537b8870beb21fcd2f09da36e853a0239fccdb104ba9dcc52f30791dea",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/quests-events/track-a/r032/manifest.json"
+      }
+    ],
+    "aggregateSha256": "9865e4bb0847893f2ed9f841cbff409f097ab893b45527f4d091c094b5f28567"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}
