@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P043",
+  "runtimeSessionId": "R043",
+  "sessionId": "R030",
+  "owner": "store-mail-economy",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R030.json",
+    "sha256": "9b0abf854107ff2fbba7871b6091cf3c000e10d0dd83bcc2e9a30d3d35d10ce8",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R030.json",
+    "sha256": "df85c2189f0d36e171015f17230b49c5f1c7713fa70bab4b908103e7599d9cf5",
+    "requestedObjectPrefix": "resource-port/store-mail-economy/r030/",
+    "aggregateSha256": "2fc2d5266dae054169b22eed327f7d94703f69634388f1fb4ac9caad327c0942"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/store-mail-economy/track-a/r030/",
+    "publicPrefix": "/resource-port/packages/store-mail-economy/track-a/r030/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2482,
+        "sha256": "a984198f227ee6f94584566840c2c01c97de4a235671767cdb5ab6a44af1c643",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/store-mail-economy/track-a/r030/manifest.json"
+      }
+    ],
+    "aggregateSha256": "2fc2d5266dae054169b22eed327f7d94703f69634388f1fb4ac9caad327c0942"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

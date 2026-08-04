@@ -106,5 +106,16 @@
     "correctedBytes": 93842,
     "unresolvedObjects": 11,
     "policy": "exact blob alias or validated content-addressed raster only; otherwise unresolved"
+  },
+  "publication": {
+    "trackA": {
+      "path": "exports/resource-port/store-mail-economy/track-a/publication.json",
+      "bytes": 2858,
+      "sha256": "30c5e75afb1bcf00771d6a543f6cee0c90f2700592f13502a1a7b8d194c7d0d1",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 2,
+      "stagedFiles": 2,
+      "stagedBytes": 4959
+    }
   }
 }

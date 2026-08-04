@@ -11,6 +11,15 @@ const OWNER = "store-mail-economy";
 const SOURCE_COMMIT = "519c35a293745b6a0477c4f6ea03110a89de2318";
 const SOURCE_TREE = "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344";
 const GUNNY_VERIFIED_MAIN = "e2552ddf57beca13d9ab2dca1b168fda0161f337";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/store-mail-economy/track-a/publication.json",
+  bytes: 2858,
+  sha256: "30c5e75afb1bcf00771d6a543f6cee0c90f2700592f13502a1a7b8d194c7d0d1",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 2,
+  stagedFiles: 2,
+  stagedBytes: 4959,
+});
 const DEPENDENCIES = Object.freeze(["R030", "R031"]);
 const DEPENDENCY_PINS = Object.freeze({
   R030: Object.freeze({
@@ -770,6 +779,7 @@ async function buildPackage() {
       unresolvedObjects: EXPECTED.packageUnresolved,
       policy: "exact blob alias or validated content-addressed raster only; otherwise unresolved",
     },
+    publication: { trackA: TRACK_A_PUBLICATION },
   });
   await writeJson("exports/resource-port/store-mail-economy/item-card-catalog.json", cardCatalog(records));
   await writeJson(
@@ -892,6 +902,7 @@ async function buildPackage() {
       readOnly: true,
     },
     dependencies: dependencyRecords,
+    trackAPublication: TRACK_A_PUBLICATION,
     summary,
     conversion: {
       exactSourceObjects: EXPECTED.trackAExact,
@@ -927,6 +938,7 @@ async function buildPackage() {
     importerChecks: "pass: R030 4096 files; R031 639 files",
     mediaValidation: "pass-78-exact-aliases-15-corrected-mappings-12-content-addressed-raster-objects",
     foundationAudit: "pass-195-existing-Gunny-shop-mail-gift-store-embed-files",
+    trackAStagingPublication: "pass: 2 exact staged payloads and 2 immutable publication manifests",
     rawSourceMutation: false,
     githubActionsUsedOrInspected: false,
   };
@@ -946,6 +958,7 @@ async function buildPackage() {
       canonicalObjectKey: "exact Resource source path or immutable content-addressed package output",
       sameOriginOnlyInComponents: true,
       directGatewayHostnameAllowedInClient: false,
+      trackAPublication: TRACK_A_PUBLICATION,
     },
     consumerBoundary: {
       packageOnly: true,
@@ -995,6 +1008,7 @@ async function buildPackage() {
       immutablePackageCommitRequired: true,
       mutableBranchAllowed: false,
       immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
     },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
@@ -1023,6 +1037,7 @@ async function buildPackage() {
       immutableCommitRequired: true,
       mutableBranchAllowed: false,
       releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
     },
   });
   await mkdir(resolve(root, "resource-port/track-b/findings"), { recursive: true });
@@ -1082,6 +1097,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/store-mail-economy.json");
   const evidence = await json("resource-port/track-b/evidence/P043.json");
   const status = await json("resource-port/track-b/status/P043.json");
+  const trackAPublication = await verifyTrackAPublication();
 
   if (
     manifest.packageSessionId !== PACKAGE_ID
@@ -1156,6 +1172,9 @@ async function verifyPackage() {
     || contract.sourcePin !== SOURCE_COMMIT
     || contract.consumerBoundary?.runtimeIntegration !== false
     || contract.consumerBoundary?.artworkDefinesBusinessSemantics !== false) fail("package contract mismatch");
+  if (contract.assetAddressing?.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication contract changed");
+  }
   for (const dependency of contract.dependencies) {
     const pin = DEPENDENCY_PINS[dependency.sessionId];
     if (!pin || dependency.implementationCommit !== pin.implementationCommit
@@ -1171,6 +1190,12 @@ async function verifyPackage() {
     || status.status !== "complete-package-with-explicit-unresolved"
     || status.runtimeIntegration !== false
   ) fail("evidence or status overclaims P043");
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || index.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication metadata changed");
+  }
   for (const descriptor of manifest.exports) await verifyArtifactDescriptor(descriptor);
   const correctionRecords = records.filter((record) => record.packageOutput);
   const uniqueCorrections = new Map(correctionRecords.map((record) => [record.packageOutput, record]));
@@ -1191,7 +1216,7 @@ async function verifyPackage() {
   if (exportFiles.some((path) => extname(path).toLowerCase() === ".swf")) {
     fail("P043 export contains a legacy SWF runtime container");
   }
-  if (exportFiles.length !== manifest.exports.length + 1) {
+  if (exportFiles.length !== manifest.exports.length + 5) {
     fail("export file count changed to " + exportFiles.length);
   }
   if (gunnyRoot) {
@@ -1214,8 +1239,50 @@ async function verifyPackage() {
     correctedRasterObjects: EXPECTED.correctedObjects,
     unresolvedObjects: EXPECTED.packageUnresolved,
     foundationFilesReferenced: EXPECTED.foundationFiles,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
   };
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (rootBytes.length !== TRACK_A_PUBLICATION.bytes || sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication root identity mismatch");
+  }
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER
+    || publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain
+    || publication.summary?.sessions !== 2 || publication.summary?.stagedFiles !== 2
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.exact !== 2 || publication.summary?.inferred !== 0 || publication.summary?.unresolved !== 0
+    || publication.boundary?.browserNativeConversionClaimed !== false || publication.boundary?.runtimeIntegration !== false) {
+    fail("Track A publication contract changed");
+  }
+  if (JSON.stringify(publication.sessions?.map((entry) => entry.sessionId)) !== JSON.stringify(DEPENDENCIES)) {
+    fail("Track A publication sessions changed");
+  }
+  for (const entry of publication.sessions) {
+    const lower = entry.sessionId.toLowerCase();
+    const expectedPrefix = `exports/resource-port/${OWNER}/track-a/${lower}/`;
+    if (entry.objectPrefix !== expectedPrefix || entry.manifestPath !== `track-a/${lower}/publication.json`) {
+      fail(`${entry.sessionId} publication prefix changed`);
+    }
+    const sessionBytes = await readFile(resolve(root, "exports/resource-port", OWNER, entry.manifestPath));
+    if (sha256(sessionBytes) !== entry.manifestSha256) fail(`${entry.sessionId} publication manifest digest mismatch`);
+    const session = JSON.parse(sessionBytes.toString("utf8"));
+    if (session.classification !== "exact" || session.target?.objectPrefix !== expectedPrefix
+      || session.boundary?.runtimeIntegration !== false || session.payload?.files?.length !== 1) {
+      fail(`${entry.sessionId} publication manifest changed`);
+    }
+    const file = session.payload.files[0];
+    const payloadBytes = await readFile(resolve(root, "exports/resource-port", OWNER, "track-a", lower, file.path));
+    if (file.objectKey !== `${expectedPrefix}${file.path}` || file.contentType !== "application/json; charset=utf-8"
+      || payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) {
+      fail(`${entry.sessionId} payload identity changed`);
+    }
+    JSON.parse(payloadBytes.toString("utf8"));
+  }
+  return publication;
 }
 
 if (writing) await buildPackage();

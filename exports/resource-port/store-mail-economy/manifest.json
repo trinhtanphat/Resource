@@ -44,6 +44,15 @@
       "trackBDependencySatisfied": true
     }
   ],
+  "trackAPublication": {
+    "path": "exports/resource-port/store-mail-economy/track-a/publication.json",
+    "bytes": 2858,
+    "sha256": "30c5e75afb1bcf00771d6a543f6cee0c90f2700592f13502a1a7b8d194c7d0d1",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 2,
+    "stagedFiles": 2,
+    "stagedBytes": 4959
+  },
   "summary": {
     "files": 4735,
     "bytes": 35195703,
@@ -134,8 +143,8 @@
     },
     {
       "path": "exports/resource-port/store-mail-economy/catalog-index.json",
-      "bytes": 2563,
-      "sha256": "1bc8e1d79bbbaaa4abc38939e48ffd1a74214ea41e63d033f33e31870fe8d101",
+      "bytes": 2941,
+      "sha256": "c130b68efbd313827706466bcdfafbfecad766f1430fbb59ef7f542abac42f4c",
       "contentType": "application/json"
     },
     {
@@ -262,6 +271,12 @@
       "path": "exports/resource-port/store-mail-economy/shop-decoration-catalog.json",
       "bytes": 5586,
       "sha256": "388fe263a19ae5d3da74f86717323e7ddd02b1c5c43b95d3d6fa7fb392fdf07f",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/store-mail-economy/track-a/publication.json",
+      "bytes": 2858,
+      "sha256": "30c5e75afb1bcf00771d6a543f6cee0c90f2700592f13502a1a7b8d194c7d0d1",
       "contentType": "application/json"
     }
   ],
