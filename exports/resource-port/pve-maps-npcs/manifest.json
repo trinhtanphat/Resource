@@ -17,6 +17,15 @@
     "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
     "verifiedOnMain": "4bf2cab1daf733964dd8772498f2d306e3a73584"
   },
+  "trackAPublication": {
+    "path": "exports/resource-port/pve-maps-npcs/track-a/publication.json",
+    "bytes": 1909,
+    "sha256": "83fc0724a9eec38af2fa968b45da6b30d0e0a12d0d6f8f403f98c22d5516dd52",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2469
+  },
   "summary": {
     "files": 3703,
     "bytes": 357578563,
@@ -58,8 +67,8 @@
   "exports": [
     {
       "path": "exports/resource-port/pve-maps-npcs/catalog-index.json",
-      "bytes": 1102,
-      "sha256": "9986fd8b0f717c3081a7116b40865f0285558579925c033f3ee2bb588d54dd4c",
+      "bytes": 1455,
+      "sha256": "5d3f78ed3f7a49322f3848c8b14ed5be3b975e4466ba5027f6ca288b4b5d178f",
       "contentType": "application/json"
     },
     {
@@ -102,6 +111,12 @@
       "path": "exports/resource-port/pve-maps-npcs/runtime-contract.json",
       "bytes": 2030,
       "sha256": "2bf23d1aafaaae92621f593f56fea28fb1e8dcca5697460269ac3c9e3ec0d5bf",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pve-maps-npcs/track-a/publication.json",
+      "bytes": 1909,
+      "sha256": "83fc0724a9eec38af2fa968b45da6b30d0e0a12d0d6f8f403f98c22d5516dd52",
       "contentType": "application/json"
     }
   ],

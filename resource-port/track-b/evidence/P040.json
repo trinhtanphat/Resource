@@ -110,6 +110,7 @@
     "dependencyGate": "pass-exact-R027-evidence-and-importer-blobs",
     "consumerEvidence": "pass-282-exact-source-paths-across-197-map-identities",
     "tilemapParserReuse": "pass-existing-Gunny-parser-contract-and-exact-decoded-hash",
+    "trackAStagingPublication": "pass: 1 exact staged payload and 1 immutable publication manifest",
     "rawSourceMutation": false,
     "githubActionsUsedOrInspected": false
   },
@@ -126,7 +127,16 @@
   "publication": {
     "immutablePackageCommitRequired": true,
     "mutableBranchAllowed": false,
-    "immutableMergeCommit": null
+    "immutableMergeCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/pve-maps-npcs/track-a/publication.json",
+      "bytes": 1909,
+      "sha256": "83fc0724a9eec38af2fa968b45da6b30d0e0a12d0d6f8f403f98c22d5516dd52",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2469
+    }
   },
   "generatedAt": "2026-08-02T00:00:00Z",
   "githubActions": false
