@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P038",
+  "runtimeSessionId": "R038",
+  "sessionId": "R006",
+  "owner": "avatar-equipment",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R006.json",
+    "sha256": "1bb01481bd4d2cca76123a81ae4f160f6bf8705ebe90420a069caab9eafca2b6",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R006.json",
+    "sha256": "599781f6441ab6bec70a056c2982fd6fb3f09500f322cab67c05688299e93871",
+    "requestedObjectPrefix": "resource-port/avatar-equipment/r006/",
+    "aggregateSha256": "a7b6290e441fb682c3141dbc411b6bb78e0f5cdffa87ed58cde576b6dd95f6d5"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/avatar-equipment/track-a/r006/",
+    "publicPrefix": "/resource-port/packages/avatar-equipment/track-a/r006/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2477,
+        "sha256": "8eb857722acdb4869648130fac4ec6a044ee9b96a37a7c9eb85e0da6cf3ec660",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/avatar-equipment/track-a/r006/manifest.json"
+      }
+    ],
+    "aggregateSha256": "a7b6290e441fb682c3141dbc411b6bb78e0f5cdffa87ed58cde576b6dd95f6d5"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}
