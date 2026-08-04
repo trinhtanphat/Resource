@@ -1,0 +1,1359 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P039",
+  "runtimeSessionId": "R039",
+  "sessionId": "R026",
+  "owner": "battle-hud-effects",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R026.json",
+    "sha256": "ff372ff8d7ecfda80e3c32e05fad8750c139007dc3b6d965b681ebe6f2780a3d",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R026.json",
+    "sha256": "85f4a94e3c8423c792007731496c808d5409ce2894dbd7b149fe0692ab6aba10",
+    "requestedObjectPrefix": "resource-port/battle-hud-effects/r026/",
+    "aggregateSha256": "9301e16915cad43d7f6f1632cb7ea0246bda7c329ef8bcfb68bc121f4bbdcb08"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/battle-hud-effects/track-a/r026/",
+    "publicPrefix": "/resource-port/packages/battle-hud-effects/track-a/r026/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 345895,
+        "sha256": "6e65b0ea754ae7baa839142868ef4484a9b5123324e743e2da42eaa1a28f095b",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/manifest.json"
+      },
+      {
+        "path": "raster/002cf349429ae6cdb8f77c4e9fd9a93292bbe9959b0ddb34a1c308e63258d89f.png",
+        "bytes": 182,
+        "sha256": "002cf349429ae6cdb8f77c4e9fd9a93292bbe9959b0ddb34a1c308e63258d89f",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/002cf349429ae6cdb8f77c4e9fd9a93292bbe9959b0ddb34a1c308e63258d89f.png"
+      },
+      {
+        "path": "raster/01d7329a353ce5ec9aeb602aad8c59543f69a75fce7533251fbc69b8bd0e86aa.png",
+        "bytes": 16323,
+        "sha256": "01d7329a353ce5ec9aeb602aad8c59543f69a75fce7533251fbc69b8bd0e86aa",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/01d7329a353ce5ec9aeb602aad8c59543f69a75fce7533251fbc69b8bd0e86aa.png"
+      },
+      {
+        "path": "raster/04b885cf25caa88419afabed42abf12c5cd69f8eb0741e59e529126cd8ed9f6f.png",
+        "bytes": 2750,
+        "sha256": "04b885cf25caa88419afabed42abf12c5cd69f8eb0741e59e529126cd8ed9f6f",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/04b885cf25caa88419afabed42abf12c5cd69f8eb0741e59e529126cd8ed9f6f.png"
+      },
+      {
+        "path": "raster/052456e002d399ba561313d9a445fe05bc8d89fbf3b8e1dd012205300e823acd.png",
+        "bytes": 20937,
+        "sha256": "052456e002d399ba561313d9a445fe05bc8d89fbf3b8e1dd012205300e823acd",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/052456e002d399ba561313d9a445fe05bc8d89fbf3b8e1dd012205300e823acd.png"
+      },
+      {
+        "path": "raster/07df817091b61b4f8ece37369f83875004ee9a97e92ba34db37323a6603817e0.png",
+        "bytes": 11782,
+        "sha256": "07df817091b61b4f8ece37369f83875004ee9a97e92ba34db37323a6603817e0",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/07df817091b61b4f8ece37369f83875004ee9a97e92ba34db37323a6603817e0.png"
+      },
+      {
+        "path": "raster/086754e8fc74d67f612e85a953e9a3e14238e07effc237ee1d1bda12e08c651b.png",
+        "bytes": 6636,
+        "sha256": "086754e8fc74d67f612e85a953e9a3e14238e07effc237ee1d1bda12e08c651b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/086754e8fc74d67f612e85a953e9a3e14238e07effc237ee1d1bda12e08c651b.png"
+      },
+      {
+        "path": "raster/0c753bd368ecb24ffa1c37805accb02ea02a752c0ed7d7624b44620d0f065bf4.png",
+        "bytes": 2733,
+        "sha256": "0c753bd368ecb24ffa1c37805accb02ea02a752c0ed7d7624b44620d0f065bf4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/0c753bd368ecb24ffa1c37805accb02ea02a752c0ed7d7624b44620d0f065bf4.png"
+      },
+      {
+        "path": "raster/0cec4526cce7ed7fe31560985b2b5576ba38d4455208970028e8b1b04fa223fb.png",
+        "bytes": 3851,
+        "sha256": "0cec4526cce7ed7fe31560985b2b5576ba38d4455208970028e8b1b04fa223fb",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/0cec4526cce7ed7fe31560985b2b5576ba38d4455208970028e8b1b04fa223fb.png"
+      },
+      {
+        "path": "raster/0e735f9b5689c2e6fea807c53d528e2e2122b96cc603a8df270325dcec3eb73b.png",
+        "bytes": 1882,
+        "sha256": "0e735f9b5689c2e6fea807c53d528e2e2122b96cc603a8df270325dcec3eb73b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/0e735f9b5689c2e6fea807c53d528e2e2122b96cc603a8df270325dcec3eb73b.png"
+      },
+      {
+        "path": "raster/0f49f08929eeb8071e7e4bf0b0573ba83d4527f2a6d056f9bbca02bb7fdd5aa3.png",
+        "bytes": 2009,
+        "sha256": "0f49f08929eeb8071e7e4bf0b0573ba83d4527f2a6d056f9bbca02bb7fdd5aa3",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/0f49f08929eeb8071e7e4bf0b0573ba83d4527f2a6d056f9bbca02bb7fdd5aa3.png"
+      },
+      {
+        "path": "raster/0fad43ee2f983d06fec683d712865313920ebd0113c14a1c141a8d4cfb5237ef.png",
+        "bytes": 1491,
+        "sha256": "0fad43ee2f983d06fec683d712865313920ebd0113c14a1c141a8d4cfb5237ef",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/0fad43ee2f983d06fec683d712865313920ebd0113c14a1c141a8d4cfb5237ef.png"
+      },
+      {
+        "path": "raster/128909beaf1d3c8ea869eea8b3642ce27aa2931b3248c35e8c25de6ca0dace1d.png",
+        "bytes": 3905,
+        "sha256": "128909beaf1d3c8ea869eea8b3642ce27aa2931b3248c35e8c25de6ca0dace1d",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/128909beaf1d3c8ea869eea8b3642ce27aa2931b3248c35e8c25de6ca0dace1d.png"
+      },
+      {
+        "path": "raster/12ac1bfdbcc800c781432065856e6a08dedb53a3746a51156f343e1b622dc1ab.png",
+        "bytes": 4145,
+        "sha256": "12ac1bfdbcc800c781432065856e6a08dedb53a3746a51156f343e1b622dc1ab",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/12ac1bfdbcc800c781432065856e6a08dedb53a3746a51156f343e1b622dc1ab.png"
+      },
+      {
+        "path": "raster/13293c0cc008be93f10dcba9a498a77647ab2d738b4a05e62cdf0964ba1b4f63.png",
+        "bytes": 2819,
+        "sha256": "13293c0cc008be93f10dcba9a498a77647ab2d738b4a05e62cdf0964ba1b4f63",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/13293c0cc008be93f10dcba9a498a77647ab2d738b4a05e62cdf0964ba1b4f63.png"
+      },
+      {
+        "path": "raster/14a0a3db249a3f06bc9afc161a48148cb1ea25ffbbc3ab8e14fcf4a48101cb3c.png",
+        "bytes": 3809,
+        "sha256": "14a0a3db249a3f06bc9afc161a48148cb1ea25ffbbc3ab8e14fcf4a48101cb3c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/14a0a3db249a3f06bc9afc161a48148cb1ea25ffbbc3ab8e14fcf4a48101cb3c.png"
+      },
+      {
+        "path": "raster/15fd13d22c38053a50493a29e1859048c595ee5512dcb3c112c2cbdb19756968.png",
+        "bytes": 5045,
+        "sha256": "15fd13d22c38053a50493a29e1859048c595ee5512dcb3c112c2cbdb19756968",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/15fd13d22c38053a50493a29e1859048c595ee5512dcb3c112c2cbdb19756968.png"
+      },
+      {
+        "path": "raster/1692c1f1d22efbe1571fac24a5b80daa5b38bbe3271751a93dc7493181af184e.png",
+        "bytes": 4881,
+        "sha256": "1692c1f1d22efbe1571fac24a5b80daa5b38bbe3271751a93dc7493181af184e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1692c1f1d22efbe1571fac24a5b80daa5b38bbe3271751a93dc7493181af184e.png"
+      },
+      {
+        "path": "raster/195c3576f9508165538e0443460ab07be6b56e4dfa4b433585598225d5b862c5.png",
+        "bytes": 4382,
+        "sha256": "195c3576f9508165538e0443460ab07be6b56e4dfa4b433585598225d5b862c5",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/195c3576f9508165538e0443460ab07be6b56e4dfa4b433585598225d5b862c5.png"
+      },
+      {
+        "path": "raster/1b45bcc1edc0a254bb61fa9ec3adda00b1145f9f112e307ca005513d49d8f502.png",
+        "bytes": 3532,
+        "sha256": "1b45bcc1edc0a254bb61fa9ec3adda00b1145f9f112e307ca005513d49d8f502",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1b45bcc1edc0a254bb61fa9ec3adda00b1145f9f112e307ca005513d49d8f502.png"
+      },
+      {
+        "path": "raster/1bc237eb9191cc3b9bbcb1b02489d61cd87b8380e42f8d973e2313550e3021d9.png",
+        "bytes": 1530,
+        "sha256": "1bc237eb9191cc3b9bbcb1b02489d61cd87b8380e42f8d973e2313550e3021d9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1bc237eb9191cc3b9bbcb1b02489d61cd87b8380e42f8d973e2313550e3021d9.png"
+      },
+      {
+        "path": "raster/1c21e8e2bd3b616ff2b90a7e0ab95042893ddf275cf846d1c5855a40e00d4b69.png",
+        "bytes": 17300,
+        "sha256": "1c21e8e2bd3b616ff2b90a7e0ab95042893ddf275cf846d1c5855a40e00d4b69",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1c21e8e2bd3b616ff2b90a7e0ab95042893ddf275cf846d1c5855a40e00d4b69.png"
+      },
+      {
+        "path": "raster/1d42102bc5d7f6baf3138a3aa2a780b3e58247e33f6ebac65f33ccb526192435.png",
+        "bytes": 2489,
+        "sha256": "1d42102bc5d7f6baf3138a3aa2a780b3e58247e33f6ebac65f33ccb526192435",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1d42102bc5d7f6baf3138a3aa2a780b3e58247e33f6ebac65f33ccb526192435.png"
+      },
+      {
+        "path": "raster/1e0473cad45af176a6d261ceca3c33485aaa65adfa106555b1b2a147c485f2e8.png",
+        "bytes": 4290,
+        "sha256": "1e0473cad45af176a6d261ceca3c33485aaa65adfa106555b1b2a147c485f2e8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/1e0473cad45af176a6d261ceca3c33485aaa65adfa106555b1b2a147c485f2e8.png"
+      },
+      {
+        "path": "raster/2116f241ebdac2175eeb02038cb993d4c7d4ba3e2ec1fe738a4165aa7fcc0242.png",
+        "bytes": 3948,
+        "sha256": "2116f241ebdac2175eeb02038cb993d4c7d4ba3e2ec1fe738a4165aa7fcc0242",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2116f241ebdac2175eeb02038cb993d4c7d4ba3e2ec1fe738a4165aa7fcc0242.png"
+      },
+      {
+        "path": "raster/217f0ddfd597f8fdff65cdde861e5fadecb47238fbca947e91c489be830eedfb.png",
+        "bytes": 4423,
+        "sha256": "217f0ddfd597f8fdff65cdde861e5fadecb47238fbca947e91c489be830eedfb",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/217f0ddfd597f8fdff65cdde861e5fadecb47238fbca947e91c489be830eedfb.png"
+      },
+      {
+        "path": "raster/23e922ab7120e1333b5d2427322cf87e640adf9cbed81fd12616d2f961713d70.png",
+        "bytes": 2973,
+        "sha256": "23e922ab7120e1333b5d2427322cf87e640adf9cbed81fd12616d2f961713d70",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/23e922ab7120e1333b5d2427322cf87e640adf9cbed81fd12616d2f961713d70.png"
+      },
+      {
+        "path": "raster/243c111195f2f7727501077089b1e3618ff4f36de0f5907503425569acbe1365.png",
+        "bytes": 2777,
+        "sha256": "243c111195f2f7727501077089b1e3618ff4f36de0f5907503425569acbe1365",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/243c111195f2f7727501077089b1e3618ff4f36de0f5907503425569acbe1365.png"
+      },
+      {
+        "path": "raster/246c2ccf91db4b64bd9196d947bd6f68d45eb8e05c4115919455f8d9c6efbb64.png",
+        "bytes": 3878,
+        "sha256": "246c2ccf91db4b64bd9196d947bd6f68d45eb8e05c4115919455f8d9c6efbb64",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/246c2ccf91db4b64bd9196d947bd6f68d45eb8e05c4115919455f8d9c6efbb64.png"
+      },
+      {
+        "path": "raster/281f69c580a371651328e512dad794204a3cb35484c743f4effe22630a9f386b.png",
+        "bytes": 11394,
+        "sha256": "281f69c580a371651328e512dad794204a3cb35484c743f4effe22630a9f386b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/281f69c580a371651328e512dad794204a3cb35484c743f4effe22630a9f386b.png"
+      },
+      {
+        "path": "raster/28472e8c648f5ebaa73d2f70312a7d43f57da8c0d3b3c409fb8392e5677c90ac.png",
+        "bytes": 3603,
+        "sha256": "28472e8c648f5ebaa73d2f70312a7d43f57da8c0d3b3c409fb8392e5677c90ac",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/28472e8c648f5ebaa73d2f70312a7d43f57da8c0d3b3c409fb8392e5677c90ac.png"
+      },
+      {
+        "path": "raster/2a24916bc3c0c1af4e76fde57c281d92acae99be1805e028c58268d995de7b1d.png",
+        "bytes": 3921,
+        "sha256": "2a24916bc3c0c1af4e76fde57c281d92acae99be1805e028c58268d995de7b1d",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2a24916bc3c0c1af4e76fde57c281d92acae99be1805e028c58268d995de7b1d.png"
+      },
+      {
+        "path": "raster/2b562f943912b89899b3cbe8baf80244be267d60b52691282546d7bfa062ae72.png",
+        "bytes": 1734,
+        "sha256": "2b562f943912b89899b3cbe8baf80244be267d60b52691282546d7bfa062ae72",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2b562f943912b89899b3cbe8baf80244be267d60b52691282546d7bfa062ae72.png"
+      },
+      {
+        "path": "raster/2cc7bd0f89973c79f8bc7a8a434ddbf24b851876c761730d7d863815a6c2a1e2.png",
+        "bytes": 18280,
+        "sha256": "2cc7bd0f89973c79f8bc7a8a434ddbf24b851876c761730d7d863815a6c2a1e2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2cc7bd0f89973c79f8bc7a8a434ddbf24b851876c761730d7d863815a6c2a1e2.png"
+      },
+      {
+        "path": "raster/2f4491184d5efd652f5795ccd98c6d2799837dc37d06d6c6781e83c58399bf93.png",
+        "bytes": 3692,
+        "sha256": "2f4491184d5efd652f5795ccd98c6d2799837dc37d06d6c6781e83c58399bf93",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2f4491184d5efd652f5795ccd98c6d2799837dc37d06d6c6781e83c58399bf93.png"
+      },
+      {
+        "path": "raster/2f5c9d47d7192197460b072a0f5b92f057638d3edbe8008ee545597f6afe0d5c.png",
+        "bytes": 2722,
+        "sha256": "2f5c9d47d7192197460b072a0f5b92f057638d3edbe8008ee545597f6afe0d5c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2f5c9d47d7192197460b072a0f5b92f057638d3edbe8008ee545597f6afe0d5c.png"
+      },
+      {
+        "path": "raster/2fe5b3b80b7b16465e6f7d777f947db8691cebe36dac0c41e91004b238eff6a2.png",
+        "bytes": 3636,
+        "sha256": "2fe5b3b80b7b16465e6f7d777f947db8691cebe36dac0c41e91004b238eff6a2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/2fe5b3b80b7b16465e6f7d777f947db8691cebe36dac0c41e91004b238eff6a2.png"
+      },
+      {
+        "path": "raster/30f417ade03bd23feac6b9537d65e92ccd1cb5e69c9d8589c4534970f842ae97.png",
+        "bytes": 4671,
+        "sha256": "30f417ade03bd23feac6b9537d65e92ccd1cb5e69c9d8589c4534970f842ae97",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/30f417ade03bd23feac6b9537d65e92ccd1cb5e69c9d8589c4534970f842ae97.png"
+      },
+      {
+        "path": "raster/30f43da7c361bdc69274a11f53c6d0aadcb88a9c30f54ea863aea6b830d70a70.png",
+        "bytes": 22795,
+        "sha256": "30f43da7c361bdc69274a11f53c6d0aadcb88a9c30f54ea863aea6b830d70a70",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/30f43da7c361bdc69274a11f53c6d0aadcb88a9c30f54ea863aea6b830d70a70.png"
+      },
+      {
+        "path": "raster/31b7b2f58dfb219258b30bb4b4dbce7f346a34153ac5d138ec9ca255402ac0dd.png",
+        "bytes": 3062,
+        "sha256": "31b7b2f58dfb219258b30bb4b4dbce7f346a34153ac5d138ec9ca255402ac0dd",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/31b7b2f58dfb219258b30bb4b4dbce7f346a34153ac5d138ec9ca255402ac0dd.png"
+      },
+      {
+        "path": "raster/32138d72c860a391846fd4cdf269fe000dc0c3f552a70d7ad2802d9b5dcb82f3.png",
+        "bytes": 12248,
+        "sha256": "32138d72c860a391846fd4cdf269fe000dc0c3f552a70d7ad2802d9b5dcb82f3",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/32138d72c860a391846fd4cdf269fe000dc0c3f552a70d7ad2802d9b5dcb82f3.png"
+      },
+      {
+        "path": "raster/338de7d73cf603a9cc39326d07ab5831848d2c1edba7329b68203b6cb60ba177.png",
+        "bytes": 4154,
+        "sha256": "338de7d73cf603a9cc39326d07ab5831848d2c1edba7329b68203b6cb60ba177",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/338de7d73cf603a9cc39326d07ab5831848d2c1edba7329b68203b6cb60ba177.png"
+      },
+      {
+        "path": "raster/357c1c2955bfb6b5b1fd2a3a127091d149325a4e2f9639b5191b5451923fdd49.png",
+        "bytes": 7479,
+        "sha256": "357c1c2955bfb6b5b1fd2a3a127091d149325a4e2f9639b5191b5451923fdd49",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/357c1c2955bfb6b5b1fd2a3a127091d149325a4e2f9639b5191b5451923fdd49.png"
+      },
+      {
+        "path": "raster/37cfea9b7a8f86dbecf875b327035f0dcfeda9f8e84235b9d7b4702f28cdc0bd.png",
+        "bytes": 5016,
+        "sha256": "37cfea9b7a8f86dbecf875b327035f0dcfeda9f8e84235b9d7b4702f28cdc0bd",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/37cfea9b7a8f86dbecf875b327035f0dcfeda9f8e84235b9d7b4702f28cdc0bd.png"
+      },
+      {
+        "path": "raster/38135b1f28a8da7088a3bf6b7b9e91ab62c58fa248b8a1a78bd57bd15dd90ac1.png",
+        "bytes": 5463,
+        "sha256": "38135b1f28a8da7088a3bf6b7b9e91ab62c58fa248b8a1a78bd57bd15dd90ac1",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/38135b1f28a8da7088a3bf6b7b9e91ab62c58fa248b8a1a78bd57bd15dd90ac1.png"
+      },
+      {
+        "path": "raster/389ad431779c43d018414c086ec18e7fa11e3c716402ab7e79961c47efafc128.png",
+        "bytes": 7983,
+        "sha256": "389ad431779c43d018414c086ec18e7fa11e3c716402ab7e79961c47efafc128",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/389ad431779c43d018414c086ec18e7fa11e3c716402ab7e79961c47efafc128.png"
+      },
+      {
+        "path": "raster/38fce90201b648a2cc66f55d299e4d1e262ba316a0157f8ac7350de763e3b9e2.png",
+        "bytes": 1773,
+        "sha256": "38fce90201b648a2cc66f55d299e4d1e262ba316a0157f8ac7350de763e3b9e2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/38fce90201b648a2cc66f55d299e4d1e262ba316a0157f8ac7350de763e3b9e2.png"
+      },
+      {
+        "path": "raster/3afb4ed12eab30f857a11337be7d433f998e64764fda35156d7936d575daefc1.png",
+        "bytes": 1512,
+        "sha256": "3afb4ed12eab30f857a11337be7d433f998e64764fda35156d7936d575daefc1",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3afb4ed12eab30f857a11337be7d433f998e64764fda35156d7936d575daefc1.png"
+      },
+      {
+        "path": "raster/3c4e92ff2953849eaf061ccca68608eb8a938cb77dbfc6cf47154b56ff3afced.png",
+        "bytes": 6716,
+        "sha256": "3c4e92ff2953849eaf061ccca68608eb8a938cb77dbfc6cf47154b56ff3afced",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3c4e92ff2953849eaf061ccca68608eb8a938cb77dbfc6cf47154b56ff3afced.png"
+      },
+      {
+        "path": "raster/3cdc19fc3998146f0b186d8eb2a4a7025ae1beacc17102b46df310af55c3a460.png",
+        "bytes": 4357,
+        "sha256": "3cdc19fc3998146f0b186d8eb2a4a7025ae1beacc17102b46df310af55c3a460",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3cdc19fc3998146f0b186d8eb2a4a7025ae1beacc17102b46df310af55c3a460.png"
+      },
+      {
+        "path": "raster/3d182bf112187866debd5186582c2b145b555de09d86fb480ebe38b0dbdaf36a.png",
+        "bytes": 3937,
+        "sha256": "3d182bf112187866debd5186582c2b145b555de09d86fb480ebe38b0dbdaf36a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3d182bf112187866debd5186582c2b145b555de09d86fb480ebe38b0dbdaf36a.png"
+      },
+      {
+        "path": "raster/3e803ba7982dfd50b21d2494dea0ce45e2b4a0a8334b7805d1bcfcc69ad04d7d.png",
+        "bytes": 3969,
+        "sha256": "3e803ba7982dfd50b21d2494dea0ce45e2b4a0a8334b7805d1bcfcc69ad04d7d",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3e803ba7982dfd50b21d2494dea0ce45e2b4a0a8334b7805d1bcfcc69ad04d7d.png"
+      },
+      {
+        "path": "raster/3f74ca0274b3003cb399a97b93e1ebf11dc22d92cf7fbc187318e9f7a1906e7c.png",
+        "bytes": 1605,
+        "sha256": "3f74ca0274b3003cb399a97b93e1ebf11dc22d92cf7fbc187318e9f7a1906e7c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3f74ca0274b3003cb399a97b93e1ebf11dc22d92cf7fbc187318e9f7a1906e7c.png"
+      },
+      {
+        "path": "raster/3f9678426a359bf1a3a2e35b0e915f1cdd8b3bfafe33b64913688b8717ca24b9.png",
+        "bytes": 4177,
+        "sha256": "3f9678426a359bf1a3a2e35b0e915f1cdd8b3bfafe33b64913688b8717ca24b9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/3f9678426a359bf1a3a2e35b0e915f1cdd8b3bfafe33b64913688b8717ca24b9.png"
+      },
+      {
+        "path": "raster/4158ccf452f22041ec908cde6eab06cf1b3d56fba6ba5db90c472c8b348e2fb8.png",
+        "bytes": 4039,
+        "sha256": "4158ccf452f22041ec908cde6eab06cf1b3d56fba6ba5db90c472c8b348e2fb8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4158ccf452f22041ec908cde6eab06cf1b3d56fba6ba5db90c472c8b348e2fb8.png"
+      },
+      {
+        "path": "raster/4471230d08424eaad08924b4ebfd0b44b4c7b3b756251e3101fa34288972ad06.png",
+        "bytes": 10827,
+        "sha256": "4471230d08424eaad08924b4ebfd0b44b4c7b3b756251e3101fa34288972ad06",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4471230d08424eaad08924b4ebfd0b44b4c7b3b756251e3101fa34288972ad06.png"
+      },
+      {
+        "path": "raster/456d11753db847e700b0a5960ad7b6620d4ed841ecbca08df9eae945fe677428.png",
+        "bytes": 21902,
+        "sha256": "456d11753db847e700b0a5960ad7b6620d4ed841ecbca08df9eae945fe677428",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/456d11753db847e700b0a5960ad7b6620d4ed841ecbca08df9eae945fe677428.png"
+      },
+      {
+        "path": "raster/45f9801a7d4ba2bb3d8f0d5e38e5271c7d12a5d732a961e5c0bb30f36bba7a9e.png",
+        "bytes": 2861,
+        "sha256": "45f9801a7d4ba2bb3d8f0d5e38e5271c7d12a5d732a961e5c0bb30f36bba7a9e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/45f9801a7d4ba2bb3d8f0d5e38e5271c7d12a5d732a961e5c0bb30f36bba7a9e.png"
+      },
+      {
+        "path": "raster/4726c9c07433f8a6de081aa3cfb93f15751d6fef5464b55d92d138f1c6f2b45a.png",
+        "bytes": 3933,
+        "sha256": "4726c9c07433f8a6de081aa3cfb93f15751d6fef5464b55d92d138f1c6f2b45a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4726c9c07433f8a6de081aa3cfb93f15751d6fef5464b55d92d138f1c6f2b45a.png"
+      },
+      {
+        "path": "raster/49fdca7165bc36dc0c8c490473826a73943476ece315db73439400e29574d45c.png",
+        "bytes": 3767,
+        "sha256": "49fdca7165bc36dc0c8c490473826a73943476ece315db73439400e29574d45c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/49fdca7165bc36dc0c8c490473826a73943476ece315db73439400e29574d45c.png"
+      },
+      {
+        "path": "raster/4a052cb7e88fd4f816ab5d40354e8f069dcca263df7e98681567687ade3653a7.png",
+        "bytes": 1750,
+        "sha256": "4a052cb7e88fd4f816ab5d40354e8f069dcca263df7e98681567687ade3653a7",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4a052cb7e88fd4f816ab5d40354e8f069dcca263df7e98681567687ade3653a7.png"
+      },
+      {
+        "path": "raster/4a3cdf52995890e55459346662d380e1ef5411b6104bee89bc67a97f7f435d59.png",
+        "bytes": 18642,
+        "sha256": "4a3cdf52995890e55459346662d380e1ef5411b6104bee89bc67a97f7f435d59",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4a3cdf52995890e55459346662d380e1ef5411b6104bee89bc67a97f7f435d59.png"
+      },
+      {
+        "path": "raster/4c2ec9001c2b84a425fd1a3eb55dcb7f1c365096e881ba29893ceb9ef78a8785.png",
+        "bytes": 2547,
+        "sha256": "4c2ec9001c2b84a425fd1a3eb55dcb7f1c365096e881ba29893ceb9ef78a8785",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4c2ec9001c2b84a425fd1a3eb55dcb7f1c365096e881ba29893ceb9ef78a8785.png"
+      },
+      {
+        "path": "raster/4cdbec30767903e806d7995d6b2db6a22be13ab7c60db59605fab3004870fb38.png",
+        "bytes": 2468,
+        "sha256": "4cdbec30767903e806d7995d6b2db6a22be13ab7c60db59605fab3004870fb38",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4cdbec30767903e806d7995d6b2db6a22be13ab7c60db59605fab3004870fb38.png"
+      },
+      {
+        "path": "raster/4e58e2a570998ed27f80d8f52e92fb6d51853cb2cc258d4851962b88f4c5c883.png",
+        "bytes": 1414,
+        "sha256": "4e58e2a570998ed27f80d8f52e92fb6d51853cb2cc258d4851962b88f4c5c883",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4e58e2a570998ed27f80d8f52e92fb6d51853cb2cc258d4851962b88f4c5c883.png"
+      },
+      {
+        "path": "raster/4f3d945a6b64954f521763eaef817a82b56c5c4a999a6cb4a355f7cea23bcca4.png",
+        "bytes": 3878,
+        "sha256": "4f3d945a6b64954f521763eaef817a82b56c5c4a999a6cb4a355f7cea23bcca4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4f3d945a6b64954f521763eaef817a82b56c5c4a999a6cb4a355f7cea23bcca4.png"
+      },
+      {
+        "path": "raster/4fefc610dce54fa10b5d81c8da8e9afdf87051a7fd8867398f0668aee08db8b6.png",
+        "bytes": 13442,
+        "sha256": "4fefc610dce54fa10b5d81c8da8e9afdf87051a7fd8867398f0668aee08db8b6",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/4fefc610dce54fa10b5d81c8da8e9afdf87051a7fd8867398f0668aee08db8b6.png"
+      },
+      {
+        "path": "raster/50083d7a7297bbf636d0c337f3c8fb38fef58c63407ae3db8ff78a0cb0929abb.png",
+        "bytes": 21436,
+        "sha256": "50083d7a7297bbf636d0c337f3c8fb38fef58c63407ae3db8ff78a0cb0929abb",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/50083d7a7297bbf636d0c337f3c8fb38fef58c63407ae3db8ff78a0cb0929abb.png"
+      },
+      {
+        "path": "raster/50bb7b3342353eec5914a7602d680c0cc49861aaaaff9f83904a962628743763.png",
+        "bytes": 4034,
+        "sha256": "50bb7b3342353eec5914a7602d680c0cc49861aaaaff9f83904a962628743763",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/50bb7b3342353eec5914a7602d680c0cc49861aaaaff9f83904a962628743763.png"
+      },
+      {
+        "path": "raster/52b95c850271ff81573f1b94b1a39a7667719bd068c7707ab78deeaa599825f9.png",
+        "bytes": 3943,
+        "sha256": "52b95c850271ff81573f1b94b1a39a7667719bd068c7707ab78deeaa599825f9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/52b95c850271ff81573f1b94b1a39a7667719bd068c7707ab78deeaa599825f9.png"
+      },
+      {
+        "path": "raster/539312f6c09c41c2fe4411071eb8f8b9824b1f6ba7ef455d5a4ed0daf73fe5d9.png",
+        "bytes": 3505,
+        "sha256": "539312f6c09c41c2fe4411071eb8f8b9824b1f6ba7ef455d5a4ed0daf73fe5d9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/539312f6c09c41c2fe4411071eb8f8b9824b1f6ba7ef455d5a4ed0daf73fe5d9.png"
+      },
+      {
+        "path": "raster/53dcc5a864f0a7931e956a6eb7025dec8b68aa3257d56bba01fa7b338121a66b.png",
+        "bytes": 3287,
+        "sha256": "53dcc5a864f0a7931e956a6eb7025dec8b68aa3257d56bba01fa7b338121a66b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/53dcc5a864f0a7931e956a6eb7025dec8b68aa3257d56bba01fa7b338121a66b.png"
+      },
+      {
+        "path": "raster/54193336d7b442ddd27e89977f7683c47b456c41345abd6d89a05b21970a8813.png",
+        "bytes": 20400,
+        "sha256": "54193336d7b442ddd27e89977f7683c47b456c41345abd6d89a05b21970a8813",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/54193336d7b442ddd27e89977f7683c47b456c41345abd6d89a05b21970a8813.png"
+      },
+      {
+        "path": "raster/54ebe704915b086f83a80e152294f65a81fe6fd8456633f8fed218e399b9176f.png",
+        "bytes": 4067,
+        "sha256": "54ebe704915b086f83a80e152294f65a81fe6fd8456633f8fed218e399b9176f",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/54ebe704915b086f83a80e152294f65a81fe6fd8456633f8fed218e399b9176f.png"
+      },
+      {
+        "path": "raster/552b56d7389741b3485441e39913e9a0ce5a3448aaeec222d7001f217d95d056.png",
+        "bytes": 22240,
+        "sha256": "552b56d7389741b3485441e39913e9a0ce5a3448aaeec222d7001f217d95d056",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/552b56d7389741b3485441e39913e9a0ce5a3448aaeec222d7001f217d95d056.png"
+      },
+      {
+        "path": "raster/55b0c7aff82064d4f6e1d4694b12dc147ec60ac8ca69afb346f6912600fa3916.png",
+        "bytes": 4762,
+        "sha256": "55b0c7aff82064d4f6e1d4694b12dc147ec60ac8ca69afb346f6912600fa3916",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/55b0c7aff82064d4f6e1d4694b12dc147ec60ac8ca69afb346f6912600fa3916.png"
+      },
+      {
+        "path": "raster/55c759da0e351ad3ab77ecd1514d9239075c67569b62840025c5457ccef08e26.png",
+        "bytes": 2425,
+        "sha256": "55c759da0e351ad3ab77ecd1514d9239075c67569b62840025c5457ccef08e26",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/55c759da0e351ad3ab77ecd1514d9239075c67569b62840025c5457ccef08e26.png"
+      },
+      {
+        "path": "raster/55d91176b036978d9f7169e68614bfb4563bc1cdbe967d02df15de5e4dfbbafb.png",
+        "bytes": 9361,
+        "sha256": "55d91176b036978d9f7169e68614bfb4563bc1cdbe967d02df15de5e4dfbbafb",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/55d91176b036978d9f7169e68614bfb4563bc1cdbe967d02df15de5e4dfbbafb.png"
+      },
+      {
+        "path": "raster/55f062a7a3257b54fc3b6abc6951a5fedc97bbe367e483d7810a7661c8c900ac.png",
+        "bytes": 20603,
+        "sha256": "55f062a7a3257b54fc3b6abc6951a5fedc97bbe367e483d7810a7661c8c900ac",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/55f062a7a3257b54fc3b6abc6951a5fedc97bbe367e483d7810a7661c8c900ac.png"
+      },
+      {
+        "path": "raster/57faac0bb20e8be13fef3f2363b20264ec90b2782b8070f2cb8ef006b6e010d8.png",
+        "bytes": 3791,
+        "sha256": "57faac0bb20e8be13fef3f2363b20264ec90b2782b8070f2cb8ef006b6e010d8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/57faac0bb20e8be13fef3f2363b20264ec90b2782b8070f2cb8ef006b6e010d8.png"
+      },
+      {
+        "path": "raster/5988945168b20bfa3244352c634d861da3f779d3d1597cfc0d09fc271d1de47f.png",
+        "bytes": 20732,
+        "sha256": "5988945168b20bfa3244352c634d861da3f779d3d1597cfc0d09fc271d1de47f",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/5988945168b20bfa3244352c634d861da3f779d3d1597cfc0d09fc271d1de47f.png"
+      },
+      {
+        "path": "raster/5a3f0de344a010ff89fe047e9be03952a01e1bdf314a10a02d4132572529caa3.png",
+        "bytes": 12708,
+        "sha256": "5a3f0de344a010ff89fe047e9be03952a01e1bdf314a10a02d4132572529caa3",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/5a3f0de344a010ff89fe047e9be03952a01e1bdf314a10a02d4132572529caa3.png"
+      },
+      {
+        "path": "raster/5bb8078ec9f88d0adcef037738cadad6da2b6449808cfe1100419f6dd9085270.png",
+        "bytes": 5482,
+        "sha256": "5bb8078ec9f88d0adcef037738cadad6da2b6449808cfe1100419f6dd9085270",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/5bb8078ec9f88d0adcef037738cadad6da2b6449808cfe1100419f6dd9085270.png"
+      },
+      {
+        "path": "raster/5e703afc01148a8fe5039bf23d570363374c87f3702e32ac1993af0c3cdb5594.png",
+        "bytes": 3906,
+        "sha256": "5e703afc01148a8fe5039bf23d570363374c87f3702e32ac1993af0c3cdb5594",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/5e703afc01148a8fe5039bf23d570363374c87f3702e32ac1993af0c3cdb5594.png"
+      },
+      {
+        "path": "raster/63e9f461500245ed0cf4aab5c9c4fd6cc64f65f85bb5ee380f6ce4c918f9c78c.png",
+        "bytes": 4951,
+        "sha256": "63e9f461500245ed0cf4aab5c9c4fd6cc64f65f85bb5ee380f6ce4c918f9c78c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/63e9f461500245ed0cf4aab5c9c4fd6cc64f65f85bb5ee380f6ce4c918f9c78c.png"
+      },
+      {
+        "path": "raster/65fe711318e65cdc43d56783f20b619f0ca4fbbe12ad14250aad0d366a27133a.png",
+        "bytes": 15669,
+        "sha256": "65fe711318e65cdc43d56783f20b619f0ca4fbbe12ad14250aad0d366a27133a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/65fe711318e65cdc43d56783f20b619f0ca4fbbe12ad14250aad0d366a27133a.png"
+      },
+      {
+        "path": "raster/65ff91bbce83b522dc1ada0caf0a0235f005bbafa67c21fe6568b067f7b91ed0.png",
+        "bytes": 6698,
+        "sha256": "65ff91bbce83b522dc1ada0caf0a0235f005bbafa67c21fe6568b067f7b91ed0",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/65ff91bbce83b522dc1ada0caf0a0235f005bbafa67c21fe6568b067f7b91ed0.png"
+      },
+      {
+        "path": "raster/689feaed7d0d9857f4e96dfe098563a539304f4f8e78bfc3bb259f008275e28d.png",
+        "bytes": 11827,
+        "sha256": "689feaed7d0d9857f4e96dfe098563a539304f4f8e78bfc3bb259f008275e28d",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/689feaed7d0d9857f4e96dfe098563a539304f4f8e78bfc3bb259f008275e28d.png"
+      },
+      {
+        "path": "raster/6b3cb5702c69d6d437b4ac8acb135ecc57a5f2b7b53c680f643e8fbd2b10f207.png",
+        "bytes": 14421,
+        "sha256": "6b3cb5702c69d6d437b4ac8acb135ecc57a5f2b7b53c680f643e8fbd2b10f207",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/6b3cb5702c69d6d437b4ac8acb135ecc57a5f2b7b53c680f643e8fbd2b10f207.png"
+      },
+      {
+        "path": "raster/6c6031d2aa6f1bebf35ed20ae45ad05c2b0066b1e1fe77f785a5477355d6cd91.png",
+        "bytes": 19621,
+        "sha256": "6c6031d2aa6f1bebf35ed20ae45ad05c2b0066b1e1fe77f785a5477355d6cd91",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/6c6031d2aa6f1bebf35ed20ae45ad05c2b0066b1e1fe77f785a5477355d6cd91.png"
+      },
+      {
+        "path": "raster/6f19df8bde2f684db3c669ae3b53233575ba112c8b8f918a1d6c4abfa24d9009.png",
+        "bytes": 3585,
+        "sha256": "6f19df8bde2f684db3c669ae3b53233575ba112c8b8f918a1d6c4abfa24d9009",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/6f19df8bde2f684db3c669ae3b53233575ba112c8b8f918a1d6c4abfa24d9009.png"
+      },
+      {
+        "path": "raster/73999f91eb18afc14071ce5c3b9788e3b05cbc4c6cb4900553bd520be115c5c4.png",
+        "bytes": 22724,
+        "sha256": "73999f91eb18afc14071ce5c3b9788e3b05cbc4c6cb4900553bd520be115c5c4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/73999f91eb18afc14071ce5c3b9788e3b05cbc4c6cb4900553bd520be115c5c4.png"
+      },
+      {
+        "path": "raster/746843f9b1554000377cc27d31cc9830f534415bdf7df052f8d5e67dba624416.png",
+        "bytes": 14770,
+        "sha256": "746843f9b1554000377cc27d31cc9830f534415bdf7df052f8d5e67dba624416",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/746843f9b1554000377cc27d31cc9830f534415bdf7df052f8d5e67dba624416.png"
+      },
+      {
+        "path": "raster/7519c97dc3b2ecb89490892cf7a9c785cd689da258171cfbe81d8b09ba96a5ba.png",
+        "bytes": 3968,
+        "sha256": "7519c97dc3b2ecb89490892cf7a9c785cd689da258171cfbe81d8b09ba96a5ba",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7519c97dc3b2ecb89490892cf7a9c785cd689da258171cfbe81d8b09ba96a5ba.png"
+      },
+      {
+        "path": "raster/775e2713888da2607ecbfff23da32a86f8cff0a2f2c7d88cba11408e1472457e.png",
+        "bytes": 14820,
+        "sha256": "775e2713888da2607ecbfff23da32a86f8cff0a2f2c7d88cba11408e1472457e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/775e2713888da2607ecbfff23da32a86f8cff0a2f2c7d88cba11408e1472457e.png"
+      },
+      {
+        "path": "raster/78daa6b51828b13798b6c1e0664d1574e39d52e284966ee81d85ec58671e29f2.png",
+        "bytes": 16626,
+        "sha256": "78daa6b51828b13798b6c1e0664d1574e39d52e284966ee81d85ec58671e29f2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/78daa6b51828b13798b6c1e0664d1574e39d52e284966ee81d85ec58671e29f2.png"
+      },
+      {
+        "path": "raster/79f543f24198efe075a023077ad613c84a36b8f19d6798abcac5b65f3bba2c98.png",
+        "bytes": 3480,
+        "sha256": "79f543f24198efe075a023077ad613c84a36b8f19d6798abcac5b65f3bba2c98",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/79f543f24198efe075a023077ad613c84a36b8f19d6798abcac5b65f3bba2c98.png"
+      },
+      {
+        "path": "raster/7ada1995d5a7458319817af607df951db348bcb4c9f37f44f1448db9e9361380.png",
+        "bytes": 2528,
+        "sha256": "7ada1995d5a7458319817af607df951db348bcb4c9f37f44f1448db9e9361380",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7ada1995d5a7458319817af607df951db348bcb4c9f37f44f1448db9e9361380.png"
+      },
+      {
+        "path": "raster/7b9f86e6161bdbd1a2759f34ba4a4c72c77eefb580ac7f5da427743064984ba8.png",
+        "bytes": 3577,
+        "sha256": "7b9f86e6161bdbd1a2759f34ba4a4c72c77eefb580ac7f5da427743064984ba8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7b9f86e6161bdbd1a2759f34ba4a4c72c77eefb580ac7f5da427743064984ba8.png"
+      },
+      {
+        "path": "raster/7cee93d95e8eb182ceb0fdd8d47fb372b906f0db30be80d3124917fa604eddd4.png",
+        "bytes": 5694,
+        "sha256": "7cee93d95e8eb182ceb0fdd8d47fb372b906f0db30be80d3124917fa604eddd4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7cee93d95e8eb182ceb0fdd8d47fb372b906f0db30be80d3124917fa604eddd4.png"
+      },
+      {
+        "path": "raster/7ea2b1dc1f1833a4e3f235f3f68c543cf0ad7a396bc36495914aa29949f2f19b.png",
+        "bytes": 4101,
+        "sha256": "7ea2b1dc1f1833a4e3f235f3f68c543cf0ad7a396bc36495914aa29949f2f19b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7ea2b1dc1f1833a4e3f235f3f68c543cf0ad7a396bc36495914aa29949f2f19b.png"
+      },
+      {
+        "path": "raster/7f6871096d5908e95ed47ae76ba6da5238b91289d8b1558374e55ba14b54934e.png",
+        "bytes": 20720,
+        "sha256": "7f6871096d5908e95ed47ae76ba6da5238b91289d8b1558374e55ba14b54934e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7f6871096d5908e95ed47ae76ba6da5238b91289d8b1558374e55ba14b54934e.png"
+      },
+      {
+        "path": "raster/7fd9049e8e4e973095e1474fc06185d21fc12b5ba42f9a3c0b404a14a12da61c.png",
+        "bytes": 6486,
+        "sha256": "7fd9049e8e4e973095e1474fc06185d21fc12b5ba42f9a3c0b404a14a12da61c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/7fd9049e8e4e973095e1474fc06185d21fc12b5ba42f9a3c0b404a14a12da61c.png"
+      },
+      {
+        "path": "raster/8232940e0ca9967bd04f992037c5d974009f60aa10410ab42a79cb3f3f54cfc8.png",
+        "bytes": 3594,
+        "sha256": "8232940e0ca9967bd04f992037c5d974009f60aa10410ab42a79cb3f3f54cfc8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/8232940e0ca9967bd04f992037c5d974009f60aa10410ab42a79cb3f3f54cfc8.png"
+      },
+      {
+        "path": "raster/84a127eb6f62a9b3c942b3516df8bc1c1311913e8920e4d1aad6d79286ff2793.png",
+        "bytes": 3622,
+        "sha256": "84a127eb6f62a9b3c942b3516df8bc1c1311913e8920e4d1aad6d79286ff2793",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/84a127eb6f62a9b3c942b3516df8bc1c1311913e8920e4d1aad6d79286ff2793.png"
+      },
+      {
+        "path": "raster/86d9749a7f4fbdbf0b261067b5fdcb15ee2729e667f301d27ec995d3848169b2.png",
+        "bytes": 2950,
+        "sha256": "86d9749a7f4fbdbf0b261067b5fdcb15ee2729e667f301d27ec995d3848169b2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/86d9749a7f4fbdbf0b261067b5fdcb15ee2729e667f301d27ec995d3848169b2.png"
+      },
+      {
+        "path": "raster/88ebb148325bbab7ffb867d957127d51b1028283970c054cfd9530c08a383dcf.png",
+        "bytes": 3806,
+        "sha256": "88ebb148325bbab7ffb867d957127d51b1028283970c054cfd9530c08a383dcf",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/88ebb148325bbab7ffb867d957127d51b1028283970c054cfd9530c08a383dcf.png"
+      },
+      {
+        "path": "raster/893aa119542a180ec5609f36a372e684adc6fedbc7db213be1badd1ca6cfe039.png",
+        "bytes": 1571,
+        "sha256": "893aa119542a180ec5609f36a372e684adc6fedbc7db213be1badd1ca6cfe039",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/893aa119542a180ec5609f36a372e684adc6fedbc7db213be1badd1ca6cfe039.png"
+      },
+      {
+        "path": "raster/8a0a0f7fba2a0ce1943db1cbbafcc53a98b1e32d0e19efdb8f73014ca25794b4.png",
+        "bytes": 2368,
+        "sha256": "8a0a0f7fba2a0ce1943db1cbbafcc53a98b1e32d0e19efdb8f73014ca25794b4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/8a0a0f7fba2a0ce1943db1cbbafcc53a98b1e32d0e19efdb8f73014ca25794b4.png"
+      },
+      {
+        "path": "raster/8cd85d553560ed3bb1e3d57097828adf9e838a577c50246ad6ca430a5fd08b02.png",
+        "bytes": 12729,
+        "sha256": "8cd85d553560ed3bb1e3d57097828adf9e838a577c50246ad6ca430a5fd08b02",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/8cd85d553560ed3bb1e3d57097828adf9e838a577c50246ad6ca430a5fd08b02.png"
+      },
+      {
+        "path": "raster/8dc5a6d4a3afdec9fed70e6ae187c98be36b2a374398018be77daea04d02771a.png",
+        "bytes": 9652,
+        "sha256": "8dc5a6d4a3afdec9fed70e6ae187c98be36b2a374398018be77daea04d02771a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/8dc5a6d4a3afdec9fed70e6ae187c98be36b2a374398018be77daea04d02771a.png"
+      },
+      {
+        "path": "raster/90126df2ae66aa2adc1a19d85dad1fa4508d5975c196443d52df22a618e7ab69.png",
+        "bytes": 3605,
+        "sha256": "90126df2ae66aa2adc1a19d85dad1fa4508d5975c196443d52df22a618e7ab69",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/90126df2ae66aa2adc1a19d85dad1fa4508d5975c196443d52df22a618e7ab69.png"
+      },
+      {
+        "path": "raster/910758aa5c8321bcd966f834bd06ed572d4f5076af478a25dbdf26c475bd9cac.png",
+        "bytes": 4111,
+        "sha256": "910758aa5c8321bcd966f834bd06ed572d4f5076af478a25dbdf26c475bd9cac",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/910758aa5c8321bcd966f834bd06ed572d4f5076af478a25dbdf26c475bd9cac.png"
+      },
+      {
+        "path": "raster/911c62a6021217d6ab6ac8d0ccdb8386e49f6e44f3293efe78e455b6719442e9.png",
+        "bytes": 3664,
+        "sha256": "911c62a6021217d6ab6ac8d0ccdb8386e49f6e44f3293efe78e455b6719442e9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/911c62a6021217d6ab6ac8d0ccdb8386e49f6e44f3293efe78e455b6719442e9.png"
+      },
+      {
+        "path": "raster/96e2b4cbbcd900f1e7300b70672c0cc4237421346104b77bbcdd9bae57e97046.png",
+        "bytes": 4009,
+        "sha256": "96e2b4cbbcd900f1e7300b70672c0cc4237421346104b77bbcdd9bae57e97046",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/96e2b4cbbcd900f1e7300b70672c0cc4237421346104b77bbcdd9bae57e97046.png"
+      },
+      {
+        "path": "raster/978384feb98000dca6592cf8fa09e2ec0b5f16314a6c364bd66680ba77a804ef.png",
+        "bytes": 3970,
+        "sha256": "978384feb98000dca6592cf8fa09e2ec0b5f16314a6c364bd66680ba77a804ef",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/978384feb98000dca6592cf8fa09e2ec0b5f16314a6c364bd66680ba77a804ef.png"
+      },
+      {
+        "path": "raster/97e04510c43928924628b9f867c8c8f6b3cbda3bbd6ef84d4d1cae73ff0745c8.png",
+        "bytes": 3641,
+        "sha256": "97e04510c43928924628b9f867c8c8f6b3cbda3bbd6ef84d4d1cae73ff0745c8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/97e04510c43928924628b9f867c8c8f6b3cbda3bbd6ef84d4d1cae73ff0745c8.png"
+      },
+      {
+        "path": "raster/97ecab513e831c5673dcd7a6a01c9ba5ac2c11231c87813d5bb2c4484b41dece.png",
+        "bytes": 1600,
+        "sha256": "97ecab513e831c5673dcd7a6a01c9ba5ac2c11231c87813d5bb2c4484b41dece",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/97ecab513e831c5673dcd7a6a01c9ba5ac2c11231c87813d5bb2c4484b41dece.png"
+      },
+      {
+        "path": "raster/98715a80dedb8ed211bc9cfe4cf19c1acc61b122118583feb2533ff785749522.png",
+        "bytes": 3963,
+        "sha256": "98715a80dedb8ed211bc9cfe4cf19c1acc61b122118583feb2533ff785749522",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/98715a80dedb8ed211bc9cfe4cf19c1acc61b122118583feb2533ff785749522.png"
+      },
+      {
+        "path": "raster/9b4f4438afe6162dc21f43d49221844ecdf9bdcefecb28782227131a18efad76.png",
+        "bytes": 7523,
+        "sha256": "9b4f4438afe6162dc21f43d49221844ecdf9bdcefecb28782227131a18efad76",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/9b4f4438afe6162dc21f43d49221844ecdf9bdcefecb28782227131a18efad76.png"
+      },
+      {
+        "path": "raster/9e2a75daaa93fbe6817f2774833c8cbcfb2f7aaa57addf43d9a100346f161ab3.png",
+        "bytes": 16436,
+        "sha256": "9e2a75daaa93fbe6817f2774833c8cbcfb2f7aaa57addf43d9a100346f161ab3",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/9e2a75daaa93fbe6817f2774833c8cbcfb2f7aaa57addf43d9a100346f161ab3.png"
+      },
+      {
+        "path": "raster/a296aae8272f96301d1724b043b4ba528c9b5e5b9443046f8b5e2392ca4ab001.png",
+        "bytes": 3898,
+        "sha256": "a296aae8272f96301d1724b043b4ba528c9b5e5b9443046f8b5e2392ca4ab001",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a296aae8272f96301d1724b043b4ba528c9b5e5b9443046f8b5e2392ca4ab001.png"
+      },
+      {
+        "path": "raster/a29bedfebd428fba8dac235c8edcbb96e9f03bd01c6143b69663ec8f5a68ff9d.png",
+        "bytes": 6650,
+        "sha256": "a29bedfebd428fba8dac235c8edcbb96e9f03bd01c6143b69663ec8f5a68ff9d",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a29bedfebd428fba8dac235c8edcbb96e9f03bd01c6143b69663ec8f5a68ff9d.png"
+      },
+      {
+        "path": "raster/a3ab020c3dc55c474726620dff6a11c51b76cd8ca96af72fc12439eeaad38fc5.png",
+        "bytes": 16886,
+        "sha256": "a3ab020c3dc55c474726620dff6a11c51b76cd8ca96af72fc12439eeaad38fc5",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a3ab020c3dc55c474726620dff6a11c51b76cd8ca96af72fc12439eeaad38fc5.png"
+      },
+      {
+        "path": "raster/a6af1c9946061deeef206acf4c29b703f4ce018dbc102df8876954506ac20a5e.png",
+        "bytes": 10814,
+        "sha256": "a6af1c9946061deeef206acf4c29b703f4ce018dbc102df8876954506ac20a5e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a6af1c9946061deeef206acf4c29b703f4ce018dbc102df8876954506ac20a5e.png"
+      },
+      {
+        "path": "raster/a89d03cbdbdb4c21aeaa90b73f7a0ab0aed6dcae80448846ac265f280ba174e6.png",
+        "bytes": 6598,
+        "sha256": "a89d03cbdbdb4c21aeaa90b73f7a0ab0aed6dcae80448846ac265f280ba174e6",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a89d03cbdbdb4c21aeaa90b73f7a0ab0aed6dcae80448846ac265f280ba174e6.png"
+      },
+      {
+        "path": "raster/a98d5cd395b70460e850822f09ae6e12f421c143ada2e6fdf9233a583deeb8a8.png",
+        "bytes": 16533,
+        "sha256": "a98d5cd395b70460e850822f09ae6e12f421c143ada2e6fdf9233a583deeb8a8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/a98d5cd395b70460e850822f09ae6e12f421c143ada2e6fdf9233a583deeb8a8.png"
+      },
+      {
+        "path": "raster/aa158aaf15e791475ac03e12c9c1ca56d76ea1e5225e1b3234591e8c0455a3de.png",
+        "bytes": 2687,
+        "sha256": "aa158aaf15e791475ac03e12c9c1ca56d76ea1e5225e1b3234591e8c0455a3de",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/aa158aaf15e791475ac03e12c9c1ca56d76ea1e5225e1b3234591e8c0455a3de.png"
+      },
+      {
+        "path": "raster/aba10a84f4a30a0ab401bda655a0433f8383f1ee00d0ad918fff671cafe9bb6e.png",
+        "bytes": 12804,
+        "sha256": "aba10a84f4a30a0ab401bda655a0433f8383f1ee00d0ad918fff671cafe9bb6e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/aba10a84f4a30a0ab401bda655a0433f8383f1ee00d0ad918fff671cafe9bb6e.png"
+      },
+      {
+        "path": "raster/ace4baceae3390b0a245b946eef7664ffcf2ef61b75a29610fbafc05d7a71558.png",
+        "bytes": 6601,
+        "sha256": "ace4baceae3390b0a245b946eef7664ffcf2ef61b75a29610fbafc05d7a71558",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ace4baceae3390b0a245b946eef7664ffcf2ef61b75a29610fbafc05d7a71558.png"
+      },
+      {
+        "path": "raster/b057cbde9f0448a2767a42ec77efe262eccae04475c39b8991bd02d41beb6d33.png",
+        "bytes": 17592,
+        "sha256": "b057cbde9f0448a2767a42ec77efe262eccae04475c39b8991bd02d41beb6d33",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b057cbde9f0448a2767a42ec77efe262eccae04475c39b8991bd02d41beb6d33.png"
+      },
+      {
+        "path": "raster/b290e8eff0ae25b4634276dfcd047eda25bda8a147d016af3b44f393b7119600.png",
+        "bytes": 15438,
+        "sha256": "b290e8eff0ae25b4634276dfcd047eda25bda8a147d016af3b44f393b7119600",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b290e8eff0ae25b4634276dfcd047eda25bda8a147d016af3b44f393b7119600.png"
+      },
+      {
+        "path": "raster/b310ae232f59ce6ef68d49d8cc3c4b002fe30bc14e04932efb121d7be79f1d94.png",
+        "bytes": 3549,
+        "sha256": "b310ae232f59ce6ef68d49d8cc3c4b002fe30bc14e04932efb121d7be79f1d94",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b310ae232f59ce6ef68d49d8cc3c4b002fe30bc14e04932efb121d7be79f1d94.png"
+      },
+      {
+        "path": "raster/b5e5fa201ac2c43ccc544a5a6cd1bdd33406adc60cf90afad3f6e2972ac80943.png",
+        "bytes": 4034,
+        "sha256": "b5e5fa201ac2c43ccc544a5a6cd1bdd33406adc60cf90afad3f6e2972ac80943",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b5e5fa201ac2c43ccc544a5a6cd1bdd33406adc60cf90afad3f6e2972ac80943.png"
+      },
+      {
+        "path": "raster/b62842c00c6b0b2f2511ac604f30bb99b86b6ebed4297ae1327285ca31d0ceb5.png",
+        "bytes": 6108,
+        "sha256": "b62842c00c6b0b2f2511ac604f30bb99b86b6ebed4297ae1327285ca31d0ceb5",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b62842c00c6b0b2f2511ac604f30bb99b86b6ebed4297ae1327285ca31d0ceb5.png"
+      },
+      {
+        "path": "raster/b6908e686694cec057d2820befe29e0d7dff9b6c0462b898b6b2d2da8a62d1df.png",
+        "bytes": 3976,
+        "sha256": "b6908e686694cec057d2820befe29e0d7dff9b6c0462b898b6b2d2da8a62d1df",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b6908e686694cec057d2820befe29e0d7dff9b6c0462b898b6b2d2da8a62d1df.png"
+      },
+      {
+        "path": "raster/b69b38eec34db3a13ddae5ae5a1f10906d8901e45bc703ec69340768be1f4be6.png",
+        "bytes": 3967,
+        "sha256": "b69b38eec34db3a13ddae5ae5a1f10906d8901e45bc703ec69340768be1f4be6",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b69b38eec34db3a13ddae5ae5a1f10906d8901e45bc703ec69340768be1f4be6.png"
+      },
+      {
+        "path": "raster/b8c17e536041d0d6f54f38668335a8aea8896630a3f9a1c460b1246a44e87aa8.png",
+        "bytes": 3856,
+        "sha256": "b8c17e536041d0d6f54f38668335a8aea8896630a3f9a1c460b1246a44e87aa8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/b8c17e536041d0d6f54f38668335a8aea8896630a3f9a1c460b1246a44e87aa8.png"
+      },
+      {
+        "path": "raster/bb2a26f499897743d8c4d405c0254a233e41d296ecd74673192c31e9faefedfe.png",
+        "bytes": 4054,
+        "sha256": "bb2a26f499897743d8c4d405c0254a233e41d296ecd74673192c31e9faefedfe",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bb2a26f499897743d8c4d405c0254a233e41d296ecd74673192c31e9faefedfe.png"
+      },
+      {
+        "path": "raster/bb949946abf8c7425aa6720e036c3c8152a2a3cf9268c6d11a74ddab900caec7.png",
+        "bytes": 16252,
+        "sha256": "bb949946abf8c7425aa6720e036c3c8152a2a3cf9268c6d11a74ddab900caec7",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bb949946abf8c7425aa6720e036c3c8152a2a3cf9268c6d11a74ddab900caec7.png"
+      },
+      {
+        "path": "raster/bc7dbce957e01b91d7e5b2a7857c1ffc404461d840e6666ad2557e09e7d2e107.png",
+        "bytes": 2832,
+        "sha256": "bc7dbce957e01b91d7e5b2a7857c1ffc404461d840e6666ad2557e09e7d2e107",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bc7dbce957e01b91d7e5b2a7857c1ffc404461d840e6666ad2557e09e7d2e107.png"
+      },
+      {
+        "path": "raster/bd00ae5ac1e2a61799996ed4beb4c058e80b426f2eee481774ba0798c2f377ae.png",
+        "bytes": 12100,
+        "sha256": "bd00ae5ac1e2a61799996ed4beb4c058e80b426f2eee481774ba0798c2f377ae",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bd00ae5ac1e2a61799996ed4beb4c058e80b426f2eee481774ba0798c2f377ae.png"
+      },
+      {
+        "path": "raster/bd9b9e6e9388a70b81c0df95fc792ec78db69f436f26769d300ff62a385759c9.png",
+        "bytes": 3848,
+        "sha256": "bd9b9e6e9388a70b81c0df95fc792ec78db69f436f26769d300ff62a385759c9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bd9b9e6e9388a70b81c0df95fc792ec78db69f436f26769d300ff62a385759c9.png"
+      },
+      {
+        "path": "raster/bdef7138c3824921ffc48e2921a87f42dde17d5da9d57becf1e7cb222b0be014.png",
+        "bytes": 3522,
+        "sha256": "bdef7138c3824921ffc48e2921a87f42dde17d5da9d57becf1e7cb222b0be014",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/bdef7138c3824921ffc48e2921a87f42dde17d5da9d57becf1e7cb222b0be014.png"
+      },
+      {
+        "path": "raster/c19beb72086cd52c1bc23e24b15486b0da1f60fd8d85270559b773aab442ea4a.png",
+        "bytes": 2766,
+        "sha256": "c19beb72086cd52c1bc23e24b15486b0da1f60fd8d85270559b773aab442ea4a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c19beb72086cd52c1bc23e24b15486b0da1f60fd8d85270559b773aab442ea4a.png"
+      },
+      {
+        "path": "raster/c232c3b52d76f5887f5444e57f554f6dd6fe33b209b672c520b720a823ef0169.png",
+        "bytes": 9056,
+        "sha256": "c232c3b52d76f5887f5444e57f554f6dd6fe33b209b672c520b720a823ef0169",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c232c3b52d76f5887f5444e57f554f6dd6fe33b209b672c520b720a823ef0169.png"
+      },
+      {
+        "path": "raster/c4ccddaf78e4a4b440de763b6c1366d8bb3840cbd2519a025e12618c9e8416a9.png",
+        "bytes": 3146,
+        "sha256": "c4ccddaf78e4a4b440de763b6c1366d8bb3840cbd2519a025e12618c9e8416a9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c4ccddaf78e4a4b440de763b6c1366d8bb3840cbd2519a025e12618c9e8416a9.png"
+      },
+      {
+        "path": "raster/c59fedc0de74392ef343c07a907b8dc97028803d163506f23a0aad5eeafb6efd.png",
+        "bytes": 15596,
+        "sha256": "c59fedc0de74392ef343c07a907b8dc97028803d163506f23a0aad5eeafb6efd",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c59fedc0de74392ef343c07a907b8dc97028803d163506f23a0aad5eeafb6efd.png"
+      },
+      {
+        "path": "raster/c676129b3bdf890efcf625bb863edf875c432c9e30feb5ff6b833bb919c57672.png",
+        "bytes": 5837,
+        "sha256": "c676129b3bdf890efcf625bb863edf875c432c9e30feb5ff6b833bb919c57672",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c676129b3bdf890efcf625bb863edf875c432c9e30feb5ff6b833bb919c57672.png"
+      },
+      {
+        "path": "raster/c9561b299ff822e3c872048e511803c30e71ae5eeed4acd1ae64d8948d8e6767.png",
+        "bytes": 3719,
+        "sha256": "c9561b299ff822e3c872048e511803c30e71ae5eeed4acd1ae64d8948d8e6767",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/c9561b299ff822e3c872048e511803c30e71ae5eeed4acd1ae64d8948d8e6767.png"
+      },
+      {
+        "path": "raster/ca6ee76dac6a9675dfccae4feb7be6368409aed17934bbd14e06a9d7e6c30037.png",
+        "bytes": 4293,
+        "sha256": "ca6ee76dac6a9675dfccae4feb7be6368409aed17934bbd14e06a9d7e6c30037",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ca6ee76dac6a9675dfccae4feb7be6368409aed17934bbd14e06a9d7e6c30037.png"
+      },
+      {
+        "path": "raster/cbb2dd2238935717013743ef67b08918b4571c5ce2145a629aab29da8cf29f57.png",
+        "bytes": 5024,
+        "sha256": "cbb2dd2238935717013743ef67b08918b4571c5ce2145a629aab29da8cf29f57",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/cbb2dd2238935717013743ef67b08918b4571c5ce2145a629aab29da8cf29f57.png"
+      },
+      {
+        "path": "raster/ccc9bfa67d672bfe5d99904940fe76bd5457d2a5dda32882fc30daf27010aad2.png",
+        "bytes": 6670,
+        "sha256": "ccc9bfa67d672bfe5d99904940fe76bd5457d2a5dda32882fc30daf27010aad2",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ccc9bfa67d672bfe5d99904940fe76bd5457d2a5dda32882fc30daf27010aad2.png"
+      },
+      {
+        "path": "raster/cd34d1665312141803e97c87eda0b7ecd0eeeff8186ef1e313b6d89e82a6c586.png",
+        "bytes": 3685,
+        "sha256": "cd34d1665312141803e97c87eda0b7ecd0eeeff8186ef1e313b6d89e82a6c586",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/cd34d1665312141803e97c87eda0b7ecd0eeeff8186ef1e313b6d89e82a6c586.png"
+      },
+      {
+        "path": "raster/cd43f532ee448ed2c03a87c2cd1b8821147b00f667358561223972019aa64d10.png",
+        "bytes": 4387,
+        "sha256": "cd43f532ee448ed2c03a87c2cd1b8821147b00f667358561223972019aa64d10",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/cd43f532ee448ed2c03a87c2cd1b8821147b00f667358561223972019aa64d10.png"
+      },
+      {
+        "path": "raster/d23c3f48106ee32720eaea0d47cf56ce3b8c05b3a8e9f87659b28485fc87d4f8.png",
+        "bytes": 2929,
+        "sha256": "d23c3f48106ee32720eaea0d47cf56ce3b8c05b3a8e9f87659b28485fc87d4f8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d23c3f48106ee32720eaea0d47cf56ce3b8c05b3a8e9f87659b28485fc87d4f8.png"
+      },
+      {
+        "path": "raster/d3c179fa4387beaeb63e99edec7196c5df13c88b54ebe3524cd535d50f9e1c14.png",
+        "bytes": 3981,
+        "sha256": "d3c179fa4387beaeb63e99edec7196c5df13c88b54ebe3524cd535d50f9e1c14",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d3c179fa4387beaeb63e99edec7196c5df13c88b54ebe3524cd535d50f9e1c14.png"
+      },
+      {
+        "path": "raster/d47e867a511112254d32d5cba2a0323db7dc88c4de5525378d3e4a3a06cc07e1.png",
+        "bytes": 9081,
+        "sha256": "d47e867a511112254d32d5cba2a0323db7dc88c4de5525378d3e4a3a06cc07e1",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d47e867a511112254d32d5cba2a0323db7dc88c4de5525378d3e4a3a06cc07e1.png"
+      },
+      {
+        "path": "raster/d4cff28abe233f0659dd724fbec82f9588a46ab92e94149300d230972270f3f8.png",
+        "bytes": 20959,
+        "sha256": "d4cff28abe233f0659dd724fbec82f9588a46ab92e94149300d230972270f3f8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d4cff28abe233f0659dd724fbec82f9588a46ab92e94149300d230972270f3f8.png"
+      },
+      {
+        "path": "raster/d4de219eb733964dfcad3f154b46ab36be034850c4af015f80e0ca6fdac0b5c9.png",
+        "bytes": 3130,
+        "sha256": "d4de219eb733964dfcad3f154b46ab36be034850c4af015f80e0ca6fdac0b5c9",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d4de219eb733964dfcad3f154b46ab36be034850c4af015f80e0ca6fdac0b5c9.png"
+      },
+      {
+        "path": "raster/d530d97729aa727f87285fe89dd4451706a1d89a9721f7f151ad4a6c09f4e0e5.png",
+        "bytes": 3673,
+        "sha256": "d530d97729aa727f87285fe89dd4451706a1d89a9721f7f151ad4a6c09f4e0e5",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d530d97729aa727f87285fe89dd4451706a1d89a9721f7f151ad4a6c09f4e0e5.png"
+      },
+      {
+        "path": "raster/d5d5ea22d054dfa7bfd7b59e3bc4bb8a253fbefe5e55c6b4892b6942e2a3fc27.png",
+        "bytes": 4057,
+        "sha256": "d5d5ea22d054dfa7bfd7b59e3bc4bb8a253fbefe5e55c6b4892b6942e2a3fc27",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d5d5ea22d054dfa7bfd7b59e3bc4bb8a253fbefe5e55c6b4892b6942e2a3fc27.png"
+      },
+      {
+        "path": "raster/d6ab76575b4987879c51f3ef196af2ada05cb512524f16d66e13bc5e23131fa0.png",
+        "bytes": 10633,
+        "sha256": "d6ab76575b4987879c51f3ef196af2ada05cb512524f16d66e13bc5e23131fa0",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d6ab76575b4987879c51f3ef196af2ada05cb512524f16d66e13bc5e23131fa0.png"
+      },
+      {
+        "path": "raster/d762b58c666ce9e6e611a4f5da55d0161fe5547eee078922898edb487b493d36.png",
+        "bytes": 15969,
+        "sha256": "d762b58c666ce9e6e611a4f5da55d0161fe5547eee078922898edb487b493d36",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/d762b58c666ce9e6e611a4f5da55d0161fe5547eee078922898edb487b493d36.png"
+      },
+      {
+        "path": "raster/dc679416aa8d3e7682a64a8c09b518a60fb93abb2ee1d94ea5564c9b9570d5be.png",
+        "bytes": 3907,
+        "sha256": "dc679416aa8d3e7682a64a8c09b518a60fb93abb2ee1d94ea5564c9b9570d5be",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/dc679416aa8d3e7682a64a8c09b518a60fb93abb2ee1d94ea5564c9b9570d5be.png"
+      },
+      {
+        "path": "raster/ddbc6b6486007235d3680c0019d0ee95011752c363bc1f48724598f2f20a94fa.png",
+        "bytes": 1618,
+        "sha256": "ddbc6b6486007235d3680c0019d0ee95011752c363bc1f48724598f2f20a94fa",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ddbc6b6486007235d3680c0019d0ee95011752c363bc1f48724598f2f20a94fa.png"
+      },
+      {
+        "path": "raster/deefe60ed61da9ffe25c00ed7cb5130c75fe57e07b6d70fbae5d488e94d81019.png",
+        "bytes": 3545,
+        "sha256": "deefe60ed61da9ffe25c00ed7cb5130c75fe57e07b6d70fbae5d488e94d81019",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/deefe60ed61da9ffe25c00ed7cb5130c75fe57e07b6d70fbae5d488e94d81019.png"
+      },
+      {
+        "path": "raster/dfb73b54510d82ca1f380c3ba15ae82db358616099e91b9f560ce438b4ba5e21.png",
+        "bytes": 1711,
+        "sha256": "dfb73b54510d82ca1f380c3ba15ae82db358616099e91b9f560ce438b4ba5e21",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/dfb73b54510d82ca1f380c3ba15ae82db358616099e91b9f560ce438b4ba5e21.png"
+      },
+      {
+        "path": "raster/e0e40d44cce656a53778782143ee2eb383b541d99381b973b220d5305362d938.png",
+        "bytes": 4590,
+        "sha256": "e0e40d44cce656a53778782143ee2eb383b541d99381b973b220d5305362d938",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/e0e40d44cce656a53778782143ee2eb383b541d99381b973b220d5305362d938.png"
+      },
+      {
+        "path": "raster/e4963e7d56f93a888411d13f957a4d6c84ea2df98d4a97f054519fbbe7c8ddf0.png",
+        "bytes": 15979,
+        "sha256": "e4963e7d56f93a888411d13f957a4d6c84ea2df98d4a97f054519fbbe7c8ddf0",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/e4963e7d56f93a888411d13f957a4d6c84ea2df98d4a97f054519fbbe7c8ddf0.png"
+      },
+      {
+        "path": "raster/e63592f860b6527dbaab8c2b1ff7314551ca09e2473baa4f17fc5b492ceb728e.png",
+        "bytes": 4063,
+        "sha256": "e63592f860b6527dbaab8c2b1ff7314551ca09e2473baa4f17fc5b492ceb728e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/e63592f860b6527dbaab8c2b1ff7314551ca09e2473baa4f17fc5b492ceb728e.png"
+      },
+      {
+        "path": "raster/e88042bf2de475feeffd22e6df2ba1bb487e0353f25f45405bf4844c3c2531be.png",
+        "bytes": 3611,
+        "sha256": "e88042bf2de475feeffd22e6df2ba1bb487e0353f25f45405bf4844c3c2531be",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/e88042bf2de475feeffd22e6df2ba1bb487e0353f25f45405bf4844c3c2531be.png"
+      },
+      {
+        "path": "raster/ea1df5fee4ec18040c52984f626da475f3b1ef376a00e13ae2f2a4f91d2299c1.png",
+        "bytes": 21761,
+        "sha256": "ea1df5fee4ec18040c52984f626da475f3b1ef376a00e13ae2f2a4f91d2299c1",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ea1df5fee4ec18040c52984f626da475f3b1ef376a00e13ae2f2a4f91d2299c1.png"
+      },
+      {
+        "path": "raster/eb8f36b4ed0a9ceb5bdd2a95581e48f4de777776494df0e5f644b2b378ed416b.png",
+        "bytes": 3564,
+        "sha256": "eb8f36b4ed0a9ceb5bdd2a95581e48f4de777776494df0e5f644b2b378ed416b",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/eb8f36b4ed0a9ceb5bdd2a95581e48f4de777776494df0e5f644b2b378ed416b.png"
+      },
+      {
+        "path": "raster/ebd482b185d9e51de04874d875cf07d4cd9e50a2973bca0d03fff2262afc74c6.png",
+        "bytes": 2542,
+        "sha256": "ebd482b185d9e51de04874d875cf07d4cd9e50a2973bca0d03fff2262afc74c6",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ebd482b185d9e51de04874d875cf07d4cd9e50a2973bca0d03fff2262afc74c6.png"
+      },
+      {
+        "path": "raster/ebe376a218e4f2b7d3faedcd354578ff78ea6a6144f6a18e72a2b30a5c7a7d73.png",
+        "bytes": 4885,
+        "sha256": "ebe376a218e4f2b7d3faedcd354578ff78ea6a6144f6a18e72a2b30a5c7a7d73",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ebe376a218e4f2b7d3faedcd354578ff78ea6a6144f6a18e72a2b30a5c7a7d73.png"
+      },
+      {
+        "path": "raster/ec30a9f58c3cc73229b6a676dec67b88104ff04c95395c71de0cd76057b84a7c.png",
+        "bytes": 3538,
+        "sha256": "ec30a9f58c3cc73229b6a676dec67b88104ff04c95395c71de0cd76057b84a7c",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ec30a9f58c3cc73229b6a676dec67b88104ff04c95395c71de0cd76057b84a7c.png"
+      },
+      {
+        "path": "raster/ed46a545a0e41e1e1fc461eca147c07d51db0bf3d53414679e7bd00ed7c3c91e.png",
+        "bytes": 3946,
+        "sha256": "ed46a545a0e41e1e1fc461eca147c07d51db0bf3d53414679e7bd00ed7c3c91e",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ed46a545a0e41e1e1fc461eca147c07d51db0bf3d53414679e7bd00ed7c3c91e.png"
+      },
+      {
+        "path": "raster/ed4ab4b3bf6d423fdf9b3341dd1fd4ae0870d0e4250265eba0943ae51c96c514.png",
+        "bytes": 4015,
+        "sha256": "ed4ab4b3bf6d423fdf9b3341dd1fd4ae0870d0e4250265eba0943ae51c96c514",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ed4ab4b3bf6d423fdf9b3341dd1fd4ae0870d0e4250265eba0943ae51c96c514.png"
+      },
+      {
+        "path": "raster/edfb1fb11493b9c5c55d02fe6522cdfe4f91440415fd01fe4b609ddaf029483a.png",
+        "bytes": 7304,
+        "sha256": "edfb1fb11493b9c5c55d02fe6522cdfe4f91440415fd01fe4b609ddaf029483a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/edfb1fb11493b9c5c55d02fe6522cdfe4f91440415fd01fe4b609ddaf029483a.png"
+      },
+      {
+        "path": "raster/ee2c035ae53cda143f06841f959306f9b001a0b01b75132bd2e987e45549c3f1.png",
+        "bytes": 2250,
+        "sha256": "ee2c035ae53cda143f06841f959306f9b001a0b01b75132bd2e987e45549c3f1",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ee2c035ae53cda143f06841f959306f9b001a0b01b75132bd2e987e45549c3f1.png"
+      },
+      {
+        "path": "raster/ef5c58e96db52e361ff6ad8c55dbbb9c53beb4e5065622297e593410f58d2b4f.png",
+        "bytes": 14401,
+        "sha256": "ef5c58e96db52e361ff6ad8c55dbbb9c53beb4e5065622297e593410f58d2b4f",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/ef5c58e96db52e361ff6ad8c55dbbb9c53beb4e5065622297e593410f58d2b4f.png"
+      },
+      {
+        "path": "raster/f1666dec678a8c2c0cc9a131b6b1a466fcb94bf4923041b580a7ed44748e93f8.png",
+        "bytes": 10302,
+        "sha256": "f1666dec678a8c2c0cc9a131b6b1a466fcb94bf4923041b580a7ed44748e93f8",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/f1666dec678a8c2c0cc9a131b6b1a466fcb94bf4923041b580a7ed44748e93f8.png"
+      },
+      {
+        "path": "raster/f721e3fbe256fd2052b1d5c3f98dfdffa5ddbcd888b895c489287064c5d05077.png",
+        "bytes": 3932,
+        "sha256": "f721e3fbe256fd2052b1d5c3f98dfdffa5ddbcd888b895c489287064c5d05077",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/f721e3fbe256fd2052b1d5c3f98dfdffa5ddbcd888b895c489287064c5d05077.png"
+      },
+      {
+        "path": "raster/f7a77c5689dc4c9e7dbcdea8628d50741232564ae951ae77109c77972eec282a.png",
+        "bytes": 13832,
+        "sha256": "f7a77c5689dc4c9e7dbcdea8628d50741232564ae951ae77109c77972eec282a",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/f7a77c5689dc4c9e7dbcdea8628d50741232564ae951ae77109c77972eec282a.png"
+      },
+      {
+        "path": "raster/f7a9d396affdff31d37869f26ba402201f11ab342f18eb79a700df1acd19fcd7.png",
+        "bytes": 3836,
+        "sha256": "f7a9d396affdff31d37869f26ba402201f11ab342f18eb79a700df1acd19fcd7",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/f7a9d396affdff31d37869f26ba402201f11ab342f18eb79a700df1acd19fcd7.png"
+      },
+      {
+        "path": "raster/f9c812c81452381478da98ba98446a54f1012d864894e45348f2fdbe873e3bc4.png",
+        "bytes": 26715,
+        "sha256": "f9c812c81452381478da98ba98446a54f1012d864894e45348f2fdbe873e3bc4",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/f9c812c81452381478da98ba98446a54f1012d864894e45348f2fdbe873e3bc4.png"
+      },
+      {
+        "path": "raster/fdfeef022f689ce213640221588b070eadd0676dea5c6741243171aef3fbd164.png",
+        "bytes": 23868,
+        "sha256": "fdfeef022f689ce213640221588b070eadd0676dea5c6741243171aef3fbd164",
+        "contentType": "image/png",
+        "objectKey": "exports/resource-port/battle-hud-effects/track-a/r026/raster/fdfeef022f689ce213640221588b070eadd0676dea5c6741243171aef3fbd164.png"
+      }
+    ],
+    "aggregateSha256": "9301e16915cad43d7f6f1632cb7ea0246bda7c329ef8bcfb68bc121f4bbdcb08"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

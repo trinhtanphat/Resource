@@ -34,6 +34,7 @@
     "dependencyGate": "pass-exact-R025-R026-evidence-and-importer-blobs",
     "ffdecIdentity": "pass-exact-cli-and-jar-sha256",
     "particleExtraction": "pass-96-png-94-symbol-classes-100-exact-symbol-mappings",
+    "trackAStagingPublication": "pass: 843 exact staged payloads and 2 immutable publication manifests",
     "rawSourceMutation": false,
     "githubActionsUsedOrInspected": false
   },
@@ -48,6 +49,14 @@
   "publication": {
     "immutableCommitRequired": true,
     "mutableBranchAllowed": false,
-    "releaseCommit": null
+    "releaseCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/battle-hud-effects/track-a/publication.json",
+      "sha256": "ee11b18ae4f4f3f63b8ba65381d0a051e082694c1b0255e2a1477e1d468f1523",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 2,
+      "stagedFiles": 843,
+      "stagedBytes": 9800815
+    }
   }
 }
