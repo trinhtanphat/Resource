@@ -38,6 +38,7 @@
     "r028ImporterCheck": "pass: 1201 files / 18391659 bytes / 28 Track A unresolved",
     "mediaValidation": "pass-two-byte-identical-extension-corrections-with-signature-dimensions-and-sha256",
     "foundationAudit": "pass-eight-immutable-FFDec-compatible-outputs-no-binary-duplication",
+    "trackAStagingPublication": "pass: 1 exact staged payload and 1 immutable publication manifest",
     "rawSourceMutation": false,
     "githubActionsUsedOrInspected": false
   },
@@ -53,6 +54,15 @@
   "publication": {
     "immutableCommitRequired": true,
     "mutableBranchAllowed": false,
-    "releaseCommit": null
+    "releaseCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/guild-social-marriage/track-a/publication.json",
+      "bytes": 1949,
+      "sha256": "964ef658c987cccca7f923e1e42ab6b8d642972fb17e223d361e1ab9e08f708f",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2491
+    }
   }
 }

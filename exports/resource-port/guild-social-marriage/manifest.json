@@ -17,6 +17,15 @@
     "implementationCommit": "3d7a049655847ab6b7802541560ef227e17df1ed",
     "verifiedOnMain": "0bc3c4b14ff44d1da162eadb4f338610ac3d4d5d"
   },
+  "trackAPublication": {
+    "path": "exports/resource-port/guild-social-marriage/track-a/publication.json",
+    "bytes": 1949,
+    "sha256": "964ef658c987cccca7f923e1e42ab6b8d642972fb17e223d361e1ab9e08f708f",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2491
+  },
   "summary": {
     "files": 1201,
     "bytes": 18391659,
@@ -63,8 +72,8 @@
   "exports": [
     {
       "path": "exports/resource-port/guild-social-marriage/catalog-index.json",
-      "bytes": 1383,
-      "sha256": "823e505d12c9116e18b992f02ff942cbc1b4c9dccb67c47843fafb18d6252dd7",
+      "bytes": 1741,
+      "sha256": "e3d371557ab536e8eabe26be757476ff16ae433ea0f3d4427e9c03326edfb202",
       "contentType": "application/json"
     },
     {
@@ -126,6 +135,12 @@
       "bytes": 149496,
       "sha256": "5e614251ccd4b39504ba607680ab23da301004f56e7fba050b5e75ce83b5ca5b",
       "contentType": "image/jpeg"
+    },
+    {
+      "path": "exports/resource-port/guild-social-marriage/track-a/publication.json",
+      "bytes": 1949,
+      "sha256": "964ef658c987cccca7f923e1e42ab6b8d642972fb17e223d361e1ab9e08f708f",
+      "contentType": "application/json"
     }
   ],
   "githubActions": false

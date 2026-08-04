@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "owner": "guild-social-marriage",
+  "source": {
+    "repository": "trinhtanphat/Gunny",
+    "verifiedOnMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "stagingRootEnv": "RESOURCE_PORT_STAGING_ROOT"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/guild-social-marriage/track-a/",
+    "publicPrefix": "/resource-port/packages/guild-social-marriage/track-a/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "sessions": [
+    {
+      "sessionId": "R028",
+      "objectPrefix": "exports/resource-port/guild-social-marriage/track-a/r028/",
+      "publicPrefix": "/resource-port/packages/guild-social-marriage/track-a/r028/",
+      "deliveryMode": "same-origin-worker-verified-r2-gateway",
+      "manifestPath": "track-a/r028/publication.json",
+      "manifestSha256": "3285f6c7b227aef97ec92febbc389cc36e59c2c111e6baa3e7295e37d79f05e0",
+      "requestSha256": "cfcd41ebe5c7312c29da7f21d801480c876fa07f982cc4daf458e9557ce98f42",
+      "evidenceSha256": "b1a803fb905257b556fe6c3fd5cdad62594971fbf00999007e884ad273bcbb62",
+      "payload": {
+        "files": [
+          {
+            "path": "manifest.json",
+            "bytes": 2491,
+            "sha256": "f492498c3e8c25e6697e79f3f6e2d31ac37184bd7a72fa337588103a4bea1e26"
+          }
+        ],
+        "aggregateSha256": "d50896656111e53f97a8b35af686cfabf269e067a8eb40a1cb4b31f5815b2fe1"
+      }
+    }
+  ],
+  "summary": {
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2491,
+    "generatedSessionManifests": 1,
+    "exact": 1,
+    "inferred": 0,
+    "unresolved": 0
+  },
+  "boundary": {
+    "stagedBytesClassification": "exact",
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}
