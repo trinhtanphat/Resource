@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P041",
+  "runtimeSessionId": "R041",
+  "sessionId": "R028",
+  "owner": "guild-social-marriage",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R028.json",
+    "sha256": "b1a803fb905257b556fe6c3fd5cdad62594971fbf00999007e884ad273bcbb62",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R028.json",
+    "sha256": "cfcd41ebe5c7312c29da7f21d801480c876fa07f982cc4daf458e9557ce98f42",
+    "requestedObjectPrefix": "resource-port/guild-social-marriage/r028/",
+    "aggregateSha256": "d50896656111e53f97a8b35af686cfabf269e067a8eb40a1cb4b31f5815b2fe1"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/guild-social-marriage/track-a/r028/",
+    "publicPrefix": "/resource-port/packages/guild-social-marriage/track-a/r028/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2491,
+        "sha256": "f492498c3e8c25e6697e79f3f6e2d31ac37184bd7a72fa337588103a4bea1e26",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/guild-social-marriage/track-a/r028/manifest.json"
+      }
+    ],
+    "aggregateSha256": "d50896656111e53f97a8b35af686cfabf269e067a8eb40a1cb4b31f5815b2fe1"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}

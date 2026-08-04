@@ -62,7 +62,17 @@
     "gatewayContract": "ddtank-r2-gateway-v1",
     "canonicalObjectKey": "exact Resource source path or immutable package export path",
     "sameOriginOnlyInComponents": true,
-    "directGatewayHostnameAllowedInClient": false
+    "directGatewayHostnameAllowedInClient": false,
+    "sourceBytesDuplicatedIntoPackage": 164116,
+    "trackAPublication": {
+      "path": "exports/resource-port/guild-social-marriage/track-a/publication.json",
+      "bytes": 1949,
+      "sha256": "964ef658c987cccca7f923e1e42ab6b8d642972fb17e223d361e1ab9e08f708f",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2491
+    }
   },
   "consumerBoundary": {
     "packageOnly": true,

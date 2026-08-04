@@ -13,6 +13,15 @@ const SOURCE_TREE = "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344";
 const GUNNY_IMPLEMENTATION_COMMIT = "3d7a049655847ab6b7802541560ef227e17df1ed";
 const GUNNY_VERIFIED_MAIN = "0bc3c4b14ff44d1da162eadb4f338610ac3d4d5d";
 const FOUNDATION_RESOURCE_COMMIT = "7dc16b70b4b868d6be709cca7d400def67f6d4b6";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/guild-social-marriage/track-a/publication.json",
+  bytes: 1949,
+  sha256: "964ef658c987cccca7f923e1e42ab6b8d642972fb17e223d361e1ab9e08f708f",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 1,
+  stagedFiles: 1,
+  stagedBytes: 2491,
+});
 const DEPENDENCY = Object.freeze({
   sessionId: "R028",
   evidencePath: "config/resource-port-evidence/R028.json",
@@ -492,6 +501,7 @@ async function buildPackage() {
     r028ImporterCheck: "pass: 1201 files / 18391659 bytes / 28 Track A unresolved",
     mediaValidation: "pass-two-byte-identical-extension-corrections-with-signature-dimensions-and-sha256",
     foundationAudit: "pass-eight-immutable-FFDec-compatible-outputs-no-binary-duplication",
+    trackAStagingPublication: "pass: 1 exact staged payload and 1 immutable publication manifest",
     rawSourceMutation: false,
     githubActionsUsedOrInspected: false,
   };
@@ -529,9 +539,10 @@ async function buildPackage() {
     publication: {
       sourceObjectKeys: "exact Resource source paths",
       correctedObjects: CORRECTED_MEDIA.map((entry) => entry.outputPath),
-      sourceBytesDuplicatedIntoPackage: CORRECTED_MEDIA.reduce((total, entry) => total + entry.bytes, 0),
+      sourceBytesDuplicatedIntoPackage: CORRECTED_MEDIA.reduce((total, entry) => total + entry.bytes, TRACK_A_PUBLICATION.stagedBytes),
       foundationBytesDuplicatedIntoPackage: 0,
       r2First: true,
+      trackA: TRACK_A_PUBLICATION,
     },
   });
   await writeJson("exports/resource-port/guild-social-marriage/room-map-catalog.json", {
@@ -702,6 +713,7 @@ async function buildPackage() {
     "exports/resource-port/guild-social-marriage/foundation-audit.json",
     "exports/resource-port/guild-social-marriage/runtime-contract.json",
     ...CORRECTED_MEDIA.map((entry) => entry.outputPath),
+    TRACK_A_PUBLICATION.path,
   ];
   const exports = [];
   for (const path of exportPaths) exports.push(await artifact(path));
@@ -713,6 +725,7 @@ async function buildPackage() {
     status: "complete-package-with-explicit-unresolved",
     source: { repository: "trinhtanphat/Resource", commit: SOURCE_COMMIT, tree: SOURCE_TREE, readOnly: true },
     dependency: { sessions: ["R028"], implementationCommit: GUNNY_IMPLEMENTATION_COMMIT, verifiedOnMain: GUNNY_VERIFIED_MAIN },
+    trackAPublication: TRACK_A_PUBLICATION,
     summary,
     conversion: {
       exactBrowserNativeSourceObjects: EXPECTED.packageExact,
@@ -759,6 +772,8 @@ async function buildPackage() {
       canonicalObjectKey: "exact Resource source path or immutable package export path",
       sameOriginOnlyInComponents: true,
       directGatewayHostnameAllowedInClient: false,
+      sourceBytesDuplicatedIntoPackage: CORRECTED_MEDIA.reduce((total, entry) => total + entry.bytes, TRACK_A_PUBLICATION.stagedBytes),
+      trackAPublication: TRACK_A_PUBLICATION,
     },
     consumerBoundary: {
       packageOnly: true,
@@ -794,7 +809,12 @@ async function buildPackage() {
       swfRuntimeAllowed: false,
       runtimeIntegration: false,
     },
-    publication: { immutablePackageCommitRequired: true, mutableBranchAllowed: false, immutableMergeCommit: null },
+    publication: {
+      immutablePackageCommitRequired: true,
+      mutableBranchAllowed: false,
+      immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
   };
@@ -818,7 +838,12 @@ async function buildPackage() {
       "business state and permissions remain Gunny server authority",
       "runtime selection belongs to R041, not this Resource package",
     ],
-    publication: { immutableCommitRequired: true, mutableBranchAllowed: false, releaseCommit: null },
+    publication: {
+      immutableCommitRequired: true,
+      mutableBranchAllowed: false,
+      releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
   });
 }
 
@@ -852,6 +877,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/guild-social-marriage.json");
   const evidence = await json("resource-port/track-b/evidence/P041.json");
   const status = await json("resource-port/track-b/status/P041.json");
+  const trackAPublication = await verifyTrackAPublication();
 
   if (manifest.packageSessionId !== PACKAGE_ID || manifest.runtimeSessionId !== RUNTIME_ID || manifest.owner !== OWNER
     || manifest.source?.commit !== SOURCE_COMMIT || manifest.source?.tree !== SOURCE_TREE
@@ -887,11 +913,17 @@ async function verifyPackage() {
     || runtime.prohibited?.clientBusinessAuthority !== true || runtime.prohibited?.swfRuntime !== true) fail("runtime contract mismatch");
   if (contract.dependencies?.[0]?.evidenceSha256 !== DEPENDENCY.evidenceSha256
     || contract.sourcePin !== SOURCE_COMMIT || contract.consumerBoundary?.runtimeIntegration !== false) fail("package contract mismatch");
+  if (contract.assetAddressing?.sourceBytesDuplicatedIntoPackage !== 164116
+    || contract.assetAddressing?.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication contract changed");
   if (evidence.summary?.sourceFilesProcessed !== EXPECTED.files || evidence.summary?.sourceFilesUnprocessed !== 0
     || evidence.claims?.p041SwfBehaviorClaimedPorted !== false || evidence.claims?.clientBusinessAuthority !== false
     || status.status !== "complete-package-with-explicit-unresolved" || status.runtimeIntegration !== false) {
     fail("evidence or status overclaims P041");
   }
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || index.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication metadata changed");
   for (const descriptor of manifest.exports) await verifyArtifactDescriptor(descriptor);
   for (const correction of CORRECTED_MEDIA) {
     const bytes = await readFile(resolve(root, correction.outputPath));
@@ -901,7 +933,7 @@ async function verifyPackage() {
   }
   const files = await listFiles(exportRoot);
   if (files.some((path) => extname(path).toLowerCase() === ".swf")) fail("P041 export contains a legacy SWF runtime container");
-  if (files.length !== manifest.exports.length + 1) fail(`export file count changed to ${files.length}`);
+  if (files.length !== manifest.exports.length + 3) fail(`export file count changed to ${files.length}`);
   return {
     packageSessionId: PACKAGE_ID,
     runtimeSessionId: RUNTIME_ID,
@@ -911,8 +943,40 @@ async function verifyPackage() {
     correctedMediaObjects: EXPECTED.correctedMediaFiles,
     unresolvedSwfTimelines: EXPECTED.swf,
     foundationOutputsReferenced: EXPECTED.foundationOutputs,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
   };
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (rootBytes.length !== TRACK_A_PUBLICATION.bytes || sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication root identity mismatch");
+  }
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER
+    || publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain
+    || publication.summary?.sessions !== 1 || publication.summary?.stagedFiles !== 1
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.exact !== 1 || publication.summary?.inferred !== 0 || publication.summary?.unresolved !== 0
+    || publication.boundary?.browserNativeConversionClaimed !== false || publication.boundary?.runtimeIntegration !== false) {
+    fail("Track A publication contract changed");
+  }
+  const entry = publication.sessions?.[0];
+  const expectedPrefix = `exports/resource-port/${OWNER}/track-a/r028/`;
+  if (entry?.sessionId !== "R028" || entry.objectPrefix !== expectedPrefix
+    || entry.manifestPath !== "track-a/r028/publication.json") fail("R028 publication prefix changed");
+  const sessionBytes = await readFile(resolve(root, "exports/resource-port", OWNER, entry.manifestPath));
+  if (sha256(sessionBytes) !== entry.manifestSha256) fail("R028 publication manifest digest mismatch");
+  const session = JSON.parse(sessionBytes.toString("utf8"));
+  if (session.classification !== "exact" || session.target?.objectPrefix !== expectedPrefix
+    || session.boundary?.runtimeIntegration !== false || session.payload?.files?.length !== 1) fail("R028 publication manifest changed");
+  const file = session.payload.files[0];
+  const payloadBytes = await readFile(resolve(root, "exports/resource-port", OWNER, "track-a/r028", file.path));
+  if (file.objectKey !== `${expectedPrefix}${file.path}` || file.contentType !== "application/json; charset=utf-8"
+    || payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) fail("R028 payload identity changed");
+  JSON.parse(payloadBytes.toString("utf8"));
+  return publication;
 }
 
 if (writing) await buildPackage();
