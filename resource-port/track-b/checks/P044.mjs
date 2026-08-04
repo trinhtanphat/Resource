@@ -25,6 +25,15 @@ const RAW_PIN_SCAFFOLD_DIFF = Object.freeze([
   "D\trename.bat",
 ]);
 const GUNNY_FOUNDATION_COMMIT = "85a40447689a056ba0135331cbbfed8d52f0ac25";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/quests-events/track-a/publication.json",
+  bytes: 1909,
+  sha256: "e24ea4e786cd6ae1364c3fd28f4e820185d63962994b4c2ebff2d6d3e69b1ad9",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 1,
+  stagedFiles: 1,
+  stagedBytes: 2464,
+});
 const DEPENDENCY = Object.freeze({
   sessionId: "R032",
   implementationCommit: "3d7a049655847ab6b7802541560ef227e17df1ed",
@@ -887,6 +896,7 @@ async function buildPackage() {
     columns: CATALOG_COLUMNS,
     summary,
     shards: [shardDescriptor],
+    publication: { trackA: TRACK_A_PUBLICATION },
   });
   const exportPaths = (await listFiles(exportRoot)).filter((path) => path !== "manifest.json");
   const exports = await Promise.all(exportPaths.map((path) => descriptor(`exports/resource-port/quests-events/${path}`)));
@@ -903,6 +913,7 @@ async function buildPackage() {
       readOnly: true,
     },
     dependencies: [dependency.record],
+    trackAPublication: TRACK_A_PUBLICATION,
     summary,
     conversion: {
       rawSourceFilesModified: 0,
@@ -937,6 +948,7 @@ async function buildPackage() {
     consumerMappingAudit: `pass: ${visuals.summary.assets} visual-ready mappings; ${EXPECTED.packageUnresolved} disabled mappings retained`,
     packageChecker: "pass",
     programVerifier: "pass",
+    trackAStagingPublication: "pass: 1 exact staged payload and 1 immutable publication manifest",
     githubActionsUsed: false,
   };
   await writeJson("resource-port/track-b/contracts/quests-events.json", {
@@ -959,7 +971,9 @@ async function buildPackage() {
       foundationAudit: "exports/resource-port/quests-events/foundation-audit.json",
       presentationStateContract: "exports/resource-port/quests-events/presentation-state-contract.json",
       runtimeContract: "exports/resource-port/quests-events/runtime-contract.json",
+      trackAPublication: TRACK_A_PUBLICATION.path,
     },
+    publication: { trackA: TRACK_A_PUBLICATION },
     consumerBoundary: {
       exactSourceIdentityRequired: true,
       visualOnlyIsBehaviorReady: false,
@@ -1006,6 +1020,7 @@ async function buildPackage() {
       immutablePackageCommitRequired: true,
       mutableBranchAllowed: false,
       immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
     },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
@@ -1036,6 +1051,7 @@ async function buildPackage() {
       immutableCommitRequired: true,
       mutableBranchAllowed: false,
       releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
     },
   });
   await mkdir(resolve(root, "resource-port/track-b/findings"), { recursive: true });
@@ -1092,6 +1108,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/quests-events.json");
   const evidence = await json("resource-port/track-b/evidence/P044.json");
   const status = await json("resource-port/track-b/status/P044.json");
+  const trackAPublication = await verifyTrackAPublication();
   if (
     manifest.packageSessionId !== PACKAGE_ID
     || manifest.runtimeSessionId !== RUNTIME_ID
@@ -1149,6 +1166,8 @@ async function verifyPackage() {
     || contract.dependencies[0]?.importerSha256 !== DEPENDENCY.importerSha256
     || contract.dependencies[0]?.shardSha256 !== DEPENDENCY.shardSha256
     || contract.consumerBoundary?.runtimeIntegration !== false) fail("package contract mismatch");
+  if (contract.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || contract.outputs?.trackAPublication !== TRACK_A_PUBLICATION.path) fail("Track A publication contract changed");
   if (evidence.summary?.sourceFilesProcessed !== EXPECTED.files
     || evidence.summary?.sourceFilesUnprocessed !== 0
     || evidence.claims?.behaviorReadyAssets !== 0
@@ -1156,6 +1175,12 @@ async function verifyPackage() {
     || evidence.claims?.p044SwfBehaviorClaimedPorted !== false
     || status.status !== "complete-package-with-explicit-unresolved"
     || status.runtimeIntegration !== false) fail("evidence or status overclaims P044");
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || catalogIndex.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication metadata changed");
+  }
   for (const entry of manifest.exports) await verifyDescriptor(entry);
   let correctedBytes = 0;
   for (const record of records.filter((entry) => entry.packageOutput)) {
@@ -1172,7 +1197,7 @@ async function verifyPackage() {
   if (exportFiles.some((path) => [".swf", ".php", ".bat", ".rar"].includes(extname(path).toLowerCase()))) {
     fail("P044 export contains a prohibited legacy or quarantined binary");
   }
-  if (exportFiles.length !== manifest.exports.length + 1) fail(`export file count changed: ${exportFiles.length}`);
+  if (exportFiles.length !== manifest.exports.length + 3) fail(`export file count changed: ${exportFiles.length}`);
   if (gunnyRoot) {
     const dependency = verifyDependency(gunnyRoot);
     const expectedFoundation = foundationAudit(gunnyRoot);
@@ -1197,8 +1222,42 @@ async function verifyPackage() {
     correctedRasterObjects: EXPECTED.correctedObjects,
     unresolvedObjects: EXPECTED.packageUnresolved,
     swfMetadataRecords: EXPECTED.swfProfile,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
   };
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (rootBytes.length !== TRACK_A_PUBLICATION.bytes || sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication root identity mismatch");
+  }
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER
+    || publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain
+    || publication.summary?.sessions !== 1 || publication.summary?.stagedFiles !== 1
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.exact !== 1 || publication.summary?.inferred !== 0 || publication.summary?.unresolved !== 0
+    || publication.boundary?.browserNativeConversionClaimed !== false || publication.boundary?.runtimeIntegration !== false) {
+    fail("Track A publication contract changed");
+  }
+  const entry = publication.sessions?.[0];
+  const expectedPrefix = `exports/resource-port/${OWNER}/track-a/r032/`;
+  if (entry?.sessionId !== "R032" || entry.objectPrefix !== expectedPrefix
+    || entry.manifestPath !== "track-a/r032/publication.json") fail("R032 publication prefix changed");
+  const sessionBytes = await readFile(resolve(root, "exports/resource-port", OWNER, entry.manifestPath));
+  if (sha256(sessionBytes) !== entry.manifestSha256) fail("R032 publication manifest digest mismatch");
+  const session = JSON.parse(sessionBytes.toString("utf8"));
+  if (session.classification !== "exact" || session.target?.objectPrefix !== expectedPrefix
+    || session.boundary?.runtimeIntegration !== false || session.payload?.files?.length !== 1) {
+    fail("R032 publication manifest changed");
+  }
+  const file = session.payload.files[0];
+  const payloadBytes = await readFile(resolve(root, "exports/resource-port", OWNER, "track-a/r032", file.path));
+  if (file.objectKey !== `${expectedPrefix}${file.path}` || file.contentType !== "application/json; charset=utf-8"
+    || payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) fail("R032 payload identity changed");
+  JSON.parse(payloadBytes.toString("utf8"));
+  return publication;
 }
 
 if (writing) await buildPackage();

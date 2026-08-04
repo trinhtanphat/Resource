@@ -57,7 +57,19 @@
     "weeklyPublicationCatalog": "exports/resource-port/quests-events/weekly-publication-catalog.json",
     "foundationAudit": "exports/resource-port/quests-events/foundation-audit.json",
     "presentationStateContract": "exports/resource-port/quests-events/presentation-state-contract.json",
-    "runtimeContract": "exports/resource-port/quests-events/runtime-contract.json"
+    "runtimeContract": "exports/resource-port/quests-events/runtime-contract.json",
+    "trackAPublication": "exports/resource-port/quests-events/track-a/publication.json"
+  },
+  "publication": {
+    "trackA": {
+      "path": "exports/resource-port/quests-events/track-a/publication.json",
+      "bytes": 1909,
+      "sha256": "e24ea4e786cd6ae1364c3fd28f4e820185d63962994b4c2ebff2d6d3e69b1ad9",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2464
+    }
   },
   "consumerBoundary": {
     "exactSourceIdentityRequired": true,
