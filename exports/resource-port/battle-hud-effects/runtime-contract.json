@@ -46,6 +46,15 @@
     "gatewayContract": "ddtank-r2-gateway-v1",
     "sameOriginOnlyInComponents": true,
     "directGatewayHostnameAllowedInClient": false,
-    "canonicalObjectKey": "exact Resource source path or immutable package export path"
+    "canonicalObjectKey": "exact Resource source path or immutable package export path",
+    "sourceBytesDuplicatedIntoPackage": 9800815,
+    "trackAPublication": {
+      "path": "exports/resource-port/battle-hud-effects/track-a/publication.json",
+      "sha256": "ee11b18ae4f4f3f63b8ba65381d0a051e082694c1b0255e2a1477e1d468f1523",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 2,
+      "stagedFiles": 843,
+      "stagedBytes": 9800815
+    }
   }
 }

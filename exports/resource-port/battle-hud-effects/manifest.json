@@ -24,6 +24,7 @@
     "exports/resource-port/battle-hud-effects/runtime-contract.json",
     "exports/resource-port/battle-hud-effects/particle/definitions.json",
     "exports/resource-port/battle-hud-effects/particle/texture-manifest.json",
+    "exports/resource-port/battle-hud-effects/track-a/publication.json",
     "exports/resource-port/battle-hud-effects/catalog/r025.json",
     "exports/resource-port/battle-hud-effects/catalog/r026.json",
     "exports/resource-port/battle-hud-effects/particle/textures/1.png",
@@ -123,6 +124,14 @@
     "exports/resource-port/battle-hud-effects/particle/textures/287.png",
     "exports/resource-port/battle-hud-effects/particle/textures/290.png"
   ],
+  "trackAPublication": {
+    "path": "exports/resource-port/battle-hud-effects/track-a/publication.json",
+    "sha256": "ee11b18ae4f4f3f63b8ba65381d0a051e082694c1b0255e2a1477e1d468f1523",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 2,
+    "stagedFiles": 843,
+    "stagedBytes": 9800815
+  },
   "summary": {
     "files": 4626,
     "bytes": 469962503,
