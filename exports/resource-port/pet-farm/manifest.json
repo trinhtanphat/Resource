@@ -26,6 +26,15 @@
     "sourceBytes": 29109140,
     "trackBDependencySatisfied": true
   },
+  "trackAPublication": {
+    "path": "exports/resource-port/pet-farm/track-a/publication.json",
+    "bytes": 1884,
+    "sha256": "331c49ecdcf2cb136914bf6cac2bb117b989cddeda82e1d701ea742b66a9ba83",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+    "sessions": 1,
+    "stagedFiles": 1,
+    "stagedBytes": 2451
+  },
   "summary": {
     "files": 1700,
     "bytes": 29109140,
@@ -1058,8 +1067,8 @@
     },
     {
       "path": "exports/resource-port/pet-farm/catalog-index.json",
-      "bytes": 968,
-      "sha256": "985dc33dd3cbbe46b8659d7a8303661c2b39bd94e760a0bc6568fd6b1c7e87ef",
+      "bytes": 1336,
+      "sha256": "0ff5fcc0d5bd9f2ab801de2ea9334d6de3ad8abc9a29c48ccabc87acdc021279",
       "contentType": "application/json"
     },
     {
@@ -1966,6 +1975,12 @@
       "path": "exports/resource-port/pet-farm/timeline-index.json",
       "bytes": 140959,
       "sha256": "504433262968a1cd924df61763f0417f9897ab898980c40f7a2b73af0e992691",
+      "contentType": "application/json"
+    },
+    {
+      "path": "exports/resource-port/pet-farm/track-a/publication.json",
+      "bytes": 1884,
+      "sha256": "331c49ecdcf2cb136914bf6cac2bb117b989cddeda82e1d701ea742b66a9ba83",
       "contentType": "application/json"
     }
   ],

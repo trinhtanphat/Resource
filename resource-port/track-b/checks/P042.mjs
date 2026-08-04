@@ -13,6 +13,15 @@ const SOURCE_COMMIT = "519c35a293745b6a0477c4f6ea03110a89de2318";
 const SOURCE_TREE = "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344";
 const GUNNY_IMPLEMENTATION_COMMIT = "3d7a049655847ab6b7802541560ef227e17df1ed";
 const GUNNY_VERIFIED_MAIN = "0f633d66fc828c311dfd3e984a4d5a7e4c4232a5";
+const TRACK_A_PUBLICATION = Object.freeze({
+  path: "exports/resource-port/pet-farm/track-a/publication.json",
+  bytes: 1884,
+  sha256: "331c49ecdcf2cb136914bf6cac2bb117b989cddeda82e1d701ea742b66a9ba83",
+  verifiedOnGunnyMain: "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+  sessions: 1,
+  stagedFiles: 1,
+  stagedBytes: 2451,
+});
 const DEPENDENCY = Object.freeze({
   sessionId: "R029",
   evidencePath: "config/resource-port-evidence/R029.json",
@@ -904,6 +913,7 @@ async function buildPackage() {
     columns: CATALOG_COLUMNS,
     shards: [catalogDescriptor],
     summary,
+    publication: { trackA: TRACK_A_PUBLICATION },
   };
   await writeJson("exports/resource-port/pet-farm/catalog-index.json", index);
   const filesBeforeManifest = (await listFiles(exportRoot))
@@ -919,6 +929,7 @@ async function buildPackage() {
     status: "complete-package-with-explicit-unresolved",
     source: { repository: "trinhtanphat/Resource", commit: SOURCE_COMMIT, tree: SOURCE_TREE, readOnly: true },
     dependency,
+    trackAPublication: TRACK_A_PUBLICATION,
     summary: {
       ...summary,
       correctedSourcePaths: corrections.length === EXPECTED.correctedPaths ? corrections.length : EXPECTED.correctedPaths,
@@ -943,6 +954,7 @@ async function buildPackage() {
     lockedPaths: LOCKED_PATHS,
     dependencies: [dependency],
     contextPins: Object.entries(GUNNY_CONTEXT_PINS).map(([path, pin]) => ({ path, ...pin })),
+    publication: { trackA: TRACK_A_PUBLICATION },
     consumerBoundary: runtime.consumerBoundary,
     prohibited: runtime.prohibited,
   };
@@ -976,6 +988,7 @@ async function buildPackage() {
       r029ImporterCheck: "pass: 1700 files / 29109140 bytes / 415 Track A unresolved",
       zipValidation: "pass-central-and-local-records-deflate-size-crc-path-signature-and-authored-JSON-XML",
       mediaValidation: "pass-220-byte-identical-safe-PNG-path-corrections-140-unique",
+      trackAStagingPublication: "pass: 1 exact staged payload and 1 immutable publication manifest",
       rawSourceMutation: false,
       githubActionsUsedOrInspected: false,
     },
@@ -987,7 +1000,12 @@ async function buildPackage() {
       swfRuntimeAllowed: false,
       runtimeIntegration: false,
     },
-    publication: { immutablePackageCommitRequired: true, mutableBranchAllowed: false, immutableMergeCommit: null },
+    publication: {
+      immutablePackageCommitRequired: true,
+      mutableBranchAllowed: false,
+      immutableMergeCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
     generatedAt: "2026-08-02T00:00:00Z",
     githubActions: false,
   };
@@ -1011,7 +1029,12 @@ async function buildPackage() {
       "business state, permissions, inventory, feeding, growth and combat remain Gunny server authority",
       "runtime selection belongs to R042 after immutable Resource merge",
     ],
-    publication: { immutableCommitRequired: true, mutableBranchAllowed: false, releaseCommit: null },
+    publication: {
+      immutableCommitRequired: true,
+      mutableBranchAllowed: false,
+      releaseCommit: null,
+      trackA: TRACK_A_PUBLICATION,
+    },
   };
   await writeJson("resource-port/track-b/contracts/pet-farm.json", contract);
   await writeJson("resource-port/track-b/evidence/P042.json", evidenceOutput);
@@ -1042,6 +1065,7 @@ async function verifyPackage() {
   const contract = await json("resource-port/track-b/contracts/pet-farm.json");
   const evidence = await json("resource-port/track-b/evidence/P042.json");
   const status = await json("resource-port/track-b/status/P042.json");
+  const trackAPublication = await verifyTrackAPublication();
   if (manifest.packageSessionId !== PACKAGE_ID || manifest.runtimeSessionId !== RUNTIME_ID || manifest.owner !== OWNER
     || manifest.source?.commit !== SOURCE_COMMIT || manifest.source?.tree !== SOURCE_TREE
     || manifest.status !== "complete-package-with-explicit-unresolved") fail("manifest identity mismatch");
@@ -1079,15 +1103,20 @@ async function verifyPackage() {
     || runtime.prohibited?.swfRuntime !== true || runtime.prohibited?.clientBusinessAuthority !== true) fail("runtime boundary mismatch");
   if (contract.dependencies?.[0]?.evidenceSha256 !== DEPENDENCY.evidenceSha256
     || contract.sourcePin !== SOURCE_COMMIT || contract.consumerBoundary?.runtimeIntegration !== false) fail("package contract mismatch");
+  if (contract.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication contract changed");
   if (evidence.summary?.sourceFilesProcessed !== EXPECTED.files || evidence.summary?.sourceFilesUnprocessed !== 0
     || evidence.claims?.staticIconsClaimAnimation !== false || evidence.claims?.p042SwfBehaviorClaimedPorted !== false
     || status.status !== "complete-package-with-explicit-unresolved" || status.runtimeIntegration !== false) {
     fail("evidence or status overclaims P042");
   }
+  if (evidence.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || status.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || manifest.trackAPublication?.sha256 !== TRACK_A_PUBLICATION.sha256
+    || index.publication?.trackA?.sha256 !== TRACK_A_PUBLICATION.sha256) fail("Track A publication metadata changed");
   for (const descriptor of manifest.exports) await verifyArtifactDescriptor(descriptor);
   const files = await listFiles(exportRoot);
   if (files.some((path) => extname(path).toLowerCase() === ".swf")) fail("P042 export contains a legacy SWF runtime container");
-  if (files.length !== manifest.exports.length + 1) fail(`export file count changed to ${files.length}`);
+  if (files.length !== manifest.exports.length + 3) fail(`export file count changed to ${files.length}`);
   const correctionOutputs = catalog.assets.filter((row) => row[14]).map((row) => row[14]);
   if (correctionOutputs.length !== EXPECTED.correctedPaths || new Set(correctionOutputs).size !== EXPECTED.correctedUniqueBlobs) fail("corrected output mapping mismatch");
   for (const path of new Set(correctionOutputs)) imageDimensions(await readFile(resolve(root, path)), path);
@@ -1100,8 +1129,40 @@ async function verifyPackage() {
     authoredArchivePacks: EXPECTED.archivePacks,
     authoredAnimations: EXPECTED.authoredAnimations,
     unresolvedSourceObjects: EXPECTED.packageUnresolved,
+    trackAPublicationSessions: trackAPublication.sessions.length,
     runtimeIntegration: false,
   };
+}
+
+async function verifyTrackAPublication() {
+  const rootBytes = await readFile(resolve(root, TRACK_A_PUBLICATION.path));
+  if (rootBytes.length !== TRACK_A_PUBLICATION.bytes || sha256(rootBytes) !== TRACK_A_PUBLICATION.sha256) {
+    fail("Track A publication root identity mismatch");
+  }
+  const publication = JSON.parse(rootBytes.toString("utf8"));
+  if (publication.packageSessionId !== PACKAGE_ID || publication.runtimeSessionId !== RUNTIME_ID || publication.owner !== OWNER
+    || publication.source?.verifiedOnMain !== TRACK_A_PUBLICATION.verifiedOnGunnyMain
+    || publication.summary?.sessions !== 1 || publication.summary?.stagedFiles !== 1
+    || publication.summary?.stagedBytes !== TRACK_A_PUBLICATION.stagedBytes
+    || publication.summary?.exact !== 1 || publication.summary?.inferred !== 0 || publication.summary?.unresolved !== 0
+    || publication.boundary?.browserNativeConversionClaimed !== false || publication.boundary?.runtimeIntegration !== false) {
+    fail("Track A publication contract changed");
+  }
+  const entry = publication.sessions?.[0];
+  const expectedPrefix = `exports/resource-port/${OWNER}/track-a/r029/`;
+  if (entry?.sessionId !== "R029" || entry.objectPrefix !== expectedPrefix
+    || entry.manifestPath !== "track-a/r029/publication.json") fail("R029 publication prefix changed");
+  const sessionBytes = await readFile(resolve(root, "exports/resource-port", OWNER, entry.manifestPath));
+  if (sha256(sessionBytes) !== entry.manifestSha256) fail("R029 publication manifest digest mismatch");
+  const session = JSON.parse(sessionBytes.toString("utf8"));
+  if (session.classification !== "exact" || session.target?.objectPrefix !== expectedPrefix
+    || session.boundary?.runtimeIntegration !== false || session.payload?.files?.length !== 1) fail("R029 publication manifest changed");
+  const file = session.payload.files[0];
+  const payloadBytes = await readFile(resolve(root, "exports/resource-port", OWNER, "track-a/r029", file.path));
+  if (file.objectKey !== `${expectedPrefix}${file.path}` || file.contentType !== "application/json; charset=utf-8"
+    || payloadBytes.length !== file.bytes || sha256(payloadBytes) !== file.sha256) fail("R029 payload identity changed");
+  JSON.parse(payloadBytes.toString("utf8"));
+  return publication;
 }
 
 if (writing) await buildPackage();

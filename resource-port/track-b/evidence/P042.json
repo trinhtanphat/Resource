@@ -114,6 +114,7 @@
     "r029ImporterCheck": "pass: 1700 files / 29109140 bytes / 415 Track A unresolved",
     "zipValidation": "pass-central-and-local-records-deflate-size-crc-path-signature-and-authored-JSON-XML",
     "mediaValidation": "pass-220-byte-identical-safe-PNG-path-corrections-140-unique",
+    "trackAStagingPublication": "pass: 1 exact staged payload and 1 immutable publication manifest",
     "rawSourceMutation": false,
     "githubActionsUsedOrInspected": false
   },
@@ -128,7 +129,16 @@
   "publication": {
     "immutablePackageCommitRequired": true,
     "mutableBranchAllowed": false,
-    "immutableMergeCommit": null
+    "immutableMergeCommit": null,
+    "trackA": {
+      "path": "exports/resource-port/pet-farm/track-a/publication.json",
+      "bytes": 1884,
+      "sha256": "331c49ecdcf2cb136914bf6cac2bb117b989cddeda82e1d701ea742b66a9ba83",
+      "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994",
+      "sessions": 1,
+      "stagedFiles": 1,
+      "stagedBytes": 2451
+    }
   },
   "generatedAt": "2026-08-02T00:00:00Z",
   "githubActions": false

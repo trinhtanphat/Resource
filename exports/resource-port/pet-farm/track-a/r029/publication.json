@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packageSessionId": "P042",
+  "runtimeSessionId": "R042",
+  "sessionId": "R029",
+  "owner": "pet-farm",
+  "classification": "exact",
+  "source": {
+    "repository": "trinhtanphat/Resource",
+    "commit": "519c35a293745b6a0477c4f6ea03110a89de2318",
+    "tree": "9a99b5163ca02ef04f82b9d3a3a246baa8a5e344"
+  },
+  "evidence": {
+    "path": "config/resource-port-evidence/R029.json",
+    "sha256": "2963538169d3e8a3711d1acab67cf71927fcf02be2420fec8cba3e858ac44efa",
+    "verifiedOnGunnyMain": "969d7b2d33df7bbd51f7d9b0c3c6674969a79994"
+  },
+  "stagingRequest": {
+    "path": "config/resource-port-staging/R029.json",
+    "sha256": "3609cf275909318d2a246796b43d53130fe65671d5ee9338a129b389bcc834d2",
+    "requestedObjectPrefix": "resource-port/pet-farm/r029/",
+    "aggregateSha256": "3472497701bea85fa16c10c90ae373297d9a60ca6e405c373fc0ec75e872d923"
+  },
+  "target": {
+    "repository": "trinhtanphat/Resource",
+    "objectPrefix": "exports/resource-port/pet-farm/track-a/r029/",
+    "publicPrefix": "/resource-port/packages/pet-farm/track-a/r029/",
+    "deliveryMode": "same-origin-worker-verified-r2-gateway",
+    "immutableCommitRequired": true
+  },
+  "payload": {
+    "files": [
+      {
+        "path": "manifest.json",
+        "bytes": 2451,
+        "sha256": "c3a2fe3dcb15ece9e68f3c84e36c4c44db35c6bee5a594b673da240a7b62f7a3",
+        "contentType": "application/json; charset=utf-8",
+        "objectKey": "exports/resource-port/pet-farm/track-a/r029/manifest.json"
+      }
+    ],
+    "aggregateSha256": "3472497701bea85fa16c10c90ae373297d9a60ca6e405c373fc0ec75e872d923"
+  },
+  "boundary": {
+    "exactStagedBytes": true,
+    "browserNativeConversionClaimed": false,
+    "runtimeIntegration": false,
+    "legacyRuntimeContainersAllowed": false
+  },
+  "githubActions": false
+}
