@@ -8,6 +8,9 @@ const root = process.cwd();
 const fail = (message) => { throw new Error(`P046 package invalid: ${message}`); };
 const json = async (path) => JSON.parse(await readFile(resolve(root, path), "utf8"));
 const sha256 = (bytes) => createHash("sha256").update(bytes).digest("hex");
+const canonicalAuditBytes = (path, bytes) => /(?:\.json|\.mjs|\.md)$/u.test(path)
+  ? Buffer.from(bytes.toString("utf8").replace(/\r\n/gu, "\n"), "utf8")
+  : bytes;
 
 function pngSize(bytes) {
   if (bytes.subarray(0, 8).toString("hex") !== "89504e470d0a1a0a") fail("output is not PNG");
@@ -36,7 +39,7 @@ if (!Array.isArray(manifest.assetShards) || manifest.assetShards.length !== 4) f
 
 const rows = [];
 for (const path of manifest.assetShards) {
-  const bytes = await readFile(resolve(root, path));
+  const bytes = canonicalAuditBytes(path, await readFile(resolve(root, path)));
   if (sha256(bytes) !== manifest.assetShardSha256[path]) fail(`${path} digest mismatch`);
   const shard = JSON.parse(bytes.toString("utf8"));
   if (shard.packageSessionId !== "P046") fail(`${path} session mismatch`);
