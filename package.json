@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test test",
+    "probe:resource-domain": "node scripts/probe-resource-domain.mjs",
     "build:assets": "node scripts/build-shards.mjs --source . --output ./dist",
     "build:all": "node scripts/build-shards.mjs --source . --output ./dist --all",
     "build:shard": "node scripts/build-shards.mjs --source . --output ./dist --shard",
