@@ -13,8 +13,12 @@ jobs:
   runtime-audio-smoke:
     runs-on: windows-latest
     steps:
-      - name: Checkout
+      - name: Checkout runtime audio
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            sound
+          fetch-depth: 1
 
       - name: Verify runtime MP3 payloads
         shell: pwsh
