@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           sparse-checkout: |
-            sound
+            sound/062.mp3
+            sound/065.mp3
+          sparse-checkout-cone-mode: false
           fetch-depth: 1
 
       - name: Verify runtime MP3 payloads
