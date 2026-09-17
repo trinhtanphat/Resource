@@ -1,0 +1,31 @@
+name: Runtime audio smoke
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  runtime-audio-smoke:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify runtime MP3 payloads
+        shell: pwsh
+        run: |
+          $expected = @(
+            @{ Path = 'sound/062.mp3'; Length = 965694; Sha256 = '3CFC89135DF794B69583855FD12DD7033A4BE3C5E144C2B965663C0AD03ED6EE' },
+            @{ Path = 'sound/065.mp3'; Length = 558916; Sha256 = '2C692090B74DE592B92948703D10BF70A375FBD5E9E016B32B8345474683CC13' }
+          )
+          foreach ($item in $expected) {
+            if (-not (Test-Path $item.Path -PathType Leaf)) { throw "Missing runtime audio: $($item.Path)" }
+            if ((Get-Item $item.Path).Length -ne $item.Length) { throw "Size mismatch: $($item.Path)" }
+            if ((Get-FileHash $item.Path -Algorithm SHA256).Hash -ne $item.Sha256) { throw "SHA256 mismatch: $($item.Path)" }
+          }
+          Write-Host 'RESOURCE_RUNTIME_AUDIO_SMOKE=PASS'
